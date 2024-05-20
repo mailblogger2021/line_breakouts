@@ -37,7 +37,7 @@ jobs:
       run: git merge origin/main
     - name: push changes
       run: |
-          git push https://github.com/mailblogger2021/line_alerts.git main
+          git push https://github.com/mailblogger2021/line_breakouts.git main
       # with:
       #   branch: main
       #   github_token: ${{ secrets.SECRETS_GITHUB_TOKEN }}
