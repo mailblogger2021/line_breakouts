@@ -441,7 +441,7 @@ if __name__=="__main__":
             if elapsed_time > max_execution_time:
                 logging.info(f"Max time reached....")
                 break
-            break
+            # break
         pattern_detecter_obj.save_excel_file()
         
     except Exception as e:
