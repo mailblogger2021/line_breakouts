@@ -43,7 +43,7 @@ jobs:
     - name: Run Python script based on schedule
       run: |
         if [[ "${SCHEDULE_TYPE}" == "day" ]]; then
-          python chartink_screene.py
+          python chartink_screener.py
           python pdf_report_generator.py "day"
         elif [[ "${SCHEDULE_TYPE}" == "week" ]]; then
           python pdf_report_generator.py "week"
@@ -52,7 +52,7 @@ jobs:
         elif [[ "${SCHEDULE_TYPE}" == "quarter" ]]; then
           python pdf_report_generator.py "quarter"
         elif [[ "${{ github.event_name }}" == 'push' ]]; then
-          python chartink_screene.py
+          python chartink_screener.py
           python pdf_report_generator.py "day,week,month,quarter"
         fi
 
