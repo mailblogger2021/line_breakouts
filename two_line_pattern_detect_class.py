@@ -422,7 +422,7 @@ if __name__=="__main__":
         stock_data = pd.read_excel("stock market names.xlsx",sheet_name='Stock_list')
         is_history_starting_from,is_add_indicator=True,True
 
-        thread_limit = 5
+        thread_limit = 25
         total_rows = len(stock_data)
         threads = []
         pattern_detecter_obj = pattern_detecter(time_frame)
