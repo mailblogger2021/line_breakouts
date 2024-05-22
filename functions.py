@@ -11,6 +11,8 @@ pdf.set_font('Arial', 'B', 16)
 days = 5
 pdf.cell(40, 20, "title", ln=True, align='C')
 def output_df_to_pdf(title,pdf, df):
+    if df.empty:
+        return
     pdf.set_font('Arial', 'B', 16)
     pdf.cell(40, 20, title, ln=True, align='C')
     pdf.ln(2)
