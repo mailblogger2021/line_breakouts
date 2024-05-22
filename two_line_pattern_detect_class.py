@@ -424,7 +424,7 @@ if __name__=="__main__":
         is_history_starting_from,is_add_indicator=True,True
 
         thread_limit,total_rows = 25,len(stock_data)
-        thread_limit,total_rows = 5,5
+        # thread_limit,total_rows = 5,5
         threads = []
         pattern_detecter_obj = pattern_detecter(time_frame)
         stock_status = pattern_detecter_obj.data_store['completed']
@@ -459,6 +459,8 @@ if __name__=="__main__":
         else:
             logging.info(f"All sttock completed...")
             logging.info(f"Two itr Completed...Exit...")
+            logging.info(f"Reset to default value..")
+            pattern_detecter_obj.data_store[time_frame] = []
             pattern_detecter_obj.data_store["completed"] = [0,0]
         pattern_detecter_obj.save_excel_file()
         
