@@ -47,5 +47,5 @@ name: daily two_line_pattern_detect
     branches:
     - main
   schedule:
-  - cron: 22 21 16 5 *
-  - cron: 45 15 * * mon-fri
+  # - cron: 22 21 16 5 *
+  - cron: 45 16 * * mon-fri
