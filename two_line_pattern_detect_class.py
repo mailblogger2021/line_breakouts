@@ -251,9 +251,28 @@ class pattern_detecter:
             traceback_msg = traceback.format_exc()
             logging.info(f"{stock_name} - Error : {traceback_msg}")
     
-    def plus_minus_01_percent(self,combination):
+    def point_position_relative_to_line(self,df, point1, point2):
+
+        x1, y1 = point1
+        x2, y2 = point2
+
+        if x1 > x2:
+            x1, y1, x2, y2 = x2, y2, x1, y1
+
+        m = (y2 - y1) / (x2 - x1)
+        c = y1 - m * x1
+
+        subset_df = df.iloc[x1:x2]
+        subset_df['line_y'] = m * subset_df.index + c
+
+        above_count = (subset_df['Close'] > subset_df['line_y']).sum()
+        below_count = (subset_df['Close'] < subset_df['line_y']).sum()
+        
+        return above_count, below_count,above_count/(above_count+below_count),below_count/(above_count+below_count)
+
+    def plus_minus_01_percent(self,x_values,y_values):
         try:
-            x_values,y_values = zip(*combination)
+            # x_values,y_values = zip(*combination)
             slope, intercept, _, _, _ = linregress(x_values[0:2], y_values[0:2])
             predicted_y_value = slope * x_values[-1] + intercept
             actual_y_value = y_values[-1]
@@ -263,9 +282,9 @@ class pattern_detecter:
             return slope, intercept,percent_difference <= self.percentage
 
         except Exception as e:
-            logging.info(f"{combination} - Error in Plus minus 1 percents function: {e}")
+            logging.info(f"{x_values,y_values} - Error in Plus minus 1 percents function: {e}")
             traceback_msg = traceback.format_exc()
-            logging.info(f"{combination} - message : {traceback_msg}")
+            logging.info(f"{x_values,y_values} - message : {traceback_msg}")
 
     def detect_structure(self,df,stockname,candle, backcandles):
         if (candle <= (backcandles+self.window)) and (candle+self.window+1 >= len(df)):
@@ -283,8 +302,14 @@ class pattern_detecter:
             combinations = list(itertools.combinations(zip(x_values_Lows, Lows), self.pivot_line_count))
             leatest_combinations = [[(index_low[0], index_low[1]) for index_low in combination] for combination in combinations]
             for combination in leatest_combinations:
-                slope, intercept , is_line= self.plus_minus_01_percent(combination)
-                if(is_line):
+                x_values,y_values = zip(*combination)
+                slope, intercept , is_line= self.plus_minus_01_percent(x_values,y_values)
+
+                point1 = x_values[0],x_values[2]
+                point2 = y_values[0],y_values[2]
+                above_count, below_count,above_percentage,\
+                    below_percentage = self.point_position_relative_to_line(localdf,point1,point2)
+                if(is_line and below_percentage < 0.06):
                     levelbreak = 1
                     alert = pd.DataFrame(combination, columns=['index', 'value']).set_index('index').copy(deep=True)
                     row_to_append = pd.DataFrame({
@@ -312,8 +337,14 @@ class pattern_detecter:
             combinations = list(itertools.combinations(zip(x_values_Highs, Highs), self.pivot_line_count))
             leatest_combinations = [[(index_high[0], index_high[1]) for index_high in combination] for combination in combinations]
             for combination in leatest_combinations:
-                slope, intercept , is_line= self.plus_minus_01_percent(combination)
-                if(is_line):
+                x_values,y_values = zip(*combination)
+                slope, intercept , is_line= self.plus_minus_01_percent(x_values,y_values)
+
+                point1 = x_values[0],x_values[2]
+                point2 = y_values[0],y_values[2]
+                above_count, below_count,above_percentage,\
+                    below_percentage = self.point_position_relative_to_line(localdf,point1,point2)
+                if(is_line and above_percentage < 0.06):
                     levelbreak = 2
                     alert = pd.DataFrame(combination, columns=['index', 'value']).set_index('index').copy(deep=True)
                     # print(alert)
@@ -360,8 +391,12 @@ class pattern_detecter:
                 x_values,y_values = zip(*combination)
                 percent_difference = abs(y_values[0] - y_values[1]) / y_values[1] * 100
                 is_line = percent_difference<=self.percentage
-                slope, intercept , is_line= self.plus_minus_01_percent(combination)
-                if(is_line):
+                slope, intercept , _= self.plus_minus_01_percent(combination)
+                point1 = x_values[0],x_values[1]
+                point2 = y_values[0],y_values[1]
+                above_count, below_count,above_percentage,\
+                    below_percentage = self.point_position_relative_to_line(localdf,point1,point2)
+                if(is_line and below_percentage < 0.06):
                     levelbreak = 1
                     alert = pd.DataFrame(combination, columns=['index', 'value']).set_index('index').copy(deep=True)
                     row_to_append = pd.DataFrame({
@@ -390,8 +425,12 @@ class pattern_detecter:
                 x_values,y_values = zip(*combination)
                 percent_difference = abs(y_values[0] - y_values[1]) / y_values[1] * 100
                 is_line = percent_difference<=1
-                slope, intercept , is_line= self.plus_minus_01_percent(combination)
-                if(is_line):
+                slope, intercept , _= self.plus_minus_01_percent(combination)
+                point1 = x_values[0],x_values[1]
+                point2 = y_values[0],y_values[1]
+                above_count, below_count,above_percentage,\
+                    below_percentage = self.point_position_relative_to_line(localdf,point1,point2)
+                if(is_line and above_percentage < 0.06):
                     levelbreak = 2
                     alert = pd.DataFrame(combination, columns=['index', 'value']).set_index('index').copy(deep=True)
                     row_to_append = pd.DataFrame({
@@ -436,7 +475,7 @@ if __name__=="__main__":
                 for index in range(start_index, end_index):
                     stock_name = stock_data.iloc[index]['YFINANCE']
                     stock_name_list.append(stock_name)
-
+                stock_name_list = ["DMART.NS"]
                 pattern_detecter_obj.generate_url_yfinance(stock_name_list,is_history_starting_from,is_add_indicator)
                 pattern_detecter_obj.save_excel_file()
                 logging.info(f'{start_index} - {end_index} - Stock threading ended ....')
@@ -447,9 +486,11 @@ if __name__=="__main__":
                 if elapsed_time > max_execution_time:
                     logging.info(f"Max time reached....")
                     break
+                break
             else:
                 pattern_detecter_obj.data_store['completed'][0] +=1
                 logging.info(f"{itr} - time Completed ")
+            break
 
             end_time = time.time()
             elapsed_time = end_time - start_time

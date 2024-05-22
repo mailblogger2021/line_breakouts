@@ -41,6 +41,8 @@ def stock_break_out_finder(time_frames,breakout_file_name):
                     # logging.info(f"{stock_name} - breakout verification started...")
                     last_five_stock_df = last_five_df[last_five_df['stockname'] == stock_name]
                     y = stock_all_df[stock_name]
+                    if(stock_name == 'DMART.NS'):
+                        print(stock_name)
                     # y = pd.read_excel(file_name)
 
                     last_five_stock_df = last_five_stock_df.copy()
@@ -49,10 +51,10 @@ def stock_break_out_finder(time_frames,breakout_file_name):
                     y['Timestamp'] = pd.to_datetime(y['Datetime'], format="%d-%m-%Y %H:%M:%S").apply(lambda z: int(z.timestamp()))
                     
                     for index in range(-1,-len(last_five_stock_df),-1):
-                        merge_data = y[y['Timestamp'] == last_five_stock_df['Timestamp'].iloc[-index]]
+                        merge_data = y[y['Timestamp'] == last_five_stock_df['Timestamp'].iloc[index]]
                         if(len(merge_data)>0):
                             target_row = merge_data.index[0]
-                            new_index_value = last_five_stock_df['rowNumber'].iloc[-1]
+                            new_index_value = last_five_stock_df['rowNumber'].iloc[index]
                             break
                     else:
                         continue
@@ -62,29 +64,48 @@ def stock_break_out_finder(time_frames,breakout_file_name):
                                 list(range(new_index_value + 1, new_index_value + len(y) - target_row))
                     y.index = new_index
                     y = y[-2:]
-                    x1, x2 = y.index.tolist()
-                    y1, y2 = y['Close'].tolist()
+                    check_x1, check_x2 = y.index.tolist()
+                    check_y1, check_y2 = y['Close'].tolist()
                     previous_date, current_date = y['Datetime'].tolist()
+                    
+                    # m = (y2 - y1) / (x2 - x1)
+                    # c = y1 - m * x1
+                    # check_x, check_y,current_date = y.index[-1],y['Close'].iloc[-1],y['Datetime'].iloc[-1]
 
                     for index, row in last_five_stock_df.iterrows():
                         previous_status, current_status = None, None
 
-                        line_y1 = row['slope'] + x1 + row['intercept']
-                        line_y2 = row['slope'] + x2 + row['intercept']
+                        x1, x2 = row['row1'],row['row2']
+                        y1, y2 = row['value1'],row['value2']
+                        m = (y2 - y1) / (x2 - x1)
+                        c = y1 - m * x1
+                        # line_y1 = row['slope'] + x1 + row['intercept']
+                        # line_y2 = row['slope'] + x2 + row['intercept']
+                        line_y1 = m * check_x1 + c
+                        line_y2 = m * check_x2 + c
                         
-                        previous_status = 'above' if y1 > line_y1 else 'below' if y1 < line_y1 else 'on'
-                        current_status = 'above' if y2 > line_y2 else 'below' if y2 < line_y2 else 'on'
+                        previous_status = 'above' if check_y1 > line_y1 else 'below' if check_y1 < line_y1 else 'on'
+                        current_status = 'above' if check_y2 > line_y2 else 'below' if check_y2 < line_y2 else 'on'
 
                         if(previous_status != current_status):
+                            print(stock_name,previous_status,current_status )
+                            print(x1,y1,x2,y2)
+                            print(check_x1, check_x2,check_y1, check_y2)
+                            print(row)
+                            print()
+
                             logging.info(f"{stock_name} - stock breakout found...")
+
                             if 'value3' in row:
                                 output_columns =['stockname','date1','value1','date2','value2','date3','value3','buyORsell']
                             else:
                                 output_columns = ['stockname','date1','value1','date2','value2','buyORsell']
+
                             new_alert = row[output_columns].to_frame().T
                             new_alert.insert(1, 'Alert_date', current_date)
                             new_alert.insert(2, 'Time_Frame', time_frame)
                             break_out_stocks = pd.concat([break_out_stocks, new_alert], ignore_index=True)
+                            
                     # logging.info(f"{stock_name} - breakout verification Ended...")
                 except Exception as e:
                     logging.info(f"{stock_name} Error : {e}")
@@ -103,6 +124,7 @@ if __name__ =="__main__":
     logging.info(f"Started...")
 
     time_frames_for_yfinance = {
+        "hour": "60m",
         "day": "1d",
         "week": "1wk",
         "month": "1mo",
@@ -123,10 +145,10 @@ if __name__ =="__main__":
 
     logging.info(f"Two line alert started...")
     two_line_alerts_file_name = "excel/{yfinance_time_frame}/two_line_alerts_{yfinance_time_frame}.xlsx"
-    two_breakout_stocks = stock_break_out_finder(time_frames,two_line_alerts_file_name)
-    if(not three_breakout_stocks.empty):
-        is_breakout = True
-        output_df_to_pdf("Ttwo Line Alert",pdf,two_breakout_stocks)
+    # two_breakout_stocks = stock_break_out_finder(time_frames,two_line_alerts_file_name)
+    # if(not two_breakout_stocks.empty):
+    #     is_breakout = True
+    #     output_df_to_pdf("Ttwo Line Alert",pdf,two_breakout_stocks)
     logging.info(f"Two line alert Ended...")
 
     current_time = datetime.datetime.now()
