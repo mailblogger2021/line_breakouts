@@ -11,6 +11,26 @@ from functions import output_df_to_pdf
 import get_candle_data 
 import telegram_message_send
 
+def point_position_relative_to_line(df, point1, point2):
+
+    x1, y1 = point1
+    x2, y2 = point2
+
+    if x1 > x2:
+        x1, y1, x2, y2 = x2, y2, x1, y1
+
+    m = (y2 - y1) / (x2 - x1)
+    c = y1 - m * x1
+
+    subset_df = df.iloc[x1:x2]
+    # subset_df['line_y'] = m * subset_df.index + c
+    subset_df.loc[:,'line_y'] = m * subset_df.index + c
+
+    above_count = (subset_df['Close'] > subset_df['line_y']).sum()
+    below_count = (subset_df['Close'] < subset_df['line_y']).sum()
+    
+    return above_count, below_count,above_count/(above_count+below_count),below_count/(above_count+below_count)
+
 def stock_break_out_finder(time_frames,breakout_file_name):
     break_out_stocks = pd.DataFrame()
     for time_frame in time_frames:
@@ -40,7 +60,7 @@ def stock_break_out_finder(time_frames,breakout_file_name):
                 try:
                     # logging.info(f"{stock_name} - breakout verification started...")
                     last_five_stock_df = last_five_df[last_five_df['stockname'] == stock_name]
-                    y = stock_all_df[stock_name]
+                    last_stock_df = stock_all_df[stock_name]
                     if(stock_name == 'DMART.NS'):
                         print(stock_name)
                     # y = pd.read_excel(file_name)
@@ -48,10 +68,10 @@ def stock_break_out_finder(time_frames,breakout_file_name):
                     last_five_stock_df = last_five_stock_df.copy()
                     # last_five_stock_df['Timestamp'] = pd.to_datetime(last_five_stock_df['alert_date'], format="%Y-%m-%d %H:%M:%S").apply(lambda z: int(z.timestamp()))
                     last_five_stock_df.loc[:, 'Timestamp'] = pd.to_datetime(last_five_stock_df['alert_date'], format="%Y-%m-%d %H:%M:%S").apply(lambda z: int(z.timestamp()))
-                    y['Timestamp'] = pd.to_datetime(y['Datetime'], format="%d-%m-%Y %H:%M:%S").apply(lambda z: int(z.timestamp()))
+                    last_stock_df['Timestamp'] = pd.to_datetime(last_stock_df['Datetime'], format="%d-%m-%Y %H:%M:%S").apply(lambda z: int(z.timestamp()))
                     
                     for index in range(-1,-len(last_five_stock_df),-1):
-                        merge_data = y[y['Timestamp'] == last_five_stock_df['Timestamp'].iloc[index]]
+                        merge_data = last_stock_df[last_stock_df['Timestamp'] == last_five_stock_df['Timestamp'].iloc[index]]
                         if(len(merge_data)>0):
                             target_row = merge_data.index[0]
                             new_index_value = last_five_stock_df['rowNumber'].iloc[index]
@@ -61,12 +81,14 @@ def stock_break_out_finder(time_frames,breakout_file_name):
 
                     new_index = list(range(new_index_value - target_row, new_index_value)) + \
                                 [new_index_value] + \
-                                list(range(new_index_value + 1, new_index_value + len(y) - target_row))
-                    y.index = new_index
-                    y = y[-2:]
-                    check_x1, check_x2 = y.index.tolist()
-                    check_y1, check_y2 = y['Close'].tolist()
-                    previous_date, current_date = y['Datetime'].tolist()
+                                list(range(new_index_value + 1, new_index_value + len(last_stock_df) - target_row))
+                    last_stock_df.index = new_index
+                    y_last_two = last_stock_df[-2:]
+
+                    # last two index and Close price  ( yesterday and today values )
+                    check_x1, check_x2 = y_last_two.index.tolist()
+                    check_y1, check_y2 = y_last_two['Close'].tolist()
+                    previous_date, current_date = y_last_two['Datetime'].tolist()
                     
                     # m = (y2 - y1) / (x2 - x1)
                     # c = y1 - m * x1
@@ -86,13 +108,12 @@ def stock_break_out_finder(time_frames,breakout_file_name):
                         
                         previous_status = 'above' if check_y1 > line_y1 else 'below' if check_y1 < line_y1 else 'on'
                         current_status = 'above' if check_y2 > line_y2 else 'below' if check_y2 < line_y2 else 'on'
-
-                        if(previous_status != current_status):
-                            print(stock_name,previous_status,current_status )
-                            print(x1,y1,x2,y2)
-                            print(check_x1, check_x2,check_y1, check_y2)
-                            print(row)
-                            print()
+                        point1 = [x1,y1]
+                        point2 = [check_x2,check_y2]
+                        above_count, below_count,above_percentage,\
+                                    below_percentage = point_position_relative_to_line(last_stock_df,point1,point2)
+                        above_or_below_line_percentage = above_percentage if row['buyORsell'] == 'High' else below_percentage
+                        if(previous_status != current_status and above_or_below_line_percentage < 0.6):
 
                             logging.info(f"{stock_name} - stock breakout found...")
 
@@ -120,7 +141,7 @@ if __name__ =="__main__":
         time_frames = (sys.argv[1]).split(',')
 
     os.makedirs(f"log/", exist_ok=True)
-    logging.basicConfig(filename=f'log/pdf_report_generator{",".join(time_frames)}.log',level=logging.INFO, format='%(asctime)s -%(levelname)s - %(message)s')
+    logging.basicConfig(filename=f'log/pdf_report_generator_{",".join(time_frames)}.log',level=logging.INFO, format='%(asctime)s -%(levelname)s - %(message)s')
     logging.info(f"Started...")
 
     time_frames_for_yfinance = {

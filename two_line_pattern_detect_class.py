@@ -12,6 +12,7 @@ import json
 import traceback
 import time
 import sys
+import time
 
 import get_candle_data as get_candle_data
 import functions
@@ -263,7 +264,8 @@ class pattern_detecter:
         c = y1 - m * x1
 
         subset_df = df.iloc[x1:x2]
-        subset_df['line_y'] = m * subset_df.index + c
+        # subset_df['line_y'] = m * subset_df.index + c
+        subset_df.loc[:,'line_y'] = m * subset_df.index + c
 
         above_count = (subset_df['Close'] > subset_df['line_y']).sum()
         below_count = (subset_df['Close'] < subset_df['line_y']).sum()
@@ -305,8 +307,8 @@ class pattern_detecter:
                 x_values,y_values = zip(*combination)
                 slope, intercept , is_line= self.plus_minus_01_percent(x_values,y_values)
 
-                point1 = x_values[0],x_values[2]
-                point2 = y_values[0],y_values[2]
+                point1 = x_values[0],y_values[0]
+                point2 =x_values[2],y_values[2]
                 above_count, below_count,above_percentage,\
                     below_percentage = self.point_position_relative_to_line(localdf,point1,point2)
                 if(is_line and below_percentage < 0.06):
@@ -340,8 +342,8 @@ class pattern_detecter:
                 x_values,y_values = zip(*combination)
                 slope, intercept , is_line= self.plus_minus_01_percent(x_values,y_values)
 
-                point1 = x_values[0],x_values[2]
-                point2 = y_values[0],y_values[2]
+                point1 = x_values[0],y_values[0]
+                point2 =x_values[2],y_values[2]
                 above_count, below_count,above_percentage,\
                     below_percentage = self.point_position_relative_to_line(localdf,point1,point2)
                 if(is_line and above_percentage < 0.06):
@@ -391,9 +393,10 @@ class pattern_detecter:
                 x_values,y_values = zip(*combination)
                 percent_difference = abs(y_values[0] - y_values[1]) / y_values[1] * 100
                 is_line = percent_difference<=self.percentage
-                slope, intercept , _= self.plus_minus_01_percent(combination)
-                point1 = x_values[0],x_values[1]
-                point2 = y_values[0],y_values[1]
+                slope, intercept , _= self.plus_minus_01_percent(x_values,y_values)
+
+                point1 = x_values[0],y_values[0]
+                point2 =x_values[1],y_values[1]
                 above_count, below_count,above_percentage,\
                     below_percentage = self.point_position_relative_to_line(localdf,point1,point2)
                 if(is_line and below_percentage < 0.06):
@@ -425,9 +428,9 @@ class pattern_detecter:
                 x_values,y_values = zip(*combination)
                 percent_difference = abs(y_values[0] - y_values[1]) / y_values[1] * 100
                 is_line = percent_difference<=1
-                slope, intercept , _= self.plus_minus_01_percent(combination)
-                point1 = x_values[0],x_values[1]
-                point2 = y_values[0],y_values[1]
+                slope, intercept , _= self.plus_minus_01_percent(x_values,y_values)
+                point1 = x_values[0],y_values[0]
+                point2 =x_values[1],y_values[1]
                 above_count, below_count,above_percentage,\
                     below_percentage = self.point_position_relative_to_line(localdf,point1,point2)
                 if(is_line and above_percentage < 0.06):
@@ -463,40 +466,41 @@ if __name__=="__main__":
         is_history_starting_from,is_add_indicator=True,True
 
         thread_limit,total_rows = 25,len(stock_data)
-        # thread_limit,total_rows = 5,5
+        # thread_limit,total_rows = 25,10
         threads = []
         pattern_detecter_obj = pattern_detecter(time_frame)
         stock_status = pattern_detecter_obj.data_store['completed']
-        index,itr_completed = stock_status
+        itr_completed,index = stock_status
         for itr in range(itr_completed,2):
+            # total_rows += 5*itr
             for start_index in range(index, total_rows, thread_limit):
                 end_index = min(start_index + thread_limit, total_rows)
                 stock_name_list = []
                 for index in range(start_index, end_index):
                     stock_name = stock_data.iloc[index]['YFINANCE']
                     stock_name_list.append(stock_name)
-                stock_name_list = ["DMART.NS"]
+                # stock_name_list = ["DMART.NS"]
                 pattern_detecter_obj.generate_url_yfinance(stock_name_list,is_history_starting_from,is_add_indicator)
+                pattern_detecter_obj.data_store['completed'][1] = end_index
                 pattern_detecter_obj.save_excel_file()
                 logging.info(f'{start_index} - {end_index} - Stock threading ended ....')
 
-                pattern_detecter_obj.data_store['completed'][1] = end_index
                 end_time = time.time()
                 elapsed_time = end_time - start_time
                 if elapsed_time > max_execution_time:
                     logging.info(f"Max time reached....")
                     break
-                break
+
             else:
                 pattern_detecter_obj.data_store['completed'][0] +=1
                 logging.info(f"{itr} - time Completed ")
-            break
+                break
 
             end_time = time.time()
             elapsed_time = end_time - start_time
             if elapsed_time > max_execution_time:
-                    logging.info(f"Max time reached....")
-                    break
+                logging.info(f"Max time reached....")
+                break
         else:
             logging.info(f"All sttock completed...")
             logging.info(f"Two itr Completed...Exit...")
@@ -506,6 +510,7 @@ if __name__=="__main__":
         pattern_detecter_obj.save_excel_file()
         
     except Exception as e:
+        pattern_detecter_obj.save_excel_file()
         logging.info(f"Error in main function: {e}")
         traceback_msg = traceback.format_exc()
         logging.info(f"Error : {traceback_msg}")
