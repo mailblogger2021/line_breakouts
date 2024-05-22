@@ -83,6 +83,7 @@ class pattern_detecter:
                 self.data_store = json.load(file)
         else:
             self.data_store[self.time_frame] = []
+            self.data_store["completed"] = [0,0]
 
     def save_excel_file(self):
         try:
@@ -422,26 +423,43 @@ if __name__=="__main__":
         stock_data = pd.read_excel("stock market names.xlsx",sheet_name='Stock_list')
         is_history_starting_from,is_add_indicator=True,True
 
-        thread_limit = 25
-        total_rows = len(stock_data)
+        thread_limit,total_rows = 25,len(stock_data)
+        thread_limit,total_rows = 5,5
         threads = []
         pattern_detecter_obj = pattern_detecter(time_frame)
-        for start_index in range(0, total_rows, thread_limit):
-            end_index = min(start_index + thread_limit, total_rows)
-            stock_name_list = []
-            for index in range(start_index, end_index):
-                stock_name = stock_data.iloc[index]['YFINANCE']
-                stock_name_list.append(stock_name)
+        stock_status = pattern_detecter_obj.data_store['completed']
+        index,itr_completed = stock_status
+        for itr in range(itr_completed,2):
+            for start_index in range(index, total_rows, thread_limit):
+                end_index = min(start_index + thread_limit, total_rows)
+                stock_name_list = []
+                for index in range(start_index, end_index):
+                    stock_name = stock_data.iloc[index]['YFINANCE']
+                    stock_name_list.append(stock_name)
 
-            pattern_detecter_obj.generate_url_yfinance(stock_name_list,is_history_starting_from,is_add_indicator)
-            pattern_detecter_obj.save_excel_file()
-            logging.info(f'{start_index} - {end_index} - Stock threading ended ....')
+                pattern_detecter_obj.generate_url_yfinance(stock_name_list,is_history_starting_from,is_add_indicator)
+                pattern_detecter_obj.save_excel_file()
+                logging.info(f'{start_index} - {end_index} - Stock threading ended ....')
+
+                pattern_detecter_obj.data_store['completed'][1] = end_index
+                end_time = time.time()
+                elapsed_time = end_time - start_time
+                if elapsed_time > max_execution_time:
+                    logging.info(f"Max time reached....")
+                    break
+            else:
+                pattern_detecter_obj.data_store['completed'][0] +=1
+                logging.info(f"{itr} - time Completed ")
+
             end_time = time.time()
             elapsed_time = end_time - start_time
             if elapsed_time > max_execution_time:
-                logging.info(f"Max time reached....")
-                break
-            # break
+                    logging.info(f"Max time reached....")
+                    break
+        else:
+            logging.info(f"All sttock completed...")
+            logging.info(f"Two itr Completed...Exit...")
+            pattern_detecter_obj.data_store["completed"] = [0,0]
         pattern_detecter_obj.save_excel_file()
         
     except Exception as e:

@@ -9,6 +9,7 @@ import os
 import json
 import traceback
 import datetime
+from telegram_message_send import send_message_with_documents
 
 def chartink_to_pdf(session,title, pdf,chartink_url):
     r = session.post('https://chartink.com/screener/process', data={'scan_clause': chartink_url}).json()
@@ -79,6 +80,7 @@ if __name__=="__main__":
     file_name = f"pdf_report/chartink/my_screener_{date_time}.pdf"
     pdf.output(file_name, 'F')
     document_paths.append(file_name)
+    captions.append("my_screener")
 
 
     pdf = FPDF(unit='mm', format=(250, 297))
@@ -116,10 +118,10 @@ if __name__=="__main__":
         for base_code, title in zip(base_code_list, title_list):
             ph_pl_list[title] = chartink_to_pdf(session,title,pdf,base_code)
 
-    file_name = '3_V_version_{date_time}.pdf'
+    file_name = f"pdf_report/chartink/3_V_version_{date_time}.pdf"
     pdf.output(file_name, 'F')
     document_paths.append(file_name)
-    captions.append("my screnner")
+    captions.append("3 V 0.3")
 
     send_message_with_documents(message=[], document_paths=document_paths,captions=captions)
     print("Done")
