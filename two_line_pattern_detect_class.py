@@ -13,6 +13,7 @@ import traceback
 import time
 import sys
 import time
+from fpdf import FPDF
 
 import get_candle_data as get_candle_data
 import functions
@@ -40,16 +41,19 @@ class pattern_detecter:
         self.time_frame = time_frame
         self.three_line_file_name = f"excel/{self.time_frame}/three_line_alerts_{self.time_frame}.xlsx"
         self.two_line_file_name = f"excel/{self.time_frame}/two_line_alerts_{self.time_frame}.xlsx"
+        self.ph_pl_data_file_name =  f"excel/{self.time_frame}/ph_pl_data_{self.time_frame}.xlsx"
         self.data_store_file_name = f"json/data_store_{self.time_frame}.json"
 
         self.three_line_file_name_backup = f"excel/{self.time_frame}/three_line_alerts_{self.time_frame}_backup.xlsx"
         self.two_line_file_name_backup = f"excel/{self.time_frame}/two_line_alerts_{self.time_frame}_backup.xlsx"
-        self.data_store_file_name_backup = f"data_store_{self.time_frame}_backup.json"
+        self.ph_pl_data_file_name_backup =  f"excel/{self.time_frame}/ph_pl_data_{self.time_frame}_backup.xlsx"
+        self.data_store_file_name_backup =  f"json/data_store_{self.time_frame}_backup.json"
 
         self.read_excel_file()
 
     def read_excel_file(self):
 
+        # three line file
         isExist = os.path.exists(self.three_line_file_name)
         self.three_line_alert_df = pd.DataFrame()
         if(isExist):
@@ -57,13 +61,16 @@ class pattern_detecter:
                 self.three_line_alert_df = pd.read_excel(self.three_line_file_name)
             except Exception as e:
                 logging.info(f"reading {self.three_line_file_name} Error ")
-                isExist = os.path.exists(self.three_line_file_name_backup)
-                if(isExist):
-                    try:
-                        self.three_line_alert_df = pd.read_excel(self.three_line_file_name_backup)
-                    except Exception as e:
-                        logging.info(f"reading {self.three_line_file_name_backup} Error ")
 
+        # three line file backup
+        isExist = os.path.exists(self.three_line_file_name_backup)
+        if(isExist):
+            try:
+                self.three_line_alert_df = pd.read_excel(self.three_line_file_name_backup)
+            except Exception as e:
+                logging.info(f"reading {self.three_line_file_name_backup} Error ")
+
+        # two line file
         isExist = os.path.exists(self.two_line_file_name)
         self.two_line_alert_df = pd.DataFrame()
         if(isExist):
@@ -71,12 +78,32 @@ class pattern_detecter:
                 self.two_line_alert_df = pd.read_excel(self.two_line_file_name)
             except Exception as e:
                 logging.info(f"reading {self.two_line_file_name} Error ")
-                isExist = os.path.exists(self.two_line_file_name_backup)
-                if(isExist):
-                    try:
-                        self.two_line_alert_df = pd.read_excel(self.two_line_file_name_backup)
-                    except Exception as e:
-                        logging.info(f"reading {self.two_line_file_name_backup} Error ")
+
+        # two line file backup
+        isExist = os.path.exists(self.two_line_file_name_backup)
+        if(isExist):
+            try:
+                self.two_line_alert_df = pd.read_excel(self.two_line_file_name_backup)
+            except Exception as e:
+                logging.info(f"reading {self.two_line_file_name_backup} Error ")
+        
+        # PH PL file
+        isExist = os.path.exists(self.ph_pl_data_file_name)
+        self.ph_pl_data_df = pd.DataFrame()
+        if(isExist):
+            try:
+                self.ph_pl_data_df = pd.read_excel(self.ph_pl_data_file_name)
+            except Exception as e:
+                logging.info(f"reading {self.ph_pl_data_file_name} Error ")
+
+        # PH PL file backup
+        isExist = os.path.exists(self.ph_pl_data_file_name_backup)
+        if(isExist):
+            try:
+                self.ph_pl_data_df = pd.read_excel(self.ph_pl_data_file_name_backup)
+            except Exception as e:
+                logging.info(f"reading {self.ph_pl_data_file_name_backup} Error ")
+
 
         self.data_store = {}
         if os.path.exists(self.data_store_file_name):
@@ -90,7 +117,8 @@ class pattern_detecter:
         try:
             self.three_line_alert_df.drop_duplicates(subset=['stockname','date1','value1', 'date2', 'value2', 'date3', 'value3', 'buyORsell'], keep='first', inplace=True)
             self.two_line_alert_df.drop_duplicates(subset=['stockname','date1','value1', 'date2','value2', 'buyORsell'], keep='first', inplace=True)
-            
+            self.ph_pl_data_df.drop_duplicates(inplace=True)
+
             self.three_line_alert_df.to_excel(self.three_line_file_name,index=False)
             self.two_line_alert_df.to_excel(self.two_line_file_name,index=False)
             
@@ -106,11 +134,34 @@ class pattern_detecter:
         try:
             with open(self.data_store_file_name, "w") as file:
                 json.dump(self.data_store, file,indent = 4)
+
+            with open(self.data_store_file_name_backup, "w") as file:
+                json.dump(self.data_store, file,indent = 4)
             logging.info(f'All stocks - json file saved')
         except Exception as e:
             logging.info(f"Error in saving json file: {e}")
             traceback_msg = traceback.format_exc()
             logging.info(f"Error : {traceback_msg}")
+
+    def add_ph_pl_values(self,stock_df, stock_name,number_of_datas=3):
+        logging.info(f'{stock_name} - add_ph_pl_values function started')
+        if(not self.ph_pl_data_df.empty):
+            self.ph_pl_data_df = self.ph_pl_data_df[self.ph_pl_data_df['stockname'] != stock_name].copy()
+            
+        for pivot_value in [1,2]:    # high, low    
+            df = stock_df[stock_df['isPivot'] == pivot_value].tail(number_of_datas)  #high
+            new_data = {
+                "stockname" : stock_name,
+                "Datetime" : df["Datetime"],
+                "Open" : df["Open"],
+                "High" : df["High"],
+                "Low" : df["Low"],
+                "Close" : df["Close"],
+                "isPivot" : df["isPivot"],   
+            }
+            self.ph_pl_data_df = pd.concat([self.ph_pl_data_df,pd.DataFrame(new_data)])
+            self.ph_pl_data_df.drop_duplicates(inplace=True)
+        logging.info(f'{stock_name} - add_ph_pl_values function Ended')
 
     def process_row(self,candles,stock_name,function_name,number_of_calls=0):
 
@@ -131,56 +182,63 @@ class pattern_detecter:
 
     def process_function(self,stock_df,stock_name,file_name,is_history_starting_from=True):
 
-        logging.info(f'{stock_name} - Process function started')
-        stock_data_historical = pd.DataFrame()  # Initialize with an empty DataFrame
-        isExist = os.path.exists(file_name)
-        if isExist:
-            try:
-                logging.info(f"{stock_name} - Reading existing data...")
-                stock_data_historical = pd.read_excel(file_name)
-                is_history_starting_from = False
-            except Exception as e:
-                print(f"Reading in File {stock_name}: {e}")
-        
-        stock_df = pd.concat([stock_data_historical, stock_df], axis=0)
-        stock_df["Datetime"] = pd.to_datetime(stock_df["Datetime"], format='%d-%m-%Y %H:%M:%S')
-        stock_df = stock_df.drop_duplicates(subset=['Datetime'], keep='first')\
-                .sort_values(by='Datetime')\
-                .reset_index(drop=True)
+        try:
+            logging.info(f'{stock_name} - Process function started')
+            stock_data_historical = pd.DataFrame()  # Initialize with an empty DataFrame
+            isExist = os.path.exists(file_name)
+            if isExist:
+                try:
+                    logging.info(f"{stock_name} - Reading existing data...")
+                    stock_data_historical = pd.read_excel(file_name)
+                    is_history_starting_from = False
+                except Exception as e:
+                    print(f"Reading in File {stock_name}: {e}")
+            
+            stock_df = pd.concat([stock_data_historical, stock_df], axis=0)
+            stock_df["Datetime"] = pd.to_datetime(stock_df["Datetime"], format='%d-%m-%Y %H:%M:%S')
+            stock_df = stock_df.drop_duplicates(subset=['Datetime'], keep='first')\
+                    .sort_values(by='Datetime')\
+                    .reset_index(drop=True)
 
-        number_of_calls = stock_df.isnull().any(axis=1).idxmax()
-        if(number_of_calls==0 and is_history_starting_from):
-            number_of_calls = 0
-            logging.info(f'{stock_name} - isPivot function started')
-            stock_df['isPivot'] = stock_df.apply(lambda row: self.isPivot(stock_df, stock_name, row.name), axis=1)
-            logging.info(f'{stock_name} - isPivot function Ended')
-            threads = []
-            for function_name in [self.detect_structure, self.two_line_structure]:
-                thread = threading.Thread(target=self.process_row, args=(stock_df, stock_name, function_name,number_of_calls))
-                threads.append(thread)
-                thread.start()
-            for thread in threads:
-                thread.join()
-        elif(number_of_calls != 0):
-            number_of_calls = max(0,number_of_calls - 50)
-            logging.info(f'last n isPivot function started')
-            stock_df['backup'] = stock_df['isPivot']
-            stock_df['isPivot'] = stock_df.shift(-number_of_calls).iloc[-number_of_calls:].apply(lambda row: self.isPivot(stock_df, stock_name, row.name), axis=1)
-            stock_df['isPivot'] = stock_df['isPivot'].fillna(stock_df['backup'])
-            logging.info(f'last n isPivot function Ended')
-            threads = []
-            for function_name in [self.detect_structure, self.two_line_structure]:
-                thread = threading.Thread(target=self.process_row, args=(stock_df, stock_name, function_name,number_of_calls))
-                threads.append(thread)
-                thread.start()
-            for thread in threads:
-                thread.join()
-        self.data_store[self.time_frame].append(stock_name)
-        stock_df.to_excel(file_name, index=False)
+            number_of_calls = stock_df.isnull().any(axis=1).idxmax()
+            if(number_of_calls==0 and is_history_starting_from):
+                number_of_calls = 0
+                logging.info(f'{stock_name} - isPivot function started')
+                stock_df['isPivot'] = stock_df.apply(lambda row: self.isPivot(stock_df, stock_name, row.name), axis=1)
+                logging.info(f'{stock_name} - isPivot function Ended')
+                threads = []
+                for function_name in [self.detect_structure, self.two_line_structure]:
+                    thread = threading.Thread(target=self.process_row, args=(stock_df, stock_name, function_name,number_of_calls))
+                    threads.append(thread)
+                    thread.start()
+                self.add_ph_pl_values(stock_df.copy(), stock_name,3)
+                for thread in threads:
+                    thread.join()
+            elif(number_of_calls != 0):
+                number_of_calls = max(0,number_of_calls - 50)
+                logging.info(f'last n isPivot function started')
+                stock_df['backup'] = stock_df['isPivot']
+                stock_df['isPivot'] = stock_df.shift(-number_of_calls).iloc[-number_of_calls:].apply(lambda row: self.isPivot(stock_df, stock_name, row.name), axis=1)
+                stock_df['isPivot'] = stock_df['isPivot'].fillna(stock_df['backup'])
+                logging.info(f'last n isPivot function Ended')
+                threads = []
+                for function_name in [self.detect_structure, self.two_line_structure]:
+                    thread = threading.Thread(target=self.process_row, args=(stock_df, stock_name, function_name,number_of_calls))
+                    threads.append(thread)
+                    thread.start()
+                self.add_ph_pl_values(stock_df.copy(), stock_name,3)
+                for thread in threads:
+                    thread.join()
+            self.data_store[self.time_frame].append(stock_name)
+            stock_df.to_excel(file_name, index=False)
 
-        self.save_excel_file()
-        logging.info(f'{stock_name} - alerts file Saved')
-        logging.info(f'{stock_name} - Process function Ended')
+            self.save_excel_file()
+            logging.info(f'{stock_name} - alerts file Saved')
+            logging.info(f'{stock_name} - Process function Ended')
+        except Exception as e:
+            logging.info(f"{stock_name} - Error in process_function function: {e}")
+            traceback_msg = traceback.format_exc()
+            logging.info(f"{stock_name} - Error : {traceback_msg}")
 
     def generate_url_yfinance(self,stock_list, is_history_starting_from=False, is_add_indicator=True):
         
@@ -256,21 +314,28 @@ class pattern_detecter:
 
         x1, y1 = point1
         x2, y2 = point2
-
+        
+        if x2 == x1:
+            return 0,0,1,1
+        
         if x1 > x2:
             x1, y1, x2, y2 = x2, y2, x1, y1
 
         m = (y2 - y1) / (x2 - x1)
         c = y1 - m * x1
 
-        subset_df = df.iloc[x1:x2]
+        subset_df = df.iloc[x1:x2].copy()
         # subset_df['line_y'] = m * subset_df.index + c
         subset_df.loc[:,'line_y'] = m * subset_df.index + c
+        subset_df = subset_df.dropna(subset=['Close', 'line_y'])
 
         above_count = (subset_df['Close'] > subset_df['line_y']).sum()
         below_count = (subset_df['Close'] < subset_df['line_y']).sum()
         
-        return above_count, below_count,above_count/(above_count+below_count),below_count/(above_count+below_count)
+        total = above_count + below_count
+        if total == 0:
+            return above_count, below_count, 1,1
+        return above_count, below_count,above_count/total,below_count/total
 
     def plus_minus_01_percent(self,x_values,y_values):
         try:
@@ -466,13 +531,13 @@ if __name__=="__main__":
         is_history_starting_from,is_add_indicator=True,True
 
         thread_limit,total_rows = 25,len(stock_data)
-        # thread_limit,total_rows = 25,10
+        thread_limit,total_rows = 25,5
         threads = []
         pattern_detecter_obj = pattern_detecter(time_frame)
         stock_status = pattern_detecter_obj.data_store['completed']
         itr_completed,index = stock_status
         for itr in range(itr_completed,2):
-            # total_rows += 5*itr
+            total_rows += 5*itr
             for start_index in range(index, total_rows, thread_limit):
                 end_index = min(start_index + thread_limit, total_rows)
                 stock_name_list = []
@@ -505,6 +570,23 @@ if __name__=="__main__":
             logging.info(f"All sttock completed...")
             logging.info(f"Two itr Completed...Exit...")
             logging.info(f"Reset to default value..")
+
+            stock_name_list = stock_data.iloc[:]['YFINANCE']
+            stock_not_tested = list(set(stock_name_list.tolist()) - set(pattern_detecter_obj.data_store[time_frame]))
+            if stock_not_tested:
+                not_in_list_df = pd.DataFrame(stock_not_tested,columns=["Stocks"])
+                pdf = FPDF(unit='mm', format=(270, 297))
+                pdf.add_page()
+                pdf.set_font('Arial', 'B', 16)
+
+                functions.output_df_to_pdf("List of Stock not Tested after Two time ",pdf,not_in_list_df)
+                current_time = datetime.datetime.now()
+                date_time = current_time.strftime("%Y%m%d.%H%M%S")
+                os.makedirs(f"pdf_report/stock_not_tested/", exist_ok=True)
+                pdf_name = f'pdf_report/stock_not_tested/stock_not_tested_{time_frame}_{date_time}.pdf'
+                pdf.output(pdf_name, 'F')
+                telegram_message_send.send_message_with_documents(document_paths=[pdf_name],captions=[f"stock not tested {date_time}"])
+
             pattern_detecter_obj.data_store[time_frame] = []
             pattern_detecter_obj.data_store["completed"] = [0,0]
         pattern_detecter_obj.save_excel_file()
