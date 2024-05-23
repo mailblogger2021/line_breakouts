@@ -531,7 +531,7 @@ if __name__=="__main__":
         is_history_starting_from,is_add_indicator=True,True
 
         thread_limit,total_rows = 25,len(stock_data)
-        thread_limit,total_rows = 25,5
+        #thread_limit,total_rows = 25,5
         threads = []
         pattern_detecter_obj = pattern_detecter(time_frame)
         stock_status = pattern_detecter_obj.data_store['completed']
