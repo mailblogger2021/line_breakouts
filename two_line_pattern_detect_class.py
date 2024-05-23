@@ -494,13 +494,13 @@ if __name__=="__main__":
             else:
                 pattern_detecter_obj.data_store['completed'][0] +=1
                 logging.info(f"{itr} - time Completed ")
-                break
+                #break
 
             end_time = time.time()
             elapsed_time = end_time - start_time
             if elapsed_time > max_execution_time:
                 logging.info(f"Max time reached....")
-                #break
+                break
         else:
             logging.info(f"All sttock completed...")
             logging.info(f"Two itr Completed...Exit...")
