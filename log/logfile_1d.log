@@ -2645,3 +2645,885 @@ IndexError: indices are out-of-bounds
 2024-05-23 12:55:28,047 -INFO - Reset to default value..
 2024-05-23 12:55:33,501 -INFO - All stocks - Excel file Saved
 2024-05-23 12:55:33,501 -INFO - All stocks - json file saved
+2024-05-23 16:46:20,400 -INFO - Started...
+2024-05-23 16:46:21,580 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-05-23 16:46:25,514 -ERROR - 
+1 Failed download:
+2024-05-23 16:46:25,514 -ERROR - ['RELIANCE.NS']: OperationalError('database is locked')
+2024-05-23 16:46:26,062 -INFO - BRITANNIA.NS - Process function started
+2024-05-23 16:46:26,062 -INFO - NIFTY_FIN_SERVICE.NS - Process function started
+2024-05-23 16:46:26,063 -INFO - COALINDIA.NS - Process function started
+2024-05-23 16:46:26,063 -INFO - BRITANNIA.NS - Reading existing data...
+2024-05-23 16:46:26,063 -INFO - EICHERMOT.NS - Process function started
+2024-05-23 16:46:26,063 -INFO - NIFTY_FIN_SERVICE.NS - Reading existing data...
+2024-05-23 16:46:26,063 -INFO - COALINDIA.NS - Reading existing data...
+2024-05-23 16:46:26,063 -INFO - BHARTIARTL.NS - Process function started
+2024-05-23 16:46:26,063 -INFO - ADANIENT.NS - Process function started
+2024-05-23 16:46:26,063 -INFO - ^NSEI - Process function started
+2024-05-23 16:46:26,064 -INFO - DIVISLAB.NS - Process function started
+2024-05-23 16:46:26,064 -INFO - BAJAJFINSV.NS - Process function started
+2024-05-23 16:46:26,064 -INFO - ULTRACEMCO.NS - Process function started
+2024-05-23 16:46:26,064 -INFO - WIPRO.NS - Process function started
+2024-05-23 16:46:26,064 -INFO - EICHERMOT.NS - Reading existing data...
+2024-05-23 16:46:26,064 -INFO - ADANIPORTS.NS - Process function started
+2024-05-23 16:46:26,064 -INFO - CIPLA.NS - Process function started
+2024-05-23 16:46:26,065 -INFO - APOLLOHOSP.NS - Process function started
+2024-05-23 16:46:26,065 -INFO - BAJAJ-AUTO.NS - Process function started
+2024-05-23 16:46:26,065 -INFO - DRREDDY.NS - Process function started
+2024-05-23 16:46:26,065 -INFO - BHARTIARTL.NS - Reading existing data...
+2024-05-23 16:46:26,065 -INFO - ADANIENT.NS - Reading existing data...
+2024-05-23 16:46:26,066 -INFO - ^NSEI - Reading existing data...
+2024-05-23 16:46:26,066 -INFO - HEROMOTOCO.NS - Process function started
+2024-05-23 16:46:26,066 -INFO - DIVISLAB.NS - Reading existing data...
+2024-05-23 16:46:26,066 -INFO - HINDALCO.NS - Process function started
+2024-05-23 16:46:26,067 -INFO - ^NSEBANK - Process function started
+2024-05-23 16:46:26,067 -INFO - BAJAJFINSV.NS - Reading existing data...
+2024-05-23 16:46:26,067 -INFO - M&M.NS - Process function started
+2024-05-23 16:46:26,067 -INFO - ULTRACEMCO.NS - Reading existing data...
+2024-05-23 16:46:26,068 -INFO - WIPRO.NS - Reading existing data...
+2024-05-23 16:46:26,068 -INFO - ASIANPAINT.NS - Process function started
+2024-05-23 16:46:26,069 -INFO - BAJFINANCE.NS - Process function started
+2024-05-23 16:46:26,069 -INFO - TITAN.NS - Process function started
+2024-05-23 16:46:26,070 -INFO - ADANIPORTS.NS - Reading existing data...
+2024-05-23 16:46:26,070 -INFO - BPCL.NS - Process function started
+2024-05-23 16:46:26,070 -INFO - CIPLA.NS - Reading existing data...
+2024-05-23 16:46:26,071 -INFO - APOLLOHOSP.NS - Reading existing data...
+2024-05-23 16:46:26,072 -INFO - BAJAJ-AUTO.NS - Reading existing data...
+2024-05-23 16:46:26,072 -INFO - DRREDDY.NS - Reading existing data...
+2024-05-23 16:46:26,074 -INFO - HEROMOTOCO.NS - Reading existing data...
+2024-05-23 16:46:26,074 -INFO - HINDALCO.NS - Reading existing data...
+2024-05-23 16:46:26,075 -INFO - ^NSEBANK - Reading existing data...
+2024-05-23 16:46:26,076 -INFO - M&M.NS - Reading existing data...
+2024-05-23 16:46:26,081 -INFO - ASIANPAINT.NS - Reading existing data...
+2024-05-23 16:46:26,082 -INFO - BAJFINANCE.NS - Reading existing data...
+2024-05-23 16:46:26,083 -INFO - TITAN.NS - Reading existing data...
+2024-05-23 16:46:26,085 -INFO - BPCL.NS - Reading existing data...
+2024-05-23 16:46:40,208 -INFO - last n isPivot function started
+2024-05-23 16:46:40,502 -INFO - last n isPivot function started
+2024-05-23 16:46:42,221 -INFO - last n isPivot function Ended
+2024-05-23 16:46:42,221 -INFO - ULTRACEMCO.NS - last n detect_structure function started
+2024-05-23 16:46:43,093 -INFO - ULTRACEMCO.NS - last n two_line_structure function started
+2024-05-23 16:46:43,282 -INFO - last n isPivot function Ended
+2024-05-23 16:46:43,958 -INFO - HEROMOTOCO.NS - last n detect_structure function started
+2024-05-23 16:46:44,048 -INFO - HEROMOTOCO.NS - last n two_line_structure function started
+2024-05-23 16:46:53,136 -INFO - Error in saving alerts file: operands could not be broadcast together with shapes (11500,) (11499,) (11500,) 
+2024-05-23 16:46:53,946 -INFO - Error in saving alerts file: Length of values (5960) does not match length of index (5956)
+2024-05-23 16:46:53,968 -INFO - Error : Traceback (most recent call last):
+  File "/Users/runner/work/line_breakouts/line_breakouts/two_line_pattern_detect_class.py", line 91, in save_excel_file
+    self.three_line_alert_df.drop_duplicates(subset=['stockname','date1','value1', 'date2', 'value2', 'date3', 'value3', 'buyORsell'], keep='first', inplace=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6818, in drop_duplicates
+    result = self[-self.duplicated(subset, keep=keep)]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6960, in duplicated
+    ids = get_group_index(labels, tuple(shape), sort=False, xnull=False)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/sorting.py", line 193, in get_group_index
+    out += labels[i] * stride
+ValueError: operands could not be broadcast together with shapes (11500,) (11499,) (11500,) 
+
+2024-05-23 16:46:53,989 -INFO - All stocks - json file saved
+2024-05-23 16:46:53,989 -INFO - ADANIPORTS.NS - alerts file Saved
+2024-05-23 16:46:53,989 -INFO - ADANIPORTS.NS - Process function Ended
+2024-05-23 16:46:54,425 -INFO - Error : Traceback (most recent call last):
+  File "/Users/runner/work/line_breakouts/line_breakouts/two_line_pattern_detect_class.py", line 92, in save_excel_file
+    self.two_line_alert_df.drop_duplicates(subset=['stockname','date1','value1', 'date2','value2', 'buyORsell'], keep='first', inplace=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6818, in drop_duplicates
+    result = self[-self.duplicated(subset, keep=keep)]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6961, in duplicated
+    result = self._constructor_sliced(duplicated(ids, keep), index=self.index)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/series.py", line 575, in __init__
+    com.require_length_match(data, index)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/common.py", line 573, in require_length_match
+    raise ValueError(
+ValueError: Length of values (5960) does not match length of index (5956)
+
+2024-05-23 16:46:54,430 -INFO - All stocks - json file saved
+2024-05-23 16:46:54,430 -INFO - DIVISLAB.NS - alerts file Saved
+2024-05-23 16:46:54,430 -INFO - DIVISLAB.NS - Process function Ended
+2024-05-23 16:47:01,528 -INFO - Error in saving alerts file: Length of values (5957) does not match length of index (5956)
+2024-05-23 16:47:01,537 -INFO - Error : Traceback (most recent call last):
+  File "/Users/runner/work/line_breakouts/line_breakouts/two_line_pattern_detect_class.py", line 92, in save_excel_file
+    self.two_line_alert_df.drop_duplicates(subset=['stockname','date1','value1', 'date2','value2', 'buyORsell'], keep='first', inplace=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6818, in drop_duplicates
+    result = self[-self.duplicated(subset, keep=keep)]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6961, in duplicated
+    result = self._constructor_sliced(duplicated(ids, keep), index=self.index)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/series.py", line 575, in __init__
+    com.require_length_match(data, index)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/common.py", line 573, in require_length_match
+    raise ValueError(
+ValueError: Length of values (5957) does not match length of index (5956)
+
+2024-05-23 16:47:01,538 -INFO - All stocks - json file saved
+2024-05-23 16:47:01,538 -INFO - BAJAJ-AUTO.NS - alerts file Saved
+2024-05-23 16:47:01,538 -INFO - BAJAJ-AUTO.NS - Process function Ended
+2024-05-23 16:47:05,596 -INFO - Error in saving alerts file: operands could not be broadcast together with shapes (5957,) (5956,) (5957,) 
+2024-05-23 16:47:05,758 -INFO - Error : Traceback (most recent call last):
+  File "/Users/runner/work/line_breakouts/line_breakouts/two_line_pattern_detect_class.py", line 92, in save_excel_file
+    self.two_line_alert_df.drop_duplicates(subset=['stockname','date1','value1', 'date2','value2', 'buyORsell'], keep='first', inplace=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6818, in drop_duplicates
+    result = self[-self.duplicated(subset, keep=keep)]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6960, in duplicated
+    ids = get_group_index(labels, tuple(shape), sort=False, xnull=False)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/sorting.py", line 193, in get_group_index
+    out += labels[i] * stride
+ValueError: operands could not be broadcast together with shapes (5957,) (5956,) (5957,) 
+
+2024-05-23 16:47:05,848 -INFO - All stocks - json file saved
+2024-05-23 16:47:05,933 -INFO - WIPRO.NS - alerts file Saved
+2024-05-23 16:47:05,933 -INFO - WIPRO.NS - Process function Ended
+2024-05-23 16:48:13,120 -INFO - All stocks - Excel file Saved
+2024-05-23 16:48:13,173 -INFO - All stocks - json file saved
+2024-05-23 16:48:13,173 -INFO - ^NSEBANK - alerts file Saved
+2024-05-23 16:48:13,173 -INFO - ^NSEBANK - Process function Ended
+2024-05-23 16:48:14,959 -INFO - All stocks - Excel file Saved
+2024-05-23 16:48:14,959 -INFO - All stocks - json file saved
+2024-05-23 16:48:14,959 -INFO - NIFTY_FIN_SERVICE.NS - alerts file Saved
+2024-05-23 16:48:14,959 -INFO - NIFTY_FIN_SERVICE.NS - Process function Ended
+2024-05-23 16:48:15,033 -INFO - All stocks - Excel file Saved
+2024-05-23 16:48:15,034 -INFO - All stocks - json file saved
+2024-05-23 16:48:15,034 -INFO - BAJFINANCE.NS - alerts file Saved
+2024-05-23 16:48:15,034 -INFO - BAJFINANCE.NS - Process function Ended
+2024-05-23 16:48:15,050 -INFO - All stocks - Excel file Saved
+2024-05-23 16:48:15,051 -INFO - All stocks - json file saved
+2024-05-23 16:48:15,051 -INFO - ASIANPAINT.NS - alerts file Saved
+2024-05-23 16:48:15,051 -INFO - ASIANPAINT.NS - Process function Ended
+2024-05-23 16:48:15,333 -INFO - All stocks - Excel file Saved
+2024-05-23 16:48:15,333 -INFO - All stocks - json file saved
+2024-05-23 16:48:15,336 -INFO - COALINDIA.NS - alerts file Saved
+2024-05-23 16:48:15,336 -INFO - COALINDIA.NS - Process function Ended
+2024-05-23 16:48:15,357 -INFO - All stocks - Excel file Saved
+2024-05-23 16:48:15,357 -INFO - All stocks - json file saved
+2024-05-23 16:48:15,357 -INFO - BHARTIARTL.NS - alerts file Saved
+2024-05-23 16:48:15,357 -INFO - BHARTIARTL.NS - Process function Ended
+2024-05-23 16:48:15,472 -INFO - All stocks - Excel file Saved
+2024-05-23 16:48:15,556 -INFO - All stocks - json file saved
+2024-05-23 16:48:15,556 -INFO - APOLLOHOSP.NS - alerts file Saved
+2024-05-23 16:48:15,556 -INFO - APOLLOHOSP.NS - Process function Ended
+2024-05-23 16:48:15,892 -INFO - All stocks - Excel file Saved
+2024-05-23 16:48:15,895 -INFO - All stocks - json file saved
+2024-05-23 16:48:15,895 -INFO - ADANIENT.NS - alerts file Saved
+2024-05-23 16:48:15,895 -INFO - ADANIENT.NS - Process function Ended
+2024-05-23 16:48:15,918 -INFO - All stocks - Excel file Saved
+2024-05-23 16:48:15,922 -INFO - All stocks - json file saved
+2024-05-23 16:48:15,923 -INFO - BAJAJFINSV.NS - alerts file Saved
+2024-05-23 16:48:15,923 -INFO - BAJAJFINSV.NS - Process function Ended
+2024-05-23 16:48:15,928 -INFO - All stocks - Excel file Saved
+2024-05-23 16:48:15,943 -INFO - All stocks - json file saved
+2024-05-23 16:48:15,943 -INFO - DRREDDY.NS - alerts file Saved
+2024-05-23 16:48:15,943 -INFO - DRREDDY.NS - Process function Ended
+2024-05-23 16:48:15,954 -INFO - All stocks - Excel file Saved
+2024-05-23 16:48:15,956 -INFO - All stocks - json file saved
+2024-05-23 16:48:15,956 -INFO - CIPLA.NS - alerts file Saved
+2024-05-23 16:48:15,956 -INFO - CIPLA.NS - Process function Ended
+2024-05-23 16:48:15,998 -INFO - All stocks - Excel file Saved
+2024-05-23 16:48:16,001 -INFO - All stocks - json file saved
+2024-05-23 16:48:16,001 -INFO - M&M.NS - alerts file Saved
+2024-05-23 16:48:16,003 -INFO - M&M.NS - Process function Ended
+2024-05-23 16:48:16,021 -INFO - All stocks - Excel file Saved
+2024-05-23 16:48:16,024 -INFO - All stocks - Excel file Saved
+2024-05-23 16:48:16,024 -INFO - All stocks - json file saved
+2024-05-23 16:48:16,027 -INFO - ^NSEI - alerts file Saved
+2024-05-23 16:48:16,027 -INFO - ^NSEI - Process function Ended
+2024-05-23 16:48:16,033 -INFO - All stocks - json file saved
+2024-05-23 16:48:16,034 -INFO - EICHERMOT.NS - alerts file Saved
+2024-05-23 16:48:16,035 -INFO - EICHERMOT.NS - Process function Ended
+2024-05-23 16:48:16,082 -INFO - All stocks - Excel file Saved
+2024-05-23 16:48:16,082 -INFO - All stocks - Excel file Saved
+2024-05-23 16:48:16,083 -INFO - All stocks - json file saved
+2024-05-23 16:48:16,085 -INFO - HINDALCO.NS - alerts file Saved
+2024-05-23 16:48:16,085 -INFO - HINDALCO.NS - Process function Ended
+2024-05-23 16:48:16,088 -INFO - All stocks - json file saved
+2024-05-23 16:48:16,088 -INFO - BPCL.NS - alerts file Saved
+2024-05-23 16:48:16,088 -INFO - BPCL.NS - Process function Ended
+2024-05-23 16:48:16,568 -INFO - All stocks - Excel file Saved
+2024-05-23 16:48:16,573 -INFO - All stocks - json file saved
+2024-05-23 16:48:16,573 -INFO - BRITANNIA.NS - alerts file Saved
+2024-05-23 16:48:16,573 -INFO - BRITANNIA.NS - Process function Ended
+2024-05-23 16:48:19,682 -INFO - All stocks - Excel file Saved
+2024-05-23 16:48:19,687 -INFO - All stocks - json file saved
+2024-05-23 16:48:19,687 -INFO - TITAN.NS - alerts file Saved
+2024-05-23 16:48:19,687 -INFO - TITAN.NS - Process function Ended
+2024-05-23 16:48:45,798 -INFO - ULTRACEMCO.NS - last n two_line_structure function Ended
+2024-05-23 16:48:46,368 -INFO - ULTRACEMCO.NS - last n detect_structure function Ended
+2024-05-23 16:48:47,043 -INFO - HEROMOTOCO.NS - last n two_line_structure function Ended
+2024-05-23 16:48:47,049 -INFO - HEROMOTOCO.NS - last n detect_structure function Ended
+2024-05-23 16:48:56,786 -INFO - All stocks - Excel file Saved
+2024-05-23 16:48:56,787 -INFO - All stocks - json file saved
+2024-05-23 16:48:56,787 -INFO - ULTRACEMCO.NS - alerts file Saved
+2024-05-23 16:48:56,787 -INFO - ULTRACEMCO.NS - Process function Ended
+2024-05-23 16:48:56,794 -INFO - All stocks - Excel file Saved
+2024-05-23 16:48:56,794 -INFO - All stocks - json file saved
+2024-05-23 16:48:56,794 -INFO - HEROMOTOCO.NS - alerts file Saved
+2024-05-23 16:48:56,794 -INFO - HEROMOTOCO.NS - Process function Ended
+2024-05-23 16:49:01,613 -INFO - All stocks - Excel file Saved
+2024-05-23 16:49:01,613 -INFO - All stocks - json file saved
+2024-05-23 16:49:06,309 -INFO - All stocks - Excel file Saved
+2024-05-23 16:49:06,310 -INFO - All stocks - json file saved
+2024-05-23 16:49:06,310 -INFO - 0 - 25 - Stock threading ended ....
+2024-05-23 16:49:10,713 -INFO - SBILIFE.NS - Process function started
+2024-05-23 16:49:10,713 -INFO - TCS.NS - Process function started
+2024-05-23 16:49:10,713 -INFO - SBILIFE.NS - Reading existing data...
+2024-05-23 16:49:10,713 -INFO - HINDUNILVR.NS - Process function started
+2024-05-23 16:49:10,713 -INFO - TCS.NS - Reading existing data...
+2024-05-23 16:49:10,713 -INFO - TATACONSUM.NS - Process function started
+2024-05-23 16:49:10,714 -INFO - ONGC.NS - Process function started
+2024-05-23 16:49:10,714 -INFO - HINDUNILVR.NS - Reading existing data...
+2024-05-23 16:49:10,714 -INFO - TATASTEEL.NS - Process function started
+2024-05-23 16:49:10,714 -INFO - TATACONSUM.NS - Reading existing data...
+2024-05-23 16:49:10,714 -INFO - GRASIM.NS - Process function started
+2024-05-23 16:49:10,714 -INFO - ONGC.NS - Reading existing data...
+2024-05-23 16:49:10,714 -INFO - TECHM.NS - Process function started
+2024-05-23 16:49:10,715 -INFO - HDFCBANK.NS - Process function started
+2024-05-23 16:49:10,715 -INFO - TATASTEEL.NS - Reading existing data...
+2024-05-23 16:49:10,715 -INFO - SUNPHARMA.NS - Process function started
+2024-05-23 16:49:10,715 -INFO - GRASIM.NS - Reading existing data...
+2024-05-23 16:49:10,715 -INFO - NTPC.NS - Process function started
+2024-05-23 16:49:10,715 -INFO - NESTLEIND.NS - Process function started
+2024-05-23 16:49:10,715 -INFO - AXISBANK.NS - Process function started
+2024-05-23 16:49:10,716 -INFO - TECHM.NS - Reading existing data...
+2024-05-23 16:49:10,716 -INFO - LTIM.NS - Process function started
+2024-05-23 16:49:10,716 -INFO - HCLTECH.NS - Process function started
+2024-05-23 16:49:10,716 -INFO - HDFCBANK.NS - Reading existing data...
+2024-05-23 16:49:10,716 -INFO - HDFCLIFE.NS - Process function started
+2024-05-23 16:49:10,717 -INFO - SUNPHARMA.NS - Reading existing data...
+2024-05-23 16:49:10,718 -INFO - NTPC.NS - Reading existing data...
+2024-05-23 16:49:10,718 -INFO - MARUTI.NS - Process function started
+2024-05-23 16:49:10,718 -INFO - NESTLEIND.NS - Reading existing data...
+2024-05-23 16:49:10,719 -INFO - AXISBANK.NS - Reading existing data...
+2024-05-23 16:49:10,719 -INFO - INFY.NS - Process function started
+2024-05-23 16:49:10,719 -INFO - TATAMOTORS.NS - Process function started
+2024-05-23 16:49:10,719 -INFO - KOTAKBANK.NS - Process function started
+2024-05-23 16:49:10,720 -INFO - JSWSTEEL.NS - Process function started
+2024-05-23 16:49:10,720 -INFO - LTIM.NS - Reading existing data...
+2024-05-23 16:49:10,720 -INFO - LT.NS - Process function started
+2024-05-23 16:49:10,720 -INFO - HCLTECH.NS - Reading existing data...
+2024-05-23 16:49:10,721 -INFO - HDFCLIFE.NS - Reading existing data...
+2024-05-23 16:49:10,722 -INFO - ITC.NS - Process function started
+2024-05-23 16:49:10,722 -INFO - UPL.NS - Process function started
+2024-05-23 16:49:10,723 -INFO - MARUTI.NS - Reading existing data...
+2024-05-23 16:49:10,723 -INFO - POWERGRID.NS - Process function started
+2024-05-23 16:49:10,725 -INFO - INFY.NS - Reading existing data...
+2024-05-23 16:49:10,725 -INFO - TATAMOTORS.NS - Reading existing data...
+2024-05-23 16:49:10,725 -INFO - KOTAKBANK.NS - Reading existing data...
+2024-05-23 16:49:10,726 -INFO - JSWSTEEL.NS - Reading existing data...
+2024-05-23 16:49:10,749 -INFO - LT.NS - Reading existing data...
+2024-05-23 16:49:10,833 -INFO - ITC.NS - Reading existing data...
+2024-05-23 16:49:10,833 -INFO - UPL.NS - Reading existing data...
+2024-05-23 16:49:10,834 -INFO - POWERGRID.NS - Reading existing data...
+2024-05-23 16:49:13,680 -INFO - last n isPivot function started
+2024-05-23 16:49:15,006 -INFO - last n isPivot function started
+2024-05-23 16:49:16,029 -INFO - last n isPivot function Ended
+2024-05-23 16:49:16,069 -INFO - GRASIM.NS - last n detect_structure function started
+2024-05-23 16:49:16,073 -INFO - last n isPivot function Ended
+2024-05-23 16:49:16,073 -INFO - GRASIM.NS - last n two_line_structure function started
+2024-05-23 16:49:16,283 -INFO - last n isPivot function started
+2024-05-23 16:49:16,365 -INFO - HINDUNILVR.NS - last n detect_structure function started
+2024-05-23 16:49:16,895 -INFO - HINDUNILVR.NS - last n two_line_structure function started
+2024-05-23 16:49:18,645 -INFO - last n isPivot function Ended
+2024-05-23 16:49:18,718 -INFO - ONGC.NS - last n detect_structure function started
+2024-05-23 16:49:18,836 -INFO - ONGC.NS - last n two_line_structure function started
+2024-05-23 16:49:26,305 -INFO - last n isPivot function started
+2024-05-23 16:49:27,968 -INFO - last n isPivot function Ended
+2024-05-23 16:49:27,968 -INFO - LT.NS - last n detect_structure function started
+2024-05-23 16:49:28,614 -INFO - LT.NS - last n two_line_structure function started
+2024-05-23 16:49:29,841 -INFO - last n isPivot function started
+2024-05-23 16:49:32,552 -INFO - last n isPivot function Ended
+2024-05-23 16:49:32,552 -INFO - AXISBANK.NS - last n detect_structure function started
+2024-05-23 16:49:32,798 -INFO - AXISBANK.NS - last n two_line_structure function started
+2024-05-23 16:49:40,647 -INFO - Error in saving alerts file: Length of values (11506) does not match length of index (11504)
+2024-05-23 16:49:40,648 -INFO - Error : Traceback (most recent call last):
+  File "/Users/runner/work/line_breakouts/line_breakouts/two_line_pattern_detect_class.py", line 91, in save_excel_file
+    self.three_line_alert_df.drop_duplicates(subset=['stockname','date1','value1', 'date2', 'value2', 'date3', 'value3', 'buyORsell'], keep='first', inplace=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6818, in drop_duplicates
+    result = self[-self.duplicated(subset, keep=keep)]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6961, in duplicated
+    result = self._constructor_sliced(duplicated(ids, keep), index=self.index)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/series.py", line 575, in __init__
+    com.require_length_match(data, index)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/common.py", line 573, in require_length_match
+    raise ValueError(
+ValueError: Length of values (11506) does not match length of index (11504)
+
+2024-05-23 16:49:40,649 -INFO - All stocks - json file saved
+2024-05-23 16:49:40,649 -INFO - NESTLEIND.NS - alerts file Saved
+2024-05-23 16:49:40,649 -INFO - NESTLEIND.NS - Process function Ended
+2024-05-23 16:49:40,860 -INFO - Error in saving alerts file: Length of values (5973) does not match length of index (5957)
+2024-05-23 16:49:41,600 -INFO - Error in saving alerts file: Length of values (5973) does not match length of index (5957)
+2024-05-23 16:49:41,672 -INFO - Error : Traceback (most recent call last):
+  File "/Users/runner/work/line_breakouts/line_breakouts/two_line_pattern_detect_class.py", line 92, in save_excel_file
+    self.two_line_alert_df.drop_duplicates(subset=['stockname','date1','value1', 'date2','value2', 'buyORsell'], keep='first', inplace=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6818, in drop_duplicates
+    result = self[-self.duplicated(subset, keep=keep)]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6961, in duplicated
+    result = self._constructor_sliced(duplicated(ids, keep), index=self.index)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/series.py", line 575, in __init__
+    com.require_length_match(data, index)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/common.py", line 573, in require_length_match
+    raise ValueError(
+ValueError: Length of values (5973) does not match length of index (5957)
+
+2024-05-23 16:49:41,795 -INFO - Error : Traceback (most recent call last):
+  File "/Users/runner/work/line_breakouts/line_breakouts/two_line_pattern_detect_class.py", line 92, in save_excel_file
+    self.two_line_alert_df.drop_duplicates(subset=['stockname','date1','value1', 'date2','value2', 'buyORsell'], keep='first', inplace=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6818, in drop_duplicates
+    result = self[-self.duplicated(subset, keep=keep)]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6961, in duplicated
+    result = self._constructor_sliced(duplicated(ids, keep), index=self.index)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/series.py", line 575, in __init__
+    com.require_length_match(data, index)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/common.py", line 573, in require_length_match
+    raise ValueError(
+ValueError: Length of values (5973) does not match length of index (5957)
+
+2024-05-23 16:49:42,038 -INFO - All stocks - json file saved
+2024-05-23 16:49:42,140 -INFO - POWERGRID.NS - alerts file Saved
+2024-05-23 16:49:42,140 -INFO - POWERGRID.NS - Process function Ended
+2024-05-23 16:49:42,334 -INFO - All stocks - json file saved
+2024-05-23 16:49:42,442 -INFO - MARUTI.NS - alerts file Saved
+2024-05-23 16:49:42,442 -INFO - MARUTI.NS - Process function Ended
+2024-05-23 16:49:44,139 -INFO - Error in saving alerts file: Length of values (11512) does not match length of index (11504)
+2024-05-23 16:49:44,372 -INFO - Error : Traceback (most recent call last):
+  File "/Users/runner/work/line_breakouts/line_breakouts/two_line_pattern_detect_class.py", line 91, in save_excel_file
+    self.three_line_alert_df.drop_duplicates(subset=['stockname','date1','value1', 'date2', 'value2', 'date3', 'value3', 'buyORsell'], keep='first', inplace=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6818, in drop_duplicates
+    result = self[-self.duplicated(subset, keep=keep)]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6961, in duplicated
+    result = self._constructor_sliced(duplicated(ids, keep), index=self.index)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/series.py", line 575, in __init__
+    com.require_length_match(data, index)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/common.py", line 573, in require_length_match
+    raise ValueError(
+ValueError: Length of values (11512) does not match length of index (11504)
+
+2024-05-23 16:49:44,737 -INFO - All stocks - json file saved
+2024-05-23 16:49:44,738 -INFO - TCS.NS - alerts file Saved
+2024-05-23 16:49:44,738 -INFO - TCS.NS - Process function Ended
+2024-05-23 16:49:49,609 -INFO - Error in saving alerts file: Length of values (11509) does not match length of index (11504)
+2024-05-23 16:49:49,698 -INFO - Error : Traceback (most recent call last):
+  File "/Users/runner/work/line_breakouts/line_breakouts/two_line_pattern_detect_class.py", line 91, in save_excel_file
+    self.three_line_alert_df.drop_duplicates(subset=['stockname','date1','value1', 'date2', 'value2', 'date3', 'value3', 'buyORsell'], keep='first', inplace=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6818, in drop_duplicates
+    result = self[-self.duplicated(subset, keep=keep)]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6961, in duplicated
+    result = self._constructor_sliced(duplicated(ids, keep), index=self.index)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/series.py", line 575, in __init__
+    com.require_length_match(data, index)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/common.py", line 573, in require_length_match
+    raise ValueError(
+ValueError: Length of values (11509) does not match length of index (11504)
+
+2024-05-23 16:49:49,699 -INFO - All stocks - json file saved
+2024-05-23 16:49:49,699 -INFO - SUNPHARMA.NS - alerts file Saved
+2024-05-23 16:49:49,699 -INFO - SUNPHARMA.NS - Process function Ended
+2024-05-23 16:49:51,020 -INFO - Error in saving alerts file: Length of values (5958) does not match length of index (5957)
+2024-05-23 16:49:51,337 -INFO - Error : Traceback (most recent call last):
+  File "/Users/runner/work/line_breakouts/line_breakouts/two_line_pattern_detect_class.py", line 92, in save_excel_file
+    self.two_line_alert_df.drop_duplicates(subset=['stockname','date1','value1', 'date2','value2', 'buyORsell'], keep='first', inplace=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6818, in drop_duplicates
+    result = self[-self.duplicated(subset, keep=keep)]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6961, in duplicated
+    result = self._constructor_sliced(duplicated(ids, keep), index=self.index)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/series.py", line 575, in __init__
+    com.require_length_match(data, index)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/common.py", line 573, in require_length_match
+    raise ValueError(
+ValueError: Length of values (5958) does not match length of index (5957)
+
+2024-05-23 16:49:51,688 -INFO - All stocks - json file saved
+2024-05-23 16:49:51,688 -INFO - UPL.NS - alerts file Saved
+2024-05-23 16:49:51,688 -INFO - UPL.NS - Process function Ended
+2024-05-23 16:50:50,677 -INFO - All stocks - Excel file Saved
+2024-05-23 16:50:50,677 -INFO - All stocks - json file saved
+2024-05-23 16:50:50,677 -INFO - JSWSTEEL.NS - alerts file Saved
+2024-05-23 16:50:50,680 -INFO - JSWSTEEL.NS - Process function Ended
+2024-05-23 16:50:50,912 -INFO - All stocks - Excel file Saved
+2024-05-23 16:50:50,934 -INFO - All stocks - Excel file Saved
+2024-05-23 16:50:50,974 -INFO - All stocks - json file saved
+2024-05-23 16:50:50,976 -INFO - All stocks - json file saved
+2024-05-23 16:50:50,983 -INFO - NTPC.NS - alerts file Saved
+2024-05-23 16:50:50,984 -INFO - SBILIFE.NS - alerts file Saved
+2024-05-23 16:50:51,083 -INFO - SBILIFE.NS - Process function Ended
+2024-05-23 16:50:50,985 -INFO - NTPC.NS - Process function Ended
+2024-05-23 16:50:51,171 -INFO - All stocks - Excel file Saved
+2024-05-23 16:50:51,210 -INFO - All stocks - json file saved
+2024-05-23 16:50:51,225 -INFO - HDFCLIFE.NS - alerts file Saved
+2024-05-23 16:50:51,225 -INFO - HDFCLIFE.NS - Process function Ended
+2024-05-23 16:50:51,365 -INFO - All stocks - Excel file Saved
+2024-05-23 16:50:51,366 -INFO - All stocks - json file saved
+2024-05-23 16:50:51,370 -INFO - LTIM.NS - alerts file Saved
+2024-05-23 16:50:51,371 -INFO - LTIM.NS - Process function Ended
+2024-05-23 16:50:51,443 -INFO - All stocks - Excel file Saved
+2024-05-23 16:50:51,455 -INFO - All stocks - json file saved
+2024-05-23 16:50:51,455 -INFO - INFY.NS - alerts file Saved
+2024-05-23 16:50:51,455 -INFO - INFY.NS - Process function Ended
+2024-05-23 16:50:55,243 -INFO - All stocks - Excel file Saved
+2024-05-23 16:50:55,251 -INFO - All stocks - json file saved
+2024-05-23 16:50:55,251 -INFO - TECHM.NS - alerts file Saved
+2024-05-23 16:50:55,251 -INFO - TECHM.NS - Process function Ended
+2024-05-23 16:50:55,306 -INFO - All stocks - Excel file Saved
+2024-05-23 16:50:55,348 -INFO - All stocks - json file saved
+2024-05-23 16:50:55,348 -INFO - HCLTECH.NS - alerts file Saved
+2024-05-23 16:50:55,348 -INFO - HCLTECH.NS - Process function Ended
+2024-05-23 16:50:55,593 -INFO - All stocks - Excel file Saved
+2024-05-23 16:50:55,613 -INFO - All stocks - json file saved
+2024-05-23 16:50:55,615 -INFO - TATACONSUM.NS - alerts file Saved
+2024-05-23 16:50:55,615 -INFO - TATACONSUM.NS - Process function Ended
+2024-05-23 16:50:56,407 -INFO - All stocks - Excel file Saved
+2024-05-23 16:50:56,425 -INFO - All stocks - json file saved
+2024-05-23 16:50:56,511 -INFO - KOTAKBANK.NS - alerts file Saved
+2024-05-23 16:50:56,595 -INFO - KOTAKBANK.NS - Process function Ended
+2024-05-23 16:50:57,243 -INFO - All stocks - Excel file Saved
+2024-05-23 16:50:57,279 -INFO - All stocks - json file saved
+2024-05-23 16:50:57,288 -INFO - ITC.NS - alerts file Saved
+2024-05-23 16:50:57,290 -INFO - ITC.NS - Process function Ended
+2024-05-23 16:50:57,389 -INFO - All stocks - Excel file Saved
+2024-05-23 16:50:57,397 -INFO - All stocks - json file saved
+2024-05-23 16:50:57,397 -INFO - HDFCBANK.NS - alerts file Saved
+2024-05-23 16:50:57,397 -INFO - HDFCBANK.NS - Process function Ended
+2024-05-23 16:50:57,555 -INFO - All stocks - Excel file Saved
+2024-05-23 16:50:57,585 -INFO - All stocks - json file saved
+2024-05-23 16:50:57,585 -INFO - TATASTEEL.NS - alerts file Saved
+2024-05-23 16:50:57,585 -INFO - TATASTEEL.NS - Process function Ended
+2024-05-23 16:50:59,257 -INFO - All stocks - Excel file Saved
+2024-05-23 16:50:59,271 -INFO - All stocks - json file saved
+2024-05-23 16:50:59,271 -INFO - TATAMOTORS.NS - alerts file Saved
+2024-05-23 16:50:59,271 -INFO - TATAMOTORS.NS - Process function Ended
+2024-05-23 16:52:25,489 -INFO - LT.NS - last n two_line_structure function Ended
+2024-05-23 16:52:27,579 -INFO - GRASIM.NS - last n two_line_structure function Ended
+2024-05-23 16:52:27,795 -INFO - LT.NS - last n detect_structure function Ended
+2024-05-23 16:52:28,826 -INFO - GRASIM.NS - last n detect_structure function Ended
+2024-05-23 16:52:45,874 -INFO - All stocks - Excel file Saved
+2024-05-23 16:52:45,876 -INFO - All stocks - Excel file Saved
+2024-05-23 16:52:45,879 -INFO - All stocks - json file saved
+2024-05-23 16:52:45,879 -INFO - GRASIM.NS - alerts file Saved
+2024-05-23 16:52:45,879 -INFO - GRASIM.NS - Process function Ended
+2024-05-23 16:52:45,881 -INFO - All stocks - json file saved
+2024-05-23 16:52:45,882 -INFO - LT.NS - alerts file Saved
+2024-05-23 16:52:45,882 -INFO - LT.NS - Process function Ended
+2024-05-23 16:52:48,680 -INFO - AXISBANK.NS - last n two_line_structure function Ended
+2024-05-23 16:52:50,027 -INFO - AXISBANK.NS - last n detect_structure function Ended
+2024-05-23 16:52:57,584 -INFO - ONGC.NS - last n two_line_structure function Ended
+2024-05-23 16:52:57,897 -INFO - HINDUNILVR.NS - last n two_line_structure function Ended
+2024-05-23 16:52:59,245 -INFO - ONGC.NS - last n detect_structure function Ended
+2024-05-23 16:53:00,112 -INFO - All stocks - Excel file Saved
+2024-05-23 16:53:00,114 -INFO - All stocks - json file saved
+2024-05-23 16:53:00,114 -INFO - AXISBANK.NS - alerts file Saved
+2024-05-23 16:53:00,114 -INFO - AXISBANK.NS - Process function Ended
+2024-05-23 16:53:00,155 -INFO - HINDUNILVR.NS - last n detect_structure function Ended
+2024-05-23 16:53:10,063 -INFO - All stocks - Excel file Saved
+2024-05-23 16:53:10,064 -INFO - All stocks - json file saved
+2024-05-23 16:53:10,064 -INFO - ONGC.NS - alerts file Saved
+2024-05-23 16:53:10,064 -INFO - ONGC.NS - Process function Ended
+2024-05-23 16:53:10,083 -INFO - All stocks - Excel file Saved
+2024-05-23 16:53:10,083 -INFO - All stocks - json file saved
+2024-05-23 16:53:10,083 -INFO - HINDUNILVR.NS - alerts file Saved
+2024-05-23 16:53:10,083 -INFO - HINDUNILVR.NS - Process function Ended
+2024-05-23 16:53:14,803 -INFO - All stocks - Excel file Saved
+2024-05-23 16:53:14,803 -INFO - All stocks - json file saved
+2024-05-23 16:53:19,557 -INFO - All stocks - Excel file Saved
+2024-05-23 16:53:19,557 -INFO - All stocks - json file saved
+2024-05-23 16:53:19,557 -INFO - 25 - 50 - Stock threading ended ....
+2024-05-23 16:53:23,763 -INFO - BANKBARODA.NS - Process function started
+2024-05-23 16:53:23,763 -INFO - GAIL.NS - Process function started
+2024-05-23 16:53:23,763 -INFO - BANKBARODA.NS - Reading existing data...
+2024-05-23 16:53:23,763 -INFO - GAIL.NS - Reading existing data...
+2024-05-23 16:53:23,763 -INFO - TORNTPHARM.NS - Process function started
+2024-05-23 16:53:23,763 -INFO - SBIN.NS - Process function started
+2024-05-23 16:53:23,763 -INFO - BEL.NS - Process function started
+2024-05-23 16:53:23,764 -INFO - MARICO.NS - Process function started
+2024-05-23 16:53:23,764 -INFO - IRCTC.NS - Process function started
+2024-05-23 16:53:23,764 -INFO - ZYDUSLIFE.NS - Process function started
+2024-05-23 16:53:23,764 -INFO - TORNTPHARM.NS - Reading existing data...
+2024-05-23 16:53:23,764 -INFO - SBIN.NS - Reading existing data...
+2024-05-23 16:53:23,764 -INFO - FEDERALBNK.NS - Process function started
+2024-05-23 16:53:23,764 -INFO - BEL.NS - Reading existing data...
+2024-05-23 16:53:23,765 -INFO - JINDALSTEL.NS - Process function started
+2024-05-23 16:53:23,765 -INFO - MARICO.NS - Reading existing data...
+2024-05-23 16:53:23,765 -INFO - BERGEPAINT.NS - Process function started
+2024-05-23 16:53:23,765 -INFO - ICICIBANK.NS - Process function started
+2024-05-23 16:53:23,765 -INFO - IRCTC.NS - Reading existing data...
+2024-05-23 16:53:23,765 -INFO - AUBANK.NS - Process function started
+2024-05-23 16:53:23,765 -INFO - SHRIRAMFIN.NS - Process function started
+2024-05-23 16:53:23,765 -INFO - ZYDUSLIFE.NS - Reading existing data...
+2024-05-23 16:53:23,765 -INFO - BANDHANBNK.NS - Process function started
+2024-05-23 16:53:23,765 -INFO - CANBK.NS - Process function started
+2024-05-23 16:53:23,765 -INFO - IDFCFIRSTB.NS - Process function started
+2024-05-23 16:53:23,766 -INFO - INDIGO.NS - Process function started
+2024-05-23 16:53:23,766 -INFO - INDUSINDBK.NS - Process function started
+2024-05-23 16:53:23,766 -INFO - AMBUJACEM.NS - Process function started
+2024-05-23 16:53:23,766 -INFO - FEDERALBNK.NS - Reading existing data...
+2024-05-23 16:53:23,766 -INFO - HAL.NS - Process function started
+2024-05-23 16:53:23,768 -INFO - CHOLAFIN.NS - Process function started
+2024-05-23 16:53:23,768 -INFO - PNB.NS - Process function started
+2024-05-23 16:53:23,768 -INFO - JINDALSTEL.NS - Reading existing data...
+2024-05-23 16:53:23,769 -INFO - MCDOWELL-N.NS - Process function started
+2024-05-23 16:53:23,769 -INFO - MUTHOOTFIN.NS - Process function started
+2024-05-23 16:53:23,770 -INFO - BERGEPAINT.NS - Reading existing data...
+2024-05-23 16:53:23,770 -INFO - ICICIBANK.NS - Reading existing data...
+2024-05-23 16:53:23,772 -INFO - AUBANK.NS - Reading existing data...
+2024-05-23 16:53:23,772 -INFO - SHRIRAMFIN.NS - Reading existing data...
+2024-05-23 16:53:23,773 -INFO - BANDHANBNK.NS - Reading existing data...
+2024-05-23 16:53:23,773 -INFO - CANBK.NS - Reading existing data...
+2024-05-23 16:53:23,780 -INFO - IDFCFIRSTB.NS - Reading existing data...
+2024-05-23 16:53:23,781 -INFO - INDIGO.NS - Reading existing data...
+2024-05-23 16:53:23,781 -INFO - INDUSINDBK.NS - Reading existing data...
+2024-05-23 16:53:23,781 -INFO - AMBUJACEM.NS - Reading existing data...
+2024-05-23 16:53:23,793 -INFO - HAL.NS - Reading existing data...
+2024-05-23 16:53:23,831 -INFO - CHOLAFIN.NS - Reading existing data...
+2024-05-23 16:53:23,831 -INFO - PNB.NS - Reading existing data...
+2024-05-23 16:53:23,844 -INFO - MCDOWELL-N.NS - Reading existing data...
+2024-05-23 16:53:23,845 -INFO - MUTHOOTFIN.NS - Reading existing data...
+2024-05-23 16:55:23,613 -INFO - All stocks - Excel file Saved
+2024-05-23 16:55:24,652 -INFO - All stocks - json file saved
+2024-05-23 16:55:24,652 -INFO - BANDHANBNK.NS - alerts file Saved
+2024-05-23 16:55:25,003 -INFO - BANDHANBNK.NS - Process function Ended
+2024-05-23 16:55:25,878 -INFO - All stocks - Excel file Saved
+2024-05-23 16:55:25,898 -INFO - All stocks - json file saved
+2024-05-23 16:55:25,898 -INFO - INDIGO.NS - alerts file Saved
+2024-05-23 16:55:25,898 -INFO - INDIGO.NS - Process function Ended
+2024-05-23 16:55:25,923 -INFO - All stocks - Excel file Saved
+2024-05-23 16:55:25,923 -INFO - All stocks - json file saved
+2024-05-23 16:55:25,923 -INFO - IRCTC.NS - alerts file Saved
+2024-05-23 16:55:25,923 -INFO - IRCTC.NS - Process function Ended
+2024-05-23 16:55:26,179 -INFO - All stocks - Excel file Saved
+2024-05-23 16:55:26,241 -INFO - All stocks - Excel file Saved
+2024-05-23 16:55:26,241 -INFO - All stocks - json file saved
+2024-05-23 16:55:26,241 -INFO - MUTHOOTFIN.NS - alerts file Saved
+2024-05-23 16:55:26,241 -INFO - MUTHOOTFIN.NS - Process function Ended
+2024-05-23 16:55:26,251 -INFO - All stocks - json file saved
+2024-05-23 16:55:26,251 -INFO - BANKBARODA.NS - alerts file Saved
+2024-05-23 16:55:26,251 -INFO - BANKBARODA.NS - Process function Ended
+2024-05-23 16:55:26,257 -INFO - All stocks - Excel file Saved
+2024-05-23 16:55:26,257 -INFO - All stocks - json file saved
+2024-05-23 16:55:26,257 -INFO - ICICIBANK.NS - alerts file Saved
+2024-05-23 16:55:26,257 -INFO - ICICIBANK.NS - Process function Ended
+2024-05-23 16:55:26,555 -INFO - All stocks - Excel file Saved
+2024-05-23 16:55:26,599 -INFO - All stocks - json file saved
+2024-05-23 16:55:26,599 -INFO - IDFCFIRSTB.NS - alerts file Saved
+2024-05-23 16:55:26,599 -INFO - IDFCFIRSTB.NS - Process function Ended
+2024-05-23 16:55:27,008 -INFO - All stocks - Excel file Saved
+2024-05-23 16:55:27,009 -INFO - All stocks - json file saved
+2024-05-23 16:55:27,020 -INFO - BEL.NS - alerts file Saved
+2024-05-23 16:55:27,020 -INFO - BEL.NS - Process function Ended
+2024-05-23 16:55:27,032 -INFO - All stocks - Excel file Saved
+2024-05-23 16:55:27,039 -INFO - All stocks - json file saved
+2024-05-23 16:55:27,039 -INFO - HAL.NS - alerts file Saved
+2024-05-23 16:55:27,039 -INFO - HAL.NS - Process function Ended
+2024-05-23 16:55:27,039 -INFO - All stocks - Excel file Saved
+2024-05-23 16:55:27,039 -INFO - All stocks - json file saved
+2024-05-23 16:55:27,039 -INFO - MARICO.NS - alerts file Saved
+2024-05-23 16:55:27,039 -INFO - MARICO.NS - Process function Ended
+2024-05-23 16:55:27,818 -INFO - All stocks - Excel file Saved
+2024-05-23 16:55:27,818 -INFO - All stocks - json file saved
+2024-05-23 16:55:27,818 -INFO - AMBUJACEM.NS - alerts file Saved
+2024-05-23 16:55:27,818 -INFO - AMBUJACEM.NS - Process function Ended
+2024-05-23 16:55:29,572 -INFO - All stocks - Excel file Saved
+2024-05-23 16:55:29,599 -INFO - All stocks - json file saved
+2024-05-23 16:55:29,599 -INFO - JINDALSTEL.NS - alerts file Saved
+2024-05-23 16:55:29,599 -INFO - JINDALSTEL.NS - Process function Ended
+2024-05-23 16:55:31,043 -INFO - All stocks - Excel file Saved
+2024-05-23 16:55:31,239 -INFO - All stocks - json file saved
+2024-05-23 16:55:31,239 -INFO - CANBK.NS - alerts file Saved
+2024-05-23 16:55:31,240 -INFO - CANBK.NS - Process function Ended
+2024-05-23 16:55:32,122 -INFO - All stocks - Excel file Saved
+2024-05-23 16:55:32,122 -INFO - All stocks - json file saved
+2024-05-23 16:55:32,122 -INFO - TORNTPHARM.NS - alerts file Saved
+2024-05-23 16:55:32,122 -INFO - TORNTPHARM.NS - Process function Ended
+2024-05-23 16:55:32,214 -INFO - All stocks - Excel file Saved
+2024-05-23 16:55:32,216 -INFO - All stocks - json file saved
+2024-05-23 16:55:32,217 -INFO - AUBANK.NS - alerts file Saved
+2024-05-23 16:55:32,217 -INFO - AUBANK.NS - Process function Ended
+2024-05-23 16:55:32,539 -INFO - All stocks - Excel file Saved
+2024-05-23 16:55:32,539 -INFO - All stocks - json file saved
+2024-05-23 16:55:32,539 -INFO - ZYDUSLIFE.NS - alerts file Saved
+2024-05-23 16:55:32,539 -INFO - ZYDUSLIFE.NS - Process function Ended
+2024-05-23 16:55:33,841 -INFO - All stocks - Excel file Saved
+2024-05-23 16:55:33,841 -INFO - All stocks - json file saved
+2024-05-23 16:55:33,841 -INFO - INDUSINDBK.NS - alerts file Saved
+2024-05-23 16:55:33,841 -INFO - INDUSINDBK.NS - Process function Ended
+2024-05-23 16:55:33,843 -INFO - All stocks - Excel file Saved
+2024-05-23 16:55:33,843 -INFO - All stocks - json file saved
+2024-05-23 16:55:33,843 -INFO - PNB.NS - alerts file Saved
+2024-05-23 16:55:33,843 -INFO - PNB.NS - Process function Ended
+2024-05-23 16:55:33,843 -INFO - All stocks - Excel file Saved
+2024-05-23 16:55:33,845 -INFO - All stocks - json file saved
+2024-05-23 16:55:33,845 -INFO - GAIL.NS - alerts file Saved
+2024-05-23 16:55:33,845 -INFO - GAIL.NS - Process function Ended
+2024-05-23 16:55:33,848 -INFO - All stocks - Excel file Saved
+2024-05-23 16:55:33,849 -INFO - All stocks - json file saved
+2024-05-23 16:55:33,849 -INFO - MCDOWELL-N.NS - alerts file Saved
+2024-05-23 16:55:33,849 -INFO - MCDOWELL-N.NS - Process function Ended
+2024-05-23 16:55:33,857 -INFO - All stocks - Excel file Saved
+2024-05-23 16:55:33,857 -INFO - All stocks - json file saved
+2024-05-23 16:55:33,857 -INFO - CHOLAFIN.NS - alerts file Saved
+2024-05-23 16:55:33,857 -INFO - CHOLAFIN.NS - Process function Ended
+2024-05-23 16:55:33,857 -INFO - All stocks - Excel file Saved
+2024-05-23 16:55:33,860 -INFO - All stocks - json file saved
+2024-05-23 16:55:33,860 -INFO - SBIN.NS - alerts file Saved
+2024-05-23 16:55:33,860 -INFO - SBIN.NS - Process function Ended
+2024-05-23 16:55:33,861 -INFO - All stocks - Excel file Saved
+2024-05-23 16:55:33,861 -INFO - All stocks - json file saved
+2024-05-23 16:55:33,861 -INFO - BERGEPAINT.NS - alerts file Saved
+2024-05-23 16:55:33,861 -INFO - BERGEPAINT.NS - Process function Ended
+2024-05-23 16:55:33,895 -INFO - All stocks - Excel file Saved
+2024-05-23 16:55:33,895 -INFO - All stocks - json file saved
+2024-05-23 16:55:33,895 -INFO - FEDERALBNK.NS - alerts file Saved
+2024-05-23 16:55:33,895 -INFO - FEDERALBNK.NS - Process function Ended
+2024-05-23 16:55:33,899 -INFO - All stocks - Excel file Saved
+2024-05-23 16:55:33,899 -INFO - All stocks - json file saved
+2024-05-23 16:55:33,899 -INFO - SHRIRAMFIN.NS - alerts file Saved
+2024-05-23 16:55:33,899 -INFO - SHRIRAMFIN.NS - Process function Ended
+2024-05-23 16:55:38,814 -INFO - All stocks - Excel file Saved
+2024-05-23 16:55:38,814 -INFO - All stocks - json file saved
+2024-05-23 16:55:43,474 -INFO - All stocks - Excel file Saved
+2024-05-23 16:55:43,475 -INFO - All stocks - json file saved
+2024-05-23 16:55:43,475 -INFO - 50 - 75 - Stock threading ended ....
+2024-05-23 16:55:46,900 -INFO - DABUR.NS - Process function started
+2024-05-23 16:55:46,901 -INFO - GODREJCP.NS - Process function started
+2024-05-23 16:55:46,901 -INFO - DABUR.NS - Reading existing data...
+2024-05-23 16:55:46,901 -INFO - GODREJCP.NS - Reading existing data...
+2024-05-23 16:55:46,901 -INFO - SBICARD.NS - Process function started
+2024-05-23 16:55:46,901 -INFO - LICI.NS - Process function started
+2024-05-23 16:55:46,902 -INFO - SBICARD.NS - Reading existing data...
+2024-05-23 16:55:46,902 -INFO - TVSMOTOR.NS - Process function started
+2024-05-23 16:55:46,902 -INFO - LICI.NS - Reading existing data...
+2024-05-23 16:55:46,902 -INFO - SHREECEM.NS - Process function started
+2024-05-23 16:55:46,902 -INFO - BAJAJHLDNG.NS - Process function started
+2024-05-23 16:55:46,902 -INFO - TVSMOTOR.NS - Reading existing data...
+2024-05-23 16:55:46,902 -INFO - TATAPOWER.NS - Process function started
+2024-05-23 16:55:46,903 -INFO - ICICIGI.NS - Process function started
+2024-05-23 16:55:46,903 -INFO - PIIND.NS - Process function started
+2024-05-23 16:55:46,903 -INFO - SHREECEM.NS - Reading existing data...
+2024-05-23 16:55:46,903 -INFO - BAJAJHLDNG.NS - Reading existing data...
+2024-05-23 16:55:46,903 -INFO - ADANIENSOL.NS - Process function started
+2024-05-23 16:55:46,903 -INFO - DLF.NS - Process function started
+2024-05-23 16:55:46,905 -INFO - PIDILITIND.NS - Process function started
+2024-05-23 16:55:46,905 -INFO - TATAPOWER.NS - Reading existing data...
+2024-05-23 16:55:46,905 -INFO - ICICIGI.NS - Reading existing data...
+2024-05-23 16:55:46,905 -INFO - VEDL.NS - Process function started
+2024-05-23 16:55:46,906 -INFO - PIIND.NS - Reading existing data...
+2024-05-23 16:55:46,906 -INFO - SIEMENS.NS - Process function started
+2024-05-23 16:55:46,907 -INFO - ATGL.NS - Process function started
+2024-05-23 16:55:46,907 -INFO - DMART.NS - Process function started
+2024-05-23 16:55:46,907 -INFO - ADANIGREEN.NS - Process function started
+2024-05-23 16:55:46,907 -INFO - ADANIENSOL.NS - Reading existing data...
+2024-05-23 16:55:46,908 -INFO - MOTHERSON.NS - Process function started
+2024-05-23 16:55:46,908 -INFO - DLF.NS - Reading existing data...
+2024-05-23 16:55:46,909 -INFO - VBL.NS - Process function started
+2024-05-23 16:55:46,909 -INFO - PGHH.NS - Process function started
+2024-05-23 16:55:46,909 -INFO - AWL.NS - Process function started
+2024-05-23 16:55:46,909 -INFO - IOC.NS - Process function started
+2024-05-23 16:55:46,909 -INFO - PIDILITIND.NS - Reading existing data...
+2024-05-23 16:55:46,909 -INFO - ICICIPRULI.NS - Process function started
+2024-05-23 16:55:46,910 -INFO - ZOMATO.NS - Process function started
+2024-05-23 16:55:46,923 -INFO - SIEMENS.NS - Reading existing data...
+2024-05-23 16:55:46,923 -INFO - VEDL.NS - Reading existing data...
+2024-05-23 16:55:46,931 -INFO - ATGL.NS - Reading existing data...
+2024-05-23 16:55:46,931 -INFO - DMART.NS - Reading existing data...
+2024-05-23 16:55:46,933 -INFO - ADANIGREEN.NS - Reading existing data...
+2024-05-23 16:55:46,939 -INFO - MOTHERSON.NS - Reading existing data...
+2024-05-23 16:55:46,940 -INFO - VBL.NS - Reading existing data...
+2024-05-23 16:55:46,950 -INFO - PGHH.NS - Reading existing data...
+2024-05-23 16:55:46,959 -INFO - AWL.NS - Reading existing data...
+2024-05-23 16:55:46,977 -INFO - IOC.NS - Reading existing data...
+2024-05-23 16:55:47,028 -INFO - ICICIPRULI.NS - Reading existing data...
+2024-05-23 16:55:47,088 -INFO - ZOMATO.NS - Reading existing data...
+2024-05-23 16:56:01,203 -INFO - last n isPivot function started
+2024-05-23 16:56:03,076 -INFO - last n isPivot function Ended
+2024-05-23 16:56:03,076 -INFO - PIDILITIND.NS - last n detect_structure function started
+2024-05-23 16:56:03,081 -INFO - PIDILITIND.NS - last n two_line_structure function started
+2024-05-23 16:57:41,787 -INFO - All stocks - Excel file Saved
+2024-05-23 16:57:41,892 -INFO - All stocks - json file saved
+2024-05-23 16:57:41,892 -INFO - ATGL.NS - alerts file Saved
+2024-05-23 16:57:41,909 -INFO - ATGL.NS - Process function Ended
+2024-05-23 16:57:43,119 -INFO - All stocks - Excel file Saved
+2024-05-23 16:57:43,119 -INFO - All stocks - json file saved
+2024-05-23 16:57:43,119 -INFO - ZOMATO.NS - alerts file Saved
+2024-05-23 16:57:43,119 -INFO - ZOMATO.NS - Process function Ended
+2024-05-23 16:57:44,289 -INFO - All stocks - Excel file Saved
+2024-05-23 16:57:44,291 -INFO - All stocks - json file saved
+2024-05-23 16:57:44,291 -INFO - ADANIENSOL.NS - alerts file Saved
+2024-05-23 16:57:44,291 -INFO - ADANIENSOL.NS - Process function Ended
+2024-05-23 16:57:45,069 -INFO - All stocks - Excel file Saved
+2024-05-23 16:57:45,069 -INFO - All stocks - json file saved
+2024-05-23 16:57:45,069 -INFO - LICI.NS - alerts file Saved
+2024-05-23 16:57:45,069 -INFO - LICI.NS - Process function Ended
+2024-05-23 16:57:45,071 -INFO - All stocks - Excel file Saved
+2024-05-23 16:57:45,165 -INFO - All stocks - json file saved
+2024-05-23 16:57:45,165 -INFO - ADANIGREEN.NS - alerts file Saved
+2024-05-23 16:57:45,165 -INFO - ADANIGREEN.NS - Process function Ended
+2024-05-23 16:57:45,379 -INFO - All stocks - Excel file Saved
+2024-05-23 16:57:45,381 -INFO - All stocks - json file saved
+2024-05-23 16:57:45,381 -INFO - SBICARD.NS - alerts file Saved
+2024-05-23 16:57:45,381 -INFO - SBICARD.NS - Process function Ended
+2024-05-23 16:57:45,425 -INFO - All stocks - Excel file Saved
+2024-05-23 16:57:45,471 -INFO - All stocks - json file saved
+2024-05-23 16:57:45,471 -INFO - BAJAJHLDNG.NS - alerts file Saved
+2024-05-23 16:57:45,471 -INFO - BAJAJHLDNG.NS - Process function Ended
+2024-05-23 16:57:45,550 -INFO - All stocks - Excel file Saved
+2024-05-23 16:57:45,550 -INFO - All stocks - json file saved
+2024-05-23 16:57:45,550 -INFO - PGHH.NS - alerts file Saved
+2024-05-23 16:57:45,550 -INFO - PGHH.NS - Process function Ended
+2024-05-23 16:57:45,556 -INFO - All stocks - Excel file Saved
+2024-05-23 16:57:45,556 -INFO - All stocks - json file saved
+2024-05-23 16:57:45,557 -INFO - DABUR.NS - alerts file Saved
+2024-05-23 16:57:45,601 -INFO - DABUR.NS - Process function Ended
+2024-05-23 16:57:45,808 -INFO - All stocks - Excel file Saved
+2024-05-23 16:57:45,809 -INFO - All stocks - json file saved
+2024-05-23 16:57:45,809 -INFO - GODREJCP.NS - alerts file Saved
+2024-05-23 16:57:45,809 -INFO - GODREJCP.NS - Process function Ended
+2024-05-23 16:57:46,640 -INFO - All stocks - Excel file Saved
+2024-05-23 16:57:46,640 -INFO - All stocks - json file saved
+2024-05-23 16:57:46,640 -INFO - VBL.NS - alerts file Saved
+2024-05-23 16:57:46,647 -INFO - VBL.NS - Process function Ended
+2024-05-23 16:57:46,662 -INFO - All stocks - Excel file Saved
+2024-05-23 16:57:46,664 -INFO - All stocks - Excel file Saved
+2024-05-23 16:57:46,665 -INFO - All stocks - json file saved
+2024-05-23 16:57:46,665 -INFO - TVSMOTOR.NS - alerts file Saved
+2024-05-23 16:57:46,667 -INFO - TVSMOTOR.NS - Process function Ended
+2024-05-23 16:57:46,668 -INFO - All stocks - json file saved
+2024-05-23 16:57:46,668 -INFO - DLF.NS - alerts file Saved
+2024-05-23 16:57:46,668 -INFO - DLF.NS - Process function Ended
+2024-05-23 16:57:46,683 -INFO - All stocks - Excel file Saved
+2024-05-23 16:57:46,690 -INFO - All stocks - json file saved
+2024-05-23 16:57:46,690 -INFO - ICICIGI.NS - alerts file Saved
+2024-05-23 16:57:46,690 -INFO - ICICIGI.NS - Process function Ended
+2024-05-23 16:57:46,691 -INFO - All stocks - Excel file Saved
+2024-05-23 16:57:46,692 -INFO - All stocks - json file saved
+2024-05-23 16:57:46,692 -INFO - PIIND.NS - alerts file Saved
+2024-05-23 16:57:46,693 -INFO - PIIND.NS - Process function Ended
+2024-05-23 16:57:46,770 -INFO - All stocks - Excel file Saved
+2024-05-23 16:57:46,814 -INFO - All stocks - json file saved
+2024-05-23 16:57:46,814 -INFO - DMART.NS - alerts file Saved
+2024-05-23 16:57:46,903 -INFO - DMART.NS - Process function Ended
+2024-05-23 16:57:48,309 -INFO - All stocks - Excel file Saved
+2024-05-23 16:57:48,327 -INFO - All stocks - Excel file Saved
+2024-05-23 16:57:48,355 -INFO - All stocks - json file saved
+2024-05-23 16:57:48,355 -INFO - SIEMENS.NS - alerts file Saved
+2024-05-23 16:57:48,356 -INFO - SIEMENS.NS - Process function Ended
+2024-05-23 16:57:48,429 -INFO - All stocks - json file saved
+2024-05-23 16:57:48,429 -INFO - SHREECEM.NS - alerts file Saved
+2024-05-23 16:57:48,430 -INFO - SHREECEM.NS - Process function Ended
+2024-05-23 16:57:48,434 -INFO - All stocks - Excel file Saved
+2024-05-23 16:57:48,440 -INFO - All stocks - json file saved
+2024-05-23 16:57:48,440 -INFO - AWL.NS - alerts file Saved
+2024-05-23 16:57:48,440 -INFO - AWL.NS - Process function Ended
+2024-05-23 16:57:49,310 -INFO - All stocks - Excel file Saved
+2024-05-23 16:57:49,312 -INFO - All stocks - Excel file Saved
+2024-05-23 16:57:49,313 -INFO - All stocks - json file saved
+2024-05-23 16:57:49,313 -INFO - ICICIPRULI.NS - alerts file Saved
+2024-05-23 16:57:49,313 -INFO - ICICIPRULI.NS - Process function Ended
+2024-05-23 16:57:49,313 -INFO - All stocks - json file saved
+2024-05-23 16:57:49,313 -INFO - MOTHERSON.NS - alerts file Saved
+2024-05-23 16:57:49,313 -INFO - MOTHERSON.NS - Process function Ended
+2024-05-23 16:57:49,417 -INFO - All stocks - Excel file Saved
+2024-05-23 16:57:49,420 -INFO - All stocks - json file saved
+2024-05-23 16:57:49,423 -INFO - VEDL.NS - alerts file Saved
+2024-05-23 16:57:49,423 -INFO - VEDL.NS - Process function Ended
+2024-05-23 16:57:49,457 -INFO - All stocks - Excel file Saved
+2024-05-23 16:57:49,462 -INFO - All stocks - json file saved
+2024-05-23 16:57:49,462 -INFO - TATAPOWER.NS - alerts file Saved
+2024-05-23 16:57:49,462 -INFO - TATAPOWER.NS - Process function Ended
+2024-05-23 16:57:49,695 -INFO - All stocks - Excel file Saved
+2024-05-23 16:57:49,705 -INFO - All stocks - json file saved
+2024-05-23 16:57:49,705 -INFO - IOC.NS - alerts file Saved
+2024-05-23 16:57:49,705 -INFO - IOC.NS - Process function Ended
+2024-05-23 16:58:00,791 -INFO - PIDILITIND.NS - last n two_line_structure function Ended
+2024-05-23 16:58:00,807 -INFO - PIDILITIND.NS - last n detect_structure function Ended
+2024-05-23 16:58:06,189 -INFO - All stocks - Excel file Saved
+2024-05-23 16:58:06,189 -INFO - All stocks - json file saved
+2024-05-23 16:58:06,189 -INFO - PIDILITIND.NS - alerts file Saved
+2024-05-23 16:58:06,189 -INFO - PIDILITIND.NS - Process function Ended
+2024-05-23 16:58:10,937 -INFO - All stocks - Excel file Saved
+2024-05-23 16:58:10,937 -INFO - All stocks - json file saved
+2024-05-23 16:58:15,623 -INFO - All stocks - Excel file Saved
+2024-05-23 16:58:15,623 -INFO - All stocks - json file saved
+2024-05-23 16:58:15,623 -INFO - 75 - 100 - Stock threading ended ....
+2024-05-23 16:58:17,353 -ERROR - 
+1 Failed download:
+2024-05-23 16:58:17,354 -ERROR - ['^INDIAVIX']: YFInvalidPeriodError("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2024-05-23 16:58:17,500 -INFO - SRF.NS - Process function started
+2024-05-23 16:58:17,500 -INFO - SRF.NS - Reading existing data...
+2024-05-23 16:58:17,501 -INFO - BOSCHLTD.NS - Process function started
+2024-05-23 16:58:17,501 -INFO - ABB.NS - Process function started
+2024-05-23 16:58:17,501 -INFO - BOSCHLTD.NS - Reading existing data...
+2024-05-23 16:58:17,501 -INFO - ABB.NS - Reading existing data...
+2024-05-23 16:58:17,501 -INFO - NAUKRI.NS - Process function started
+2024-05-23 16:58:17,501 -INFO - HAVELLS.NS - Process function started
+2024-05-23 16:58:17,502 -INFO - NAUKRI.NS - Reading existing data...
+2024-05-23 16:58:17,502 -INFO - TRENT.NS - Process function started
+2024-05-23 16:58:17,502 -INFO - HAVELLS.NS - Reading existing data...
+2024-05-23 16:58:17,502 -INFO - COCHINSHIP.NS - Process function started
+2024-05-23 16:58:17,502 -INFO - TRENT.NS - Reading existing data...
+2024-05-23 16:58:17,502 -INFO - COLPAL.NS - Process function started
+2024-05-23 16:58:17,503 -INFO - COCHINSHIP.NS - Reading existing data...
+2024-05-23 16:58:17,503 -INFO - COLPAL.NS - Reading existing data...
+2024-05-23 16:58:56,049 -INFO - All stocks - Excel file Saved
+2024-05-23 16:58:56,049 -INFO - All stocks - json file saved
+2024-05-23 16:58:56,049 -INFO - NAUKRI.NS - alerts file Saved
+2024-05-23 16:58:56,049 -INFO - NAUKRI.NS - Process function Ended
+2024-05-23 16:58:56,893 -INFO - All stocks - Excel file Saved
+2024-05-23 16:58:56,894 -INFO - All stocks - json file saved
+2024-05-23 16:58:56,894 -INFO - COCHINSHIP.NS - alerts file Saved
+2024-05-23 16:58:56,894 -INFO - COCHINSHIP.NS - Process function Ended
+2024-05-23 16:58:57,347 -INFO - All stocks - Excel file Saved
+2024-05-23 16:58:57,347 -INFO - All stocks - json file saved
+2024-05-23 16:58:57,347 -INFO - COLPAL.NS - alerts file Saved
+2024-05-23 16:58:57,347 -INFO - COLPAL.NS - Process function Ended
+2024-05-23 16:58:58,797 -INFO - All stocks - Excel file Saved
+2024-05-23 16:58:58,797 -INFO - All stocks - json file saved
+2024-05-23 16:58:58,797 -INFO - BOSCHLTD.NS - alerts file Saved
+2024-05-23 16:58:58,797 -INFO - BOSCHLTD.NS - Process function Ended
+2024-05-23 16:58:58,814 -INFO - All stocks - Excel file Saved
+2024-05-23 16:58:58,814 -INFO - All stocks - json file saved
+2024-05-23 16:58:58,814 -INFO - SRF.NS - alerts file Saved
+2024-05-23 16:58:58,815 -INFO - SRF.NS - Process function Ended
+2024-05-23 16:58:58,825 -INFO - All stocks - Excel file Saved
+2024-05-23 16:58:58,825 -INFO - All stocks - json file saved
+2024-05-23 16:58:58,825 -INFO - HAVELLS.NS - alerts file Saved
+2024-05-23 16:58:58,825 -INFO - HAVELLS.NS - Process function Ended
+2024-05-23 16:58:58,840 -INFO - All stocks - Excel file Saved
+2024-05-23 16:58:58,840 -INFO - All stocks - json file saved
+2024-05-23 16:58:58,840 -INFO - ABB.NS - alerts file Saved
+2024-05-23 16:58:58,840 -INFO - ABB.NS - Process function Ended
+2024-05-23 16:58:58,846 -INFO - All stocks - Excel file Saved
+2024-05-23 16:58:58,846 -INFO - All stocks - json file saved
+2024-05-23 16:58:58,846 -INFO - TRENT.NS - alerts file Saved
+2024-05-23 16:58:58,846 -INFO - TRENT.NS - Process function Ended
+2024-05-23 16:59:03,649 -INFO - All stocks - Excel file Saved
+2024-05-23 16:59:03,649 -INFO - All stocks - json file saved
+2024-05-23 16:59:08,306 -INFO - All stocks - Excel file Saved
+2024-05-23 16:59:08,306 -INFO - All stocks - json file saved
+2024-05-23 16:59:08,306 -INFO - 100 - 109 - Stock threading ended ....
+2024-05-23 16:59:08,306 -INFO - 0 - time Completed 
+2024-05-23 16:59:08,306 -INFO - COCHINSHIP.NS - this stock already completed
+2024-05-23 16:59:13,107 -INFO - All stocks - Excel file Saved
+2024-05-23 16:59:13,107 -INFO - All stocks - json file saved
+2024-05-23 16:59:17,752 -INFO - All stocks - Excel file Saved
+2024-05-23 16:59:17,752 -INFO - All stocks - json file saved
+2024-05-23 16:59:17,752 -INFO - 108 - 109 - Stock threading ended ....
+2024-05-23 16:59:17,752 -INFO - 1 - time Completed 
+2024-05-23 16:59:17,752 -INFO - All sttock completed...
+2024-05-23 16:59:17,752 -INFO - Two itr Completed...Exit...
+2024-05-23 16:59:17,752 -INFO - Reset to default value..
+2024-05-23 16:59:22,439 -INFO - All stocks - Excel file Saved
+2024-05-23 16:59:22,439 -INFO - All stocks - json file saved
