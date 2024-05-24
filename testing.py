@@ -1,4 +1,4 @@
-import requests
+import requests 
 from datetime import datetime
 import pytz
 import threading
@@ -6,7 +6,7 @@ import logging
   
 def setMessagefromTelegram(msg):
     bot_token = '6511501073:AAHbWvFY_dKcUQfKNGFODOeYK8PEUJ4vXPI'
-    chat_id = -4122105586
+    chat_id = -1002239276104
     ist = pytz.timezone('Asia/Kolkata')
     current_time = datetime.now(ist).strftime('%Y-%m-%d %H:%M:%S')
     msg_with_time = f'{msg} : {current_time}'
