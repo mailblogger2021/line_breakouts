@@ -536,13 +536,13 @@ if __name__=="__main__":
         is_history_starting_from,is_add_indicator=True,True
 
         thread_limit,total_rows = 25,len(stock_data)
-        thread_limit,total_rows = 25,5
+        # thread_limit,total_rows = 25,5
         threads = []
         pattern_detecter_obj = pattern_detecter(time_frame)
         stock_status = pattern_detecter_obj.data_store['completed']
         itr_completed,index = stock_status
         for itr in range(itr_completed,2):
-            total_rows += 5*itr
+            # total_rows += 5*itr
             for start_index in range(index, total_rows, thread_limit):
                 end_index = min(start_index + thread_limit, total_rows)
                 stock_name_list = []
@@ -564,7 +564,7 @@ if __name__=="__main__":
             else:
                 pattern_detecter_obj.data_store['completed'][0] +=1
                 logging.info(f"{itr} - time Completed ")
-                #break
+                # break
 
             end_time = time.time()
             elapsed_time = end_time - start_time
@@ -590,7 +590,7 @@ if __name__=="__main__":
                 os.makedirs(f"pdf_report/stock_not_tested/", exist_ok=True)
                 pdf_name = f'pdf_report/stock_not_tested/stock_not_tested_{time_frame}_{date_time}.pdf'
                 pdf.output(pdf_name, 'F')
-                telegram_message_send.send_message_with_documents(document_paths=[pdf_name],captions=[f"stock not tested {date_time}"])
+                telegram_message_send.send_message_with_documents(document_paths=[pdf_name],captions=[f"stock not tested {time_frame} {date_time}"])
 
             pattern_detecter_obj.data_store[time_frame] = []
             pattern_detecter_obj.data_store["completed"] = [0,0]
