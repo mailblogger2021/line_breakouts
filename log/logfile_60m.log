@@ -1586,3 +1586,99 @@ IndexError: single positional indexer is out-of-bounds
 2024-05-24 01:08:06,398 -INFO - Message sent successfully! - 
 2024-05-24 01:08:13,260 -INFO - All stocks - Excel file Saved
 2024-05-24 01:08:13,261 -INFO - All stocks - json file saved
+2024-05-24 01:59:48,830 -INFO - Started...
+2024-05-24 01:59:52,630 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-05-24 01:59:53,853 -ERROR - 
+1 Failed download:
+2024-05-24 01:59:53,853 -ERROR - ['^NSEI']: OperationalError('database is locked')
+2024-05-24 01:59:53,907 -INFO - ^NSEBANK - Process function started
+2024-05-24 01:59:53,908 -INFO - NIFTY_FIN_SERVICE.NS - Process function started
+2024-05-24 01:59:53,908 -INFO - ADANIENT.NS - Process function started
+2024-05-24 01:59:53,908 -INFO - ^NSEBANK - Reading existing data...
+2024-05-24 01:59:53,908 -INFO - NIFTY_FIN_SERVICE.NS - Reading existing data...
+2024-05-24 01:59:53,908 -INFO - ADANIENT.NS - Reading existing data...
+2024-05-24 01:59:53,908 -INFO - ADANIPORTS.NS - Process function started
+2024-05-24 01:59:53,909 -INFO - ADANIPORTS.NS - Reading existing data...
+2024-05-24 01:59:54,762 -INFO - NIFTY_FIN_SERVICE.NS - add_ph_pl_values function started
+2024-05-24 01:59:54,768 -INFO - NIFTY_FIN_SERVICE.NS - add_ph_pl_values function Ended
+2024-05-24 01:59:54,861 -INFO - ^NSEBANK - add_ph_pl_values function started
+2024-05-24 01:59:54,866 -INFO - ^NSEBANK - add_ph_pl_values function Ended
+2024-05-24 01:59:55,015 -INFO - ADANIPORTS.NS - add_ph_pl_values function started
+2024-05-24 01:59:55,194 -INFO - ADANIPORTS.NS - add_ph_pl_values function Ended
+2024-05-24 01:59:55,327 -INFO - ADANIENT.NS - add_ph_pl_values function started
+2024-05-24 01:59:55,436 -INFO - ADANIENT.NS - add_ph_pl_values function Ended
+2024-05-24 02:00:25,444 -INFO - All stocks - Excel file Saved
+2024-05-24 02:00:25,445 -INFO - All stocks - json file saved
+2024-05-24 02:00:25,445 -INFO - NIFTY_FIN_SERVICE.NS - alerts file Saved
+2024-05-24 02:00:25,445 -INFO - NIFTY_FIN_SERVICE.NS - Process function Ended
+2024-05-24 02:00:25,491 -INFO - All stocks - Excel file Saved
+2024-05-24 02:00:25,492 -INFO - All stocks - json file saved
+2024-05-24 02:00:25,492 -INFO - ^NSEBANK - alerts file Saved
+2024-05-24 02:00:25,492 -INFO - ^NSEBANK - Process function Ended
+2024-05-24 02:00:25,522 -INFO - All stocks - Excel file Saved
+2024-05-24 02:00:25,523 -INFO - All stocks - json file saved
+2024-05-24 02:00:25,523 -INFO - ADANIENT.NS - alerts file Saved
+2024-05-24 02:00:25,523 -INFO - ADANIENT.NS - Process function Ended
+2024-05-24 02:00:27,054 -INFO - All stocks - Excel file Saved
+2024-05-24 02:00:27,054 -INFO - All stocks - json file saved
+2024-05-24 02:00:27,054 -INFO - ADANIPORTS.NS - alerts file Saved
+2024-05-24 02:00:27,054 -INFO - ADANIPORTS.NS - Process function Ended
+2024-05-24 02:00:34,841 -INFO - All stocks - Excel file Saved
+2024-05-24 02:00:34,842 -INFO - All stocks - json file saved
+2024-05-24 02:00:42,744 -INFO - All stocks - Excel file Saved
+2024-05-24 02:00:42,744 -INFO - All stocks - json file saved
+2024-05-24 02:00:42,744 -INFO - 0 - 5 - Stock threading ended ....
+2024-05-24 02:00:42,744 -INFO - 0 - time Completed 
+2024-05-24 02:00:42,745 -INFO - ADANIPORTS.NS - this stock already completed
+2024-05-24 02:00:43,622 -INFO - ASIANPAINT.NS - Process function started
+2024-05-24 02:00:43,622 -INFO - APOLLOHOSP.NS - Process function started
+2024-05-24 02:00:43,622 -INFO - BAJAJFINSV.NS - Process function started
+2024-05-24 02:00:43,622 -INFO - ASIANPAINT.NS - Reading existing data...
+2024-05-24 02:00:43,622 -INFO - BAJFINANCE.NS - Process function started
+2024-05-24 02:00:43,622 -INFO - APOLLOHOSP.NS - Reading existing data...
+2024-05-24 02:00:43,622 -INFO - BAJAJFINSV.NS - Reading existing data...
+2024-05-24 02:00:43,623 -INFO - BAJAJ-AUTO.NS - Process function started
+2024-05-24 02:00:43,623 -INFO - BAJFINANCE.NS - Reading existing data...
+2024-05-24 02:00:43,623 -INFO - BAJAJ-AUTO.NS - Reading existing data...
+2024-05-24 02:00:44,069 -INFO - ASIANPAINT.NS - add_ph_pl_values function started
+2024-05-24 02:00:44,170 -INFO - ASIANPAINT.NS - add_ph_pl_values function Ended
+2024-05-24 02:00:45,024 -INFO - BAJAJFINSV.NS - add_ph_pl_values function started
+2024-05-24 02:00:45,044 -INFO - BAJAJFINSV.NS - add_ph_pl_values function Ended
+2024-05-24 02:00:45,351 -INFO - APOLLOHOSP.NS - add_ph_pl_values function started
+2024-05-24 02:00:45,380 -INFO - APOLLOHOSP.NS - add_ph_pl_values function Ended
+2024-05-24 02:00:45,537 -INFO - BAJFINANCE.NS - add_ph_pl_values function started
+2024-05-24 02:00:45,562 -INFO - BAJFINANCE.NS - add_ph_pl_values function Ended
+2024-05-24 02:00:45,920 -INFO - BAJAJ-AUTO.NS - add_ph_pl_values function started
+2024-05-24 02:00:46,101 -INFO - BAJAJ-AUTO.NS - add_ph_pl_values function Ended
+2024-05-24 02:01:23,669 -INFO - All stocks - Excel file Saved
+2024-05-24 02:01:23,670 -INFO - All stocks - json file saved
+2024-05-24 02:01:23,670 -INFO - APOLLOHOSP.NS - alerts file Saved
+2024-05-24 02:01:23,670 -INFO - APOLLOHOSP.NS - Process function Ended
+2024-05-24 02:01:23,681 -INFO - All stocks - Excel file Saved
+2024-05-24 02:01:23,681 -INFO - All stocks - json file saved
+2024-05-24 02:01:23,681 -INFO - ASIANPAINT.NS - alerts file Saved
+2024-05-24 02:01:23,681 -INFO - ASIANPAINT.NS - Process function Ended
+2024-05-24 02:01:23,718 -INFO - All stocks - Excel file Saved
+2024-05-24 02:01:23,719 -INFO - All stocks - json file saved
+2024-05-24 02:01:23,719 -INFO - BAJFINANCE.NS - alerts file Saved
+2024-05-24 02:01:23,719 -INFO - BAJFINANCE.NS - Process function Ended
+2024-05-24 02:01:23,773 -INFO - All stocks - Excel file Saved
+2024-05-24 02:01:23,774 -INFO - All stocks - json file saved
+2024-05-24 02:01:23,774 -INFO - BAJAJ-AUTO.NS - alerts file Saved
+2024-05-24 02:01:23,774 -INFO - BAJAJ-AUTO.NS - Process function Ended
+2024-05-24 02:01:23,798 -INFO - All stocks - Excel file Saved
+2024-05-24 02:01:23,799 -INFO - All stocks - json file saved
+2024-05-24 02:01:23,799 -INFO - BAJAJFINSV.NS - alerts file Saved
+2024-05-24 02:01:23,799 -INFO - BAJAJFINSV.NS - Process function Ended
+2024-05-24 02:01:31,865 -INFO - All stocks - Excel file Saved
+2024-05-24 02:01:31,866 -INFO - All stocks - json file saved
+2024-05-24 02:01:39,620 -INFO - All stocks - Excel file Saved
+2024-05-24 02:01:39,620 -INFO - All stocks - json file saved
+2024-05-24 02:01:39,620 -INFO - 4 - 10 - Stock threading ended ....
+2024-05-24 02:01:39,620 -INFO - 1 - time Completed 
+2024-05-24 02:01:39,621 -INFO - All sttock completed...
+2024-05-24 02:01:39,621 -INFO - Two itr Completed...Exit...
+2024-05-24 02:01:39,621 -INFO - Reset to default value..
+2024-05-24 02:01:40,987 -INFO - Message sent successfully! - 
+2024-05-24 02:01:49,024 -INFO - All stocks - Excel file Saved
+2024-05-24 02:01:49,024 -INFO - All stocks - json file saved
