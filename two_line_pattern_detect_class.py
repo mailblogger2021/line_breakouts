@@ -23,6 +23,7 @@ start_time = time.time()
 max_execution_time = 5*3600
 class pattern_detecter:
     def __init__(self, time_frame):
+        self.lock = threading.Lock()
 
         os.makedirs(f"excel/{time_frame}", exist_ok=True)
         os.makedirs(f"json/", exist_ok=True)
@@ -121,9 +122,11 @@ class pattern_detecter:
 
             self.three_line_alert_df.to_excel(self.three_line_file_name,index=False)
             self.two_line_alert_df.to_excel(self.two_line_file_name,index=False)
+            self.ph_pl_data_df.to_excel(self.ph_pl_data_file_name,index=False)
             
             self.three_line_alert_df.to_excel(self.three_line_file_name_backup,index=False)
             self.two_line_alert_df.to_excel(self.two_line_file_name_backup,index=False)
+            self.ph_pl_data_df.to_excel(self.ph_pl_data_file_name_backup,index=False)
             logging.info(f'All stocks - Excel file Saved')
         except Exception as e:
             logging.info(f"Error in saving alerts file: {e}")
@@ -145,23 +148,26 @@ class pattern_detecter:
 
     def add_ph_pl_values(self,stock_df, stock_name,number_of_datas=3):
         logging.info(f'{stock_name} - add_ph_pl_values function started')
-        if(not self.ph_pl_data_df.empty):
-            self.ph_pl_data_df = self.ph_pl_data_df[self.ph_pl_data_df['stockname'] != stock_name].copy()
-            
-        for pivot_value in [1,2]:    # high, low    
-            df = stock_df[stock_df['isPivot'] == pivot_value].tail(number_of_datas)  #high
-            new_data = {
-                "stockname" : stock_name,
-                "Datetime" : df["Datetime"],
-                "Open" : df["Open"],
-                "High" : df["High"],
-                "Low" : df["Low"],
-                "Close" : df["Close"],
-                "isPivot" : df["isPivot"],   
-            }
-            self.ph_pl_data_df = pd.concat([self.ph_pl_data_df,pd.DataFrame(new_data)])
-            self.ph_pl_data_df.drop_duplicates(inplace=True)
-        logging.info(f'{stock_name} - add_ph_pl_values function Ended')
+        with self.lock:
+            if(not self.ph_pl_data_df.empty):
+                self.ph_pl_data_df = self.ph_pl_data_df[self.ph_pl_data_df['stockname'] != stock_name].copy()
+                
+            for pivot_value in [1,2]:    # high, low    
+                df = stock_df[stock_df['isPivot'] == pivot_value].tail(number_of_datas)  #high
+                if df.empty:
+                    continue
+                new_data = {
+                    "stockname" : stock_name,
+                    "Datetime" : df["Datetime"],
+                    "Open" : df["Open"],
+                    "High" : df["High"],
+                    "Low" : df["Low"],
+                    "Close" : df["Close"],
+                    "isPivot" : df["isPivot"],   
+                }
+                self.ph_pl_data_df = pd.concat([self.ph_pl_data_df,pd.DataFrame(new_data)])
+                self.ph_pl_data_df.drop_duplicates(inplace=True)
+            logging.info(f'{stock_name} - add_ph_pl_values function Ended')
 
     def process_row(self,candles,stock_name,function_name,number_of_calls=0):
 
@@ -211,7 +217,6 @@ class pattern_detecter:
                     thread = threading.Thread(target=self.process_row, args=(stock_df, stock_name, function_name,number_of_calls))
                     threads.append(thread)
                     thread.start()
-                self.add_ph_pl_values(stock_df.copy(), stock_name,3)
                 for thread in threads:
                     thread.join()
             elif(number_of_calls != 0):
@@ -226,9 +231,9 @@ class pattern_detecter:
                     thread = threading.Thread(target=self.process_row, args=(stock_df, stock_name, function_name,number_of_calls))
                     threads.append(thread)
                     thread.start()
-                self.add_ph_pl_values(stock_df.copy(), stock_name,3)
                 for thread in threads:
                     thread.join()
+            self.add_ph_pl_values(stock_df.copy(), stock_name,3)
             self.data_store[self.time_frame].append(stock_name)
             stock_df.to_excel(file_name, index=False)
 
@@ -531,13 +536,13 @@ if __name__=="__main__":
         is_history_starting_from,is_add_indicator=True,True
 
         thread_limit,total_rows = 25,len(stock_data)
-        #thread_limit,total_rows = 25,5
+        thread_limit,total_rows = 25,5
         threads = []
         pattern_detecter_obj = pattern_detecter(time_frame)
         stock_status = pattern_detecter_obj.data_store['completed']
         itr_completed,index = stock_status
         for itr in range(itr_completed,2):
-            #total_rows += 5*itr
+            total_rows += 5*itr
             for start_index in range(index, total_rows, thread_limit):
                 end_index = min(start_index + thread_limit, total_rows)
                 stock_name_list = []
