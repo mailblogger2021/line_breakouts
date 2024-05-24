@@ -537,7 +537,7 @@ if __name__=="__main__":
         stock_status = pattern_detecter_obj.data_store['completed']
         itr_completed,index = stock_status
         for itr in range(itr_completed,2):
-            total_rows += 5*itr
+            #total_rows += 5*itr
             for start_index in range(index, total_rows, thread_limit):
                 end_index = min(start_index + thread_limit, total_rows)
                 stock_name_list = []
