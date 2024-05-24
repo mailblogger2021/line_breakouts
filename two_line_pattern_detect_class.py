@@ -22,7 +22,7 @@ import telegram_message_send
 start_time = time.time()
 max_execution_time = 5*3600
 class pattern_detecter:
-    def __init__(self, time_frame):
+    def __init__(self, time_frame,window):
         self.lock = threading.Lock()
 
         os.makedirs(f"excel/{time_frame}", exist_ok=True)
@@ -34,12 +34,12 @@ class pattern_detecter:
         logging.basicConfig(filename=f'log/logfile_{time_frame}.log',level=logging.INFO, format='%(asctime)s -%(levelname)s - %(message)s')
         logging.info(f"Started...")
 
-        self.window=10
         self.percentage = 1
         self.pivot_line_count  = 3
         self.two_line_count = 2
 
         self.time_frame = time_frame
+        self.window=window
         self.three_line_file_name = f"excel/{self.time_frame}/three_line_alerts_{self.time_frame}.xlsx"
         self.two_line_file_name = f"excel/{self.time_frame}/two_line_alerts_{self.time_frame}.xlsx"
         self.ph_pl_data_file_name =  f"excel/{self.time_frame}/ph_pl_data_{self.time_frame}.xlsx"
@@ -156,14 +156,18 @@ class pattern_detecter:
                 df = stock_df[stock_df['isPivot'] == pivot_value].tail(number_of_datas)  #high
                 if df.empty:
                     continue
+                phorplvalues = df.apply(lambda row: row['High'] if row['isPivot'] == 1 else row['Low'], axis=1)
+                highorlow = df['isPivot'].apply(lambda x: 'High' if x == 1 else 'Low')    
                 new_data = {
                     "stockname" : stock_name,
                     "Datetime" : df["Datetime"],
-                    "Open" : df["Open"],
+                    # "Open" : df["Open"],
                     "High" : df["High"],
                     "Low" : df["Low"],
                     "Close" : df["Close"],
-                    "isPivot" : df["isPivot"],   
+                    "isPivot" : df["isPivot"],
+                    "PHorPLValue" : phorplvalues.tolist(),
+                    # "HighorLow" : highorlow.tolist()
                 }
                 self.ph_pl_data_df = pd.concat([self.ph_pl_data_df,pd.DataFrame(new_data)])
                 self.ph_pl_data_df.drop_duplicates(inplace=True)
@@ -528,17 +532,20 @@ class pattern_detecter:
 
 if __name__=="__main__":
     try:
-        time_frame = "1d"
+        time_frame,window = "1d",10
         if len(sys.argv) >= 2:
             time_frame = sys.argv[1]
+            if len(sys.argv) >= 3:
+                window = sys.argv[2]
+
             
         stock_data = pd.read_excel("stock market names.xlsx",sheet_name='Stock_list')
         is_history_starting_from,is_add_indicator=True,True
 
         thread_limit,total_rows = 25,len(stock_data)
-        # thread_limit,total_rows = 25,5
+        thread_limit,total_rows = 25,10
         threads = []
-        pattern_detecter_obj = pattern_detecter(time_frame)
+        pattern_detecter_obj = pattern_detecter(time_frame,window)
         stock_status = pattern_detecter_obj.data_store['completed']
         itr_completed,index = stock_status
         for itr in range(itr_completed,2):
@@ -590,7 +597,9 @@ if __name__=="__main__":
                 os.makedirs(f"pdf_report/stock_not_tested/", exist_ok=True)
                 pdf_name = f'pdf_report/stock_not_tested/stock_not_tested_{time_frame}_{date_time}.pdf'
                 pdf.output(pdf_name, 'F')
-                telegram_message_send.send_message_with_documents(document_paths=[pdf_name],captions=[f"stock not tested {time_frame} {date_time}"])
+                telegram_message_send.send_message_with_documents( #message="stock not tested",
+                                                                  document_paths=[pdf_name],
+                                                                  captions=[f"stock not tested {time_frame} {date_time}"])
 
             pattern_detecter_obj.data_store[time_frame] = []
             pattern_detecter_obj.data_store["completed"] = [0,0]
