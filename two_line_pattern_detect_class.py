@@ -548,16 +548,21 @@ if __name__=="__main__":
         pattern_detecter_obj = pattern_detecter(time_frame,window)
         stock_status = pattern_detecter_obj.data_store['completed']
         itr_completed,index = stock_status
-        for itr in range(itr_completed,2):
+        all_stock_name_list = stock_data.iloc[:]['YFINANCE'].tolist()[:5]
+        thread_limit,total_rows = 25,len(all_stock_name_list)
+        # for itr in range(itr_completed,2):
+        itr = itr_completed
+        while(len(all_stock_name_list)>0 or itr <= 10):
             # total_rows += 5*itr
             for start_index in range(index, total_rows, thread_limit):
                 end_index = min(start_index + thread_limit, total_rows)
-                stock_name_list = []
+                thread_stock_name_list = []
                 for index in range(start_index, end_index):
-                    stock_name = stock_data.iloc[index]['YFINANCE']
-                    stock_name_list.append(stock_name)
+                    # stock_name = stock_data.iloc[index]['YFINANCE']
+                    stock_name = all_stock_name_list[index]
+                    thread_stock_name_list.append(stock_name)
                 # stock_name_list = ["DMART.NS"]
-                pattern_detecter_obj.generate_url_yfinance(stock_name_list,is_history_starting_from,is_add_indicator)
+                pattern_detecter_obj.generate_url_yfinance(thread_stock_name_list,is_history_starting_from,is_add_indicator)
                 pattern_detecter_obj.data_store['completed'][1] = end_index
                 pattern_detecter_obj.save_excel_file()
                 logging.info(f'{start_index} - {end_index} - Stock threading ended ....')
@@ -566,25 +571,31 @@ if __name__=="__main__":
                 elapsed_time = end_time - start_time
                 if elapsed_time > max_execution_time:
                     logging.info(f"Max time reached....")
+                    # telegram_message_send.send_message_with_documents(message=f"Max time reached..{ time_frame}")
                     break
 
             else:
                 pattern_detecter_obj.data_store['completed'][0] +=1
                 logging.info(f"{itr} - time Completed ")
                 # break
-
+            
+            all_stock_name_list = list(set(all_stock_name_list) - set(pattern_detecter_obj.data_store[time_frame]))
             end_time = time.time()
             elapsed_time = end_time - start_time
             if elapsed_time > max_execution_time:
                 logging.info(f"Max time reached....")
+                telegram_message_send.send_message_with_documents(message=f"Max time reached..{ time_frame} 
+                                                                  no. {len(all_stock_name_list)} pending stock")
                 break
+            
+            itr +=1
         else:
             logging.info(f"All sttock completed...")
-            logging.info(f"Two itr Completed...Exit...")
+            logging.info(f"After {itr} itr Completed...Exit...")
             logging.info(f"Reset to default value..")
 
-            stock_name_list = stock_data.iloc[:]['YFINANCE']
-            stock_not_tested = list(set(stock_name_list.tolist()) - set(pattern_detecter_obj.data_store[time_frame]))
+            # stock_name_list = stock_data.iloc[:]['YFINANCE']
+            stock_not_tested = list(set(all_stock_name_list) - set(pattern_detecter_obj.data_store[time_frame]))
             if stock_not_tested:
                 not_in_list_df = pd.DataFrame(stock_not_tested,columns=["Stocks"])
                 pdf = FPDF(unit='mm', format=(270, 297))
@@ -599,7 +610,7 @@ if __name__=="__main__":
                 pdf.output(pdf_name, 'F')
                 telegram_message_send.send_message_with_documents( #message="stock not tested",
                                                                   document_paths=[pdf_name],
-                                                                  captions=[f"stock not tested {time_frame} {date_time}"])
+                                                                  captions=[f"stock not tested -{len(stock_not_tested)} {time_frame}"])
 
             pattern_detecter_obj.data_store[time_frame] = []
             pattern_detecter_obj.data_store["completed"] = [0,0]
