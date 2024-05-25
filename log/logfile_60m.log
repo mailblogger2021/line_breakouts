@@ -5254,3 +5254,91 @@ ValueError: operands could not be broadcast together with shapes (22131,) (22111
 2024-05-24 16:49:13,376 -INFO - Message sent successfully! - 
 2024-05-24 16:49:24,402 -INFO - All stocks - Excel file Saved
 2024-05-24 16:49:24,402 -INFO - All stocks - json file saved
+2024-05-25 02:53:15,317 -INFO - Started...
+2024-05-25 02:53:20,634 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-05-25 02:53:20,634 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-05-25 02:53:22,580 -INFO - NIFTY_FIN_SERVICE.NS - Process function started
+2024-05-25 02:53:22,580 -INFO - ADANIPORTS.NS - Process function started
+2024-05-25 02:53:22,580 -INFO - ^NSEBANK - Process function started
+2024-05-25 02:53:22,580 -INFO - NIFTY_FIN_SERVICE.NS - Reading existing data...
+2024-05-25 02:53:22,580 -INFO - ADANIPORTS.NS - Reading existing data...
+2024-05-25 02:53:22,580 -INFO - ^NSEBANK - Reading existing data...
+2024-05-25 02:53:22,580 -INFO - ^NSEI - Process function started
+2024-05-25 02:53:22,580 -INFO - ADANIENT.NS - Process function started
+2024-05-25 02:53:22,581 -INFO - ^NSEI - Reading existing data...
+2024-05-25 02:53:22,581 -INFO - ADANIENT.NS - Reading existing data...
+2024-05-25 02:53:23,554 -INFO - last n isPivot function started
+2024-05-25 02:53:23,625 -INFO - last n isPivot function started
+2024-05-25 02:53:24,136 -INFO - last n isPivot function started
+2024-05-25 02:53:24,210 -INFO - last n isPivot function Ended
+2024-05-25 02:53:24,210 -INFO - ^NSEBANK - last n detect_structure function started
+2024-05-25 02:53:24,210 -INFO - ^NSEBANK - last n two_line_structure function started
+2024-05-25 02:53:24,340 -INFO - last n isPivot function started
+2024-05-25 02:53:24,718 -INFO - last n isPivot function Ended
+2024-05-25 02:53:24,718 -INFO - ^NSEI - last n detect_structure function started
+2024-05-25 02:53:24,722 -INFO - ^NSEI - last n two_line_structure function started
+2024-05-25 02:53:25,103 -INFO - last n isPivot function Ended
+2024-05-25 02:53:25,103 -INFO - ADANIENT.NS - last n detect_structure function started
+2024-05-25 02:53:25,106 -INFO - last n isPivot function Ended
+2024-05-25 02:53:25,106 -INFO - NIFTY_FIN_SERVICE.NS - last n detect_structure function started
+2024-05-25 02:53:25,109 -INFO - ADANIENT.NS - last n two_line_structure function started
+2024-05-25 02:53:25,111 -INFO - NIFTY_FIN_SERVICE.NS - last n two_line_structure function started
+2024-05-25 02:53:25,133 -INFO - last n isPivot function started
+2024-05-25 02:53:25,558 -INFO - last n isPivot function Ended
+2024-05-25 02:53:25,558 -INFO - ADANIPORTS.NS - last n detect_structure function started
+2024-05-25 02:53:25,559 -INFO - ADANIPORTS.NS - last n two_line_structure function started
+2024-05-25 02:54:13,809 -INFO - NIFTY_FIN_SERVICE.NS - last n two_line_structure function Ended
+2024-05-25 02:54:14,315 -INFO - ^NSEI - last n two_line_structure function Ended
+2024-05-25 02:54:14,788 -INFO - ^NSEBANK - last n two_line_structure function Ended
+2024-05-25 02:54:15,027 -INFO - ADANIENT.NS - last n two_line_structure function Ended
+2024-05-25 02:54:15,383 -INFO - ADANIPORTS.NS - last n two_line_structure function Ended
+2024-05-25 02:54:21,030 -INFO - ADANIENT.NS - last n detect_structure function Ended
+2024-05-25 02:54:21,032 -INFO - ADANIENT.NS - add_ph_pl_values function started
+2024-05-25 02:54:21,049 -INFO - ADANIENT.NS - add_ph_pl_values function Ended
+2024-05-25 02:54:21,912 -INFO - ^NSEI - last n detect_structure function Ended
+2024-05-25 02:54:21,913 -INFO - ^NSEI - add_ph_pl_values function started
+2024-05-25 02:54:21,942 -INFO - ^NSEI - add_ph_pl_values function Ended
+2024-05-25 02:54:29,984 -INFO - ADANIPORTS.NS - last n detect_structure function Ended
+2024-05-25 02:54:29,986 -INFO - ADANIPORTS.NS - add_ph_pl_values function started
+2024-05-25 02:54:29,996 -INFO - ADANIPORTS.NS - add_ph_pl_values function Ended
+2024-05-25 02:54:30,452 -INFO - NIFTY_FIN_SERVICE.NS - last n detect_structure function Ended
+2024-05-25 02:54:30,452 -INFO - NIFTY_FIN_SERVICE.NS - add_ph_pl_values function started
+2024-05-25 02:54:30,463 -INFO - NIFTY_FIN_SERVICE.NS - add_ph_pl_values function Ended
+2024-05-25 02:54:30,800 -INFO - ^NSEBANK - last n detect_structure function Ended
+2024-05-25 02:54:30,802 -INFO - ^NSEBANK - add_ph_pl_values function started
+2024-05-25 02:54:30,809 -INFO - ^NSEBANK - add_ph_pl_values function Ended
+2024-05-25 02:55:13,126 -INFO - All stocks - Excel file Saved
+2024-05-25 02:55:13,127 -INFO - All stocks - json file saved
+2024-05-25 02:55:13,127 -INFO - ADANIENT.NS - alerts file Saved
+2024-05-25 02:55:13,127 -INFO - ADANIENT.NS - Process function Ended
+2024-05-25 02:55:13,129 -INFO - All stocks - Excel file Saved
+2024-05-25 02:55:13,130 -INFO - All stocks - json file saved
+2024-05-25 02:55:13,130 -INFO - ^NSEI - alerts file Saved
+2024-05-25 02:55:13,130 -INFO - ^NSEI - Process function Ended
+2024-05-25 02:55:15,191 -INFO - All stocks - Excel file Saved
+2024-05-25 02:55:15,192 -INFO - All stocks - json file saved
+2024-05-25 02:55:15,192 -INFO - NIFTY_FIN_SERVICE.NS - alerts file Saved
+2024-05-25 02:55:15,192 -INFO - NIFTY_FIN_SERVICE.NS - Process function Ended
+2024-05-25 02:55:15,268 -INFO - All stocks - Excel file Saved
+2024-05-25 02:55:15,268 -INFO - All stocks - json file saved
+2024-05-25 02:55:15,268 -INFO - ADANIPORTS.NS - alerts file Saved
+2024-05-25 02:55:15,268 -INFO - ADANIPORTS.NS - Process function Ended
+2024-05-25 02:55:15,377 -INFO - All stocks - Excel file Saved
+2024-05-25 02:55:15,377 -INFO - All stocks - json file saved
+2024-05-25 02:55:15,377 -INFO - ^NSEBANK - alerts file Saved
+2024-05-25 02:55:15,377 -INFO - ^NSEBANK - Process function Ended
+2024-05-25 02:55:26,014 -INFO - All stocks - Excel file Saved
+2024-05-25 02:55:26,015 -INFO - All stocks - json file saved
+2024-05-25 02:55:36,622 -INFO - All stocks - Excel file Saved
+2024-05-25 02:55:36,622 -INFO - All stocks - json file saved
+2024-05-25 02:55:36,622 -INFO - 0 - 5 - Stock threading ended ....
+2024-05-25 02:55:36,622 -INFO - 0 - time Completed 
+2024-05-25 02:55:47,257 -INFO - All stocks - Excel file Saved
+2024-05-25 02:55:47,257 -INFO - All stocks - json file saved
+2024-05-25 02:55:47,257 -INFO - Error in main function: list index out of range
+2024-05-25 02:55:47,258 -INFO - Error : Traceback (most recent call last):
+  File "/Users/runner/work/line_breakouts/line_breakouts/two_line_pattern_detect_class.py", line 562, in <module>
+    stock_name = all_stock_name_list[index]
+                 ~~~~~~~~~~~~~~~~~~~^^^^^^^
+IndexError: list index out of range
+
