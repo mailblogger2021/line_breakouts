@@ -548,7 +548,7 @@ if __name__=="__main__":
         pattern_detecter_obj = pattern_detecter(time_frame,window)
         stock_status = pattern_detecter_obj.data_store['completed']
         itr_completed,index = stock_status
-        all_stock_name_list = stock_data.iloc[:]['YFINANCE'].tolist()[:5]
+        all_stock_name_list = stock_data.iloc[:]['YFINANCE'].tolist() [:5]
         thread_limit,total_rows = 25,len(all_stock_name_list)
         # for itr in range(itr_completed,2):
         itr = itr_completed
@@ -584,8 +584,8 @@ if __name__=="__main__":
             elapsed_time = end_time - start_time
             if elapsed_time > max_execution_time:
                 logging.info(f"Max time reached....")
-                telegram_message_send.send_message_with_documents(message=f"Max time reached..{ time_frame} 
-                                                                  no. {len(all_stock_name_list)} pending stock")
+                telegram_message_send.send_message_with_documents(message=f"""Max time reached..{ time_frame} 
+                                                                  no. {len(all_stock_name_list)} pending stock""")
                 break
             
             itr +=1
