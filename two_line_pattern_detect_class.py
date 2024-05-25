@@ -554,6 +554,7 @@ if __name__=="__main__":
         itr = itr_completed
         while(len(all_stock_name_list)>0 or itr <= 10):
             # total_rows += 5*itr
+            thread_limit,total_rows = 25,len(all_stock_name_list)
             for start_index in range(index, total_rows, thread_limit):
                 end_index = min(start_index + thread_limit, total_rows)
                 thread_stock_name_list = []
