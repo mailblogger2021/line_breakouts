@@ -5141,3 +5141,60 @@
 2024-05-24 15:51:28,128 -INFO - Message sent successfully! - 
 2024-05-24 15:51:28,234 -INFO - All stocks - Excel file Saved
 2024-05-24 15:51:28,234 -INFO - All stocks - json file saved
+2024-05-25 02:53:13,686 -INFO - Started...
+2024-05-25 02:53:13,731 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-05-25 02:53:14,138 -INFO - ^NSEI - Process function started
+2024-05-25 02:53:14,138 -INFO - ^NSEI - Reading existing data...
+2024-05-25 02:53:14,138 -INFO - ADANIENT.NS - Process function started
+2024-05-25 02:53:14,138 -INFO - ^NSEBANK - Process function started
+2024-05-25 02:53:14,138 -INFO - ADANIENT.NS - Reading existing data...
+2024-05-25 02:53:14,139 -INFO - NIFTY_FIN_SERVICE.NS - Process function started
+2024-05-25 02:53:14,139 -INFO - ^NSEBANK - Reading existing data...
+2024-05-25 02:53:14,139 -INFO - ADANIPORTS.NS - Process function started
+2024-05-25 02:53:14,139 -INFO - NIFTY_FIN_SERVICE.NS - Reading existing data...
+2024-05-25 02:53:14,139 -INFO - ADANIPORTS.NS - Reading existing data...
+2024-05-25 02:53:14,155 -INFO - ^NSEI - add_ph_pl_values function started
+2024-05-25 02:53:14,159 -INFO - ^NSEI - add_ph_pl_values function Ended
+2024-05-25 02:53:14,164 -INFO - NIFTY_FIN_SERVICE.NS - add_ph_pl_values function started
+2024-05-25 02:53:14,172 -INFO - ^NSEBANK - add_ph_pl_values function started
+2024-05-25 02:53:14,173 -INFO - NIFTY_FIN_SERVICE.NS - add_ph_pl_values function Ended
+2024-05-25 02:53:14,175 -INFO - ^NSEBANK - add_ph_pl_values function Ended
+2024-05-25 02:53:14,182 -INFO - ADANIPORTS.NS - add_ph_pl_values function started
+2024-05-25 02:53:14,186 -INFO - ADANIPORTS.NS - add_ph_pl_values function Ended
+2024-05-25 02:53:14,193 -INFO - ADANIENT.NS - add_ph_pl_values function started
+2024-05-25 02:53:14,200 -INFO - ADANIENT.NS - add_ph_pl_values function Ended
+2024-05-25 02:53:14,443 -INFO - All stocks - Excel file Saved
+2024-05-25 02:53:14,444 -INFO - All stocks - json file saved
+2024-05-25 02:53:14,444 -INFO - ADANIPORTS.NS - alerts file Saved
+2024-05-25 02:53:14,444 -INFO - ADANIPORTS.NS - Process function Ended
+2024-05-25 02:53:14,488 -INFO - All stocks - Excel file Saved
+2024-05-25 02:53:14,490 -INFO - All stocks - json file saved
+2024-05-25 02:53:14,490 -INFO - ^NSEI - alerts file Saved
+2024-05-25 02:53:14,490 -INFO - ^NSEI - Process function Ended
+2024-05-25 02:53:14,584 -INFO - All stocks - Excel file Saved
+2024-05-25 02:53:14,584 -INFO - All stocks - Excel file Saved
+2024-05-25 02:53:14,585 -INFO - All stocks - json file saved
+2024-05-25 02:53:14,585 -INFO - ^NSEBANK - alerts file Saved
+2024-05-25 02:53:14,585 -INFO - ^NSEBANK - Process function Ended
+2024-05-25 02:53:14,585 -INFO - All stocks - json file saved
+2024-05-25 02:53:14,585 -INFO - ADANIENT.NS - alerts file Saved
+2024-05-25 02:53:14,585 -INFO - ADANIENT.NS - Process function Ended
+2024-05-25 02:53:14,585 -INFO - All stocks - Excel file Saved
+2024-05-25 02:53:14,585 -INFO - All stocks - json file saved
+2024-05-25 02:53:14,586 -INFO - NIFTY_FIN_SERVICE.NS - alerts file Saved
+2024-05-25 02:53:14,586 -INFO - NIFTY_FIN_SERVICE.NS - Process function Ended
+2024-05-25 02:53:14,649 -INFO - All stocks - Excel file Saved
+2024-05-25 02:53:14,649 -INFO - All stocks - json file saved
+2024-05-25 02:53:14,713 -INFO - All stocks - Excel file Saved
+2024-05-25 02:53:14,713 -INFO - All stocks - json file saved
+2024-05-25 02:53:14,713 -INFO - 0 - 5 - Stock threading ended ....
+2024-05-25 02:53:14,713 -INFO - 0 - time Completed 
+2024-05-25 02:53:14,774 -INFO - All stocks - Excel file Saved
+2024-05-25 02:53:14,774 -INFO - All stocks - json file saved
+2024-05-25 02:53:14,774 -INFO - Error in main function: list index out of range
+2024-05-25 02:53:14,775 -INFO - Error : Traceback (most recent call last):
+  File "/Users/runner/work/line_breakouts/line_breakouts/two_line_pattern_detect_class.py", line 562, in <module>
+    stock_name = all_stock_name_list[index]
+                 ~~~~~~~~~~~~~~~~~~~^^^^^^^
+IndexError: list index out of range
+
