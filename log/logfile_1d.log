@@ -5445,3 +5445,59 @@ ValueError: operands could not be broadcast together with shapes (10424,) (10396
 2024-05-24 17:07:26,114 -INFO - Message sent successfully! - 
 2024-05-24 17:07:31,766 -INFO - All stocks - Excel file Saved
 2024-05-24 17:07:31,766 -INFO - All stocks - json file saved
+2024-05-25 02:55:14,201 -INFO - Started...
+2024-05-25 02:55:25,551 -INFO - ^NSEI - Process function started
+2024-05-25 02:55:25,551 -INFO - ^NSEBANK - Process function started
+2024-05-25 02:55:25,551 -INFO - ADANIPORTS.NS - Process function started
+2024-05-25 02:55:25,551 -INFO - ADANIENT.NS - Process function started
+2024-05-25 02:55:25,552 -INFO - ^NSEBANK - Reading existing data...
+2024-05-25 02:55:25,552 -INFO - ^NSEI - Reading existing data...
+2024-05-25 02:55:25,552 -INFO - NIFTY_FIN_SERVICE.NS - Process function started
+2024-05-25 02:55:25,552 -INFO - ADANIPORTS.NS - Reading existing data...
+2024-05-25 02:55:25,552 -INFO - ADANIENT.NS - Reading existing data...
+2024-05-25 02:55:25,553 -INFO - NIFTY_FIN_SERVICE.NS - Reading existing data...
+2024-05-25 02:55:27,997 -INFO - ^NSEI - add_ph_pl_values function started
+2024-05-25 02:55:28,004 -INFO - NIFTY_FIN_SERVICE.NS - add_ph_pl_values function started
+2024-05-25 02:55:28,189 -INFO - ^NSEI - add_ph_pl_values function Ended
+2024-05-25 02:55:28,259 -INFO - ADANIPORTS.NS - add_ph_pl_values function started
+2024-05-25 02:55:28,556 -INFO - NIFTY_FIN_SERVICE.NS - add_ph_pl_values function Ended
+2024-05-25 02:55:29,095 -INFO - ^NSEBANK - add_ph_pl_values function started
+2024-05-25 02:55:29,484 -INFO - ADANIPORTS.NS - add_ph_pl_values function Ended
+2024-05-25 02:55:30,365 -INFO - ^NSEBANK - add_ph_pl_values function Ended
+2024-05-25 02:55:32,194 -INFO - ADANIENT.NS - add_ph_pl_values function started
+2024-05-25 02:55:32,493 -INFO - ADANIENT.NS - add_ph_pl_values function Ended
+2024-05-25 02:57:09,991 -INFO - All stocks - Excel file Saved
+2024-05-25 02:57:10,141 -INFO - All stocks - json file saved
+2024-05-25 02:57:10,141 -INFO - NIFTY_FIN_SERVICE.NS - alerts file Saved
+2024-05-25 02:57:10,141 -INFO - NIFTY_FIN_SERVICE.NS - Process function Ended
+2024-05-25 02:57:10,331 -INFO - All stocks - Excel file Saved
+2024-05-25 02:57:10,522 -INFO - All stocks - json file saved
+2024-05-25 02:57:10,523 -INFO - ^NSEI - alerts file Saved
+2024-05-25 02:57:10,589 -INFO - ^NSEI - Process function Ended
+2024-05-25 02:57:10,812 -INFO - All stocks - Excel file Saved
+2024-05-25 02:57:10,813 -INFO - All stocks - json file saved
+2024-05-25 02:57:10,814 -INFO - ^NSEBANK - alerts file Saved
+2024-05-25 02:57:10,814 -INFO - ^NSEBANK - Process function Ended
+2024-05-25 02:57:11,333 -INFO - All stocks - Excel file Saved
+2024-05-25 02:57:11,337 -INFO - All stocks - json file saved
+2024-05-25 02:57:11,337 -INFO - ADANIPORTS.NS - alerts file Saved
+2024-05-25 02:57:11,337 -INFO - ADANIPORTS.NS - Process function Ended
+2024-05-25 02:57:11,617 -INFO - All stocks - Excel file Saved
+2024-05-25 02:57:11,629 -INFO - All stocks - json file saved
+2024-05-25 02:57:11,630 -INFO - ADANIENT.NS - alerts file Saved
+2024-05-25 02:57:11,633 -INFO - ADANIENT.NS - Process function Ended
+2024-05-25 02:57:37,744 -INFO - All stocks - Excel file Saved
+2024-05-25 02:57:37,745 -INFO - All stocks - json file saved
+2024-05-25 02:58:04,259 -INFO - All stocks - Excel file Saved
+2024-05-25 02:58:04,260 -INFO - All stocks - json file saved
+2024-05-25 02:58:04,260 -INFO - 0 - 5 - Stock threading ended ....
+2024-05-25 02:58:04,260 -INFO - 0 - time Completed 
+2024-05-25 02:58:22,035 -INFO - All stocks - Excel file Saved
+2024-05-25 02:58:22,035 -INFO - All stocks - json file saved
+2024-05-25 02:58:22,035 -INFO - Error in main function: list index out of range
+2024-05-25 02:58:22,037 -INFO - Error : Traceback (most recent call last):
+  File "/Users/runner/work/line_breakouts/line_breakouts/two_line_pattern_detect_class.py", line 562, in <module>
+    stock_name = all_stock_name_list[index]
+                 ~~~~~~~~~~~~~~~~~~~^^^^^^^
+IndexError: list index out of range
+
