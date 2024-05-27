@@ -555,6 +555,7 @@ if __name__=="__main__":
         while(len(all_stock_name_list)>0 and itr <= 10):
             # total_rows += 5*itr
             thread_limit,total_rows = 25,len(all_stock_name_list)
+            logging.info(f"Itr - {itr} - thread_limit - {thread_limit}  - total_rows - {total_rows}")
             for start_index in range(index, total_rows, thread_limit):
                 end_index = min(start_index + thread_limit, total_rows)
                 thread_stock_name_list = []
@@ -588,7 +589,6 @@ if __name__=="__main__":
                 telegram_message_send.send_message_with_documents(message=f"""Max time reached..{ time_frame} 
                                                                   no. {len(all_stock_name_list)} pending stock""")
                 break
-            
             itr +=1
         else:
             logging.info(f"All sttock completed...")
