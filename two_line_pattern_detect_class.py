@@ -552,7 +552,7 @@ if __name__=="__main__":
         thread_limit,total_rows = 25,len(all_stock_name_list)
         # for itr in range(itr_completed,2):
         itr = itr_completed
-        while(len(all_stock_name_list)>0 or itr <= 10):
+        while(len(all_stock_name_list)>0 and itr <= 10):
             # total_rows += 5*itr
             thread_limit,total_rows = 25,len(all_stock_name_list)
             for start_index in range(index, total_rows, thread_limit):
