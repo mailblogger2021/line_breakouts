@@ -31,14 +31,13 @@ jobs:
       id: commit_message_check
       run: echo "COMMIT_MESSAGE=$(git log -1 --pretty=%B)" >> $GITHUB_ENV
 
-    - name: Execute Python script if commit message contains keyword
-      if: ${{ github.event_name == 'push' && contains(env.COMMIT_MESSAGE, 'week') && contains(env.COMMIT_MESSAGE, 'run')|| github.event_name == 'schedule' }}
+    - name: Execute Python script
+      if: github.event_name == 'schedule' || (github.event_name == 'push' && ((contains(env.COMMIT_MESSAGE, 'week') && contains(env.COMMIT_MESSAGE, 'run')) || contains(env.COMMIT_MESSAGE, 'all')))
       env:
         BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
         CHAT_ID: ${{ secrets.CHAT_ID }}
-        GITHUB_TOKEN: ${{ secrets.SECRETS_GITHUB_TOKEN }}
-      run: |
-        python two_line_pattern_detect_class.py "1wk"
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: python two_line_pattern_detect_class.py "1wk"
 
     - name: Commit files
       run: |
@@ -56,4 +55,3 @@ jobs:
     - name: Push changes
       run: |
         git push https://github.com/mailblogger2021/line_breakouts.git main
-
