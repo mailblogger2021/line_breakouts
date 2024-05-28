@@ -1,51 +1,57 @@
+name: daily two_line_pattern_detect
+
 permissions: write-all
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 16 * * 5'
+
 jobs:
   build:
     runs-on: macos-latest
+
     steps:
-    - name: checkout repo content
+    - name: Checkout repo content
       uses: actions/checkout@v2
-    - name: setup python
+
+    - name: Setup Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.11'
-    - name: install python packages
-      run: 'python -m pip install --upgrade pip
+
+    - name: Install Python packages
+      run: |
+        python -m pip install --upgrade pip
         pip install -r requirements.txt
-        '
-    - env:
+
+    - name: Check commit message
+      id: commit_message_check
+      run: echo "COMMIT_MESSAGE=$(git log -1 --pretty=%B)" >> $GITHUB_ENV
+
+    - name: Execute Python script
+      if: github.event_name == 'schedule' || (github.event_name == 'push' && ((contains(env.COMMIT_MESSAGE, 'day' && contains(env.COMMIT_MESSAGE, 'run') || contains(env.COMMIT_MESSAGE, 'all')))
+      env:
         BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
         CHAT_ID: ${{ secrets.CHAT_ID }}
-        GITHUB_TOKEN: ${{ secrets.SECRETS_GITHUB_TOKEN }}
-      name: execute py script
-      run: "if [[ ${{ github.event_name }} == 'push' ]]; then\n  python two_line_pattern_detect_class.py\
-        \ \"1d\"\nelif [[ ${{ github.event_name }} == 'schedule' ]]; then\n\
-        \  python two_line_pattern_detect_class.py \"1d\"\nfi\n"
-    - name: commit files
-      run: 'git config --local user.email "action@github.com"
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: python two_line_pattern_detect_class.py "1d"
 
-        git config --local user.name "GitHub Action"
-
-        git add -A
-
-        git diff-index --quiet HEAD || (git commit -a -m "daily.yaml completed"
-        --allow-empty)
-        '
-    - name: fetch changes
-      run: git fetch origin
-    - name: merge changes
-      run: git merge origin/main
-    - name: push changes
+    - name: Commit files
       run: |
-          git push https://github.com/mailblogger2021/line_breakouts.git main
-      # with:
-      #   branch: main
-      #   github_token: ${{ secrets.SECRETS_GITHUB_TOKEN }}
-name: daily two_line_pattern_detect
-'on':
-  push:
-    branches:
-    - main
-  schedule:
-  # - cron: 22 21 16 5 *
-  - cron: 45 16 * * mon-fri
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        git diff-index --quiet HEAD || git commit -m "daily.yaml completed" --allow-empty
+
+    - name: Fetch changes
+      run: git fetch origin
+
+    - name: Merge changes
+      run: git merge origin/main
+
+    - name: Push changes
+      run: |
+        git push https://github.com/mailblogger2021/line_breakouts.git main
