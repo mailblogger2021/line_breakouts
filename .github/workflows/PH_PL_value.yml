@@ -49,7 +49,7 @@ jobs:
     - name: Run Python script based on schedule
       run: |
         if [[ "${SCHEDULE_TYPE}" == "hour" ]]; then
-          python PH_PL_chartink.py "60m"
+          python PH_PL_chartink.py "hour"
         elif [[ "${SCHEDULE_TYPE}" == "day" ]]; then
           python PH_PL_chartink.py "day"
         elif [[ "${SCHEDULE_TYPE}" == "week" ]]; then
