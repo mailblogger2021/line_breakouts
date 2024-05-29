@@ -5,7 +5,7 @@ on:
     branches:
     - main
   schedule:
-    # - cron: 31 9-16 * * mon-fri  #1hr
+    - cron: 31 10-16 * * mon-fri  #1hr
     - cron: 0 16 * * mon-fri  # 1d
     - cron: 0 16 * * 3,5      # 1wk
     - cron: 0 16 10,20,30 * * # 1 mo 
@@ -34,7 +34,9 @@ jobs:
     - name: Determine the schedule
       id: schedule
       run: |
-        if [[ "${{ github.event.schedule }}" == '0 16 * * mon-fri' ]]; then
+        if [[ "${{ github.event.schedule }}" == '31 10-16 * * mon-fri ' ]]; then
+          echo "SCHEDULE_TYPE=hour" >> $GITHUB_ENV
+        elif [[ "${{ github.event.schedule }}" == '0 16 * * mon-fri' ]]; then
           echo "SCHEDULE_TYPE=day" >> $GITHUB_ENV
         elif [[ "${{ github.event.schedule }}" == '0 16 * * 3,5' ]]; then
           echo "SCHEDULE_TYPE=week" >> $GITHUB_ENV
@@ -46,7 +48,9 @@ jobs:
 
     - name: Run Python script based on schedule
       run: |
-        if [[ "${SCHEDULE_TYPE}" == "day" ]]; then
+        if [[ "${SCHEDULE_TYPE}" == "hour" ]]; then
+          python PH_PL_chartink.py "hour"
+        elif [[ "${SCHEDULE_TYPE}" == "day" ]]; then
           python chartink_screener.py
           python pdf_report_generator.py "day"
         elif [[ "${SCHEDULE_TYPE}" == "week" ]]; then
