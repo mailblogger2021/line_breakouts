@@ -27,6 +27,10 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
+    - name: Check commit message
+      id: commit_message_check
+      run: echo "COMMIT_MESSAGE=$(git log -1 --pretty=%B)" >> $GITHUB_ENV
+
     - name: Determine the schedule
       id: schedule
       run: |
@@ -42,7 +46,6 @@ jobs:
 
     - name: Run Python script based on schedule
       run: |
-        echo "COMMIT_MESSAGE=$(git log -1 --pretty=%B)" >> $GITHUB_ENV
         if [[ "${SCHEDULE_TYPE}" == "day" ]]; then
           python chartink_screener.py
           python pdf_report_generator.py "day"
