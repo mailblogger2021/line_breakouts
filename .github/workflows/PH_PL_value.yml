@@ -54,8 +54,8 @@ jobs:
           python PH_PL_chartink.py "month"
         elif [[ "${SCHEDULE_TYPE}" == "quarter" ]]; then
           python PH_PL_chartink.py "quarter"
-        elif (contains(env.COMMIT_MESSAGE, 'not'); then
-          echo "not need to run"
+        elif echo "${COMMIT_MESSAGE}" | grep -q 'not'; then
+          echo "Not need to run"
         elif [[ "${{ github.event_name }}" == 'push' ]]; then
           python PH_PL_chartink.py "day,week,month,quarter"
         fi

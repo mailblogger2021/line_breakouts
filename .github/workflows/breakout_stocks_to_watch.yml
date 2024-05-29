@@ -55,8 +55,8 @@ jobs:
           python pdf_report_generator.py "month"
         elif [[ "${SCHEDULE_TYPE}" == "quarter" ]]; then
           python pdf_report_generator.py "quarter"
-        elif (contains(env.COMMIT_MESSAGE, 'not'); then
-          echo "not need to run"
+        elif echo "${COMMIT_MESSAGE}" | grep -q 'not'; then
+          echo "Not need to run"
         elif [[ "${{ github.event_name }}" == 'push' ]]; then
           python chartink_screener.py
           python pdf_report_generator.py "day,week,month,quarter"
