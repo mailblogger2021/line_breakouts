@@ -1,0 +1,37 @@
+{
+	"60m":{
+		"percentage":1,
+		"pivot_line_count":3,
+		"two_line_count":2,
+		"window":10,
+		"time_frame" : "hour"
+	},
+	"1d":{
+		"percentage":1,
+		"pivot_line_count":3,
+		"two_line_count":2,
+		"window":10,
+		"time_frame" : "day"
+	},
+	"1wk":{
+		"percentage":1,
+		"pivot_line_count":2,
+		"two_line_count":2,
+		"window":5,
+		"time_frame" : "week"
+	},
+	"1mo":{
+		"percentage":1,
+		"pivot_line_count":2,
+		"two_line_count":2,
+		"window":3,
+		"time_frame" : "month"
+	},
+	"3mo":{
+		"percentage":1,
+		"pivot_line_count":2,
+		"two_line_count":2,
+		"window":3,
+		"time_frame" : "quarter"
+	}
+}

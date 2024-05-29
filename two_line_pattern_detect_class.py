@@ -12,7 +12,6 @@ import json
 import traceback
 import time
 import sys
-import time
 from fpdf import FPDF
 
 import get_candle_data as get_candle_data
@@ -22,7 +21,7 @@ import telegram_message_send
 start_time = time.time()
 max_execution_time = 5*3600
 class pattern_detecter:
-    def __init__(self, time_frame,window):
+    def __init__(self, time_frame,window=10,percentage=1,pivot_line_count=3,two_line_count=2):
         self.lock = threading.Lock()
 
         os.makedirs(f"excel/{time_frame}", exist_ok=True)
@@ -34,9 +33,9 @@ class pattern_detecter:
         logging.basicConfig(filename=f'log/logfile_{time_frame}.log',level=logging.INFO, format='%(asctime)s -%(levelname)s - %(message)s')
         logging.info(f"Started...")
 
-        self.percentage = 1
-        self.pivot_line_count  = 3
-        self.two_line_count = 2
+        self.percentage = percentage
+        self.pivot_line_count  = pivot_line_count
+        self.two_line_count = two_line_count
 
         self.time_frame = time_frame
         self.window=window
@@ -544,8 +543,15 @@ if __name__=="__main__":
 
         thread_limit,total_rows = 25,len(stock_data)
         # thread_limit,total_rows = 25,10
-        threads = []
-        pattern_detecter_obj = pattern_detecter(time_frame,window)
+        input_json_file = "input.json"
+        with open(input_json_file, "r") as file:
+            input_data = json.load(file)
+        
+        window,percentage,pivot_line_count,two_line_count= input_data[time_frame]["window"],input_data[time_frame]["percentage"], \
+                                                        input_data[time_frame]["pivot_line_count"],input_data[time_frame]["two_line_count"]
+        pattern_detecter_obj = pattern_detecter(time_frame,window,percentage,pivot_line_count,two_line_count)
+        print(time_frame,window,percentage,pivot_line_count,two_line_count)
+        time.sleep(1000)
         stock_status = pattern_detecter_obj.data_store['completed']
         itr_completed,index = stock_status
         all_stock_name_list = stock_data.iloc[:]['YFINANCE'].tolist()#[:5]
