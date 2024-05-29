@@ -89,6 +89,12 @@ if __name__ =="__main__":
                 "month" : "1mo",
                 "quarter" : "3mo"
             }
+    time_frames_windows = {
+                "day" : 10,
+                "week" : 10,
+                "month" : 5,
+                "quarter" : 3
+            }
     day_ph_pl = "( {33489} ( ( {33489} ( 10 days ago high > latest max ( 10 , 11 days ago high ) and 10 days ago high >= latest max ( 10 , latest high ) ) ) or ( {33489} ( 10 days ago low < latest min ( 10 , 11 days ago low ) and 10 days ago low <= latest min ( 10 , latest low ) ) ) ) )"
 
     base_code_list,title_list,time_frame_list = [],[],[]
@@ -111,8 +117,9 @@ if __name__ =="__main__":
         stock_lists = [stock+".NS" for stock in stock_lists]
         # stock_lists = stock_lists[:1]
         yfinance_time_frame = time_frames_for_yfinance[time_frame]
+        windows = time_frames_windows[time_frame]
         try:
-            obj = pattern_detect_class.pattern_detecter(yfinance_time_frame)
+            obj = pattern_detect_class.pattern_detecter(yfinance_time_frame,windows)
             # obj.data_store[yfinance_time_frame] = list(set(obj.data_store[yfinance_time_frame]) - set(stock_lists))
             obj.generate_url_yfinance(stock_lists)
             obj.save_excel_file()
