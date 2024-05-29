@@ -42,6 +42,7 @@ jobs:
 
     - name: Run Python script based on schedule
       run: |
+        echo "COMMIT_MESSAGE=$(git log -1 --pretty=%B)" >> $GITHUB_ENV
         if [[ "${SCHEDULE_TYPE}" == "day" ]]; then
           python chartink_screener.py
           python pdf_report_generator.py "day"
@@ -51,6 +52,8 @@ jobs:
           python pdf_report_generator.py "month"
         elif [[ "${SCHEDULE_TYPE}" == "quarter" ]]; then
           python pdf_report_generator.py "quarter"
+        elif (contains(env.COMMIT_MESSAGE, 'not'); then
+          echo "not need to run"
         elif [[ "${{ github.event_name }}" == 'push' ]]; then
           python chartink_screener.py
           python pdf_report_generator.py "day,week,month,quarter"
