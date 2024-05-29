@@ -27,3 +27,32 @@ TypeError: pattern_detecter.__init__() missing 1 required positional argument: '
           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: pattern_detecter.__init__() missing 1 required positional argument: 'window'
 
+2024-05-29 13:13:27,853 -INFO - Started...
+2024-05-29 13:13:29,773 -INFO - day - Error in PH PL main function: pattern_detecter.__init__() missing 1 required positional argument: 'window'
+2024-05-29 13:13:29,775 -INFO - day - Error : Traceback (most recent call last):
+  File "/Users/runner/work/line_breakouts/line_breakouts/PH_PL_chartink.py", line 115, in <module>
+    obj = pattern_detect_class.pattern_detecter(yfinance_time_frame)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: pattern_detecter.__init__() missing 1 required positional argument: 'window'
+
+2024-05-29 13:13:29,775 -INFO - week - Error in PH PL main function: pattern_detecter.__init__() missing 1 required positional argument: 'window'
+2024-05-29 13:13:29,775 -INFO - week - Error : Traceback (most recent call last):
+  File "/Users/runner/work/line_breakouts/line_breakouts/PH_PL_chartink.py", line 115, in <module>
+    obj = pattern_detect_class.pattern_detecter(yfinance_time_frame)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: pattern_detecter.__init__() missing 1 required positional argument: 'window'
+
+2024-05-29 13:13:29,775 -INFO - month - Error in PH PL main function: pattern_detecter.__init__() missing 1 required positional argument: 'window'
+2024-05-29 13:13:29,776 -INFO - month - Error : Traceback (most recent call last):
+  File "/Users/runner/work/line_breakouts/line_breakouts/PH_PL_chartink.py", line 115, in <module>
+    obj = pattern_detect_class.pattern_detecter(yfinance_time_frame)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: pattern_detecter.__init__() missing 1 required positional argument: 'window'
+
+2024-05-29 13:13:29,776 -INFO - quarter - Error in PH PL main function: pattern_detecter.__init__() missing 1 required positional argument: 'window'
+2024-05-29 13:13:29,776 -INFO - quarter - Error : Traceback (most recent call last):
+  File "/Users/runner/work/line_breakouts/line_breakouts/PH_PL_chartink.py", line 115, in <module>
+    obj = pattern_detect_class.pattern_detecter(yfinance_time_frame)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: pattern_detecter.__init__() missing 1 required positional argument: 'window'
+
