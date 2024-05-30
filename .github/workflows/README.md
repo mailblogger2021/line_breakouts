@@ -17,7 +17,7 @@ schedule:
 - cron: 31 10-16 * * mon-fri  #1hr
 - cron: 0 16 * * mon-fri      # 1d
 - cron: 0 16 * * 3,5          # 1wk
-- cron: 0 16 15,30 * *        # 1 mo 
+- cron: 0 16 15,30 * *.       # 1 mo 
 - cron: 0 16 1 * *            # 3 mo
 
 
