@@ -72,10 +72,11 @@ def ph_pl_data_breakout(time_frames,breakout_file_name):
                         ].copy()
                     
                     if(not new_break_out_stocks.empty):
+                        new_break_out_stocks.loc[:, "isPivot"] = "High"
                         new_break_out_stocks.loc[:, "time_frame"] = time_frame
                         new_break_out_stocks.loc[:, "TdyDate"] = current_date
-                        new_break_out_stocks.loc[:, "TdyClose"] = previous
-                        new_break_out_stocks.loc[:, "PClose"] = current
+                        new_break_out_stocks.loc[:, "TdyClose"] = current
+                        new_break_out_stocks.loc[:, "PClose"] = previous
                         break_out_stocks = pd.concat([break_out_stocks, new_break_out_stocks], ignore_index=True)
 
                     new_break_out_stocks = stock_ph_pl_df[
@@ -83,10 +84,11 @@ def ph_pl_data_breakout(time_frames,breakout_file_name):
                         ].copy()
                     
                     if(not new_break_out_stocks.empty):
+                        new_break_out_stocks.loc[:, "isPivot"] = "Low"
                         new_break_out_stocks.loc[:, "time_frame"] = time_frame
                         new_break_out_stocks.loc[:, "TdyDate"] = current_date
-                        new_break_out_stocks.loc[:, "TdyClose"] = previous
-                        new_break_out_stocks.loc[:, "PClose"] = current
+                        new_break_out_stocks.loc[:, "TdyClose"] = current
+                        new_break_out_stocks.loc[:, "PClose"] = previous
                         break_out_stocks = pd.concat([break_out_stocks, new_break_out_stocks], ignore_index=True)
                             
                 except Exception as e:
