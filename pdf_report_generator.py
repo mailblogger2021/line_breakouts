@@ -98,7 +98,7 @@ def ph_pl_data_breakout(time_frames,breakout_file_name):
                     logging.info(f"Error : {traceback_msg}")
     return break_out_stocks
 
-def stock_break_out_finder(time_frames,breakout_file_name):
+def stock_break_out_finder(time_frames,breakout_file_name,number_of_line="three"):
     break_out_stocks = pd.DataFrame()
     for time_frame in time_frames:
         print(time_frame)
@@ -176,12 +176,20 @@ def stock_break_out_finder(time_frames,breakout_file_name):
                         
                         previous_status = 'above' if check_y1 > line_y1 else 'below' if check_y1 < line_y1 else 'on'
                         current_status = 'above' if check_y2 > line_y2 else 'below' if check_y2 < line_y2 else 'on'
+
+                        #three line breakout
                         point1 = [x1,y1]
                         point2 = [check_x2,check_y2]
                         above_count, below_count,above_percentage,\
                                     below_percentage = point_position_relative_to_line(last_stock_df,point1,point2)
+
+                        # two line breakout
+                        percent_difference1 = abs(y1 - check_y2) / check_y2 * 100
+                        percent_difference2 = abs(y2 - check_y2) / check_y2 * 100
+                        is_same_line = percent_difference<=1 or percent_difference2<=1
+                        
                         above_or_below_line_percentage = above_percentage if row['buyORsell'] == 'High' else below_percentage
-                        if(previous_status != current_status and above_or_below_line_percentage < 0.06):
+                        if(previous_status != current_status and (above_or_below_line_percentage < 0.06 or is_same_line)):
 
                             logging.info(f"{stock_name} - stock breakout found...")
 
@@ -226,7 +234,7 @@ if __name__ =="__main__":
 
     logging.info(f"Three line alert started...")
     three_line_alerts_file_name = "excel/{yfinance_time_frame}/three_line_alerts_{yfinance_time_frame}.xlsx"
-    three_breakout_stocks = stock_break_out_finder(time_frames,three_line_alerts_file_name)
+    three_breakout_stocks = stock_break_out_finder(time_frames,three_line_alerts_file_name,"three")
     if(not three_breakout_stocks.empty):
         is_breakout = True
         output_df_to_pdf("Three Line Alert",pdf,three_breakout_stocks)
@@ -234,7 +242,7 @@ if __name__ =="__main__":
 
     logging.info(f"Two line alert started...")
     two_line_alerts_file_name = "excel/{yfinance_time_frame}/two_line_alerts_{yfinance_time_frame}.xlsx"
-    two_breakout_stocks = stock_break_out_finder(time_frames,two_line_alerts_file_name)
+    two_breakout_stocks = stock_break_out_finder(time_frames,two_line_alerts_file_name,"two")
     if(not two_breakout_stocks.empty):
         is_breakout = True
         output_df_to_pdf("Two Line Alert",pdf,two_breakout_stocks)
