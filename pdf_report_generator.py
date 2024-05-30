@@ -132,8 +132,8 @@ def stock_break_out_finder(time_frames,breakout_file_name):
                 try:
                     last_five_stock_df = last_five_df[last_five_df['stockname'] == stock_name]
                     last_stock_df = stock_all_df[stock_name]
-                    if(stock_name == 'DMART.NS'):
-                        print(stock_name)
+                    # if(stock_name == 'DMART.NS'):
+                        # print(stock_name)
                     # y = pd.read_excel(file_name)
 
                     last_five_stock_df = last_five_stock_df.copy()
@@ -181,7 +181,7 @@ def stock_break_out_finder(time_frames,breakout_file_name):
                         above_count, below_count,above_percentage,\
                                     below_percentage = point_position_relative_to_line(last_stock_df,point1,point2)
                         above_or_below_line_percentage = above_percentage if row['buyORsell'] == 'High' else below_percentage
-                        if(previous_status != current_status and above_or_below_line_percentage < 0.6):
+                        if(previous_status != current_status and above_or_below_line_percentage < 0.06):
 
                             logging.info(f"{stock_name} - stock breakout found...")
 
