@@ -186,10 +186,14 @@ def stock_break_out_finder(time_frames,breakout_file_name,number_of_line="three"
                         # two line breakout
                         percent_difference1 = abs(y1 - check_y2) / check_y2 * 100
                         percent_difference2 = abs(y2 - check_y2) / check_y2 * 100
-                        is_same_line = percent_difference<=1 or percent_difference2<=1
-                        
-                        above_or_below_line_percentage = above_percentage if row['buyORsell'] == 'High' else below_percentage
-                        if(previous_status != current_status and (above_or_below_line_percentage < 0.06 or is_same_line)):
+                        is_same_line = percent_difference1<=1 or percent_difference2<=1
+
+                        line_break_or_not = False
+                        if(number_of_line == "three"):
+                            line_break_or_not = above_percentage if row['buyORsell'] == 'High' else below_percentage
+                        else:
+                            line_break_or_not = percent_difference1<=1 or percent_difference2<=1
+                        if(previous_status != current_status and line_break_or_not):
 
                             logging.info(f"{stock_name} - stock breakout found...")
 
