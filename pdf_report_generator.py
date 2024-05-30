@@ -66,7 +66,7 @@ def ph_pl_data_breakout(time_frames,breakout_file_name):
                     
                     last_stock_df = last_stock_df.sort_index()
                     previous_date,current_date = list(last_stock_df['Datetime'].tail(2))
-                    previous,current = list(last_stock_df['Close'].tail(2))
+                    previous,current = list(last_stock_df['High'].tail(2))
                     new_break_out_stocks = stock_ph_pl_df[
                         (previous < stock_ph_pl_df['High'] ) & (stock_ph_pl_df['High'] < current) & (stock_ph_pl_df['isPivot'] == 1)
                         ].copy()
@@ -79,6 +79,7 @@ def ph_pl_data_breakout(time_frames,breakout_file_name):
                         new_break_out_stocks.loc[:, "PClose"] = previous
                         break_out_stocks = pd.concat([break_out_stocks, new_break_out_stocks], ignore_index=True)
 
+                    previous,current = list(last_stock_df['Low'].tail(2))
                     new_break_out_stocks = stock_ph_pl_df[
                         (stock_ph_pl_df['Low'] < previous ) & (current < stock_ph_pl_df['Low']) & (stock_ph_pl_df['isPivot'] == 2)
                         ].copy()
