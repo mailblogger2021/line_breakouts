@@ -15,6 +15,9 @@ jobs:
     runs-on: macos-latest
     steps:
 
+    - name: Checkout repo content
+      uses: actions/checkout@v2
+      
     - name: Check commit message
       id: commit_message_check
       run: |
@@ -24,15 +27,12 @@ jobs:
     - name: Set commit message flag
       id: commit_message_flag
       run: |
-        if [[ "${COMMIT_MESSAGE}" != *"PH PL"* && "${COMMIT_MESSAGE}" != *"all"* ]]; then
+        if [[ "${COMMIT_MESSAGE}" != *"Ph PL"* && "${COMMIT_MESSAGE}" != *"all"* ]]; then
           echo "COMMIT_MESSAGE_VALID=false" >> $GITHUB_ENV
           exit 0
         else
           echo "COMMIT_MESSAGE_VALID=true" >> $GITHUB_ENV
         fi
-
-    - name: Checkout repo content
-      uses: actions/checkout@v2
 
     - name: Setup Python
       uses: actions/setup-python@v4
