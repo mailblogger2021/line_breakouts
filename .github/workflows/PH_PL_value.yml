@@ -21,8 +21,11 @@ jobs:
     - name: Check commit message
       id: commit_message_check
       run: |
-        COMMIT_MESSAGE=$(git log -1 --pretty=%B)
-        echo "COMMIT_MESSAGE=$COMMIT_MESSAGE" >> $GITHUB_ENV
+          COMMIT_MESSAGE=$(git log -1 --pretty=%B)
+          echo "COMMIT_MESSAGE=$COMMIT_MESSAGE" >> $GITHUB_ENV
+
+    - name: Echo commit message
+      run: |
         echo "Commit message: ${{ env.COMMIT_MESSAGE }}"
 
     - name: Set commit message flag
