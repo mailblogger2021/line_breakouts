@@ -11,6 +11,11 @@ import json
 import traceback
 import datetime
 
+now = datetime.datetime.now()
+print("now =", now)
+dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
+print("date and time =", dt_string)
+
 def chartink_to_pdf(session,title, pdf,chartink_url):
     r = session.post('https://chartink.com/screener/process', data={'scan_clause': chartink_url}).json()
     df = pd.DataFrame(r['data'])
