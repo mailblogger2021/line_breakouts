@@ -32,7 +32,7 @@ jobs:
     - name: Set commit message flag
       id: commit_message_flag
       run: |
-        if [[ "${{ env.COMMIT_MESSAGE }}" != *"PH PL"* ]]; then
+        if [[ "${{ env.COMMIT_MESSAGE }}" != *"PH PL"* && "${{ env.COMMIT_MESSAGE }}" != *"all"* ]]; then
           echo "COMMIT_MESSAGE_VALID=false" >> $GITHUB_ENV
         else
           echo "COMMIT_MESSAGE_VALID=true" >> $GITHUB_ENV
@@ -68,6 +68,7 @@ jobs:
 
     - name: Determine the push
       if: env.COMMIT_MESSAGE_VALID == 'true' && github.event_name == 'push'
+      id: push
       run: |
         if [[ "${{ env.COMMIT_MESSAGE }}" == *"all"* ]]; then
           echo "SCHEDULE_TYPE=all" >> $GITHUB_ENV
