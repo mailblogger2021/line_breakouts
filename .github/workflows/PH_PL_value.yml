@@ -5,7 +5,7 @@ on:
     branches:
     - main
   schedule:
-    - cron: 1 5-11 * * mon-fri  #1hr
+    - cron: 10 5-11 * * mon-fri  #1hr
     - cron: 30 10 * * mon-fri      # 1d
     - cron: 30 10 * * 3,5          # 1wk
     - cron: 30 10 15,30 * *        # 1 mo 
