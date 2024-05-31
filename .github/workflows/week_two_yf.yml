@@ -1,21 +1,42 @@
-name: weekly two_line_pattern_detect
-
 permissions: write-all
-
+name: PH PL value
 on:
   push:
     branches:
-      - main
+    - main
   schedule:
-    - cron: 0 0 * * SAT  #week
-
+    - cron: 10 5-11 * * mon-fri  #1hr
+    - cron: 30 10 * * mon-fri      # 1d
+    - cron: 30 10 * * 3,5          # 1wk
+    - cron: 30 10 15,30 * *        # 1 mo
+    - cron: 30 10 1 * *            # 3 mo
 jobs:
   build:
     runs-on: macos-latest
-
     steps:
+
     - name: Checkout repo content
       uses: actions/checkout@v2
+      
+    - name: Check commit message
+      id: commit_message_check
+      run: |
+          COMMIT_MESSAGE=$(git log -1 --pretty=%B)
+          echo "COMMIT_MESSAGE=$COMMIT_MESSAGE" >> $GITHUB_ENV
+
+    - name: Echo commit message
+      run: |
+        echo "Commit message: ${{ env.COMMIT_MESSAGE }}"
+
+    - name: Set commit message flag
+      id: commit_message_flag
+      run: |
+        if [[ "${COMMIT_MESSAGE}" != *"PH PL"* && "${COMMIT_MESSAGE}" != *"all"* ]]; then
+          echo "COMMIT_MESSAGE_VALID=false" >> $GITHUB_ENV
+          exit 0
+        else
+          echo "COMMIT_MESSAGE_VALID=true" >> $GITHUB_ENV
+        fi
 
     - name: Setup Python
       uses: actions/setup-python@v4
@@ -27,24 +48,62 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Check commit message
-      id: commit_message_check
-      run: echo "COMMIT_MESSAGE=$(git log -1 --pretty=%B)" >> $GITHUB_ENV
+    - name: Determine the schedule
+      if: github.event_name == 'schedule'
+      run: |
+        if [[ "${{ github.event.schedule }}" == '31 10-16 * * mon-fri ' ]]; then
+          echo "SCHEDULE_TYPE=hour" >> $GITHUB_ENV
+        elif [[ "${{ github.event.schedule }}" == '0 16 * * mon-fri' ]]; then
+          echo "SCHEDULE_TYPE=day" >> $GITHUB_ENV
+        elif [[ "${{ github.event.schedule }}" == '0 16 * * 3,5' ]]; then
+          echo "SCHEDULE_TYPE=week" >> $GITHUB_ENV
+        elif [[ "${{ github.event.schedule }}" == '0 0 1 * *' ]]; then
+          echo "SCHEDULE_TYPE=month" >> $GITHUB_ENV
+        elif [[ "${{ github.event.schedule }}" == '0 16 1 * *' ]]; then
+          echo "SCHEDULE_TYPE=quarter" >> $GITHUB_ENV
+        fi
 
-    - name: Execute Python script
-      if: github.event_name == 'schedule' || (github.event_name == 'push' && ((contains(env.COMMIT_MESSAGE, 'week') && contains(env.COMMIT_MESSAGE, 'run')) || contains(env.COMMIT_MESSAGE, 'all')))
-      env:
-        BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-        CHAT_ID: ${{ secrets.CHAT_ID }}
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: python two_line_pattern_detect_class.py "1wk"
+    - name: Determine the push
+      if: github.event_name == 'push'
+      run: |
+        if contains(env.COMMIT_MESSAGE, 'all')));then 
+          echo "SCHEDULE_TYPE=all" >> $GITHUB_ENV
+        if [[ "${{ github.event.schedule }}" == '31 10-16 * * mon-fri ' ]]; then
+          echo "SCHEDULE_TYPE=hour" >> $GITHUB_ENV
+        elif [[ "${{ github.event.schedule }}" == '0 16 * * mon-fri' ]]; then
+          echo "SCHEDULE_TYPE=day" >> $GITHUB_ENV
+        elif [[ "${{ github.event.schedule }}" == '0 16 * * 3,5' ]]; then
+          echo "SCHEDULE_TYPE=week" >> $GITHUB_ENV
+        elif [[ "${{ github.event.schedule }}" == '0 0 1 * *' ]]; then
+          echo "SCHEDULE_TYPE=month" >> $GITHUB_ENV
+        elif [[ "${{ github.event.schedule }}" == '0 16 1 * *' ]]; then
+          echo "SCHEDULE_TYPE=quarter" >> $GITHUB_ENV
+        fi
+
+    - name: Run Python script based on schedule and push
+      run: |
+        if [[ "${SCHEDULE_TYPE}" == "hour" ]]; then
+          python PH_PL_chartink.py "hour"
+        elif [[ "${SCHEDULE_TYPE}" == "day" ]]; then
+          python PH_PL_chartink.py "day"
+        elif [[ "${SCHEDULE_TYPE}" == "week" ]]; then
+          python PH_PL_chartink.py "week"
+        elif [[ "${SCHEDULE_TYPE}" == "month" ]]; then
+          python PH_PL_chartink.py "month"
+        elif [[ "${SCHEDULE_TYPE}" == "quarter" ]]; then
+          python PH_PL_chartink.py "quarter"
+        elif echo "${COMMIT_MESSAGE}" | grep -q 'not'; then
+          echo "Not need to run"
+        elif [[ "${{ github.event_name }}" == 'push' ]]; then
+          python PH_PL_chartink.py "day,week,month,quarter"
+        fi
 
     - name: Commit files
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add -A
-        git diff-index --quiet HEAD || git commit -m "weekly.yaml completed" --allow-empty
+        git diff-index --quiet HEAD || (git commit -a -m "daily.yaml completed" --allow-empty)
 
     - name: Fetch changes
       run: git fetch origin
@@ -53,5 +112,4 @@ jobs:
       run: git merge origin/main
 
     - name: Push changes
-      run: |
-        git push https://github.com/mailblogger2021/line_breakouts.git main
+      run: git push https://github.com/mailblogger2021/line_breakouts.git main
