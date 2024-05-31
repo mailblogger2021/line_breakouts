@@ -23,6 +23,7 @@ jobs:
       run: |
         COMMIT_MESSAGE=$(git log -1 --pretty=%B)
         echo "COMMIT_MESSAGE=$COMMIT_MESSAGE" >> $GITHUB_ENV
+        echo "Commit message: ${{ env.COMMIT_MESSAGE }}"
 
     - name: Set commit message flag
       id: commit_message_flag
