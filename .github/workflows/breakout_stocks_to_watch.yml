@@ -72,7 +72,7 @@ jobs:
         if [[ "${{ env.COMMIT_MESSAGE }}" == *"all"* ]]; then
           echo "SCHEDULE_TYPE=all" >> $GITHUB_ENV
         elif [[ "${{ env.COMMIT_MESSAGE }}" == *"60m"* ]]; then
-          echo "SCHEDULE_TYPE=hour" >> $GITHUB_ENV
+          echo "SCHEDULE_TYPE=60m" >> $GITHUB_ENV
         elif [[ "${{ env.COMMIT_MESSAGE }}" == *"day"* ]]; then
           echo "SCHEDULE_TYPE=day" >> $GITHUB_ENV
         elif [[ "${{ env.COMMIT_MESSAGE }}" == *"week"* ]]; then
