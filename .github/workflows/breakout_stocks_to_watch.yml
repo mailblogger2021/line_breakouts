@@ -31,7 +31,7 @@ jobs:
     - name: Set commit message flag
       id: commit_message_flag
       run: |
-        if [[ "${{ env.COMMIT_MESSAGE }}" != *"break out stock"* && "${{ env.COMMIT_MESSAGE }}" != *"all"* ]]; then
+        if [[ "${{ env.COMMIT_MESSAGE }}" != *"breakout"* && "${{ env.COMMIT_MESSAGE }}" != *"all"* ]]; then
           echo "COMMIT_MESSAGE_VALID=false" >> $GITHUB_ENV
         else
           echo "COMMIT_MESSAGE_VALID=true" >> $GITHUB_ENV
