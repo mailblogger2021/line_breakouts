@@ -27,7 +27,7 @@ jobs:
     - name: Set commit message flag
       id: commit_message_flag
       run: |
-        if [[ "${COMMIT_MESSAGE}" != *"Ph PL"* && "${COMMIT_MESSAGE}" != *"all"* ]]; then
+        if [[ "${COMMIT_MESSAGE}" != *"PH PL"* && "${COMMIT_MESSAGE}" != *"all"* ]]; then
           echo "COMMIT_MESSAGE_VALID=false" >> $GITHUB_ENV
           exit 0
         else
