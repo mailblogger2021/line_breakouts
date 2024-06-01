@@ -69,8 +69,8 @@ jobs:
       if: env.COMMIT_MESSAGE_VALID == 'true' && github.event_name == 'push'
       id: push
       run: |
-        if [[ "${{ env.COMMIT_MESSAGE }}" == *"all"* ]]; then
-          echo "SCHEDULE_TYPE=all" >> $GITHUB_ENV
+        if [[ "${{ env.COMMIT_MESSAGE }}" == *"timeframe"* ]]; then
+          echo "SCHEDULE_TYPE=timeframe" >> $GITHUB_ENV
         elif [[ "${{ env.COMMIT_MESSAGE }}" == *"60m"* ]]; then
           echo "SCHEDULE_TYPE=60m" >> $GITHUB_ENV
         elif [[ "${{ env.COMMIT_MESSAGE }}" == *"day"* ]]; then
@@ -98,7 +98,7 @@ jobs:
           python pdf_report_generator.py "month"
         elif [[ "${SCHEDULE_TYPE}" == "quarter" ]]; then
           python pdf_report_generator.py "quarter"
-        elif [[ "${SCHEDULE_TYPE}" == "all" ]]; then
+        elif [[ "${SCHEDULE_TYPE}" == "timeframe" ]]; then
           python chartink_screener.py
           python pdf_report_generator.py "day,week,month,quarter"
         fi
