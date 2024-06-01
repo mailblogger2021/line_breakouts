@@ -215,6 +215,28 @@ def stock_break_out_finder(time_frames,breakout_file_name,number_of_line="three"
 
     return break_out_stocks
 
+def append_to_excel(df_list, excel_file='chartink_data.xlsx'):
+    current_time = datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+    
+    if os.path.exists(excel_file):
+        sheets_dict = pd.read_excel(excel_file, engine="openpyxl", sheet_name=None)
+    else:
+        sheets_dict = {}
+    
+    if not df_list:
+        return
+    
+    for key in df_list:
+        if key not in sheets_dict:
+            sheets_dict[key] = pd.DataFrame()
+        # df_list[key]['timeframe'] = key
+        df_list[key]['Date Time'] = current_time
+        sheets_dict[key] = pd.concat([sheets_dict[key],df_list[key]])
+
+    with pd.ExcelWriter(excel_file) as writer:
+        for sheet_name,df in sheets_dict.items():
+            df.to_excel(writer, sheet_name=sheet_name, index=False)
+
 if __name__ =="__main__":
     time_frames = ["hour","day","week","month","quarter"]
     if(len(sys.argv) >= 2):
@@ -224,6 +246,7 @@ if __name__ =="__main__":
     logging.basicConfig(filename=f'log/pdf_report_generator_{",".join(time_frames)}.log',level=logging.INFO, format='%(asctime)s -%(levelname)s - %(message)s')
     logging.info(f"Started...")
 
+    new_breakout_alert = {}
     time_frames_for_yfinance = {
         "hour": "60m",
         "day": "1d",
@@ -242,6 +265,7 @@ if __name__ =="__main__":
     if(not three_breakout_stocks.empty):
         is_breakout = True
         output_df_to_pdf("Three Line Alert",pdf,three_breakout_stocks)
+        new_breakout_alert["three_line"] = three_breakout_stocks
     logging.info(f"Three line alert Ended...")
 
     logging.info(f"Two line alert started...")
@@ -250,6 +274,7 @@ if __name__ =="__main__":
     if(not two_breakout_stocks.empty):
         is_breakout = True
         output_df_to_pdf("Two Line Alert",pdf,two_breakout_stocks)
+        new_breakout_alert["two_line"] = three_breakout_stocks
     logging.info(f"Two line alert Ended...")
 
     logging.info(f"PH PL alert started...")
@@ -257,8 +282,12 @@ if __name__ =="__main__":
     ph_pl_breakout_stocks = ph_pl_data_breakout(time_frames,ph_pl_alerts_file_name)
     if(not ph_pl_breakout_stocks.empty):
         is_breakout = True
-        output_df_to_pdf("PH PL alert",pdf,ph_pl_breakout_stocks)
+        output_df_to_pdf("PH PL breakout alert",pdf,ph_pl_breakout_stocks)
+        new_breakout_alert["ph_pl_breakout_line"] = three_breakout_stocks
     logging.info(f"PH PL alert Ended...")
+
+    os.makedirs(f"excel/breakout/", exist_ok=True)
+    append_to_excel(new_breakout_alert, excel_file='excel/breakout/line_breakout.xlsx')
 
     current_time = datetime.datetime.now()
     date_time = current_time.strftime("%Y%m%d.%H%M%S")

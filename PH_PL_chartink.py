@@ -10,6 +10,7 @@ import os
 import json
 import traceback
 import datetime
+import os
 
 now = datetime.datetime.now()
 print("now =", now)
@@ -20,7 +21,7 @@ def chartink_to_pdf(session,title, pdf,chartink_url):
     r = session.post('https://chartink.com/screener/process', data={'scan_clause': chartink_url}).json()
     df = pd.DataFrame(r['data'])
     if df.empty:
-        return []
+        return df
     
     pdf.set_font('Arial', 'B', 16)
     pdf.cell(40, 20, title, ln=True)
@@ -50,27 +51,53 @@ def chartink_to_pdf(session,title, pdf,chartink_url):
             pdf.cell(max_widths[i], table_cell_height, str(cell), align='C', border=1)
         pdf.ln(table_cell_height)
     pdf.ln(10)
-    # if not df.empty:
-    return df['nsecode'].unique().tolist()
+
+    return df
+    # return df['nsecode'].unique().tolist()
     # else:
         # return []
 
-def generate_chartink_code(time_frame_list=[],base_code_list=[],title_list=[],file_name='chartink_data_pdf'):
-    
+
+def generate_chartink_code(time_frame_list=[], base_code_list=[], title_list=[], file_name='chartink_data_pdf'):
     pdf = FPDF(unit='mm', format=(250, 297))
     pdf.add_page()
     pdf.set_font('Arial', 'B', 16)
 
     ph_pl_list = {}
+    df_list = {}
     with requests.Session() as session:
         r = session.get('https://chartink.com/screener/time-pass-48')
         soup = bs(r.content, 'lxml')
         session.headers['X-CSRF-TOKEN'] = soup.select_one('[name=csrf-token]')['content']
-        for time_frame,base_code, title in zip(time_frame_list,base_code_list, title_list):
-            ph_pl_list[time_frame] = chartink_to_pdf(session,title,pdf,base_code)
+        for time_frame, base_code, title in zip(time_frame_list, base_code_list, title_list):
+            df = chartink_to_pdf(session, title, pdf, base_code)
+            ph_pl_list[time_frame] = df['nsecode'].unique().tolist() if not df.empty else []
+            df_list[time_frame] = df
 
     pdf.output(f'{file_name}.pdf', 'F')
-    return ph_pl_list
+    return ph_pl_list, df_list
+
+def append_to_excel(df_list, excel_file='chartink_data.xlsx'):
+    current_time = datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+    
+    if os.path.exists(excel_file):
+        sheets_dict = pd.read_excel(excel_file, engine="openpyxl", sheet_name=None)
+    else:
+        sheets_dict = {}
+    
+    if not df_list:
+        return
+    
+    for time_frame in df_list:
+        if time_frame not in sheets_dict:
+            sheets_dict[time_frame] = pd.DataFrame()
+        df_list[time_frame]['timeframe'] = time_frame
+        df_list[time_frame]['Date Time'] = current_time
+        sheets_dict[time_frame] = pd.concat([sheets_dict[time_frame],df_list[time_frame]])
+
+    with pd.ExcelWriter(excel_file) as writer:
+        for sheet_name,df in sheets_dict.items():
+            df.to_excel(writer, sheet_name=sheet_name, index=False)
 
 if __name__ =="__main__":
     
@@ -108,7 +135,10 @@ if __name__ =="__main__":
     date_time = current_time.strftime("%Y%m%d.%H%M%S")
     pdf_name = f"pdf_report/PH_PL/PH_PL_chartink_{date_time}"
     os.makedirs(f"pdf_report/PH_PL/", exist_ok=True)
-    ph_pl_list = generate_chartink_code(time_frame_list,base_code_list,title_list,pdf_name)
+    ph_pl_list,df_list = generate_chartink_code(time_frame_list,base_code_list,title_list,pdf_name)
+
+    os.makedirs(f"excel/new_ph_pl/", exist_ok=True)
+    append_to_excel(df_list, excel_file='excel/new_ph_pl/new_ph_pl.xlsx')
     threads = []
     for time_frame in ph_pl_list:
         print(time_frame)
