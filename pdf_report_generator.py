@@ -274,7 +274,7 @@ if __name__ =="__main__":
     if(not two_breakout_stocks.empty):
         is_breakout = True
         output_df_to_pdf("Two Line Alert",pdf,two_breakout_stocks)
-        new_breakout_alert["two_line"] = three_breakout_stocks
+        new_breakout_alert["two_line"] = two_breakout_stocks
     logging.info(f"Two line alert Ended...")
 
     logging.info(f"PH PL alert started...")
@@ -283,7 +283,7 @@ if __name__ =="__main__":
     if(not ph_pl_breakout_stocks.empty):
         is_breakout = True
         output_df_to_pdf("PH PL breakout alert",pdf,ph_pl_breakout_stocks)
-        new_breakout_alert["ph_pl_breakout_line"] = three_breakout_stocks
+        new_breakout_alert["ph_pl_breakout_line"] = ph_pl_breakout_stocks
     logging.info(f"PH PL alert Ended...")
 
     os.makedirs(f"excel/breakout/", exist_ok=True)
