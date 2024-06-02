@@ -560,6 +560,8 @@ if __name__=="__main__":
         itr = itr_completed
         while(len(all_stock_name_list)>0 and itr <= 10):
             # total_rows += 5*itr
+            if(itr > 5):
+                all_stock_name_list = [name.split('.')[0] + '.NS' if name.endswith('.BO') else name.split('.')[0] + '.BO' for name in all_stock_name_list]
             thread_limit,total_rows = 25,len(all_stock_name_list)
             logging.info(f"Itr - {itr} - thread_limit - {thread_limit}  - total_rows - {total_rows}")
             for start_index in range(index, total_rows, thread_limit):
