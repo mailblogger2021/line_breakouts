@@ -381,7 +381,7 @@ class pattern_detecter:
                 slope, intercept , is_line= self.plus_minus_01_percent(x_values,y_values)
 
                 point1 = x_values[0],y_values[0]
-                point2 =x_values[2],y_values[2]
+                point2 =x_values[-1],y_values[-1]
                 above_count, below_count,above_percentage,\
                     below_percentage = self.point_position_relative_to_line(localdf,point1,point2)
                 if(is_line and below_percentage < 0.06):
@@ -416,7 +416,7 @@ class pattern_detecter:
                 slope, intercept , is_line= self.plus_minus_01_percent(x_values,y_values)
 
                 point1 = x_values[0],y_values[0]
-                point2 =x_values[2],y_values[2]
+                point2 =x_values[-1],y_values[-1]
                 above_count, below_count,above_percentage,\
                     below_percentage = self.point_position_relative_to_line(localdf,point1,point2)
                 if(is_line and above_percentage < 0.06):
