@@ -193,7 +193,7 @@ def stock_break_out_finder(time_frames,breakout_file_name,number_of_line="three"
                             line_break_or_not = above_percentage if row['buyORsell'] == 'High' else below_percentage
                         else:
                             line_break_or_not = percent_difference1<=1 or percent_difference2<=1
-                        if(previous_status != current_status and line_break_or_not):
+                        if((previous_status != current_status) and line_break_or_not):
 
                             logging.info(f"{stock_name} - stock breakout found...")
 
