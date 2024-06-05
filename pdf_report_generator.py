@@ -183,7 +183,7 @@ def stock_break_out_finder(time_frames,breakout_file_name,number_of_line="three"
                         point2 = [x2,y2]
                         last_point = [check_x2,check_y2]
                         above_count, below_count,above_percentage,\
-                                    below_percentage = point_position_relative_to_line(stock_df,point1,point2,last_point)
+                                    below_percentage = point_position_relative_to_line(last_stock_df,point1,point2,last_point)
 
                         # two line breakout
                         percent_difference1 = abs(y1 - check_y2) / check_y2 * 100
