@@ -13,10 +13,11 @@ import telegram_message_send
 
 
 all_stock_data = {}
-def point_position_relative_to_line(df, point1, point2):
+def point_position_relative_to_line(df, point1, point2,last_point):
 
     x1, y1 = point1
     x2, y2 = point2
+    check_x1,check_y1 = last_point
 
     if x1 > x2:
         x1, y1, x2, y2 = x2, y2, x1, y1
@@ -24,7 +25,7 @@ def point_position_relative_to_line(df, point1, point2):
     m = (y2 - y1) / (x2 - x1)
     c = y1 - m * x1
 
-    subset_df = df.iloc[x1:x2].copy()
+    subset_df = df.iloc[x2:check_x1].copy()
     # subset_df['line_y'] = m * subset_df.index + c
     subset_df.loc[:,'line_y'] = m * subset_df.index + c
 
@@ -165,8 +166,8 @@ def stock_break_out_finder(time_frames,breakout_file_name,number_of_line="three"
                     for index, row in last_five_stock_df.iterrows():
                         previous_status, current_status = None, None
 
-                        x1, x2 = row['row1'],row['row2']
-                        y1, y2 = row['value1'],row['value2']
+                        x1, x2 = row['row1'],row['row3'] if number_of_line == "three" else row['row2']
+                        y1, y2 = row['value1'],row['value3'] if number_of_line == "three" else row['value2']
                         m = (y2 - y1) / (x2 - x1)
                         c = y1 - m * x1
                         # line_y1 = row['slope'] + x1 + row['intercept']
@@ -179,9 +180,10 @@ def stock_break_out_finder(time_frames,breakout_file_name,number_of_line="three"
 
                         #three line breakout
                         point1 = [x1,y1]
-                        point2 = [check_x2,check_y2]
+                        point2 = [x2,y2]
+                        last_point = [check_x2,check_y2]
                         above_count, below_count,above_percentage,\
-                                    below_percentage = point_position_relative_to_line(last_stock_df,point1,point2)
+                                    below_percentage = point_position_relative_to_line(stock_df,point1,point2,last_point)
 
                         # two line breakout
                         percent_difference1 = abs(y1 - check_y2) / check_y2 * 100
