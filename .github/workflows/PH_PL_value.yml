@@ -107,7 +107,14 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add -A
-        git diff-index --quiet HEAD || git commit -m "PH PL.yaml completed" --allow-empty
+        git diff-index --quiet HEAD || (git commit -a -m "break out stock.yaml completed" --allow-empty)
+    - name: Fetch changes
+      if: env.COMMIT_MESSAGE_VALID == 'true'
+      run: git fetch origin
+
+    - name: Merge changes
+      if: env.COMMIT_MESSAGE_VALID == 'true'
+      run: git merge origin/main
 
     - name: Push changes
       if: env.COMMIT_MESSAGE_VALID == 'true'
