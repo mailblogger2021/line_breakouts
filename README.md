@@ -1,1 +1,1 @@
-line_breakouts all
+line_breakouts
