@@ -27814,3 +27814,2723 @@ ValueError: operands could not be broadcast together with shapes (27830,) (27827
 2024-06-06 20:47:02,530 -INFO - Message sent successfully! - 
 2024-06-06 20:47:16,742 -INFO - All stocks - Excel file Saved
 2024-06-06 20:47:16,743 -INFO - All stocks - json file saved
+2024-06-06 21:05:57,092 -INFO - Started...
+2024-06-06 21:22:43,369 -INFO - Itr - 0 - thread_limit - 25  - total_rows - 341
+2024-06-06 21:22:43,380 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-06-06 21:22:47,026 -INFO - BAJAJ-AUTO.NS - Process function started
+2024-06-06 21:22:47,026 -INFO - TITAN.NS - Process function started
+2024-06-06 21:22:47,027 -INFO - BAJAJ-AUTO.NS - Reading existing data...
+2024-06-06 21:22:47,027 -INFO - TITAN.NS - Reading existing data...
+2024-06-06 21:22:47,027 -INFO - EICHERMOT.NS - Process function started
+2024-06-06 21:22:47,027 -INFO - ADANIPORTS.NS - Process function started
+2024-06-06 21:22:47,027 -INFO - COALINDIA.NS - Process function started
+2024-06-06 21:22:47,028 -INFO - EICHERMOT.NS - Reading existing data...
+2024-06-06 21:22:47,028 -INFO - WIPRO.NS - Process function started
+2024-06-06 21:22:47,028 -INFO - ADANIPORTS.NS - Reading existing data...
+2024-06-06 21:22:47,028 -INFO - COALINDIA.NS - Reading existing data...
+2024-06-06 21:22:47,028 -INFO - HINDALCO.NS - Process function started
+2024-06-06 21:22:47,029 -INFO - M&M.NS - Process function started
+2024-06-06 21:22:47,029 -INFO - WIPRO.NS - Reading existing data...
+2024-06-06 21:22:47,030 -INFO - HEROMOTOCO.NS - Process function started
+2024-06-06 21:22:47,030 -INFO - ASIANPAINT.NS - Process function started
+2024-06-06 21:22:47,032 -INFO - APOLLOHOSP.NS - Process function started
+2024-06-06 21:22:47,032 -INFO - ^NSEI - Process function started
+2024-06-06 21:22:47,033 -INFO - M&M.NS - Reading existing data...
+2024-06-06 21:22:47,033 -INFO - ULTRACEMCO.NS - Process function started
+2024-06-06 21:22:47,033 -INFO - HINDALCO.NS - Reading existing data...
+2024-06-06 21:22:47,033 -INFO - ^NSEBANK - Process function started
+2024-06-06 21:22:47,034 -INFO - HEROMOTOCO.NS - Reading existing data...
+2024-06-06 21:22:47,034 -INFO - BHARTIARTL.NS - Process function started
+2024-06-06 21:22:47,034 -INFO - ASIANPAINT.NS - Reading existing data...
+2024-06-06 21:22:47,034 -INFO - RELIANCE.NS - Process function started
+2024-06-06 21:22:47,034 -INFO - APOLLOHOSP.NS - Reading existing data...
+2024-06-06 21:22:47,035 -INFO - ^NSEI - Reading existing data...
+2024-06-06 21:22:47,035 -INFO - BAJFINANCE.NS - Process function started
+2024-06-06 21:22:47,035 -INFO - CIPLA.NS - Process function started
+2024-06-06 21:22:47,035 -INFO - NIFTY_FIN_SERVICE.NS - Process function started
+2024-06-06 21:22:47,035 -INFO - DIVISLAB.NS - Process function started
+2024-06-06 21:22:47,036 -INFO - ULTRACEMCO.NS - Reading existing data...
+2024-06-06 21:22:47,036 -INFO - BAJAJFINSV.NS - Process function started
+2024-06-06 21:22:47,036 -INFO - ^NSEBANK - Reading existing data...
+2024-06-06 21:22:47,037 -INFO - BRITANNIA.NS - Process function started
+2024-06-06 21:22:47,037 -INFO - BPCL.NS - Process function started
+2024-06-06 21:22:47,037 -INFO - DRREDDY.NS - Process function started
+2024-06-06 21:22:47,037 -INFO - ADANIENT.NS - Process function started
+2024-06-06 21:22:47,038 -INFO - BHARTIARTL.NS - Reading existing data...
+2024-06-06 21:22:47,039 -INFO - RELIANCE.NS - Reading existing data...
+2024-06-06 21:22:47,039 -INFO - BAJFINANCE.NS - Reading existing data...
+2024-06-06 21:22:47,040 -INFO - CIPLA.NS - Reading existing data...
+2024-06-06 21:22:47,042 -INFO - NIFTY_FIN_SERVICE.NS - Reading existing data...
+2024-06-06 21:22:47,042 -INFO - DIVISLAB.NS - Reading existing data...
+2024-06-06 21:22:47,042 -INFO - BAJAJFINSV.NS - Reading existing data...
+2024-06-06 21:22:47,043 -INFO - BRITANNIA.NS - Reading existing data...
+2024-06-06 21:22:47,044 -INFO - BPCL.NS - Reading existing data...
+2024-06-06 21:22:47,045 -INFO - DRREDDY.NS - Reading existing data...
+2024-06-06 21:22:47,045 -INFO - ADANIENT.NS - Reading existing data...
+2024-06-06 21:22:47,383 -INFO - TITAN.NS - add_ph_pl_values function started
+2024-06-06 21:22:47,394 -INFO - BAJAJ-AUTO.NS - add_ph_pl_values function started
+2024-06-06 21:22:47,398 -INFO - EICHERMOT.NS - add_ph_pl_values function started
+2024-06-06 21:22:47,399 -INFO - TITAN.NS - add_ph_pl_values function Ended
+2024-06-06 21:22:47,430 -INFO - BAJAJ-AUTO.NS - add_ph_pl_values function Ended
+2024-06-06 21:22:47,679 -INFO - EICHERMOT.NS - add_ph_pl_values function Ended
+2024-06-06 21:22:48,002 -INFO - ADANIPORTS.NS - add_ph_pl_values function started
+2024-06-06 21:22:48,291 -INFO - ADANIPORTS.NS - add_ph_pl_values function Ended
+2024-06-06 21:22:48,440 -INFO - WIPRO.NS - add_ph_pl_values function started
+2024-06-06 21:22:48,650 -INFO - COALINDIA.NS - add_ph_pl_values function started
+2024-06-06 21:22:48,650 -INFO - WIPRO.NS - add_ph_pl_values function Ended
+2024-06-06 21:22:48,864 -INFO - COALINDIA.NS - add_ph_pl_values function Ended
+2024-06-06 21:22:48,982 -INFO - M&M.NS - add_ph_pl_values function started
+2024-06-06 21:22:49,336 -INFO - HINDALCO.NS - add_ph_pl_values function started
+2024-06-06 21:22:49,733 -INFO - M&M.NS - add_ph_pl_values function Ended
+2024-06-06 21:22:49,734 -INFO - HEROMOTOCO.NS - add_ph_pl_values function started
+2024-06-06 21:22:50,015 -INFO - ASIANPAINT.NS - add_ph_pl_values function started
+2024-06-06 21:22:50,323 -INFO - ^NSEI - add_ph_pl_values function started
+2024-06-06 21:22:50,324 -INFO - APOLLOHOSP.NS - add_ph_pl_values function started
+2024-06-06 21:22:50,434 -INFO - ^NSEBANK - add_ph_pl_values function started
+2024-06-06 21:22:50,694 -INFO - RELIANCE.NS - add_ph_pl_values function started
+2024-06-06 21:22:50,816 -INFO - HINDALCO.NS - add_ph_pl_values function Ended
+2024-06-06 21:22:50,838 -INFO - ULTRACEMCO.NS - add_ph_pl_values function started
+2024-06-06 21:22:51,045 -INFO - DIVISLAB.NS - add_ph_pl_values function started
+2024-06-06 21:22:51,047 -INFO - DRREDDY.NS - add_ph_pl_values function started
+2024-06-06 21:22:51,049 -INFO - BHARTIARTL.NS - add_ph_pl_values function started
+2024-06-06 21:22:51,049 -INFO - BPCL.NS - add_ph_pl_values function started
+2024-06-06 21:22:51,050 -INFO - ADANIENT.NS - add_ph_pl_values function started
+2024-06-06 21:22:51,133 -INFO - BRITANNIA.NS - add_ph_pl_values function started
+2024-06-06 21:22:51,134 -INFO - BAJFINANCE.NS - add_ph_pl_values function started
+2024-06-06 21:22:51,153 -INFO - HEROMOTOCO.NS - add_ph_pl_values function Ended
+2024-06-06 21:22:51,307 -INFO - NIFTY_FIN_SERVICE.NS - add_ph_pl_values function started
+2024-06-06 21:22:51,312 -INFO - CIPLA.NS - add_ph_pl_values function started
+2024-06-06 21:22:51,391 -INFO - BAJAJFINSV.NS - add_ph_pl_values function started
+2024-06-06 21:22:51,470 -INFO - ASIANPAINT.NS - add_ph_pl_values function Ended
+2024-06-06 21:22:54,375 -INFO - ^NSEI - add_ph_pl_values function Ended
+2024-06-06 21:22:56,496 -INFO - APOLLOHOSP.NS - add_ph_pl_values function Ended
+2024-06-06 21:23:00,699 -INFO - ^NSEBANK - add_ph_pl_values function Ended
+2024-06-06 21:23:04,497 -INFO - RELIANCE.NS - add_ph_pl_values function Ended
+2024-06-06 21:23:07,920 -INFO - ULTRACEMCO.NS - add_ph_pl_values function Ended
+2024-06-06 21:23:12,042 -INFO - DIVISLAB.NS - add_ph_pl_values function Ended
+2024-06-06 21:23:16,551 -INFO - DRREDDY.NS - add_ph_pl_values function Ended
+2024-06-06 21:23:19,470 -INFO - BHARTIARTL.NS - add_ph_pl_values function Ended
+2024-06-06 21:23:22,291 -INFO - BPCL.NS - add_ph_pl_values function Ended
+2024-06-06 21:23:24,549 -INFO - ADANIENT.NS - add_ph_pl_values function Ended
+2024-06-06 21:23:27,338 -INFO - BRITANNIA.NS - add_ph_pl_values function Ended
+2024-06-06 21:23:30,230 -INFO - BAJFINANCE.NS - add_ph_pl_values function Ended
+2024-06-06 21:23:35,120 -INFO - NIFTY_FIN_SERVICE.NS - add_ph_pl_values function Ended
+2024-06-06 21:23:39,131 -INFO - CIPLA.NS - add_ph_pl_values function Ended
+2024-06-06 21:23:41,890 -INFO - BAJAJFINSV.NS - add_ph_pl_values function Ended
+2024-06-06 21:27:50,357 -INFO - All stocks - Excel file Saved
+2024-06-06 21:27:51,109 -INFO - All stocks - json file saved
+2024-06-06 21:27:51,109 -INFO - HINDALCO.NS - alerts file Saved
+2024-06-06 21:27:51,109 -INFO - HINDALCO.NS - Process function Ended
+2024-06-06 21:27:55,374 -INFO - All stocks - Excel file Saved
+2024-06-06 21:27:55,428 -INFO - All stocks - json file saved
+2024-06-06 21:27:55,428 -INFO - ^NSEBANK - alerts file Saved
+2024-06-06 21:27:55,428 -INFO - ^NSEBANK - Process function Ended
+2024-06-06 21:27:57,141 -INFO - All stocks - Excel file Saved
+2024-06-06 21:27:57,401 -INFO - All stocks - json file saved
+2024-06-06 21:27:57,401 -INFO - ADANIPORTS.NS - alerts file Saved
+2024-06-06 21:27:57,401 -INFO - ADANIPORTS.NS - Process function Ended
+2024-06-06 21:27:58,993 -INFO - All stocks - Excel file Saved
+2024-06-06 21:27:58,995 -INFO - All stocks - json file saved
+2024-06-06 21:27:58,995 -INFO - COALINDIA.NS - alerts file Saved
+2024-06-06 21:27:58,995 -INFO - COALINDIA.NS - Process function Ended
+2024-06-06 21:27:59,264 -INFO - All stocks - Excel file Saved
+2024-06-06 21:27:59,302 -INFO - All stocks - json file saved
+2024-06-06 21:27:59,302 -INFO - TITAN.NS - alerts file Saved
+2024-06-06 21:27:59,302 -INFO - TITAN.NS - Process function Ended
+2024-06-06 21:27:59,889 -INFO - All stocks - Excel file Saved
+2024-06-06 21:27:59,890 -INFO - All stocks - json file saved
+2024-06-06 21:27:59,890 -INFO - EICHERMOT.NS - alerts file Saved
+2024-06-06 21:27:59,890 -INFO - EICHERMOT.NS - Process function Ended
+2024-06-06 21:28:00,278 -INFO - All stocks - Excel file Saved
+2024-06-06 21:28:00,536 -INFO - All stocks - json file saved
+2024-06-06 21:28:00,536 -INFO - BAJAJ-AUTO.NS - alerts file Saved
+2024-06-06 21:28:00,536 -INFO - BAJAJ-AUTO.NS - Process function Ended
+2024-06-06 21:28:00,560 -INFO - All stocks - Excel file Saved
+2024-06-06 21:28:00,561 -INFO - All stocks - json file saved
+2024-06-06 21:28:00,561 -INFO - WIPRO.NS - alerts file Saved
+2024-06-06 21:28:00,561 -INFO - WIPRO.NS - Process function Ended
+2024-06-06 21:28:00,617 -INFO - All stocks - Excel file Saved
+2024-06-06 21:28:00,618 -INFO - All stocks - json file saved
+2024-06-06 21:28:00,618 -INFO - M&M.NS - alerts file Saved
+2024-06-06 21:28:00,618 -INFO - M&M.NS - Process function Ended
+2024-06-06 21:28:05,112 -INFO - All stocks - Excel file Saved
+2024-06-06 21:28:05,113 -INFO - All stocks - json file saved
+2024-06-06 21:28:05,113 -INFO - APOLLOHOSP.NS - alerts file Saved
+2024-06-06 21:28:05,113 -INFO - APOLLOHOSP.NS - Process function Ended
+2024-06-06 21:28:05,217 -INFO - All stocks - Excel file Saved
+2024-06-06 21:28:05,506 -INFO - All stocks - json file saved
+2024-06-06 21:28:05,623 -INFO - DIVISLAB.NS - alerts file Saved
+2024-06-06 21:28:05,623 -INFO - DIVISLAB.NS - Process function Ended
+2024-06-06 21:28:08,744 -INFO - All stocks - Excel file Saved
+2024-06-06 21:28:09,239 -INFO - All stocks - json file saved
+2024-06-06 21:28:09,239 -INFO - ADANIENT.NS - alerts file Saved
+2024-06-06 21:28:09,239 -INFO - ADANIENT.NS - Process function Ended
+2024-06-06 21:28:12,204 -INFO - All stocks - Excel file Saved
+2024-06-06 21:28:12,371 -INFO - All stocks - json file saved
+2024-06-06 21:28:12,371 -INFO - HEROMOTOCO.NS - alerts file Saved
+2024-06-06 21:28:12,373 -INFO - HEROMOTOCO.NS - Process function Ended
+2024-06-06 21:28:12,380 -INFO - All stocks - Excel file Saved
+2024-06-06 21:28:12,387 -INFO - All stocks - json file saved
+2024-06-06 21:28:12,387 -INFO - ^NSEI - alerts file Saved
+2024-06-06 21:28:12,387 -INFO - ^NSEI - Process function Ended
+2024-06-06 21:28:12,417 -INFO - All stocks - Excel file Saved
+2024-06-06 21:28:12,417 -INFO - All stocks - json file saved
+2024-06-06 21:28:12,417 -INFO - ULTRACEMCO.NS - alerts file Saved
+2024-06-06 21:28:12,417 -INFO - ULTRACEMCO.NS - Process function Ended
+2024-06-06 21:28:12,426 -INFO - All stocks - Excel file Saved
+2024-06-06 21:28:12,430 -INFO - All stocks - json file saved
+2024-06-06 21:28:12,430 -INFO - ASIANPAINT.NS - alerts file Saved
+2024-06-06 21:28:12,430 -INFO - ASIANPAINT.NS - Process function Ended
+2024-06-06 21:28:12,769 -INFO - All stocks - Excel file Saved
+2024-06-06 21:28:12,770 -INFO - All stocks - Excel file Saved
+2024-06-06 21:28:12,770 -INFO - All stocks - json file saved
+2024-06-06 21:28:12,770 -INFO - RELIANCE.NS - alerts file Saved
+2024-06-06 21:28:12,770 -INFO - RELIANCE.NS - Process function Ended
+2024-06-06 21:28:12,779 -INFO - All stocks - Excel file Saved
+2024-06-06 21:28:12,779 -INFO - All stocks - json file saved
+2024-06-06 21:28:12,779 -INFO - DRREDDY.NS - alerts file Saved
+2024-06-06 21:28:12,779 -INFO - DRREDDY.NS - Process function Ended
+2024-06-06 21:28:12,781 -INFO - All stocks - json file saved
+2024-06-06 21:28:12,781 -INFO - BPCL.NS - alerts file Saved
+2024-06-06 21:28:12,781 -INFO - BPCL.NS - Process function Ended
+2024-06-06 21:28:13,082 -INFO - All stocks - Excel file Saved
+2024-06-06 21:28:13,082 -INFO - All stocks - json file saved
+2024-06-06 21:28:13,082 -INFO - BHARTIARTL.NS - alerts file Saved
+2024-06-06 21:28:13,082 -INFO - BHARTIARTL.NS - Process function Ended
+2024-06-06 21:28:13,095 -INFO - All stocks - Excel file Saved
+2024-06-06 21:28:13,131 -INFO - All stocks - json file saved
+2024-06-06 21:28:13,131 -INFO - CIPLA.NS - alerts file Saved
+2024-06-06 21:28:13,131 -INFO - CIPLA.NS - Process function Ended
+2024-06-06 21:28:13,269 -INFO - All stocks - Excel file Saved
+2024-06-06 21:28:13,269 -INFO - All stocks - json file saved
+2024-06-06 21:28:13,269 -INFO - BRITANNIA.NS - alerts file Saved
+2024-06-06 21:28:13,269 -INFO - BRITANNIA.NS - Process function Ended
+2024-06-06 21:28:13,357 -INFO - All stocks - Excel file Saved
+2024-06-06 21:28:13,357 -INFO - All stocks - json file saved
+2024-06-06 21:28:13,357 -INFO - BAJAJFINSV.NS - alerts file Saved
+2024-06-06 21:28:13,357 -INFO - BAJAJFINSV.NS - Process function Ended
+2024-06-06 21:28:13,360 -INFO - All stocks - Excel file Saved
+2024-06-06 21:28:13,361 -INFO - All stocks - json file saved
+2024-06-06 21:28:13,361 -INFO - BAJFINANCE.NS - alerts file Saved
+2024-06-06 21:28:13,361 -INFO - BAJFINANCE.NS - Process function Ended
+2024-06-06 21:28:13,465 -INFO - All stocks - Excel file Saved
+2024-06-06 21:28:13,465 -INFO - All stocks - json file saved
+2024-06-06 21:28:13,465 -INFO - NIFTY_FIN_SERVICE.NS - alerts file Saved
+2024-06-06 21:28:13,465 -INFO - NIFTY_FIN_SERVICE.NS - Process function Ended
+2024-06-06 21:28:26,126 -INFO - All stocks - Excel file Saved
+2024-06-06 21:28:26,127 -INFO - All stocks - json file saved
+2024-06-06 21:28:38,163 -INFO - All stocks - Excel file Saved
+2024-06-06 21:28:38,164 -INFO - All stocks - json file saved
+2024-06-06 21:28:38,164 -INFO - 0 - 25 - Stock threading ended ....
+2024-06-06 21:28:41,081 -INFO - GRASIM.NS - Process function started
+2024-06-06 21:28:41,081 -INFO - INFY.NS - Process function started
+2024-06-06 21:28:41,082 -INFO - HDFCLIFE.NS - Process function started
+2024-06-06 21:28:41,082 -INFO - GRASIM.NS - Reading existing data...
+2024-06-06 21:28:41,082 -INFO - INFY.NS - Reading existing data...
+2024-06-06 21:28:41,082 -INFO - HINDUNILVR.NS - Process function started
+2024-06-06 21:28:41,082 -INFO - AXISBANK.NS - Process function started
+2024-06-06 21:28:41,082 -INFO - HDFCLIFE.NS - Reading existing data...
+2024-06-06 21:28:41,082 -INFO - ONGC.NS - Process function started
+2024-06-06 21:28:41,082 -INFO - LTIM.NS - Process function started
+2024-06-06 21:28:41,082 -INFO - UPL.NS - Process function started
+2024-06-06 21:28:41,083 -INFO - HINDUNILVR.NS - Reading existing data...
+2024-06-06 21:28:41,083 -INFO - TATACONSUM.NS - Process function started
+2024-06-06 21:28:41,083 -INFO - HCLTECH.NS - Process function started
+2024-06-06 21:28:41,083 -INFO - KOTAKBANK.NS - Process function started
+2024-06-06 21:28:41,083 -INFO - POWERGRID.NS - Process function started
+2024-06-06 21:28:41,083 -INFO - HDFCBANK.NS - Process function started
+2024-06-06 21:28:41,083 -INFO - AXISBANK.NS - Reading existing data...
+2024-06-06 21:28:41,083 -INFO - NESTLEIND.NS - Process function started
+2024-06-06 21:28:41,084 -INFO - TATASTEEL.NS - Process function started
+2024-06-06 21:28:41,084 -INFO - SBILIFE.NS - Process function started
+2024-06-06 21:28:41,084 -INFO - ONGC.NS - Reading existing data...
+2024-06-06 21:28:41,084 -INFO - SUNPHARMA.NS - Process function started
+2024-06-06 21:28:41,084 -INFO - LT.NS - Process function started
+2024-06-06 21:28:41,084 -INFO - TECHM.NS - Process function started
+2024-06-06 21:28:41,084 -INFO - NTPC.NS - Process function started
+2024-06-06 21:28:41,084 -INFO - LTIM.NS - Reading existing data...
+2024-06-06 21:28:41,084 -INFO - TATAMOTORS.NS - Process function started
+2024-06-06 21:28:41,084 -INFO - ITC.NS - Process function started
+2024-06-06 21:28:41,085 -INFO - UPL.NS - Reading existing data...
+2024-06-06 21:28:41,085 -INFO - TCS.NS - Process function started
+2024-06-06 21:28:41,085 -INFO - TATACONSUM.NS - Reading existing data...
+2024-06-06 21:28:41,085 -INFO - JSWSTEEL.NS - Process function started
+2024-06-06 21:28:41,086 -INFO - MARUTI.NS - Process function started
+2024-06-06 21:28:41,086 -INFO - HCLTECH.NS - Reading existing data...
+2024-06-06 21:28:41,087 -INFO - KOTAKBANK.NS - Reading existing data...
+2024-06-06 21:28:41,087 -INFO - POWERGRID.NS - Reading existing data...
+2024-06-06 21:28:41,087 -INFO - HDFCBANK.NS - Reading existing data...
+2024-06-06 21:28:41,088 -INFO - NESTLEIND.NS - Reading existing data...
+2024-06-06 21:28:41,088 -INFO - SBILIFE.NS - Reading existing data...
+2024-06-06 21:28:41,088 -INFO - TATASTEEL.NS - Reading existing data...
+2024-06-06 21:28:41,089 -INFO - SUNPHARMA.NS - Reading existing data...
+2024-06-06 21:28:41,090 -INFO - LT.NS - Reading existing data...
+2024-06-06 21:28:41,090 -INFO - TECHM.NS - Reading existing data...
+2024-06-06 21:28:41,090 -INFO - NTPC.NS - Reading existing data...
+2024-06-06 21:28:41,091 -INFO - TATAMOTORS.NS - Reading existing data...
+2024-06-06 21:28:41,091 -INFO - ITC.NS - Reading existing data...
+2024-06-06 21:28:41,092 -INFO - TCS.NS - Reading existing data...
+2024-06-06 21:28:41,092 -INFO - JSWSTEEL.NS - Reading existing data...
+2024-06-06 21:28:41,093 -INFO - MARUTI.NS - Reading existing data...
+2024-06-06 21:28:41,202 -INFO - INFY.NS - add_ph_pl_values function started
+2024-06-06 21:28:41,305 -INFO - INFY.NS - add_ph_pl_values function Ended
+2024-06-06 21:28:41,545 -INFO - HDFCLIFE.NS - add_ph_pl_values function started
+2024-06-06 21:28:41,750 -INFO - HINDUNILVR.NS - add_ph_pl_values function started
+2024-06-06 21:28:41,752 -INFO - HDFCLIFE.NS - add_ph_pl_values function Ended
+2024-06-06 21:28:41,854 -INFO - HINDUNILVR.NS - add_ph_pl_values function Ended
+2024-06-06 21:28:41,863 -INFO - GRASIM.NS - add_ph_pl_values function started
+2024-06-06 21:28:42,250 -INFO - GRASIM.NS - add_ph_pl_values function Ended
+2024-06-06 21:28:42,360 -INFO - AXISBANK.NS - add_ph_pl_values function started
+2024-06-06 21:28:42,939 -INFO - AXISBANK.NS - add_ph_pl_values function Ended
+2024-06-06 21:28:43,068 -INFO - LTIM.NS - add_ph_pl_values function started
+2024-06-06 21:28:43,138 -INFO - ONGC.NS - add_ph_pl_values function started
+2024-06-06 21:28:43,142 -INFO - TATACONSUM.NS - add_ph_pl_values function started
+2024-06-06 21:28:43,376 -INFO - UPL.NS - add_ph_pl_values function started
+2024-06-06 21:28:43,458 -INFO - POWERGRID.NS - add_ph_pl_values function started
+2024-06-06 21:28:43,459 -INFO - LTIM.NS - add_ph_pl_values function Ended
+2024-06-06 21:28:43,921 -INFO - HCLTECH.NS - add_ph_pl_values function started
+2024-06-06 21:28:44,147 -INFO - SBILIFE.NS - add_ph_pl_values function started
+2024-06-06 21:28:44,641 -INFO - ONGC.NS - add_ph_pl_values function Ended
+2024-06-06 21:28:44,697 -INFO - NESTLEIND.NS - add_ph_pl_values function started
+2024-06-06 21:28:44,828 -INFO - SUNPHARMA.NS - add_ph_pl_values function started
+2024-06-06 21:28:44,853 -INFO - MARUTI.NS - add_ph_pl_values function started
+2024-06-06 21:28:44,876 -INFO - TATACONSUM.NS - add_ph_pl_values function Ended
+2024-06-06 21:28:44,876 -INFO - LT.NS - add_ph_pl_values function started
+2024-06-06 21:28:44,982 -INFO - KOTAKBANK.NS - add_ph_pl_values function started
+2024-06-06 21:28:44,987 -INFO - TCS.NS - add_ph_pl_values function started
+2024-06-06 21:28:45,014 -INFO - UPL.NS - add_ph_pl_values function Ended
+2024-06-06 21:28:45,088 -INFO - TATAMOTORS.NS - add_ph_pl_values function started
+2024-06-06 21:28:45,323 -INFO - TATASTEEL.NS - add_ph_pl_values function started
+2024-06-06 21:28:45,323 -INFO - JSWSTEEL.NS - add_ph_pl_values function started
+2024-06-06 21:28:45,324 -INFO - NTPC.NS - add_ph_pl_values function started
+2024-06-06 21:28:45,325 -INFO - TECHM.NS - add_ph_pl_values function started
+2024-06-06 21:28:45,413 -INFO - HDFCBANK.NS - add_ph_pl_values function started
+2024-06-06 21:28:45,431 -INFO - ITC.NS - add_ph_pl_values function started
+2024-06-06 21:28:45,478 -INFO - POWERGRID.NS - add_ph_pl_values function Ended
+2024-06-06 21:28:45,563 -INFO - HCLTECH.NS - add_ph_pl_values function Ended
+2024-06-06 21:28:45,788 -INFO - SBILIFE.NS - add_ph_pl_values function Ended
+2024-06-06 21:28:47,298 -INFO - NESTLEIND.NS - add_ph_pl_values function Ended
+2024-06-06 21:28:50,697 -INFO - SUNPHARMA.NS - add_ph_pl_values function Ended
+2024-06-06 21:28:54,485 -INFO - MARUTI.NS - add_ph_pl_values function Ended
+2024-06-06 21:28:59,994 -INFO - LT.NS - add_ph_pl_values function Ended
+2024-06-06 21:29:02,685 -INFO - KOTAKBANK.NS - add_ph_pl_values function Ended
+2024-06-06 21:29:06,174 -INFO - TCS.NS - add_ph_pl_values function Ended
+2024-06-06 21:29:10,849 -INFO - TATAMOTORS.NS - add_ph_pl_values function Ended
+2024-06-06 21:29:14,691 -INFO - TATASTEEL.NS - add_ph_pl_values function Ended
+2024-06-06 21:29:20,566 -INFO - JSWSTEEL.NS - add_ph_pl_values function Ended
+2024-06-06 21:29:27,101 -INFO - NTPC.NS - add_ph_pl_values function Ended
+2024-06-06 21:29:31,085 -INFO - TECHM.NS - add_ph_pl_values function Ended
+2024-06-06 21:29:34,376 -INFO - HDFCBANK.NS - add_ph_pl_values function Ended
+2024-06-06 21:29:41,754 -INFO - ITC.NS - add_ph_pl_values function Ended
+2024-06-06 21:33:42,237 -INFO - All stocks - Excel file Saved
+2024-06-06 21:33:42,526 -INFO - All stocks - json file saved
+2024-06-06 21:33:42,526 -INFO - GRASIM.NS - alerts file Saved
+2024-06-06 21:33:42,527 -INFO - GRASIM.NS - Process function Ended
+2024-06-06 21:33:43,920 -INFO - All stocks - Excel file Saved
+2024-06-06 21:33:43,924 -INFO - All stocks - Excel file Saved
+2024-06-06 21:33:43,983 -INFO - All stocks - json file saved
+2024-06-06 21:33:44,002 -INFO - HINDUNILVR.NS - alerts file Saved
+2024-06-06 21:33:44,002 -INFO - HINDUNILVR.NS - Process function Ended
+2024-06-06 21:33:44,003 -INFO - All stocks - json file saved
+2024-06-06 21:33:44,012 -INFO - INFY.NS - alerts file Saved
+2024-06-06 21:33:44,012 -INFO - INFY.NS - Process function Ended
+2024-06-06 21:33:44,577 -INFO - All stocks - Excel file Saved
+2024-06-06 21:33:44,591 -INFO - All stocks - json file saved
+2024-06-06 21:33:44,591 -INFO - SUNPHARMA.NS - alerts file Saved
+2024-06-06 21:33:44,591 -INFO - SUNPHARMA.NS - Process function Ended
+2024-06-06 21:33:48,151 -INFO - All stocks - Excel file Saved
+2024-06-06 21:33:48,330 -INFO - All stocks - json file saved
+2024-06-06 21:33:48,330 -INFO - UPL.NS - alerts file Saved
+2024-06-06 21:33:48,330 -INFO - UPL.NS - Process function Ended
+2024-06-06 21:33:48,991 -INFO - All stocks - Excel file Saved
+2024-06-06 21:33:48,994 -INFO - All stocks - json file saved
+2024-06-06 21:33:48,994 -INFO - LTIM.NS - alerts file Saved
+2024-06-06 21:33:48,994 -INFO - LTIM.NS - Process function Ended
+2024-06-06 21:33:49,180 -INFO - All stocks - Excel file Saved
+2024-06-06 21:33:49,180 -INFO - All stocks - json file saved
+2024-06-06 21:33:49,180 -INFO - HCLTECH.NS - alerts file Saved
+2024-06-06 21:33:49,180 -INFO - HCLTECH.NS - Process function Ended
+2024-06-06 21:33:49,200 -INFO - All stocks - Excel file Saved
+2024-06-06 21:33:49,239 -INFO - All stocks - json file saved
+2024-06-06 21:33:49,239 -INFO - TATACONSUM.NS - alerts file Saved
+2024-06-06 21:33:49,239 -INFO - TATACONSUM.NS - Process function Ended
+2024-06-06 21:33:51,593 -INFO - All stocks - Excel file Saved
+2024-06-06 21:33:51,593 -INFO - All stocks - json file saved
+2024-06-06 21:33:51,648 -INFO - AXISBANK.NS - alerts file Saved
+2024-06-06 21:33:51,648 -INFO - AXISBANK.NS - Process function Ended
+2024-06-06 21:33:51,743 -INFO - All stocks - Excel file Saved
+2024-06-06 21:33:51,757 -INFO - All stocks - json file saved
+2024-06-06 21:33:51,757 -INFO - TCS.NS - alerts file Saved
+2024-06-06 21:33:51,757 -INFO - TCS.NS - Process function Ended
+2024-06-06 21:33:56,206 -INFO - All stocks - Excel file Saved
+2024-06-06 21:33:56,206 -INFO - All stocks - json file saved
+2024-06-06 21:33:56,206 -INFO - KOTAKBANK.NS - alerts file Saved
+2024-06-06 21:33:56,252 -INFO - KOTAKBANK.NS - Process function Ended
+2024-06-06 21:33:59,826 -INFO - All stocks - Excel file Saved
+2024-06-06 21:33:59,895 -INFO - All stocks - json file saved
+2024-06-06 21:33:59,896 -INFO - MARUTI.NS - alerts file Saved
+2024-06-06 21:33:59,896 -INFO - MARUTI.NS - Process function Ended
+2024-06-06 21:34:00,226 -INFO - All stocks - Excel file Saved
+2024-06-06 21:34:00,230 -INFO - All stocks - Excel file Saved
+2024-06-06 21:34:00,231 -INFO - All stocks - json file saved
+2024-06-06 21:34:00,231 -INFO - ONGC.NS - alerts file Saved
+2024-06-06 21:34:00,231 -INFO - ONGC.NS - Process function Ended
+2024-06-06 21:34:00,234 -INFO - All stocks - json file saved
+2024-06-06 21:34:00,234 -INFO - POWERGRID.NS - alerts file Saved
+2024-06-06 21:34:00,234 -INFO - POWERGRID.NS - Process function Ended
+2024-06-06 21:34:00,677 -INFO - All stocks - Excel file Saved
+2024-06-06 21:34:00,677 -INFO - All stocks - json file saved
+2024-06-06 21:34:00,677 -INFO - HDFCLIFE.NS - alerts file Saved
+2024-06-06 21:34:00,677 -INFO - HDFCLIFE.NS - Process function Ended
+2024-06-06 21:34:00,683 -INFO - All stocks - Excel file Saved
+2024-06-06 21:34:00,684 -INFO - All stocks - json file saved
+2024-06-06 21:34:00,684 -INFO - TATAMOTORS.NS - alerts file Saved
+2024-06-06 21:34:00,684 -INFO - TATAMOTORS.NS - Process function Ended
+2024-06-06 21:34:00,697 -INFO - All stocks - Excel file Saved
+2024-06-06 21:34:00,698 -INFO - All stocks - json file saved
+2024-06-06 21:34:00,698 -INFO - SBILIFE.NS - alerts file Saved
+2024-06-06 21:34:00,698 -INFO - SBILIFE.NS - Process function Ended
+2024-06-06 21:34:00,976 -INFO - All stocks - Excel file Saved
+2024-06-06 21:34:00,976 -INFO - All stocks - json file saved
+2024-06-06 21:34:00,976 -INFO - NESTLEIND.NS - alerts file Saved
+2024-06-06 21:34:00,976 -INFO - NESTLEIND.NS - Process function Ended
+2024-06-06 21:34:00,993 -INFO - All stocks - Excel file Saved
+2024-06-06 21:34:00,993 -INFO - All stocks - json file saved
+2024-06-06 21:34:00,993 -INFO - NTPC.NS - alerts file Saved
+2024-06-06 21:34:00,993 -INFO - NTPC.NS - Process function Ended
+2024-06-06 21:34:01,136 -INFO - All stocks - Excel file Saved
+2024-06-06 21:34:01,136 -INFO - All stocks - json file saved
+2024-06-06 21:34:01,136 -INFO - HDFCBANK.NS - alerts file Saved
+2024-06-06 21:34:01,136 -INFO - HDFCBANK.NS - Process function Ended
+2024-06-06 21:34:01,442 -INFO - All stocks - Excel file Saved
+2024-06-06 21:34:01,443 -INFO - All stocks - json file saved
+2024-06-06 21:34:01,443 -INFO - JSWSTEEL.NS - alerts file Saved
+2024-06-06 21:34:01,443 -INFO - JSWSTEEL.NS - Process function Ended
+2024-06-06 21:34:01,492 -INFO - All stocks - Excel file Saved
+2024-06-06 21:34:01,492 -INFO - All stocks - Excel file Saved
+2024-06-06 21:34:01,492 -INFO - All stocks - json file saved
+2024-06-06 21:34:01,492 -INFO - TATASTEEL.NS - alerts file Saved
+2024-06-06 21:34:01,492 -INFO - TATASTEEL.NS - Process function Ended
+2024-06-06 21:34:01,492 -INFO - All stocks - json file saved
+2024-06-06 21:34:01,492 -INFO - ITC.NS - alerts file Saved
+2024-06-06 21:34:01,493 -INFO - ITC.NS - Process function Ended
+2024-06-06 21:34:01,500 -INFO - All stocks - Excel file Saved
+2024-06-06 21:34:01,500 -INFO - All stocks - json file saved
+2024-06-06 21:34:01,500 -INFO - TECHM.NS - alerts file Saved
+2024-06-06 21:34:01,500 -INFO - TECHM.NS - Process function Ended
+2024-06-06 21:34:01,609 -INFO - All stocks - Excel file Saved
+2024-06-06 21:34:01,609 -INFO - All stocks - json file saved
+2024-06-06 21:34:01,609 -INFO - LT.NS - alerts file Saved
+2024-06-06 21:34:01,609 -INFO - LT.NS - Process function Ended
+2024-06-06 21:34:14,427 -INFO - All stocks - Excel file Saved
+2024-06-06 21:34:14,428 -INFO - All stocks - json file saved
+2024-06-06 21:34:26,411 -INFO - All stocks - Excel file Saved
+2024-06-06 21:34:26,411 -INFO - All stocks - json file saved
+2024-06-06 21:34:26,411 -INFO - 25 - 50 - Stock threading ended ....
+2024-06-06 21:34:29,570 -INFO - CANBK.NS - Process function started
+2024-06-06 21:34:29,570 -INFO - MUTHOOTFIN.NS - Process function started
+2024-06-06 21:34:29,570 -INFO - CANBK.NS - Reading existing data...
+2024-06-06 21:34:29,570 -INFO - ICICIBANK.NS - Process function started
+2024-06-06 21:34:29,570 -INFO - MUTHOOTFIN.NS - Reading existing data...
+2024-06-06 21:34:29,571 -INFO - ICICIBANK.NS - Reading existing data...
+2024-06-06 21:34:29,571 -INFO - INDIGO.NS - Process function started
+2024-06-06 21:34:29,571 -INFO - HAL.NS - Process function started
+2024-06-06 21:34:29,571 -INFO - AMBUJACEM.NS - Process function started
+2024-06-06 21:34:29,571 -INFO - IDFCFIRSTB.NS - Process function started
+2024-06-06 21:34:29,571 -INFO - ZYDUSLIFE.NS - Process function started
+2024-06-06 21:34:29,572 -INFO - SHRIRAMFIN.NS - Process function started
+2024-06-06 21:34:29,572 -INFO - INDIGO.NS - Reading existing data...
+2024-06-06 21:34:29,572 -INFO - BEL.NS - Process function started
+2024-06-06 21:34:29,572 -INFO - AUBANK.NS - Process function started
+2024-06-06 21:34:29,572 -INFO - HAL.NS - Reading existing data...
+2024-06-06 21:34:29,572 -INFO - BANKBARODA.NS - Process function started
+2024-06-06 21:34:29,572 -INFO - AMBUJACEM.NS - Reading existing data...
+2024-06-06 21:34:29,572 -INFO - JINDALSTEL.NS - Process function started
+2024-06-06 21:34:29,573 -INFO - FEDERALBNK.NS - Process function started
+2024-06-06 21:34:29,573 -INFO - INDUSINDBK.NS - Process function started
+2024-06-06 21:34:29,573 -INFO - PNB.NS - Process function started
+2024-06-06 21:34:29,573 -INFO - MCDOWELL-N.NS - Process function started
+2024-06-06 21:34:29,573 -INFO - IDFCFIRSTB.NS - Reading existing data...
+2024-06-06 21:34:29,573 -INFO - GAIL.NS - Process function started
+2024-06-06 21:34:29,573 -INFO - ZYDUSLIFE.NS - Reading existing data...
+2024-06-06 21:34:29,573 -INFO - SHRIRAMFIN.NS - Reading existing data...
+2024-06-06 21:34:29,574 -INFO - BANDHANBNK.NS - Process function started
+2024-06-06 21:34:29,574 -INFO - IRCTC.NS - Process function started
+2024-06-06 21:34:29,574 -INFO - TORNTPHARM.NS - Process function started
+2024-06-06 21:34:29,575 -INFO - BEL.NS - Reading existing data...
+2024-06-06 21:34:29,575 -INFO - BERGEPAINT.NS - Process function started
+2024-06-06 21:34:29,576 -INFO - SBIN.NS - Process function started
+2024-06-06 21:34:29,576 -INFO - AUBANK.NS - Reading existing data...
+2024-06-06 21:34:29,577 -INFO - MARICO.NS - Process function started
+2024-06-06 21:34:29,577 -INFO - CHOLAFIN.NS - Process function started
+2024-06-06 21:34:29,577 -INFO - JINDALSTEL.NS - Reading existing data...
+2024-06-06 21:34:29,577 -INFO - BANKBARODA.NS - Reading existing data...
+2024-06-06 21:34:29,578 -INFO - INDUSINDBK.NS - Reading existing data...
+2024-06-06 21:34:29,578 -INFO - PNB.NS - Reading existing data...
+2024-06-06 21:34:29,579 -INFO - FEDERALBNK.NS - Reading existing data...
+2024-06-06 21:34:29,579 -INFO - MCDOWELL-N.NS - Reading existing data...
+2024-06-06 21:34:29,580 -INFO - GAIL.NS - Reading existing data...
+2024-06-06 21:34:29,581 -INFO - BANDHANBNK.NS - Reading existing data...
+2024-06-06 21:34:29,581 -INFO - IRCTC.NS - Reading existing data...
+2024-06-06 21:34:29,581 -INFO - TORNTPHARM.NS - Reading existing data...
+2024-06-06 21:34:29,583 -INFO - SBIN.NS - Reading existing data...
+2024-06-06 21:34:29,583 -INFO - BERGEPAINT.NS - Reading existing data...
+2024-06-06 21:34:29,584 -INFO - MARICO.NS - Reading existing data...
+2024-06-06 21:34:29,586 -INFO - CHOLAFIN.NS - Reading existing data...
+2024-06-06 21:34:29,893 -INFO - MUTHOOTFIN.NS - add_ph_pl_values function started
+2024-06-06 21:34:29,996 -INFO - ICICIBANK.NS - add_ph_pl_values function started
+2024-06-06 21:34:30,001 -INFO - MUTHOOTFIN.NS - add_ph_pl_values function Ended
+2024-06-06 21:34:30,072 -INFO - INDIGO.NS - add_ph_pl_values function started
+2024-06-06 21:34:30,186 -INFO - ICICIBANK.NS - add_ph_pl_values function Ended
+2024-06-06 21:34:30,364 -INFO - INDIGO.NS - add_ph_pl_values function Ended
+2024-06-06 21:34:30,745 -INFO - CANBK.NS - add_ph_pl_values function started
+2024-06-06 21:34:30,747 -INFO - HAL.NS - add_ph_pl_values function started
+2024-06-06 21:34:30,846 -INFO - CANBK.NS - add_ph_pl_values function Ended
+2024-06-06 21:34:30,848 -INFO - AMBUJACEM.NS - add_ph_pl_values function started
+2024-06-06 21:34:31,161 -INFO - HAL.NS - add_ph_pl_values function Ended
+2024-06-06 21:34:31,567 -INFO - AMBUJACEM.NS - add_ph_pl_values function Ended
+2024-06-06 21:34:31,839 -INFO - ZYDUSLIFE.NS - add_ph_pl_values function started
+2024-06-06 21:34:32,201 -INFO - IDFCFIRSTB.NS - add_ph_pl_values function started
+2024-06-06 21:34:32,207 -INFO - JINDALSTEL.NS - add_ph_pl_values function started
+2024-06-06 21:34:32,441 -INFO - SHRIRAMFIN.NS - add_ph_pl_values function started
+2024-06-06 21:34:32,459 -INFO - AUBANK.NS - add_ph_pl_values function started
+2024-06-06 21:34:32,525 -INFO - ZYDUSLIFE.NS - add_ph_pl_values function Ended
+2024-06-06 21:34:32,539 -INFO - INDUSINDBK.NS - add_ph_pl_values function started
+2024-06-06 21:34:32,808 -INFO - BEL.NS - add_ph_pl_values function started
+2024-06-06 21:34:33,052 -INFO - PNB.NS - add_ph_pl_values function started
+2024-06-06 21:34:33,415 -INFO - BANKBARODA.NS - add_ph_pl_values function started
+2024-06-06 21:34:33,460 -INFO - IDFCFIRSTB.NS - add_ph_pl_values function Ended
+2024-06-06 21:34:33,472 -INFO - MCDOWELL-N.NS - add_ph_pl_values function started
+2024-06-06 21:34:33,548 -INFO - IRCTC.NS - add_ph_pl_values function started
+2024-06-06 21:34:33,643 -INFO - SBIN.NS - add_ph_pl_values function started
+2024-06-06 21:34:33,644 -INFO - FEDERALBNK.NS - add_ph_pl_values function started
+2024-06-06 21:34:33,719 -INFO - BERGEPAINT.NS - add_ph_pl_values function started
+2024-06-06 21:34:33,720 -INFO - TORNTPHARM.NS - add_ph_pl_values function started
+2024-06-06 21:34:33,721 -INFO - GAIL.NS - add_ph_pl_values function started
+2024-06-06 21:34:33,721 -INFO - JINDALSTEL.NS - add_ph_pl_values function Ended
+2024-06-06 21:34:33,885 -INFO - CHOLAFIN.NS - add_ph_pl_values function started
+2024-06-06 21:34:33,949 -INFO - MARICO.NS - add_ph_pl_values function started
+2024-06-06 21:34:33,951 -INFO - BANDHANBNK.NS - add_ph_pl_values function started
+2024-06-06 21:34:33,968 -INFO - SHRIRAMFIN.NS - add_ph_pl_values function Ended
+2024-06-06 21:34:34,380 -INFO - AUBANK.NS - add_ph_pl_values function Ended
+2024-06-06 21:34:35,479 -INFO - INDUSINDBK.NS - add_ph_pl_values function Ended
+2024-06-06 21:34:38,188 -INFO - BEL.NS - add_ph_pl_values function Ended
+2024-06-06 21:34:42,352 -INFO - PNB.NS - add_ph_pl_values function Ended
+2024-06-06 21:34:48,958 -INFO - BANKBARODA.NS - add_ph_pl_values function Ended
+2024-06-06 21:34:56,987 -INFO - MCDOWELL-N.NS - add_ph_pl_values function Ended
+2024-06-06 21:35:01,069 -INFO - IRCTC.NS - add_ph_pl_values function Ended
+2024-06-06 21:35:05,041 -INFO - SBIN.NS - add_ph_pl_values function Ended
+2024-06-06 21:35:07,467 -INFO - FEDERALBNK.NS - add_ph_pl_values function Ended
+2024-06-06 21:35:09,262 -INFO - BERGEPAINT.NS - add_ph_pl_values function Ended
+2024-06-06 21:35:12,264 -INFO - TORNTPHARM.NS - add_ph_pl_values function Ended
+2024-06-06 21:35:15,160 -INFO - GAIL.NS - add_ph_pl_values function Ended
+2024-06-06 21:35:18,356 -INFO - CHOLAFIN.NS - add_ph_pl_values function Ended
+2024-06-06 21:35:24,303 -INFO - MARICO.NS - add_ph_pl_values function Ended
+2024-06-06 21:35:28,940 -INFO - BANDHANBNK.NS - add_ph_pl_values function Ended
+2024-06-06 21:39:50,707 -INFO - All stocks - Excel file Saved
+2024-06-06 21:39:50,725 -INFO - All stocks - json file saved
+2024-06-06 21:39:50,725 -INFO - MUTHOOTFIN.NS - alerts file Saved
+2024-06-06 21:39:50,725 -INFO - MUTHOOTFIN.NS - Process function Ended
+2024-06-06 21:39:51,199 -INFO - All stocks - Excel file Saved
+2024-06-06 21:39:51,268 -INFO - All stocks - json file saved
+2024-06-06 21:39:51,268 -INFO - INDIGO.NS - alerts file Saved
+2024-06-06 21:39:51,268 -INFO - INDIGO.NS - Process function Ended
+2024-06-06 21:39:55,744 -INFO - All stocks - Excel file Saved
+2024-06-06 21:39:56,086 -INFO - All stocks - json file saved
+2024-06-06 21:39:56,305 -INFO - CANBK.NS - alerts file Saved
+2024-06-06 21:39:56,393 -INFO - CANBK.NS - Process function Ended
+2024-06-06 21:39:56,998 -INFO - All stocks - Excel file Saved
+2024-06-06 21:39:57,101 -INFO - All stocks - json file saved
+2024-06-06 21:39:57,101 -INFO - HAL.NS - alerts file Saved
+2024-06-06 21:39:57,101 -INFO - HAL.NS - Process function Ended
+2024-06-06 21:39:57,240 -INFO - All stocks - Excel file Saved
+2024-06-06 21:39:57,271 -INFO - All stocks - json file saved
+2024-06-06 21:39:57,271 -INFO - AUBANK.NS - alerts file Saved
+2024-06-06 21:39:57,271 -INFO - AUBANK.NS - Process function Ended
+2024-06-06 21:39:57,636 -INFO - All stocks - Excel file Saved
+2024-06-06 21:39:57,721 -INFO - All stocks - json file saved
+2024-06-06 21:39:57,721 -INFO - ZYDUSLIFE.NS - alerts file Saved
+2024-06-06 21:39:57,721 -INFO - ZYDUSLIFE.NS - Process function Ended
+2024-06-06 21:40:00,103 -INFO - All stocks - Excel file Saved
+2024-06-06 21:40:00,152 -INFO - All stocks - json file saved
+2024-06-06 21:40:00,152 -INFO - INDUSINDBK.NS - alerts file Saved
+2024-06-06 21:40:00,291 -INFO - INDUSINDBK.NS - Process function Ended
+2024-06-06 21:40:04,679 -INFO - All stocks - Excel file Saved
+2024-06-06 21:40:04,709 -INFO - All stocks - json file saved
+2024-06-06 21:40:04,709 -INFO - ICICIBANK.NS - alerts file Saved
+2024-06-06 21:40:04,710 -INFO - ICICIBANK.NS - Process function Ended
+2024-06-06 21:40:05,559 -INFO - All stocks - Excel file Saved
+2024-06-06 21:40:05,559 -INFO - All stocks - Excel file Saved
+2024-06-06 21:40:05,560 -INFO - All stocks - json file saved
+2024-06-06 21:40:05,560 -INFO - PNB.NS - alerts file Saved
+2024-06-06 21:40:05,563 -INFO - PNB.NS - Process function Ended
+2024-06-06 21:40:05,566 -INFO - All stocks - json file saved
+2024-06-06 21:40:05,566 -INFO - IDFCFIRSTB.NS - alerts file Saved
+2024-06-06 21:40:05,566 -INFO - IDFCFIRSTB.NS - Process function Ended
+2024-06-06 21:40:05,642 -INFO - All stocks - Excel file Saved
+2024-06-06 21:40:05,661 -INFO - All stocks - json file saved
+2024-06-06 21:40:05,662 -INFO - JINDALSTEL.NS - alerts file Saved
+2024-06-06 21:40:05,662 -INFO - JINDALSTEL.NS - Process function Ended
+2024-06-06 21:40:06,039 -INFO - All stocks - Excel file Saved
+2024-06-06 21:40:06,056 -INFO - All stocks - json file saved
+2024-06-06 21:40:06,056 -INFO - SHRIRAMFIN.NS - alerts file Saved
+2024-06-06 21:40:06,056 -INFO - SHRIRAMFIN.NS - Process function Ended
+2024-06-06 21:40:07,453 -INFO - All stocks - Excel file Saved
+2024-06-06 21:40:07,454 -INFO - All stocks - json file saved
+2024-06-06 21:40:07,454 -INFO - AMBUJACEM.NS - alerts file Saved
+2024-06-06 21:40:07,455 -INFO - AMBUJACEM.NS - Process function Ended
+2024-06-06 21:40:12,972 -INFO - All stocks - Excel file Saved
+2024-06-06 21:40:12,973 -INFO - All stocks - json file saved
+2024-06-06 21:40:12,973 -INFO - BANKBARODA.NS - alerts file Saved
+2024-06-06 21:40:12,973 -INFO - BANKBARODA.NS - Process function Ended
+2024-06-06 21:40:12,994 -INFO - All stocks - Excel file Saved
+2024-06-06 21:40:12,998 -INFO - All stocks - json file saved
+2024-06-06 21:40:12,998 -INFO - BEL.NS - alerts file Saved
+2024-06-06 21:40:12,998 -INFO - BEL.NS - Process function Ended
+2024-06-06 21:40:14,894 -INFO - All stocks - Excel file Saved
+2024-06-06 21:40:14,932 -INFO - All stocks - json file saved
+2024-06-06 21:40:14,932 -INFO - MCDOWELL-N.NS - alerts file Saved
+2024-06-06 21:40:14,932 -INFO - MCDOWELL-N.NS - Process function Ended
+2024-06-06 21:40:17,931 -INFO - All stocks - Excel file Saved
+2024-06-06 21:40:17,999 -INFO - All stocks - json file saved
+2024-06-06 21:40:17,999 -INFO - GAIL.NS - alerts file Saved
+2024-06-06 21:40:18,002 -INFO - GAIL.NS - Process function Ended
+2024-06-06 21:40:18,022 -INFO - All stocks - Excel file Saved
+2024-06-06 21:40:18,065 -INFO - All stocks - json file saved
+2024-06-06 21:40:18,065 -INFO - FEDERALBNK.NS - alerts file Saved
+2024-06-06 21:40:18,065 -INFO - FEDERALBNK.NS - Process function Ended
+2024-06-06 21:40:18,237 -INFO - All stocks - Excel file Saved
+2024-06-06 21:40:18,238 -INFO - All stocks - json file saved
+2024-06-06 21:40:18,238 -INFO - BERGEPAINT.NS - alerts file Saved
+2024-06-06 21:40:18,238 -INFO - BERGEPAINT.NS - Process function Ended
+2024-06-06 21:40:18,264 -INFO - All stocks - Excel file Saved
+2024-06-06 21:40:18,264 -INFO - All stocks - json file saved
+2024-06-06 21:40:18,264 -INFO - IRCTC.NS - alerts file Saved
+2024-06-06 21:40:18,264 -INFO - IRCTC.NS - Process function Ended
+2024-06-06 21:40:18,610 -INFO - All stocks - Excel file Saved
+2024-06-06 21:40:18,611 -INFO - All stocks - json file saved
+2024-06-06 21:40:18,611 -INFO - MARICO.NS - alerts file Saved
+2024-06-06 21:40:18,611 -INFO - MARICO.NS - Process function Ended
+2024-06-06 21:40:18,614 -INFO - All stocks - Excel file Saved
+2024-06-06 21:40:18,615 -INFO - All stocks - Excel file Saved
+2024-06-06 21:40:18,615 -INFO - All stocks - json file saved
+2024-06-06 21:40:18,615 -INFO - SBIN.NS - alerts file Saved
+2024-06-06 21:40:18,615 -INFO - SBIN.NS - Process function Ended
+2024-06-06 21:40:18,616 -INFO - All stocks - json file saved
+2024-06-06 21:40:18,616 -INFO - CHOLAFIN.NS - alerts file Saved
+2024-06-06 21:40:18,616 -INFO - CHOLAFIN.NS - Process function Ended
+2024-06-06 21:40:18,813 -INFO - All stocks - Excel file Saved
+2024-06-06 21:40:18,814 -INFO - All stocks - json file saved
+2024-06-06 21:40:18,814 -INFO - TORNTPHARM.NS - alerts file Saved
+2024-06-06 21:40:18,814 -INFO - TORNTPHARM.NS - Process function Ended
+2024-06-06 21:40:18,873 -INFO - All stocks - Excel file Saved
+2024-06-06 21:40:18,873 -INFO - All stocks - json file saved
+2024-06-06 21:40:18,874 -INFO - BANDHANBNK.NS - alerts file Saved
+2024-06-06 21:40:18,874 -INFO - BANDHANBNK.NS - Process function Ended
+2024-06-06 21:40:33,855 -INFO - All stocks - Excel file Saved
+2024-06-06 21:40:33,858 -INFO - All stocks - json file saved
+2024-06-06 21:40:47,327 -INFO - All stocks - Excel file Saved
+2024-06-06 21:40:47,328 -INFO - All stocks - json file saved
+2024-06-06 21:40:47,328 -INFO - 50 - 75 - Stock threading ended ....
+2024-06-06 21:40:50,001 -INFO - SBICARD.NS - Process function started
+2024-06-06 21:40:50,001 -INFO - TATAPOWER.NS - Process function started
+2024-06-06 21:40:50,001 -INFO - PIDILITIND.NS - Process function started
+2024-06-06 21:40:50,001 -INFO - SHREECEM.NS - Process function started
+2024-06-06 21:40:50,001 -INFO - TATAPOWER.NS - Reading existing data...
+2024-06-06 21:40:50,001 -INFO - ADANIGREEN.NS - Process function started
+2024-06-06 21:40:50,002 -INFO - PIDILITIND.NS - Reading existing data...
+2024-06-06 21:40:50,002 -INFO - SBICARD.NS - Reading existing data...
+2024-06-06 21:40:50,002 -INFO - SHREECEM.NS - Reading existing data...
+2024-06-06 21:40:50,002 -INFO - IOC.NS - Process function started
+2024-06-06 21:40:50,002 -INFO - PGHH.NS - Process function started
+2024-06-06 21:40:50,002 -INFO - DMART.NS - Process function started
+2024-06-06 21:40:50,002 -INFO - SIEMENS.NS - Process function started
+2024-06-06 21:40:50,002 -INFO - AWL.NS - Process function started
+2024-06-06 21:40:50,002 -INFO - ADANIGREEN.NS - Reading existing data...
+2024-06-06 21:40:50,003 -INFO - GODREJCP.NS - Process function started
+2024-06-06 21:40:50,003 -INFO - VEDL.NS - Process function started
+2024-06-06 21:40:50,003 -INFO - ATGL.NS - Process function started
+2024-06-06 21:40:50,003 -INFO - ZOMATO.NS - Process function started
+2024-06-06 21:40:50,003 -INFO - ADANIENSOL.NS - Process function started
+2024-06-06 21:40:50,003 -INFO - IOC.NS - Reading existing data...
+2024-06-06 21:40:50,003 -INFO - PGHH.NS - Reading existing data...
+2024-06-06 21:40:50,004 -INFO - ICICIPRULI.NS - Process function started
+2024-06-06 21:40:50,004 -INFO - DMART.NS - Reading existing data...
+2024-06-06 21:40:50,004 -INFO - DLF.NS - Process function started
+2024-06-06 21:40:50,004 -INFO - PIIND.NS - Process function started
+2024-06-06 21:40:50,004 -INFO - SIEMENS.NS - Reading existing data...
+2024-06-06 21:40:50,005 -INFO - AWL.NS - Reading existing data...
+2024-06-06 21:40:50,005 -INFO - MOTHERSON.NS - Process function started
+2024-06-06 21:40:50,005 -INFO - GODREJCP.NS - Reading existing data...
+2024-06-06 21:40:50,006 -INFO - VBL.NS - Process function started
+2024-06-06 21:40:50,006 -INFO - VEDL.NS - Reading existing data...
+2024-06-06 21:40:50,006 -INFO - TVSMOTOR.NS - Process function started
+2024-06-06 21:40:50,006 -INFO - ATGL.NS - Reading existing data...
+2024-06-06 21:40:50,007 -INFO - ZOMATO.NS - Reading existing data...
+2024-06-06 21:40:50,007 -INFO - BAJAJHLDNG.NS - Process function started
+2024-06-06 21:40:50,007 -INFO - ADANIENSOL.NS - Reading existing data...
+2024-06-06 21:40:50,008 -INFO - DABUR.NS - Process function started
+2024-06-06 21:40:50,008 -INFO - LICI.NS - Process function started
+2024-06-06 21:40:50,008 -INFO - ICICIGI.NS - Process function started
+2024-06-06 21:40:50,010 -INFO - ICICIPRULI.NS - Reading existing data...
+2024-06-06 21:40:50,011 -INFO - DLF.NS - Reading existing data...
+2024-06-06 21:40:50,013 -INFO - PIIND.NS - Reading existing data...
+2024-06-06 21:40:50,022 -INFO - MOTHERSON.NS - Reading existing data...
+2024-06-06 21:40:50,035 -INFO - VBL.NS - Reading existing data...
+2024-06-06 21:40:50,036 -INFO - TVSMOTOR.NS - Reading existing data...
+2024-06-06 21:40:50,064 -INFO - BAJAJHLDNG.NS - Reading existing data...
+2024-06-06 21:40:50,069 -INFO - DABUR.NS - Reading existing data...
+2024-06-06 21:40:50,073 -INFO - LICI.NS - Reading existing data...
+2024-06-06 21:40:50,080 -INFO - ICICIGI.NS - Reading existing data...
+2024-06-06 21:40:50,159 -INFO - TATAPOWER.NS - add_ph_pl_values function started
+2024-06-06 21:40:50,321 -INFO - TATAPOWER.NS - add_ph_pl_values function Ended
+2024-06-06 21:40:50,620 -INFO - SBICARD.NS - add_ph_pl_values function started
+2024-06-06 21:40:50,790 -INFO - PIDILITIND.NS - add_ph_pl_values function started
+2024-06-06 21:40:50,802 -INFO - SBICARD.NS - add_ph_pl_values function Ended
+2024-06-06 21:40:50,804 -INFO - ADANIGREEN.NS - add_ph_pl_values function started
+2024-06-06 21:40:51,069 -INFO - PIDILITIND.NS - add_ph_pl_values function Ended
+2024-06-06 21:40:51,517 -INFO - IOC.NS - add_ph_pl_values function started
+2024-06-06 21:40:51,635 -INFO - ADANIGREEN.NS - add_ph_pl_values function Ended
+2024-06-06 21:40:51,740 -INFO - SHREECEM.NS - add_ph_pl_values function started
+2024-06-06 21:40:51,885 -INFO - PGHH.NS - add_ph_pl_values function started
+2024-06-06 21:40:52,123 -INFO - SIEMENS.NS - add_ph_pl_values function started
+2024-06-06 21:40:52,420 -INFO - IOC.NS - add_ph_pl_values function Ended
+2024-06-06 21:40:52,449 -INFO - GODREJCP.NS - add_ph_pl_values function started
+2024-06-06 21:40:52,700 -INFO - AWL.NS - add_ph_pl_values function started
+2024-06-06 21:40:53,214 -INFO - SHREECEM.NS - add_ph_pl_values function Ended
+2024-06-06 21:40:53,478 -INFO - VEDL.NS - add_ph_pl_values function started
+2024-06-06 21:40:53,583 -INFO - DMART.NS - add_ph_pl_values function started
+2024-06-06 21:40:54,060 -INFO - ICICIPRULI.NS - add_ph_pl_values function started
+2024-06-06 21:40:54,139 -INFO - ATGL.NS - add_ph_pl_values function started
+2024-06-06 21:40:54,139 -INFO - TVSMOTOR.NS - add_ph_pl_values function started
+2024-06-06 21:40:54,227 -INFO - ZOMATO.NS - add_ph_pl_values function started
+2024-06-06 21:40:54,270 -INFO - PIIND.NS - add_ph_pl_values function started
+2024-06-06 21:40:54,278 -INFO - ADANIENSOL.NS - add_ph_pl_values function started
+2024-06-06 21:40:54,284 -INFO - PGHH.NS - add_ph_pl_values function Ended
+2024-06-06 21:40:54,299 -INFO - DLF.NS - add_ph_pl_values function started
+2024-06-06 21:40:54,452 -INFO - MOTHERSON.NS - add_ph_pl_values function started
+2024-06-06 21:40:54,460 -INFO - BAJAJHLDNG.NS - add_ph_pl_values function started
+2024-06-06 21:40:54,461 -INFO - ICICIGI.NS - add_ph_pl_values function started
+2024-06-06 21:40:54,520 -INFO - LICI.NS - add_ph_pl_values function started
+2024-06-06 21:40:54,556 -INFO - SIEMENS.NS - add_ph_pl_values function Ended
+2024-06-06 21:40:54,557 -INFO - DABUR.NS - add_ph_pl_values function started
+2024-06-06 21:40:54,608 -INFO - VBL.NS - add_ph_pl_values function started
+2024-06-06 21:40:54,653 -INFO - GODREJCP.NS - add_ph_pl_values function Ended
+2024-06-06 21:40:55,152 -INFO - AWL.NS - add_ph_pl_values function Ended
+2024-06-06 21:40:56,363 -INFO - VEDL.NS - add_ph_pl_values function Ended
+2024-06-06 21:40:56,882 -INFO - DMART.NS - add_ph_pl_values function Ended
+2024-06-06 21:40:59,670 -INFO - ICICIPRULI.NS - add_ph_pl_values function Ended
+2024-06-06 21:41:02,746 -INFO - ATGL.NS - add_ph_pl_values function Ended
+2024-06-06 21:41:05,709 -INFO - TVSMOTOR.NS - add_ph_pl_values function Ended
+2024-06-06 21:41:10,379 -INFO - ZOMATO.NS - add_ph_pl_values function Ended
+2024-06-06 21:41:13,936 -INFO - PIIND.NS - add_ph_pl_values function Ended
+2024-06-06 21:41:16,211 -INFO - ADANIENSOL.NS - add_ph_pl_values function Ended
+2024-06-06 21:41:18,204 -INFO - DLF.NS - add_ph_pl_values function Ended
+2024-06-06 21:41:23,459 -INFO - MOTHERSON.NS - add_ph_pl_values function Ended
+2024-06-06 21:41:28,209 -INFO - BAJAJHLDNG.NS - add_ph_pl_values function Ended
+2024-06-06 21:41:32,606 -INFO - ICICIGI.NS - add_ph_pl_values function Ended
+2024-06-06 21:41:38,023 -INFO - LICI.NS - add_ph_pl_values function Ended
+2024-06-06 21:41:39,715 -INFO - DABUR.NS - add_ph_pl_values function Ended
+2024-06-06 21:41:44,843 -INFO - VBL.NS - add_ph_pl_values function Ended
+2024-06-06 21:46:56,597 -INFO - All stocks - Excel file Saved
+2024-06-06 21:46:56,600 -INFO - All stocks - json file saved
+2024-06-06 21:46:56,690 -INFO - TATAPOWER.NS - alerts file Saved
+2024-06-06 21:46:56,788 -INFO - TATAPOWER.NS - Process function Ended
+2024-06-06 21:47:02,471 -INFO - All stocks - Excel file Saved
+2024-06-06 21:47:02,476 -INFO - All stocks - json file saved
+2024-06-06 21:47:02,478 -INFO - ATGL.NS - alerts file Saved
+2024-06-06 21:47:02,478 -INFO - ATGL.NS - Process function Ended
+2024-06-06 21:47:06,543 -INFO - All stocks - Excel file Saved
+2024-06-06 21:47:06,607 -INFO - All stocks - json file saved
+2024-06-06 21:47:06,608 -INFO - All stocks - Excel file Saved
+2024-06-06 21:47:06,608 -INFO - PIDILITIND.NS - alerts file Saved
+2024-06-06 21:47:06,646 -INFO - All stocks - json file saved
+2024-06-06 21:47:06,649 -INFO - PIDILITIND.NS - Process function Ended
+2024-06-06 21:47:06,652 -INFO - SIEMENS.NS - alerts file Saved
+2024-06-06 21:47:06,662 -INFO - SIEMENS.NS - Process function Ended
+2024-06-06 21:47:07,135 -INFO - All stocks - Excel file Saved
+2024-06-06 21:47:07,135 -INFO - All stocks - json file saved
+2024-06-06 21:47:07,135 -INFO - PGHH.NS - alerts file Saved
+2024-06-06 21:47:07,135 -INFO - PGHH.NS - Process function Ended
+2024-06-06 21:47:08,535 -INFO - All stocks - Excel file Saved
+2024-06-06 21:47:08,571 -INFO - All stocks - json file saved
+2024-06-06 21:47:08,571 -INFO - MOTHERSON.NS - alerts file Saved
+2024-06-06 21:47:08,572 -INFO - MOTHERSON.NS - Process function Ended
+2024-06-06 21:47:08,585 -INFO - All stocks - Excel file Saved
+2024-06-06 21:47:08,590 -INFO - All stocks - Excel file Saved
+2024-06-06 21:47:08,625 -INFO - All stocks - json file saved
+2024-06-06 21:47:08,667 -INFO - SBICARD.NS - alerts file Saved
+2024-06-06 21:47:11,730 -INFO - SBICARD.NS - Process function Ended
+2024-06-06 21:47:11,924 -INFO - All stocks - json file saved
+2024-06-06 21:47:11,924 -INFO - VEDL.NS - alerts file Saved
+2024-06-06 21:47:12,084 -INFO - VEDL.NS - Process function Ended
+2024-06-06 21:47:15,545 -INFO - All stocks - Excel file Saved
+2024-06-06 21:47:15,546 -INFO - All stocks - Excel file Saved
+2024-06-06 21:47:15,549 -INFO - All stocks - json file saved
+2024-06-06 21:47:15,549 -INFO - SHREECEM.NS - alerts file Saved
+2024-06-06 21:47:15,549 -INFO - SHREECEM.NS - Process function Ended
+2024-06-06 21:47:15,550 -INFO - All stocks - json file saved
+2024-06-06 21:47:15,550 -INFO - TVSMOTOR.NS - alerts file Saved
+2024-06-06 21:47:15,550 -INFO - TVSMOTOR.NS - Process function Ended
+2024-06-06 21:47:15,589 -INFO - All stocks - Excel file Saved
+2024-06-06 21:47:15,606 -INFO - All stocks - Excel file Saved
+2024-06-06 21:47:15,613 -INFO - All stocks - json file saved
+2024-06-06 21:47:15,613 -INFO - DMART.NS - alerts file Saved
+2024-06-06 21:47:15,617 -INFO - DMART.NS - Process function Ended
+2024-06-06 21:47:15,619 -INFO - All stocks - json file saved
+2024-06-06 21:47:15,622 -INFO - All stocks - Excel file Saved
+2024-06-06 21:47:15,642 -INFO - IOC.NS - alerts file Saved
+2024-06-06 21:47:15,655 -INFO - IOC.NS - Process function Ended
+2024-06-06 21:47:15,714 -INFO - All stocks - json file saved
+2024-06-06 21:47:15,715 -INFO - ADANIGREEN.NS - alerts file Saved
+2024-06-06 21:47:15,715 -INFO - ADANIGREEN.NS - Process function Ended
+2024-06-06 21:47:16,340 -INFO - All stocks - Excel file Saved
+2024-06-06 21:47:16,365 -INFO - All stocks - json file saved
+2024-06-06 21:47:16,418 -INFO - GODREJCP.NS - alerts file Saved
+2024-06-06 21:47:16,418 -INFO - GODREJCP.NS - Process function Ended
+2024-06-06 21:47:16,670 -INFO - All stocks - Excel file Saved
+2024-06-06 21:47:16,693 -INFO - All stocks - json file saved
+2024-06-06 21:47:16,693 -INFO - DLF.NS - alerts file Saved
+2024-06-06 21:47:16,693 -INFO - DLF.NS - Process function Ended
+2024-06-06 21:47:20,642 -INFO - All stocks - Excel file Saved
+2024-06-06 21:47:20,890 -INFO - All stocks - json file saved
+2024-06-06 21:47:20,890 -INFO - AWL.NS - alerts file Saved
+2024-06-06 21:47:20,890 -INFO - AWL.NS - Process function Ended
+2024-06-06 21:47:23,652 -INFO - All stocks - Excel file Saved
+2024-06-06 21:47:23,656 -INFO - All stocks - json file saved
+2024-06-06 21:47:23,656 -INFO - PIIND.NS - alerts file Saved
+2024-06-06 21:47:23,656 -INFO - PIIND.NS - Process function Ended
+2024-06-06 21:47:23,668 -INFO - All stocks - Excel file Saved
+2024-06-06 21:47:23,762 -INFO - All stocks - json file saved
+2024-06-06 21:47:23,860 -INFO - ICICIPRULI.NS - alerts file Saved
+2024-06-06 21:47:23,861 -INFO - ICICIPRULI.NS - Process function Ended
+2024-06-06 21:47:25,678 -INFO - All stocks - Excel file Saved
+2024-06-06 21:47:25,680 -INFO - All stocks - json file saved
+2024-06-06 21:47:25,683 -INFO - ZOMATO.NS - alerts file Saved
+2024-06-06 21:47:25,684 -INFO - ZOMATO.NS - Process function Ended
+2024-06-06 21:47:26,448 -INFO - All stocks - Excel file Saved
+2024-06-06 21:47:26,448 -INFO - All stocks - json file saved
+2024-06-06 21:47:26,448 -INFO - BAJAJHLDNG.NS - alerts file Saved
+2024-06-06 21:47:26,449 -INFO - BAJAJHLDNG.NS - Process function Ended
+2024-06-06 21:47:26,457 -INFO - All stocks - Excel file Saved
+2024-06-06 21:47:26,458 -INFO - All stocks - json file saved
+2024-06-06 21:47:26,458 -INFO - ADANIENSOL.NS - alerts file Saved
+2024-06-06 21:47:26,458 -INFO - ADANIENSOL.NS - Process function Ended
+2024-06-06 21:47:26,746 -INFO - All stocks - Excel file Saved
+2024-06-06 21:47:26,749 -INFO - All stocks - json file saved
+2024-06-06 21:47:26,749 -INFO - VBL.NS - alerts file Saved
+2024-06-06 21:47:26,749 -INFO - VBL.NS - Process function Ended
+2024-06-06 21:47:26,757 -INFO - All stocks - Excel file Saved
+2024-06-06 21:47:26,757 -INFO - All stocks - json file saved
+2024-06-06 21:47:26,757 -INFO - ICICIGI.NS - alerts file Saved
+2024-06-06 21:47:26,757 -INFO - ICICIGI.NS - Process function Ended
+2024-06-06 21:47:26,859 -INFO - All stocks - Excel file Saved
+2024-06-06 21:47:26,859 -INFO - All stocks - json file saved
+2024-06-06 21:47:26,859 -INFO - LICI.NS - alerts file Saved
+2024-06-06 21:47:26,859 -INFO - LICI.NS - Process function Ended
+2024-06-06 21:47:27,001 -INFO - All stocks - Excel file Saved
+2024-06-06 21:47:27,001 -INFO - All stocks - json file saved
+2024-06-06 21:47:27,001 -INFO - DABUR.NS - alerts file Saved
+2024-06-06 21:47:27,001 -INFO - DABUR.NS - Process function Ended
+2024-06-06 21:47:42,984 -INFO - All stocks - Excel file Saved
+2024-06-06 21:47:42,984 -INFO - All stocks - json file saved
+2024-06-06 21:47:56,511 -INFO - All stocks - Excel file Saved
+2024-06-06 21:47:56,512 -INFO - All stocks - json file saved
+2024-06-06 21:47:56,512 -INFO - 75 - 100 - Stock threading ended ....
+2024-06-06 21:47:59,476 -INFO - BOSCHLTD.NS - Process function started
+2024-06-06 21:47:59,477 -INFO - ABB.NS - Process function started
+2024-06-06 21:47:59,477 -INFO - SRF.NS - Process function started
+2024-06-06 21:47:59,477 -INFO - COCHINSHIP.NS - Process function started
+2024-06-06 21:47:59,477 -INFO - BOSCHLTD.NS - Reading existing data...
+2024-06-06 21:47:59,477 -INFO - ABB.NS - Reading existing data...
+2024-06-06 21:47:59,477 -INFO - DCMSRIND.NS - Process function started
+2024-06-06 21:47:59,477 -INFO - SRF.NS - Reading existing data...
+2024-06-06 21:47:59,478 -INFO - COCHINSHIP.NS - Reading existing data...
+2024-06-06 21:47:59,478 -INFO - BANARISUG.NS - Process function started
+2024-06-06 21:47:59,478 -INFO - DALBHARAT.NS - Process function started
+2024-06-06 21:47:59,478 -INFO - DCMSRIND.NS - Reading existing data...
+2024-06-06 21:47:59,479 -INFO - AVADHSUGAR.NS - Process function started
+2024-06-06 21:47:59,479 -INFO - NAUKRI.NS - Process function started
+2024-06-06 21:47:59,479 -INFO - BANARISUG.NS - Reading existing data...
+2024-06-06 21:47:59,479 -INFO - COLPAL.NS - Process function started
+2024-06-06 21:47:59,480 -INFO - GIPCL.NS - Process function started
+2024-06-06 21:47:59,480 -INFO - DALBHARAT.NS - Reading existing data...
+2024-06-06 21:47:59,480 -INFO - IRB.NS - Process function started
+2024-06-06 21:47:59,480 -INFO - CONCOR.NS - Process function started
+2024-06-06 21:47:59,480 -INFO - DWARKESH.NS - Process function started
+2024-06-06 21:47:59,481 -INFO - BAJAJHIND.NS - Process function started
+2024-06-06 21:47:59,481 -INFO - AVADHSUGAR.NS - Reading existing data...
+2024-06-06 21:47:59,481 -INFO - DIXON.NS - Process function started
+2024-06-06 21:47:59,481 -INFO - NAUKRI.NS - Reading existing data...
+2024-06-06 21:47:59,482 -INFO - DALMIASUG.NS - Process function started
+2024-06-06 21:47:59,482 -INFO - COLPAL.NS - Reading existing data...
+2024-06-06 21:47:59,482 -INFO - BDL.NS - Process function started
+2024-06-06 21:47:59,483 -INFO - GIPCL.NS - Reading existing data...
+2024-06-06 21:47:59,483 -INFO - DHAMPURSUG.NS - Process function started
+2024-06-06 21:47:59,483 -INFO - HAVELLS.NS - Process function started
+2024-06-06 21:47:59,483 -INFO - CGPOWER.NS - Process function started
+2024-06-06 21:47:59,484 -INFO - ADANIPOWER.NS - Process function started
+2024-06-06 21:47:59,484 -INFO - ARE&M.NS - Process function started
+2024-06-06 21:47:59,484 -INFO - IRB.NS - Reading existing data...
+2024-06-06 21:47:59,484 -INFO - TRENT.NS - Process function started
+2024-06-06 21:47:59,486 -INFO - BALRAMCHIN.NS - Process function started
+2024-06-06 21:47:59,486 -INFO - CONCOR.NS - Reading existing data...
+2024-06-06 21:47:59,486 -INFO - DWARKESH.NS - Reading existing data...
+2024-06-06 21:47:59,488 -INFO - BAJAJHIND.NS - Reading existing data...
+2024-06-06 21:47:59,490 -INFO - DIXON.NS - Reading existing data...
+2024-06-06 21:47:59,492 -INFO - DALMIASUG.NS - Reading existing data...
+2024-06-06 21:47:59,493 -INFO - BDL.NS - Reading existing data...
+2024-06-06 21:47:59,496 -INFO - DHAMPURSUG.NS - Reading existing data...
+2024-06-06 21:47:59,497 -INFO - HAVELLS.NS - Reading existing data...
+2024-06-06 21:47:59,498 -INFO - CGPOWER.NS - Reading existing data...
+2024-06-06 21:47:59,498 -INFO - ADANIPOWER.NS - Reading existing data...
+2024-06-06 21:47:59,500 -INFO - ARE&M.NS - Reading existing data...
+2024-06-06 21:47:59,500 -INFO - TRENT.NS - Reading existing data...
+2024-06-06 21:47:59,502 -INFO - BALRAMCHIN.NS - Reading existing data...
+2024-06-06 21:47:59,662 -INFO - BOSCHLTD.NS - add_ph_pl_values function started
+2024-06-06 21:48:00,035 -INFO - BOSCHLTD.NS - add_ph_pl_values function Ended
+2024-06-06 21:48:00,591 -INFO - COCHINSHIP.NS - add_ph_pl_values function started
+2024-06-06 21:48:00,593 -INFO - SRF.NS - add_ph_pl_values function started
+2024-06-06 21:48:00,593 -INFO - DCMSRIND.NS - add_ph_pl_values function started
+2024-06-06 21:48:00,636 -INFO - ABB.NS - add_ph_pl_values function started
+2024-06-06 21:48:00,648 -INFO - COCHINSHIP.NS - add_ph_pl_values function Ended
+2024-06-06 21:48:00,709 -INFO - BANARISUG.NS - add_ph_pl_values function started
+2024-06-06 21:48:00,955 -INFO - SRF.NS - add_ph_pl_values function Ended
+2024-06-06 21:48:01,166 -INFO - DALBHARAT.NS - add_ph_pl_values function started
+2024-06-06 21:48:01,188 -INFO - DCMSRIND.NS - add_ph_pl_values function Ended
+2024-06-06 21:48:01,234 -INFO - AVADHSUGAR.NS - add_ph_pl_values function started
+2024-06-06 21:48:01,704 -INFO - ABB.NS - add_ph_pl_values function Ended
+2024-06-06 21:48:02,290 -INFO - BANARISUG.NS - add_ph_pl_values function Ended
+2024-06-06 21:48:02,291 -INFO - IRB.NS - add_ph_pl_values function started
+2024-06-06 21:48:02,433 -INFO - BAJAJHIND.NS - add_ph_pl_values function started
+2024-06-06 21:48:02,477 -INFO - COLPAL.NS - add_ph_pl_values function started
+2024-06-06 21:48:03,097 -INFO - DALBHARAT.NS - add_ph_pl_values function Ended
+2024-06-06 21:48:03,453 -INFO - GIPCL.NS - add_ph_pl_values function started
+2024-06-06 21:48:03,563 -INFO - DWARKESH.NS - add_ph_pl_values function started
+2024-06-06 21:48:03,587 -INFO - CONCOR.NS - add_ph_pl_values function started
+2024-06-06 21:48:03,923 -INFO - AVADHSUGAR.NS - add_ph_pl_values function Ended
+2024-06-06 21:48:04,143 -INFO - NAUKRI.NS - add_ph_pl_values function started
+2024-06-06 21:48:04,166 -INFO - ARE&M.NS - add_ph_pl_values function started
+2024-06-06 21:48:04,359 -INFO - ADANIPOWER.NS - add_ph_pl_values function started
+2024-06-06 21:48:04,403 -INFO - IRB.NS - add_ph_pl_values function Ended
+2024-06-06 21:48:04,529 -INFO - BDL.NS - add_ph_pl_values function started
+2024-06-06 21:48:04,562 -INFO - DIXON.NS - add_ph_pl_values function started
+2024-06-06 21:48:04,564 -INFO - TRENT.NS - add_ph_pl_values function started
+2024-06-06 21:48:04,578 -INFO - CGPOWER.NS - add_ph_pl_values function started
+2024-06-06 21:48:04,594 -INFO - HAVELLS.NS - add_ph_pl_values function started
+2024-06-06 21:48:04,641 -INFO - BALRAMCHIN.NS - add_ph_pl_values function started
+2024-06-06 21:48:04,699 -INFO - DHAMPURSUG.NS - add_ph_pl_values function started
+2024-06-06 21:48:04,702 -INFO - BAJAJHIND.NS - add_ph_pl_values function Ended
+2024-06-06 21:48:04,797 -INFO - DALMIASUG.NS - add_ph_pl_values function started
+2024-06-06 21:48:04,810 -INFO - COLPAL.NS - add_ph_pl_values function Ended
+2024-06-06 21:48:05,837 -INFO - GIPCL.NS - add_ph_pl_values function Ended
+2024-06-06 21:48:06,399 -INFO - DWARKESH.NS - add_ph_pl_values function Ended
+2024-06-06 21:48:07,979 -INFO - CONCOR.NS - add_ph_pl_values function Ended
+2024-06-06 21:48:12,272 -INFO - NAUKRI.NS - add_ph_pl_values function Ended
+2024-06-06 21:48:14,598 -INFO - ARE&M.NS - add_ph_pl_values function Ended
+2024-06-06 21:48:18,004 -INFO - ADANIPOWER.NS - add_ph_pl_values function Ended
+2024-06-06 21:48:21,806 -INFO - BDL.NS - add_ph_pl_values function Ended
+2024-06-06 21:48:28,080 -INFO - DIXON.NS - add_ph_pl_values function Ended
+2024-06-06 21:48:34,070 -INFO - TRENT.NS - add_ph_pl_values function Ended
+2024-06-06 21:48:38,835 -INFO - CGPOWER.NS - add_ph_pl_values function Ended
+2024-06-06 21:48:44,360 -INFO - HAVELLS.NS - add_ph_pl_values function Ended
+2024-06-06 21:48:46,817 -INFO - BALRAMCHIN.NS - add_ph_pl_values function Ended
+2024-06-06 21:48:51,605 -INFO - DHAMPURSUG.NS - add_ph_pl_values function Ended
+2024-06-06 21:48:57,885 -INFO - DALMIASUG.NS - add_ph_pl_values function Ended
+2024-06-06 21:54:08,421 -INFO - All stocks - Excel file Saved
+2024-06-06 21:54:08,629 -INFO - All stocks - json file saved
+2024-06-06 21:54:08,629 -INFO - BDL.NS - alerts file Saved
+2024-06-06 21:54:08,771 -INFO - BDL.NS - Process function Ended
+2024-06-06 21:54:08,975 -INFO - All stocks - Excel file Saved
+2024-06-06 21:54:08,996 -INFO - All stocks - json file saved
+2024-06-06 21:54:08,996 -INFO - BOSCHLTD.NS - alerts file Saved
+2024-06-06 21:54:08,996 -INFO - BOSCHLTD.NS - Process function Ended
+2024-06-06 21:54:14,409 -INFO - All stocks - Excel file Saved
+2024-06-06 21:54:14,420 -INFO - All stocks - json file saved
+2024-06-06 21:54:14,420 -INFO - BANARISUG.NS - alerts file Saved
+2024-06-06 21:54:14,421 -INFO - BANARISUG.NS - Process function Ended
+2024-06-06 21:54:14,848 -INFO - All stocks - Excel file Saved
+2024-06-06 21:54:14,940 -INFO - All stocks - json file saved
+2024-06-06 21:54:14,960 -INFO - AVADHSUGAR.NS - alerts file Saved
+2024-06-06 21:54:14,960 -INFO - AVADHSUGAR.NS - Process function Ended
+2024-06-06 21:54:15,300 -INFO - All stocks - Excel file Saved
+2024-06-06 21:54:15,556 -INFO - All stocks - json file saved
+2024-06-06 21:54:15,556 -INFO - COCHINSHIP.NS - alerts file Saved
+2024-06-06 21:54:15,556 -INFO - COCHINSHIP.NS - Process function Ended
+2024-06-06 21:54:16,469 -INFO - All stocks - Excel file Saved
+2024-06-06 21:54:16,472 -INFO - All stocks - json file saved
+2024-06-06 21:54:16,472 -INFO - COLPAL.NS - alerts file Saved
+2024-06-06 21:54:16,472 -INFO - COLPAL.NS - Process function Ended
+2024-06-06 21:54:16,528 -INFO - All stocks - Excel file Saved
+2024-06-06 21:54:16,541 -INFO - All stocks - json file saved
+2024-06-06 21:54:16,541 -INFO - ARE&M.NS - alerts file Saved
+2024-06-06 21:54:16,541 -INFO - ARE&M.NS - Process function Ended
+2024-06-06 21:54:18,789 -INFO - All stocks - Excel file Saved
+2024-06-06 21:54:18,874 -INFO - All stocks - json file saved
+2024-06-06 21:54:18,889 -INFO - DCMSRIND.NS - alerts file Saved
+2024-06-06 21:54:18,889 -INFO - DCMSRIND.NS - Process function Ended
+2024-06-06 21:54:21,687 -INFO - All stocks - Excel file Saved
+2024-06-06 21:54:24,119 -INFO - All stocks - json file saved
+2024-06-06 21:54:24,155 -INFO - CONCOR.NS - alerts file Saved
+2024-06-06 21:54:24,155 -INFO - CONCOR.NS - Process function Ended
+2024-06-06 21:54:24,798 -INFO - All stocks - Excel file Saved
+2024-06-06 21:54:24,803 -INFO - All stocks - json file saved
+2024-06-06 21:54:24,803 -INFO - ABB.NS - alerts file Saved
+2024-06-06 21:54:24,803 -INFO - ABB.NS - Process function Ended
+2024-06-06 21:54:24,913 -INFO - All stocks - Excel file Saved
+2024-06-06 21:54:24,914 -INFO - All stocks - json file saved
+2024-06-06 21:54:24,914 -INFO - DALBHARAT.NS - alerts file Saved
+2024-06-06 21:54:24,914 -INFO - DALBHARAT.NS - Process function Ended
+2024-06-06 21:54:24,915 -INFO - All stocks - Excel file Saved
+2024-06-06 21:54:24,915 -INFO - All stocks - json file saved
+2024-06-06 21:54:24,916 -INFO - IRB.NS - alerts file Saved
+2024-06-06 21:54:24,916 -INFO - IRB.NS - Process function Ended
+2024-06-06 21:54:25,138 -INFO - All stocks - Excel file Saved
+2024-06-06 21:54:25,141 -INFO - All stocks - json file saved
+2024-06-06 21:54:25,141 -INFO - SRF.NS - alerts file Saved
+2024-06-06 21:54:25,141 -INFO - SRF.NS - Process function Ended
+2024-06-06 21:54:25,692 -INFO - All stocks - Excel file Saved
+2024-06-06 21:54:25,692 -INFO - All stocks - json file saved
+2024-06-06 21:54:25,692 -INFO - DWARKESH.NS - alerts file Saved
+2024-06-06 21:54:25,692 -INFO - DWARKESH.NS - Process function Ended
+2024-06-06 21:54:25,764 -INFO - All stocks - Excel file Saved
+2024-06-06 21:54:25,765 -INFO - All stocks - json file saved
+2024-06-06 21:54:25,765 -INFO - GIPCL.NS - alerts file Saved
+2024-06-06 21:54:25,765 -INFO - GIPCL.NS - Process function Ended
+2024-06-06 21:54:25,768 -INFO - All stocks - Excel file Saved
+2024-06-06 21:54:25,808 -INFO - All stocks - json file saved
+2024-06-06 21:54:25,808 -INFO - ADANIPOWER.NS - alerts file Saved
+2024-06-06 21:54:25,808 -INFO - ADANIPOWER.NS - Process function Ended
+2024-06-06 21:54:25,859 -INFO - All stocks - Excel file Saved
+2024-06-06 21:54:25,860 -INFO - All stocks - json file saved
+2024-06-06 21:54:25,860 -INFO - DIXON.NS - alerts file Saved
+2024-06-06 21:54:25,860 -INFO - DIXON.NS - Process function Ended
+2024-06-06 21:54:25,964 -INFO - All stocks - Excel file Saved
+2024-06-06 21:54:25,965 -INFO - All stocks - json file saved
+2024-06-06 21:54:25,965 -INFO - TRENT.NS - alerts file Saved
+2024-06-06 21:54:25,965 -INFO - TRENT.NS - Process function Ended
+2024-06-06 21:54:25,966 -INFO - All stocks - Excel file Saved
+2024-06-06 21:54:25,967 -INFO - All stocks - json file saved
+2024-06-06 21:54:25,967 -INFO - DALMIASUG.NS - alerts file Saved
+2024-06-06 21:54:25,967 -INFO - DALMIASUG.NS - Process function Ended
+2024-06-06 21:54:26,189 -INFO - All stocks - Excel file Saved
+2024-06-06 21:54:26,190 -INFO - All stocks - json file saved
+2024-06-06 21:54:26,190 -INFO - DHAMPURSUG.NS - alerts file Saved
+2024-06-06 21:54:26,190 -INFO - DHAMPURSUG.NS - Process function Ended
+2024-06-06 21:54:26,195 -INFO - All stocks - Excel file Saved
+2024-06-06 21:54:26,196 -INFO - All stocks - json file saved
+2024-06-06 21:54:26,196 -INFO - BAJAJHIND.NS - alerts file Saved
+2024-06-06 21:54:26,196 -INFO - BAJAJHIND.NS - Process function Ended
+2024-06-06 21:54:26,198 -INFO - All stocks - Excel file Saved
+2024-06-06 21:54:26,200 -INFO - All stocks - json file saved
+2024-06-06 21:54:26,201 -INFO - NAUKRI.NS - alerts file Saved
+2024-06-06 21:54:26,201 -INFO - NAUKRI.NS - Process function Ended
+2024-06-06 21:54:26,460 -INFO - All stocks - Excel file Saved
+2024-06-06 21:54:26,461 -INFO - All stocks - json file saved
+2024-06-06 21:54:26,461 -INFO - CGPOWER.NS - alerts file Saved
+2024-06-06 21:54:26,461 -INFO - CGPOWER.NS - Process function Ended
+2024-06-06 21:54:26,606 -INFO - All stocks - Excel file Saved
+2024-06-06 21:54:26,607 -INFO - All stocks - json file saved
+2024-06-06 21:54:26,607 -INFO - HAVELLS.NS - alerts file Saved
+2024-06-06 21:54:26,607 -INFO - HAVELLS.NS - Process function Ended
+2024-06-06 21:54:26,768 -INFO - All stocks - Excel file Saved
+2024-06-06 21:54:26,768 -INFO - All stocks - json file saved
+2024-06-06 21:54:26,768 -INFO - BALRAMCHIN.NS - alerts file Saved
+2024-06-06 21:54:26,768 -INFO - BALRAMCHIN.NS - Process function Ended
+2024-06-06 21:54:41,874 -INFO - All stocks - Excel file Saved
+2024-06-06 21:54:41,874 -INFO - All stocks - json file saved
+2024-06-06 21:54:55,612 -INFO - All stocks - Excel file Saved
+2024-06-06 21:54:55,613 -INFO - All stocks - json file saved
+2024-06-06 21:54:55,613 -INFO - 100 - 125 - Stock threading ended ....
+2024-06-06 21:54:58,652 -INFO - IRCON.NS - Process function started
+2024-06-06 21:54:58,652 -INFO - KPIGREEN.NS - Process function started
+2024-06-06 21:54:58,652 -INFO - KPIGREEN.NS - Reading existing data...
+2024-06-06 21:54:58,652 -INFO - IRCON.NS - Reading existing data...
+2024-06-06 21:54:58,652 -INFO - NLCINDIA.NS - Process function started
+2024-06-06 21:54:58,653 -INFO - SYRMA.NS - Process function started
+2024-06-06 21:54:58,653 -INFO - NLCINDIA.NS - Reading existing data...
+2024-06-06 21:54:58,653 -INFO - JBMA.NS - Process function started
+2024-06-06 21:54:58,653 -INFO - SYRMA.NS - Reading existing data...
+2024-06-06 21:54:58,653 -INFO - NBCC.NS - Process function started
+2024-06-06 21:54:58,653 -INFO - RENUKA.NS - Process function started
+2024-06-06 21:54:58,653 -INFO - JBMA.NS - Reading existing data...
+2024-06-06 21:54:58,653 -INFO - TATAMTRDVR.NS - Process function started
+2024-06-06 21:54:58,654 -INFO - MAZDOCK.NS - Process function started
+2024-06-06 21:54:58,654 -INFO - KAYNES.NS - Process function started
+2024-06-06 21:54:58,654 -INFO - RENUKA.NS - Reading existing data...
+2024-06-06 21:54:58,654 -INFO - NBCC.NS - Reading existing data...
+2024-06-06 21:54:58,654 -INFO - NHPC.NS - Process function started
+2024-06-06 21:54:58,654 -INFO - TATAELXSI.NS - Process function started
+2024-06-06 21:54:58,654 -INFO - IRFC.NS - Process function started
+2024-06-06 21:54:58,655 -INFO - RVNL.NS - Process function started
+2024-06-06 21:54:58,655 -INFO - TATAMTRDVR.NS - Reading existing data...
+2024-06-06 21:54:58,655 -INFO - WELENT.NS - Process function started
+2024-06-06 21:54:58,655 -INFO - MOSCHIP.BO - Process function started
+2024-06-06 21:54:58,655 -INFO - PARAS.NS - Process function started
+2024-06-06 21:54:58,655 -INFO - MAZDOCK.NS - Reading existing data...
+2024-06-06 21:54:58,655 -INFO - KAYNES.NS - Reading existing data...
+2024-06-06 21:54:58,656 -INFO - OLECTRA.NS - Process function started
+2024-06-06 21:54:58,656 -INFO - NHPC.NS - Reading existing data...
+2024-06-06 21:54:58,657 -INFO - TATAELXSI.NS - Reading existing data...
+2024-06-06 21:54:58,657 -INFO - RIR.BO - Process function started
+2024-06-06 21:54:58,657 -INFO - IRFC.NS - Reading existing data...
+2024-06-06 21:54:58,657 -INFO - PATELENG.NS - Process function started
+2024-06-06 21:54:58,658 -INFO - RAMCOCEM.NS - Process function started
+2024-06-06 21:54:58,658 -INFO - RVNL.NS - Reading existing data...
+2024-06-06 21:54:58,658 -INFO - WELENT.NS - Reading existing data...
+2024-06-06 21:54:58,659 -INFO - MOSCHIP.BO - Reading existing data...
+2024-06-06 21:54:58,659 -INFO - UGARSUGAR.NS - Process function started
+2024-06-06 21:54:58,660 -INFO - PARAS.NS - Reading existing data...
+2024-06-06 21:54:58,660 -INFO - NCC.NS - Process function started
+2024-06-06 21:54:58,661 -INFO - OLECTRA.NS - Reading existing data...
+2024-06-06 21:54:58,661 -INFO - PRAJIND.NS - Process function started
+2024-06-06 21:54:58,661 -INFO - SJVN.NS - Process function started
+2024-06-06 21:54:58,662 -INFO - RIR.BO - Reading existing data...
+2024-06-06 21:54:58,664 -INFO - PATELENG.NS - Reading existing data...
+2024-06-06 21:54:58,664 -INFO - RAMCOCEM.NS - Reading existing data...
+2024-06-06 21:54:58,666 -INFO - UGARSUGAR.NS - Reading existing data...
+2024-06-06 21:54:58,667 -INFO - NCC.NS - Reading existing data...
+2024-06-06 21:54:58,667 -INFO - PRAJIND.NS - Reading existing data...
+2024-06-06 21:54:58,668 -INFO - SJVN.NS - Reading existing data...
+2024-06-06 21:54:58,793 -INFO - NLCINDIA.NS - add_ph_pl_values function started
+2024-06-06 21:54:58,802 -INFO - NLCINDIA.NS - add_ph_pl_values function Ended
+2024-06-06 21:54:59,574 -INFO - SYRMA.NS - add_ph_pl_values function started
+2024-06-06 21:54:59,613 -INFO - KPIGREEN.NS - add_ph_pl_values function started
+2024-06-06 21:54:59,684 -INFO - IRCON.NS - add_ph_pl_values function started
+2024-06-06 21:54:59,807 -INFO - SYRMA.NS - add_ph_pl_values function Ended
+2024-06-06 21:54:59,810 -INFO - JBMA.NS - add_ph_pl_values function started
+2024-06-06 21:55:00,080 -INFO - RENUKA.NS - add_ph_pl_values function started
+2024-06-06 21:55:00,109 -INFO - KPIGREEN.NS - add_ph_pl_values function Ended
+2024-06-06 21:55:00,152 -INFO - NBCC.NS - add_ph_pl_values function started
+2024-06-06 21:55:00,922 -INFO - IRCON.NS - add_ph_pl_values function Ended
+2024-06-06 21:55:01,916 -INFO - KAYNES.NS - add_ph_pl_values function started
+2024-06-06 21:55:01,963 -INFO - JBMA.NS - add_ph_pl_values function Ended
+2024-06-06 21:55:02,026 -INFO - TATAMTRDVR.NS - add_ph_pl_values function started
+2024-06-06 21:55:02,651 -INFO - IRFC.NS - add_ph_pl_values function started
+2024-06-06 21:55:02,711 -INFO - MAZDOCK.NS - add_ph_pl_values function started
+2024-06-06 21:55:02,749 -INFO - TATAELXSI.NS - add_ph_pl_values function started
+2024-06-06 21:55:02,749 -INFO - RVNL.NS - add_ph_pl_values function started
+2024-06-06 21:55:03,104 -INFO - PARAS.NS - add_ph_pl_values function started
+2024-06-06 21:55:03,104 -INFO - WELENT.NS - add_ph_pl_values function started
+2024-06-06 21:55:03,109 -INFO - NHPC.NS - add_ph_pl_values function started
+2024-06-06 21:55:03,129 -INFO - MOSCHIP.BO - add_ph_pl_values function started
+2024-06-06 21:55:03,142 -INFO - RIR.BO - add_ph_pl_values function started
+2024-06-06 21:55:03,146 -INFO - RENUKA.NS - add_ph_pl_values function Ended
+2024-06-06 21:55:03,152 -INFO - UGARSUGAR.NS - add_ph_pl_values function started
+2024-06-06 21:55:03,239 -INFO - SJVN.NS - add_ph_pl_values function started
+2024-06-06 21:55:03,241 -INFO - PRAJIND.NS - add_ph_pl_values function started
+2024-06-06 21:55:03,248 -INFO - NCC.NS - add_ph_pl_values function started
+2024-06-06 21:55:03,254 -INFO - PATELENG.NS - add_ph_pl_values function started
+2024-06-06 21:55:03,264 -INFO - OLECTRA.NS - add_ph_pl_values function started
+2024-06-06 21:55:03,459 -INFO - RAMCOCEM.NS - add_ph_pl_values function started
+2024-06-06 21:55:03,470 -INFO - NBCC.NS - add_ph_pl_values function Ended
+2024-06-06 21:55:03,564 -INFO - KAYNES.NS - add_ph_pl_values function Ended
+2024-06-06 21:55:03,981 -INFO - TATAMTRDVR.NS - add_ph_pl_values function Ended
+2024-06-06 21:55:04,370 -INFO - IRFC.NS - add_ph_pl_values function Ended
+2024-06-06 21:55:04,581 -INFO - MAZDOCK.NS - add_ph_pl_values function Ended
+2024-06-06 21:55:06,413 -INFO - TATAELXSI.NS - add_ph_pl_values function Ended
+2024-06-06 21:55:07,486 -INFO - RVNL.NS - add_ph_pl_values function Ended
+2024-06-06 21:55:09,726 -INFO - PARAS.NS - add_ph_pl_values function Ended
+2024-06-06 21:55:12,268 -INFO - WELENT.NS - add_ph_pl_values function Ended
+2024-06-06 21:55:15,505 -INFO - NHPC.NS - add_ph_pl_values function Ended
+2024-06-06 21:55:18,694 -INFO - MOSCHIP.BO - add_ph_pl_values function Ended
+2024-06-06 21:55:22,189 -INFO - RIR.BO - add_ph_pl_values function Ended
+2024-06-06 21:55:25,349 -INFO - UGARSUGAR.NS - add_ph_pl_values function Ended
+2024-06-06 21:55:30,839 -INFO - SJVN.NS - add_ph_pl_values function Ended
+2024-06-06 21:55:34,045 -INFO - PRAJIND.NS - add_ph_pl_values function Ended
+2024-06-06 21:55:38,860 -INFO - NCC.NS - add_ph_pl_values function Ended
+2024-06-06 21:55:43,479 -INFO - PATELENG.NS - add_ph_pl_values function Ended
+2024-06-06 21:55:49,985 -INFO - OLECTRA.NS - add_ph_pl_values function Ended
+2024-06-06 21:55:57,356 -INFO - RAMCOCEM.NS - add_ph_pl_values function Ended
+2024-06-06 22:00:10,095 -INFO - All stocks - Excel file Saved
+2024-06-06 22:00:10,139 -INFO - All stocks - json file saved
+2024-06-06 22:00:10,304 -INFO - IRCON.NS - alerts file Saved
+2024-06-06 22:00:10,304 -INFO - IRCON.NS - Process function Ended
+2024-06-06 22:00:12,295 -INFO - All stocks - Excel file Saved
+2024-06-06 22:00:12,296 -INFO - All stocks - json file saved
+2024-06-06 22:00:12,296 -INFO - TATAMTRDVR.NS - alerts file Saved
+2024-06-06 22:00:12,296 -INFO - TATAMTRDVR.NS - Process function Ended
+2024-06-06 22:00:12,626 -INFO - All stocks - Excel file Saved
+2024-06-06 22:00:12,693 -INFO - All stocks - json file saved
+2024-06-06 22:00:12,695 -INFO - KPIGREEN.NS - alerts file Saved
+2024-06-06 22:00:12,695 -INFO - KPIGREEN.NS - Process function Ended
+2024-06-06 22:00:13,523 -INFO - All stocks - Excel file Saved
+2024-06-06 22:00:13,595 -INFO - All stocks - json file saved
+2024-06-06 22:00:13,596 -INFO - NLCINDIA.NS - alerts file Saved
+2024-06-06 22:00:13,596 -INFO - NLCINDIA.NS - Process function Ended
+2024-06-06 22:00:17,198 -INFO - All stocks - Excel file Saved
+2024-06-06 22:00:17,202 -INFO - All stocks - json file saved
+2024-06-06 22:00:17,202 -INFO - RENUKA.NS - alerts file Saved
+2024-06-06 22:00:17,203 -INFO - RENUKA.NS - Process function Ended
+2024-06-06 22:00:17,234 -INFO - All stocks - Excel file Saved
+2024-06-06 22:00:17,235 -INFO - All stocks - json file saved
+2024-06-06 22:00:17,238 -INFO - JBMA.NS - alerts file Saved
+2024-06-06 22:00:17,238 -INFO - JBMA.NS - Process function Ended
+2024-06-06 22:00:20,934 -INFO - All stocks - Excel file Saved
+2024-06-06 22:00:20,960 -INFO - All stocks - json file saved
+2024-06-06 22:00:20,960 -INFO - TATAELXSI.NS - alerts file Saved
+2024-06-06 22:00:20,960 -INFO - TATAELXSI.NS - Process function Ended
+2024-06-06 22:00:21,076 -INFO - All stocks - Excel file Saved
+2024-06-06 22:00:21,077 -INFO - All stocks - json file saved
+2024-06-06 22:00:21,077 -INFO - IRFC.NS - alerts file Saved
+2024-06-06 22:00:21,087 -INFO - IRFC.NS - Process function Ended
+2024-06-06 22:00:21,105 -INFO - All stocks - Excel file Saved
+2024-06-06 22:00:21,106 -INFO - All stocks - json file saved
+2024-06-06 22:00:21,106 -INFO - KAYNES.NS - alerts file Saved
+2024-06-06 22:00:21,106 -INFO - KAYNES.NS - Process function Ended
+2024-06-06 22:00:23,132 -INFO - All stocks - Excel file Saved
+2024-06-06 22:00:23,133 -INFO - All stocks - json file saved
+2024-06-06 22:00:23,133 -INFO - SYRMA.NS - alerts file Saved
+2024-06-06 22:00:23,133 -INFO - SYRMA.NS - Process function Ended
+2024-06-06 22:00:24,209 -INFO - All stocks - Excel file Saved
+2024-06-06 22:00:24,210 -INFO - All stocks - json file saved
+2024-06-06 22:00:24,210 -INFO - MOSCHIP.BO - alerts file Saved
+2024-06-06 22:00:24,210 -INFO - MOSCHIP.BO - Process function Ended
+2024-06-06 22:00:25,302 -INFO - All stocks - Excel file Saved
+2024-06-06 22:00:25,397 -INFO - All stocks - Excel file Saved
+2024-06-06 22:00:25,430 -INFO - All stocks - json file saved
+2024-06-06 22:00:25,430 -INFO - PARAS.NS - alerts file Saved
+2024-06-06 22:00:25,430 -INFO - PARAS.NS - Process function Ended
+2024-06-06 22:00:25,537 -INFO - All stocks - json file saved
+2024-06-06 22:00:25,537 -INFO - MAZDOCK.NS - alerts file Saved
+2024-06-06 22:00:25,537 -INFO - MAZDOCK.NS - Process function Ended
+2024-06-06 22:00:25,737 -INFO - All stocks - Excel file Saved
+2024-06-06 22:00:25,738 -INFO - All stocks - json file saved
+2024-06-06 22:00:25,738 -INFO - NBCC.NS - alerts file Saved
+2024-06-06 22:00:25,738 -INFO - NBCC.NS - Process function Ended
+2024-06-06 22:00:27,854 -INFO - All stocks - Excel file Saved
+2024-06-06 22:00:27,854 -INFO - All stocks - json file saved
+2024-06-06 22:00:27,854 -INFO - UGARSUGAR.NS - alerts file Saved
+2024-06-06 22:00:27,854 -INFO - UGARSUGAR.NS - Process function Ended
+2024-06-06 22:00:31,091 -INFO - All stocks - Excel file Saved
+2024-06-06 22:00:31,091 -INFO - All stocks - Excel file Saved
+2024-06-06 22:00:31,178 -INFO - All stocks - json file saved
+2024-06-06 22:00:31,178 -INFO - PRAJIND.NS - alerts file Saved
+2024-06-06 22:00:31,178 -INFO - PRAJIND.NS - Process function Ended
+2024-06-06 22:00:31,184 -INFO - All stocks - json file saved
+2024-06-06 22:00:31,184 -INFO - NHPC.NS - alerts file Saved
+2024-06-06 22:00:31,184 -INFO - NHPC.NS - Process function Ended
+2024-06-06 22:00:32,366 -INFO - All stocks - Excel file Saved
+2024-06-06 22:00:32,594 -INFO - All stocks - json file saved
+2024-06-06 22:00:32,594 -INFO - RIR.BO - alerts file Saved
+2024-06-06 22:00:32,594 -INFO - RIR.BO - Process function Ended
+2024-06-06 22:00:32,824 -INFO - All stocks - Excel file Saved
+2024-06-06 22:00:32,842 -INFO - All stocks - json file saved
+2024-06-06 22:00:32,842 -INFO - WELENT.NS - alerts file Saved
+2024-06-06 22:00:32,842 -INFO - WELENT.NS - Process function Ended
+2024-06-06 22:00:32,949 -INFO - All stocks - Excel file Saved
+2024-06-06 22:00:33,015 -INFO - All stocks - json file saved
+2024-06-06 22:00:33,015 -INFO - RVNL.NS - alerts file Saved
+2024-06-06 22:00:33,015 -INFO - RVNL.NS - Process function Ended
+2024-06-06 22:00:33,435 -INFO - All stocks - Excel file Saved
+2024-06-06 22:00:33,437 -INFO - All stocks - json file saved
+2024-06-06 22:00:33,437 -INFO - SJVN.NS - alerts file Saved
+2024-06-06 22:00:33,437 -INFO - SJVN.NS - Process function Ended
+2024-06-06 22:00:33,445 -INFO - All stocks - Excel file Saved
+2024-06-06 22:00:33,447 -INFO - All stocks - json file saved
+2024-06-06 22:00:33,447 -INFO - NCC.NS - alerts file Saved
+2024-06-06 22:00:33,447 -INFO - NCC.NS - Process function Ended
+2024-06-06 22:00:33,561 -INFO - All stocks - Excel file Saved
+2024-06-06 22:00:33,563 -INFO - All stocks - json file saved
+2024-06-06 22:00:33,563 -INFO - PATELENG.NS - alerts file Saved
+2024-06-06 22:00:33,563 -INFO - PATELENG.NS - Process function Ended
+2024-06-06 22:00:33,669 -INFO - All stocks - Excel file Saved
+2024-06-06 22:00:33,670 -INFO - All stocks - json file saved
+2024-06-06 22:00:33,670 -INFO - OLECTRA.NS - alerts file Saved
+2024-06-06 22:00:33,670 -INFO - OLECTRA.NS - Process function Ended
+2024-06-06 22:00:33,759 -INFO - All stocks - Excel file Saved
+2024-06-06 22:00:33,760 -INFO - All stocks - json file saved
+2024-06-06 22:00:33,760 -INFO - RAMCOCEM.NS - alerts file Saved
+2024-06-06 22:00:33,760 -INFO - RAMCOCEM.NS - Process function Ended
+2024-06-06 22:00:46,422 -INFO - All stocks - Excel file Saved
+2024-06-06 22:00:46,422 -INFO - All stocks - json file saved
+2024-06-06 22:00:59,196 -INFO - All stocks - Excel file Saved
+2024-06-06 22:00:59,197 -INFO - All stocks - json file saved
+2024-06-06 22:00:59,197 -INFO - 125 - 150 - Stock threading ended ....
+2024-06-06 22:01:02,053 -INFO - ACC.NS - Process function started
+2024-06-06 22:01:02,053 -INFO - CUMMINSIND.NS - Process function started
+2024-06-06 22:01:02,053 -INFO - ACC.NS - Reading existing data...
+2024-06-06 22:01:02,053 -INFO - CUMMINSIND.NS - Reading existing data...
+2024-06-06 22:01:02,053 -INFO - HERCULES.NS - Process function started
+2024-06-06 22:01:02,053 -INFO - PETRONET.NS - Process function started
+2024-06-06 22:01:02,054 -INFO - PETRONET.NS - Reading existing data...
+2024-06-06 22:01:02,054 -INFO - HERCULES.NS - Reading existing data...
+2024-06-06 22:01:02,054 -INFO - IDEA.NS - Process function started
+2024-06-06 22:01:02,054 -INFO - MHRIL.NS - Process function started
+2024-06-06 22:01:02,054 -INFO - POLYCAB.NS - Process function started
+2024-06-06 22:01:02,054 -INFO - BHARATFORG.NS - Process function started
+2024-06-06 22:01:02,055 -INFO - IDEA.NS - Reading existing data...
+2024-06-06 22:01:02,055 -INFO - MHRIL.NS - Reading existing data...
+2024-06-06 22:01:02,055 -INFO - BAJAJELEC.NS - Process function started
+2024-06-06 22:01:02,055 -INFO - POLYCAB.NS - Reading existing data...
+2024-06-06 22:01:02,055 -INFO - BHARATFORG.NS - Reading existing data...
+2024-06-06 22:01:02,055 -INFO - DEN.NS - Process function started
+2024-06-06 22:01:02,056 -INFO - INDIACEM.NS - Process function started
+2024-06-06 22:01:02,056 -INFO - BAJAJST.BO - Process function started
+2024-06-06 22:01:02,056 -INFO - BAJAJELEC.NS - Reading existing data...
+2024-06-06 22:01:02,057 -INFO - ASHOKLEY.NS - Process function started
+2024-06-06 22:01:02,058 -INFO - GUJGASLTD.NS - Process function started
+2024-06-06 22:01:02,059 -INFO - MGL.NS - Process function started
+2024-06-06 22:01:02,059 -INFO - DEN.NS - Reading existing data...
+2024-06-06 22:01:02,059 -INFO - PFC.NS - Process function started
+2024-06-06 22:01:02,060 -INFO - GMRINFRA.NS - Process function started
+2024-06-06 22:01:02,060 -INFO - INDIACEM.NS - Reading existing data...
+2024-06-06 22:01:02,060 -INFO - SWARAJENG.NS - Process function started
+2024-06-06 22:01:02,061 -INFO - MAHLIFE.NS - Process function started
+2024-06-06 22:01:02,061 -INFO - BAJAJST.BO - Reading existing data...
+2024-06-06 22:01:02,062 -INFO - BAJAJCON.NS - Process function started
+2024-06-06 22:01:02,063 -INFO - MUKANDLTD.NS - Process function started
+2024-06-06 22:01:02,063 -INFO - MAHLOG.NS - Process function started
+2024-06-06 22:01:02,063 -INFO - ASHOKLEY.NS - Reading existing data...
+2024-06-06 22:01:02,063 -INFO - GUJGASLTD.NS - Reading existing data...
+2024-06-06 22:01:02,064 -INFO - MAHEPC.NS - Process function started
+2024-06-06 22:01:02,064 -INFO - IGL.NS - Process function started
+2024-06-06 22:01:02,064 -INFO - MGL.NS - Reading existing data...
+2024-06-06 22:01:02,065 -INFO - JKCEMENT.NS - Process function started
+2024-06-06 22:01:02,065 -INFO - PFC.NS - Reading existing data...
+2024-06-06 22:01:02,065 -INFO - GMRINFRA.NS - Reading existing data...
+2024-06-06 22:01:02,066 -INFO - MAHLIFE.NS - Reading existing data...
+2024-06-06 22:01:02,067 -INFO - SWARAJENG.NS - Reading existing data...
+2024-06-06 22:01:02,067 -INFO - BAJAJCON.NS - Reading existing data...
+2024-06-06 22:01:02,067 -INFO - MAHLOG.NS - Reading existing data...
+2024-06-06 22:01:02,069 -INFO - MAHEPC.NS - Reading existing data...
+2024-06-06 22:01:02,069 -INFO - MUKANDLTD.NS - Reading existing data...
+2024-06-06 22:01:02,070 -INFO - IGL.NS - Reading existing data...
+2024-06-06 22:01:02,070 -INFO - JKCEMENT.NS - Reading existing data...
+2024-06-06 22:01:02,209 -INFO - ACC.NS - add_ph_pl_values function started
+2024-06-06 22:01:02,412 -INFO - ACC.NS - add_ph_pl_values function Ended
+2024-06-06 22:01:02,515 -INFO - HERCULES.NS - add_ph_pl_values function started
+2024-06-06 22:01:02,618 -INFO - HERCULES.NS - add_ph_pl_values function Ended
+2024-06-06 22:01:02,630 -INFO - CUMMINSIND.NS - add_ph_pl_values function started
+2024-06-06 22:01:02,856 -INFO - CUMMINSIND.NS - add_ph_pl_values function Ended
+2024-06-06 22:01:03,372 -INFO - IDEA.NS - add_ph_pl_values function started
+2024-06-06 22:01:03,520 -INFO - MHRIL.NS - add_ph_pl_values function started
+2024-06-06 22:01:03,527 -INFO - POLYCAB.NS - add_ph_pl_values function started
+2024-06-06 22:01:03,594 -INFO - BAJAJELEC.NS - add_ph_pl_values function started
+2024-06-06 22:01:03,595 -INFO - PETRONET.NS - add_ph_pl_values function started
+2024-06-06 22:01:03,650 -INFO - IDEA.NS - add_ph_pl_values function Ended
+2024-06-06 22:01:03,752 -INFO - MHRIL.NS - add_ph_pl_values function Ended
+2024-06-06 22:01:04,300 -INFO - BHARATFORG.NS - add_ph_pl_values function started
+2024-06-06 22:01:04,515 -INFO - POLYCAB.NS - add_ph_pl_values function Ended
+2024-06-06 22:01:04,835 -INFO - BAJAJST.BO - add_ph_pl_values function started
+2024-06-06 22:01:04,941 -INFO - INDIACEM.NS - add_ph_pl_values function started
+2024-06-06 22:01:04,958 -INFO - DEN.NS - add_ph_pl_values function started
+2024-06-06 22:01:05,395 -INFO - BAJAJELEC.NS - add_ph_pl_values function Ended
+2024-06-06 22:01:05,480 -INFO - GUJGASLTD.NS - add_ph_pl_values function started
+2024-06-06 22:01:05,556 -INFO - ASHOKLEY.NS - add_ph_pl_values function started
+2024-06-06 22:01:05,759 -INFO - SWARAJENG.NS - add_ph_pl_values function started
+2024-06-06 22:01:05,954 -INFO - GMRINFRA.NS - add_ph_pl_values function started
+2024-06-06 22:01:05,959 -INFO - MGL.NS - add_ph_pl_values function started
+2024-06-06 22:01:05,968 -INFO - JKCEMENT.NS - add_ph_pl_values function started
+2024-06-06 22:01:05,972 -INFO - MAHLIFE.NS - add_ph_pl_values function started
+2024-06-06 22:01:06,000 -INFO - PFC.NS - add_ph_pl_values function started
+2024-06-06 22:01:06,066 -INFO - PETRONET.NS - add_ph_pl_values function Ended
+2024-06-06 22:01:06,072 -INFO - BAJAJCON.NS - add_ph_pl_values function started
+2024-06-06 22:01:06,075 -INFO - MAHEPC.NS - add_ph_pl_values function started
+2024-06-06 22:01:06,195 -INFO - IGL.NS - add_ph_pl_values function started
+2024-06-06 22:01:06,197 -INFO - BHARATFORG.NS - add_ph_pl_values function Ended
+2024-06-06 22:01:06,259 -INFO - MAHLOG.NS - add_ph_pl_values function started
+2024-06-06 22:01:06,267 -INFO - MUKANDLTD.NS - add_ph_pl_values function started
+2024-06-06 22:01:06,768 -INFO - BAJAJST.BO - add_ph_pl_values function Ended
+2024-06-06 22:01:08,187 -INFO - INDIACEM.NS - add_ph_pl_values function Ended
+2024-06-06 22:01:11,146 -INFO - DEN.NS - add_ph_pl_values function Ended
+2024-06-06 22:01:12,005 -INFO - GUJGASLTD.NS - add_ph_pl_values function Ended
+2024-06-06 22:01:14,329 -INFO - ASHOKLEY.NS - add_ph_pl_values function Ended
+2024-06-06 22:01:16,152 -INFO - SWARAJENG.NS - add_ph_pl_values function Ended
+2024-06-06 22:01:17,995 -INFO - GMRINFRA.NS - add_ph_pl_values function Ended
+2024-06-06 22:01:22,272 -INFO - MGL.NS - add_ph_pl_values function Ended
+2024-06-06 22:01:24,632 -INFO - JKCEMENT.NS - add_ph_pl_values function Ended
+2024-06-06 22:01:29,648 -INFO - MAHLIFE.NS - add_ph_pl_values function Ended
+2024-06-06 22:01:36,857 -INFO - PFC.NS - add_ph_pl_values function Ended
+2024-06-06 22:01:39,099 -INFO - BAJAJCON.NS - add_ph_pl_values function Ended
+2024-06-06 22:01:43,025 -INFO - MAHEPC.NS - add_ph_pl_values function Ended
+2024-06-06 22:01:47,044 -INFO - IGL.NS - add_ph_pl_values function Ended
+2024-06-06 22:01:51,197 -INFO - MAHLOG.NS - add_ph_pl_values function Ended
+2024-06-06 22:01:54,999 -INFO - MUKANDLTD.NS - add_ph_pl_values function Ended
+2024-06-06 22:05:47,530 -INFO - All stocks - Excel file Saved
+2024-06-06 22:05:47,843 -INFO - All stocks - json file saved
+2024-06-06 22:05:47,843 -INFO - DEN.NS - alerts file Saved
+2024-06-06 22:05:47,843 -INFO - DEN.NS - Process function Ended
+2024-06-06 22:05:48,126 -INFO - All stocks - Excel file Saved
+2024-06-06 22:05:48,500 -INFO - All stocks - json file saved
+2024-06-06 22:05:48,500 -INFO - BHARATFORG.NS - alerts file Saved
+2024-06-06 22:05:48,500 -INFO - BHARATFORG.NS - Process function Ended
+2024-06-06 22:05:48,865 -INFO - All stocks - Excel file Saved
+2024-06-06 22:05:48,869 -INFO - All stocks - json file saved
+2024-06-06 22:05:48,869 -INFO - BAJAJELEC.NS - alerts file Saved
+2024-06-06 22:05:48,869 -INFO - BAJAJELEC.NS - Process function Ended
+2024-06-06 22:05:52,785 -INFO - All stocks - Excel file Saved
+2024-06-06 22:05:52,797 -INFO - All stocks - json file saved
+2024-06-06 22:05:52,798 -INFO - PETRONET.NS - alerts file Saved
+2024-06-06 22:05:52,878 -INFO - PETRONET.NS - Process function Ended
+2024-06-06 22:05:54,090 -INFO - All stocks - Excel file Saved
+2024-06-06 22:05:54,091 -INFO - All stocks - json file saved
+2024-06-06 22:05:54,094 -INFO - ACC.NS - alerts file Saved
+2024-06-06 22:05:54,094 -INFO - ACC.NS - Process function Ended
+2024-06-06 22:05:57,964 -INFO - All stocks - Excel file Saved
+2024-06-06 22:05:57,966 -INFO - All stocks - json file saved
+2024-06-06 22:05:57,966 -INFO - HERCULES.NS - alerts file Saved
+2024-06-06 22:05:57,966 -INFO - HERCULES.NS - Process function Ended
+2024-06-06 22:05:58,604 -INFO - All stocks - Excel file Saved
+2024-06-06 22:05:58,606 -INFO - All stocks - json file saved
+2024-06-06 22:05:58,606 -INFO - IDEA.NS - alerts file Saved
+2024-06-06 22:05:58,606 -INFO - IDEA.NS - Process function Ended
+2024-06-06 22:06:00,463 -INFO - All stocks - Excel file Saved
+2024-06-06 22:06:00,886 -INFO - All stocks - json file saved
+2024-06-06 22:06:00,949 -INFO - MHRIL.NS - alerts file Saved
+2024-06-06 22:06:02,114 -INFO - MHRIL.NS - Process function Ended
+2024-06-06 22:06:02,496 -INFO - All stocks - Excel file Saved
+2024-06-06 22:06:02,511 -INFO - All stocks - json file saved
+2024-06-06 22:06:02,511 -INFO - CUMMINSIND.NS - alerts file Saved
+2024-06-06 22:06:02,511 -INFO - CUMMINSIND.NS - Process function Ended
+2024-06-06 22:06:02,523 -INFO - All stocks - Excel file Saved
+2024-06-06 22:06:02,531 -INFO - All stocks - json file saved
+2024-06-06 22:06:02,531 -INFO - BAJAJST.BO - alerts file Saved
+2024-06-06 22:06:02,537 -INFO - BAJAJST.BO - Process function Ended
+2024-06-06 22:06:02,812 -INFO - All stocks - Excel file Saved
+2024-06-06 22:06:02,815 -INFO - All stocks - json file saved
+2024-06-06 22:06:02,815 -INFO - POLYCAB.NS - alerts file Saved
+2024-06-06 22:06:02,815 -INFO - POLYCAB.NS - Process function Ended
+2024-06-06 22:06:03,127 -INFO - All stocks - Excel file Saved
+2024-06-06 22:06:03,139 -INFO - All stocks - json file saved
+2024-06-06 22:06:03,139 -INFO - JKCEMENT.NS - alerts file Saved
+2024-06-06 22:06:03,139 -INFO - JKCEMENT.NS - Process function Ended
+2024-06-06 22:06:03,776 -INFO - All stocks - Excel file Saved
+2024-06-06 22:06:03,831 -INFO - All stocks - json file saved
+2024-06-06 22:06:03,831 -INFO - ASHOKLEY.NS - alerts file Saved
+2024-06-06 22:06:03,831 -INFO - ASHOKLEY.NS - Process function Ended
+2024-06-06 22:06:04,202 -INFO - All stocks - Excel file Saved
+2024-06-06 22:06:04,205 -INFO - All stocks - json file saved
+2024-06-06 22:06:04,205 -INFO - SWARAJENG.NS - alerts file Saved
+2024-06-06 22:06:04,205 -INFO - SWARAJENG.NS - Process function Ended
+2024-06-06 22:06:07,962 -INFO - All stocks - Excel file Saved
+2024-06-06 22:06:08,133 -INFO - All stocks - json file saved
+2024-06-06 22:06:08,133 -INFO - INDIACEM.NS - alerts file Saved
+2024-06-06 22:06:08,133 -INFO - INDIACEM.NS - Process function Ended
+2024-06-06 22:06:09,781 -INFO - All stocks - Excel file Saved
+2024-06-06 22:06:09,782 -INFO - All stocks - json file saved
+2024-06-06 22:06:09,782 -INFO - GMRINFRA.NS - alerts file Saved
+2024-06-06 22:06:09,782 -INFO - GMRINFRA.NS - Process function Ended
+2024-06-06 22:06:09,792 -INFO - All stocks - Excel file Saved
+2024-06-06 22:06:09,801 -INFO - All stocks - json file saved
+2024-06-06 22:06:09,801 -INFO - GUJGASLTD.NS - alerts file Saved
+2024-06-06 22:06:09,801 -INFO - GUJGASLTD.NS - Process function Ended
+2024-06-06 22:06:09,812 -INFO - All stocks - Excel file Saved
+2024-06-06 22:06:09,815 -INFO - All stocks - Excel file Saved
+2024-06-06 22:06:09,816 -INFO - All stocks - json file saved
+2024-06-06 22:06:09,816 -INFO - PFC.NS - alerts file Saved
+2024-06-06 22:06:09,816 -INFO - PFC.NS - Process function Ended
+2024-06-06 22:06:09,818 -INFO - All stocks - json file saved
+2024-06-06 22:06:09,819 -INFO - MGL.NS - alerts file Saved
+2024-06-06 22:06:09,819 -INFO - MGL.NS - Process function Ended
+2024-06-06 22:06:10,326 -INFO - All stocks - Excel file Saved
+2024-06-06 22:06:10,348 -INFO - All stocks - json file saved
+2024-06-06 22:06:10,354 -INFO - BAJAJCON.NS - alerts file Saved
+2024-06-06 22:06:10,354 -INFO - BAJAJCON.NS - Process function Ended
+2024-06-06 22:06:10,453 -INFO - All stocks - Excel file Saved
+2024-06-06 22:06:10,453 -INFO - All stocks - json file saved
+2024-06-06 22:06:10,453 -INFO - MAHLIFE.NS - alerts file Saved
+2024-06-06 22:06:10,453 -INFO - MAHLIFE.NS - Process function Ended
+2024-06-06 22:06:10,502 -INFO - All stocks - Excel file Saved
+2024-06-06 22:06:10,544 -INFO - All stocks - json file saved
+2024-06-06 22:06:10,544 -INFO - MAHEPC.NS - alerts file Saved
+2024-06-06 22:06:10,544 -INFO - MAHEPC.NS - Process function Ended
+2024-06-06 22:06:10,660 -INFO - All stocks - Excel file Saved
+2024-06-06 22:06:10,661 -INFO - All stocks - Excel file Saved
+2024-06-06 22:06:10,662 -INFO - All stocks - json file saved
+2024-06-06 22:06:10,662 -INFO - MAHLOG.NS - alerts file Saved
+2024-06-06 22:06:10,662 -INFO - MAHLOG.NS - Process function Ended
+2024-06-06 22:06:10,663 -INFO - All stocks - json file saved
+2024-06-06 22:06:10,663 -INFO - IGL.NS - alerts file Saved
+2024-06-06 22:06:10,663 -INFO - IGL.NS - Process function Ended
+2024-06-06 22:06:10,663 -INFO - All stocks - Excel file Saved
+2024-06-06 22:06:10,665 -INFO - All stocks - json file saved
+2024-06-06 22:06:10,665 -INFO - MUKANDLTD.NS - alerts file Saved
+2024-06-06 22:06:10,665 -INFO - MUKANDLTD.NS - Process function Ended
+2024-06-06 22:06:23,271 -INFO - All stocks - Excel file Saved
+2024-06-06 22:06:23,273 -INFO - All stocks - json file saved
+2024-06-06 22:06:35,447 -INFO - All stocks - Excel file Saved
+2024-06-06 22:06:35,449 -INFO - All stocks - json file saved
+2024-06-06 22:06:35,449 -INFO - 150 - 175 - Stock threading ended ....
+2024-06-06 22:06:38,443 -ERROR - 
+2 Failed downloads:
+2024-06-06 22:06:38,443 -ERROR - ['GPTHEALTH.NS']: YFInvalidPeriodError("%ticker%: Period '1y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', 'ytd', 'max']")
+2024-06-06 22:06:38,443 -ERROR - ['COMMITTED-SM.NS']: YFInvalidPeriodError("%ticker%: Period '1y' is invalid, must be one of ['1d', '5d']")
+2024-06-06 22:06:38,689 -INFO - MOTILALOFS.NS - Process function started
+2024-06-06 22:06:38,689 -INFO - THERMAX.NS - Process function started
+2024-06-06 22:06:38,689 -INFO - MOTILALOFS.NS - Reading existing data...
+2024-06-06 22:06:38,689 -INFO - THERMAX.NS - Reading existing data...
+2024-06-06 22:06:38,690 -INFO - VOLTAS.NS - Process function started
+2024-06-06 22:06:38,690 -INFO - JUSTDIAL.NS - Process function started
+2024-06-06 22:06:38,690 -INFO - NELCO.NS - Process function started
+2024-06-06 22:06:38,690 -INFO - AEGISCHEM.NS - Process function started
+2024-06-06 22:06:38,690 -INFO - EIHOTEL.NS - Process function started
+2024-06-06 22:06:38,690 -INFO - JKIL.NS - Process function started
+2024-06-06 22:06:38,690 -INFO - INDUSTOWER.NS - Process function started
+2024-06-06 22:06:38,690 -INFO - VOLTAS.NS - Reading existing data...
+2024-06-06 22:06:38,690 -INFO - TEJASNET.NS - Process function started
+2024-06-06 22:06:38,691 -INFO - JUSTDIAL.NS - Reading existing data...
+2024-06-06 22:06:38,691 -INFO - NELCO.NS - Reading existing data...
+2024-06-06 22:06:38,691 -INFO - ACGL.BO - Process function started
+2024-06-06 22:06:38,691 -INFO - GODFRYPHLP.NS - Process function started
+2024-06-06 22:06:38,691 -INFO - TATATECH.NS - Process function started
+2024-06-06 22:06:38,691 -INFO - EIHOTEL.NS - Reading existing data...
+2024-06-06 22:06:38,691 -INFO - AEGISCHEM.NS - Reading existing data...
+2024-06-06 22:06:38,691 -INFO - JKIL.NS - Reading existing data...
+2024-06-06 22:06:38,692 -INFO - INDUSTOWER.NS - Reading existing data...
+2024-06-06 22:06:38,692 -INFO - TRF.NS - Process function started
+2024-06-06 22:06:38,692 -INFO - TEJASNET.NS - Reading existing data...
+2024-06-06 22:06:38,692 -INFO - SOBHA.NS - Process function started
+2024-06-06 22:06:38,694 -INFO - GPTINFRA.NS - Process function started
+2024-06-06 22:06:38,694 -INFO - ARTSONEN.BO - Process function started
+2024-06-06 22:06:38,694 -INFO - ACGL.BO - Reading existing data...
+2024-06-06 22:06:38,694 -INFO - GODFRYPHLP.NS - Reading existing data...
+2024-06-06 22:06:38,695 -INFO - TATATECH.NS - Reading existing data...
+2024-06-06 22:06:38,695 -INFO - HATHWAY.NS - Process function started
+2024-06-06 22:06:38,695 -INFO - KPIL.NS - Process function started
+2024-06-06 22:06:38,695 -INFO - OFSS.NS - Process function started
+2024-06-06 22:06:38,696 -INFO - TATAINVEST.NS - Process function started
+2024-06-06 22:06:38,696 -INFO - INDHOTEL.NS - Process function started
+2024-06-06 22:06:38,697 -INFO - TAJGVK.NS - Process function started
+2024-06-06 22:06:38,698 -INFO - TRF.NS - Reading existing data...
+2024-06-06 22:06:38,700 -INFO - GPTINFRA.NS - Reading existing data...
+2024-06-06 22:06:38,700 -INFO - SOBHA.NS - Reading existing data...
+2024-06-06 22:06:38,701 -INFO - ARTSONEN.BO - Reading existing data...
+2024-06-06 22:06:38,702 -INFO - HATHWAY.NS - Reading existing data...
+2024-06-06 22:06:38,702 -INFO - KPIL.NS - Reading existing data...
+2024-06-06 22:06:38,703 -INFO - OFSS.NS - Reading existing data...
+2024-06-06 22:06:38,704 -INFO - TATAINVEST.NS - Reading existing data...
+2024-06-06 22:06:38,704 -INFO - INDHOTEL.NS - Reading existing data...
+2024-06-06 22:06:38,705 -INFO - TAJGVK.NS - Reading existing data...
+2024-06-06 22:06:38,921 -INFO - MOTILALOFS.NS - add_ph_pl_values function started
+2024-06-06 22:06:39,018 -INFO - MOTILALOFS.NS - add_ph_pl_values function Ended
+2024-06-06 22:06:39,019 -INFO - THERMAX.NS - add_ph_pl_values function started
+2024-06-06 22:06:39,206 -INFO - JUSTDIAL.NS - add_ph_pl_values function started
+2024-06-06 22:06:39,323 -INFO - THERMAX.NS - add_ph_pl_values function Ended
+2024-06-06 22:06:39,514 -INFO - VOLTAS.NS - add_ph_pl_values function started
+2024-06-06 22:06:39,603 -INFO - JUSTDIAL.NS - add_ph_pl_values function Ended
+2024-06-06 22:06:39,721 -INFO - AEGISCHEM.NS - add_ph_pl_values function started
+2024-06-06 22:06:40,033 -INFO - VOLTAS.NS - add_ph_pl_values function Ended
+2024-06-06 22:06:40,301 -INFO - TEJASNET.NS - add_ph_pl_values function started
+2024-06-06 22:06:40,578 -INFO - AEGISCHEM.NS - add_ph_pl_values function Ended
+2024-06-06 22:06:40,828 -INFO - NELCO.NS - add_ph_pl_values function started
+2024-06-06 22:06:41,068 -INFO - JKIL.NS - add_ph_pl_values function started
+2024-06-06 22:06:41,068 -INFO - INDUSTOWER.NS - add_ph_pl_values function started
+2024-06-06 22:06:41,121 -INFO - TATATECH.NS - add_ph_pl_values function started
+2024-06-06 22:06:41,121 -INFO - GODFRYPHLP.NS - add_ph_pl_values function started
+2024-06-06 22:06:41,215 -INFO - TEJASNET.NS - add_ph_pl_values function Ended
+2024-06-06 22:06:41,302 -INFO - EIHOTEL.NS - add_ph_pl_values function started
+2024-06-06 22:06:41,968 -INFO - ACGL.BO - add_ph_pl_values function started
+2024-06-06 22:06:42,005 -INFO - NELCO.NS - add_ph_pl_values function Ended
+2024-06-06 22:06:42,005 -INFO - TRF.NS - add_ph_pl_values function started
+2024-06-06 22:06:42,011 -INFO - TATAINVEST.NS - add_ph_pl_values function started
+2024-06-06 22:06:42,011 -INFO - GPTINFRA.NS - add_ph_pl_values function started
+2024-06-06 22:06:42,011 -INFO - OFSS.NS - add_ph_pl_values function started
+2024-06-06 22:06:42,134 -INFO - ARTSONEN.BO - add_ph_pl_values function started
+2024-06-06 22:06:42,139 -INFO - KPIL.NS - add_ph_pl_values function started
+2024-06-06 22:06:42,141 -INFO - INDHOTEL.NS - add_ph_pl_values function started
+2024-06-06 22:06:42,143 -INFO - HATHWAY.NS - add_ph_pl_values function started
+2024-06-06 22:06:42,143 -INFO - TAJGVK.NS - add_ph_pl_values function started
+2024-06-06 22:06:42,145 -INFO - SOBHA.NS - add_ph_pl_values function started
+2024-06-06 22:06:42,180 -INFO - JKIL.NS - add_ph_pl_values function Ended
+2024-06-06 22:06:42,532 -INFO - INDUSTOWER.NS - add_ph_pl_values function Ended
+2024-06-06 22:06:42,751 -INFO - TATATECH.NS - add_ph_pl_values function Ended
+2024-06-06 22:06:44,062 -INFO - GODFRYPHLP.NS - add_ph_pl_values function Ended
+2024-06-06 22:06:48,538 -INFO - EIHOTEL.NS - add_ph_pl_values function Ended
+2024-06-06 22:06:52,685 -INFO - ACGL.BO - add_ph_pl_values function Ended
+2024-06-06 22:06:56,691 -INFO - TRF.NS - add_ph_pl_values function Ended
+2024-06-06 22:07:00,351 -INFO - TATAINVEST.NS - add_ph_pl_values function Ended
+2024-06-06 22:07:03,107 -INFO - GPTINFRA.NS - add_ph_pl_values function Ended
+2024-06-06 22:07:06,937 -INFO - OFSS.NS - add_ph_pl_values function Ended
+2024-06-06 22:07:09,546 -INFO - ARTSONEN.BO - add_ph_pl_values function Ended
+2024-06-06 22:07:14,122 -INFO - KPIL.NS - add_ph_pl_values function Ended
+2024-06-06 22:07:18,134 -INFO - INDHOTEL.NS - add_ph_pl_values function Ended
+2024-06-06 22:07:22,206 -INFO - HATHWAY.NS - add_ph_pl_values function Ended
+2024-06-06 22:07:24,686 -INFO - TAJGVK.NS - add_ph_pl_values function Ended
+2024-06-06 22:07:28,062 -INFO - SOBHA.NS - add_ph_pl_values function Ended
+2024-06-06 22:11:10,055 -INFO - All stocks - Excel file Saved
+2024-06-06 22:11:10,075 -INFO - All stocks - json file saved
+2024-06-06 22:11:10,075 -INFO - GODFRYPHLP.NS - alerts file Saved
+2024-06-06 22:11:10,079 -INFO - GODFRYPHLP.NS - Process function Ended
+2024-06-06 22:11:10,497 -INFO - All stocks - Excel file Saved
+2024-06-06 22:11:10,518 -INFO - All stocks - json file saved
+2024-06-06 22:11:10,518 -INFO - INDUSTOWER.NS - alerts file Saved
+2024-06-06 22:11:10,518 -INFO - INDUSTOWER.NS - Process function Ended
+2024-06-06 22:11:12,521 -INFO - All stocks - Excel file Saved
+2024-06-06 22:11:12,764 -INFO - All stocks - json file saved
+2024-06-06 22:11:12,764 -INFO - AEGISCHEM.NS - alerts file Saved
+2024-06-06 22:11:12,765 -INFO - AEGISCHEM.NS - Process function Ended
+2024-06-06 22:11:13,935 -INFO - All stocks - Excel file Saved
+2024-06-06 22:11:13,956 -INFO - All stocks - json file saved
+2024-06-06 22:11:14,152 -INFO - JKIL.NS - alerts file Saved
+2024-06-06 22:11:14,152 -INFO - JKIL.NS - Process function Ended
+2024-06-06 22:11:18,883 -INFO - All stocks - Excel file Saved
+2024-06-06 22:11:18,892 -INFO - All stocks - json file saved
+2024-06-06 22:11:18,892 -INFO - VOLTAS.NS - alerts file Saved
+2024-06-06 22:11:18,894 -INFO - VOLTAS.NS - Process function Ended
+2024-06-06 22:11:18,954 -INFO - All stocks - Excel file Saved
+2024-06-06 22:11:19,010 -INFO - All stocks - json file saved
+2024-06-06 22:11:19,010 -INFO - NELCO.NS - alerts file Saved
+2024-06-06 22:11:19,010 -INFO - NELCO.NS - Process function Ended
+2024-06-06 22:11:22,450 -INFO - All stocks - Excel file Saved
+2024-06-06 22:11:22,653 -INFO - All stocks - json file saved
+2024-06-06 22:11:22,653 -INFO - JUSTDIAL.NS - alerts file Saved
+2024-06-06 22:11:22,653 -INFO - JUSTDIAL.NS - Process function Ended
+2024-06-06 22:11:26,842 -INFO - All stocks - Excel file Saved
+2024-06-06 22:11:26,870 -INFO - All stocks - Excel file Saved
+2024-06-06 22:11:26,870 -INFO - All stocks - json file saved
+2024-06-06 22:11:26,870 -INFO - THERMAX.NS - alerts file Saved
+2024-06-06 22:11:26,870 -INFO - THERMAX.NS - Process function Ended
+2024-06-06 22:11:26,877 -INFO - All stocks - json file saved
+2024-06-06 22:11:26,877 -INFO - MOTILALOFS.NS - alerts file Saved
+2024-06-06 22:11:26,877 -INFO - MOTILALOFS.NS - Process function Ended
+2024-06-06 22:11:32,076 -INFO - All stocks - Excel file Saved
+2024-06-06 22:11:32,849 -INFO - All stocks - json file saved
+2024-06-06 22:11:32,849 -INFO - EIHOTEL.NS - alerts file Saved
+2024-06-06 22:11:32,849 -INFO - EIHOTEL.NS - Process function Ended
+2024-06-06 22:11:34,482 -INFO - All stocks - Excel file Saved
+2024-06-06 22:11:34,563 -INFO - All stocks - json file saved
+2024-06-06 22:11:34,563 -INFO - TEJASNET.NS - alerts file Saved
+2024-06-06 22:11:34,563 -INFO - TEJASNET.NS - Process function Ended
+2024-06-06 22:11:35,240 -INFO - All stocks - Excel file Saved
+2024-06-06 22:11:35,242 -INFO - All stocks - json file saved
+2024-06-06 22:11:35,242 -INFO - TATATECH.NS - alerts file Saved
+2024-06-06 22:11:35,242 -INFO - TATATECH.NS - Process function Ended
+2024-06-06 22:11:35,444 -INFO - All stocks - Excel file Saved
+2024-06-06 22:11:35,453 -INFO - All stocks - json file saved
+2024-06-06 22:11:35,453 -INFO - ACGL.BO - alerts file Saved
+2024-06-06 22:11:35,453 -INFO - ACGL.BO - Process function Ended
+2024-06-06 22:11:35,527 -INFO - All stocks - Excel file Saved
+2024-06-06 22:11:35,587 -INFO - All stocks - json file saved
+2024-06-06 22:11:35,587 -INFO - GPTINFRA.NS - alerts file Saved
+2024-06-06 22:11:35,587 -INFO - GPTINFRA.NS - Process function Ended
+2024-06-06 22:11:35,608 -INFO - All stocks - Excel file Saved
+2024-06-06 22:11:35,720 -INFO - All stocks - json file saved
+2024-06-06 22:11:35,720 -INFO - TRF.NS - alerts file Saved
+2024-06-06 22:11:35,720 -INFO - TRF.NS - Process function Ended
+2024-06-06 22:11:36,787 -INFO - All stocks - Excel file Saved
+2024-06-06 22:11:36,788 -INFO - All stocks - json file saved
+2024-06-06 22:11:36,788 -INFO - OFSS.NS - alerts file Saved
+2024-06-06 22:11:36,919 -INFO - OFSS.NS - Process function Ended
+2024-06-06 22:11:37,715 -INFO - All stocks - Excel file Saved
+2024-06-06 22:11:37,717 -INFO - All stocks - json file saved
+2024-06-06 22:11:37,717 -INFO - KPIL.NS - alerts file Saved
+2024-06-06 22:11:37,717 -INFO - KPIL.NS - Process function Ended
+2024-06-06 22:11:37,724 -INFO - All stocks - Excel file Saved
+2024-06-06 22:11:37,749 -INFO - All stocks - json file saved
+2024-06-06 22:11:37,749 -INFO - TATAINVEST.NS - alerts file Saved
+2024-06-06 22:11:37,749 -INFO - TATAINVEST.NS - Process function Ended
+2024-06-06 22:11:37,910 -INFO - All stocks - Excel file Saved
+2024-06-06 22:11:37,910 -INFO - All stocks - json file saved
+2024-06-06 22:11:37,911 -INFO - ARTSONEN.BO - alerts file Saved
+2024-06-06 22:11:37,911 -INFO - ARTSONEN.BO - Process function Ended
+2024-06-06 22:11:37,924 -INFO - All stocks - Excel file Saved
+2024-06-06 22:11:37,925 -INFO - All stocks - json file saved
+2024-06-06 22:11:37,925 -INFO - SOBHA.NS - alerts file Saved
+2024-06-06 22:11:37,925 -INFO - SOBHA.NS - Process function Ended
+2024-06-06 22:11:38,021 -INFO - All stocks - Excel file Saved
+2024-06-06 22:11:38,021 -INFO - All stocks - json file saved
+2024-06-06 22:11:38,021 -INFO - HATHWAY.NS - alerts file Saved
+2024-06-06 22:11:38,021 -INFO - HATHWAY.NS - Process function Ended
+2024-06-06 22:11:38,138 -INFO - All stocks - Excel file Saved
+2024-06-06 22:11:38,139 -INFO - All stocks - json file saved
+2024-06-06 22:11:38,139 -INFO - INDHOTEL.NS - alerts file Saved
+2024-06-06 22:11:38,139 -INFO - INDHOTEL.NS - Process function Ended
+2024-06-06 22:11:38,312 -INFO - All stocks - Excel file Saved
+2024-06-06 22:11:38,312 -INFO - All stocks - json file saved
+2024-06-06 22:11:38,312 -INFO - TAJGVK.NS - alerts file Saved
+2024-06-06 22:11:38,312 -INFO - TAJGVK.NS - Process function Ended
+2024-06-06 22:11:52,067 -INFO - All stocks - Excel file Saved
+2024-06-06 22:11:52,067 -INFO - All stocks - json file saved
+2024-06-06 22:12:05,347 -INFO - All stocks - Excel file Saved
+2024-06-06 22:12:05,347 -INFO - All stocks - json file saved
+2024-06-06 22:12:05,347 -INFO - 175 - 200 - Stock threading ended ....
+2024-06-06 22:12:08,356 -INFO - BEML.NS - Process function started
+2024-06-06 22:12:08,356 -INFO - JINDRILL.NS - Process function started
+2024-06-06 22:12:08,356 -INFO - TATACHEM.NS - Process function started
+2024-06-06 22:12:08,356 -INFO - BEML.NS - Reading existing data...
+2024-06-06 22:12:08,357 -INFO - JINDRILL.NS - Reading existing data...
+2024-06-06 22:12:08,357 -INFO - TATACHEM.NS - Reading existing data...
+2024-06-06 22:12:08,357 -INFO - GODREJIND.NS - Process function started
+2024-06-06 22:12:08,357 -INFO - LODHA.NS - Process function started
+2024-06-06 22:12:08,357 -INFO - APARINDS.NS - Process function started
+2024-06-06 22:12:08,358 -INFO - GODREJIND.NS - Reading existing data...
+2024-06-06 22:12:08,358 -INFO - LODHA.NS - Reading existing data...
+2024-06-06 22:12:08,358 -INFO - JISLJALEQS.NS - Process function started
+2024-06-06 22:12:08,358 -INFO - APARINDS.NS - Reading existing data...
+2024-06-06 22:12:08,359 -INFO - ZFCVINDIA.NS - Process function started
+2024-06-06 22:12:08,359 -INFO - SIS.NS - Process function started
+2024-06-06 22:12:08,359 -INFO - JISLJALEQS.NS - Reading existing data...
+2024-06-06 22:12:08,359 -INFO - EASEMYTRIP.NS - Process function started
+2024-06-06 22:12:08,359 -INFO - ZFCVINDIA.NS - Reading existing data...
+2024-06-06 22:12:08,359 -INFO - AETHER.NS - Process function started
+2024-06-06 22:12:08,360 -INFO - SIS.NS - Reading existing data...
+2024-06-06 22:12:08,360 -INFO - DBL.NS - Process function started
+2024-06-06 22:12:08,360 -INFO - HGINFRA.NS - Process function started
+2024-06-06 22:12:08,360 -INFO - KNRCON.NS - Process function started
+2024-06-06 22:12:08,361 -INFO - EASEMYTRIP.NS - Reading existing data...
+2024-06-06 22:12:08,361 -INFO - SCHNEIDER.NS - Process function started
+2024-06-06 22:12:08,361 -INFO - MOL.NS - Process function started
+2024-06-06 22:12:08,362 -INFO - AETHER.NS - Reading existing data...
+2024-06-06 22:12:08,364 -INFO - MTARTECH.NS - Process function started
+2024-06-06 22:12:08,364 -INFO - FACT.NS - Process function started
+2024-06-06 22:12:08,365 -INFO - DBL.NS - Reading existing data...
+2024-06-06 22:12:08,365 -INFO - HGINFRA.NS - Reading existing data...
+2024-06-06 22:12:08,366 -INFO - POWERINDIA.NS - Process function started
+2024-06-06 22:12:08,366 -INFO - KNRCON.NS - Reading existing data...
+2024-06-06 22:12:08,369 -INFO - SCHNEIDER.NS - Reading existing data...
+2024-06-06 22:12:08,369 -INFO - MOL.NS - Reading existing data...
+2024-06-06 22:12:08,370 -INFO - TITAGARH.NS - Process function started
+2024-06-06 22:12:08,370 -INFO - JMFINANCIL.NS - Process function started
+2024-06-06 22:12:08,372 -INFO - EMAMILTD.NS - Process function started
+2024-06-06 22:12:08,373 -INFO - POLICYBZR.NS - Process function started
+2024-06-06 22:12:08,373 -INFO - MTARTECH.NS - Reading existing data...
+2024-06-06 22:12:08,374 -INFO - MAHSEAMLES.NS - Process function started
+2024-06-06 22:12:08,375 -INFO - FACT.NS - Reading existing data...
+2024-06-06 22:12:08,375 -INFO - APLAPOLLO.NS - Process function started
+2024-06-06 22:12:08,381 -INFO - POWERINDIA.NS - Reading existing data...
+2024-06-06 22:12:08,381 -INFO - TITAGARH.NS - Reading existing data...
+2024-06-06 22:12:08,387 -INFO - JMFINANCIL.NS - Reading existing data...
+2024-06-06 22:12:08,394 -INFO - EMAMILTD.NS - Reading existing data...
+2024-06-06 22:12:08,394 -INFO - POLICYBZR.NS - Reading existing data...
+2024-06-06 22:12:08,425 -INFO - MAHSEAMLES.NS - Reading existing data...
+2024-06-06 22:12:08,440 -INFO - APLAPOLLO.NS - Reading existing data...
+2024-06-06 22:12:08,576 -INFO - BEML.NS - add_ph_pl_values function started
+2024-06-06 22:12:08,637 -INFO - BEML.NS - add_ph_pl_values function Ended
+2024-06-06 22:12:08,973 -INFO - JINDRILL.NS - add_ph_pl_values function started
+2024-06-06 22:12:09,183 -INFO - JINDRILL.NS - add_ph_pl_values function Ended
+2024-06-06 22:12:09,212 -INFO - TATACHEM.NS - add_ph_pl_values function started
+2024-06-06 22:12:09,456 -INFO - TATACHEM.NS - add_ph_pl_values function Ended
+2024-06-06 22:12:10,007 -INFO - SIS.NS - add_ph_pl_values function started
+2024-06-06 22:12:10,189 -INFO - ZFCVINDIA.NS - add_ph_pl_values function started
+2024-06-06 22:12:10,669 -INFO - SIS.NS - add_ph_pl_values function Ended
+2024-06-06 22:12:11,065 -INFO - GODREJIND.NS - add_ph_pl_values function started
+2024-06-06 22:12:11,287 -INFO - EASEMYTRIP.NS - add_ph_pl_values function started
+2024-06-06 22:12:11,362 -INFO - JISLJALEQS.NS - add_ph_pl_values function started
+2024-06-06 22:12:11,431 -INFO - AETHER.NS - add_ph_pl_values function started
+2024-06-06 22:12:11,670 -INFO - ZFCVINDIA.NS - add_ph_pl_values function Ended
+2024-06-06 22:12:11,696 -INFO - LODHA.NS - add_ph_pl_values function started
+2024-06-06 22:12:11,696 -INFO - DBL.NS - add_ph_pl_values function started
+2024-06-06 22:12:11,865 -INFO - KNRCON.NS - add_ph_pl_values function started
+2024-06-06 22:12:12,447 -INFO - APARINDS.NS - add_ph_pl_values function started
+2024-06-06 22:12:12,579 -INFO - HGINFRA.NS - add_ph_pl_values function started
+2024-06-06 22:12:12,704 -INFO - GODREJIND.NS - add_ph_pl_values function Ended
+2024-06-06 22:12:13,249 -INFO - MTARTECH.NS - add_ph_pl_values function started
+2024-06-06 22:12:13,498 -INFO - TITAGARH.NS - add_ph_pl_values function started
+2024-06-06 22:12:13,585 -INFO - EASEMYTRIP.NS - add_ph_pl_values function Ended
+2024-06-06 22:12:13,622 -INFO - SCHNEIDER.NS - add_ph_pl_values function started
+2024-06-06 22:12:13,675 -INFO - MOL.NS - add_ph_pl_values function started
+2024-06-06 22:12:13,750 -INFO - POLICYBZR.NS - add_ph_pl_values function started
+2024-06-06 22:12:13,750 -INFO - JMFINANCIL.NS - add_ph_pl_values function started
+2024-06-06 22:12:13,797 -INFO - MAHSEAMLES.NS - add_ph_pl_values function started
+2024-06-06 22:12:13,898 -INFO - EMAMILTD.NS - add_ph_pl_values function started
+2024-06-06 22:12:13,901 -INFO - POWERINDIA.NS - add_ph_pl_values function started
+2024-06-06 22:12:13,914 -INFO - FACT.NS - add_ph_pl_values function started
+2024-06-06 22:12:13,921 -INFO - APLAPOLLO.NS - add_ph_pl_values function started
+2024-06-06 22:12:13,925 -INFO - JISLJALEQS.NS - add_ph_pl_values function Ended
+2024-06-06 22:12:14,040 -INFO - AETHER.NS - add_ph_pl_values function Ended
+2024-06-06 22:12:14,538 -INFO - LODHA.NS - add_ph_pl_values function Ended
+2024-06-06 22:12:16,167 -INFO - DBL.NS - add_ph_pl_values function Ended
+2024-06-06 22:12:19,155 -INFO - KNRCON.NS - add_ph_pl_values function Ended
+2024-06-06 22:12:21,977 -INFO - APARINDS.NS - add_ph_pl_values function Ended
+2024-06-06 22:12:25,486 -INFO - HGINFRA.NS - add_ph_pl_values function Ended
+2024-06-06 22:12:28,501 -INFO - MTARTECH.NS - add_ph_pl_values function Ended
+2024-06-06 22:12:32,717 -INFO - TITAGARH.NS - add_ph_pl_values function Ended
+2024-06-06 22:12:35,115 -INFO - SCHNEIDER.NS - add_ph_pl_values function Ended
+2024-06-06 22:12:37,075 -INFO - MOL.NS - add_ph_pl_values function Ended
+2024-06-06 22:12:43,145 -INFO - POLICYBZR.NS - add_ph_pl_values function Ended
+2024-06-06 22:12:47,260 -INFO - JMFINANCIL.NS - add_ph_pl_values function Ended
+2024-06-06 22:12:50,752 -INFO - MAHSEAMLES.NS - add_ph_pl_values function Ended
+2024-06-06 22:12:55,342 -INFO - EMAMILTD.NS - add_ph_pl_values function Ended
+2024-06-06 22:12:58,223 -INFO - POWERINDIA.NS - add_ph_pl_values function Ended
+2024-06-06 22:13:03,583 -INFO - FACT.NS - add_ph_pl_values function Ended
+2024-06-06 22:13:07,303 -INFO - APLAPOLLO.NS - add_ph_pl_values function Ended
+2024-06-06 22:17:59,184 -INFO - All stocks - Excel file Saved
+2024-06-06 22:17:59,196 -INFO - All stocks - json file saved
+2024-06-06 22:17:59,196 -INFO - BEML.NS - alerts file Saved
+2024-06-06 22:17:59,196 -INFO - BEML.NS - Process function Ended
+2024-06-06 22:18:03,033 -INFO - All stocks - Excel file Saved
+2024-06-06 22:18:03,035 -INFO - All stocks - json file saved
+2024-06-06 22:18:03,035 -INFO - TATACHEM.NS - alerts file Saved
+2024-06-06 22:18:03,035 -INFO - TATACHEM.NS - Process function Ended
+2024-06-06 22:18:03,277 -INFO - All stocks - Excel file Saved
+2024-06-06 22:18:03,277 -INFO - All stocks - json file saved
+2024-06-06 22:18:03,277 -INFO - APARINDS.NS - alerts file Saved
+2024-06-06 22:18:03,278 -INFO - APARINDS.NS - Process function Ended
+2024-06-06 22:18:03,368 -INFO - All stocks - Excel file Saved
+2024-06-06 22:18:03,368 -INFO - All stocks - json file saved
+2024-06-06 22:18:03,368 -INFO - DBL.NS - alerts file Saved
+2024-06-06 22:18:03,369 -INFO - DBL.NS - Process function Ended
+2024-06-06 22:18:04,441 -INFO - All stocks - Excel file Saved
+2024-06-06 22:18:04,611 -INFO - All stocks - json file saved
+2024-06-06 22:18:04,611 -INFO - SIS.NS - alerts file Saved
+2024-06-06 22:18:04,611 -INFO - SIS.NS - Process function Ended
+2024-06-06 22:18:11,676 -INFO - All stocks - Excel file Saved
+2024-06-06 22:18:11,677 -INFO - All stocks - json file saved
+2024-06-06 22:18:11,677 -INFO - EASEMYTRIP.NS - alerts file Saved
+2024-06-06 22:18:11,677 -INFO - EASEMYTRIP.NS - Process function Ended
+2024-06-06 22:18:14,521 -INFO - All stocks - Excel file Saved
+2024-06-06 22:18:14,521 -INFO - All stocks - json file saved
+2024-06-06 22:18:14,522 -INFO - ZFCVINDIA.NS - alerts file Saved
+2024-06-06 22:18:14,522 -INFO - ZFCVINDIA.NS - Process function Ended
+2024-06-06 22:18:18,744 -INFO - All stocks - Excel file Saved
+2024-06-06 22:18:19,298 -INFO - All stocks - json file saved
+2024-06-06 22:18:19,298 -INFO - JINDRILL.NS - alerts file Saved
+2024-06-06 22:18:19,298 -INFO - JINDRILL.NS - Process function Ended
+2024-06-06 22:18:20,716 -INFO - All stocks - Excel file Saved
+2024-06-06 22:18:20,722 -INFO - All stocks - json file saved
+2024-06-06 22:18:20,725 -INFO - All stocks - Excel file Saved
+2024-06-06 22:18:20,766 -INFO - MOL.NS - alerts file Saved
+2024-06-06 22:18:20,795 -INFO - All stocks - Excel file Saved
+2024-06-06 22:18:20,796 -INFO - MOL.NS - Process function Ended
+2024-06-06 22:18:20,819 -INFO - All stocks - json file saved
+2024-06-06 22:18:20,828 -INFO - JISLJALEQS.NS - alerts file Saved
+2024-06-06 22:18:20,828 -INFO - JISLJALEQS.NS - Process function Ended
+2024-06-06 22:18:20,832 -INFO - All stocks - json file saved
+2024-06-06 22:18:20,832 -INFO - LODHA.NS - alerts file Saved
+2024-06-06 22:18:20,832 -INFO - LODHA.NS - Process function Ended
+2024-06-06 22:18:22,423 -INFO - All stocks - Excel file Saved
+2024-06-06 22:18:22,427 -INFO - All stocks - json file saved
+2024-06-06 22:18:22,427 -INFO - AETHER.NS - alerts file Saved
+2024-06-06 22:18:22,427 -INFO - AETHER.NS - Process function Ended
+2024-06-06 22:18:23,167 -INFO - All stocks - Excel file Saved
+2024-06-06 22:18:23,218 -INFO - All stocks - json file saved
+2024-06-06 22:18:23,218 -INFO - HGINFRA.NS - alerts file Saved
+2024-06-06 22:18:23,220 -INFO - HGINFRA.NS - Process function Ended
+2024-06-06 22:18:23,229 -INFO - All stocks - Excel file Saved
+2024-06-06 22:18:23,234 -INFO - All stocks - json file saved
+2024-06-06 22:18:23,234 -INFO - POLICYBZR.NS - alerts file Saved
+2024-06-06 22:18:23,234 -INFO - POLICYBZR.NS - Process function Ended
+2024-06-06 22:18:23,253 -INFO - All stocks - Excel file Saved
+2024-06-06 22:18:23,280 -INFO - All stocks - json file saved
+2024-06-06 22:18:23,289 -INFO - GODREJIND.NS - alerts file Saved
+2024-06-06 22:18:23,290 -INFO - GODREJIND.NS - Process function Ended
+2024-06-06 22:18:23,324 -INFO - All stocks - Excel file Saved
+2024-06-06 22:18:23,325 -INFO - All stocks - json file saved
+2024-06-06 22:18:23,325 -INFO - TITAGARH.NS - alerts file Saved
+2024-06-06 22:18:23,325 -INFO - TITAGARH.NS - Process function Ended
+2024-06-06 22:18:23,330 -INFO - All stocks - Excel file Saved
+2024-06-06 22:18:23,331 -INFO - All stocks - json file saved
+2024-06-06 22:18:23,331 -INFO - SCHNEIDER.NS - alerts file Saved
+2024-06-06 22:18:23,331 -INFO - SCHNEIDER.NS - Process function Ended
+2024-06-06 22:18:23,506 -INFO - All stocks - Excel file Saved
+2024-06-06 22:18:23,568 -INFO - All stocks - json file saved
+2024-06-06 22:18:23,594 -INFO - KNRCON.NS - alerts file Saved
+2024-06-06 22:18:23,594 -INFO - KNRCON.NS - Process function Ended
+2024-06-06 22:18:26,148 -INFO - All stocks - Excel file Saved
+2024-06-06 22:18:26,150 -INFO - All stocks - json file saved
+2024-06-06 22:18:26,150 -INFO - MAHSEAMLES.NS - alerts file Saved
+2024-06-06 22:18:26,150 -INFO - MAHSEAMLES.NS - Process function Ended
+2024-06-06 22:18:26,155 -INFO - All stocks - Excel file Saved
+2024-06-06 22:18:26,156 -INFO - All stocks - json file saved
+2024-06-06 22:18:26,156 -INFO - POWERINDIA.NS - alerts file Saved
+2024-06-06 22:18:26,156 -INFO - POWERINDIA.NS - Process function Ended
+2024-06-06 22:18:26,164 -INFO - All stocks - Excel file Saved
+2024-06-06 22:18:26,613 -INFO - All stocks - json file saved
+2024-06-06 22:18:26,613 -INFO - JMFINANCIL.NS - alerts file Saved
+2024-06-06 22:18:26,613 -INFO - JMFINANCIL.NS - Process function Ended
+2024-06-06 22:18:27,521 -INFO - All stocks - Excel file Saved
+2024-06-06 22:18:27,525 -INFO - All stocks - json file saved
+2024-06-06 22:18:27,526 -INFO - FACT.NS - alerts file Saved
+2024-06-06 22:18:27,526 -INFO - FACT.NS - Process function Ended
+2024-06-06 22:18:27,690 -INFO - All stocks - Excel file Saved
+2024-06-06 22:18:27,691 -INFO - All stocks - json file saved
+2024-06-06 22:18:27,691 -INFO - EMAMILTD.NS - alerts file Saved
+2024-06-06 22:18:27,691 -INFO - EMAMILTD.NS - Process function Ended
+2024-06-06 22:18:27,828 -INFO - All stocks - Excel file Saved
+2024-06-06 22:18:27,828 -INFO - All stocks - json file saved
+2024-06-06 22:18:27,828 -INFO - MTARTECH.NS - alerts file Saved
+2024-06-06 22:18:27,828 -INFO - MTARTECH.NS - Process function Ended
+2024-06-06 22:18:27,991 -INFO - All stocks - Excel file Saved
+2024-06-06 22:18:27,991 -INFO - All stocks - json file saved
+2024-06-06 22:18:27,991 -INFO - APLAPOLLO.NS - alerts file Saved
+2024-06-06 22:18:27,991 -INFO - APLAPOLLO.NS - Process function Ended
+2024-06-06 22:18:42,464 -INFO - All stocks - Excel file Saved
+2024-06-06 22:18:42,465 -INFO - All stocks - json file saved
+2024-06-06 22:18:56,080 -INFO - All stocks - Excel file Saved
+2024-06-06 22:18:56,081 -INFO - All stocks - json file saved
+2024-06-06 22:18:56,081 -INFO - 200 - 225 - Stock threading ended ....
+2024-06-06 22:18:58,775 -ERROR - 
+3 Failed downloads:
+2024-06-06 22:18:58,776 -ERROR - ['ORIANA-SM.NS', 'BONDADA.BO']: YFInvalidPeriodError("%ticker%: Period '1y' is invalid, must be one of ['1d', '5d']")
+2024-06-06 22:18:58,776 -ERROR - ['EXICOM.NS']: YFInvalidPeriodError("%ticker%: Period '1y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', 'ytd', 'max']")
+2024-06-06 22:18:58,943 -INFO - SANGHVIMOV.NS - Process function started
+2024-06-06 22:18:58,943 -INFO - PICCADIL.BO - Process function started
+2024-06-06 22:18:58,944 -INFO - KOLTEPATIL.NS - Process function started
+2024-06-06 22:18:58,944 -INFO - SANGHVIMOV.NS - Reading existing data...
+2024-06-06 22:18:58,944 -INFO - PICCADIL.BO - Reading existing data...
+2024-06-06 22:18:58,944 -INFO - KOLTEPATIL.NS - Reading existing data...
+2024-06-06 22:18:58,944 -INFO - MAXESTATES.NS - Process function started
+2024-06-06 22:18:58,945 -INFO - CENTUM.NS - Process function started
+2024-06-06 22:18:58,945 -INFO - TV18BRDCST.NS - Process function started
+2024-06-06 22:18:58,945 -INFO - MAXESTATES.NS - Reading existing data...
+2024-06-06 22:18:58,945 -INFO - BORORENEW.NS - Process function started
+2024-06-06 22:18:58,946 -INFO - CENTUM.NS - Reading existing data...
+2024-06-06 22:18:58,946 -INFO - TV18BRDCST.NS - Reading existing data...
+2024-06-06 22:18:58,946 -INFO - PRSMJOHNSN.NS - Process function started
+2024-06-06 22:18:58,947 -INFO - GOODYEAR.BO - Process function started
+2024-06-06 22:18:58,947 -INFO - BORORENEW.NS - Reading existing data...
+2024-06-06 22:18:58,947 -INFO - ALLCARGO.NS - Process function started
+2024-06-06 22:18:58,948 -INFO - PRSMJOHNSN.NS - Reading existing data...
+2024-06-06 22:18:58,948 -INFO - TRIL.BO - Process function started
+2024-06-06 22:18:58,949 -INFO - ALLCARGO.NS - Reading existing data...
+2024-06-06 22:18:58,949 -INFO - ASTRAMICRO.NS - Process function started
+2024-06-06 22:18:58,952 -INFO - GOODYEAR.BO - Reading existing data...
+2024-06-06 22:18:58,953 -INFO - TARC.NS - Process function started
+2024-06-06 22:18:58,953 -INFO - TRIL.BO - Reading existing data...
+2024-06-06 22:18:58,955 -INFO - MFSL.NS - Process function started
+2024-06-06 22:18:58,958 -INFO - BBL.NS - Process function started
+2024-06-06 22:18:58,959 -INFO - ASTRAMICRO.NS - Reading existing data...
+2024-06-06 22:18:58,962 -INFO - TARC.NS - Reading existing data...
+2024-06-06 22:18:58,963 -INFO - MFSL.NS - Reading existing data...
+2024-06-06 22:18:58,963 -INFO - BBL.NS - Reading existing data...
+2024-06-06 22:18:58,965 -INFO - DEVYANI.NS - Process function started
+2024-06-06 22:18:58,965 -INFO - RAIN.NS - Process function started
+2024-06-06 22:18:58,966 -INFO - SHAKTIPUMP.NS - Process function started
+2024-06-06 22:18:58,967 -INFO - CHEMPLASTS.NS - Process function started
+2024-06-06 22:18:58,969 -INFO - STLTECH.NS - Process function started
+2024-06-06 22:18:58,970 -INFO - GREAVESCOT.NS - Process function started
+2024-06-06 22:18:58,971 -INFO - DEVYANI.NS - Reading existing data...
+2024-06-06 22:18:58,973 -INFO - RAIN.NS - Reading existing data...
+2024-06-06 22:18:58,973 -INFO - YESBANK.NS - Process function started
+2024-06-06 22:18:58,974 -INFO - SHAKTIPUMP.NS - Reading existing data...
+2024-06-06 22:18:58,978 -INFO - STLTECH.NS - Reading existing data...
+2024-06-06 22:18:58,978 -INFO - CHEMPLASTS.NS - Reading existing data...
+2024-06-06 22:18:58,979 -INFO - GREAVESCOT.NS - Reading existing data...
+2024-06-06 22:18:58,980 -INFO - YESBANK.NS - Reading existing data...
+2024-06-06 22:18:59,186 -INFO - SANGHVIMOV.NS - add_ph_pl_values function started
+2024-06-06 22:18:59,289 -INFO - SANGHVIMOV.NS - add_ph_pl_values function Ended
+2024-06-06 22:18:59,410 -INFO - KOLTEPATIL.NS - add_ph_pl_values function started
+2024-06-06 22:18:59,639 -INFO - KOLTEPATIL.NS - add_ph_pl_values function Ended
+2024-06-06 22:19:00,183 -INFO - PICCADIL.BO - add_ph_pl_values function started
+2024-06-06 22:19:00,374 -INFO - CENTUM.NS - add_ph_pl_values function started
+2024-06-06 22:19:00,381 -INFO - MAXESTATES.NS - add_ph_pl_values function started
+2024-06-06 22:19:00,432 -INFO - PICCADIL.BO - add_ph_pl_values function Ended
+2024-06-06 22:19:00,624 -INFO - TV18BRDCST.NS - add_ph_pl_values function started
+2024-06-06 22:19:00,823 -INFO - CENTUM.NS - add_ph_pl_values function Ended
+2024-06-06 22:19:01,097 -INFO - PRSMJOHNSN.NS - add_ph_pl_values function started
+2024-06-06 22:19:01,458 -INFO - TRIL.BO - add_ph_pl_values function started
+2024-06-06 22:19:01,855 -INFO - MAXESTATES.NS - add_ph_pl_values function Ended
+2024-06-06 22:19:02,132 -INFO - ASTRAMICRO.NS - add_ph_pl_values function started
+2024-06-06 22:19:02,190 -INFO - BORORENEW.NS - add_ph_pl_values function started
+2024-06-06 22:19:02,861 -INFO - ALLCARGO.NS - add_ph_pl_values function started
+2024-06-06 22:19:02,866 -INFO - GOODYEAR.BO - add_ph_pl_values function started
+2024-06-06 22:19:02,875 -INFO - TARC.NS - add_ph_pl_values function started
+2024-06-06 22:19:02,876 -INFO - TV18BRDCST.NS - add_ph_pl_values function Ended
+2024-06-06 22:19:02,882 -INFO - MFSL.NS - add_ph_pl_values function started
+2024-06-06 22:19:02,944 -INFO - STLTECH.NS - add_ph_pl_values function started
+2024-06-06 22:19:02,978 -INFO - SHAKTIPUMP.NS - add_ph_pl_values function started
+2024-06-06 22:19:02,979 -INFO - DEVYANI.NS - add_ph_pl_values function started
+2024-06-06 22:19:02,980 -INFO - GREAVESCOT.NS - add_ph_pl_values function started
+2024-06-06 22:19:02,983 -INFO - YESBANK.NS - add_ph_pl_values function started
+2024-06-06 22:19:02,987 -INFO - PRSMJOHNSN.NS - add_ph_pl_values function Ended
+2024-06-06 22:19:03,051 -INFO - BBL.NS - add_ph_pl_values function started
+2024-06-06 22:19:03,068 -INFO - RAIN.NS - add_ph_pl_values function started
+2024-06-06 22:19:03,216 -INFO - CHEMPLASTS.NS - add_ph_pl_values function started
+2024-06-06 22:19:03,219 -INFO - TRIL.BO - add_ph_pl_values function Ended
+2024-06-06 22:19:03,381 -INFO - ASTRAMICRO.NS - add_ph_pl_values function Ended
+2024-06-06 22:19:03,713 -INFO - BORORENEW.NS - add_ph_pl_values function Ended
+2024-06-06 22:19:06,610 -INFO - ALLCARGO.NS - add_ph_pl_values function Ended
+2024-06-06 22:19:08,179 -INFO - GOODYEAR.BO - add_ph_pl_values function Ended
+2024-06-06 22:19:11,551 -INFO - TARC.NS - add_ph_pl_values function Ended
+2024-06-06 22:19:14,388 -INFO - MFSL.NS - add_ph_pl_values function Ended
+2024-06-06 22:19:17,753 -INFO - STLTECH.NS - add_ph_pl_values function Ended
+2024-06-06 22:19:23,541 -INFO - SHAKTIPUMP.NS - add_ph_pl_values function Ended
+2024-06-06 22:19:26,246 -INFO - DEVYANI.NS - add_ph_pl_values function Ended
+2024-06-06 22:19:27,985 -INFO - GREAVESCOT.NS - add_ph_pl_values function Ended
+2024-06-06 22:19:31,500 -INFO - YESBANK.NS - add_ph_pl_values function Ended
+2024-06-06 22:19:34,620 -INFO - BBL.NS - add_ph_pl_values function Ended
+2024-06-06 22:19:39,715 -INFO - RAIN.NS - add_ph_pl_values function Ended
+2024-06-06 22:19:44,245 -INFO - CHEMPLASTS.NS - add_ph_pl_values function Ended
+2024-06-06 22:23:20,258 -INFO - All stocks - Excel file Saved
+2024-06-06 22:23:20,308 -INFO - All stocks - json file saved
+2024-06-06 22:23:20,308 -INFO - PICCADIL.BO - alerts file Saved
+2024-06-06 22:23:20,308 -INFO - PICCADIL.BO - Process function Ended
+2024-06-06 22:23:21,848 -INFO - All stocks - Excel file Saved
+2024-06-06 22:23:21,849 -INFO - All stocks - json file saved
+2024-06-06 22:23:21,849 -INFO - CENTUM.NS - alerts file Saved
+2024-06-06 22:23:21,849 -INFO - CENTUM.NS - Process function Ended
+2024-06-06 22:23:21,905 -INFO - All stocks - Excel file Saved
+2024-06-06 22:23:21,912 -INFO - All stocks - json file saved
+2024-06-06 22:23:21,912 -INFO - KOLTEPATIL.NS - alerts file Saved
+2024-06-06 22:23:21,912 -INFO - KOLTEPATIL.NS - Process function Ended
+2024-06-06 22:23:21,918 -INFO - All stocks - Excel file Saved
+2024-06-06 22:23:21,929 -INFO - All stocks - Excel file Saved
+2024-06-06 22:23:21,930 -INFO - All stocks - json file saved
+2024-06-06 22:23:21,932 -INFO - All stocks - Excel file Saved
+2024-06-06 22:23:21,932 -INFO - SANGHVIMOV.NS - alerts file Saved
+2024-06-06 22:23:21,935 -INFO - All stocks - json file saved
+2024-06-06 22:23:21,948 -INFO - SANGHVIMOV.NS - Process function Ended
+2024-06-06 22:23:21,949 -INFO - ASTRAMICRO.NS - alerts file Saved
+2024-06-06 22:23:21,953 -INFO - ASTRAMICRO.NS - Process function Ended
+2024-06-06 22:23:21,953 -INFO - All stocks - json file saved
+2024-06-06 22:23:21,954 -INFO - ALLCARGO.NS - alerts file Saved
+2024-06-06 22:23:21,954 -INFO - ALLCARGO.NS - Process function Ended
+2024-06-06 22:23:22,058 -INFO - All stocks - Excel file Saved
+2024-06-06 22:23:22,067 -INFO - All stocks - json file saved
+2024-06-06 22:23:22,067 -INFO - BORORENEW.NS - alerts file Saved
+2024-06-06 22:23:22,067 -INFO - BORORENEW.NS - Process function Ended
+2024-06-06 22:23:22,789 -INFO - All stocks - Excel file Saved
+2024-06-06 22:23:22,792 -INFO - All stocks - json file saved
+2024-06-06 22:23:22,792 -INFO - PRSMJOHNSN.NS - alerts file Saved
+2024-06-06 22:23:22,792 -INFO - PRSMJOHNSN.NS - Process function Ended
+2024-06-06 22:23:25,476 -INFO - All stocks - Excel file Saved
+2024-06-06 22:23:25,476 -INFO - All stocks - json file saved
+2024-06-06 22:23:25,476 -INFO - TRIL.BO - alerts file Saved
+2024-06-06 22:23:25,476 -INFO - TRIL.BO - Process function Ended
+2024-06-06 22:23:29,635 -INFO - All stocks - Excel file Saved
+2024-06-06 22:23:29,635 -INFO - All stocks - json file saved
+2024-06-06 22:23:29,635 -INFO - TV18BRDCST.NS - alerts file Saved
+2024-06-06 22:23:29,635 -INFO - TV18BRDCST.NS - Process function Ended
+2024-06-06 22:23:29,776 -INFO - All stocks - Excel file Saved
+2024-06-06 22:23:29,776 -INFO - All stocks - json file saved
+2024-06-06 22:23:29,776 -INFO - GOODYEAR.BO - alerts file Saved
+2024-06-06 22:23:29,776 -INFO - GOODYEAR.BO - Process function Ended
+2024-06-06 22:23:29,922 -INFO - All stocks - Excel file Saved
+2024-06-06 22:23:30,337 -INFO - All stocks - json file saved
+2024-06-06 22:23:30,337 -INFO - MFSL.NS - alerts file Saved
+2024-06-06 22:23:30,550 -INFO - MFSL.NS - Process function Ended
+2024-06-06 22:23:30,885 -INFO - All stocks - Excel file Saved
+2024-06-06 22:23:30,885 -INFO - All stocks - Excel file Saved
+2024-06-06 22:23:30,890 -INFO - All stocks - json file saved
+2024-06-06 22:23:30,890 -INFO - DEVYANI.NS - alerts file Saved
+2024-06-06 22:23:30,949 -INFO - DEVYANI.NS - Process function Ended
+2024-06-06 22:23:30,933 -INFO - All stocks - json file saved
+2024-06-06 22:23:31,023 -INFO - TARC.NS - alerts file Saved
+2024-06-06 22:23:31,023 -INFO - TARC.NS - Process function Ended
+2024-06-06 22:23:33,955 -INFO - All stocks - Excel file Saved
+2024-06-06 22:23:33,960 -INFO - All stocks - json file saved
+2024-06-06 22:23:33,960 -INFO - MAXESTATES.NS - alerts file Saved
+2024-06-06 22:23:33,960 -INFO - MAXESTATES.NS - Process function Ended
+2024-06-06 22:23:38,360 -INFO - All stocks - Excel file Saved
+2024-06-06 22:23:38,360 -INFO - All stocks - Excel file Saved
+2024-06-06 22:23:38,360 -INFO - All stocks - json file saved
+2024-06-06 22:23:38,361 -INFO - YESBANK.NS - alerts file Saved
+2024-06-06 22:23:38,361 -INFO - YESBANK.NS - Process function Ended
+2024-06-06 22:23:38,369 -INFO - All stocks - json file saved
+2024-06-06 22:23:38,369 -INFO - STLTECH.NS - alerts file Saved
+2024-06-06 22:23:38,369 -INFO - STLTECH.NS - Process function Ended
+2024-06-06 22:23:38,556 -INFO - All stocks - Excel file Saved
+2024-06-06 22:23:38,556 -INFO - All stocks - json file saved
+2024-06-06 22:23:38,556 -INFO - SHAKTIPUMP.NS - alerts file Saved
+2024-06-06 22:23:38,556 -INFO - SHAKTIPUMP.NS - Process function Ended
+2024-06-06 22:23:38,570 -INFO - All stocks - Excel file Saved
+2024-06-06 22:23:38,570 -INFO - All stocks - json file saved
+2024-06-06 22:23:38,570 -INFO - GREAVESCOT.NS - alerts file Saved
+2024-06-06 22:23:38,570 -INFO - GREAVESCOT.NS - Process function Ended
+2024-06-06 22:23:38,725 -INFO - All stocks - Excel file Saved
+2024-06-06 22:23:38,726 -INFO - All stocks - json file saved
+2024-06-06 22:23:38,726 -INFO - BBL.NS - alerts file Saved
+2024-06-06 22:23:38,726 -INFO - BBL.NS - Process function Ended
+2024-06-06 22:23:38,924 -INFO - All stocks - Excel file Saved
+2024-06-06 22:23:38,924 -INFO - All stocks - json file saved
+2024-06-06 22:23:38,925 -INFO - CHEMPLASTS.NS - alerts file Saved
+2024-06-06 22:23:38,925 -INFO - CHEMPLASTS.NS - Process function Ended
+2024-06-06 22:23:38,931 -INFO - All stocks - Excel file Saved
+2024-06-06 22:23:38,932 -INFO - All stocks - json file saved
+2024-06-06 22:23:38,932 -INFO - RAIN.NS - alerts file Saved
+2024-06-06 22:23:38,932 -INFO - RAIN.NS - Process function Ended
+2024-06-06 22:23:51,297 -INFO - All stocks - Excel file Saved
+2024-06-06 22:23:51,297 -INFO - All stocks - json file saved
+2024-06-06 22:24:03,740 -INFO - All stocks - Excel file Saved
+2024-06-06 22:24:03,740 -INFO - All stocks - json file saved
+2024-06-06 22:24:03,740 -INFO - 225 - 250 - Stock threading ended ....
+2024-06-06 22:24:06,618 -ERROR - 
+7 Failed downloads:
+2024-06-06 22:24:06,619 -ERROR - ['KRISHNADEF-SM.NS', 'KDL-SM.NS', 'NIBE.BO', 'WAAREERTL.BO', 'INA.BO', 'SOLEX-SM.NS', 'WAAREE.BO']: YFInvalidPeriodError("%ticker%: Period '1y' is invalid, must be one of ['1d', '5d']")
+2024-06-06 22:24:06,782 -INFO - ZODIAC.NS - Process function started
+2024-06-06 22:24:06,782 -INFO - ZODIAC.NS - Reading existing data...
+2024-06-06 22:24:06,782 -INFO - CROWN.NS - Process function started
+2024-06-06 22:24:06,782 -INFO - CROWN.NS - Reading existing data...
+2024-06-06 22:24:06,783 -INFO - HINDPETRO.NS - Process function started
+2024-06-06 22:24:06,783 -INFO - HINDPETRO.NS - Reading existing data...
+2024-06-06 22:24:06,783 -INFO - GET&D.NS - Process function started
+2024-06-06 22:24:06,783 -INFO - GET&D.NS - Reading existing data...
+2024-06-06 22:24:06,783 -INFO - MICEL.NS - Process function started
+2024-06-06 22:24:06,784 -INFO - MICEL.NS - Reading existing data...
+2024-06-06 22:24:06,784 -INFO - ASMTEC.BO - Process function started
+2024-06-06 22:24:06,784 -INFO - SURANASOL.NS - Process function started
+2024-06-06 22:24:06,784 -INFO - SURANASOL.NS - Reading existing data...
+2024-06-06 22:24:06,784 -INFO - ASMTEC.BO - Reading existing data...
+2024-06-06 22:24:06,784 -INFO - M&MFIN.NS - Process function started
+2024-06-06 22:24:06,785 -INFO - M&MFIN.NS - Reading existing data...
+2024-06-06 22:24:06,785 -INFO - RAJSREESUG.NS - Process function started
+2024-06-06 22:24:06,785 -INFO - RAJSREESUG.NS - Reading existing data...
+2024-06-06 22:24:06,785 -INFO - JIOFIN.NS - Process function started
+2024-06-06 22:24:06,785 -INFO - JIOFIN.NS - Reading existing data...
+2024-06-06 22:24:06,786 -INFO - SWELECTES.NS - Process function started
+2024-06-06 22:24:06,786 -INFO - HINDZINC.NS - Process function started
+2024-06-06 22:24:06,786 -INFO - JYOTISTRUC.NS - Process function started
+2024-06-06 22:24:06,786 -INFO - SPELS.BO - Process function started
+2024-06-06 22:24:06,786 -INFO - SHILCTECH.BO - Process function started
+2024-06-06 22:24:06,786 -INFO - SWELECTES.NS - Reading existing data...
+2024-06-06 22:24:06,786 -INFO - PREMEXPLN.NS - Process function started
+2024-06-06 22:24:06,786 -INFO - HINDZINC.NS - Reading existing data...
+2024-06-06 22:24:06,786 -INFO - EXIDEIND.NS - Process function started
+2024-06-06 22:24:06,786 -INFO - KSOLVES.NS - Process function started
+2024-06-06 22:24:06,787 -INFO - JYOTISTRUC.NS - Reading existing data...
+2024-06-06 22:24:06,787 -INFO - SPELS.BO - Reading existing data...
+2024-06-06 22:24:06,787 -INFO - SHILCTECH.BO - Reading existing data...
+2024-06-06 22:24:06,787 -INFO - PREMEXPLN.NS - Reading existing data...
+2024-06-06 22:24:06,788 -INFO - EXIDEIND.NS - Reading existing data...
+2024-06-06 22:24:06,788 -INFO - KSOLVES.NS - Reading existing data...
+2024-06-06 22:24:06,925 -INFO - ZODIAC.NS - add_ph_pl_values function started
+2024-06-06 22:24:06,931 -INFO - ZODIAC.NS - add_ph_pl_values function Ended
+2024-06-06 22:24:07,378 -INFO - MICEL.NS - add_ph_pl_values function started
+2024-06-06 22:24:07,389 -INFO - CROWN.NS - add_ph_pl_values function started
+2024-06-06 22:24:07,392 -INFO - MICEL.NS - add_ph_pl_values function Ended
+2024-06-06 22:24:07,393 -INFO - ASMTEC.BO - add_ph_pl_values function started
+2024-06-06 22:24:08,283 -INFO - CROWN.NS - add_ph_pl_values function Ended
+2024-06-06 22:24:08,606 -INFO - RAJSREESUG.NS - add_ph_pl_values function started
+2024-06-06 22:24:08,785 -INFO - SPELS.BO - add_ph_pl_values function started
+2024-06-06 22:24:09,111 -INFO - GET&D.NS - add_ph_pl_values function started
+2024-06-06 22:24:09,115 -INFO - M&MFIN.NS - add_ph_pl_values function started
+2024-06-06 22:24:09,126 -INFO - ASMTEC.BO - add_ph_pl_values function Ended
+2024-06-06 22:24:09,127 -INFO - HINDZINC.NS - add_ph_pl_values function started
+2024-06-06 22:24:09,127 -INFO - JIOFIN.NS - add_ph_pl_values function started
+2024-06-06 22:24:09,213 -INFO - SHILCTECH.BO - add_ph_pl_values function started
+2024-06-06 22:24:09,214 -INFO - PREMEXPLN.NS - add_ph_pl_values function started
+2024-06-06 22:24:09,217 -INFO - JYOTISTRUC.NS - add_ph_pl_values function started
+2024-06-06 22:24:09,235 -INFO - SURANASOL.NS - add_ph_pl_values function started
+2024-06-06 22:24:09,237 -INFO - HINDPETRO.NS - add_ph_pl_values function started
+2024-06-06 22:24:09,238 -INFO - KSOLVES.NS - add_ph_pl_values function started
+2024-06-06 22:24:09,249 -INFO - EXIDEIND.NS - add_ph_pl_values function started
+2024-06-06 22:24:09,249 -INFO - RAJSREESUG.NS - add_ph_pl_values function Ended
+2024-06-06 22:24:09,276 -INFO - SWELECTES.NS - add_ph_pl_values function started
+2024-06-06 22:24:09,455 -INFO - SPELS.BO - add_ph_pl_values function Ended
+2024-06-06 22:24:09,736 -INFO - GET&D.NS - add_ph_pl_values function Ended
+2024-06-06 22:24:09,945 -INFO - M&MFIN.NS - add_ph_pl_values function Ended
+2024-06-06 22:24:10,158 -INFO - HINDZINC.NS - add_ph_pl_values function Ended
+2024-06-06 22:24:10,890 -INFO - JIOFIN.NS - add_ph_pl_values function Ended
+2024-06-06 22:24:12,782 -INFO - SHILCTECH.BO - add_ph_pl_values function Ended
+2024-06-06 22:24:14,376 -INFO - PREMEXPLN.NS - add_ph_pl_values function Ended
+2024-06-06 22:24:16,334 -INFO - JYOTISTRUC.NS - add_ph_pl_values function Ended
+2024-06-06 22:24:19,751 -INFO - SURANASOL.NS - add_ph_pl_values function Ended
+2024-06-06 22:24:23,734 -INFO - HINDPETRO.NS - add_ph_pl_values function Ended
+2024-06-06 22:24:27,529 -INFO - KSOLVES.NS - add_ph_pl_values function Ended
+2024-06-06 22:24:28,224 -INFO - EXIDEIND.NS - add_ph_pl_values function Ended
+2024-06-06 22:24:31,085 -INFO - SWELECTES.NS - add_ph_pl_values function Ended
+2024-06-06 22:27:25,590 -INFO - All stocks - Excel file Saved
+2024-06-06 22:27:25,624 -INFO - All stocks - json file saved
+2024-06-06 22:27:25,624 -INFO - SURANASOL.NS - alerts file Saved
+2024-06-06 22:27:25,694 -INFO - SURANASOL.NS - Process function Ended
+2024-06-06 22:27:26,002 -INFO - All stocks - Excel file Saved
+2024-06-06 22:27:26,002 -INFO - All stocks - json file saved
+2024-06-06 22:27:26,002 -INFO - CROWN.NS - alerts file Saved
+2024-06-06 22:27:26,002 -INFO - CROWN.NS - Process function Ended
+2024-06-06 22:27:26,329 -INFO - All stocks - Excel file Saved
+2024-06-06 22:27:26,331 -INFO - All stocks - json file saved
+2024-06-06 22:27:26,331 -INFO - GET&D.NS - alerts file Saved
+2024-06-06 22:27:26,331 -INFO - GET&D.NS - Process function Ended
+2024-06-06 22:27:27,641 -INFO - All stocks - Excel file Saved
+2024-06-06 22:27:27,737 -INFO - All stocks - json file saved
+2024-06-06 22:27:27,737 -INFO - ASMTEC.BO - alerts file Saved
+2024-06-06 22:27:27,737 -INFO - ASMTEC.BO - Process function Ended
+2024-06-06 22:27:27,740 -INFO - All stocks - Excel file Saved
+2024-06-06 22:27:27,759 -INFO - All stocks - Excel file Saved
+2024-06-06 22:27:27,761 -INFO - All stocks - json file saved
+2024-06-06 22:27:27,761 -INFO - PREMEXPLN.NS - alerts file Saved
+2024-06-06 22:27:27,761 -INFO - PREMEXPLN.NS - Process function Ended
+2024-06-06 22:27:27,836 -INFO - All stocks - json file saved
+2024-06-06 22:27:27,836 -INFO - ZODIAC.NS - alerts file Saved
+2024-06-06 22:27:27,847 -INFO - ZODIAC.NS - Process function Ended
+2024-06-06 22:27:28,105 -INFO - All stocks - Excel file Saved
+2024-06-06 22:27:28,368 -INFO - All stocks - json file saved
+2024-06-06 22:27:28,490 -INFO - SHILCTECH.BO - alerts file Saved
+2024-06-06 22:27:28,492 -INFO - SHILCTECH.BO - Process function Ended
+2024-06-06 22:27:28,498 -INFO - All stocks - Excel file Saved
+2024-06-06 22:27:28,499 -INFO - All stocks - json file saved
+2024-06-06 22:27:28,499 -INFO - SPELS.BO - alerts file Saved
+2024-06-06 22:27:28,499 -INFO - SPELS.BO - Process function Ended
+2024-06-06 22:27:30,573 -INFO - All stocks - Excel file Saved
+2024-06-06 22:27:30,787 -INFO - All stocks - json file saved
+2024-06-06 22:27:30,787 -INFO - M&MFIN.NS - alerts file Saved
+2024-06-06 22:27:30,787 -INFO - M&MFIN.NS - Process function Ended
+2024-06-06 22:27:30,854 -INFO - All stocks - Excel file Saved
+2024-06-06 22:27:30,862 -INFO - All stocks - json file saved
+2024-06-06 22:27:30,862 -INFO - RAJSREESUG.NS - alerts file Saved
+2024-06-06 22:27:30,870 -INFO - RAJSREESUG.NS - Process function Ended
+2024-06-06 22:27:36,839 -INFO - All stocks - Excel file Saved
+2024-06-06 22:27:36,902 -INFO - All stocks - json file saved
+2024-06-06 22:27:36,903 -INFO - JIOFIN.NS - alerts file Saved
+2024-06-06 22:27:36,903 -INFO - JIOFIN.NS - Process function Ended
+2024-06-06 22:27:37,189 -INFO - All stocks - Excel file Saved
+2024-06-06 22:27:37,189 -INFO - All stocks - json file saved
+2024-06-06 22:27:37,189 -INFO - MICEL.NS - alerts file Saved
+2024-06-06 22:27:37,190 -INFO - MICEL.NS - Process function Ended
+2024-06-06 22:27:37,453 -INFO - All stocks - Excel file Saved
+2024-06-06 22:27:37,458 -INFO - All stocks - json file saved
+2024-06-06 22:27:37,458 -INFO - JYOTISTRUC.NS - alerts file Saved
+2024-06-06 22:27:37,458 -INFO - JYOTISTRUC.NS - Process function Ended
+2024-06-06 22:27:38,524 -INFO - All stocks - Excel file Saved
+2024-06-06 22:27:38,524 -INFO - All stocks - json file saved
+2024-06-06 22:27:38,524 -INFO - HINDZINC.NS - alerts file Saved
+2024-06-06 22:27:38,524 -INFO - HINDZINC.NS - Process function Ended
+2024-06-06 22:27:39,718 -INFO - All stocks - Excel file Saved
+2024-06-06 22:27:39,719 -INFO - All stocks - json file saved
+2024-06-06 22:27:39,719 -INFO - KSOLVES.NS - alerts file Saved
+2024-06-06 22:27:39,719 -INFO - KSOLVES.NS - Process function Ended
+2024-06-06 22:27:39,727 -INFO - All stocks - Excel file Saved
+2024-06-06 22:27:39,728 -INFO - All stocks - json file saved
+2024-06-06 22:27:39,728 -INFO - SWELECTES.NS - alerts file Saved
+2024-06-06 22:27:39,728 -INFO - SWELECTES.NS - Process function Ended
+2024-06-06 22:27:39,834 -INFO - All stocks - Excel file Saved
+2024-06-06 22:27:39,834 -INFO - All stocks - json file saved
+2024-06-06 22:27:39,834 -INFO - HINDPETRO.NS - alerts file Saved
+2024-06-06 22:27:39,834 -INFO - HINDPETRO.NS - Process function Ended
+2024-06-06 22:27:40,034 -INFO - All stocks - Excel file Saved
+2024-06-06 22:27:40,035 -INFO - All stocks - json file saved
+2024-06-06 22:27:40,035 -INFO - EXIDEIND.NS - alerts file Saved
+2024-06-06 22:27:40,035 -INFO - EXIDEIND.NS - Process function Ended
+2024-06-06 22:27:52,297 -INFO - All stocks - Excel file Saved
+2024-06-06 22:27:52,297 -INFO - All stocks - json file saved
+2024-06-06 22:28:04,351 -INFO - All stocks - Excel file Saved
+2024-06-06 22:28:04,351 -INFO - All stocks - json file saved
+2024-06-06 22:28:04,351 -INFO - 250 - 275 - Stock threading ended ....
+2024-06-06 22:28:07,073 -ERROR - 
+1 Failed download:
+2024-06-06 22:28:07,073 -ERROR - ['TRL.BO']: YFInvalidPeriodError("%ticker%: Period '1y' is invalid, must be one of ['1d', '5d']")
+2024-06-06 22:28:07,246 -INFO - INGERRAND.NS - Process function started
+2024-06-06 22:28:07,246 -INFO - HINDCOPPER.NS - Process function started
+2024-06-06 22:28:07,246 -INFO - DYNAMATECH.NS - Process function started
+2024-06-06 22:28:07,246 -INFO - INGERRAND.NS - Reading existing data...
+2024-06-06 22:28:07,246 -INFO - HINDCOPPER.NS - Reading existing data...
+2024-06-06 22:28:07,246 -INFO - WEBELSOLAR.NS - Process function started
+2024-06-06 22:28:07,246 -INFO - DYNAMATECH.NS - Reading existing data...
+2024-06-06 22:28:07,247 -INFO - BANKINDIA.NS - Process function started
+2024-06-06 22:28:07,247 -INFO - KIRLOSBROS.NS - Process function started
+2024-06-06 22:28:07,247 -INFO - WEBELSOLAR.NS - Reading existing data...
+2024-06-06 22:28:07,247 -INFO - PURVA.NS - Process function started
+2024-06-06 22:28:07,247 -INFO - HUDCO.NS - Process function started
+2024-06-06 22:28:07,247 -INFO - BANKINDIA.NS - Reading existing data...
+2024-06-06 22:28:07,247 -INFO - TATACOMM.NS - Process function started
+2024-06-06 22:28:07,248 -INFO - KIRLOSBROS.NS - Reading existing data...
+2024-06-06 22:28:07,248 -INFO - NMDC.NS - Process function started
+2024-06-06 22:28:07,248 -INFO - BSE.NS - Process function started
+2024-06-06 22:28:07,248 -INFO - SAIL.NS - Process function started
+2024-06-06 22:28:07,248 -INFO - RECLTD.NS - Process function started
+2024-06-06 22:28:07,248 -INFO - CARBORUNIV.NS - Process function started
+2024-06-06 22:28:07,248 -INFO - BHEL.NS - Process function started
+2024-06-06 22:28:07,248 -INFO - OIL.NS - Process function started
+2024-06-06 22:28:07,248 -INFO - PURVA.NS - Reading existing data...
+2024-06-06 22:28:07,249 -INFO - HUDCO.NS - Reading existing data...
+2024-06-06 22:28:07,249 -INFO - UNIONBANK.NS - Process function started
+2024-06-06 22:28:07,249 -INFO - SWSOLAR.NS - Process function started
+2024-06-06 22:28:07,249 -INFO - TATACOMM.NS - Reading existing data...
+2024-06-06 22:28:07,249 -INFO - AMBER.NS - Process function started
+2024-06-06 22:28:07,250 -INFO - JWL.NS - Process function started
+2024-06-06 22:28:07,250 -INFO - NMDC.NS - Reading existing data...
+2024-06-06 22:28:07,250 -INFO - CENTRALBK.BO - Process function started
+2024-06-06 22:28:07,250 -INFO - BSE.NS - Reading existing data...
+2024-06-06 22:28:07,251 -INFO - JPPOWER.NS - Process function started
+2024-06-06 22:28:07,251 -INFO - SAIL.NS - Reading existing data...
+2024-06-06 22:28:07,251 -INFO - RECLTD.NS - Reading existing data...
+2024-06-06 22:28:07,251 -INFO - APOLLO.NS - Process function started
+2024-06-06 22:28:07,252 -INFO - CARBORUNIV.NS - Reading existing data...
+2024-06-06 22:28:07,252 -INFO - BHEL.NS - Reading existing data...
+2024-06-06 22:28:07,252 -INFO - IOB.NS - Process function started
+2024-06-06 22:28:07,252 -INFO - OIL.NS - Reading existing data...
+2024-06-06 22:28:07,253 -INFO - UNIONBANK.NS - Reading existing data...
+2024-06-06 22:28:07,253 -INFO - SWSOLAR.NS - Reading existing data...
+2024-06-06 22:28:07,254 -INFO - AMBER.NS - Reading existing data...
+2024-06-06 22:28:07,254 -INFO - JWL.NS - Reading existing data...
+2024-06-06 22:28:07,256 -INFO - CENTRALBK.BO - Reading existing data...
+2024-06-06 22:28:07,256 -INFO - JPPOWER.NS - Reading existing data...
+2024-06-06 22:28:07,257 -INFO - APOLLO.NS - Reading existing data...
+2024-06-06 22:28:07,260 -INFO - IOB.NS - Reading existing data...
+2024-06-06 22:28:07,458 -INFO - INGERRAND.NS - add_ph_pl_values function started
+2024-06-06 22:28:07,556 -INFO - WEBELSOLAR.NS - add_ph_pl_values function started
+2024-06-06 22:28:07,560 -INFO - INGERRAND.NS - add_ph_pl_values function Ended
+2024-06-06 22:28:07,729 -INFO - HINDCOPPER.NS - add_ph_pl_values function started
+2024-06-06 22:28:07,964 -INFO - WEBELSOLAR.NS - add_ph_pl_values function Ended
+2024-06-06 22:28:08,167 -INFO - BANKINDIA.NS - add_ph_pl_values function started
+2024-06-06 22:28:08,196 -INFO - HINDCOPPER.NS - add_ph_pl_values function Ended
+2024-06-06 22:28:08,332 -INFO - BANKINDIA.NS - add_ph_pl_values function Ended
+2024-06-06 22:28:08,459 -INFO - KIRLOSBROS.NS - add_ph_pl_values function started
+2024-06-06 22:28:08,765 -INFO - DYNAMATECH.NS - add_ph_pl_values function started
+2024-06-06 22:28:08,769 -INFO - KIRLOSBROS.NS - add_ph_pl_values function Ended
+2024-06-06 22:28:09,643 -INFO - DYNAMATECH.NS - add_ph_pl_values function Ended
+2024-06-06 22:28:09,890 -INFO - PURVA.NS - add_ph_pl_values function started
+2024-06-06 22:28:09,890 -INFO - TATACOMM.NS - add_ph_pl_values function started
+2024-06-06 22:28:09,897 -INFO - SAIL.NS - add_ph_pl_values function started
+2024-06-06 22:28:10,126 -INFO - BHEL.NS - add_ph_pl_values function started
+2024-06-06 22:28:10,155 -INFO - NMDC.NS - add_ph_pl_values function started
+2024-06-06 22:28:10,242 -INFO - BSE.NS - add_ph_pl_values function started
+2024-06-06 22:28:10,271 -INFO - HUDCO.NS - add_ph_pl_values function started
+2024-06-06 22:28:10,581 -INFO - RECLTD.NS - add_ph_pl_values function started
+2024-06-06 22:28:10,798 -INFO - PURVA.NS - add_ph_pl_values function Ended
+2024-06-06 22:28:11,030 -INFO - CARBORUNIV.NS - add_ph_pl_values function started
+2024-06-06 22:28:11,050 -INFO - OIL.NS - add_ph_pl_values function started
+2024-06-06 22:28:11,111 -INFO - TATACOMM.NS - add_ph_pl_values function Ended
+2024-06-06 22:28:11,163 -INFO - JWL.NS - add_ph_pl_values function started
+2024-06-06 22:28:11,267 -INFO - SWSOLAR.NS - add_ph_pl_values function started
+2024-06-06 22:28:11,269 -INFO - IOB.NS - add_ph_pl_values function started
+2024-06-06 22:28:11,272 -INFO - AMBER.NS - add_ph_pl_values function started
+2024-06-06 22:28:11,273 -INFO - UNIONBANK.NS - add_ph_pl_values function started
+2024-06-06 22:28:11,273 -INFO - CENTRALBK.BO - add_ph_pl_values function started
+2024-06-06 22:28:11,291 -INFO - JPPOWER.NS - add_ph_pl_values function started
+2024-06-06 22:28:11,314 -INFO - SAIL.NS - add_ph_pl_values function Ended
+2024-06-06 22:28:11,372 -INFO - APOLLO.NS - add_ph_pl_values function started
+2024-06-06 22:28:11,415 -INFO - BHEL.NS - add_ph_pl_values function Ended
+2024-06-06 22:28:11,601 -INFO - NMDC.NS - add_ph_pl_values function Ended
+2024-06-06 22:28:11,897 -INFO - BSE.NS - add_ph_pl_values function Ended
+2024-06-06 22:28:13,074 -INFO - HUDCO.NS - add_ph_pl_values function Ended
+2024-06-06 22:28:17,220 -INFO - RECLTD.NS - add_ph_pl_values function Ended
+2024-06-06 22:28:23,138 -INFO - CARBORUNIV.NS - add_ph_pl_values function Ended
+2024-06-06 22:28:26,686 -INFO - OIL.NS - add_ph_pl_values function Ended
+2024-06-06 22:28:30,484 -INFO - JWL.NS - add_ph_pl_values function Ended
+2024-06-06 22:28:34,711 -INFO - SWSOLAR.NS - add_ph_pl_values function Ended
+2024-06-06 22:28:36,644 -INFO - IOB.NS - add_ph_pl_values function Ended
+2024-06-06 22:28:38,855 -INFO - AMBER.NS - add_ph_pl_values function Ended
+2024-06-06 22:28:41,029 -INFO - UNIONBANK.NS - add_ph_pl_values function Ended
+2024-06-06 22:28:42,491 -INFO - CENTRALBK.BO - add_ph_pl_values function Ended
+2024-06-06 22:28:44,005 -INFO - JPPOWER.NS - add_ph_pl_values function Ended
+2024-06-06 22:28:49,585 -INFO - APOLLO.NS - add_ph_pl_values function Ended
+2024-06-06 22:33:14,378 -INFO - All stocks - Excel file Saved
+2024-06-06 22:33:15,148 -INFO - All stocks - json file saved
+2024-06-06 22:33:15,251 -INFO - SAIL.NS - alerts file Saved
+2024-06-06 22:33:15,251 -INFO - SAIL.NS - Process function Ended
+2024-06-06 22:33:17,427 -INFO - All stocks - Excel file Saved
+2024-06-06 22:33:17,437 -INFO - All stocks - json file saved
+2024-06-06 22:33:17,437 -INFO - HINDCOPPER.NS - alerts file Saved
+2024-06-06 22:33:17,437 -INFO - HINDCOPPER.NS - Process function Ended
+2024-06-06 22:33:18,106 -INFO - All stocks - Excel file Saved
+2024-06-06 22:33:18,163 -INFO - All stocks - json file saved
+2024-06-06 22:33:18,170 -INFO - BANKINDIA.NS - alerts file Saved
+2024-06-06 22:33:18,170 -INFO - BANKINDIA.NS - Process function Ended
+2024-06-06 22:33:19,989 -INFO - All stocks - Excel file Saved
+2024-06-06 22:33:20,032 -INFO - All stocks - json file saved
+2024-06-06 22:33:20,032 -INFO - BHEL.NS - alerts file Saved
+2024-06-06 22:33:20,032 -INFO - BHEL.NS - Process function Ended
+2024-06-06 22:33:20,057 -INFO - All stocks - Excel file Saved
+2024-06-06 22:33:20,064 -INFO - All stocks - json file saved
+2024-06-06 22:33:20,064 -INFO - DYNAMATECH.NS - alerts file Saved
+2024-06-06 22:33:20,064 -INFO - DYNAMATECH.NS - Process function Ended
+2024-06-06 22:33:20,114 -INFO - All stocks - Excel file Saved
+2024-06-06 22:33:20,201 -INFO - All stocks - json file saved
+2024-06-06 22:33:20,201 -INFO - NMDC.NS - alerts file Saved
+2024-06-06 22:33:20,201 -INFO - NMDC.NS - Process function Ended
+2024-06-06 22:33:20,209 -INFO - All stocks - Excel file Saved
+2024-06-06 22:33:20,222 -INFO - All stocks - json file saved
+2024-06-06 22:33:20,222 -INFO - KIRLOSBROS.NS - alerts file Saved
+2024-06-06 22:33:20,223 -INFO - KIRLOSBROS.NS - Process function Ended
+2024-06-06 22:33:20,235 -INFO - All stocks - Excel file Saved
+2024-06-06 22:33:20,236 -INFO - All stocks - json file saved
+2024-06-06 22:33:20,240 -INFO - PURVA.NS - alerts file Saved
+2024-06-06 22:33:20,240 -INFO - PURVA.NS - Process function Ended
+2024-06-06 22:33:20,308 -INFO - All stocks - Excel file Saved
+2024-06-06 22:33:20,309 -INFO - All stocks - json file saved
+2024-06-06 22:33:20,309 -INFO - WEBELSOLAR.NS - alerts file Saved
+2024-06-06 22:33:20,309 -INFO - WEBELSOLAR.NS - Process function Ended
+2024-06-06 22:33:21,357 -INFO - All stocks - Excel file Saved
+2024-06-06 22:33:21,359 -INFO - All stocks - json file saved
+2024-06-06 22:33:21,359 -INFO - HUDCO.NS - alerts file Saved
+2024-06-06 22:33:21,359 -INFO - HUDCO.NS - Process function Ended
+2024-06-06 22:33:24,870 -INFO - All stocks - Excel file Saved
+2024-06-06 22:33:25,024 -INFO - All stocks - json file saved
+2024-06-06 22:33:25,024 -INFO - JWL.NS - alerts file Saved
+2024-06-06 22:33:25,024 -INFO - JWL.NS - Process function Ended
+2024-06-06 22:33:25,985 -INFO - All stocks - Excel file Saved
+2024-06-06 22:33:27,957 -INFO - All stocks - json file saved
+2024-06-06 22:33:27,957 -INFO - CARBORUNIV.NS - alerts file Saved
+2024-06-06 22:33:27,957 -INFO - CARBORUNIV.NS - Process function Ended
+2024-06-06 22:33:28,544 -INFO - All stocks - Excel file Saved
+2024-06-06 22:33:28,544 -INFO - All stocks - json file saved
+2024-06-06 22:33:28,544 -INFO - INGERRAND.NS - alerts file Saved
+2024-06-06 22:33:28,545 -INFO - INGERRAND.NS - Process function Ended
+2024-06-06 22:33:34,164 -INFO - All stocks - Excel file Saved
+2024-06-06 22:33:34,164 -INFO - All stocks - Excel file Saved
+2024-06-06 22:33:34,296 -INFO - All stocks - json file saved
+2024-06-06 22:33:34,296 -INFO - RECLTD.NS - alerts file Saved
+2024-06-06 22:33:34,296 -INFO - RECLTD.NS - Process function Ended
+2024-06-06 22:33:34,336 -INFO - All stocks - json file saved
+2024-06-06 22:33:34,381 -INFO - BSE.NS - alerts file Saved
+2024-06-06 22:33:34,381 -INFO - BSE.NS - Process function Ended
+2024-06-06 22:33:35,286 -INFO - All stocks - Excel file Saved
+2024-06-06 22:33:35,287 -INFO - All stocks - json file saved
+2024-06-06 22:33:35,287 -INFO - OIL.NS - alerts file Saved
+2024-06-06 22:33:35,287 -INFO - OIL.NS - Process function Ended
+2024-06-06 22:33:36,268 -INFO - All stocks - Excel file Saved
+2024-06-06 22:33:36,269 -INFO - All stocks - json file saved
+2024-06-06 22:33:36,269 -INFO - IOB.NS - alerts file Saved
+2024-06-06 22:33:36,269 -INFO - IOB.NS - Process function Ended
+2024-06-06 22:33:36,435 -INFO - All stocks - Excel file Saved
+2024-06-06 22:33:36,443 -INFO - All stocks - json file saved
+2024-06-06 22:33:36,443 -INFO - TATACOMM.NS - alerts file Saved
+2024-06-06 22:33:36,443 -INFO - TATACOMM.NS - Process function Ended
+2024-06-06 22:33:36,854 -INFO - All stocks - Excel file Saved
+2024-06-06 22:33:36,855 -INFO - All stocks - json file saved
+2024-06-06 22:33:36,855 -INFO - APOLLO.NS - alerts file Saved
+2024-06-06 22:33:36,855 -INFO - APOLLO.NS - Process function Ended
+2024-06-06 22:33:36,863 -INFO - All stocks - Excel file Saved
+2024-06-06 22:33:36,863 -INFO - All stocks - json file saved
+2024-06-06 22:33:36,863 -INFO - UNIONBANK.NS - alerts file Saved
+2024-06-06 22:33:36,863 -INFO - UNIONBANK.NS - Process function Ended
+2024-06-06 22:33:36,874 -INFO - All stocks - Excel file Saved
+2024-06-06 22:33:36,874 -INFO - All stocks - json file saved
+2024-06-06 22:33:36,874 -INFO - CENTRALBK.BO - alerts file Saved
+2024-06-06 22:33:36,874 -INFO - CENTRALBK.BO - Process function Ended
+2024-06-06 22:33:37,009 -INFO - All stocks - Excel file Saved
+2024-06-06 22:33:37,009 -INFO - All stocks - json file saved
+2024-06-06 22:33:37,009 -INFO - SWSOLAR.NS - alerts file Saved
+2024-06-06 22:33:37,010 -INFO - SWSOLAR.NS - Process function Ended
+2024-06-06 22:33:37,126 -INFO - All stocks - Excel file Saved
+2024-06-06 22:33:37,126 -INFO - All stocks - json file saved
+2024-06-06 22:33:37,126 -INFO - AMBER.NS - alerts file Saved
+2024-06-06 22:33:37,126 -INFO - AMBER.NS - Process function Ended
+2024-06-06 22:33:37,251 -INFO - All stocks - Excel file Saved
+2024-06-06 22:33:37,251 -INFO - All stocks - json file saved
+2024-06-06 22:33:37,251 -INFO - JPPOWER.NS - alerts file Saved
+2024-06-06 22:33:37,251 -INFO - JPPOWER.NS - Process function Ended
+2024-06-06 22:33:51,489 -INFO - All stocks - Excel file Saved
+2024-06-06 22:33:51,490 -INFO - All stocks - json file saved
+2024-06-06 22:34:05,197 -INFO - All stocks - Excel file Saved
+2024-06-06 22:34:05,198 -INFO - All stocks - json file saved
+2024-06-06 22:34:05,198 -INFO - 275 - 300 - Stock threading ended ....
+2024-06-06 22:34:07,843 -ERROR - 
+1 Failed download:
+2024-06-06 22:34:07,843 -ERROR - ['MERCTRD.BO']: YFInvalidPeriodError("%ticker%: Period '1y' is invalid, must be one of ['1d', '5d']")
+2024-06-06 22:34:08,129 -INFO - ZENTEC.NS - Process function started
+2024-06-06 22:34:08,129 -INFO - NECLIFE.NS - Process function started
+2024-06-06 22:34:08,130 -INFO - WINSOMTX.BO - Process function started
+2024-06-06 22:34:08,130 -INFO - HPL.NS - Process function started
+2024-06-06 22:34:08,130 -INFO - IEX.NS - Process function started
+2024-06-06 22:34:08,130 -INFO - ZENTEC.NS - Reading existing data...
+2024-06-06 22:34:08,130 -INFO - CAMLINFINE.NS - Process function started
+2024-06-06 22:34:08,130 -INFO - NECLIFE.NS - Reading existing data...
+2024-06-06 22:34:08,131 -INFO - BLUECLOUDS.BO - Process function started
+2024-06-06 22:34:08,130 -INFO - GREENPLY.NS - Process function started
+2024-06-06 22:34:08,130 -INFO - WINSOMTX.BO - Reading existing data...
+2024-06-06 22:34:08,130 -INFO - RTNPOWER.NS - Process function started
+2024-06-06 22:34:08,130 -INFO - GEOJITFSL.NS - Process function started
+2024-06-06 22:34:08,130 -INFO - HPL.NS - Reading existing data...
+2024-06-06 22:34:08,130 -INFO - ERIS.NS - Process function started
+2024-06-06 22:34:08,131 -INFO - IEX.NS - Reading existing data...
+2024-06-06 22:34:08,131 -INFO - GENUSPOWER.NS - Process function started
+2024-06-06 22:34:08,131 -INFO - SIKA.BO - Process function started
+2024-06-06 22:34:08,131 -INFO - CAMS.NS - Process function started
+2024-06-06 22:34:08,131 -INFO - CAMLINFINE.NS - Reading existing data...
+2024-06-06 22:34:08,131 -INFO - CDSL.NS - Process function started
+2024-06-06 22:34:08,132 -INFO - BLUECLOUDS.BO - Reading existing data...
+2024-06-06 22:34:08,132 -INFO - JKTYRE.NS - Process function started
+2024-06-06 22:34:08,130 -INFO - MCX.NS - Process function started
+2024-06-06 22:34:08,132 -INFO - IFCI.NS - Process function started
+2024-06-06 22:34:08,132 -INFO - GREENPLY.NS - Reading existing data...
+2024-06-06 22:34:08,132 -INFO - SIL.NS - Process function started
+2024-06-06 22:34:08,132 -INFO - RTNPOWER.NS - Reading existing data...
+2024-06-06 22:34:08,132 -INFO - RTNINDIA.NS - Process function started
+2024-06-06 22:34:08,133 -INFO - JKPAPER.NS - Process function started
+2024-06-06 22:34:08,133 -INFO - SJS.NS - Process function started
+2024-06-06 22:34:08,133 -INFO - GEOJITFSL.NS - Reading existing data...
+2024-06-06 22:34:08,133 -INFO - DCXINDIA.NS - Process function started
+2024-06-06 22:34:08,133 -INFO - TECHNOE.NS - Process function started
+2024-06-06 22:34:08,133 -INFO - ERIS.NS - Reading existing data...
+2024-06-06 22:34:08,133 -INFO - GENUSPOWER.NS - Reading existing data...
+2024-06-06 22:34:08,134 -INFO - SIKA.BO - Reading existing data...
+2024-06-06 22:34:08,134 -INFO - CAMS.NS - Reading existing data...
+2024-06-06 22:34:08,135 -INFO - CDSL.NS - Reading existing data...
+2024-06-06 22:34:08,137 -INFO - JKTYRE.NS - Reading existing data...
+2024-06-06 22:34:08,137 -INFO - MCX.NS - Reading existing data...
+2024-06-06 22:34:08,138 -INFO - IFCI.NS - Reading existing data...
+2024-06-06 22:34:08,138 -INFO - SIL.NS - Reading existing data...
+2024-06-06 22:34:08,139 -INFO - RTNINDIA.NS - Reading existing data...
+2024-06-06 22:34:08,140 -INFO - JKPAPER.NS - Reading existing data...
+2024-06-06 22:34:08,140 -INFO - SJS.NS - Reading existing data...
+2024-06-06 22:34:08,142 -INFO - DCXINDIA.NS - Reading existing data...
+2024-06-06 22:34:08,143 -INFO - TECHNOE.NS - Reading existing data...
+2024-06-06 22:34:08,371 -INFO - NECLIFE.NS - add_ph_pl_values function started
+2024-06-06 22:34:08,595 -INFO - NECLIFE.NS - add_ph_pl_values function Ended
+2024-06-06 22:34:08,647 -INFO - ZENTEC.NS - add_ph_pl_values function started
+2024-06-06 22:34:08,715 -INFO - IEX.NS - add_ph_pl_values function started
+2024-06-06 22:34:08,788 -INFO - ZENTEC.NS - add_ph_pl_values function Ended
+2024-06-06 22:34:08,849 -INFO - HPL.NS - add_ph_pl_values function started
+2024-06-06 22:34:09,125 -INFO - IEX.NS - add_ph_pl_values function Ended
+2024-06-06 22:34:09,366 -INFO - WINSOMTX.BO - add_ph_pl_values function started
+2024-06-06 22:34:09,459 -INFO - CAMLINFINE.NS - add_ph_pl_values function started
+2024-06-06 22:34:09,468 -INFO - HPL.NS - add_ph_pl_values function Ended
+2024-06-06 22:34:10,264 -INFO - WINSOMTX.BO - add_ph_pl_values function Ended
+2024-06-06 22:34:10,402 -INFO - BLUECLOUDS.BO - add_ph_pl_values function started
+2024-06-06 22:34:10,492 -INFO - GREENPLY.NS - add_ph_pl_values function started
+2024-06-06 22:34:10,620 -INFO - GENUSPOWER.NS - add_ph_pl_values function started
+2024-06-06 22:34:10,650 -INFO - RTNPOWER.NS - add_ph_pl_values function started
+2024-06-06 22:34:10,996 -INFO - CAMLINFINE.NS - add_ph_pl_values function Ended
+2024-06-06 22:34:11,152 -INFO - ERIS.NS - add_ph_pl_values function started
+2024-06-06 22:34:11,537 -INFO - GEOJITFSL.NS - add_ph_pl_values function started
+2024-06-06 22:34:12,046 -INFO - CDSL.NS - add_ph_pl_values function started
+2024-06-06 22:34:12,103 -INFO - CAMS.NS - add_ph_pl_values function started
+2024-06-06 22:34:12,118 -INFO - BLUECLOUDS.BO - add_ph_pl_values function Ended
+2024-06-06 22:34:12,266 -INFO - DCXINDIA.NS - add_ph_pl_values function started
+2024-06-06 22:34:12,270 -INFO - SJS.NS - add_ph_pl_values function started
+2024-06-06 22:34:12,277 -INFO - SIL.NS - add_ph_pl_values function started
+2024-06-06 22:34:12,371 -INFO - JKTYRE.NS - add_ph_pl_values function started
+2024-06-06 22:34:12,372 -INFO - IFCI.NS - add_ph_pl_values function started
+2024-06-06 22:34:12,372 -INFO - JKPAPER.NS - add_ph_pl_values function started
+2024-06-06 22:34:12,374 -INFO - RTNINDIA.NS - add_ph_pl_values function started
+2024-06-06 22:34:12,375 -INFO - MCX.NS - add_ph_pl_values function started
+2024-06-06 22:34:12,378 -INFO - SIKA.BO - add_ph_pl_values function started
+2024-06-06 22:34:12,378 -INFO - GREENPLY.NS - add_ph_pl_values function Ended
+2024-06-06 22:34:12,412 -INFO - TECHNOE.NS - add_ph_pl_values function started
+2024-06-06 22:34:12,651 -INFO - GENUSPOWER.NS - add_ph_pl_values function Ended
+2024-06-06 22:34:12,744 -INFO - RTNPOWER.NS - add_ph_pl_values function Ended
+2024-06-06 22:34:13,427 -INFO - ERIS.NS - add_ph_pl_values function Ended
+2024-06-06 22:34:15,231 -INFO - GEOJITFSL.NS - add_ph_pl_values function Ended
+2024-06-06 22:34:17,212 -INFO - CDSL.NS - add_ph_pl_values function Ended
+2024-06-06 22:34:19,392 -INFO - CAMS.NS - add_ph_pl_values function Ended
+2024-06-06 22:34:23,972 -INFO - DCXINDIA.NS - add_ph_pl_values function Ended
+2024-06-06 22:34:27,793 -INFO - SJS.NS - add_ph_pl_values function Ended
+2024-06-06 22:34:32,393 -INFO - SIL.NS - add_ph_pl_values function Ended
+2024-06-06 22:34:37,832 -INFO - JKTYRE.NS - add_ph_pl_values function Ended
+2024-06-06 22:34:39,283 -INFO - IFCI.NS - add_ph_pl_values function Ended
+2024-06-06 22:34:43,582 -INFO - JKPAPER.NS - add_ph_pl_values function Ended
+2024-06-06 22:34:47,878 -INFO - RTNINDIA.NS - add_ph_pl_values function Ended
+2024-06-06 22:34:53,125 -INFO - MCX.NS - add_ph_pl_values function Ended
+2024-06-06 22:34:59,536 -INFO - SIKA.BO - add_ph_pl_values function Ended
+2024-06-06 22:35:04,320 -INFO - TECHNOE.NS - add_ph_pl_values function Ended
+2024-06-06 22:39:28,187 -INFO - All stocks - Excel file Saved
+2024-06-06 22:39:28,462 -INFO - All stocks - json file saved
+2024-06-06 22:39:28,462 -INFO - HPL.NS - alerts file Saved
+2024-06-06 22:39:28,462 -INFO - HPL.NS - Process function Ended
+2024-06-06 22:39:28,533 -INFO - All stocks - Excel file Saved
+2024-06-06 22:39:28,534 -INFO - All stocks - json file saved
+2024-06-06 22:39:28,537 -INFO - WINSOMTX.BO - alerts file Saved
+2024-06-06 22:39:28,538 -INFO - WINSOMTX.BO - Process function Ended
+2024-06-06 22:39:28,975 -INFO - All stocks - Excel file Saved
+2024-06-06 22:39:28,984 -INFO - All stocks - json file saved
+2024-06-06 22:39:28,984 -INFO - NECLIFE.NS - alerts file Saved
+2024-06-06 22:39:28,984 -INFO - NECLIFE.NS - Process function Ended
+2024-06-06 22:39:34,217 -INFO - All stocks - Excel file Saved
+2024-06-06 22:39:34,224 -INFO - All stocks - json file saved
+2024-06-06 22:39:34,224 -INFO - CDSL.NS - alerts file Saved
+2024-06-06 22:39:34,224 -INFO - CDSL.NS - Process function Ended
+2024-06-06 22:39:34,267 -INFO - All stocks - Excel file Saved
+2024-06-06 22:39:34,396 -INFO - All stocks - json file saved
+2024-06-06 22:39:34,396 -INFO - CAMS.NS - alerts file Saved
+2024-06-06 22:39:34,396 -INFO - CAMS.NS - Process function Ended
+2024-06-06 22:39:36,207 -INFO - All stocks - Excel file Saved
+2024-06-06 22:39:36,209 -INFO - All stocks - json file saved
+2024-06-06 22:39:36,209 -INFO - SIL.NS - alerts file Saved
+2024-06-06 22:39:36,209 -INFO - SIL.NS - Process function Ended
+2024-06-06 22:39:36,289 -INFO - All stocks - Excel file Saved
+2024-06-06 22:39:36,291 -INFO - All stocks - json file saved
+2024-06-06 22:39:36,291 -INFO - ZENTEC.NS - alerts file Saved
+2024-06-06 22:39:36,291 -INFO - ZENTEC.NS - Process function Ended
+2024-06-06 22:39:38,054 -INFO - All stocks - Excel file Saved
+2024-06-06 22:39:38,694 -INFO - All stocks - json file saved
+2024-06-06 22:39:38,716 -INFO - IEX.NS - alerts file Saved
+2024-06-06 22:39:38,716 -INFO - IEX.NS - Process function Ended
+2024-06-06 22:39:45,432 -INFO - All stocks - Excel file Saved
+2024-06-06 22:39:45,447 -INFO - All stocks - json file saved
+2024-06-06 22:39:45,447 -INFO - ERIS.NS - alerts file Saved
+2024-06-06 22:39:45,447 -INFO - ERIS.NS - Process function Ended
+2024-06-06 22:39:50,914 -INFO - All stocks - Excel file Saved
+2024-06-06 22:39:50,915 -INFO - All stocks - json file saved
+2024-06-06 22:39:50,915 -INFO - GENUSPOWER.NS - alerts file Saved
+2024-06-06 22:39:50,915 -INFO - GENUSPOWER.NS - Process function Ended
+2024-06-06 22:39:51,221 -INFO - All stocks - Excel file Saved
+2024-06-06 22:39:51,337 -INFO - All stocks - json file saved
+2024-06-06 22:39:51,337 -INFO - BLUECLOUDS.BO - alerts file Saved
+2024-06-06 22:39:51,504 -INFO - BLUECLOUDS.BO - Process function Ended
+2024-06-06 22:39:54,261 -INFO - All stocks - Excel file Saved
+2024-06-06 22:39:54,348 -INFO - All stocks - json file saved
+2024-06-06 22:39:54,348 -INFO - DCXINDIA.NS - alerts file Saved
+2024-06-06 22:39:54,348 -INFO - DCXINDIA.NS - Process function Ended
+2024-06-06 22:39:54,670 -INFO - All stocks - Excel file Saved
+2024-06-06 22:39:54,689 -INFO - All stocks - json file saved
+2024-06-06 22:39:54,689 -INFO - GEOJITFSL.NS - alerts file Saved
+2024-06-06 22:39:54,689 -INFO - GEOJITFSL.NS - Process function Ended
+2024-06-06 22:39:57,576 -INFO - All stocks - Excel file Saved
+2024-06-06 22:39:57,581 -INFO - All stocks - json file saved
+2024-06-06 22:39:57,581 -INFO - CAMLINFINE.NS - alerts file Saved
+2024-06-06 22:39:57,581 -INFO - CAMLINFINE.NS - Process function Ended
+2024-06-06 22:39:57,914 -INFO - All stocks - Excel file Saved
+2024-06-06 22:39:57,951 -INFO - All stocks - json file saved
+2024-06-06 22:39:57,951 -INFO - RTNPOWER.NS - alerts file Saved
+2024-06-06 22:39:57,951 -INFO - RTNPOWER.NS - Process function Ended
+2024-06-06 22:39:58,062 -INFO - All stocks - Excel file Saved
+2024-06-06 22:39:58,107 -INFO - All stocks - json file saved
+2024-06-06 22:39:58,107 -INFO - GREENPLY.NS - alerts file Saved
+2024-06-06 22:39:58,107 -INFO - GREENPLY.NS - Process function Ended
+2024-06-06 22:39:58,184 -INFO - All stocks - Excel file Saved
+2024-06-06 22:39:58,184 -INFO - All stocks - json file saved
+2024-06-06 22:39:58,184 -INFO - RTNINDIA.NS - alerts file Saved
+2024-06-06 22:39:58,184 -INFO - RTNINDIA.NS - Process function Ended
+2024-06-06 22:39:58,272 -INFO - All stocks - Excel file Saved
+2024-06-06 22:39:58,273 -INFO - All stocks - json file saved
+2024-06-06 22:39:58,273 -INFO - JKTYRE.NS - alerts file Saved
+2024-06-06 22:39:58,273 -INFO - JKTYRE.NS - Process function Ended
+2024-06-06 22:39:58,282 -INFO - All stocks - Excel file Saved
+2024-06-06 22:39:58,283 -INFO - All stocks - json file saved
+2024-06-06 22:39:58,283 -INFO - SIKA.BO - alerts file Saved
+2024-06-06 22:39:58,283 -INFO - SIKA.BO - Process function Ended
+2024-06-06 22:39:58,283 -INFO - All stocks - Excel file Saved
+2024-06-06 22:39:58,284 -INFO - All stocks - json file saved
+2024-06-06 22:39:58,285 -INFO - SJS.NS - alerts file Saved
+2024-06-06 22:39:58,285 -INFO - SJS.NS - Process function Ended
+2024-06-06 22:39:58,383 -INFO - All stocks - Excel file Saved
+2024-06-06 22:39:58,384 -INFO - All stocks - json file saved
+2024-06-06 22:39:58,384 -INFO - JKPAPER.NS - alerts file Saved
+2024-06-06 22:39:58,384 -INFO - JKPAPER.NS - Process function Ended
+2024-06-06 22:39:59,553 -INFO - All stocks - Excel file Saved
+2024-06-06 22:39:59,554 -INFO - All stocks - Excel file Saved
+2024-06-06 22:39:59,554 -INFO - All stocks - json file saved
+2024-06-06 22:39:59,554 -INFO - MCX.NS - alerts file Saved
+2024-06-06 22:39:59,554 -INFO - MCX.NS - Process function Ended
+2024-06-06 22:39:59,554 -INFO - All stocks - json file saved
+2024-06-06 22:39:59,554 -INFO - IFCI.NS - alerts file Saved
+2024-06-06 22:39:59,554 -INFO - IFCI.NS - Process function Ended
+2024-06-06 22:39:59,559 -INFO - All stocks - Excel file Saved
+2024-06-06 22:39:59,560 -INFO - All stocks - json file saved
+2024-06-06 22:39:59,560 -INFO - TECHNOE.NS - alerts file Saved
+2024-06-06 22:39:59,560 -INFO - TECHNOE.NS - Process function Ended
+2024-06-06 22:40:11,927 -INFO - All stocks - Excel file Saved
+2024-06-06 22:40:11,927 -INFO - All stocks - json file saved
+2024-06-06 22:40:24,195 -INFO - All stocks - Excel file Saved
+2024-06-06 22:40:24,195 -INFO - All stocks - json file saved
+2024-06-06 22:40:24,195 -INFO - 300 - 325 - Stock threading ended ....
+2024-06-06 22:40:25,999 -ERROR - 
+2 Failed downloads:
+2024-06-06 22:40:25,999 -ERROR - ['WAA.BO', 'RHETAN.BO']: YFInvalidPeriodError("%ticker%: Period '1y' is invalid, must be one of ['1d', '5d']")
+2024-06-06 22:40:26,115 -INFO - PSB.NS - Process function started
+2024-06-06 22:40:26,115 -INFO - DHANBANK.NS - Process function started
+2024-06-06 22:40:26,116 -INFO - PCJEWELLER.NS - Process function started
+2024-06-06 22:40:26,116 -INFO - ENERGYDEV.NS - Process function started
+2024-06-06 22:40:26,116 -INFO - PSB.NS - Reading existing data...
+2024-06-06 22:40:26,116 -INFO - KPEL.BO - Process function started
+2024-06-06 22:40:26,116 -INFO - RBLBANK.NS - Process function started
+2024-06-06 22:40:26,116 -INFO - DHANBANK.NS - Reading existing data...
+2024-06-06 22:40:26,116 -INFO - PERSISTENT.NS - Process function started
+2024-06-06 22:40:26,116 -INFO - PCJEWELLER.NS - Reading existing data...
+2024-06-06 22:40:26,116 -INFO - SYNCOMF.NS - Process function started
+2024-06-06 22:40:26,116 -INFO - ENERGYDEV.NS - Reading existing data...
+2024-06-06 22:40:26,116 -INFO - LUPIN.NS - Process function started
+2024-06-06 22:40:26,117 -INFO - KPEL.BO - Reading existing data...
+2024-06-06 22:40:26,117 -INFO - RBLBANK.NS - Reading existing data...
+2024-06-06 22:40:26,117 -INFO - PERSISTENT.NS - Reading existing data...
+2024-06-06 22:40:26,117 -INFO - GREENPOWER.NS - Process function started
+2024-06-06 22:40:26,117 -INFO - HTMEDIA.NS - Process function started
+2024-06-06 22:40:26,117 -INFO - SYNCOMF.NS - Reading existing data...
+2024-06-06 22:40:26,117 -INFO - AUROPHARMA.NS - Process function started
+2024-06-06 22:40:26,118 -INFO - BFUTILITIE.NS - Process function started
+2024-06-06 22:40:26,118 -INFO - LUPIN.NS - Reading existing data...
+2024-06-06 22:40:26,118 -INFO - URJA.NS - Process function started
+2024-06-06 22:40:26,118 -INFO - GREENPOWER.NS - Reading existing data...
+2024-06-06 22:40:26,118 -INFO - HTMEDIA.NS - Reading existing data...
+2024-06-06 22:40:26,119 -INFO - AUROPHARMA.NS - Reading existing data...
+2024-06-06 22:40:26,119 -INFO - BFUTILITIE.NS - Reading existing data...
+2024-06-06 22:40:26,119 -INFO - URJA.NS - Reading existing data...
+2024-06-06 22:40:26,568 -INFO - DHANBANK.NS - add_ph_pl_values function started
+2024-06-06 22:40:26,649 -INFO - KPEL.BO - add_ph_pl_values function started
+2024-06-06 22:40:26,740 -INFO - PSB.NS - add_ph_pl_values function started
+2024-06-06 22:40:26,747 -INFO - DHANBANK.NS - add_ph_pl_values function Ended
+2024-06-06 22:40:26,749 -INFO - PCJEWELLER.NS - add_ph_pl_values function started
+2024-06-06 22:40:27,455 -INFO - KPEL.BO - add_ph_pl_values function Ended
+2024-06-06 22:40:27,809 -INFO - ENERGYDEV.NS - add_ph_pl_values function started
+2024-06-06 22:40:27,827 -INFO - AUROPHARMA.NS - add_ph_pl_values function started
+2024-06-06 22:40:27,832 -INFO - HTMEDIA.NS - add_ph_pl_values function started
+2024-06-06 22:40:27,833 -INFO - SYNCOMF.NS - add_ph_pl_values function started
+2024-06-06 22:40:27,834 -INFO - GREENPOWER.NS - add_ph_pl_values function started
+2024-06-06 22:40:27,834 -INFO - RBLBANK.NS - add_ph_pl_values function started
+2024-06-06 22:40:27,834 -INFO - BFUTILITIE.NS - add_ph_pl_values function started
+2024-06-06 22:40:27,835 -INFO - PERSISTENT.NS - add_ph_pl_values function started
+2024-06-06 22:40:27,955 -INFO - URJA.NS - add_ph_pl_values function started
+2024-06-06 22:40:27,955 -INFO - LUPIN.NS - add_ph_pl_values function started
+2024-06-06 22:40:27,955 -INFO - PSB.NS - add_ph_pl_values function Ended
+2024-06-06 22:40:28,032 -INFO - PCJEWELLER.NS - add_ph_pl_values function Ended
+2024-06-06 22:40:28,343 -INFO - ENERGYDEV.NS - add_ph_pl_values function Ended
+2024-06-06 22:40:28,552 -INFO - AUROPHARMA.NS - add_ph_pl_values function Ended
+2024-06-06 22:40:28,717 -INFO - HTMEDIA.NS - add_ph_pl_values function Ended
+2024-06-06 22:40:28,928 -INFO - SYNCOMF.NS - add_ph_pl_values function Ended
+2024-06-06 22:40:29,687 -INFO - GREENPOWER.NS - add_ph_pl_values function Ended
+2024-06-06 22:40:32,182 -INFO - RBLBANK.NS - add_ph_pl_values function Ended
+2024-06-06 22:40:34,260 -INFO - BFUTILITIE.NS - add_ph_pl_values function Ended
+2024-06-06 22:40:36,348 -INFO - PERSISTENT.NS - add_ph_pl_values function Ended
+2024-06-06 22:40:41,115 -INFO - URJA.NS - add_ph_pl_values function Ended
+2024-06-06 22:40:42,584 -INFO - LUPIN.NS - add_ph_pl_values function Ended
+2024-06-06 22:43:03,655 -INFO - All stocks - Excel file Saved
+2024-06-06 22:43:03,670 -INFO - All stocks - json file saved
+2024-06-06 22:43:03,670 -INFO - ENERGYDEV.NS - alerts file Saved
+2024-06-06 22:43:03,672 -INFO - ENERGYDEV.NS - Process function Ended
+2024-06-06 22:43:05,380 -INFO - All stocks - Excel file Saved
+2024-06-06 22:43:05,545 -INFO - All stocks - json file saved
+2024-06-06 22:43:05,545 -INFO - PCJEWELLER.NS - alerts file Saved
+2024-06-06 22:43:05,545 -INFO - PCJEWELLER.NS - Process function Ended
+2024-06-06 22:43:06,892 -INFO - All stocks - Excel file Saved
+2024-06-06 22:43:06,983 -INFO - All stocks - json file saved
+2024-06-06 22:43:06,983 -INFO - HTMEDIA.NS - alerts file Saved
+2024-06-06 22:43:06,983 -INFO - HTMEDIA.NS - Process function Ended
+2024-06-06 22:43:10,968 -INFO - All stocks - Excel file Saved
+2024-06-06 22:43:10,969 -INFO - All stocks - json file saved
+2024-06-06 22:43:10,969 -INFO - GREENPOWER.NS - alerts file Saved
+2024-06-06 22:43:10,969 -INFO - GREENPOWER.NS - Process function Ended
+2024-06-06 22:43:11,186 -INFO - All stocks - Excel file Saved
+2024-06-06 22:43:11,349 -INFO - All stocks - Excel file Saved
+2024-06-06 22:43:11,349 -INFO - All stocks - json file saved
+2024-06-06 22:43:11,349 -INFO - SYNCOMF.NS - alerts file Saved
+2024-06-06 22:43:11,349 -INFO - SYNCOMF.NS - Process function Ended
+2024-06-06 22:43:11,353 -INFO - All stocks - Excel file Saved
+2024-06-06 22:43:11,353 -INFO - All stocks - json file saved
+2024-06-06 22:43:11,353 -INFO - DHANBANK.NS - alerts file Saved
+2024-06-06 22:43:11,353 -INFO - DHANBANK.NS - Process function Ended
+2024-06-06 22:43:11,359 -INFO - All stocks - json file saved
+2024-06-06 22:43:11,360 -INFO - AUROPHARMA.NS - alerts file Saved
+2024-06-06 22:43:11,360 -INFO - AUROPHARMA.NS - Process function Ended
+2024-06-06 22:43:12,151 -INFO - All stocks - Excel file Saved
+2024-06-06 22:43:12,154 -INFO - All stocks - json file saved
+2024-06-06 22:43:12,154 -INFO - KPEL.BO - alerts file Saved
+2024-06-06 22:43:12,154 -INFO - KPEL.BO - Process function Ended
+2024-06-06 22:43:12,155 -INFO - All stocks - Excel file Saved
+2024-06-06 22:43:12,158 -INFO - All stocks - json file saved
+2024-06-06 22:43:12,159 -INFO - PSB.NS - alerts file Saved
+2024-06-06 22:43:12,159 -INFO - PSB.NS - Process function Ended
+2024-06-06 22:43:12,292 -INFO - All stocks - Excel file Saved
+2024-06-06 22:43:12,293 -INFO - All stocks - json file saved
+2024-06-06 22:43:12,293 -INFO - RBLBANK.NS - alerts file Saved
+2024-06-06 22:43:12,293 -INFO - RBLBANK.NS - Process function Ended
+2024-06-06 22:43:12,518 -INFO - All stocks - Excel file Saved
+2024-06-06 22:43:12,518 -INFO - All stocks - json file saved
+2024-06-06 22:43:12,518 -INFO - URJA.NS - alerts file Saved
+2024-06-06 22:43:12,518 -INFO - URJA.NS - Process function Ended
+2024-06-06 22:43:12,607 -INFO - All stocks - Excel file Saved
+2024-06-06 22:43:12,608 -INFO - All stocks - json file saved
+2024-06-06 22:43:12,608 -INFO - PERSISTENT.NS - alerts file Saved
+2024-06-06 22:43:12,608 -INFO - PERSISTENT.NS - Process function Ended
+2024-06-06 22:43:12,616 -INFO - All stocks - Excel file Saved
+2024-06-06 22:43:12,616 -INFO - All stocks - json file saved
+2024-06-06 22:43:12,616 -INFO - LUPIN.NS - alerts file Saved
+2024-06-06 22:43:12,616 -INFO - LUPIN.NS - Process function Ended
+2024-06-06 22:43:12,746 -INFO - All stocks - Excel file Saved
+2024-06-06 22:43:12,747 -INFO - All stocks - json file saved
+2024-06-06 22:43:12,747 -INFO - BFUTILITIE.NS - alerts file Saved
+2024-06-06 22:43:12,747 -INFO - BFUTILITIE.NS - Process function Ended
+2024-06-06 22:43:25,427 -INFO - All stocks - Excel file Saved
+2024-06-06 22:43:25,428 -INFO - All stocks - json file saved
+2024-06-06 22:43:37,582 -INFO - All stocks - Excel file Saved
+2024-06-06 22:43:37,582 -INFO - All stocks - json file saved
+2024-06-06 22:43:37,582 -INFO - 325 - 341 - Stock threading ended ....
+2024-06-06 22:43:37,582 -INFO - 0 - time Completed 
+2024-06-06 22:43:37,582 -INFO - Itr - 1 - thread_limit - 25  - total_rows - 16
+2024-06-06 22:43:37,582 -INFO - 1 - time Completed 
+2024-06-06 22:43:37,582 -INFO - Itr - 2 - thread_limit - 25  - total_rows - 16
+2024-06-06 22:43:37,582 -INFO - 2 - time Completed 
+2024-06-06 22:43:37,582 -INFO - Itr - 3 - thread_limit - 25  - total_rows - 16
+2024-06-06 22:43:37,582 -INFO - 3 - time Completed 
+2024-06-06 22:43:37,582 -INFO - Itr - 4 - thread_limit - 25  - total_rows - 16
+2024-06-06 22:43:37,582 -INFO - 4 - time Completed 
+2024-06-06 22:43:37,583 -INFO - Itr - 5 - thread_limit - 25  - total_rows - 16
+2024-06-06 22:43:37,583 -INFO - 5 - time Completed 
+2024-06-06 22:43:37,583 -INFO - Itr - 6 - thread_limit - 25  - total_rows - 16
+2024-06-06 22:43:37,583 -INFO - 6 - time Completed 
+2024-06-06 22:43:37,583 -INFO - Itr - 7 - thread_limit - 25  - total_rows - 16
+2024-06-06 22:43:37,583 -INFO - 7 - time Completed 
+2024-06-06 22:43:37,583 -INFO - Itr - 8 - thread_limit - 25  - total_rows - 16
+2024-06-06 22:43:37,583 -INFO - 8 - time Completed 
+2024-06-06 22:43:37,583 -INFO - Itr - 9 - thread_limit - 25  - total_rows - 16
+2024-06-06 22:43:37,583 -INFO - 9 - time Completed 
+2024-06-06 22:43:37,583 -INFO - Itr - 10 - thread_limit - 25  - total_rows - 16
+2024-06-06 22:43:37,583 -INFO - 10 - time Completed 
+2024-06-06 22:43:37,583 -INFO - All sttock completed...
+2024-06-06 22:43:37,583 -INFO - After 11 itr Completed...Exit...
+2024-06-06 22:43:37,583 -INFO - Reset to default value..
+2024-06-06 22:43:38,859 -INFO - Message sent successfully! - 
+2024-06-06 22:43:51,047 -INFO - All stocks - Excel file Saved
+2024-06-06 22:43:51,047 -INFO - All stocks - json file saved
