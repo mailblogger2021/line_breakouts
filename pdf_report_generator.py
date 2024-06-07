@@ -126,7 +126,7 @@ def stock_break_out_finder(time_frames,breakout_file_name,number_of_line="three"
 
             # print(len(list(all_stock_data.keys())))
             # print(len(list(all_stock_data[yfinance_time_frame].keys())))
-            last_five_df = stock_df.sort_values(by='alert_date').groupby('stockname').tail(5)
+            last_five_df = stock_df.sort_values(by='detected_date').groupby('stockname').tail(5)
             for stock_name in stock_names:
                 if stock_name not in stock_all_df:
                     continue
@@ -138,8 +138,8 @@ def stock_break_out_finder(time_frames,breakout_file_name,number_of_line="three"
                     # y = pd.read_excel(file_name)
 
                     last_five_stock_df = last_five_stock_df.copy()
-                    # last_five_stock_df['Timestamp'] = pd.to_datetime(last_five_stock_df['alert_date'], format="%Y-%m-%d %H:%M:%S").apply(lambda z: int(z.timestamp()))
-                    last_five_stock_df.loc[:, 'Timestamp'] = pd.to_datetime(last_five_stock_df['alert_date'], format="%Y-%m-%d %H:%M:%S").apply(lambda z: int(z.timestamp()))
+                    # last_five_stock_df['Timestamp'] = pd.to_datetime(last_five_stock_df['detected_date'], format="%Y-%m-%d %H:%M:%S").apply(lambda z: int(z.timestamp()))
+                    last_five_stock_df.loc[:, 'Timestamp'] = pd.to_datetime(last_five_stock_df['detected_date'], format="%Y-%m-%d %H:%M:%S").apply(lambda z: int(z.timestamp()))
                     last_stock_df['Timestamp'] = pd.to_datetime(last_stock_df['Datetime'], format="%d-%m-%Y %H:%M:%S").apply(lambda z: int(z.timestamp()))
                     
                     for index in range(-1,-len(last_five_stock_df),-1):
@@ -200,12 +200,12 @@ def stock_break_out_finder(time_frames,breakout_file_name,number_of_line="three"
                             logging.info(f"{stock_name} - stock breakout found...")
 
                             if 'value3' in row:
-                                output_columns =['stockname','date1','value1','date2','value2','date3','value3','buyORsell']
+                                output_columns =['detected_date','stockname','date1','value1','date2','value2','date3','value3','buyORsell']
                             else:
-                                output_columns = ['stockname','date1','value1','date2','value2','buyORsell']
+                                output_columns = ['detected_date','stockname','date1','value1','date2','value2','buyORsell']
 
                             new_alert = row[output_columns].to_frame().T
-                            new_alert.insert(1, 'Alert_date', current_date)
+                            new_alert.insert(1, 'breakout_date', current_date)
                             new_alert.insert(2, 'Time_Frame', time_frame)
                             break_out_stocks = pd.concat([break_out_stocks, new_alert], ignore_index=True)
                             

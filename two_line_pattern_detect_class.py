@@ -389,7 +389,7 @@ class pattern_detecter:
                     alert = pd.DataFrame(combination, columns=['index', 'value']).set_index('index').copy(deep=True)
                     row_to_append = pd.DataFrame({
                         'stockname' : stockname,
-                        'alert_date' : [df.iloc[candle].Datetime],
+                        'detected_date' : [df.iloc[candle].Datetime],
                         'rowNumber' : candle,                    
                         'date1': [df.iloc[alert.index[0]].Datetime],
                         'row1': [alert.index[0]],
@@ -425,7 +425,7 @@ class pattern_detecter:
                     # print(alert)
                     row_to_append = pd.DataFrame({
                         'stockname' : stockname,
-                        'alert_date' : [df.iloc[candle].Datetime],
+                        'detected_date' : [df.iloc[candle].Datetime],
                         'rowNumber' : candle,
                         'date1': [df.iloc[alert.index[0]].Datetime],
                         'row1': [alert.index[0]],
@@ -477,7 +477,7 @@ class pattern_detecter:
                     alert = pd.DataFrame(combination, columns=['index', 'value']).set_index('index').copy(deep=True)
                     row_to_append = pd.DataFrame({
                         'stockname' : stockname,
-                        'alert_date' : [df.iloc[candle].Datetime],
+                        'detected_date' : [df.iloc[candle].Datetime],
                         'rowNumber' : candle,                    
                         'date1': [df.iloc[alert.index[0]].Datetime],
                         'row1': [alert.index[0]],
@@ -511,7 +511,7 @@ class pattern_detecter:
                     alert = pd.DataFrame(combination, columns=['index', 'value']).set_index('index').copy(deep=True)
                     row_to_append = pd.DataFrame({
                         'stockname' : stockname,
-                        'alert_date' : [df.iloc[candle].Datetime],
+                        'detected_date' : [df.iloc[candle].Datetime],
                         'rowNumber' : candle,
                         'date1': [df.iloc[alert.index[0]].Datetime],
                         'row1': [alert.index[0]],
