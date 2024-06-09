@@ -6,8 +6,8 @@ on:
   push:
     branches:
       - main
-  schedule:
-    - cron: 0 0 * * SAT  #week
+  # schedule:
+  #   - cron: 0 0 * * SAT  #week
 
 jobs:
   build:

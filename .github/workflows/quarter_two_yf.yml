@@ -6,8 +6,8 @@ on:
   push:
     branches:
       - main
-  schedule:
-    - cron: 0 4 1 JAN,APR,JUL,OCT *
+  # schedule:
+  #   - cron: 0 4 1 JAN,APR,JUL,OCT *
 
 jobs:
   build:

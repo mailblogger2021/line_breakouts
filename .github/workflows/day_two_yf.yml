@@ -6,8 +6,8 @@ on:
   push:
     branches:
       - main
-  schedule:
-    - cron: 0 19 * * 5  #day
+  # schedule:
+  #   - cron: 0 19 * * 5  #day
 
 jobs:
   build:

@@ -4,12 +4,12 @@ on:
   push:
     branches:
     - main
-  schedule:
-    - cron: '10 5-11 * * 1-5'    # Mon-Fri hourly from 5:10 to 11:10
-    - cron: '30 10 * * 1-5'      # Daily at 10:30 Mon-Fri
-    - cron: '30 10 * * 3,5'      # Weekly on Wednesday and Friday at 10:30
-    - cron: '30 10 15,30 * *'    # Twice a month on the 15th and 30th at 10:30
-    - cron: '30 10 1 1,4,7,10 *' # Quarterly on the 1st of Jan, Apr, Jul, Oct at 10:30
+  # schedule:
+  #   - cron: '10 5-11 * * 1-5'    # Mon-Fri hourly from 5:10 to 11:10
+  #   - cron: '30 10 * * 1-5'      # Daily at 10:30 Mon-Fri
+  #   - cron: '30 10 * * 3,5'      # Weekly on Wednesday and Friday at 10:30
+  #   - cron: '30 10 15,30 * *'    # Twice a month on the 15th and 30th at 10:30
+  #   - cron: '30 10 1 1,4,7,10 *' # Quarterly on the 1st of Jan, Apr, Jul, Oct at 10:30
 jobs:
   build:
     runs-on: macos-latest
