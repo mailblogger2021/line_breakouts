@@ -1,5 +1,5 @@
 permissions: write-all
-name: Stock to watch
+name: anual alert
 on:
   push:
     branches:
@@ -53,8 +53,6 @@ jobs:
       if: env.COMMIT_MESSAGE_VALID == 'true'
       run: |
           python manual_alert.py
-
-
     - name: Commit files
       run: |
         git config --local user.email "action@github.com"
