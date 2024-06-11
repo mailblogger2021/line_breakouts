@@ -15158,3 +15158,185 @@ ValueError: Length of values (53089) does not match length of index (51927)
                                                                   no. 36 pending stock
 2024-06-10 12:52:39,516 -INFO - All stocks - Excel file Saved
 2024-06-10 12:52:39,516 -INFO - All stocks - json file saved
+2024-06-11 10:32:22,150 -INFO - Started...
+2024-06-11 10:49:10,961 -INFO - Itr - 0 - thread_limit - 25  - total_rows - 416
+2024-06-11 10:49:10,972 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-06-11 10:49:13,163 -ERROR - 
+5 Failed downloads:
+2024-06-11 10:49:13,163 -ERROR - ['KPITTECH.NS']: OperationalError('database is locked')
+2024-06-11 10:49:13,164 -ERROR - ['SAAKSHI-SM.NS', 'SGFIN.BO', 'GRAVITA-BL.NS', 'KMEW.BO']: YFInvalidPeriodError("%ticker%: Period 'max' is invalid, must be one of ['1d', '5d']")
+2024-06-11 10:49:13,275 -INFO - UNIAUTO.BO - Process function started
+2024-06-11 10:49:13,275 -INFO - HFCL.NS - Process function started
+2024-06-11 10:49:13,275 -INFO - JSWENERGY.NS - Process function started
+2024-06-11 10:49:13,277 -INFO - HBLPOWER.NS - Process function started
+2024-06-11 10:49:13,278 -INFO - UNIAUTO.BO - isPivot function started
+2024-06-11 10:49:13,282 -INFO - HFCL.NS - isPivot function started
+2024-06-11 10:49:13,284 -INFO - INDIAGLYCO.NS - Process function started
+2024-06-11 10:49:13,284 -INFO - STOVEKRAFT.NS - Process function started
+2024-06-11 10:49:13,284 -INFO - GRAVITA.NS - Process function started
+2024-06-11 10:49:13,284 -INFO - PATANJALI.NS - Process function started
+2024-06-11 10:49:13,284 -INFO - XPROINDIA.NS - Process function started
+2024-06-11 10:49:13,284 -INFO - BUTTERFLY.NS - Process function started
+2024-06-11 10:49:13,285 -INFO - HBLPOWER.NS - isPivot function started
+2024-06-11 10:49:13,285 -INFO - ASHOKA.NS - Process function started
+2024-06-11 10:49:13,285 -INFO - JSWENERGY.NS - isPivot function started
+2024-06-11 10:49:13,335 -INFO - UNIAUTO.BO - isPivot function Ended
+2024-06-11 10:49:13,453 -INFO - HFCL.NS - isPivot function Ended
+2024-06-11 10:49:13,456 -INFO - STOVEKRAFT.NS - isPivot function started
+2024-06-11 10:49:13,463 -INFO - PATANJALI.NS - isPivot function started
+2024-06-11 10:49:13,463 -INFO - INDIAGLYCO.NS - isPivot function started
+2024-06-11 10:49:13,463 -INFO - XPROINDIA.NS - isPivot function started
+2024-06-11 10:49:13,562 -INFO - HBLPOWER.NS - isPivot function Ended
+2024-06-11 10:49:13,564 -INFO - ASHOKA.NS - isPivot function started
+2024-06-11 10:49:13,564 -INFO - BUTTERFLY.NS - isPivot function started
+2024-06-11 10:49:13,564 -INFO - GRAVITA.NS - isPivot function started
+2024-06-11 10:49:13,642 -INFO - JSWENERGY.NS - isPivot function Ended
+2024-06-11 10:49:13,643 -INFO - UNIAUTO.BO -  detect_structure function started
+2024-06-11 10:49:13,643 -INFO - UNIAUTO.BO -  two_line_structure function started
+2024-06-11 10:49:13,643 -INFO - HFCL.NS -  detect_structure function started
+2024-06-11 10:49:13,643 -INFO - HFCL.NS -  two_line_structure function started
+2024-06-11 10:49:13,662 -INFO - STOVEKRAFT.NS - isPivot function Ended
+2024-06-11 10:49:13,783 -INFO - PATANJALI.NS - isPivot function Ended
+2024-06-11 10:49:13,904 -INFO - INDIAGLYCO.NS - isPivot function Ended
+2024-06-11 10:49:14,012 -INFO - XPROINDIA.NS - isPivot function Ended
+2024-06-11 10:49:14,013 -INFO - HBLPOWER.NS -  detect_structure function started
+2024-06-11 10:49:14,013 -INFO - HBLPOWER.NS -  two_line_structure function started
+2024-06-11 10:49:14,070 -INFO - BUTTERFLY.NS - isPivot function Ended
+2024-06-11 10:49:14,143 -INFO - ASHOKA.NS - isPivot function Ended
+2024-06-11 10:49:14,216 -INFO - GRAVITA.NS - isPivot function Ended
+2024-06-11 10:49:14,216 -INFO - JSWENERGY.NS -  detect_structure function started
+2024-06-11 10:49:14,216 -INFO - JSWENERGY.NS -  two_line_structure function started
+2024-06-11 10:49:14,252 -INFO - STOVEKRAFT.NS -  detect_structure function started
+2024-06-11 10:49:14,252 -INFO - STOVEKRAFT.NS -  two_line_structure function started
+2024-06-11 10:49:14,261 -INFO - PATANJALI.NS -  detect_structure function started
+2024-06-11 10:49:14,276 -INFO - PATANJALI.NS -  two_line_structure function started
+2024-06-11 10:49:14,276 -INFO - INDIAGLYCO.NS -  detect_structure function started
+2024-06-11 10:49:14,279 -INFO - INDIAGLYCO.NS -  two_line_structure function started
+2024-06-11 10:49:14,279 -INFO - XPROINDIA.NS -  detect_structure function started
+2024-06-11 10:49:14,280 -INFO - XPROINDIA.NS -  two_line_structure function started
+2024-06-11 10:49:14,302 -INFO - BUTTERFLY.NS -  detect_structure function started
+2024-06-11 10:49:14,310 -INFO - ASHOKA.NS -  detect_structure function started
+2024-06-11 10:49:14,312 -INFO - BUTTERFLY.NS -  two_line_structure function started
+2024-06-11 10:49:14,312 -INFO - ASHOKA.NS -  two_line_structure function started
+2024-06-11 10:49:14,328 -INFO - GRAVITA.NS -  detect_structure function started
+2024-06-11 10:49:14,331 -INFO - GRAVITA.NS -  two_line_structure function started
+2024-06-11 10:49:17,735 -INFO - STOVEKRAFT.NS -  two_line_structure function Ended
+2024-06-11 10:49:21,994 -INFO - STOVEKRAFT.NS -  detect_structure function Ended
+2024-06-11 10:49:22,005 -INFO - STOVEKRAFT.NS - add_ph_pl_values function started
+2024-06-11 10:49:22,222 -INFO - STOVEKRAFT.NS - add_ph_pl_values function Ended
+2024-06-11 10:49:33,313 -INFO - BUTTERFLY.NS -  two_line_structure function Ended
+2024-06-11 10:49:34,003 -INFO - UNIAUTO.BO -  two_line_structure function Ended
+2024-06-11 10:49:37,326 -INFO - GRAVITA.NS -  two_line_structure function Ended
+2024-06-11 10:49:39,114 -INFO - ASHOKA.NS -  two_line_structure function Ended
+2024-06-11 10:49:39,387 -INFO - JSWENERGY.NS -  two_line_structure function Ended
+2024-06-11 10:49:43,662 -INFO - HBLPOWER.NS -  two_line_structure function Ended
+2024-06-11 10:49:45,967 -INFO - XPROINDIA.NS -  two_line_structure function Ended
+2024-06-11 10:49:46,055 -INFO - INDIAGLYCO.NS -  two_line_structure function Ended
+2024-06-11 10:49:47,143 -INFO - HFCL.NS -  two_line_structure function Ended
+2024-06-11 10:49:48,716 -INFO - PATANJALI.NS -  two_line_structure function Ended
+2024-06-11 10:49:52,569 -INFO - BUTTERFLY.NS -  detect_structure function Ended
+2024-06-11 10:49:52,573 -INFO - BUTTERFLY.NS - add_ph_pl_values function started
+2024-06-11 10:49:52,611 -INFO - BUTTERFLY.NS - add_ph_pl_values function Ended
+2024-06-11 10:50:02,936 -INFO - UNIAUTO.BO -  detect_structure function Ended
+2024-06-11 10:50:02,937 -INFO - UNIAUTO.BO - add_ph_pl_values function started
+2024-06-11 10:50:02,958 -INFO - UNIAUTO.BO - add_ph_pl_values function Ended
+2024-06-11 10:50:11,749 -INFO - GRAVITA.NS -  detect_structure function Ended
+2024-06-11 10:50:11,750 -INFO - GRAVITA.NS - add_ph_pl_values function started
+2024-06-11 10:50:11,792 -INFO - GRAVITA.NS - add_ph_pl_values function Ended
+2024-06-11 10:50:29,341 -INFO - JSWENERGY.NS -  detect_structure function Ended
+2024-06-11 10:50:29,344 -INFO - JSWENERGY.NS - add_ph_pl_values function started
+2024-06-11 10:50:29,383 -INFO - JSWENERGY.NS - add_ph_pl_values function Ended
+2024-06-11 10:50:39,194 -INFO - ASHOKA.NS -  detect_structure function Ended
+2024-06-11 10:50:39,195 -INFO - ASHOKA.NS - add_ph_pl_values function started
+2024-06-11 10:50:39,220 -INFO - ASHOKA.NS - add_ph_pl_values function Ended
+2024-06-11 10:50:59,608 -INFO - All stocks - Excel file Saved
+2024-06-11 10:50:59,614 -INFO - All stocks - json file saved
+2024-06-11 10:50:59,615 -INFO - STOVEKRAFT.NS - alerts file Saved
+2024-06-11 10:50:59,616 -INFO - STOVEKRAFT.NS - Process function Ended
+2024-06-11 10:51:24,957 -INFO - HBLPOWER.NS -  detect_structure function Ended
+2024-06-11 10:51:24,958 -INFO - HBLPOWER.NS - add_ph_pl_values function started
+2024-06-11 10:51:24,967 -INFO - HBLPOWER.NS - add_ph_pl_values function Ended
+2024-06-11 10:51:41,552 -INFO - INDIAGLYCO.NS -  detect_structure function Ended
+2024-06-11 10:51:41,556 -INFO - INDIAGLYCO.NS - add_ph_pl_values function started
+2024-06-11 10:51:41,585 -INFO - INDIAGLYCO.NS - add_ph_pl_values function Ended
+2024-06-11 10:51:45,437 -INFO - All stocks - Excel file Saved
+2024-06-11 10:51:45,741 -INFO - All stocks - json file saved
+2024-06-11 10:51:45,742 -INFO - BUTTERFLY.NS - alerts file Saved
+2024-06-11 10:51:45,742 -INFO - BUTTERFLY.NS - Process function Ended
+2024-06-11 10:51:51,735 -INFO - All stocks - Excel file Saved
+2024-06-11 10:51:51,742 -INFO - All stocks - json file saved
+2024-06-11 10:51:51,742 -INFO - UNIAUTO.BO - alerts file Saved
+2024-06-11 10:51:51,743 -INFO - UNIAUTO.BO - Process function Ended
+2024-06-11 10:51:52,049 -INFO - All stocks - Excel file Saved
+2024-06-11 10:51:52,054 -INFO - All stocks - json file saved
+2024-06-11 10:51:52,054 -INFO - GRAVITA.NS - alerts file Saved
+2024-06-11 10:51:52,055 -INFO - GRAVITA.NS - Process function Ended
+2024-06-11 10:51:53,911 -INFO - All stocks - Excel file Saved
+2024-06-11 10:51:53,917 -INFO - All stocks - json file saved
+2024-06-11 10:51:53,917 -INFO - JSWENERGY.NS - alerts file Saved
+2024-06-11 10:51:53,917 -INFO - JSWENERGY.NS - Process function Ended
+2024-06-11 10:51:53,969 -INFO - HFCL.NS -  detect_structure function Ended
+2024-06-11 10:51:53,973 -INFO - HFCL.NS - add_ph_pl_values function started
+2024-06-11 10:51:53,989 -INFO - HFCL.NS - add_ph_pl_values function Ended
+2024-06-11 10:51:54,298 -INFO - XPROINDIA.NS -  detect_structure function Ended
+2024-06-11 10:51:54,300 -INFO - XPROINDIA.NS - add_ph_pl_values function started
+2024-06-11 10:51:54,306 -INFO - XPROINDIA.NS - add_ph_pl_values function Ended
+2024-06-11 10:51:54,656 -INFO - All stocks - Excel file Saved
+2024-06-11 10:51:54,833 -INFO - All stocks - json file saved
+2024-06-11 10:51:54,833 -INFO - ASHOKA.NS - alerts file Saved
+2024-06-11 10:51:54,833 -INFO - ASHOKA.NS - Process function Ended
+2024-06-11 10:52:01,932 -INFO - PATANJALI.NS -  detect_structure function Ended
+2024-06-11 10:52:02,046 -INFO - PATANJALI.NS - add_ph_pl_values function started
+2024-06-11 10:52:03,423 -INFO - PATANJALI.NS - add_ph_pl_values function Ended
+2024-06-11 10:52:45,167 -INFO - All stocks - Excel file Saved
+2024-06-11 10:52:45,849 -INFO - All stocks - json file saved
+2024-06-11 10:52:45,849 -INFO - HBLPOWER.NS - alerts file Saved
+2024-06-11 10:52:45,849 -INFO - HBLPOWER.NS - Process function Ended
+2024-06-11 10:52:58,479 -INFO - All stocks - Excel file Saved
+2024-06-11 10:52:58,480 -INFO - All stocks - json file saved
+2024-06-11 10:52:58,480 -INFO - INDIAGLYCO.NS - alerts file Saved
+2024-06-11 10:52:58,480 -INFO - INDIAGLYCO.NS - Process function Ended
+2024-06-11 10:52:59,321 -INFO - All stocks - Excel file Saved
+2024-06-11 10:52:59,321 -INFO - All stocks - json file saved
+2024-06-11 10:52:59,321 -INFO - HFCL.NS - alerts file Saved
+2024-06-11 10:52:59,321 -INFO - HFCL.NS - Process function Ended
+2024-06-11 10:52:59,450 -INFO - All stocks - Excel file Saved
+2024-06-11 10:52:59,451 -INFO - All stocks - json file saved
+2024-06-11 10:52:59,451 -INFO - XPROINDIA.NS - alerts file Saved
+2024-06-11 10:52:59,451 -INFO - XPROINDIA.NS - Process function Ended
+2024-06-11 10:53:01,118 -INFO - All stocks - Excel file Saved
+2024-06-11 10:53:01,119 -INFO - All stocks - json file saved
+2024-06-11 10:53:01,119 -INFO - PATANJALI.NS - alerts file Saved
+2024-06-11 10:53:01,119 -INFO - PATANJALI.NS - Process function Ended
+2024-06-11 10:53:17,686 -INFO - All stocks - Excel file Saved
+2024-06-11 10:53:17,686 -INFO - All stocks - json file saved
+2024-06-11 10:53:34,411 -INFO - All stocks - Excel file Saved
+2024-06-11 10:53:34,412 -INFO - All stocks - json file saved
+2024-06-11 10:53:34,412 -INFO - 400 - 416 - Stock threading ended ....
+2024-06-11 10:53:34,412 -INFO - 0 - time Completed 
+2024-06-11 10:53:34,412 -INFO - Itr - 1 - thread_limit - 25  - total_rows - 25
+2024-06-11 10:53:34,412 -INFO - 1 - time Completed 
+2024-06-11 10:53:34,412 -INFO - Itr - 2 - thread_limit - 25  - total_rows - 25
+2024-06-11 10:53:34,412 -INFO - 2 - time Completed 
+2024-06-11 10:53:34,412 -INFO - Itr - 3 - thread_limit - 25  - total_rows - 25
+2024-06-11 10:53:34,412 -INFO - 3 - time Completed 
+2024-06-11 10:53:34,412 -INFO - Itr - 4 - thread_limit - 25  - total_rows - 25
+2024-06-11 10:53:34,412 -INFO - 4 - time Completed 
+2024-06-11 10:53:34,412 -INFO - Itr - 5 - thread_limit - 25  - total_rows - 25
+2024-06-11 10:53:34,412 -INFO - 5 - time Completed 
+2024-06-11 10:53:34,412 -INFO - Itr - 6 - thread_limit - 25  - total_rows - 25
+2024-06-11 10:53:34,412 -INFO - 6 - time Completed 
+2024-06-11 10:53:34,412 -INFO - Itr - 7 - thread_limit - 25  - total_rows - 25
+2024-06-11 10:53:34,412 -INFO - 7 - time Completed 
+2024-06-11 10:53:34,412 -INFO - Itr - 8 - thread_limit - 25  - total_rows - 25
+2024-06-11 10:53:34,412 -INFO - 8 - time Completed 
+2024-06-11 10:53:34,412 -INFO - Itr - 9 - thread_limit - 25  - total_rows - 25
+2024-06-11 10:53:34,412 -INFO - 9 - time Completed 
+2024-06-11 10:53:34,412 -INFO - Itr - 10 - thread_limit - 25  - total_rows - 25
+2024-06-11 10:53:34,412 -INFO - 10 - time Completed 
+2024-06-11 10:53:34,412 -INFO - All sttock completed...
+2024-06-11 10:53:34,412 -INFO - After 11 itr Completed...Exit...
+2024-06-11 10:53:34,412 -INFO - Reset to default value..
+2024-06-11 10:53:35,813 -INFO - Message sent successfully! - 
+2024-06-11 10:53:52,456 -INFO - All stocks - Excel file Saved
+2024-06-11 10:53:52,456 -INFO - All stocks - json file saved
