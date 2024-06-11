@@ -59,3 +59,40 @@
 2024-06-10 10:37:59,968 -INFO - All stocks - json file saved
 2024-06-10 10:38:24,340 -INFO - All stocks - Excel file Saved
 2024-06-10 10:38:24,340 -INFO - All stocks - json file saved
+2024-06-11 10:32:40,364 -INFO - Started...
+2024-06-11 10:32:41,964 -INFO - Started...
+2024-06-11 10:32:48,524 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-06-11 10:32:49,903 -ERROR - 
+1 Failed download:
+2024-06-11 10:32:49,904 -ERROR - ['HDFCLIFE.NS']: OperationalError('database is locked')
+2024-06-11 10:32:49,955 -INFO - TATACHEM.NS - Process function started
+2024-06-11 10:32:49,956 -INFO - NATIONALUM.NS - Process function started
+2024-06-11 10:32:49,966 -INFO - TATACHEM.NS - Reading existing data...
+2024-06-11 10:32:49,967 -INFO - NATIONALUM.NS - isPivot function started
+2024-06-11 10:32:50,706 -INFO - NATIONALUM.NS - isPivot function Ended
+2024-06-11 10:32:50,706 -INFO - NATIONALUM.NS -  detect_structure function started
+2024-06-11 10:32:50,710 -INFO - NATIONALUM.NS -  two_line_structure function started
+2024-06-11 10:32:51,459 -INFO - last n isPivot function started
+2024-06-11 10:32:52,402 -INFO - last n isPivot function Ended
+2024-06-11 10:32:52,406 -INFO - TATACHEM.NS - last n detect_structure function started
+2024-06-11 10:32:52,416 -INFO - TATACHEM.NS - last n two_line_structure function started
+2024-06-11 10:33:39,016 -INFO - NATIONALUM.NS -  two_line_structure function Ended
+2024-06-11 10:33:43,359 -INFO - NATIONALUM.NS -  detect_structure function Ended
+2024-06-11 10:33:43,361 -INFO - NATIONALUM.NS - add_ph_pl_values function started
+2024-06-11 10:33:43,383 -INFO - NATIONALUM.NS - add_ph_pl_values function Ended
+2024-06-11 10:34:00,236 -INFO - TATACHEM.NS - last n two_line_structure function Ended
+2024-06-11 10:34:01,879 -INFO - TATACHEM.NS - last n detect_structure function Ended
+2024-06-11 10:34:01,880 -INFO - TATACHEM.NS - add_ph_pl_values function started
+2024-06-11 10:34:01,888 -INFO - TATACHEM.NS - add_ph_pl_values function Ended
+2024-06-11 10:34:09,288 -INFO - All stocks - Excel file Saved
+2024-06-11 10:34:09,289 -INFO - All stocks - json file saved
+2024-06-11 10:34:09,289 -INFO - NATIONALUM.NS - alerts file Saved
+2024-06-11 10:34:09,289 -INFO - NATIONALUM.NS - Process function Ended
+2024-06-11 10:34:17,599 -INFO - All stocks - Excel file Saved
+2024-06-11 10:34:17,600 -INFO - All stocks - json file saved
+2024-06-11 10:34:17,600 -INFO - TATACHEM.NS - alerts file Saved
+2024-06-11 10:34:17,600 -INFO - TATACHEM.NS - Process function Ended
+2024-06-11 10:34:29,139 -INFO - All stocks - Excel file Saved
+2024-06-11 10:34:29,140 -INFO - All stocks - json file saved
+2024-06-11 10:34:40,241 -INFO - All stocks - Excel file Saved
+2024-06-11 10:34:40,241 -INFO - All stocks - json file saved
