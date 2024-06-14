@@ -163,3 +163,27 @@
 2024-06-13 10:34:13,809 -INFO - All stocks - json file saved
 2024-06-13 10:34:24,878 -INFO - All stocks - Excel file Saved
 2024-06-13 10:34:24,878 -INFO - All stocks - json file saved
+2024-06-14 10:32:27,282 -INFO - Started...
+2024-06-14 10:32:28,099 -INFO - Started...
+2024-06-14 10:32:33,600 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-06-14 10:32:35,574 -ERROR - 
+1 Failed download:
+2024-06-14 10:32:35,574 -ERROR - ['NIFTY']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+2024-06-14 10:32:35,604 -INFO - COLPAL.NS - Process function started
+2024-06-14 10:32:35,604 -INFO - COLPAL.NS - Reading existing data...
+2024-06-14 10:32:35,910 -INFO - last n isPivot function started
+2024-06-14 10:32:36,431 -INFO - last n isPivot function Ended
+2024-06-14 10:32:36,431 -INFO - COLPAL.NS - last n detect_structure function started
+2024-06-14 10:32:36,431 -INFO - COLPAL.NS - last n two_line_structure function started
+2024-06-14 10:32:49,243 -INFO - COLPAL.NS - last n two_line_structure function Ended
+2024-06-14 10:32:49,800 -INFO - COLPAL.NS - last n detect_structure function Ended
+2024-06-14 10:32:49,800 -INFO - COLPAL.NS - add_ph_pl_values function started
+2024-06-14 10:32:49,803 -INFO - COLPAL.NS - add_ph_pl_values function Ended
+2024-06-14 10:33:01,634 -INFO - All stocks - Excel file Saved
+2024-06-14 10:33:01,634 -INFO - All stocks - json file saved
+2024-06-14 10:33:01,634 -INFO - COLPAL.NS - alerts file Saved
+2024-06-14 10:33:01,634 -INFO - COLPAL.NS - Process function Ended
+2024-06-14 10:33:12,795 -INFO - All stocks - Excel file Saved
+2024-06-14 10:33:12,795 -INFO - All stocks - json file saved
+2024-06-14 10:33:23,869 -INFO - All stocks - Excel file Saved
+2024-06-14 10:33:23,869 -INFO - All stocks - json file saved
