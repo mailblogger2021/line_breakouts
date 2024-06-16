@@ -1,0 +1,124 @@
+2024-06-16 11:34:19,279 -INFO - Started...
+2024-06-16 11:34:20,099 -INFO - Started...
+2024-06-16 11:34:30,549 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-06-16 11:34:30,549 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-06-16 11:34:33,048 -INFO - DEEPAKNTR.NS - Process function started
+2024-06-16 11:34:33,048 -INFO - M&MFIN.NS - Process function started
+2024-06-16 11:34:33,048 -INFO - ASIANPAINT.NS - Process function started
+2024-06-16 11:34:33,048 -INFO - PEL.NS - Process function started
+2024-06-16 11:34:33,048 -INFO - PIDILITIND.NS - Process function started
+2024-06-16 11:34:33,048 -INFO - M&MFIN.NS - Reading existing data...
+2024-06-16 11:34:33,050 -INFO - CIPLA.NS - Process function started
+2024-06-16 11:34:33,051 -INFO - ITC.NS - Process function started
+2024-06-16 11:34:33,051 -INFO - COFORGE.NS - Process function started
+2024-06-16 11:34:33,051 -INFO - ASIANPAINT.NS - Reading existing data...
+2024-06-16 11:34:33,053 -INFO - DEEPAKNTR.NS - isPivot function started
+2024-06-16 11:34:33,053 -INFO - BAJAJ-AUTO.NS - Process function started
+2024-06-16 11:34:33,054 -INFO - PIDILITIND.NS - Reading existing data...
+2024-06-16 11:34:33,054 -INFO - TATAMOTORS.NS - Process function started
+2024-06-16 11:34:33,054 -INFO - HDFCBANK.NS - Process function started
+2024-06-16 11:34:33,054 -INFO - PEL.NS - isPivot function started
+2024-06-16 11:34:33,055 -INFO - ITC.NS - Reading existing data...
+2024-06-16 11:34:33,056 -INFO - CIPLA.NS - Reading existing data...
+2024-06-16 11:34:33,136 -INFO - DEEPAKNTR.NS - isPivot function Ended
+2024-06-16 11:34:33,136 -INFO - BAJAJ-AUTO.NS - Reading existing data...
+2024-06-16 11:34:33,137 -INFO - COFORGE.NS - isPivot function started
+2024-06-16 11:34:33,137 -INFO - TATAMOTORS.NS - Reading existing data...
+2024-06-16 11:34:33,138 -INFO - HDFCBANK.NS - Reading existing data...
+2024-06-16 11:34:33,302 -INFO - PEL.NS - isPivot function Ended
+2024-06-16 11:34:33,303 -INFO - DEEPAKNTR.NS -  detect_structure function started
+2024-06-16 11:34:33,307 -INFO - DEEPAKNTR.NS -  two_line_structure function started
+2024-06-16 11:34:33,421 -INFO - COFORGE.NS - isPivot function Ended
+2024-06-16 11:34:33,424 -INFO - PEL.NS -  detect_structure function started
+2024-06-16 11:34:33,429 -INFO - PEL.NS -  two_line_structure function started
+2024-06-16 11:34:33,430 -INFO - COFORGE.NS -  detect_structure function started
+2024-06-16 11:34:33,440 -INFO - COFORGE.NS -  two_line_structure function started
+2024-06-16 11:34:33,617 -INFO - M&MFIN.NS - add_ph_pl_values function started
+2024-06-16 11:34:34,021 -INFO - PIDILITIND.NS - add_ph_pl_values function started
+2024-06-16 11:34:34,077 -INFO - M&MFIN.NS - add_ph_pl_values function Ended
+2024-06-16 11:34:34,118 -INFO - ASIANPAINT.NS - add_ph_pl_values function started
+2024-06-16 11:34:34,386 -INFO - ITC.NS - add_ph_pl_values function started
+2024-06-16 11:34:34,436 -INFO - PIDILITIND.NS - add_ph_pl_values function Ended
+2024-06-16 11:34:34,555 -INFO - CIPLA.NS - add_ph_pl_values function started
+2024-06-16 11:34:34,562 -INFO - BAJAJ-AUTO.NS - add_ph_pl_values function started
+2024-06-16 11:34:34,584 -INFO - TATAMOTORS.NS - add_ph_pl_values function started
+2024-06-16 11:34:34,695 -INFO - HDFCBANK.NS - add_ph_pl_values function started
+2024-06-16 11:34:34,704 -INFO - ASIANPAINT.NS - add_ph_pl_values function Ended
+2024-06-16 11:34:34,899 -INFO - ITC.NS - add_ph_pl_values function Ended
+2024-06-16 11:34:35,184 -INFO - CIPLA.NS - add_ph_pl_values function Ended
+2024-06-16 11:34:35,462 -INFO - BAJAJ-AUTO.NS - add_ph_pl_values function Ended
+2024-06-16 11:34:35,591 -INFO - TATAMOTORS.NS - add_ph_pl_values function Ended
+2024-06-16 11:34:36,269 -INFO - HDFCBANK.NS - add_ph_pl_values function Ended
+2024-06-16 11:34:36,532 -INFO - Error in saving alerts file: operands could not be broadcast together with shapes (3764,) (3759,) (3764,) 
+2024-06-16 11:34:37,421 -INFO - Error : Traceback (most recent call last):
+  File "/Users/runner/work/line_breakouts/line_breakouts/two_line_pattern_detect_class.py", line 119, in save_excel_file
+    self.two_line_alert_df.drop_duplicates(subset=['stockname','date1','value1', 'date2','value2', 'buyORsell'], keep='first', inplace=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6818, in drop_duplicates
+    result = self[-self.duplicated(subset, keep=keep)]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6960, in duplicated
+    ids = get_group_index(labels, tuple(shape), sort=False, xnull=False)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/sorting.py", line 193, in get_group_index
+    out += labels[i] * stride
+ValueError: operands could not be broadcast together with shapes (3764,) (3759,) (3764,) 
+
+2024-06-16 11:34:37,765 -INFO - All stocks - json file saved
+2024-06-16 11:34:37,765 -INFO - PIDILITIND.NS - alerts file Saved
+2024-06-16 11:34:37,765 -INFO - PIDILITIND.NS - Process function Ended
+2024-06-16 11:35:51,327 -INFO - DEEPAKNTR.NS -  two_line_structure function Ended
+2024-06-16 11:36:45,516 -INFO - COFORGE.NS -  two_line_structure function Ended
+2024-06-16 11:37:24,142 -INFO - PEL.NS -  two_line_structure function Ended
+2024-06-16 11:37:25,424 -INFO - All stocks - Excel file Saved
+2024-06-16 11:37:25,482 -INFO - All stocks - json file saved
+2024-06-16 11:37:25,509 -INFO - M&MFIN.NS - alerts file Saved
+2024-06-16 11:37:25,586 -INFO - M&MFIN.NS - Process function Ended
+2024-06-16 11:37:28,041 -INFO - All stocks - Excel file Saved
+2024-06-16 11:37:28,049 -INFO - All stocks - json file saved
+2024-06-16 11:37:28,049 -INFO - ITC.NS - alerts file Saved
+2024-06-16 11:37:28,051 -INFO - ITC.NS - Process function Ended
+2024-06-16 11:37:28,141 -INFO - All stocks - Excel file Saved
+2024-06-16 11:37:28,160 -INFO - All stocks - json file saved
+2024-06-16 11:37:28,160 -INFO - CIPLA.NS - alerts file Saved
+2024-06-16 11:37:28,160 -INFO - CIPLA.NS - Process function Ended
+2024-06-16 11:37:28,806 -INFO - All stocks - Excel file Saved
+2024-06-16 11:37:28,809 -INFO - All stocks - json file saved
+2024-06-16 11:37:28,810 -INFO - ASIANPAINT.NS - alerts file Saved
+2024-06-16 11:37:28,810 -INFO - ASIANPAINT.NS - Process function Ended
+2024-06-16 11:37:28,932 -INFO - All stocks - Excel file Saved
+2024-06-16 11:37:28,945 -INFO - All stocks - json file saved
+2024-06-16 11:37:28,945 -INFO - HDFCBANK.NS - alerts file Saved
+2024-06-16 11:37:28,945 -INFO - HDFCBANK.NS - Process function Ended
+2024-06-16 11:37:29,261 -INFO - All stocks - Excel file Saved
+2024-06-16 11:37:29,278 -INFO - All stocks - json file saved
+2024-06-16 11:37:29,279 -INFO - BAJAJ-AUTO.NS - alerts file Saved
+2024-06-16 11:37:29,279 -INFO - BAJAJ-AUTO.NS - Process function Ended
+2024-06-16 11:37:29,755 -INFO - All stocks - Excel file Saved
+2024-06-16 11:37:29,772 -INFO - All stocks - json file saved
+2024-06-16 11:37:29,773 -INFO - TATAMOTORS.NS - alerts file Saved
+2024-06-16 11:37:29,773 -INFO - TATAMOTORS.NS - Process function Ended
+2024-06-16 11:37:31,668 -INFO - DEEPAKNTR.NS -  detect_structure function Ended
+2024-06-16 11:37:31,669 -INFO - DEEPAKNTR.NS - add_ph_pl_values function started
+2024-06-16 11:37:31,699 -INFO - DEEPAKNTR.NS - add_ph_pl_values function Ended
+2024-06-16 11:37:48,952 -INFO - COFORGE.NS -  detect_structure function Ended
+2024-06-16 11:37:48,953 -INFO - COFORGE.NS - add_ph_pl_values function started
+2024-06-16 11:37:48,968 -INFO - COFORGE.NS - add_ph_pl_values function Ended
+2024-06-16 11:38:03,721 -INFO - PEL.NS -  detect_structure function Ended
+2024-06-16 11:38:03,721 -INFO - PEL.NS - add_ph_pl_values function started
+2024-06-16 11:38:03,726 -INFO - PEL.NS - add_ph_pl_values function Ended
+2024-06-16 11:38:42,379 -INFO - All stocks - Excel file Saved
+2024-06-16 11:38:42,379 -INFO - All stocks - json file saved
+2024-06-16 11:38:42,379 -INFO - DEEPAKNTR.NS - alerts file Saved
+2024-06-16 11:38:42,379 -INFO - DEEPAKNTR.NS - Process function Ended
+2024-06-16 11:38:43,677 -INFO - All stocks - Excel file Saved
+2024-06-16 11:38:43,677 -INFO - All stocks - json file saved
+2024-06-16 11:38:43,677 -INFO - COFORGE.NS - alerts file Saved
+2024-06-16 11:38:43,677 -INFO - COFORGE.NS - Process function Ended
+2024-06-16 11:38:44,501 -INFO - All stocks - Excel file Saved
+2024-06-16 11:38:44,501 -INFO - All stocks - json file saved
+2024-06-16 11:38:44,501 -INFO - PEL.NS - alerts file Saved
+2024-06-16 11:38:44,501 -INFO - PEL.NS - Process function Ended
+2024-06-16 11:39:05,093 -INFO - All stocks - Excel file Saved
+2024-06-16 11:39:05,094 -INFO - All stocks - json file saved
+2024-06-16 11:39:25,164 -INFO - All stocks - Excel file Saved
+2024-06-16 11:39:25,164 -INFO - All stocks - json file saved
