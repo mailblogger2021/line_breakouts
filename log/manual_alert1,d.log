@@ -110,3 +110,6 @@
 2024-06-17 08:44:39,671 -ERROR - 
 1 Failed download:
 2024-06-17 08:44:39,671 -ERROR - ['JSWSTEEL.NS']: OperationalError('database is locked')
+2024-06-17 09:45:26,762 -INFO - Started...
+2024-06-17 09:45:27,217 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-06-17 09:45:27,217 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
