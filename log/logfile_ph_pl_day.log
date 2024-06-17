@@ -187,3 +187,21 @@
 2024-06-14 10:33:12,795 -INFO - All stocks - json file saved
 2024-06-14 10:33:23,869 -INFO - All stocks - Excel file Saved
 2024-06-14 10:33:23,869 -INFO - All stocks - json file saved
+2024-06-17 11:35:34,559 -INFO - Started...
+2024-06-17 11:35:35,310 -INFO - Started...
+2024-06-17 11:35:42,280 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-06-17 11:35:44,304 -ERROR - 
+1 Failed download:
+2024-06-17 11:35:44,304 -ERROR - ['NIFTY']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+2024-06-17 11:35:44,348 -INFO - COLPAL.NS - Process function started
+2024-06-17 11:35:44,348 -INFO - COLPAL.NS - Reading existing data...
+2024-06-17 11:35:44,647 -INFO - COLPAL.NS - add_ph_pl_values function started
+2024-06-17 11:35:44,650 -INFO - COLPAL.NS - add_ph_pl_values function Ended
+2024-06-17 11:35:59,200 -INFO - All stocks - Excel file Saved
+2024-06-17 11:35:59,202 -INFO - All stocks - json file saved
+2024-06-17 11:35:59,202 -INFO - COLPAL.NS - alerts file Saved
+2024-06-17 11:35:59,202 -INFO - COLPAL.NS - Process function Ended
+2024-06-17 11:36:13,240 -INFO - All stocks - Excel file Saved
+2024-06-17 11:36:13,241 -INFO - All stocks - json file saved
+2024-06-17 11:36:27,235 -INFO - All stocks - Excel file Saved
+2024-06-17 11:36:27,235 -INFO - All stocks - json file saved
