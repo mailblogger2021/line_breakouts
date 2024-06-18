@@ -139,3 +139,65 @@ ValueError: operands could not be broadcast together with shapes (3764,) (3759,)
 2024-06-17 11:32:50,490 -INFO - All stocks - json file saved
 2024-06-17 11:33:10,386 -INFO - All stocks - Excel file Saved
 2024-06-17 11:33:10,386 -INFO - All stocks - json file saved
+2024-06-18 11:32:26,771 -INFO - Started...
+2024-06-18 11:32:29,329 -INFO - Started...
+2024-06-18 11:32:40,662 -ERROR - 
+1 Failed download:
+2024-06-18 11:32:40,663 -ERROR - ['BSOFT.NS']: OperationalError('database is locked')
+2024-06-18 11:32:40,723 -INFO - BEL.NS - Process function started
+2024-06-18 11:32:40,723 -INFO - ASTRAL.NS - Process function started
+2024-06-18 11:32:40,726 -INFO - BEL.NS - Reading existing data...
+2024-06-18 11:32:40,727 -INFO - GLENMARK.NS - Process function started
+2024-06-18 11:32:40,730 -INFO - GRANULES.NS - Process function started
+2024-06-18 11:32:40,734 -INFO - GRANULES.NS - isPivot function started
+2024-06-18 11:32:40,844 -INFO - GRANULES.NS - isPivot function Ended
+2024-06-18 11:32:40,844 -INFO - GRANULES.NS -  detect_structure function started
+2024-06-18 11:32:40,846 -INFO - GRANULES.NS -  two_line_structure function started
+2024-06-18 11:32:40,847 -INFO - GLENMARK.NS - isPivot function started
+2024-06-18 11:32:40,973 -INFO - GLENMARK.NS - isPivot function Ended
+2024-06-18 11:32:40,973 -INFO - GLENMARK.NS -  detect_structure function started
+2024-06-18 11:32:40,973 -INFO - GLENMARK.NS -  two_line_structure function started
+2024-06-18 11:32:40,977 -INFO - ASTRAL.NS - isPivot function started
+2024-06-18 11:32:41,111 -INFO - ASTRAL.NS - isPivot function Ended
+2024-06-18 11:32:41,113 -INFO - ASTRAL.NS -  detect_structure function started
+2024-06-18 11:32:41,114 -INFO - ASTRAL.NS -  two_line_structure function started
+2024-06-18 11:32:41,351 -INFO - last n isPivot function started
+2024-06-18 11:32:41,494 -INFO - last n isPivot function Ended
+2024-06-18 11:32:41,494 -INFO - BEL.NS - last n detect_structure function started
+2024-06-18 11:32:41,513 -INFO - BEL.NS - last n two_line_structure function started
+2024-06-18 11:32:49,446 -INFO - ASTRAL.NS -  two_line_structure function Ended
+2024-06-18 11:32:49,872 -INFO - GRANULES.NS -  two_line_structure function Ended
+2024-06-18 11:32:51,775 -INFO - GLENMARK.NS -  two_line_structure function Ended
+2024-06-18 11:32:52,497 -INFO - BEL.NS - last n two_line_structure function Ended
+2024-06-18 11:32:59,964 -INFO - ASTRAL.NS -  detect_structure function Ended
+2024-06-18 11:32:59,965 -INFO - ASTRAL.NS - add_ph_pl_values function started
+2024-06-18 11:32:59,987 -INFO - ASTRAL.NS - add_ph_pl_values function Ended
+2024-06-18 11:33:09,979 -INFO - GRANULES.NS -  detect_structure function Ended
+2024-06-18 11:33:09,980 -INFO - GRANULES.NS - add_ph_pl_values function started
+2024-06-18 11:33:10,000 -INFO - GRANULES.NS - add_ph_pl_values function Ended
+2024-06-18 11:33:20,997 -INFO - GLENMARK.NS -  detect_structure function Ended
+2024-06-18 11:33:20,998 -INFO - GLENMARK.NS - add_ph_pl_values function started
+2024-06-18 11:33:21,008 -INFO - GLENMARK.NS - add_ph_pl_values function Ended
+2024-06-18 11:33:29,580 -INFO - BEL.NS - last n detect_structure function Ended
+2024-06-18 11:33:29,854 -INFO - BEL.NS - add_ph_pl_values function started
+2024-06-18 11:33:29,862 -INFO - BEL.NS - add_ph_pl_values function Ended
+2024-06-18 11:34:18,288 -INFO - All stocks - Excel file Saved
+2024-06-18 11:34:18,293 -INFO - All stocks - json file saved
+2024-06-18 11:34:18,293 -INFO - GRANULES.NS - alerts file Saved
+2024-06-18 11:34:18,293 -INFO - GRANULES.NS - Process function Ended
+2024-06-18 11:34:18,783 -INFO - All stocks - Excel file Saved
+2024-06-18 11:34:18,783 -INFO - All stocks - json file saved
+2024-06-18 11:34:18,783 -INFO - ASTRAL.NS - alerts file Saved
+2024-06-18 11:34:18,783 -INFO - ASTRAL.NS - Process function Ended
+2024-06-18 11:34:19,496 -INFO - All stocks - Excel file Saved
+2024-06-18 11:34:19,496 -INFO - All stocks - json file saved
+2024-06-18 11:34:19,496 -INFO - BEL.NS - alerts file Saved
+2024-06-18 11:34:19,496 -INFO - BEL.NS - Process function Ended
+2024-06-18 11:34:20,103 -INFO - All stocks - Excel file Saved
+2024-06-18 11:34:20,103 -INFO - All stocks - json file saved
+2024-06-18 11:34:20,104 -INFO - GLENMARK.NS - alerts file Saved
+2024-06-18 11:34:20,104 -INFO - GLENMARK.NS - Process function Ended
+2024-06-18 11:34:41,142 -INFO - All stocks - Excel file Saved
+2024-06-18 11:34:41,142 -INFO - All stocks - json file saved
+2024-06-18 11:35:01,683 -INFO - All stocks - Excel file Saved
+2024-06-18 11:35:01,683 -INFO - All stocks - json file saved
