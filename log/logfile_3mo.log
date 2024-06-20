@@ -17256,3 +17256,28 @@ ValueError: Length of values (3468) does not match length of index (3449)
 2024-06-20 11:08:38,854 -INFO - Reset to default value..
 2024-06-20 11:08:41,948 -INFO - All stocks - Excel file Saved
 2024-06-20 11:08:41,949 -INFO - All stocks - json file saved
+2024-06-20 14:02:24,397 -INFO - Started...
+2024-06-20 14:19:05,585 -INFO - Itr - 0 - thread_limit - 25  - total_rows - 1
+2024-06-20 14:19:05,597 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-06-20 14:19:06,795 -ERROR - 
+1 Failed download:
+2024-06-20 14:19:06,796 -ERROR - ['NIFTY']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+2024-06-20 14:19:06,808 -INFO - ^BSESN - Process function started
+2024-06-20 14:19:06,809 -INFO - ^BSESN - Reading existing data...
+2024-06-20 14:19:06,888 -INFO - ^BSESN - add_ph_pl_values function started
+2024-06-20 14:19:06,892 -INFO - ^BSESN - add_ph_pl_values function Ended
+2024-06-20 14:19:08,190 -INFO - All stocks - Excel file Saved
+2024-06-20 14:19:08,190 -INFO - All stocks - json file saved
+2024-06-20 14:19:08,190 -INFO - ^BSESN - alerts file Saved
+2024-06-20 14:19:08,190 -INFO - ^BSESN - Process function Ended
+2024-06-20 14:19:09,563 -INFO - All stocks - Excel file Saved
+2024-06-20 14:19:09,564 -INFO - All stocks - json file saved
+2024-06-20 14:19:10,852 -INFO - All stocks - Excel file Saved
+2024-06-20 14:19:10,852 -INFO - All stocks - json file saved
+2024-06-20 14:19:10,852 -INFO - 0 - 1 - Stock threading ended ....
+2024-06-20 14:19:10,852 -INFO - 0 - time Completed 
+2024-06-20 14:19:10,852 -INFO - All sttock completed...
+2024-06-20 14:19:10,852 -INFO - After 1 itr Completed...Exit...
+2024-06-20 14:19:10,852 -INFO - Reset to default value..
+2024-06-20 14:19:12,151 -INFO - All stocks - Excel file Saved
+2024-06-20 14:19:12,152 -INFO - All stocks - json file saved
