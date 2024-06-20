@@ -41448,3 +41448,33 @@ ValueError: operands could not be broadcast together with shapes (37308,) (36885
 2024-06-19 14:18:37,333 -INFO - Message sent successfully! - 
 2024-06-19 14:18:55,747 -INFO - All stocks - Excel file Saved
 2024-06-19 14:18:55,748 -INFO - All stocks - json file saved
+2024-06-20 10:50:52,014 -INFO - Started...
+2024-06-20 11:07:39,332 -INFO - Itr - 0 - thread_limit - 25  - total_rows - 1
+2024-06-20 11:07:39,344 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-06-20 11:07:41,474 -ERROR - 
+1 Failed download:
+2024-06-20 11:07:41,474 -ERROR - ['NIFTY']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+2024-06-20 11:07:41,501 -INFO - ^BSESN - Process function started
+2024-06-20 11:07:41,515 -INFO - ^BSESN - isPivot function started
+2024-06-20 11:07:42,193 -INFO - ^BSESN - isPivot function Ended
+2024-06-20 11:07:42,193 -INFO - ^BSESN -  detect_structure function started
+2024-06-20 11:07:42,193 -INFO - ^BSESN -  two_line_structure function started
+2024-06-20 11:07:58,130 -INFO - ^BSESN -  two_line_structure function Ended
+2024-06-20 11:07:58,821 -INFO - ^BSESN -  detect_structure function Ended
+2024-06-20 11:07:58,821 -INFO - ^BSESN - add_ph_pl_values function started
+2024-06-20 11:07:58,826 -INFO - ^BSESN - add_ph_pl_values function Ended
+2024-06-20 11:08:14,490 -INFO - All stocks - Excel file Saved
+2024-06-20 11:08:14,491 -INFO - All stocks - json file saved
+2024-06-20 11:08:14,491 -INFO - ^BSESN - alerts file Saved
+2024-06-20 11:08:14,491 -INFO - ^BSESN - Process function Ended
+2024-06-20 11:08:29,152 -INFO - All stocks - Excel file Saved
+2024-06-20 11:08:29,152 -INFO - All stocks - json file saved
+2024-06-20 11:08:43,687 -INFO - All stocks - Excel file Saved
+2024-06-20 11:08:43,687 -INFO - All stocks - json file saved
+2024-06-20 11:08:43,687 -INFO - 0 - 1 - Stock threading ended ....
+2024-06-20 11:08:43,687 -INFO - 0 - time Completed 
+2024-06-20 11:08:43,687 -INFO - All sttock completed...
+2024-06-20 11:08:43,687 -INFO - After 1 itr Completed...Exit...
+2024-06-20 11:08:43,687 -INFO - Reset to default value..
+2024-06-20 11:08:58,139 -INFO - All stocks - Excel file Saved
+2024-06-20 11:08:58,139 -INFO - All stocks - json file saved
