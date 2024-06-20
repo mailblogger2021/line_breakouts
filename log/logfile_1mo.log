@@ -17306,3 +17306,27 @@ ValueError: Length of values (14873) does not match length of index (14860)
 2024-06-20 11:26:38,790 -INFO - Reset to default value..
 2024-06-20 11:26:43,122 -INFO - All stocks - Excel file Saved
 2024-06-20 11:26:43,123 -INFO - All stocks - json file saved
+2024-06-20 14:21:45,904 -INFO - Started...
+2024-06-20 14:38:29,276 -INFO - Itr - 0 - thread_limit - 25  - total_rows - 1
+2024-06-20 14:38:31,167 -ERROR - 
+1 Failed download:
+2024-06-20 14:38:31,167 -ERROR - ['NIFTY']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+2024-06-20 14:38:31,189 -INFO - ^BSESN - Process function started
+2024-06-20 14:38:31,189 -INFO - ^BSESN - Reading existing data...
+2024-06-20 14:38:31,237 -INFO - ^BSESN - add_ph_pl_values function started
+2024-06-20 14:38:31,247 -INFO - ^BSESN - add_ph_pl_values function Ended
+2024-06-20 14:38:41,474 -INFO - All stocks - Excel file Saved
+2024-06-20 14:38:41,474 -INFO - All stocks - json file saved
+2024-06-20 14:38:41,474 -INFO - ^BSESN - alerts file Saved
+2024-06-20 14:38:41,474 -INFO - ^BSESN - Process function Ended
+2024-06-20 14:38:51,364 -INFO - All stocks - Excel file Saved
+2024-06-20 14:38:51,365 -INFO - All stocks - json file saved
+2024-06-20 14:39:01,853 -INFO - All stocks - Excel file Saved
+2024-06-20 14:39:01,854 -INFO - All stocks - json file saved
+2024-06-20 14:39:01,854 -INFO - 0 - 1 - Stock threading ended ....
+2024-06-20 14:39:01,854 -INFO - 0 - time Completed 
+2024-06-20 14:39:01,854 -INFO - All sttock completed...
+2024-06-20 14:39:01,854 -INFO - After 1 itr Completed...Exit...
+2024-06-20 14:39:01,854 -INFO - Reset to default value..
+2024-06-20 14:39:13,488 -INFO - All stocks - Excel file Saved
+2024-06-20 14:39:13,490 -INFO - All stocks - json file saved
