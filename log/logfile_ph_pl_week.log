@@ -212,3 +212,51 @@ ValueError: operands could not be broadcast together with shapes (3764,) (3759,)
 2024-06-19 11:34:55,775 -INFO - All stocks - json file saved
 2024-06-19 11:35:17,076 -INFO - All stocks - Excel file Saved
 2024-06-19 11:35:17,076 -INFO - All stocks - json file saved
+2024-06-20 11:38:11,143 -INFO - Started...
+2024-06-20 11:38:11,931 -INFO - Started...
+2024-06-20 11:38:22,369 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-06-20 11:38:23,612 -ERROR - 
+1 Failed download:
+2024-06-20 11:38:23,612 -ERROR - ['ASTRAL.NS']: OperationalError('database is locked')
+2024-06-20 11:38:23,647 -INFO - GRANULES.NS - Process function started
+2024-06-20 11:38:23,647 -INFO - GRANULES.NS - Reading existing data...
+2024-06-20 11:38:23,647 -INFO - BEL.NS - Process function started
+2024-06-20 11:38:23,647 -INFO - BEL.NS - Reading existing data...
+2024-06-20 11:38:23,647 -INFO - BSOFT.NS - Process function started
+2024-06-20 11:38:23,648 -INFO - GLENMARK.NS - Process function started
+2024-06-20 11:38:23,648 -INFO - BSOFT.NS - Reading existing data...
+2024-06-20 11:38:23,648 -INFO - GLENMARK.NS - Reading existing data...
+2024-06-20 11:38:23,726 -INFO - GRANULES.NS - add_ph_pl_values function started
+2024-06-20 11:38:23,908 -INFO - GLENMARK.NS - add_ph_pl_values function started
+2024-06-20 11:38:23,911 -INFO - GRANULES.NS - add_ph_pl_values function Ended
+2024-06-20 11:38:23,913 -INFO - BSOFT.NS - add_ph_pl_values function started
+2024-06-20 11:38:23,970 -INFO - last n isPivot function started
+2024-06-20 11:38:24,137 -INFO - last n isPivot function Ended
+2024-06-20 11:38:24,137 -INFO - BEL.NS - last n detect_structure function started
+2024-06-20 11:38:24,139 -INFO - BEL.NS - last n two_line_structure function started
+2024-06-20 11:38:24,148 -INFO - GLENMARK.NS - add_ph_pl_values function Ended
+2024-06-20 11:38:24,289 -INFO - BSOFT.NS - add_ph_pl_values function Ended
+2024-06-20 11:39:24,572 -INFO - BEL.NS - last n two_line_structure function Ended
+2024-06-20 11:39:28,656 -INFO - All stocks - Excel file Saved
+2024-06-20 11:39:28,656 -INFO - All stocks - Excel file Saved
+2024-06-20 11:39:28,658 -INFO - All stocks - json file saved
+2024-06-20 11:39:28,658 -INFO - GRANULES.NS - alerts file Saved
+2024-06-20 11:39:28,658 -INFO - GRANULES.NS - Process function Ended
+2024-06-20 11:39:28,659 -INFO - All stocks - json file saved
+2024-06-20 11:39:28,659 -INFO - BSOFT.NS - alerts file Saved
+2024-06-20 11:39:28,659 -INFO - BSOFT.NS - Process function Ended
+2024-06-20 11:39:29,007 -INFO - All stocks - Excel file Saved
+2024-06-20 11:39:29,007 -INFO - All stocks - json file saved
+2024-06-20 11:39:29,007 -INFO - GLENMARK.NS - alerts file Saved
+2024-06-20 11:39:29,007 -INFO - GLENMARK.NS - Process function Ended
+2024-06-20 11:39:30,314 -INFO - BEL.NS - last n detect_structure function Ended
+2024-06-20 11:39:30,315 -INFO - BEL.NS - add_ph_pl_values function started
+2024-06-20 11:39:30,318 -INFO - BEL.NS - add_ph_pl_values function Ended
+2024-06-20 11:39:50,795 -INFO - All stocks - Excel file Saved
+2024-06-20 11:39:50,796 -INFO - All stocks - json file saved
+2024-06-20 11:39:50,796 -INFO - BEL.NS - alerts file Saved
+2024-06-20 11:39:50,796 -INFO - BEL.NS - Process function Ended
+2024-06-20 11:40:11,308 -INFO - All stocks - Excel file Saved
+2024-06-20 11:40:11,309 -INFO - All stocks - json file saved
+2024-06-20 11:40:31,761 -INFO - All stocks - Excel file Saved
+2024-06-20 11:40:31,762 -INFO - All stocks - json file saved
