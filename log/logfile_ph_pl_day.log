@@ -337,3 +337,82 @@
 2024-06-26 11:38:45,435 -INFO - All stocks - json file saved
 2024-06-26 11:39:00,163 -INFO - All stocks - Excel file Saved
 2024-06-26 11:39:00,163 -INFO - All stocks - json file saved
+2024-06-27 11:35:36,981 -INFO - Started...
+2024-06-27 11:35:37,860 -INFO - Started...
+2024-06-27 11:35:45,125 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-06-27 11:35:46,382 -ERROR - 
+1 Failed download:
+2024-06-27 11:35:46,382 -ERROR - ['ABBOTINDIA.NS']: OperationalError('database is locked')
+2024-06-27 11:35:46,471 -INFO - TATAMOTORS.NS - Process function started
+2024-06-27 11:35:46,471 -INFO - TATAMOTORS.NS - Reading existing data...
+2024-06-27 11:35:46,471 -INFO - MARUTI.NS - Process function started
+2024-06-27 11:35:46,472 -INFO - MARUTI.NS - Reading existing data...
+2024-06-27 11:35:46,472 -INFO - SUNTV.NS - Process function started
+2024-06-27 11:35:46,480 -INFO - DALBHARAT.NS - Process function started
+2024-06-27 11:35:46,480 -INFO - DALBHARAT.NS - Reading existing data...
+2024-06-27 11:35:46,480 -INFO - UBL.NS - Process function started
+2024-06-27 11:35:46,480 -INFO - UBL.NS - Reading existing data...
+2024-06-27 11:35:46,484 -INFO - SUNTV.NS - isPivot function started
+2024-06-27 11:35:46,974 -INFO - SUNTV.NS - isPivot function Ended
+2024-06-27 11:35:46,974 -INFO - SUNTV.NS -  detect_structure function started
+2024-06-27 11:35:46,978 -INFO - SUNTV.NS -  two_line_structure function started
+2024-06-27 11:35:48,139 -INFO - last n isPivot function started
+2024-06-27 11:35:48,141 -INFO - last n isPivot function started
+2024-06-27 11:35:48,147 -INFO - last n isPivot function started
+2024-06-27 11:35:49,171 -INFO - last n isPivot function Ended
+2024-06-27 11:35:49,171 -INFO - DALBHARAT.NS - last n detect_structure function started
+2024-06-27 11:35:49,171 -INFO - last n isPivot function Ended
+2024-06-27 11:35:49,298 -INFO - DALBHARAT.NS - last n two_line_structure function started
+2024-06-27 11:35:49,301 -INFO - MARUTI.NS - last n detect_structure function started
+2024-06-27 11:35:49,305 -INFO - MARUTI.NS - last n two_line_structure function started
+2024-06-27 11:35:49,309 -INFO - last n isPivot function Ended
+2024-06-27 11:35:49,309 -INFO - UBL.NS - last n detect_structure function started
+2024-06-27 11:35:49,315 -INFO - UBL.NS - last n two_line_structure function started
+2024-06-27 11:35:49,383 -INFO - last n isPivot function started
+2024-06-27 11:35:50,370 -INFO - last n isPivot function Ended
+2024-06-27 11:35:50,370 -INFO - TATAMOTORS.NS - last n detect_structure function started
+2024-06-27 11:35:50,374 -INFO - TATAMOTORS.NS - last n two_line_structure function started
+2024-06-27 11:36:07,486 -INFO - DALBHARAT.NS - last n two_line_structure function Ended
+2024-06-27 11:36:11,875 -INFO - DALBHARAT.NS - last n detect_structure function Ended
+2024-06-27 11:36:11,878 -INFO - DALBHARAT.NS - add_ph_pl_values function started
+2024-06-27 11:36:11,937 -INFO - DALBHARAT.NS - add_ph_pl_values function Ended
+2024-06-27 11:36:52,570 -INFO - SUNTV.NS -  two_line_structure function Ended
+2024-06-27 11:36:53,766 -INFO - UBL.NS - last n two_line_structure function Ended
+2024-06-27 11:36:55,034 -INFO - All stocks - Excel file Saved
+2024-06-27 11:36:55,041 -INFO - All stocks - json file saved
+2024-06-27 11:36:55,042 -INFO - DALBHARAT.NS - alerts file Saved
+2024-06-27 11:36:55,043 -INFO - DALBHARAT.NS - Process function Ended
+2024-06-27 11:37:01,800 -INFO - SUNTV.NS -  detect_structure function Ended
+2024-06-27 11:37:01,800 -INFO - SUNTV.NS - add_ph_pl_values function started
+2024-06-27 11:37:01,822 -INFO - SUNTV.NS - add_ph_pl_values function Ended
+2024-06-27 11:37:08,628 -INFO - UBL.NS - last n detect_structure function Ended
+2024-06-27 11:37:08,631 -INFO - UBL.NS - add_ph_pl_values function started
+2024-06-27 11:37:08,664 -INFO - UBL.NS - add_ph_pl_values function Ended
+2024-06-27 11:37:09,463 -INFO - MARUTI.NS - last n two_line_structure function Ended
+2024-06-27 11:37:22,772 -INFO - MARUTI.NS - last n detect_structure function Ended
+2024-06-27 11:37:22,774 -INFO - MARUTI.NS - add_ph_pl_values function started
+2024-06-27 11:37:22,780 -INFO - MARUTI.NS - add_ph_pl_values function Ended
+2024-06-27 11:37:46,340 -INFO - All stocks - Excel file Saved
+2024-06-27 11:37:46,344 -INFO - All stocks - json file saved
+2024-06-27 11:37:46,344 -INFO - SUNTV.NS - alerts file Saved
+2024-06-27 11:37:46,344 -INFO - SUNTV.NS - Process function Ended
+2024-06-27 11:37:51,807 -INFO - All stocks - Excel file Saved
+2024-06-27 11:37:51,811 -INFO - All stocks - json file saved
+2024-06-27 11:37:51,811 -INFO - UBL.NS - alerts file Saved
+2024-06-27 11:37:51,811 -INFO - UBL.NS - Process function Ended
+2024-06-27 11:37:58,031 -INFO - All stocks - Excel file Saved
+2024-06-27 11:37:58,035 -INFO - All stocks - json file saved
+2024-06-27 11:37:58,035 -INFO - MARUTI.NS - alerts file Saved
+2024-06-27 11:37:58,035 -INFO - MARUTI.NS - Process function Ended
+2024-06-27 11:37:59,097 -INFO - TATAMOTORS.NS - last n two_line_structure function Ended
+2024-06-27 11:38:00,417 -INFO - TATAMOTORS.NS - last n detect_structure function Ended
+2024-06-27 11:38:00,418 -INFO - TATAMOTORS.NS - add_ph_pl_values function started
+2024-06-27 11:38:00,420 -INFO - TATAMOTORS.NS - add_ph_pl_values function Ended
+2024-06-27 11:38:16,399 -INFO - All stocks - Excel file Saved
+2024-06-27 11:38:16,399 -INFO - All stocks - json file saved
+2024-06-27 11:38:16,399 -INFO - TATAMOTORS.NS - alerts file Saved
+2024-06-27 11:38:16,399 -INFO - TATAMOTORS.NS - Process function Ended
+2024-06-27 11:38:31,239 -INFO - All stocks - Excel file Saved
+2024-06-27 11:38:31,239 -INFO - All stocks - json file saved
+2024-06-27 11:38:45,959 -INFO - All stocks - Excel file Saved
+2024-06-27 11:38:45,959 -INFO - All stocks - json file saved
