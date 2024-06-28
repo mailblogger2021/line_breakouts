@@ -116,6 +116,13 @@ if __name__=="__main__":
     title_list = []
     sheet_names = []
 
+    base_code = "( {cash} ( quarterly volume >= 1 quarter ago volume * 1.25 and 1 quarter ago volume >= 10000000 and quarterly volume >= 10000000 and ( quarterly max ( 4 , 1 quarter ago close ) ) < quarterly close and ( 1 quarter ago  max ( 4 , 1 quarter ago close )) >= 1 quarter ago  close ) ) "
+    base_code_list.append(base_code)
+
+    title = "Quarterly breakout"
+    title_list.append(title)
+    sheet_names.append("Quarterly breakout")
+
     base_code = "( {cash} ( market cap > 1000 and latest close > 50 and latest sma ( latest volume , 20 ) > 500000 and 1 day ago sma ( 1 day ago high / 1 day ago low , 40 ) < 1.3 and ( {cash} ( 1 day ago max ( 10 , latest high ) < 11 days ago max ( 15 , latest high ) and 26 days ago max ( 15 , latest high ) < 41 days ago max ( 19 , latest high ) and 1 day ago min ( 10 , latest low ) > 11 days ago min ( 15 , latest low ) and 26 days ago min ( 15 , latest low ) > 41 days ago min ( 19 , latest low ) ) ) and ( {cash} ( 1 day ago high < 2 days ago max ( 58 , latest high ) and 1 day ago low > 2 days ago min ( 40 , latest low ) and ( 1 day ago max ( 10 , latest high ) - 1 day ago min ( 10 , 1 day ago low ) ) < ( 26 days ago max ( 15 , latest high ) - 26 days ago min ( 15 , latest low ) ) and ( 26 days ago max ( 15 , latest high ) - 26 days ago min ( 15 , 1 day ago low ) ) < ( 41 days ago max ( 19 , latest high ) - 41 days ago min ( 19 , latest low ) ) and latest volume > latest ema ( latest volume , 20 ) * 2 and ( {cash} ( latest close > 1 day ago max ( 10 , latest high ) ) ) ) ) ) ) "
     base_code_list.append(base_code)
 
