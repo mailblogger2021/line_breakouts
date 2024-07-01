@@ -247,3 +247,5 @@
 2024-07-01 04:45:38,985 -ERROR - 
 1 Failed download:
 2024-07-01 04:45:38,985 -ERROR - ['IRFC.NS']: OperationalError('database is locked')
+2024-07-01 05:44:37,927 -INFO - Started...
+2024-07-01 05:44:38,409 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
