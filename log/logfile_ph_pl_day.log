@@ -464,3 +464,149 @@
 2024-07-01 11:37:06,405 -INFO - All stocks - json file saved
 2024-07-01 11:37:23,655 -INFO - All stocks - Excel file Saved
 2024-07-01 11:37:23,655 -INFO - All stocks - json file saved
+2024-07-02 11:34:39,714 -INFO - Started...
+2024-07-02 11:34:40,600 -INFO - Started...
+2024-07-02 11:34:48,148 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-07-02 11:34:51,417 -INFO - ABFRL.NS - Process function started
+2024-07-02 11:34:51,421 -INFO - BAJFINANCE.NS - Process function started
+2024-07-02 11:34:51,421 -INFO - BAJFINANCE.NS - Reading existing data...
+2024-07-02 11:34:51,422 -INFO - ABB.NS - Process function started
+2024-07-02 11:34:51,422 -INFO - HEROMOTOCO.NS - Process function started
+2024-07-02 11:34:51,422 -INFO - ABB.NS - Reading existing data...
+2024-07-02 11:34:51,422 -INFO - EICHERMOT.NS - Process function started
+2024-07-02 11:34:51,422 -INFO - HEROMOTOCO.NS - Reading existing data...
+2024-07-02 11:34:51,422 -INFO - DLF.NS - Process function started
+2024-07-02 11:34:51,422 -INFO - EICHERMOT.NS - Reading existing data...
+2024-07-02 11:34:51,423 -INFO - DLF.NS - Reading existing data...
+2024-07-02 11:34:51,423 -INFO - TITAN.NS - Process function started
+2024-07-02 11:34:51,423 -INFO - TATASTEEL.NS - Process function started
+2024-07-02 11:34:51,423 -INFO - M&M.NS - Process function started
+2024-07-02 11:34:51,424 -INFO - BAJAJ-AUTO.NS - Process function started
+2024-07-02 11:34:51,424 -INFO - ABFRL.NS - isPivot function started
+2024-07-02 11:34:51,424 -INFO - TITAN.NS - Reading existing data...
+2024-07-02 11:34:51,425 -INFO - TATASTEEL.NS - Reading existing data...
+2024-07-02 11:34:51,426 -INFO - M&M.NS - Reading existing data...
+2024-07-02 11:34:51,427 -INFO - BAJAJ-AUTO.NS - Reading existing data...
+2024-07-02 11:34:51,737 -INFO - ABFRL.NS - isPivot function Ended
+2024-07-02 11:34:51,738 -INFO - ABFRL.NS -  detect_structure function started
+2024-07-02 11:34:51,739 -INFO - ABFRL.NS -  two_line_structure function started
+2024-07-02 11:34:52,774 -INFO - last n isPivot function started
+2024-07-02 11:34:53,573 -INFO - last n isPivot function started
+2024-07-02 11:34:53,992 -INFO - last n isPivot function started
+2024-07-02 11:34:54,332 -INFO - last n isPivot function Ended
+2024-07-02 11:34:54,332 -INFO - ABB.NS - last n detect_structure function started
+2024-07-02 11:34:54,342 -INFO - last n isPivot function Ended
+2024-07-02 11:34:54,475 -INFO - ABB.NS - last n two_line_structure function started
+2024-07-02 11:34:54,488 -INFO - BAJFINANCE.NS - last n detect_structure function started
+2024-07-02 11:34:55,150 -INFO - last n isPivot function Ended
+2024-07-02 11:34:55,155 -INFO - BAJFINANCE.NS - last n two_line_structure function started
+2024-07-02 11:34:55,379 -INFO - DLF.NS - last n detect_structure function started
+2024-07-02 11:34:55,428 -INFO - DLF.NS - last n two_line_structure function started
+2024-07-02 11:34:56,342 -INFO - last n isPivot function started
+2024-07-02 11:34:57,329 -INFO - last n isPivot function Ended
+2024-07-02 11:34:57,330 -INFO - HEROMOTOCO.NS - last n detect_structure function started
+2024-07-02 11:34:57,353 -INFO - HEROMOTOCO.NS - last n two_line_structure function started
+2024-07-02 11:34:57,441 -INFO - last n isPivot function started
+2024-07-02 11:34:57,469 -INFO - last n isPivot function started
+2024-07-02 11:34:59,136 -INFO - last n isPivot function Ended
+2024-07-02 11:34:59,136 -INFO - EICHERMOT.NS - last n detect_structure function started
+2024-07-02 11:34:59,137 -INFO - EICHERMOT.NS - last n two_line_structure function started
+2024-07-02 11:34:59,163 -INFO - last n isPivot function Ended
+2024-07-02 11:34:59,163 -INFO - TITAN.NS - last n detect_structure function started
+2024-07-02 11:34:59,179 -INFO - TITAN.NS - last n two_line_structure function started
+2024-07-02 11:34:59,196 -INFO - last n isPivot function started
+2024-07-02 11:34:59,391 -INFO - last n isPivot function started
+2024-07-02 11:35:00,106 -INFO - last n isPivot function Ended
+2024-07-02 11:35:00,108 -INFO - TATASTEEL.NS - last n detect_structure function started
+2024-07-02 11:35:00,113 -INFO - TATASTEEL.NS - last n two_line_structure function started
+2024-07-02 11:35:00,126 -INFO - last n isPivot function started
+2024-07-02 11:35:01,763 -INFO - last n isPivot function Ended
+2024-07-02 11:35:01,797 -INFO - last n isPivot function Ended
+2024-07-02 11:35:01,797 -INFO - BAJAJ-AUTO.NS - last n detect_structure function started
+2024-07-02 11:35:01,804 -INFO - BAJAJ-AUTO.NS - last n two_line_structure function started
+2024-07-02 11:35:01,813 -INFO - M&M.NS - last n detect_structure function started
+2024-07-02 11:35:01,818 -INFO - M&M.NS - last n two_line_structure function started
+2024-07-02 11:36:02,622 -INFO - ABFRL.NS -  two_line_structure function Ended
+2024-07-02 11:36:21,476 -INFO - ABFRL.NS -  detect_structure function Ended
+2024-07-02 11:36:21,478 -INFO - ABFRL.NS - add_ph_pl_values function started
+2024-07-02 11:36:21,559 -INFO - ABFRL.NS - add_ph_pl_values function Ended
+2024-07-02 11:37:09,025 -INFO - DLF.NS - last n two_line_structure function Ended
+2024-07-02 11:37:39,087 -INFO - DLF.NS - last n detect_structure function Ended
+2024-07-02 11:37:39,105 -INFO - DLF.NS - add_ph_pl_values function started
+2024-07-02 11:37:39,199 -INFO - DLF.NS - add_ph_pl_values function Ended
+2024-07-02 11:37:41,540 -INFO - All stocks - Excel file Saved
+2024-07-02 11:37:41,567 -INFO - All stocks - json file saved
+2024-07-02 11:37:41,567 -INFO - ABFRL.NS - alerts file Saved
+2024-07-02 11:37:41,571 -INFO - ABFRL.NS - Process function Ended
+2024-07-02 11:37:49,879 -INFO - BAJAJ-AUTO.NS - last n two_line_structure function Ended
+2024-07-02 11:37:51,681 -INFO - BAJFINANCE.NS - last n two_line_structure function Ended
+2024-07-02 11:37:51,857 -INFO - HEROMOTOCO.NS - last n two_line_structure function Ended
+2024-07-02 11:37:54,224 -INFO - ABB.NS - last n two_line_structure function Ended
+2024-07-02 11:38:24,362 -INFO - HEROMOTOCO.NS - last n detect_structure function Ended
+2024-07-02 11:38:24,379 -INFO - HEROMOTOCO.NS - add_ph_pl_values function started
+2024-07-02 11:38:24,425 -INFO - HEROMOTOCO.NS - add_ph_pl_values function Ended
+2024-07-02 11:38:25,499 -INFO - BAJAJ-AUTO.NS - last n detect_structure function Ended
+2024-07-02 11:38:25,510 -INFO - BAJAJ-AUTO.NS - add_ph_pl_values function started
+2024-07-02 11:38:25,579 -INFO - BAJAJ-AUTO.NS - add_ph_pl_values function Ended
+2024-07-02 11:38:31,844 -INFO - BAJFINANCE.NS - last n detect_structure function Ended
+2024-07-02 11:38:31,848 -INFO - BAJFINANCE.NS - add_ph_pl_values function started
+2024-07-02 11:38:31,904 -INFO - BAJFINANCE.NS - add_ph_pl_values function Ended
+2024-07-02 11:38:46,340 -INFO - TATASTEEL.NS - last n two_line_structure function Ended
+2024-07-02 11:38:46,667 -INFO - ABB.NS - last n detect_structure function Ended
+2024-07-02 11:38:46,670 -INFO - ABB.NS - add_ph_pl_values function started
+2024-07-02 11:38:46,692 -INFO - ABB.NS - add_ph_pl_values function Ended
+2024-07-02 11:38:51,954 -INFO - All stocks - Excel file Saved
+2024-07-02 11:38:52,116 -INFO - All stocks - json file saved
+2024-07-02 11:38:52,117 -INFO - DLF.NS - alerts file Saved
+2024-07-02 11:38:52,117 -INFO - DLF.NS - Process function Ended
+2024-07-02 11:38:54,200 -INFO - TITAN.NS - last n two_line_structure function Ended
+2024-07-02 11:38:54,450 -INFO - M&M.NS - last n two_line_structure function Ended
+2024-07-02 11:38:54,483 -INFO - EICHERMOT.NS - last n two_line_structure function Ended
+2024-07-02 11:39:34,185 -INFO - All stocks - Excel file Saved
+2024-07-02 11:39:34,190 -INFO - All stocks - json file saved
+2024-07-02 11:39:34,190 -INFO - HEROMOTOCO.NS - alerts file Saved
+2024-07-02 11:39:34,190 -INFO - HEROMOTOCO.NS - Process function Ended
+2024-07-02 11:39:34,546 -INFO - All stocks - Excel file Saved
+2024-07-02 11:39:34,548 -INFO - All stocks - json file saved
+2024-07-02 11:39:34,548 -INFO - BAJAJ-AUTO.NS - alerts file Saved
+2024-07-02 11:39:34,548 -INFO - BAJAJ-AUTO.NS - Process function Ended
+2024-07-02 11:39:37,484 -INFO - All stocks - Excel file Saved
+2024-07-02 11:39:37,488 -INFO - All stocks - json file saved
+2024-07-02 11:39:37,488 -INFO - BAJFINANCE.NS - alerts file Saved
+2024-07-02 11:39:37,488 -INFO - BAJFINANCE.NS - Process function Ended
+2024-07-02 11:39:39,296 -INFO - All stocks - Excel file Saved
+2024-07-02 11:39:39,305 -INFO - All stocks - json file saved
+2024-07-02 11:39:39,305 -INFO - ABB.NS - alerts file Saved
+2024-07-02 11:39:39,306 -INFO - ABB.NS - Process function Ended
+2024-07-02 11:39:39,417 -INFO - TATASTEEL.NS - last n detect_structure function Ended
+2024-07-02 11:39:39,422 -INFO - TATASTEEL.NS - add_ph_pl_values function started
+2024-07-02 11:39:39,445 -INFO - TATASTEEL.NS - add_ph_pl_values function Ended
+2024-07-02 11:39:46,493 -INFO - TITAN.NS - last n detect_structure function Ended
+2024-07-02 11:39:46,497 -INFO - TITAN.NS - add_ph_pl_values function started
+2024-07-02 11:39:46,517 -INFO - TITAN.NS - add_ph_pl_values function Ended
+2024-07-02 11:39:47,535 -INFO - M&M.NS - last n detect_structure function Ended
+2024-07-02 11:39:47,536 -INFO - M&M.NS - add_ph_pl_values function started
+2024-07-02 11:39:47,539 -INFO - M&M.NS - add_ph_pl_values function Ended
+2024-07-02 11:39:58,269 -INFO - EICHERMOT.NS - last n detect_structure function Ended
+2024-07-02 11:39:58,270 -INFO - EICHERMOT.NS - add_ph_pl_values function started
+2024-07-02 11:39:58,275 -INFO - EICHERMOT.NS - add_ph_pl_values function Ended
+2024-07-02 11:40:38,516 -INFO - All stocks - Excel file Saved
+2024-07-02 11:40:38,516 -INFO - All stocks - json file saved
+2024-07-02 11:40:38,516 -INFO - TATASTEEL.NS - alerts file Saved
+2024-07-02 11:40:38,516 -INFO - TATASTEEL.NS - Process function Ended
+2024-07-02 11:40:38,672 -INFO - All stocks - Excel file Saved
+2024-07-02 11:40:38,672 -INFO - All stocks - json file saved
+2024-07-02 11:40:38,672 -INFO - M&M.NS - alerts file Saved
+2024-07-02 11:40:38,672 -INFO - M&M.NS - Process function Ended
+2024-07-02 11:40:38,875 -INFO - All stocks - Excel file Saved
+2024-07-02 11:40:38,876 -INFO - All stocks - json file saved
+2024-07-02 11:40:38,876 -INFO - TITAN.NS - alerts file Saved
+2024-07-02 11:40:38,876 -INFO - TITAN.NS - Process function Ended
+2024-07-02 11:40:41,598 -INFO - All stocks - Excel file Saved
+2024-07-02 11:40:41,599 -INFO - All stocks - json file saved
+2024-07-02 11:40:41,599 -INFO - EICHERMOT.NS - alerts file Saved
+2024-07-02 11:40:41,599 -INFO - EICHERMOT.NS - Process function Ended
+2024-07-02 11:40:57,207 -INFO - All stocks - Excel file Saved
+2024-07-02 11:40:57,208 -INFO - All stocks - json file saved
+2024-07-02 11:41:12,489 -INFO - All stocks - Excel file Saved
+2024-07-02 11:41:12,489 -INFO - All stocks - json file saved
