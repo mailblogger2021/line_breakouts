@@ -610,3 +610,122 @@
 2024-07-02 11:40:57,208 -INFO - All stocks - json file saved
 2024-07-02 11:41:12,489 -INFO - All stocks - Excel file Saved
 2024-07-02 11:41:12,489 -INFO - All stocks - json file saved
+2024-07-03 11:34:45,809 -INFO - Started...
+2024-07-03 11:34:46,693 -INFO - Started...
+2024-07-03 11:34:55,748 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-07-03 11:34:55,749 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-07-03 11:34:56,722 -INFO - HAL.NS - Process function started
+2024-07-03 11:34:56,722 -INFO - HDFCLIFE.NS - Process function started
+2024-07-03 11:34:56,722 -INFO - HAL.NS - Reading existing data...
+2024-07-03 11:34:56,723 -INFO - INDUSINDBK.NS - Process function started
+2024-07-03 11:34:56,723 -INFO - HDFCLIFE.NS - Reading existing data...
+2024-07-03 11:34:56,723 -INFO - TORNTPHARM.NS - Process function started
+2024-07-03 11:34:56,723 -INFO - BALKRISIND.NS - Process function started
+2024-07-03 11:34:56,723 -INFO - VOLTAS.NS - Process function started
+2024-07-03 11:34:56,723 -INFO - CIPLA.NS - Process function started
+2024-07-03 11:34:56,723 -INFO - CHOLAFIN.NS - Process function started
+2024-07-03 11:34:56,724 -INFO - INDUSINDBK.NS - Reading existing data...
+2024-07-03 11:34:56,724 -INFO - TORNTPHARM.NS - Reading existing data...
+2024-07-03 11:34:56,733 -INFO - VOLTAS.NS - Reading existing data...
+2024-07-03 11:34:56,734 -INFO - CIPLA.NS - Reading existing data...
+2024-07-03 11:34:56,734 -INFO - CHOLAFIN.NS - Reading existing data...
+2024-07-03 11:34:56,736 -INFO - BALKRISIND.NS - isPivot function started
+2024-07-03 11:34:57,316 -INFO - BALKRISIND.NS - isPivot function Ended
+2024-07-03 11:34:57,316 -INFO - BALKRISIND.NS -  detect_structure function started
+2024-07-03 11:34:57,316 -INFO - BALKRISIND.NS -  two_line_structure function started
+2024-07-03 11:34:57,696 -INFO - last n isPivot function started
+2024-07-03 11:34:57,960 -INFO - last n isPivot function started
+2024-07-03 11:34:57,977 -INFO - last n isPivot function Ended
+2024-07-03 11:34:58,235 -INFO - HDFCLIFE.NS - last n detect_structure function started
+2024-07-03 11:34:58,271 -INFO - HDFCLIFE.NS - last n two_line_structure function started
+2024-07-03 11:34:58,285 -INFO - last n isPivot function Ended
+2024-07-03 11:34:58,291 -INFO - HAL.NS - last n detect_structure function started
+2024-07-03 11:34:58,304 -INFO - HAL.NS - last n two_line_structure function started
+2024-07-03 11:35:00,762 -INFO - last n isPivot function started
+2024-07-03 11:35:01,542 -INFO - last n isPivot function Ended
+2024-07-03 11:35:01,565 -INFO - INDUSINDBK.NS - last n detect_structure function started
+2024-07-03 11:35:01,573 -INFO - INDUSINDBK.NS - last n two_line_structure function started
+2024-07-03 11:35:01,710 -INFO - last n isPivot function started
+2024-07-03 11:35:02,451 -INFO - last n isPivot function started
+2024-07-03 11:35:02,474 -INFO - last n isPivot function Ended
+2024-07-03 11:35:02,476 -INFO - TORNTPHARM.NS - last n detect_structure function started
+2024-07-03 11:35:02,482 -INFO - last n isPivot function started
+2024-07-03 11:35:02,532 -INFO - TORNTPHARM.NS - last n two_line_structure function started
+2024-07-03 11:35:03,424 -INFO - last n isPivot function Ended
+2024-07-03 11:35:03,608 -INFO - CHOLAFIN.NS - last n detect_structure function started
+2024-07-03 11:35:03,738 -INFO - CHOLAFIN.NS - last n two_line_structure function started
+2024-07-03 11:35:04,144 -INFO - last n isPivot function Ended
+2024-07-03 11:35:04,157 -INFO - VOLTAS.NS - last n detect_structure function started
+2024-07-03 11:35:04,266 -INFO - VOLTAS.NS - last n two_line_structure function started
+2024-07-03 11:35:04,332 -INFO - last n isPivot function started
+2024-07-03 11:35:05,332 -INFO - last n isPivot function Ended
+2024-07-03 11:35:05,333 -INFO - CIPLA.NS - last n detect_structure function started
+2024-07-03 11:35:05,347 -INFO - CIPLA.NS - last n two_line_structure function started
+2024-07-03 11:35:51,345 -INFO - HAL.NS - last n two_line_structure function Ended
+2024-07-03 11:35:58,217 -INFO - HDFCLIFE.NS - last n two_line_structure function Ended
+2024-07-03 11:36:04,522 -INFO - HAL.NS - last n detect_structure function Ended
+2024-07-03 11:36:04,602 -INFO - HAL.NS - add_ph_pl_values function started
+2024-07-03 11:36:04,757 -INFO - HAL.NS - add_ph_pl_values function Ended
+2024-07-03 11:36:17,361 -INFO - HDFCLIFE.NS - last n detect_structure function Ended
+2024-07-03 11:36:17,406 -INFO - HDFCLIFE.NS - add_ph_pl_values function started
+2024-07-03 11:36:17,523 -INFO - HDFCLIFE.NS - add_ph_pl_values function Ended
+2024-07-03 11:37:30,872 -INFO - All stocks - Excel file Saved
+2024-07-03 11:37:30,920 -INFO - All stocks - json file saved
+2024-07-03 11:37:30,927 -INFO - HAL.NS - alerts file Saved
+2024-07-03 11:37:30,933 -INFO - HAL.NS - Process function Ended
+2024-07-03 11:37:38,017 -INFO - All stocks - Excel file Saved
+2024-07-03 11:37:38,050 -INFO - All stocks - json file saved
+2024-07-03 11:37:38,054 -INFO - HDFCLIFE.NS - alerts file Saved
+2024-07-03 11:37:38,057 -INFO - HDFCLIFE.NS - Process function Ended
+2024-07-03 11:37:46,651 -INFO - BALKRISIND.NS -  two_line_structure function Ended
+2024-07-03 11:38:08,055 -INFO - BALKRISIND.NS -  detect_structure function Ended
+2024-07-03 11:38:08,077 -INFO - BALKRISIND.NS - add_ph_pl_values function started
+2024-07-03 11:38:08,131 -INFO - BALKRISIND.NS - add_ph_pl_values function Ended
+2024-07-03 11:38:32,278 -INFO - VOLTAS.NS - last n two_line_structure function Ended
+2024-07-03 11:38:32,526 -INFO - CHOLAFIN.NS - last n two_line_structure function Ended
+2024-07-03 11:38:41,302 -INFO - TORNTPHARM.NS - last n two_line_structure function Ended
+2024-07-03 11:38:43,946 -INFO - INDUSINDBK.NS - last n two_line_structure function Ended
+2024-07-03 11:38:54,250 -INFO - CHOLAFIN.NS - last n detect_structure function Ended
+2024-07-03 11:38:54,257 -INFO - CHOLAFIN.NS - add_ph_pl_values function started
+2024-07-03 11:38:54,302 -INFO - CHOLAFIN.NS - add_ph_pl_values function Ended
+2024-07-03 11:38:55,298 -INFO - All stocks - Excel file Saved
+2024-07-03 11:38:55,306 -INFO - All stocks - json file saved
+2024-07-03 11:38:55,307 -INFO - BALKRISIND.NS - alerts file Saved
+2024-07-03 11:38:55,307 -INFO - BALKRISIND.NS - Process function Ended
+2024-07-03 11:39:02,118 -INFO - VOLTAS.NS - last n detect_structure function Ended
+2024-07-03 11:39:02,124 -INFO - VOLTAS.NS - add_ph_pl_values function started
+2024-07-03 11:39:02,143 -INFO - VOLTAS.NS - add_ph_pl_values function Ended
+2024-07-03 11:39:03,200 -INFO - TORNTPHARM.NS - last n detect_structure function Ended
+2024-07-03 11:39:03,207 -INFO - TORNTPHARM.NS - add_ph_pl_values function started
+2024-07-03 11:39:03,230 -INFO - TORNTPHARM.NS - add_ph_pl_values function Ended
+2024-07-03 11:39:16,467 -INFO - INDUSINDBK.NS - last n detect_structure function Ended
+2024-07-03 11:39:16,468 -INFO - INDUSINDBK.NS - add_ph_pl_values function started
+2024-07-03 11:39:16,480 -INFO - INDUSINDBK.NS - add_ph_pl_values function Ended
+2024-07-03 11:39:50,315 -INFO - CIPLA.NS - last n two_line_structure function Ended
+2024-07-03 11:40:04,280 -INFO - All stocks - Excel file Saved
+2024-07-03 11:40:04,290 -INFO - All stocks - json file saved
+2024-07-03 11:40:04,295 -INFO - CHOLAFIN.NS - alerts file Saved
+2024-07-03 11:40:04,295 -INFO - CHOLAFIN.NS - Process function Ended
+2024-07-03 11:40:04,764 -INFO - All stocks - Excel file Saved
+2024-07-03 11:40:04,766 -INFO - All stocks - json file saved
+2024-07-03 11:40:04,766 -INFO - TORNTPHARM.NS - alerts file Saved
+2024-07-03 11:40:04,766 -INFO - TORNTPHARM.NS - Process function Ended
+2024-07-03 11:40:05,148 -INFO - All stocks - Excel file Saved
+2024-07-03 11:40:05,155 -INFO - All stocks - json file saved
+2024-07-03 11:40:05,156 -INFO - VOLTAS.NS - alerts file Saved
+2024-07-03 11:40:05,156 -INFO - VOLTAS.NS - Process function Ended
+2024-07-03 11:40:09,966 -INFO - CIPLA.NS - last n detect_structure function Ended
+2024-07-03 11:40:09,967 -INFO - CIPLA.NS - add_ph_pl_values function started
+2024-07-03 11:40:09,972 -INFO - CIPLA.NS - add_ph_pl_values function Ended
+2024-07-03 11:40:16,774 -INFO - All stocks - Excel file Saved
+2024-07-03 11:40:16,775 -INFO - All stocks - json file saved
+2024-07-03 11:40:16,775 -INFO - INDUSINDBK.NS - alerts file Saved
+2024-07-03 11:40:16,775 -INFO - INDUSINDBK.NS - Process function Ended
+2024-07-03 11:40:28,349 -INFO - All stocks - Excel file Saved
+2024-07-03 11:40:28,350 -INFO - All stocks - json file saved
+2024-07-03 11:40:28,350 -INFO - CIPLA.NS - alerts file Saved
+2024-07-03 11:40:28,350 -INFO - CIPLA.NS - Process function Ended
+2024-07-03 11:40:45,348 -INFO - All stocks - Excel file Saved
+2024-07-03 11:40:45,349 -INFO - All stocks - json file saved
+2024-07-03 11:41:02,930 -INFO - All stocks - Excel file Saved
+2024-07-03 11:41:02,931 -INFO - All stocks - json file saved
