@@ -729,3 +729,67 @@
 2024-07-03 11:40:45,349 -INFO - All stocks - json file saved
 2024-07-03 11:41:02,930 -INFO - All stocks - Excel file Saved
 2024-07-03 11:41:02,931 -INFO - All stocks - json file saved
+2024-07-04 11:34:40,978 -INFO - Started...
+2024-07-04 11:34:41,820 -INFO - Started...
+2024-07-04 11:34:50,785 -ERROR - 
+1 Failed download:
+2024-07-04 11:34:50,785 -ERROR - ['VEDL.NS']: OperationalError('database is locked')
+2024-07-04 11:34:50,861 -INFO - NMDC.NS - Process function started
+2024-07-04 11:34:50,861 -INFO - NMDC.NS - Reading existing data...
+2024-07-04 11:34:50,862 -INFO - ABCAPITAL.NS - Process function started
+2024-07-04 11:34:50,862 -INFO - COROMANDEL.NS - Process function started
+2024-07-04 11:34:50,865 -INFO - GNFC.NS - Process function started
+2024-07-04 11:34:50,865 -INFO - COROMANDEL.NS - Reading existing data...
+2024-07-04 11:34:50,865 -INFO - GNFC.NS - Reading existing data...
+2024-07-04 11:34:50,866 -INFO - ABCAPITAL.NS - isPivot function started
+2024-07-04 11:34:51,048 -INFO - ABCAPITAL.NS - isPivot function Ended
+2024-07-04 11:34:51,049 -INFO - ABCAPITAL.NS -  detect_structure function started
+2024-07-04 11:34:51,049 -INFO - ABCAPITAL.NS -  two_line_structure function started
+2024-07-04 11:34:51,962 -INFO - last n isPivot function started
+2024-07-04 11:34:52,427 -INFO - last n isPivot function Ended
+2024-07-04 11:34:52,427 -INFO - NMDC.NS - last n detect_structure function started
+2024-07-04 11:34:52,431 -INFO - NMDC.NS - last n two_line_structure function started
+2024-07-04 11:34:52,472 -INFO - last n isPivot function started
+2024-07-04 11:34:53,081 -INFO - last n isPivot function Ended
+2024-07-04 11:34:53,081 -INFO - COROMANDEL.NS - last n detect_structure function started
+2024-07-04 11:34:53,086 -INFO - COROMANDEL.NS - last n two_line_structure function started
+2024-07-04 11:34:53,143 -INFO - last n isPivot function started
+2024-07-04 11:34:53,762 -INFO - last n isPivot function Ended
+2024-07-04 11:34:53,762 -INFO - GNFC.NS - last n detect_structure function started
+2024-07-04 11:34:53,763 -INFO - GNFC.NS - last n two_line_structure function started
+2024-07-04 11:35:08,461 -INFO - ABCAPITAL.NS -  two_line_structure function Ended
+2024-07-04 11:35:12,142 -INFO - ABCAPITAL.NS -  detect_structure function Ended
+2024-07-04 11:35:12,144 -INFO - ABCAPITAL.NS - add_ph_pl_values function started
+2024-07-04 11:35:12,189 -INFO - ABCAPITAL.NS - add_ph_pl_values function Ended
+2024-07-04 11:35:43,882 -INFO - NMDC.NS - last n two_line_structure function Ended
+2024-07-04 11:35:49,252 -INFO - All stocks - Excel file Saved
+2024-07-04 11:35:49,262 -INFO - All stocks - json file saved
+2024-07-04 11:35:49,262 -INFO - ABCAPITAL.NS - alerts file Saved
+2024-07-04 11:35:49,262 -INFO - ABCAPITAL.NS - Process function Ended
+2024-07-04 11:35:52,136 -INFO - NMDC.NS - last n detect_structure function Ended
+2024-07-04 11:35:52,143 -INFO - NMDC.NS - add_ph_pl_values function started
+2024-07-04 11:35:52,179 -INFO - NMDC.NS - add_ph_pl_values function Ended
+2024-07-04 11:36:01,134 -INFO - COROMANDEL.NS - last n two_line_structure function Ended
+2024-07-04 11:36:01,308 -INFO - GNFC.NS - last n two_line_structure function Ended
+2024-07-04 11:36:11,417 -INFO - GNFC.NS - last n detect_structure function Ended
+2024-07-04 11:36:11,419 -INFO - GNFC.NS - add_ph_pl_values function started
+2024-07-04 11:36:11,433 -INFO - GNFC.NS - add_ph_pl_values function Ended
+2024-07-04 11:36:12,043 -INFO - COROMANDEL.NS - last n detect_structure function Ended
+2024-07-04 11:36:12,043 -INFO - COROMANDEL.NS - add_ph_pl_values function started
+2024-07-04 11:36:12,047 -INFO - COROMANDEL.NS - add_ph_pl_values function Ended
+2024-07-04 11:36:28,863 -INFO - All stocks - Excel file Saved
+2024-07-04 11:36:28,864 -INFO - All stocks - json file saved
+2024-07-04 11:36:28,864 -INFO - NMDC.NS - alerts file Saved
+2024-07-04 11:36:28,864 -INFO - NMDC.NS - Process function Ended
+2024-07-04 11:36:43,461 -INFO - All stocks - Excel file Saved
+2024-07-04 11:36:43,461 -INFO - All stocks - json file saved
+2024-07-04 11:36:43,461 -INFO - GNFC.NS - alerts file Saved
+2024-07-04 11:36:43,461 -INFO - GNFC.NS - Process function Ended
+2024-07-04 11:36:43,734 -INFO - All stocks - Excel file Saved
+2024-07-04 11:36:43,735 -INFO - All stocks - json file saved
+2024-07-04 11:36:43,735 -INFO - COROMANDEL.NS - alerts file Saved
+2024-07-04 11:36:43,735 -INFO - COROMANDEL.NS - Process function Ended
+2024-07-04 11:36:58,656 -INFO - All stocks - Excel file Saved
+2024-07-04 11:36:58,656 -INFO - All stocks - json file saved
+2024-07-04 11:37:13,649 -INFO - All stocks - Excel file Saved
+2024-07-04 11:37:13,649 -INFO - All stocks - json file saved
