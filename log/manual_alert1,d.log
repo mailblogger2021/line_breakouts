@@ -311,3 +311,8 @@
 2024-07-05 08:44:47,222 -ERROR - 
 1 Failed download:
 2024-07-05 08:44:47,222 -ERROR - ['NIFTY']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+2024-07-05 09:45:42,247 -INFO - Started...
+2024-07-05 09:45:42,737 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-07-05 09:45:44,616 -ERROR - 
+1 Failed download:
+2024-07-05 09:45:44,616 -ERROR - ['NIFTY']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
