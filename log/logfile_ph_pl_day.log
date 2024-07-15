@@ -1683,3 +1683,77 @@
 2024-07-12 11:47:11,002 -INFO - All stocks - json file saved
 2024-07-12 11:47:26,189 -INFO - All stocks - Excel file Saved
 2024-07-12 11:47:26,190 -INFO - All stocks - json file saved
+2024-07-15 11:35:32,554 -INFO - Started...
+2024-07-15 11:35:33,365 -INFO - Started...
+2024-07-15 11:35:41,162 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-07-15 11:35:41,162 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-07-15 11:35:41,921 -INFO - CANFINHOME.NS - Process function started
+2024-07-15 11:35:41,921 -INFO - SHREECEM.NS - Process function started
+2024-07-15 11:35:41,921 -INFO - LICHSGFIN.NS - Process function started
+2024-07-15 11:35:41,929 -INFO - CROMPTON.NS - Process function started
+2024-07-15 11:35:41,929 -INFO - SHREECEM.NS - Reading existing data...
+2024-07-15 11:35:41,929 -INFO - PVRINOX.NS - Process function started
+2024-07-15 11:35:41,942 -INFO - PVRINOX.NS - isPivot function started
+2024-07-15 11:35:41,984 -INFO - PVRINOX.NS - isPivot function Ended
+2024-07-15 11:35:41,984 -INFO - PVRINOX.NS -  detect_structure function started
+2024-07-15 11:35:41,985 -INFO - PVRINOX.NS -  two_line_structure function started
+2024-07-15 11:35:41,986 -INFO - CROMPTON.NS - isPivot function started
+2024-07-15 11:35:42,142 -INFO - CANFINHOME.NS - isPivot function started
+2024-07-15 11:35:42,762 -INFO - CANFINHOME.NS - isPivot function Ended
+2024-07-15 11:35:42,762 -INFO - CANFINHOME.NS -  detect_structure function started
+2024-07-15 11:35:42,765 -INFO - LICHSGFIN.NS - isPivot function started
+2024-07-15 11:35:43,204 -INFO - CANFINHOME.NS -  two_line_structure function started
+2024-07-15 11:35:43,375 -INFO - LICHSGFIN.NS - isPivot function Ended
+2024-07-15 11:35:43,375 -INFO - LICHSGFIN.NS -  detect_structure function started
+2024-07-15 11:35:43,461 -INFO - CROMPTON.NS - isPivot function Ended
+2024-07-15 11:35:43,461 -INFO - CROMPTON.NS -  detect_structure function started
+2024-07-15 11:35:43,470 -INFO - CROMPTON.NS -  two_line_structure function started
+2024-07-15 11:35:43,473 -INFO - LICHSGFIN.NS -  two_line_structure function started
+2024-07-15 11:35:44,067 -INFO - last n isPivot function started
+2024-07-15 11:35:44,745 -INFO - last n isPivot function Ended
+2024-07-15 11:35:44,745 -INFO - SHREECEM.NS - last n detect_structure function started
+2024-07-15 11:35:44,749 -INFO - SHREECEM.NS - last n two_line_structure function started
+2024-07-15 11:35:48,078 -INFO - PVRINOX.NS -  two_line_structure function Ended
+2024-07-15 11:35:49,807 -INFO - PVRINOX.NS -  detect_structure function Ended
+2024-07-15 11:35:49,811 -INFO - PVRINOX.NS - add_ph_pl_values function started
+2024-07-15 11:35:49,962 -INFO - PVRINOX.NS - add_ph_pl_values function Ended
+2024-07-15 11:36:14,935 -INFO - CROMPTON.NS -  two_line_structure function Ended
+2024-07-15 11:36:24,771 -INFO - CROMPTON.NS -  detect_structure function Ended
+2024-07-15 11:36:24,772 -INFO - CROMPTON.NS - add_ph_pl_values function started
+2024-07-15 11:36:24,841 -INFO - CROMPTON.NS - add_ph_pl_values function Ended
+2024-07-15 11:36:42,835 -INFO - All stocks - Excel file Saved
+2024-07-15 11:36:43,267 -INFO - All stocks - json file saved
+2024-07-15 11:36:43,267 -INFO - PVRINOX.NS - alerts file Saved
+2024-07-15 11:36:43,268 -INFO - PVRINOX.NS - Process function Ended
+2024-07-15 11:37:05,618 -INFO - All stocks - Excel file Saved
+2024-07-15 11:37:05,624 -INFO - All stocks - json file saved
+2024-07-15 11:37:05,624 -INFO - CROMPTON.NS - alerts file Saved
+2024-07-15 11:37:05,624 -INFO - CROMPTON.NS - Process function Ended
+2024-07-15 11:37:06,661 -INFO - LICHSGFIN.NS -  two_line_structure function Ended
+2024-07-15 11:37:08,089 -INFO - CANFINHOME.NS -  two_line_structure function Ended
+2024-07-15 11:37:12,746 -INFO - LICHSGFIN.NS -  detect_structure function Ended
+2024-07-15 11:37:12,751 -INFO - LICHSGFIN.NS - add_ph_pl_values function started
+2024-07-15 11:37:12,783 -INFO - LICHSGFIN.NS - add_ph_pl_values function Ended
+2024-07-15 11:37:16,468 -INFO - SHREECEM.NS - last n two_line_structure function Ended
+2024-07-15 11:37:20,448 -INFO - CANFINHOME.NS -  detect_structure function Ended
+2024-07-15 11:37:20,448 -INFO - CANFINHOME.NS - add_ph_pl_values function started
+2024-07-15 11:37:20,464 -INFO - CANFINHOME.NS - add_ph_pl_values function Ended
+2024-07-15 11:37:26,761 -INFO - SHREECEM.NS - last n detect_structure function Ended
+2024-07-15 11:37:26,762 -INFO - SHREECEM.NS - add_ph_pl_values function started
+2024-07-15 11:37:26,766 -INFO - SHREECEM.NS - add_ph_pl_values function Ended
+2024-07-15 11:37:57,121 -INFO - All stocks - Excel file Saved
+2024-07-15 11:37:57,122 -INFO - All stocks - json file saved
+2024-07-15 11:37:57,122 -INFO - LICHSGFIN.NS - alerts file Saved
+2024-07-15 11:37:57,122 -INFO - LICHSGFIN.NS - Process function Ended
+2024-07-15 11:37:59,583 -INFO - All stocks - Excel file Saved
+2024-07-15 11:37:59,583 -INFO - All stocks - json file saved
+2024-07-15 11:37:59,583 -INFO - CANFINHOME.NS - alerts file Saved
+2024-07-15 11:37:59,583 -INFO - CANFINHOME.NS - Process function Ended
+2024-07-15 11:38:02,034 -INFO - All stocks - Excel file Saved
+2024-07-15 11:38:02,034 -INFO - All stocks - json file saved
+2024-07-15 11:38:02,034 -INFO - SHREECEM.NS - alerts file Saved
+2024-07-15 11:38:02,034 -INFO - SHREECEM.NS - Process function Ended
+2024-07-15 11:38:17,286 -INFO - All stocks - Excel file Saved
+2024-07-15 11:38:17,286 -INFO - All stocks - json file saved
+2024-07-15 11:38:32,543 -INFO - All stocks - Excel file Saved
+2024-07-15 11:38:32,543 -INFO - All stocks - json file saved
