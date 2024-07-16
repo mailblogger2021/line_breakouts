@@ -1757,3 +1757,218 @@
 2024-07-15 11:38:17,286 -INFO - All stocks - json file saved
 2024-07-15 11:38:32,543 -INFO - All stocks - Excel file Saved
 2024-07-15 11:38:32,543 -INFO - All stocks - json file saved
+2024-07-16 11:34:37,535 -INFO - Started...
+2024-07-16 11:34:39,083 -INFO - Started...
+2024-07-16 11:34:47,744 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-07-16 11:34:47,744 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-07-16 11:34:50,423 -INFO - GUJGASLTD.NS - Process function started
+2024-07-16 11:34:50,423 -INFO - TATACOMM.NS - Process function started
+2024-07-16 11:34:50,424 -INFO - MGL.NS - Process function started
+2024-07-16 11:34:50,424 -INFO - GUJGASLTD.NS - Reading existing data...
+2024-07-16 11:34:50,424 -INFO - MARICO.NS - Process function started
+2024-07-16 11:34:50,424 -INFO - TATACOMM.NS - Reading existing data...
+2024-07-16 11:34:50,424 -INFO - MGL.NS - Reading existing data...
+2024-07-16 11:34:50,425 -INFO - MARICO.NS - Reading existing data...
+2024-07-16 11:34:50,425 -INFO - ACC.NS - Process function started
+2024-07-16 11:34:50,425 -INFO - VOLTAS.NS - Process function started
+2024-07-16 11:34:50,425 -INFO - ASTRAL.NS - Process function started
+2024-07-16 11:34:50,425 -INFO - AMBUJACEM.NS - Process function started
+2024-07-16 11:34:50,426 -INFO - ACC.NS - Reading existing data...
+2024-07-16 11:34:50,426 -INFO - VOLTAS.NS - Reading existing data...
+2024-07-16 11:34:50,429 -INFO - LTF.NS - Process function started
+2024-07-16 11:34:50,430 -INFO - UPL.NS - Process function started
+2024-07-16 11:34:50,437 -INFO - IEX.NS - Process function started
+2024-07-16 11:34:50,438 -INFO - AMBUJACEM.NS - Reading existing data...
+2024-07-16 11:34:50,439 -INFO - ALKEM.NS - Process function started
+2024-07-16 11:34:50,439 -INFO - EICHERMOT.NS - Process function started
+2024-07-16 11:34:50,444 -INFO - SBICARD.NS - Process function started
+2024-07-16 11:34:50,445 -INFO - UPL.NS - Reading existing data...
+2024-07-16 11:34:50,445 -INFO - ULTRACEMCO.NS - Process function started
+2024-07-16 11:34:50,446 -INFO - IEX.NS - Reading existing data...
+2024-07-16 11:34:50,455 -INFO - EICHERMOT.NS - Reading existing data...
+2024-07-16 11:34:50,455 -INFO - SBICARD.NS - Reading existing data...
+2024-07-16 11:34:50,456 -INFO - ASTRAL.NS - isPivot function started
+2024-07-16 11:34:50,459 -INFO - ULTRACEMCO.NS - Reading existing data...
+2024-07-16 11:34:50,463 -INFO - LTF.NS - isPivot function started
+2024-07-16 11:34:50,463 -INFO - ALKEM.NS - isPivot function started
+2024-07-16 11:34:50,967 -INFO - ASTRAL.NS - isPivot function Ended
+2024-07-16 11:34:51,344 -INFO - LTF.NS - isPivot function Ended
+2024-07-16 11:34:51,494 -INFO - ASTRAL.NS -  detect_structure function started
+2024-07-16 11:34:51,494 -INFO - LTF.NS -  detect_structure function started
+2024-07-16 11:34:51,604 -INFO - ALKEM.NS - isPivot function Ended
+2024-07-16 11:34:51,605 -INFO - LTF.NS -  two_line_structure function started
+2024-07-16 11:34:51,606 -INFO - ASTRAL.NS -  two_line_structure function started
+2024-07-16 11:34:51,614 -INFO - ALKEM.NS -  detect_structure function started
+2024-07-16 11:34:51,621 -INFO - ALKEM.NS -  two_line_structure function started
+2024-07-16 11:34:51,946 -INFO - last n isPivot function started
+2024-07-16 11:34:52,368 -INFO - last n isPivot function Ended
+2024-07-16 11:34:52,410 -INFO - GUJGASLTD.NS - last n detect_structure function started
+2024-07-16 11:34:52,420 -INFO - GUJGASLTD.NS - last n two_line_structure function started
+2024-07-16 11:34:54,153 -INFO - last n isPivot function started
+2024-07-16 11:34:55,190 -INFO - last n isPivot function Ended
+2024-07-16 11:34:55,190 -INFO - MGL.NS - last n detect_structure function started
+2024-07-16 11:34:55,389 -INFO - MGL.NS - last n two_line_structure function started
+2024-07-16 11:34:56,256 -INFO - last n isPivot function started
+2024-07-16 11:34:56,440 -INFO - last n isPivot function Ended
+2024-07-16 11:34:56,440 -INFO - SBICARD.NS - last n detect_structure function started
+2024-07-16 11:34:56,455 -INFO - last n isPivot function started
+2024-07-16 11:34:56,462 -INFO - SBICARD.NS - last n two_line_structure function started
+2024-07-16 11:34:56,490 -INFO - last n isPivot function started
+2024-07-16 11:34:57,209 -INFO - last n isPivot function started
+2024-07-16 11:34:57,437 -INFO - last n isPivot function Ended
+2024-07-16 11:34:57,442 -INFO - last n isPivot function Ended
+2024-07-16 11:34:57,461 -INFO - IEX.NS - last n detect_structure function started
+2024-07-16 11:34:57,469 -INFO - IEX.NS - last n two_line_structure function started
+2024-07-16 11:34:57,470 -INFO - AMBUJACEM.NS - last n detect_structure function started
+2024-07-16 11:34:58,174 -INFO - AMBUJACEM.NS - last n two_line_structure function started
+2024-07-16 11:34:58,225 -INFO - last n isPivot function Ended
+2024-07-16 11:34:58,227 -INFO - TATACOMM.NS - last n detect_structure function started
+2024-07-16 11:34:58,235 -INFO - TATACOMM.NS - last n two_line_structure function started
+2024-07-16 11:34:58,331 -INFO - last n isPivot function started
+2024-07-16 11:34:58,383 -INFO - last n isPivot function started
+2024-07-16 11:34:59,053 -INFO - last n isPivot function Ended
+2024-07-16 11:34:59,061 -INFO - VOLTAS.NS - last n detect_structure function started
+2024-07-16 11:34:59,073 -INFO - VOLTAS.NS - last n two_line_structure function started
+2024-07-16 11:34:59,742 -INFO - last n isPivot function Ended
+2024-07-16 11:34:59,753 -INFO - ULTRACEMCO.NS - last n detect_structure function started
+2024-07-16 11:34:59,758 -INFO - ULTRACEMCO.NS - last n two_line_structure function started
+2024-07-16 11:34:59,822 -INFO - last n isPivot function started
+2024-07-16 11:35:00,169 -INFO - last n isPivot function started
+2024-07-16 11:35:00,727 -INFO - last n isPivot function started
+2024-07-16 11:35:00,735 -INFO - last n isPivot function started
+2024-07-16 11:35:01,941 -INFO - last n isPivot function Ended
+2024-07-16 11:35:01,951 -INFO - MARICO.NS - last n detect_structure function started
+2024-07-16 11:35:02,214 -INFO - MARICO.NS - last n two_line_structure function started
+2024-07-16 11:35:02,292 -INFO - last n isPivot function Ended
+2024-07-16 11:35:02,743 -INFO - EICHERMOT.NS - last n detect_structure function started
+2024-07-16 11:35:02,773 -INFO - EICHERMOT.NS - last n two_line_structure function started
+2024-07-16 11:35:03,270 -INFO - last n isPivot function Ended
+2024-07-16 11:35:03,284 -INFO - ACC.NS - last n detect_structure function started
+2024-07-16 11:35:03,288 -INFO - ACC.NS - last n two_line_structure function started
+2024-07-16 11:35:03,351 -INFO - last n isPivot function Ended
+2024-07-16 11:35:03,361 -INFO - UPL.NS - last n detect_structure function started
+2024-07-16 11:35:03,366 -INFO - UPL.NS - last n two_line_structure function started
+2024-07-16 11:36:07,373 -INFO - SBICARD.NS - last n two_line_structure function Ended
+2024-07-16 11:36:30,304 -INFO - SBICARD.NS - last n detect_structure function Ended
+2024-07-16 11:36:30,334 -INFO - SBICARD.NS - add_ph_pl_values function started
+2024-07-16 11:36:30,809 -INFO - SBICARD.NS - add_ph_pl_values function Ended
+2024-07-16 11:37:12,926 -INFO - IEX.NS - last n two_line_structure function Ended
+2024-07-16 11:37:28,866 -INFO - MGL.NS - last n two_line_structure function Ended
+2024-07-16 11:37:33,820 -INFO - ALKEM.NS -  two_line_structure function Ended
+2024-07-16 11:37:58,782 -INFO - GUJGASLTD.NS - last n two_line_structure function Ended
+2024-07-16 11:37:59,862 -INFO - IEX.NS - last n detect_structure function Ended
+2024-07-16 11:37:59,978 -INFO - IEX.NS - add_ph_pl_values function started
+2024-07-16 11:38:00,422 -INFO - IEX.NS - add_ph_pl_values function Ended
+2024-07-16 11:38:24,342 -INFO - ALKEM.NS -  detect_structure function Ended
+2024-07-16 11:38:24,472 -INFO - ALKEM.NS - add_ph_pl_values function started
+2024-07-16 11:38:24,968 -INFO - ALKEM.NS - add_ph_pl_values function Ended
+2024-07-16 11:38:45,707 -INFO - MGL.NS - last n detect_structure function Ended
+2024-07-16 11:38:45,793 -INFO - MGL.NS - add_ph_pl_values function started
+2024-07-16 11:38:46,123 -INFO - MGL.NS - add_ph_pl_values function Ended
+2024-07-16 11:39:19,946 -INFO - GUJGASLTD.NS - last n detect_structure function Ended
+2024-07-16 11:39:19,994 -INFO - GUJGASLTD.NS - add_ph_pl_values function started
+2024-07-16 11:39:20,170 -INFO - GUJGASLTD.NS - add_ph_pl_values function Ended
+2024-07-16 11:39:35,458 -INFO - LTF.NS -  two_line_structure function Ended
+2024-07-16 11:40:40,741 -INFO - All stocks - Excel file Saved
+2024-07-16 11:40:40,868 -INFO - All stocks - json file saved
+2024-07-16 11:40:40,916 -INFO - SBICARD.NS - alerts file Saved
+2024-07-16 11:40:40,925 -INFO - SBICARD.NS - Process function Ended
+2024-07-16 11:40:51,729 -INFO - LTF.NS -  detect_structure function Ended
+2024-07-16 11:40:51,756 -INFO - LTF.NS - add_ph_pl_values function started
+2024-07-16 11:40:52,075 -INFO - LTF.NS - add_ph_pl_values function Ended
+2024-07-16 11:41:41,019 -INFO - ASTRAL.NS -  two_line_structure function Ended
+2024-07-16 11:41:43,526 -INFO - All stocks - Excel file Saved
+2024-07-16 11:41:43,561 -INFO - All stocks - json file saved
+2024-07-16 11:41:43,573 -INFO - IEX.NS - alerts file Saved
+2024-07-16 11:41:43,573 -INFO - IEX.NS - Process function Ended
+2024-07-16 11:41:51,876 -INFO - All stocks - Excel file Saved
+2024-07-16 11:41:51,931 -INFO - All stocks - json file saved
+2024-07-16 11:41:51,931 -INFO - ALKEM.NS - alerts file Saved
+2024-07-16 11:41:51,931 -INFO - ALKEM.NS - Process function Ended
+2024-07-16 11:42:05,113 -INFO - All stocks - Excel file Saved
+2024-07-16 11:42:05,180 -INFO - All stocks - json file saved
+2024-07-16 11:42:05,180 -INFO - MGL.NS - alerts file Saved
+2024-07-16 11:42:05,180 -INFO - MGL.NS - Process function Ended
+2024-07-16 11:42:23,878 -INFO - All stocks - Excel file Saved
+2024-07-16 11:42:23,917 -INFO - All stocks - json file saved
+2024-07-16 11:42:23,918 -INFO - GUJGASLTD.NS - alerts file Saved
+2024-07-16 11:42:23,918 -INFO - GUJGASLTD.NS - Process function Ended
+2024-07-16 11:42:30,855 -INFO - ASTRAL.NS -  detect_structure function Ended
+2024-07-16 11:42:30,877 -INFO - ASTRAL.NS - add_ph_pl_values function started
+2024-07-16 11:42:31,024 -INFO - ASTRAL.NS - add_ph_pl_values function Ended
+2024-07-16 11:42:59,069 -INFO - All stocks - Excel file Saved
+2024-07-16 11:42:59,115 -INFO - All stocks - json file saved
+2024-07-16 11:42:59,116 -INFO - LTF.NS - alerts file Saved
+2024-07-16 11:42:59,116 -INFO - LTF.NS - Process function Ended
+2024-07-16 11:43:26,916 -INFO - ULTRACEMCO.NS - last n two_line_structure function Ended
+2024-07-16 11:43:32,578 -INFO - TATACOMM.NS - last n two_line_structure function Ended
+2024-07-16 11:43:33,061 -INFO - ACC.NS - last n two_line_structure function Ended
+2024-07-16 11:43:34,615 -INFO - AMBUJACEM.NS - last n two_line_structure function Ended
+2024-07-16 11:43:34,779 -INFO - VOLTAS.NS - last n two_line_structure function Ended
+2024-07-16 11:43:34,904 -INFO - UPL.NS - last n two_line_structure function Ended
+2024-07-16 11:43:49,155 -INFO - All stocks - Excel file Saved
+2024-07-16 11:43:49,171 -INFO - All stocks - json file saved
+2024-07-16 11:43:49,172 -INFO - ASTRAL.NS - alerts file Saved
+2024-07-16 11:43:49,172 -INFO - ASTRAL.NS - Process function Ended
+2024-07-16 11:43:50,789 -INFO - ULTRACEMCO.NS - last n detect_structure function Ended
+2024-07-16 11:43:50,797 -INFO - ULTRACEMCO.NS - add_ph_pl_values function started
+2024-07-16 11:43:50,880 -INFO - ULTRACEMCO.NS - add_ph_pl_values function Ended
+2024-07-16 11:43:53,173 -INFO - ACC.NS - last n detect_structure function Ended
+2024-07-16 11:43:53,179 -INFO - ACC.NS - add_ph_pl_values function started
+2024-07-16 11:43:53,998 -INFO - TATACOMM.NS - last n detect_structure function Ended
+2024-07-16 11:43:54,240 -INFO - TATACOMM.NS - add_ph_pl_values function started
+2024-07-16 11:43:54,533 -INFO - ACC.NS - add_ph_pl_values function Ended
+2024-07-16 11:43:56,342 -INFO - TATACOMM.NS - add_ph_pl_values function Ended
+2024-07-16 11:44:11,754 -INFO - UPL.NS - last n detect_structure function Ended
+2024-07-16 11:44:11,761 -INFO - UPL.NS - add_ph_pl_values function started
+2024-07-16 11:44:11,794 -INFO - UPL.NS - add_ph_pl_values function Ended
+2024-07-16 11:44:12,040 -INFO - VOLTAS.NS - last n detect_structure function Ended
+2024-07-16 11:44:12,121 -INFO - VOLTAS.NS - add_ph_pl_values function started
+2024-07-16 11:44:12,346 -INFO - VOLTAS.NS - add_ph_pl_values function Ended
+2024-07-16 11:44:23,626 -INFO - AMBUJACEM.NS - last n detect_structure function Ended
+2024-07-16 11:44:23,629 -INFO - AMBUJACEM.NS - add_ph_pl_values function started
+2024-07-16 11:44:23,641 -INFO - AMBUJACEM.NS - add_ph_pl_values function Ended
+2024-07-16 11:45:39,559 -INFO - EICHERMOT.NS - last n two_line_structure function Ended
+2024-07-16 11:45:39,734 -INFO - All stocks - Excel file Saved
+2024-07-16 11:45:39,738 -INFO - All stocks - json file saved
+2024-07-16 11:45:39,738 -INFO - ULTRACEMCO.NS - alerts file Saved
+2024-07-16 11:45:39,738 -INFO - ULTRACEMCO.NS - Process function Ended
+2024-07-16 11:45:39,765 -INFO - All stocks - Excel file Saved
+2024-07-16 11:45:39,766 -INFO - All stocks - json file saved
+2024-07-16 11:45:39,766 -INFO - TATACOMM.NS - alerts file Saved
+2024-07-16 11:45:39,766 -INFO - TATACOMM.NS - Process function Ended
+2024-07-16 11:45:40,093 -INFO - All stocks - Excel file Saved
+2024-07-16 11:45:40,096 -INFO - All stocks - json file saved
+2024-07-16 11:45:40,096 -INFO - ACC.NS - alerts file Saved
+2024-07-16 11:45:40,096 -INFO - ACC.NS - Process function Ended
+2024-07-16 11:45:40,752 -INFO - All stocks - Excel file Saved
+2024-07-16 11:45:40,753 -INFO - All stocks - json file saved
+2024-07-16 11:45:40,753 -INFO - UPL.NS - alerts file Saved
+2024-07-16 11:45:40,753 -INFO - UPL.NS - Process function Ended
+2024-07-16 11:45:43,614 -INFO - All stocks - Excel file Saved
+2024-07-16 11:45:43,620 -INFO - All stocks - json file saved
+2024-07-16 11:45:43,620 -INFO - VOLTAS.NS - alerts file Saved
+2024-07-16 11:45:43,620 -INFO - VOLTAS.NS - Process function Ended
+2024-07-16 11:45:44,050 -INFO - MARICO.NS - last n two_line_structure function Ended
+2024-07-16 11:45:45,281 -INFO - All stocks - Excel file Saved
+2024-07-16 11:45:45,285 -INFO - All stocks - json file saved
+2024-07-16 11:45:45,285 -INFO - AMBUJACEM.NS - alerts file Saved
+2024-07-16 11:45:45,285 -INFO - AMBUJACEM.NS - Process function Ended
+2024-07-16 11:45:46,893 -INFO - EICHERMOT.NS - last n detect_structure function Ended
+2024-07-16 11:45:46,894 -INFO - EICHERMOT.NS - add_ph_pl_values function started
+2024-07-16 11:45:46,910 -INFO - EICHERMOT.NS - add_ph_pl_values function Ended
+2024-07-16 11:45:53,531 -INFO - MARICO.NS - last n detect_structure function Ended
+2024-07-16 11:45:53,532 -INFO - MARICO.NS - add_ph_pl_values function started
+2024-07-16 11:45:53,535 -INFO - MARICO.NS - add_ph_pl_values function Ended
+2024-07-16 11:46:16,737 -INFO - All stocks - Excel file Saved
+2024-07-16 11:46:16,737 -INFO - All stocks - json file saved
+2024-07-16 11:46:16,737 -INFO - EICHERMOT.NS - alerts file Saved
+2024-07-16 11:46:16,737 -INFO - EICHERMOT.NS - Process function Ended
+2024-07-16 11:46:19,218 -INFO - All stocks - Excel file Saved
+2024-07-16 11:46:19,219 -INFO - All stocks - json file saved
+2024-07-16 11:46:19,219 -INFO - MARICO.NS - alerts file Saved
+2024-07-16 11:46:19,219 -INFO - MARICO.NS - Process function Ended
+2024-07-16 11:46:34,797 -INFO - All stocks - Excel file Saved
+2024-07-16 11:46:34,797 -INFO - All stocks - json file saved
+2024-07-16 11:46:50,231 -INFO - All stocks - Excel file Saved
+2024-07-16 11:46:50,231 -INFO - All stocks - json file saved
