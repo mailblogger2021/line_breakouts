@@ -670,3 +670,67 @@ ValueError: operands could not be broadcast together with shapes (3764,) (3759,)
 2024-07-05 11:34:30,443 -INFO - All stocks - json file saved
 2024-07-05 11:34:53,797 -INFO - All stocks - Excel file Saved
 2024-07-05 11:34:53,797 -INFO - All stocks - json file saved
+2024-07-19 11:34:07,187 -INFO - Started...
+2024-07-19 11:34:08,764 -INFO - Started...
+2024-07-19 11:34:20,876 -INFO - UBL.NS - this stock already completed
+2024-07-19 11:34:21,896 -ERROR - 
+1 Failed download:
+2024-07-19 11:34:21,896 -ERROR - ['TATACOMM.NS']: OperationalError('database is locked')
+2024-07-19 11:34:21,932 -INFO - OBEROIRLTY.NS - Process function started
+2024-07-19 11:34:21,932 -INFO - INDIGO.NS - Process function started
+2024-07-19 11:34:21,933 -INFO - TVSMOTOR.NS - Process function started
+2024-07-19 11:34:21,936 -INFO - INDIGO.NS - Reading existing data...
+2024-07-19 11:34:21,936 -INFO - UNITDSPR.NS - Process function started
+2024-07-19 11:34:21,936 -INFO - TVSMOTOR.NS - Reading existing data...
+2024-07-19 11:34:21,937 -INFO - OBEROIRLTY.NS - isPivot function started
+2024-07-19 11:34:21,938 -INFO - UNITDSPR.NS - isPivot function started
+2024-07-19 11:34:21,975 -INFO - UNITDSPR.NS - isPivot function Ended
+2024-07-19 11:34:21,975 -INFO - UNITDSPR.NS -  detect_structure function started
+2024-07-19 11:34:21,977 -INFO - UNITDSPR.NS -  detect_structure function Ended
+2024-07-19 11:34:21,977 -INFO - UNITDSPR.NS -  two_line_structure function started
+2024-07-19 11:34:22,027 -INFO - OBEROIRLTY.NS - isPivot function Ended
+2024-07-19 11:34:22,027 -INFO - OBEROIRLTY.NS -  detect_structure function started
+2024-07-19 11:34:22,028 -INFO - OBEROIRLTY.NS -  two_line_structure function started
+2024-07-19 11:34:22,033 -INFO - UNITDSPR.NS -  two_line_structure function Ended
+2024-07-19 11:34:22,034 -INFO - UNITDSPR.NS - add_ph_pl_values function started
+2024-07-19 11:34:22,036 -INFO - UNITDSPR.NS - add_ph_pl_values function Ended
+2024-07-19 11:34:22,121 -INFO - last n isPivot function started
+2024-07-19 11:34:22,211 -INFO - last n isPivot function Ended
+2024-07-19 11:34:22,213 -INFO - INDIGO.NS - last n detect_structure function started
+2024-07-19 11:34:22,213 -INFO - INDIGO.NS - last n two_line_structure function started
+2024-07-19 11:34:22,293 -INFO - last n isPivot function started
+2024-07-19 11:34:22,471 -INFO - last n isPivot function Ended
+2024-07-19 11:34:22,477 -INFO - TVSMOTOR.NS - last n detect_structure function started
+2024-07-19 11:34:22,486 -INFO - TVSMOTOR.NS - last n two_line_structure function started
+2024-07-19 11:34:36,128 -INFO - INDIGO.NS - last n two_line_structure function Ended
+2024-07-19 11:34:37,816 -INFO - OBEROIRLTY.NS -  two_line_structure function Ended
+2024-07-19 11:34:41,303 -INFO - TVSMOTOR.NS - last n two_line_structure function Ended
+2024-07-19 11:34:41,773 -INFO - INDIGO.NS - last n detect_structure function Ended
+2024-07-19 11:34:41,773 -INFO - INDIGO.NS - add_ph_pl_values function started
+2024-07-19 11:34:41,791 -INFO - INDIGO.NS - add_ph_pl_values function Ended
+2024-07-19 11:34:55,246 -INFO - OBEROIRLTY.NS -  detect_structure function Ended
+2024-07-19 11:34:55,248 -INFO - OBEROIRLTY.NS - add_ph_pl_values function started
+2024-07-19 11:34:55,257 -INFO - OBEROIRLTY.NS - add_ph_pl_values function Ended
+2024-07-19 11:35:32,330 -INFO - TVSMOTOR.NS - last n detect_structure function Ended
+2024-07-19 11:35:32,336 -INFO - TVSMOTOR.NS - add_ph_pl_values function started
+2024-07-19 11:35:32,342 -INFO - TVSMOTOR.NS - add_ph_pl_values function Ended
+2024-07-19 11:35:43,557 -INFO - All stocks - Excel file Saved
+2024-07-19 11:35:43,709 -INFO - All stocks - json file saved
+2024-07-19 11:35:43,709 -INFO - UNITDSPR.NS - alerts file Saved
+2024-07-19 11:35:43,709 -INFO - UNITDSPR.NS - Process function Ended
+2024-07-19 11:36:01,420 -INFO - All stocks - Excel file Saved
+2024-07-19 11:36:01,421 -INFO - All stocks - json file saved
+2024-07-19 11:36:01,421 -INFO - INDIGO.NS - alerts file Saved
+2024-07-19 11:36:01,421 -INFO - INDIGO.NS - Process function Ended
+2024-07-19 11:36:16,236 -INFO - All stocks - Excel file Saved
+2024-07-19 11:36:16,236 -INFO - All stocks - json file saved
+2024-07-19 11:36:16,236 -INFO - OBEROIRLTY.NS - alerts file Saved
+2024-07-19 11:36:16,236 -INFO - OBEROIRLTY.NS - Process function Ended
+2024-07-19 11:36:18,123 -INFO - All stocks - Excel file Saved
+2024-07-19 11:36:18,124 -INFO - All stocks - json file saved
+2024-07-19 11:36:18,124 -INFO - TVSMOTOR.NS - alerts file Saved
+2024-07-19 11:36:18,124 -INFO - TVSMOTOR.NS - Process function Ended
+2024-07-19 11:36:44,776 -INFO - All stocks - Excel file Saved
+2024-07-19 11:36:44,777 -INFO - All stocks - json file saved
+2024-07-19 11:37:13,444 -INFO - All stocks - Excel file Saved
+2024-07-19 11:37:13,445 -INFO - All stocks - json file saved
