@@ -2046,3 +2046,79 @@
 2024-07-18 11:37:30,850 -INFO - All stocks - json file saved
 2024-07-18 11:37:46,444 -INFO - All stocks - Excel file Saved
 2024-07-18 11:37:46,445 -INFO - All stocks - json file saved
+2024-07-22 11:36:30,828 -INFO - Started...
+2024-07-22 11:36:32,505 -INFO - Started...
+2024-07-22 11:36:40,642 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-07-22 11:36:40,642 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-07-22 11:36:42,105 -INFO - DIVISLAB.NS - Process function started
+2024-07-22 11:36:42,106 -INFO - DIVISLAB.NS - Reading existing data...
+2024-07-22 11:36:42,106 -INFO - GRANULES.NS - Process function started
+2024-07-22 11:36:42,113 -INFO - VEDL.NS - Process function started
+2024-07-22 11:36:42,113 -INFO - SIEMENS.NS - Process function started
+2024-07-22 11:36:42,113 -INFO - VEDL.NS - Reading existing data...
+2024-07-22 11:36:42,113 -INFO - AARTIIND.NS - Process function started
+2024-07-22 11:36:42,113 -INFO - SIEMENS.NS - Reading existing data...
+2024-07-22 11:36:42,123 -INFO - GRANULES.NS - isPivot function started
+2024-07-22 11:36:42,308 -INFO - AARTIIND.NS - isPivot function started
+2024-07-22 11:36:43,005 -INFO - GRANULES.NS - isPivot function Ended
+2024-07-22 11:36:43,005 -INFO - GRANULES.NS -  detect_structure function started
+2024-07-22 11:36:43,024 -INFO - GRANULES.NS -  two_line_structure function started
+2024-07-22 11:36:43,265 -INFO - AARTIIND.NS - isPivot function Ended
+2024-07-22 11:36:43,268 -INFO - AARTIIND.NS -  detect_structure function started
+2024-07-22 11:36:43,271 -INFO - AARTIIND.NS -  two_line_structure function started
+2024-07-22 11:36:44,515 -INFO - last n isPivot function started
+2024-07-22 11:36:45,154 -INFO - last n isPivot function Ended
+2024-07-22 11:36:45,155 -INFO - DIVISLAB.NS - last n detect_structure function started
+2024-07-22 11:36:45,170 -INFO - DIVISLAB.NS - last n two_line_structure function started
+2024-07-22 11:36:45,178 -INFO - last n isPivot function started
+2024-07-22 11:36:45,186 -INFO - last n isPivot function started
+2024-07-22 11:36:46,097 -INFO - last n isPivot function Ended
+2024-07-22 11:36:46,385 -INFO - VEDL.NS - last n detect_structure function started
+2024-07-22 11:36:46,739 -INFO - VEDL.NS - last n two_line_structure function started
+2024-07-22 11:36:46,788 -INFO - last n isPivot function Ended
+2024-07-22 11:36:46,794 -INFO - SIEMENS.NS - last n detect_structure function started
+2024-07-22 11:36:46,799 -INFO - SIEMENS.NS - last n two_line_structure function started
+2024-07-22 11:38:04,550 -INFO - GRANULES.NS -  two_line_structure function Ended
+2024-07-22 11:38:21,806 -INFO - AARTIIND.NS -  two_line_structure function Ended
+2024-07-22 11:38:25,803 -INFO - GRANULES.NS -  detect_structure function Ended
+2024-07-22 11:38:25,814 -INFO - GRANULES.NS - add_ph_pl_values function started
+2024-07-22 11:38:25,920 -INFO - GRANULES.NS - add_ph_pl_values function Ended
+2024-07-22 11:38:38,406 -INFO - DIVISLAB.NS - last n two_line_structure function Ended
+2024-07-22 11:38:49,234 -INFO - AARTIIND.NS -  detect_structure function Ended
+2024-07-22 11:38:49,240 -INFO - AARTIIND.NS - add_ph_pl_values function started
+2024-07-22 11:38:49,265 -INFO - AARTIIND.NS - add_ph_pl_values function Ended
+2024-07-22 11:39:08,199 -INFO - DIVISLAB.NS - last n detect_structure function Ended
+2024-07-22 11:39:08,206 -INFO - DIVISLAB.NS - add_ph_pl_values function started
+2024-07-22 11:39:08,253 -INFO - DIVISLAB.NS - add_ph_pl_values function Ended
+2024-07-22 11:39:21,067 -INFO - SIEMENS.NS - last n two_line_structure function Ended
+2024-07-22 11:39:27,536 -INFO - All stocks - Excel file Saved
+2024-07-22 11:39:27,547 -INFO - All stocks - json file saved
+2024-07-22 11:39:27,547 -INFO - GRANULES.NS - alerts file Saved
+2024-07-22 11:39:27,547 -INFO - GRANULES.NS - Process function Ended
+2024-07-22 11:39:44,037 -INFO - VEDL.NS - last n two_line_structure function Ended
+2024-07-22 11:39:45,078 -INFO - All stocks - Excel file Saved
+2024-07-22 11:39:45,083 -INFO - All stocks - json file saved
+2024-07-22 11:39:45,083 -INFO - AARTIIND.NS - alerts file Saved
+2024-07-22 11:39:45,083 -INFO - AARTIIND.NS - Process function Ended
+2024-07-22 11:39:45,995 -INFO - SIEMENS.NS - last n detect_structure function Ended
+2024-07-22 11:39:45,996 -INFO - SIEMENS.NS - add_ph_pl_values function started
+2024-07-22 11:39:46,010 -INFO - SIEMENS.NS - add_ph_pl_values function Ended
+2024-07-22 11:39:55,658 -INFO - VEDL.NS - last n detect_structure function Ended
+2024-07-22 11:39:55,659 -INFO - VEDL.NS - add_ph_pl_values function started
+2024-07-22 11:39:55,663 -INFO - VEDL.NS - add_ph_pl_values function Ended
+2024-07-22 11:39:56,471 -INFO - All stocks - Excel file Saved
+2024-07-22 11:39:56,471 -INFO - All stocks - json file saved
+2024-07-22 11:39:56,471 -INFO - DIVISLAB.NS - alerts file Saved
+2024-07-22 11:39:56,471 -INFO - DIVISLAB.NS - Process function Ended
+2024-07-22 11:40:20,051 -INFO - All stocks - Excel file Saved
+2024-07-22 11:40:20,052 -INFO - All stocks - json file saved
+2024-07-22 11:40:20,052 -INFO - SIEMENS.NS - alerts file Saved
+2024-07-22 11:40:20,052 -INFO - SIEMENS.NS - Process function Ended
+2024-07-22 11:40:22,440 -INFO - All stocks - Excel file Saved
+2024-07-22 11:40:22,440 -INFO - All stocks - json file saved
+2024-07-22 11:40:22,440 -INFO - VEDL.NS - alerts file Saved
+2024-07-22 11:40:22,440 -INFO - VEDL.NS - Process function Ended
+2024-07-22 11:40:37,945 -INFO - All stocks - Excel file Saved
+2024-07-22 11:40:37,945 -INFO - All stocks - json file saved
+2024-07-22 11:40:53,544 -INFO - All stocks - Excel file Saved
+2024-07-22 11:40:53,545 -INFO - All stocks - json file saved
