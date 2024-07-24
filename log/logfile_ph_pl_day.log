@@ -2225,3 +2225,81 @@
 2024-07-23 11:39:45,259 -INFO - All stocks - json file saved
 2024-07-23 11:40:00,784 -INFO - All stocks - Excel file Saved
 2024-07-23 11:40:00,784 -INFO - All stocks - json file saved
+2024-07-24 11:35:36,733 -INFO - Started...
+2024-07-24 11:35:38,215 -INFO - Started...
+2024-07-24 11:35:48,695 -ERROR - 
+1 Failed download:
+2024-07-24 11:35:48,695 -ERROR - ['BHEL.NS']: OperationalError('database is locked')
+2024-07-24 11:35:48,792 -INFO - KOTAKBANK.NS - Process function started
+2024-07-24 11:35:48,793 -INFO - CHAMBLFERT.NS - Process function started
+2024-07-24 11:35:48,793 -INFO - KOTAKBANK.NS - Reading existing data...
+2024-07-24 11:35:48,793 -INFO - HINDCOPPER.NS - Process function started
+2024-07-24 11:35:48,804 -INFO - HAL.NS - Process function started
+2024-07-24 11:35:48,804 -INFO - NATIONALUM.NS - Process function started
+2024-07-24 11:35:48,804 -INFO - HINDCOPPER.NS - Reading existing data...
+2024-07-24 11:35:48,804 -INFO - HAL.NS - Reading existing data...
+2024-07-24 11:35:48,804 -INFO - NATIONALUM.NS - Reading existing data...
+2024-07-24 11:35:48,806 -INFO - CHAMBLFERT.NS - isPivot function started
+2024-07-24 11:35:49,510 -INFO - CHAMBLFERT.NS - isPivot function Ended
+2024-07-24 11:35:49,510 -INFO - CHAMBLFERT.NS -  detect_structure function started
+2024-07-24 11:35:49,521 -INFO - CHAMBLFERT.NS -  two_line_structure function started
+2024-07-24 11:35:50,129 -INFO - last n isPivot function started
+2024-07-24 11:35:50,382 -INFO - last n isPivot function Ended
+2024-07-24 11:35:50,390 -INFO - HAL.NS - last n detect_structure function started
+2024-07-24 11:35:50,399 -INFO - HAL.NS - last n two_line_structure function started
+2024-07-24 11:35:50,949 -INFO - last n isPivot function started
+2024-07-24 11:35:51,844 -INFO - last n isPivot function started
+2024-07-24 11:35:52,314 -INFO - last n isPivot function Ended
+2024-07-24 11:35:52,316 -INFO - KOTAKBANK.NS - last n detect_structure function started
+2024-07-24 11:35:52,342 -INFO - last n isPivot function Ended
+2024-07-24 11:35:52,347 -INFO - KOTAKBANK.NS - last n two_line_structure function started
+2024-07-24 11:35:52,359 -INFO - HINDCOPPER.NS - last n detect_structure function started
+2024-07-24 11:35:52,365 -INFO - HINDCOPPER.NS - last n two_line_structure function started
+2024-07-24 11:35:52,504 -INFO - last n isPivot function started
+2024-07-24 11:35:53,491 -INFO - last n isPivot function Ended
+2024-07-24 11:35:53,509 -INFO - NATIONALUM.NS - last n detect_structure function started
+2024-07-24 11:35:53,509 -INFO - NATIONALUM.NS - last n two_line_structure function started
+2024-07-24 11:36:18,009 -INFO - HAL.NS - last n two_line_structure function Ended
+2024-07-24 11:36:23,547 -INFO - HAL.NS - last n detect_structure function Ended
+2024-07-24 11:36:23,548 -INFO - HAL.NS - add_ph_pl_values function started
+2024-07-24 11:36:23,557 -INFO - HAL.NS - add_ph_pl_values function Ended
+2024-07-24 11:37:08,426 -INFO - All stocks - Excel file Saved
+2024-07-24 11:37:08,449 -INFO - All stocks - json file saved
+2024-07-24 11:37:08,449 -INFO - HAL.NS - alerts file Saved
+2024-07-24 11:37:08,449 -INFO - HAL.NS - Process function Ended
+2024-07-24 11:37:08,751 -INFO - HINDCOPPER.NS - last n two_line_structure function Ended
+2024-07-24 11:37:16,079 -INFO - CHAMBLFERT.NS -  two_line_structure function Ended
+2024-07-24 11:37:18,446 -INFO - HINDCOPPER.NS - last n detect_structure function Ended
+2024-07-24 11:37:18,452 -INFO - HINDCOPPER.NS - add_ph_pl_values function started
+2024-07-24 11:37:18,488 -INFO - HINDCOPPER.NS - add_ph_pl_values function Ended
+2024-07-24 11:37:45,124 -INFO - CHAMBLFERT.NS -  detect_structure function Ended
+2024-07-24 11:37:45,127 -INFO - CHAMBLFERT.NS - add_ph_pl_values function started
+2024-07-24 11:37:45,146 -INFO - CHAMBLFERT.NS - add_ph_pl_values function Ended
+2024-07-24 11:37:52,025 -INFO - KOTAKBANK.NS - last n two_line_structure function Ended
+2024-07-24 11:37:58,175 -INFO - NATIONALUM.NS - last n two_line_structure function Ended
+2024-07-24 11:37:58,201 -INFO - All stocks - Excel file Saved
+2024-07-24 11:37:58,204 -INFO - All stocks - json file saved
+2024-07-24 11:37:58,204 -INFO - HINDCOPPER.NS - alerts file Saved
+2024-07-24 11:37:58,204 -INFO - HINDCOPPER.NS - Process function Ended
+2024-07-24 11:38:02,283 -INFO - KOTAKBANK.NS - last n detect_structure function Ended
+2024-07-24 11:38:02,286 -INFO - KOTAKBANK.NS - add_ph_pl_values function started
+2024-07-24 11:38:02,303 -INFO - KOTAKBANK.NS - add_ph_pl_values function Ended
+2024-07-24 11:38:14,813 -INFO - NATIONALUM.NS - last n detect_structure function Ended
+2024-07-24 11:38:14,813 -INFO - NATIONALUM.NS - add_ph_pl_values function started
+2024-07-24 11:38:14,817 -INFO - NATIONALUM.NS - add_ph_pl_values function Ended
+2024-07-24 11:38:25,367 -INFO - All stocks - Excel file Saved
+2024-07-24 11:38:25,367 -INFO - All stocks - json file saved
+2024-07-24 11:38:25,368 -INFO - CHAMBLFERT.NS - alerts file Saved
+2024-07-24 11:38:25,368 -INFO - CHAMBLFERT.NS - Process function Ended
+2024-07-24 11:38:44,289 -INFO - All stocks - Excel file Saved
+2024-07-24 11:38:44,289 -INFO - All stocks - json file saved
+2024-07-24 11:38:44,289 -INFO - KOTAKBANK.NS - alerts file Saved
+2024-07-24 11:38:44,289 -INFO - KOTAKBANK.NS - Process function Ended
+2024-07-24 11:38:44,561 -INFO - All stocks - Excel file Saved
+2024-07-24 11:38:44,561 -INFO - All stocks - json file saved
+2024-07-24 11:38:44,561 -INFO - NATIONALUM.NS - alerts file Saved
+2024-07-24 11:38:44,561 -INFO - NATIONALUM.NS - Process function Ended
+2024-07-24 11:39:02,752 -INFO - All stocks - Excel file Saved
+2024-07-24 11:39:02,753 -INFO - All stocks - json file saved
+2024-07-24 11:39:21,328 -INFO - All stocks - Excel file Saved
+2024-07-24 11:39:21,330 -INFO - All stocks - json file saved
