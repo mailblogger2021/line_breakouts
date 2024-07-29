@@ -2527,3 +2527,97 @@
 2024-07-26 11:43:19,358 -INFO - All stocks - json file saved
 2024-07-26 11:43:34,997 -INFO - All stocks - Excel file Saved
 2024-07-26 11:43:34,998 -INFO - All stocks - json file saved
+2024-07-29 11:35:44,473 -INFO - Started...
+2024-07-29 11:35:45,367 -INFO - Started...
+2024-07-29 11:35:54,597 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-07-29 11:35:55,348 -ERROR - 
+1 Failed download:
+2024-07-29 11:35:55,348 -ERROR - ['PERSISTENT.NS']: OperationalError('database is locked')
+2024-07-29 11:35:55,454 -INFO - RECLTD.NS - Process function started
+2024-07-29 11:35:55,454 -INFO - RECLTD.NS - Reading existing data...
+2024-07-29 11:35:55,455 -INFO - ASIANPAINT.NS - Process function started
+2024-07-29 11:35:55,455 -INFO - ASIANPAINT.NS - Reading existing data...
+2024-07-29 11:35:55,455 -INFO - AXISBANK.NS - Process function started
+2024-07-29 11:35:55,455 -INFO - AXISBANK.NS - Reading existing data...
+2024-07-29 11:35:55,455 -INFO - M&M.NS - Process function started
+2024-07-29 11:35:55,455 -INFO - M&M.NS - Reading existing data...
+2024-07-29 11:35:55,455 -INFO - PFC.NS - Process function started
+2024-07-29 11:35:55,455 -INFO - PFC.NS - Reading existing data...
+2024-07-29 11:35:55,455 -INFO - IRCTC.NS - Process function started
+2024-07-29 11:35:55,455 -INFO - IRCTC.NS - Reading existing data...
+2024-07-29 11:35:56,884 -INFO - last n isPivot function started
+2024-07-29 11:35:56,890 -INFO - last n isPivot function started
+2024-07-29 11:35:57,168 -INFO - last n isPivot function Ended
+2024-07-29 11:35:57,478 -INFO - IRCTC.NS - last n detect_structure function started
+2024-07-29 11:35:57,493 -INFO - IRCTC.NS - last n two_line_structure function started
+2024-07-29 11:35:57,656 -INFO - last n isPivot function started
+2024-07-29 11:35:57,709 -INFO - last n isPivot function Ended
+2024-07-29 11:35:57,710 -INFO - RECLTD.NS - last n detect_structure function started
+2024-07-29 11:35:57,766 -INFO - RECLTD.NS - last n two_line_structure function started
+2024-07-29 11:35:58,923 -INFO - last n isPivot function Ended
+2024-07-29 11:35:58,958 -INFO - M&M.NS - last n detect_structure function started
+2024-07-29 11:35:58,964 -INFO - M&M.NS - last n two_line_structure function started
+2024-07-29 11:35:59,047 -INFO - last n isPivot function started
+2024-07-29 11:35:59,050 -INFO - last n isPivot function started
+2024-07-29 11:36:00,364 -INFO - last n isPivot function Ended
+2024-07-29 11:36:00,406 -INFO - ASIANPAINT.NS - last n detect_structure function started
+2024-07-29 11:36:00,418 -INFO - ASIANPAINT.NS - last n two_line_structure function started
+2024-07-29 11:36:00,463 -INFO - last n isPivot function started
+2024-07-29 11:36:01,383 -INFO - last n isPivot function Ended
+2024-07-29 11:36:01,384 -INFO - AXISBANK.NS - last n detect_structure function started
+2024-07-29 11:36:01,392 -INFO - AXISBANK.NS - last n two_line_structure function started
+2024-07-29 11:36:01,408 -INFO - last n isPivot function Ended
+2024-07-29 11:36:01,408 -INFO - PFC.NS - last n detect_structure function started
+2024-07-29 11:36:01,424 -INFO - PFC.NS - last n two_line_structure function started
+2024-07-29 11:36:22,535 -INFO - IRCTC.NS - last n two_line_structure function Ended
+2024-07-29 11:36:29,428 -INFO - IRCTC.NS - last n detect_structure function Ended
+2024-07-29 11:36:29,434 -INFO - IRCTC.NS - add_ph_pl_values function started
+2024-07-29 11:36:29,506 -INFO - IRCTC.NS - add_ph_pl_values function Ended
+2024-07-29 11:37:25,660 -INFO - All stocks - Excel file Saved
+2024-07-29 11:37:25,668 -INFO - All stocks - json file saved
+2024-07-29 11:37:25,668 -INFO - IRCTC.NS - alerts file Saved
+2024-07-29 11:37:25,670 -INFO - IRCTC.NS - Process function Ended
+2024-07-29 11:37:27,392 -INFO - RECLTD.NS - last n two_line_structure function Ended
+2024-07-29 11:37:31,858 -INFO - PFC.NS - last n two_line_structure function Ended
+2024-07-29 11:37:39,582 -INFO - RECLTD.NS - last n detect_structure function Ended
+2024-07-29 11:37:39,587 -INFO - RECLTD.NS - add_ph_pl_values function started
+2024-07-29 11:37:39,630 -INFO - RECLTD.NS - add_ph_pl_values function Ended
+2024-07-29 11:37:51,088 -INFO - PFC.NS - last n detect_structure function Ended
+2024-07-29 11:37:51,092 -INFO - PFC.NS - add_ph_pl_values function started
+2024-07-29 11:37:51,123 -INFO - PFC.NS - add_ph_pl_values function Ended
+2024-07-29 11:38:03,489 -INFO - ASIANPAINT.NS - last n two_line_structure function Ended
+2024-07-29 11:38:27,704 -INFO - AXISBANK.NS - last n two_line_structure function Ended
+2024-07-29 11:38:28,427 -INFO - ASIANPAINT.NS - last n detect_structure function Ended
+2024-07-29 11:38:28,430 -INFO - ASIANPAINT.NS - add_ph_pl_values function started
+2024-07-29 11:38:28,449 -INFO - ASIANPAINT.NS - add_ph_pl_values function Ended
+2024-07-29 11:38:29,355 -INFO - All stocks - Excel file Saved
+2024-07-29 11:38:29,360 -INFO - All stocks - json file saved
+2024-07-29 11:38:29,361 -INFO - RECLTD.NS - alerts file Saved
+2024-07-29 11:38:29,361 -INFO - RECLTD.NS - Process function Ended
+2024-07-29 11:38:39,577 -INFO - M&M.NS - last n two_line_structure function Ended
+2024-07-29 11:38:39,623 -INFO - All stocks - Excel file Saved
+2024-07-29 11:38:39,625 -INFO - All stocks - json file saved
+2024-07-29 11:38:39,625 -INFO - PFC.NS - alerts file Saved
+2024-07-29 11:38:39,625 -INFO - PFC.NS - Process function Ended
+2024-07-29 11:38:44,179 -INFO - AXISBANK.NS - last n detect_structure function Ended
+2024-07-29 11:38:44,182 -INFO - AXISBANK.NS - add_ph_pl_values function started
+2024-07-29 11:38:44,198 -INFO - AXISBANK.NS - add_ph_pl_values function Ended
+2024-07-29 11:38:55,918 -INFO - M&M.NS - last n detect_structure function Ended
+2024-07-29 11:38:55,918 -INFO - M&M.NS - add_ph_pl_values function started
+2024-07-29 11:38:55,922 -INFO - M&M.NS - add_ph_pl_values function Ended
+2024-07-29 11:39:07,036 -INFO - All stocks - Excel file Saved
+2024-07-29 11:39:07,036 -INFO - All stocks - json file saved
+2024-07-29 11:39:07,036 -INFO - ASIANPAINT.NS - alerts file Saved
+2024-07-29 11:39:07,036 -INFO - ASIANPAINT.NS - Process function Ended
+2024-07-29 11:39:22,649 -INFO - All stocks - Excel file Saved
+2024-07-29 11:39:22,649 -INFO - All stocks - json file saved
+2024-07-29 11:39:22,649 -INFO - AXISBANK.NS - alerts file Saved
+2024-07-29 11:39:22,649 -INFO - AXISBANK.NS - Process function Ended
+2024-07-29 11:39:25,110 -INFO - All stocks - Excel file Saved
+2024-07-29 11:39:25,110 -INFO - All stocks - json file saved
+2024-07-29 11:39:25,110 -INFO - M&M.NS - alerts file Saved
+2024-07-29 11:39:25,110 -INFO - M&M.NS - Process function Ended
+2024-07-29 11:39:41,270 -INFO - All stocks - Excel file Saved
+2024-07-29 11:39:41,270 -INFO - All stocks - json file saved
+2024-07-29 11:39:58,879 -INFO - All stocks - Excel file Saved
+2024-07-29 11:39:58,880 -INFO - All stocks - json file saved
