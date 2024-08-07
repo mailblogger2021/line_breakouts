@@ -3749,3 +3749,68 @@ ValueError: Length of values (40207) does not match length of index (40001)
 2024-08-06 12:12:52,819 -INFO - All stocks - json file saved
 2024-08-06 12:13:08,810 -INFO - All stocks - Excel file Saved
 2024-08-06 12:13:08,811 -INFO - All stocks - json file saved
+2024-08-07 11:35:30,620 -INFO - Started...
+2024-08-07 11:35:31,491 -INFO - Started...
+2024-08-07 11:35:40,201 -ERROR - 
+1 Failed download:
+2024-08-07 11:35:40,201 -ERROR - ['TITAN.NS']: OperationalError('database is locked')
+2024-08-07 11:35:40,280 -INFO - KOTAKBANK.NS - Process function started
+2024-08-07 11:35:40,280 -INFO - KOTAKBANK.NS - Reading existing data...
+2024-08-07 11:35:40,281 -INFO - ITC.NS - Process function started
+2024-08-07 11:35:40,281 -INFO - HDFCBANK.NS - Process function started
+2024-08-07 11:35:40,281 -INFO - ITC.NS - Reading existing data...
+2024-08-07 11:35:40,281 -INFO - AUBANK.NS - Process function started
+2024-08-07 11:35:40,281 -INFO - HDFCBANK.NS - Reading existing data...
+2024-08-07 11:35:40,281 -INFO - AUBANK.NS - Reading existing data...
+2024-08-07 11:35:41,508 -INFO - last n isPivot function started
+2024-08-07 11:35:41,523 -INFO - last n isPivot function started
+2024-08-07 11:35:42,365 -INFO - last n isPivot function Ended
+2024-08-07 11:35:42,365 -INFO - AUBANK.NS - last n detect_structure function started
+2024-08-07 11:35:42,365 -INFO - last n isPivot function Ended
+2024-08-07 11:35:42,367 -INFO - AUBANK.NS - last n two_line_structure function started
+2024-08-07 11:35:42,369 -INFO - KOTAKBANK.NS - last n detect_structure function started
+2024-08-07 11:35:42,376 -INFO - KOTAKBANK.NS - last n two_line_structure function started
+2024-08-07 11:35:42,434 -INFO - last n isPivot function started
+2024-08-07 11:35:43,243 -INFO - last n isPivot function Ended
+2024-08-07 11:35:43,244 -INFO - ITC.NS - last n detect_structure function started
+2024-08-07 11:35:43,249 -INFO - ITC.NS - last n two_line_structure function started
+2024-08-07 11:35:43,288 -INFO - last n isPivot function started
+2024-08-07 11:35:44,233 -INFO - last n isPivot function Ended
+2024-08-07 11:35:44,240 -INFO - HDFCBANK.NS - last n detect_structure function started
+2024-08-07 11:35:44,250 -INFO - HDFCBANK.NS - last n two_line_structure function started
+2024-08-07 11:36:02,410 -INFO - AUBANK.NS - last n two_line_structure function Ended
+2024-08-07 11:36:06,652 -INFO - AUBANK.NS - last n detect_structure function Ended
+2024-08-07 11:36:06,665 -INFO - AUBANK.NS - add_ph_pl_values function started
+2024-08-07 11:36:06,708 -INFO - AUBANK.NS - add_ph_pl_values function Ended
+2024-08-07 11:36:44,819 -INFO - All stocks - Excel file Saved
+2024-08-07 11:36:44,825 -INFO - All stocks - json file saved
+2024-08-07 11:36:44,825 -INFO - AUBANK.NS - alerts file Saved
+2024-08-07 11:36:44,826 -INFO - AUBANK.NS - Process function Ended
+2024-08-07 11:36:53,958 -INFO - KOTAKBANK.NS - last n two_line_structure function Ended
+2024-08-07 11:37:02,517 -INFO - KOTAKBANK.NS - last n detect_structure function Ended
+2024-08-07 11:37:02,520 -INFO - KOTAKBANK.NS - add_ph_pl_values function started
+2024-08-07 11:37:02,542 -INFO - KOTAKBANK.NS - add_ph_pl_values function Ended
+2024-08-07 11:37:10,663 -INFO - HDFCBANK.NS - last n two_line_structure function Ended
+2024-08-07 11:37:10,948 -INFO - ITC.NS - last n two_line_structure function Ended
+2024-08-07 11:37:22,339 -INFO - ITC.NS - last n detect_structure function Ended
+2024-08-07 11:37:22,340 -INFO - ITC.NS - add_ph_pl_values function started
+2024-08-07 11:37:22,352 -INFO - ITC.NS - add_ph_pl_values function Ended
+2024-08-07 11:37:23,117 -INFO - HDFCBANK.NS - last n detect_structure function Ended
+2024-08-07 11:37:23,117 -INFO - HDFCBANK.NS - add_ph_pl_values function started
+2024-08-07 11:37:23,121 -INFO - HDFCBANK.NS - add_ph_pl_values function Ended
+2024-08-07 11:37:41,259 -INFO - All stocks - Excel file Saved
+2024-08-07 11:37:41,259 -INFO - All stocks - json file saved
+2024-08-07 11:37:41,260 -INFO - KOTAKBANK.NS - alerts file Saved
+2024-08-07 11:37:41,260 -INFO - KOTAKBANK.NS - Process function Ended
+2024-08-07 11:37:56,505 -INFO - All stocks - Excel file Saved
+2024-08-07 11:37:56,505 -INFO - All stocks - json file saved
+2024-08-07 11:37:56,505 -INFO - ITC.NS - alerts file Saved
+2024-08-07 11:37:56,505 -INFO - ITC.NS - Process function Ended
+2024-08-07 11:37:56,625 -INFO - All stocks - Excel file Saved
+2024-08-07 11:37:56,626 -INFO - All stocks - json file saved
+2024-08-07 11:37:56,626 -INFO - HDFCBANK.NS - alerts file Saved
+2024-08-07 11:37:56,626 -INFO - HDFCBANK.NS - Process function Ended
+2024-08-07 11:38:12,399 -INFO - All stocks - Excel file Saved
+2024-08-07 11:38:12,399 -INFO - All stocks - json file saved
+2024-08-07 11:38:28,001 -INFO - All stocks - Excel file Saved
+2024-08-07 11:38:28,001 -INFO - All stocks - json file saved
