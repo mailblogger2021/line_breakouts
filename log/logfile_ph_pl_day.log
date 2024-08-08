@@ -3814,3 +3814,66 @@ ValueError: Length of values (40207) does not match length of index (40001)
 2024-08-07 11:38:12,399 -INFO - All stocks - json file saved
 2024-08-07 11:38:28,001 -INFO - All stocks - Excel file Saved
 2024-08-07 11:38:28,001 -INFO - All stocks - json file saved
+2024-08-08 11:34:39,033 -INFO - Started...
+2024-08-08 11:34:39,903 -INFO - Started...
+2024-08-08 11:34:47,852 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-08-08 11:34:47,852 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-08-08 11:34:49,556 -INFO - COFORGE.NS - Process function started
+2024-08-08 11:34:49,563 -INFO - FEDERALBNK.NS - Process function started
+2024-08-08 11:34:49,564 -INFO - SHRIRAMFIN.NS - Process function started
+2024-08-08 11:34:49,564 -INFO - UBL.NS - Process function started
+2024-08-08 11:34:49,564 -INFO - FEDERALBNK.NS - Reading existing data...
+2024-08-08 11:34:49,564 -INFO - SHRIRAMFIN.NS - Reading existing data...
+2024-08-08 11:34:49,564 -INFO - UBL.NS - Reading existing data...
+2024-08-08 11:34:49,565 -INFO - COFORGE.NS - isPivot function started
+2024-08-08 11:34:50,071 -INFO - COFORGE.NS - isPivot function Ended
+2024-08-08 11:34:50,071 -INFO - COFORGE.NS -  detect_structure function started
+2024-08-08 11:34:50,074 -INFO - COFORGE.NS -  two_line_structure function started
+2024-08-08 11:34:51,165 -INFO - last n isPivot function started
+2024-08-08 11:34:51,604 -INFO - last n isPivot function Ended
+2024-08-08 11:34:51,604 -INFO - UBL.NS - last n detect_structure function started
+2024-08-08 11:34:51,607 -INFO - UBL.NS - last n two_line_structure function started
+2024-08-08 11:34:51,668 -INFO - last n isPivot function started
+2024-08-08 11:34:51,678 -INFO - last n isPivot function started
+2024-08-08 11:34:53,087 -INFO - last n isPivot function Ended
+2024-08-08 11:34:53,088 -INFO - FEDERALBNK.NS - last n detect_structure function started
+2024-08-08 11:34:53,091 -INFO - FEDERALBNK.NS - last n two_line_structure function started
+2024-08-08 11:34:53,094 -INFO - last n isPivot function Ended
+2024-08-08 11:34:53,116 -INFO - SHRIRAMFIN.NS - last n detect_structure function started
+2024-08-08 11:34:53,120 -INFO - SHRIRAMFIN.NS - last n two_line_structure function started
+2024-08-08 11:35:38,539 -INFO - UBL.NS - last n two_line_structure function Ended
+2024-08-08 11:35:39,553 -INFO - COFORGE.NS -  two_line_structure function Ended
+2024-08-08 11:35:48,214 -INFO - UBL.NS - last n detect_structure function Ended
+2024-08-08 11:35:48,218 -INFO - UBL.NS - add_ph_pl_values function started
+2024-08-08 11:35:48,245 -INFO - UBL.NS - add_ph_pl_values function Ended
+2024-08-08 11:35:54,833 -INFO - COFORGE.NS -  detect_structure function Ended
+2024-08-08 11:35:54,834 -INFO - COFORGE.NS - add_ph_pl_values function started
+2024-08-08 11:35:54,864 -INFO - COFORGE.NS - add_ph_pl_values function Ended
+2024-08-08 11:36:02,492 -INFO - SHRIRAMFIN.NS - last n two_line_structure function Ended
+2024-08-08 11:36:23,265 -INFO - SHRIRAMFIN.NS - last n detect_structure function Ended
+2024-08-08 11:36:23,266 -INFO - SHRIRAMFIN.NS - add_ph_pl_values function started
+2024-08-08 11:36:23,272 -INFO - SHRIRAMFIN.NS - add_ph_pl_values function Ended
+2024-08-08 11:36:29,456 -INFO - FEDERALBNK.NS - last n two_line_structure function Ended
+2024-08-08 11:36:34,487 -INFO - All stocks - Excel file Saved
+2024-08-08 11:36:34,489 -INFO - All stocks - json file saved
+2024-08-08 11:36:34,489 -INFO - UBL.NS - alerts file Saved
+2024-08-08 11:36:34,489 -INFO - UBL.NS - Process function Ended
+2024-08-08 11:36:37,694 -INFO - All stocks - Excel file Saved
+2024-08-08 11:36:37,696 -INFO - All stocks - json file saved
+2024-08-08 11:36:37,696 -INFO - COFORGE.NS - alerts file Saved
+2024-08-08 11:36:37,697 -INFO - COFORGE.NS - Process function Ended
+2024-08-08 11:36:44,543 -INFO - FEDERALBNK.NS - last n detect_structure function Ended
+2024-08-08 11:36:44,543 -INFO - FEDERALBNK.NS - add_ph_pl_values function started
+2024-08-08 11:36:44,547 -INFO - FEDERALBNK.NS - add_ph_pl_values function Ended
+2024-08-08 11:36:55,183 -INFO - All stocks - Excel file Saved
+2024-08-08 11:36:55,184 -INFO - All stocks - json file saved
+2024-08-08 11:36:55,184 -INFO - SHRIRAMFIN.NS - alerts file Saved
+2024-08-08 11:36:55,184 -INFO - SHRIRAMFIN.NS - Process function Ended
+2024-08-08 11:37:03,576 -INFO - All stocks - Excel file Saved
+2024-08-08 11:37:03,577 -INFO - All stocks - json file saved
+2024-08-08 11:37:03,577 -INFO - FEDERALBNK.NS - alerts file Saved
+2024-08-08 11:37:03,577 -INFO - FEDERALBNK.NS - Process function Ended
+2024-08-08 11:37:19,495 -INFO - All stocks - Excel file Saved
+2024-08-08 11:37:19,496 -INFO - All stocks - json file saved
+2024-08-08 11:37:35,298 -INFO - All stocks - Excel file Saved
+2024-08-08 11:37:35,298 -INFO - All stocks - json file saved
