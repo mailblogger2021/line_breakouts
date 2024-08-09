@@ -956,3 +956,180 @@ ValueError: operands could not be broadcast together with shapes (3764,) (3759,)
 2024-08-02 11:33:48,667 -INFO - All stocks - json file saved
 2024-08-02 11:34:12,198 -INFO - All stocks - Excel file Saved
 2024-08-02 11:34:12,198 -INFO - All stocks - json file saved
+2024-08-09 11:32:23,461 -INFO - Started...
+2024-08-09 11:32:24,875 -INFO - Started...
+2024-08-09 11:32:36,987 -INFO - VEDL.NS - this stock already completed
+2024-08-09 11:32:36,988 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-08-09 11:32:40,027 -ERROR - 
+1 Failed download:
+2024-08-09 11:32:40,028 -ERROR - ['BANKNIFTY.NS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+2024-08-09 11:32:40,115 -INFO - AMBUJACEM.NS - Process function started
+2024-08-09 11:32:40,115 -INFO - UPL.NS - Process function started
+2024-08-09 11:32:40,116 -INFO - AMBUJACEM.NS - Reading existing data...
+2024-08-09 11:32:40,116 -INFO - UPL.NS - Reading existing data...
+2024-08-09 11:32:40,116 -INFO - SIEMENS.NS - Process function started
+2024-08-09 11:32:40,116 -INFO - CANFINHOME.NS - Process function started
+2024-08-09 11:32:40,116 -INFO - DIXON.NS - Process function started
+2024-08-09 11:32:40,116 -INFO - MOTHERSON.NS - Process function started
+2024-08-09 11:32:40,116 -INFO - ULTRACEMCO.NS - Process function started
+2024-08-09 11:32:40,117 -INFO - SIEMENS.NS - Reading existing data...
+2024-08-09 11:32:40,117 -INFO - ASTRAL.NS - Process function started
+2024-08-09 11:32:40,119 -INFO - DIXON.NS - Reading existing data...
+2024-08-09 11:32:40,120 -INFO - MOTHERSON.NS - Reading existing data...
+2024-08-09 11:32:40,120 -INFO - ULTRACEMCO.NS - Reading existing data...
+2024-08-09 11:32:40,120 -INFO - JSWSTEEL.NS - Process function started
+2024-08-09 11:32:40,121 -INFO - LTF.NS - Process function started
+2024-08-09 11:32:40,121 -INFO - ASTRAL.NS - Reading existing data...
+2024-08-09 11:32:40,121 -INFO - HDFCBANK.NS - Process function started
+2024-08-09 11:32:40,121 -INFO - ACC.NS - Process function started
+2024-08-09 11:32:40,122 -INFO - CANFINHOME.NS - isPivot function started
+2024-08-09 11:32:40,123 -INFO - JSWSTEEL.NS - Reading existing data...
+2024-08-09 11:32:40,131 -INFO - HDFCBANK.NS - Reading existing data...
+2024-08-09 11:32:40,131 -INFO - ACC.NS - Reading existing data...
+2024-08-09 11:32:40,290 -INFO - CANFINHOME.NS - isPivot function Ended
+2024-08-09 11:32:40,290 -INFO - LTF.NS - isPivot function started
+2024-08-09 11:32:40,292 -INFO - CANFINHOME.NS -  detect_structure function started
+2024-08-09 11:32:40,365 -INFO - LTF.NS - isPivot function Ended
+2024-08-09 11:32:40,367 -INFO - CANFINHOME.NS -  two_line_structure function started
+2024-08-09 11:32:40,368 -INFO - LTF.NS -  detect_structure function started
+2024-08-09 11:32:40,368 -INFO - LTF.NS -  two_line_structure function started
+2024-08-09 11:32:40,490 -INFO - last n isPivot function started
+2024-08-09 11:32:40,615 -INFO - last n isPivot function Ended
+2024-08-09 11:32:40,615 -INFO - AMBUJACEM.NS - last n detect_structure function started
+2024-08-09 11:32:40,629 -INFO - AMBUJACEM.NS - last n two_line_structure function started
+2024-08-09 11:32:41,373 -INFO - last n isPivot function started
+2024-08-09 11:32:41,407 -INFO - last n isPivot function Ended
+2024-08-09 11:32:41,407 -INFO - DIXON.NS - last n detect_structure function started
+2024-08-09 11:32:41,460 -INFO - DIXON.NS - last n two_line_structure function started
+2024-08-09 11:32:41,461 -INFO - last n isPivot function started
+2024-08-09 11:32:41,463 -INFO - last n isPivot function started
+2024-08-09 11:32:41,466 -INFO - last n isPivot function started
+2024-08-09 11:32:41,615 -INFO - last n isPivot function Ended
+2024-08-09 11:32:41,755 -INFO - last n isPivot function Ended
+2024-08-09 11:32:41,856 -INFO - last n isPivot function Ended
+2024-08-09 11:32:41,878 -INFO - last n isPivot function started
+2024-08-09 11:32:41,878 -INFO - last n isPivot function started
+2024-08-09 11:32:41,880 -INFO - SIEMENS.NS - last n detect_structure function started
+2024-08-09 11:32:41,884 -INFO - SIEMENS.NS - last n two_line_structure function started
+2024-08-09 11:32:41,884 -INFO - last n isPivot function started
+2024-08-09 11:32:41,894 -INFO - UPL.NS - last n detect_structure function started
+2024-08-09 11:32:41,894 -INFO - UPL.NS - last n two_line_structure function started
+2024-08-09 11:32:41,903 -INFO - ASTRAL.NS - last n detect_structure function started
+2024-08-09 11:32:41,903 -INFO - ASTRAL.NS - last n two_line_structure function started
+2024-08-09 11:32:41,916 -INFO - last n isPivot function started
+2024-08-09 11:32:42,093 -INFO - last n isPivot function Ended
+2024-08-09 11:32:42,260 -INFO - last n isPivot function Ended
+2024-08-09 11:32:42,321 -INFO - last n isPivot function Ended
+2024-08-09 11:32:42,347 -INFO - MOTHERSON.NS - last n detect_structure function started
+2024-08-09 11:32:42,472 -INFO - MOTHERSON.NS - last n two_line_structure function started
+2024-08-09 11:32:42,478 -INFO - JSWSTEEL.NS - last n detect_structure function started
+2024-08-09 11:32:42,487 -INFO - ULTRACEMCO.NS - last n detect_structure function started
+2024-08-09 11:32:42,487 -INFO - ULTRACEMCO.NS - last n two_line_structure function started
+2024-08-09 11:32:42,494 -INFO - last n isPivot function Ended
+2024-08-09 11:32:42,494 -INFO - last n isPivot function started
+2024-08-09 11:32:42,497 -INFO - JSWSTEEL.NS - last n two_line_structure function started
+2024-08-09 11:32:42,513 -INFO - ACC.NS - last n detect_structure function started
+2024-08-09 11:32:42,520 -INFO - ACC.NS - last n two_line_structure function started
+2024-08-09 11:32:42,713 -INFO - last n isPivot function Ended
+2024-08-09 11:32:42,713 -INFO - HDFCBANK.NS - last n detect_structure function started
+2024-08-09 11:32:42,714 -INFO - HDFCBANK.NS - last n two_line_structure function started
+2024-08-09 11:32:50,592 -INFO - DIXON.NS - last n two_line_structure function Ended
+2024-08-09 11:32:57,365 -INFO - LTF.NS -  two_line_structure function Ended
+2024-08-09 11:33:05,910 -INFO - DIXON.NS - last n detect_structure function Ended
+2024-08-09 11:33:05,927 -INFO - DIXON.NS - add_ph_pl_values function started
+2024-08-09 11:33:06,086 -INFO - DIXON.NS - add_ph_pl_values function Ended
+2024-08-09 11:33:20,848 -INFO - ASTRAL.NS - last n two_line_structure function Ended
+2024-08-09 11:33:23,021 -INFO - CANFINHOME.NS -  two_line_structure function Ended
+2024-08-09 11:33:26,486 -INFO - JSWSTEEL.NS - last n two_line_structure function Ended
+2024-08-09 11:33:27,781 -INFO - AMBUJACEM.NS - last n two_line_structure function Ended
+2024-08-09 11:33:28,351 -INFO - ULTRACEMCO.NS - last n two_line_structure function Ended
+2024-08-09 11:33:28,755 -INFO - UPL.NS - last n two_line_structure function Ended
+2024-08-09 11:33:28,784 -INFO - ACC.NS - last n two_line_structure function Ended
+2024-08-09 11:33:30,500 -INFO - MOTHERSON.NS - last n two_line_structure function Ended
+2024-08-09 11:33:32,416 -INFO - SIEMENS.NS - last n two_line_structure function Ended
+2024-08-09 11:33:36,389 -INFO - HDFCBANK.NS - last n two_line_structure function Ended
+2024-08-09 11:33:40,600 -INFO - LTF.NS -  detect_structure function Ended
+2024-08-09 11:33:40,610 -INFO - LTF.NS - add_ph_pl_values function started
+2024-08-09 11:33:40,667 -INFO - LTF.NS - add_ph_pl_values function Ended
+2024-08-09 11:34:13,900 -INFO - ASTRAL.NS - last n detect_structure function Ended
+2024-08-09 11:34:13,905 -INFO - ASTRAL.NS - add_ph_pl_values function started
+2024-08-09 11:34:13,940 -INFO - ASTRAL.NS - add_ph_pl_values function Ended
+2024-08-09 11:34:31,156 -INFO - JSWSTEEL.NS - last n detect_structure function Ended
+2024-08-09 11:34:31,159 -INFO - JSWSTEEL.NS - add_ph_pl_values function started
+2024-08-09 11:34:31,186 -INFO - JSWSTEEL.NS - add_ph_pl_values function Ended
+2024-08-09 11:34:45,620 -INFO - ULTRACEMCO.NS - last n detect_structure function Ended
+2024-08-09 11:34:45,621 -INFO - ULTRACEMCO.NS - add_ph_pl_values function started
+2024-08-09 11:34:45,636 -INFO - ULTRACEMCO.NS - add_ph_pl_values function Ended
+2024-08-09 11:34:45,716 -INFO - AMBUJACEM.NS - last n detect_structure function Ended
+2024-08-09 11:34:45,716 -INFO - AMBUJACEM.NS - add_ph_pl_values function started
+2024-08-09 11:34:45,823 -INFO - AMBUJACEM.NS - add_ph_pl_values function Ended
+2024-08-09 11:35:22,304 -INFO - UPL.NS - last n detect_structure function Ended
+2024-08-09 11:35:22,308 -INFO - UPL.NS - add_ph_pl_values function started
+2024-08-09 11:35:22,322 -INFO - UPL.NS - add_ph_pl_values function Ended
+2024-08-09 11:35:25,684 -INFO - CANFINHOME.NS -  detect_structure function Ended
+2024-08-09 11:35:25,809 -INFO - CANFINHOME.NS - add_ph_pl_values function started
+2024-08-09 11:35:26,527 -INFO - CANFINHOME.NS - add_ph_pl_values function Ended
+2024-08-09 11:35:45,950 -INFO - ACC.NS - last n detect_structure function Ended
+2024-08-09 11:35:46,154 -INFO - ACC.NS - add_ph_pl_values function started
+2024-08-09 11:35:46,818 -INFO - ACC.NS - add_ph_pl_values function Ended
+2024-08-09 11:36:05,205 -INFO - MOTHERSON.NS - last n detect_structure function Ended
+2024-08-09 11:36:05,206 -INFO - MOTHERSON.NS - add_ph_pl_values function started
+2024-08-09 11:36:05,310 -INFO - MOTHERSON.NS - add_ph_pl_values function Ended
+2024-08-09 11:36:10,300 -INFO - SIEMENS.NS - last n detect_structure function Ended
+2024-08-09 11:36:10,399 -INFO - SIEMENS.NS - add_ph_pl_values function started
+2024-08-09 11:36:10,871 -INFO - All stocks - Excel file Saved
+2024-08-09 11:36:10,908 -INFO - All stocks - json file saved
+2024-08-09 11:36:10,908 -INFO - DIXON.NS - alerts file Saved
+2024-08-09 11:36:10,909 -INFO - DIXON.NS - Process function Ended
+2024-08-09 11:36:10,932 -INFO - SIEMENS.NS - add_ph_pl_values function Ended
+2024-08-09 11:37:41,002 -INFO - All stocks - Excel file Saved
+2024-08-09 11:37:41,732 -INFO - All stocks - json file saved
+2024-08-09 11:37:41,732 -INFO - LTF.NS - alerts file Saved
+2024-08-09 11:37:41,732 -INFO - LTF.NS - Process function Ended
+2024-08-09 11:39:12,145 -INFO - All stocks - Excel file Saved
+2024-08-09 11:39:12,149 -INFO - All stocks - json file saved
+2024-08-09 11:39:12,149 -INFO - ASTRAL.NS - alerts file Saved
+2024-08-09 11:39:12,149 -INFO - ASTRAL.NS - Process function Ended
+2024-08-09 11:39:14,889 -INFO - HDFCBANK.NS - last n detect_structure function Ended
+2024-08-09 11:39:14,890 -INFO - HDFCBANK.NS - add_ph_pl_values function started
+2024-08-09 11:39:14,905 -INFO - HDFCBANK.NS - add_ph_pl_values function Ended
+2024-08-09 11:39:16,259 -INFO - All stocks - Excel file Saved
+2024-08-09 11:39:16,259 -INFO - All stocks - json file saved
+2024-08-09 11:39:16,259 -INFO - JSWSTEEL.NS - alerts file Saved
+2024-08-09 11:39:16,259 -INFO - JSWSTEEL.NS - Process function Ended
+2024-08-09 11:39:16,859 -INFO - All stocks - Excel file Saved
+2024-08-09 11:39:16,859 -INFO - All stocks - json file saved
+2024-08-09 11:39:16,859 -INFO - AMBUJACEM.NS - alerts file Saved
+2024-08-09 11:39:16,859 -INFO - AMBUJACEM.NS - Process function Ended
+2024-08-09 11:39:30,715 -INFO - All stocks - Excel file Saved
+2024-08-09 11:39:30,716 -INFO - All stocks - json file saved
+2024-08-09 11:39:30,718 -INFO - UPL.NS - alerts file Saved
+2024-08-09 11:39:30,718 -INFO - UPL.NS - Process function Ended
+2024-08-09 11:39:30,784 -INFO - All stocks - Excel file Saved
+2024-08-09 11:39:30,784 -INFO - All stocks - json file saved
+2024-08-09 11:39:30,784 -INFO - ULTRACEMCO.NS - alerts file Saved
+2024-08-09 11:39:30,784 -INFO - ULTRACEMCO.NS - Process function Ended
+2024-08-09 11:39:34,918 -INFO - All stocks - Excel file Saved
+2024-08-09 11:39:34,919 -INFO - All stocks - json file saved
+2024-08-09 11:39:34,919 -INFO - CANFINHOME.NS - alerts file Saved
+2024-08-09 11:39:34,919 -INFO - CANFINHOME.NS - Process function Ended
+2024-08-09 11:39:35,492 -INFO - All stocks - Excel file Saved
+2024-08-09 11:39:35,492 -INFO - All stocks - json file saved
+2024-08-09 11:39:35,492 -INFO - ACC.NS - alerts file Saved
+2024-08-09 11:39:35,492 -INFO - ACC.NS - Process function Ended
+2024-08-09 11:39:36,037 -INFO - All stocks - Excel file Saved
+2024-08-09 11:39:36,037 -INFO - All stocks - json file saved
+2024-08-09 11:39:36,038 -INFO - MOTHERSON.NS - alerts file Saved
+2024-08-09 11:39:36,038 -INFO - MOTHERSON.NS - Process function Ended
+2024-08-09 11:39:40,276 -INFO - All stocks - Excel file Saved
+2024-08-09 11:39:40,276 -INFO - All stocks - json file saved
+2024-08-09 11:39:40,276 -INFO - SIEMENS.NS - alerts file Saved
+2024-08-09 11:39:40,276 -INFO - SIEMENS.NS - Process function Ended
+2024-08-09 11:39:52,984 -INFO - All stocks - Excel file Saved
+2024-08-09 11:39:52,984 -INFO - All stocks - json file saved
+2024-08-09 11:39:52,984 -INFO - HDFCBANK.NS - alerts file Saved
+2024-08-09 11:39:52,984 -INFO - HDFCBANK.NS - Process function Ended
+2024-08-09 11:40:16,948 -INFO - All stocks - Excel file Saved
+2024-08-09 11:40:16,948 -INFO - All stocks - json file saved
+2024-08-09 11:40:40,952 -INFO - All stocks - Excel file Saved
+2024-08-09 11:40:40,953 -INFO - All stocks - json file saved
