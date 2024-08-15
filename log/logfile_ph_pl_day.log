@@ -4448,3 +4448,41 @@ ValueError: operands could not be broadcast together with shapes (40225,) (40112
 2024-08-14 11:45:14,374 -INFO - All stocks - json file saved
 2024-08-14 11:45:30,162 -INFO - All stocks - Excel file Saved
 2024-08-14 11:45:30,163 -INFO - All stocks - json file saved
+2024-08-15 11:35:00,787 -INFO - Started...
+2024-08-15 11:35:01,863 -INFO - Started...
+2024-08-15 11:35:13,450 -INFO - ASHOKLEY.NS - this stock already completed
+2024-08-15 11:35:13,450 -INFO - JKCEMENT.NS - this stock already completed
+2024-08-15 11:35:13,450 -INFO - PERSISTENT.NS - this stock already completed
+2024-08-15 11:35:13,450 -INFO - BERGEPAINT.NS - this stock already completed
+2024-08-15 11:35:13,450 -INFO - IGL.NS - this stock already completed
+2024-08-15 11:35:13,450 -INFO - GAIL.NS - this stock already completed
+2024-08-15 11:35:13,450 -INFO - GMRINFRA.NS - this stock already completed
+2024-08-15 11:35:13,450 -INFO - OBEROIRLTY.NS - this stock already completed
+2024-08-15 11:35:13,450 -INFO - SRF.NS - this stock already completed
+2024-08-15 11:35:13,450 -INFO - NAVINFLUOR.NS - this stock already completed
+2024-08-15 11:35:13,450 -INFO - HINDPETRO.NS - this stock already completed
+2024-08-15 11:35:13,450 -INFO - ABFRL.NS - this stock already completed
+2024-08-15 11:35:13,450 -INFO - GNFC.NS - this stock already completed
+2024-08-15 11:35:13,450 -INFO - M&M.NS - this stock already completed
+2024-08-15 11:35:13,451 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-08-15 11:35:15,541 -ERROR - 
+1 Failed download:
+2024-08-15 11:35:15,541 -ERROR - ['NIFTY']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+2024-08-15 11:35:15,557 -INFO - MGL.NS - Process function started
+2024-08-15 11:35:15,557 -INFO - MGL.NS - Reading existing data...
+2024-08-15 11:35:15,682 -INFO - last n isPivot function started
+2024-08-15 11:35:15,895 -INFO - last n isPivot function Ended
+2024-08-15 11:35:15,896 -INFO - MGL.NS - last n detect_structure function started
+2024-08-15 11:35:15,898 -INFO - MGL.NS - last n two_line_structure function started
+2024-08-15 11:35:21,256 -INFO - MGL.NS - last n two_line_structure function Ended
+2024-08-15 11:35:22,247 -INFO - MGL.NS - last n detect_structure function Ended
+2024-08-15 11:35:22,247 -INFO - MGL.NS - add_ph_pl_values function started
+2024-08-15 11:35:22,251 -INFO - MGL.NS - add_ph_pl_values function Ended
+2024-08-15 11:35:41,636 -INFO - All stocks - Excel file Saved
+2024-08-15 11:35:41,637 -INFO - All stocks - json file saved
+2024-08-15 11:35:41,637 -INFO - MGL.NS - alerts file Saved
+2024-08-15 11:35:41,637 -INFO - MGL.NS - Process function Ended
+2024-08-15 11:35:59,632 -INFO - All stocks - Excel file Saved
+2024-08-15 11:35:59,632 -INFO - All stocks - json file saved
+2024-08-15 11:36:17,306 -INFO - All stocks - Excel file Saved
+2024-08-15 11:36:17,306 -INFO - All stocks - json file saved
