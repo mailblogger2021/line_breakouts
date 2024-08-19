@@ -4486,3 +4486,82 @@ ValueError: operands could not be broadcast together with shapes (40225,) (40112
 2024-08-15 11:35:59,632 -INFO - All stocks - json file saved
 2024-08-15 11:36:17,306 -INFO - All stocks - Excel file Saved
 2024-08-15 11:36:17,306 -INFO - All stocks - json file saved
+2024-08-19 11:34:36,732 -INFO - Started...
+2024-08-19 11:34:37,631 -INFO - Started...
+2024-08-19 11:34:47,514 -ERROR - 
+1 Failed download:
+2024-08-19 11:34:47,514 -ERROR - ['RAMCOCEM.NS']: OperationalError('database is locked')
+2024-08-19 11:34:47,619 -INFO - CHAMBLFERT.NS - Process function started
+2024-08-19 11:34:47,619 -INFO - CHAMBLFERT.NS - Reading existing data...
+2024-08-19 11:34:47,619 -INFO - PAGEIND.NS - Process function started
+2024-08-19 11:34:47,619 -INFO - PAGEIND.NS - Reading existing data...
+2024-08-19 11:34:47,619 -INFO - TATAPOWER.NS - Process function started
+2024-08-19 11:34:47,619 -INFO - PEL.NS - Process function started
+2024-08-19 11:34:47,619 -INFO - NTPC.NS - Process function started
+2024-08-19 11:34:47,620 -INFO - TATAPOWER.NS - Reading existing data...
+2024-08-19 11:34:47,620 -INFO - PEL.NS - Reading existing data...
+2024-08-19 11:34:47,620 -INFO - NTPC.NS - Reading existing data...
+2024-08-19 11:34:49,162 -INFO - last n isPivot function started
+2024-08-19 11:34:49,169 -INFO - last n isPivot function started
+2024-08-19 11:34:49,371 -INFO - last n isPivot function started
+2024-08-19 11:34:50,281 -INFO - last n isPivot function started
+2024-08-19 11:34:50,482 -INFO - last n isPivot function started
+2024-08-19 11:34:50,482 -INFO - last n isPivot function Ended
+2024-08-19 11:34:51,131 -INFO - last n isPivot function Ended
+2024-08-19 11:34:51,210 -INFO - PAGEIND.NS - last n detect_structure function started
+2024-08-19 11:34:51,236 -INFO - PAGEIND.NS - last n two_line_structure function started
+2024-08-19 11:34:51,256 -INFO - TATAPOWER.NS - last n detect_structure function started
+2024-08-19 11:34:51,722 -INFO - TATAPOWER.NS - last n two_line_structure function started
+2024-08-19 11:34:52,472 -INFO - last n isPivot function Ended
+2024-08-19 11:34:52,478 -INFO - last n isPivot function Ended
+2024-08-19 11:34:52,482 -INFO - CHAMBLFERT.NS - last n detect_structure function started
+2024-08-19 11:34:52,484 -INFO - PEL.NS - last n detect_structure function started
+2024-08-19 11:34:52,487 -INFO - CHAMBLFERT.NS - last n two_line_structure function started
+2024-08-19 11:34:52,487 -INFO - last n isPivot function Ended
+2024-08-19 11:34:52,498 -INFO - PEL.NS - last n two_line_structure function started
+2024-08-19 11:34:52,522 -INFO - NTPC.NS - last n detect_structure function started
+2024-08-19 11:34:52,522 -INFO - NTPC.NS - last n two_line_structure function started
+2024-08-19 11:35:55,767 -INFO - PAGEIND.NS - last n two_line_structure function Ended
+2024-08-19 11:36:01,702 -INFO - NTPC.NS - last n two_line_structure function Ended
+2024-08-19 11:36:09,371 -INFO - PAGEIND.NS - last n detect_structure function Ended
+2024-08-19 11:36:09,381 -INFO - PAGEIND.NS - add_ph_pl_values function started
+2024-08-19 11:36:09,433 -INFO - PAGEIND.NS - add_ph_pl_values function Ended
+2024-08-19 11:36:11,084 -INFO - CHAMBLFERT.NS - last n two_line_structure function Ended
+2024-08-19 11:36:19,695 -INFO - NTPC.NS - last n detect_structure function Ended
+2024-08-19 11:36:19,703 -INFO - NTPC.NS - add_ph_pl_values function started
+2024-08-19 11:36:19,728 -INFO - NTPC.NS - add_ph_pl_values function Ended
+2024-08-19 11:36:42,906 -INFO - CHAMBLFERT.NS - last n detect_structure function Ended
+2024-08-19 11:36:42,913 -INFO - CHAMBLFERT.NS - add_ph_pl_values function started
+2024-08-19 11:36:42,946 -INFO - CHAMBLFERT.NS - add_ph_pl_values function Ended
+2024-08-19 11:36:55,332 -INFO - TATAPOWER.NS - last n two_line_structure function Ended
+2024-08-19 11:36:55,826 -INFO - PEL.NS - last n two_line_structure function Ended
+2024-08-19 11:37:01,302 -INFO - All stocks - Excel file Saved
+2024-08-19 11:37:01,306 -INFO - All stocks - json file saved
+2024-08-19 11:37:01,306 -INFO - PAGEIND.NS - alerts file Saved
+2024-08-19 11:37:01,306 -INFO - PAGEIND.NS - Process function Ended
+2024-08-19 11:37:10,587 -INFO - All stocks - Excel file Saved
+2024-08-19 11:37:10,589 -INFO - All stocks - json file saved
+2024-08-19 11:37:10,590 -INFO - NTPC.NS - alerts file Saved
+2024-08-19 11:37:10,590 -INFO - NTPC.NS - Process function Ended
+2024-08-19 11:37:12,781 -INFO - TATAPOWER.NS - last n detect_structure function Ended
+2024-08-19 11:37:12,783 -INFO - TATAPOWER.NS - add_ph_pl_values function started
+2024-08-19 11:37:12,791 -INFO - TATAPOWER.NS - add_ph_pl_values function Ended
+2024-08-19 11:37:16,214 -INFO - PEL.NS - last n detect_structure function Ended
+2024-08-19 11:37:16,215 -INFO - PEL.NS - add_ph_pl_values function started
+2024-08-19 11:37:16,219 -INFO - PEL.NS - add_ph_pl_values function Ended
+2024-08-19 11:37:27,147 -INFO - All stocks - Excel file Saved
+2024-08-19 11:37:27,147 -INFO - All stocks - json file saved
+2024-08-19 11:37:27,147 -INFO - CHAMBLFERT.NS - alerts file Saved
+2024-08-19 11:37:27,147 -INFO - CHAMBLFERT.NS - Process function Ended
+2024-08-19 11:37:47,395 -INFO - All stocks - Excel file Saved
+2024-08-19 11:37:47,396 -INFO - All stocks - json file saved
+2024-08-19 11:37:47,396 -INFO - TATAPOWER.NS - alerts file Saved
+2024-08-19 11:37:47,396 -INFO - TATAPOWER.NS - Process function Ended
+2024-08-19 11:37:47,779 -INFO - All stocks - Excel file Saved
+2024-08-19 11:37:47,780 -INFO - All stocks - json file saved
+2024-08-19 11:37:47,780 -INFO - PEL.NS - alerts file Saved
+2024-08-19 11:37:47,780 -INFO - PEL.NS - Process function Ended
+2024-08-19 11:38:05,666 -INFO - All stocks - Excel file Saved
+2024-08-19 11:38:05,667 -INFO - All stocks - json file saved
+2024-08-19 11:38:24,431 -INFO - All stocks - Excel file Saved
+2024-08-19 11:38:24,431 -INFO - All stocks - json file saved
