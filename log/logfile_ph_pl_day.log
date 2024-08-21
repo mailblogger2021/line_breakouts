@@ -5021,3 +5021,178 @@ ValueError: operands could not be broadcast together with shapes (20210,) (20205
 2024-08-20 11:58:52,455 -INFO - All stocks - json file saved
 2024-08-20 11:59:09,482 -INFO - All stocks - Excel file Saved
 2024-08-20 11:59:09,482 -INFO - All stocks - json file saved
+2024-08-21 11:36:39,774 -INFO - Started...
+2024-08-21 11:36:40,745 -INFO - Started...
+2024-08-21 11:36:49,901 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-08-21 11:36:51,599 -INFO - CANFINHOME.NS - Process function started
+2024-08-21 11:36:51,599 -INFO - MARICO.NS - Process function started
+2024-08-21 11:36:51,599 -INFO - CANFINHOME.NS - Reading existing data...
+2024-08-21 11:36:51,599 -INFO - AXISBANK.NS - Process function started
+2024-08-21 11:36:51,599 -INFO - MARICO.NS - Reading existing data...
+2024-08-21 11:36:51,600 -INFO - PFC.NS - Process function started
+2024-08-21 11:36:51,600 -INFO - GNFC.NS - Process function started
+2024-08-21 11:36:51,600 -INFO - CROMPTON.NS - Process function started
+2024-08-21 11:36:51,600 -INFO - SIEMENS.NS - Process function started
+2024-08-21 11:36:51,600 -INFO - M&M.NS - Process function started
+2024-08-21 11:36:51,600 -INFO - AXISBANK.NS - Reading existing data...
+2024-08-21 11:36:51,600 -INFO - HINDCOPPER.NS - Process function started
+2024-08-21 11:36:51,600 -INFO - HINDALCO.NS - Process function started
+2024-08-21 11:36:51,601 -INFO - PFC.NS - Reading existing data...
+2024-08-21 11:36:51,601 -INFO - GNFC.NS - Reading existing data...
+2024-08-21 11:36:51,601 -INFO - INDHOTEL.NS - Process function started
+2024-08-21 11:36:51,601 -INFO - EXIDEIND.NS - Process function started
+2024-08-21 11:36:51,602 -INFO - CROMPTON.NS - Reading existing data...
+2024-08-21 11:36:51,602 -INFO - SIEMENS.NS - Reading existing data...
+2024-08-21 11:36:51,602 -INFO - M&M.NS - Reading existing data...
+2024-08-21 11:36:51,604 -INFO - HINDCOPPER.NS - Reading existing data...
+2024-08-21 11:36:51,604 -INFO - HINDALCO.NS - Reading existing data...
+2024-08-21 11:36:51,606 -INFO - INDHOTEL.NS - Reading existing data...
+2024-08-21 11:36:51,607 -INFO - EXIDEIND.NS - Reading existing data...
+2024-08-21 11:36:54,284 -INFO - last n isPivot function started
+2024-08-21 11:36:54,732 -INFO - last n isPivot function Ended
+2024-08-21 11:36:54,733 -INFO - CROMPTON.NS - last n detect_structure function started
+2024-08-21 11:36:54,741 -INFO - CROMPTON.NS - last n two_line_structure function started
+2024-08-21 11:36:55,389 -INFO - last n isPivot function started
+2024-08-21 11:36:55,994 -INFO - last n isPivot function started
+2024-08-21 11:36:56,024 -INFO - last n isPivot function started
+2024-08-21 11:36:56,813 -INFO - last n isPivot function Ended
+2024-08-21 11:36:56,973 -INFO - HINDCOPPER.NS - last n detect_structure function started
+2024-08-21 11:36:57,034 -INFO - HINDCOPPER.NS - last n two_line_structure function started
+2024-08-21 11:36:57,734 -INFO - last n isPivot function Ended
+2024-08-21 11:36:57,763 -INFO - CANFINHOME.NS - last n detect_structure function started
+2024-08-21 11:36:57,774 -INFO - last n isPivot function Ended
+2024-08-21 11:36:57,783 -INFO - PFC.NS - last n detect_structure function started
+2024-08-21 11:36:57,798 -INFO - CANFINHOME.NS - last n two_line_structure function started
+2024-08-21 11:36:57,799 -INFO - PFC.NS - last n two_line_structure function started
+2024-08-21 11:36:57,883 -INFO - last n isPivot function started
+2024-08-21 11:36:57,951 -INFO - last n isPivot function started
+2024-08-21 11:36:59,236 -INFO - last n isPivot function started
+2024-08-21 11:36:59,246 -INFO - last n isPivot function started
+2024-08-21 11:37:00,304 -INFO - last n isPivot function Ended
+2024-08-21 11:37:00,450 -INFO - SIEMENS.NS - last n detect_structure function started
+2024-08-21 11:37:00,970 -INFO - SIEMENS.NS - last n two_line_structure function started
+2024-08-21 11:37:01,077 -INFO - last n isPivot function Ended
+2024-08-21 11:37:01,315 -INFO - GNFC.NS - last n detect_structure function started
+2024-08-21 11:37:01,337 -INFO - GNFC.NS - last n two_line_structure function started
+2024-08-21 11:37:01,367 -INFO - last n isPivot function Ended
+2024-08-21 11:37:01,370 -INFO - MARICO.NS - last n detect_structure function started
+2024-08-21 11:37:01,439 -INFO - MARICO.NS - last n two_line_structure function started
+2024-08-21 11:37:01,732 -INFO - last n isPivot function Ended
+2024-08-21 11:37:01,736 -INFO - AXISBANK.NS - last n detect_structure function started
+2024-08-21 11:37:01,755 -INFO - AXISBANK.NS - last n two_line_structure function started
+2024-08-21 11:37:01,893 -INFO - last n isPivot function started
+2024-08-21 11:37:02,029 -INFO - last n isPivot function started
+2024-08-21 11:37:02,269 -INFO - last n isPivot function started
+2024-08-21 11:37:03,411 -INFO - last n isPivot function Ended
+2024-08-21 11:37:03,425 -INFO - HINDALCO.NS - last n detect_structure function started
+2024-08-21 11:37:03,427 -INFO - HINDALCO.NS - last n two_line_structure function started
+2024-08-21 11:37:04,245 -INFO - last n isPivot function Ended
+2024-08-21 11:37:04,399 -INFO - INDHOTEL.NS - last n detect_structure function started
+2024-08-21 11:37:04,467 -INFO - last n isPivot function started
+2024-08-21 11:37:04,507 -INFO - INDHOTEL.NS - last n two_line_structure function started
+2024-08-21 11:37:05,550 -INFO - last n isPivot function Ended
+2024-08-21 11:37:05,569 -INFO - EXIDEIND.NS - last n detect_structure function started
+2024-08-21 11:37:05,589 -INFO - EXIDEIND.NS - last n two_line_structure function started
+2024-08-21 11:37:05,929 -INFO - last n isPivot function Ended
+2024-08-21 11:37:05,936 -INFO - M&M.NS - last n detect_structure function started
+2024-08-21 11:37:05,950 -INFO - M&M.NS - last n two_line_structure function started
+2024-08-21 11:38:43,233 -INFO - CROMPTON.NS - last n two_line_structure function Ended
+2024-08-21 11:39:08,843 -INFO - CROMPTON.NS - last n detect_structure function Ended
+2024-08-21 11:39:08,875 -INFO - CROMPTON.NS - add_ph_pl_values function started
+2024-08-21 11:39:09,009 -INFO - CROMPTON.NS - add_ph_pl_values function Ended
+2024-08-21 11:39:52,973 -INFO - HINDCOPPER.NS - last n two_line_structure function Ended
+2024-08-21 11:40:21,007 -INFO - PFC.NS - last n two_line_structure function Ended
+2024-08-21 11:40:24,257 -INFO - HINDCOPPER.NS - last n detect_structure function Ended
+2024-08-21 11:40:24,266 -INFO - HINDCOPPER.NS - add_ph_pl_values function started
+2024-08-21 11:40:24,410 -INFO - HINDCOPPER.NS - add_ph_pl_values function Ended
+2024-08-21 11:40:48,041 -INFO - All stocks - Excel file Saved
+2024-08-21 11:40:48,102 -INFO - All stocks - json file saved
+2024-08-21 11:40:48,102 -INFO - CROMPTON.NS - alerts file Saved
+2024-08-21 11:40:48,102 -INFO - CROMPTON.NS - Process function Ended
+2024-08-21 11:41:04,760 -INFO - PFC.NS - last n detect_structure function Ended
+2024-08-21 11:41:04,768 -INFO - PFC.NS - add_ph_pl_values function started
+2024-08-21 11:41:04,839 -INFO - PFC.NS - add_ph_pl_values function Ended
+2024-08-21 11:41:07,158 -INFO - EXIDEIND.NS - last n two_line_structure function Ended
+2024-08-21 11:41:07,539 -INFO - INDHOTEL.NS - last n two_line_structure function Ended
+2024-08-21 11:41:14,796 -INFO - GNFC.NS - last n two_line_structure function Ended
+2024-08-21 11:41:24,548 -INFO - CANFINHOME.NS - last n two_line_structure function Ended
+2024-08-21 11:41:46,502 -INFO - SIEMENS.NS - last n two_line_structure function Ended
+2024-08-21 11:41:54,289 -INFO - All stocks - Excel file Saved
+2024-08-21 11:41:54,307 -INFO - All stocks - json file saved
+2024-08-21 11:41:54,308 -INFO - HINDCOPPER.NS - alerts file Saved
+2024-08-21 11:41:54,309 -INFO - HINDCOPPER.NS - Process function Ended
+2024-08-21 11:41:55,778 -INFO - AXISBANK.NS - last n two_line_structure function Ended
+2024-08-21 11:41:56,240 -INFO - EXIDEIND.NS - last n detect_structure function Ended
+2024-08-21 11:41:56,256 -INFO - EXIDEIND.NS - add_ph_pl_values function started
+2024-08-21 11:41:56,335 -INFO - EXIDEIND.NS - add_ph_pl_values function Ended
+2024-08-21 11:41:58,424 -INFO - INDHOTEL.NS - last n detect_structure function Ended
+2024-08-21 11:41:58,448 -INFO - INDHOTEL.NS - add_ph_pl_values function started
+2024-08-21 11:41:58,504 -INFO - INDHOTEL.NS - add_ph_pl_values function Ended
+2024-08-21 11:42:05,048 -INFO - GNFC.NS - last n detect_structure function Ended
+2024-08-21 11:42:05,051 -INFO - GNFC.NS - add_ph_pl_values function started
+2024-08-21 11:42:05,088 -INFO - GNFC.NS - add_ph_pl_values function Ended
+2024-08-21 11:42:19,189 -INFO - HINDALCO.NS - last n two_line_structure function Ended
+2024-08-21 11:42:20,847 -INFO - M&M.NS - last n two_line_structure function Ended
+2024-08-21 11:42:26,514 -INFO - All stocks - Excel file Saved
+2024-08-21 11:42:26,515 -INFO - All stocks - json file saved
+2024-08-21 11:42:26,515 -INFO - PFC.NS - alerts file Saved
+2024-08-21 11:42:26,516 -INFO - PFC.NS - Process function Ended
+2024-08-21 11:42:26,624 -INFO - CANFINHOME.NS - last n detect_structure function Ended
+2024-08-21 11:42:26,626 -INFO - CANFINHOME.NS - add_ph_pl_values function started
+2024-08-21 11:42:26,660 -INFO - CANFINHOME.NS - add_ph_pl_values function Ended
+2024-08-21 11:42:56,828 -INFO - MARICO.NS - last n two_line_structure function Ended
+2024-08-21 11:43:08,535 -INFO - SIEMENS.NS - last n detect_structure function Ended
+2024-08-21 11:43:08,536 -INFO - SIEMENS.NS - add_ph_pl_values function started
+2024-08-21 11:43:08,579 -INFO - SIEMENS.NS - add_ph_pl_values function Ended
+2024-08-21 11:43:20,518 -INFO - All stocks - Excel file Saved
+2024-08-21 11:43:20,525 -INFO - All stocks - json file saved
+2024-08-21 11:43:20,525 -INFO - EXIDEIND.NS - alerts file Saved
+2024-08-21 11:43:20,525 -INFO - EXIDEIND.NS - Process function Ended
+2024-08-21 11:43:20,677 -INFO - All stocks - Excel file Saved
+2024-08-21 11:43:20,681 -INFO - All stocks - json file saved
+2024-08-21 11:43:20,681 -INFO - GNFC.NS - alerts file Saved
+2024-08-21 11:43:20,681 -INFO - GNFC.NS - Process function Ended
+2024-08-21 11:43:20,800 -INFO - All stocks - Excel file Saved
+2024-08-21 11:43:20,803 -INFO - All stocks - json file saved
+2024-08-21 11:43:20,804 -INFO - INDHOTEL.NS - alerts file Saved
+2024-08-21 11:43:20,804 -INFO - INDHOTEL.NS - Process function Ended
+2024-08-21 11:43:22,535 -INFO - AXISBANK.NS - last n detect_structure function Ended
+2024-08-21 11:43:22,538 -INFO - AXISBANK.NS - add_ph_pl_values function started
+2024-08-21 11:43:22,567 -INFO - AXISBANK.NS - add_ph_pl_values function Ended
+2024-08-21 11:43:34,365 -INFO - HINDALCO.NS - last n detect_structure function Ended
+2024-08-21 11:43:34,367 -INFO - HINDALCO.NS - add_ph_pl_values function started
+2024-08-21 11:43:34,382 -INFO - M&M.NS - last n detect_structure function Ended
+2024-08-21 11:43:34,383 -INFO - M&M.NS - add_ph_pl_values function started
+2024-08-21 11:43:34,395 -INFO - HINDALCO.NS - add_ph_pl_values function Ended
+2024-08-21 11:43:34,684 -INFO - M&M.NS - add_ph_pl_values function Ended
+2024-08-21 11:43:45,673 -INFO - All stocks - Excel file Saved
+2024-08-21 11:43:46,319 -INFO - All stocks - json file saved
+2024-08-21 11:43:46,319 -INFO - CANFINHOME.NS - alerts file Saved
+2024-08-21 11:43:46,319 -INFO - CANFINHOME.NS - Process function Ended
+2024-08-21 11:44:17,350 -INFO - All stocks - Excel file Saved
+2024-08-21 11:44:17,353 -INFO - All stocks - json file saved
+2024-08-21 11:44:17,353 -INFO - SIEMENS.NS - alerts file Saved
+2024-08-21 11:44:17,353 -INFO - SIEMENS.NS - Process function Ended
+2024-08-21 11:44:20,452 -INFO - All stocks - Excel file Saved
+2024-08-21 11:44:20,454 -INFO - All stocks - json file saved
+2024-08-21 11:44:20,454 -INFO - AXISBANK.NS - alerts file Saved
+2024-08-21 11:44:20,454 -INFO - AXISBANK.NS - Process function Ended
+2024-08-21 11:44:25,647 -INFO - MARICO.NS - last n detect_structure function Ended
+2024-08-21 11:44:25,647 -INFO - MARICO.NS - add_ph_pl_values function started
+2024-08-21 11:44:25,651 -INFO - MARICO.NS - add_ph_pl_values function Ended
+2024-08-21 11:44:26,641 -INFO - All stocks - Excel file Saved
+2024-08-21 11:44:26,641 -INFO - All stocks - json file saved
+2024-08-21 11:44:26,642 -INFO - M&M.NS - alerts file Saved
+2024-08-21 11:44:26,642 -INFO - M&M.NS - Process function Ended
+2024-08-21 11:44:26,644 -INFO - All stocks - Excel file Saved
+2024-08-21 11:44:26,644 -INFO - All stocks - json file saved
+2024-08-21 11:44:26,644 -INFO - HINDALCO.NS - alerts file Saved
+2024-08-21 11:44:26,645 -INFO - HINDALCO.NS - Process function Ended
+2024-08-21 11:44:42,727 -INFO - All stocks - Excel file Saved
+2024-08-21 11:44:42,728 -INFO - All stocks - json file saved
+2024-08-21 11:44:42,728 -INFO - MARICO.NS - alerts file Saved
+2024-08-21 11:44:42,728 -INFO - MARICO.NS - Process function Ended
+2024-08-21 11:44:58,574 -INFO - All stocks - Excel file Saved
+2024-08-21 11:44:58,575 -INFO - All stocks - json file saved
+2024-08-21 11:45:14,466 -INFO - All stocks - Excel file Saved
+2024-08-21 11:45:14,466 -INFO - All stocks - json file saved
