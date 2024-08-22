@@ -5196,3 +5196,65 @@ ValueError: operands could not be broadcast together with shapes (20210,) (20205
 2024-08-21 11:44:58,575 -INFO - All stocks - json file saved
 2024-08-21 11:45:14,466 -INFO - All stocks - Excel file Saved
 2024-08-21 11:45:14,466 -INFO - All stocks - json file saved
+2024-08-22 11:36:24,141 -INFO - Started...
+2024-08-22 11:36:25,080 -INFO - Started...
+2024-08-22 11:36:33,749 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-08-22 11:36:35,002 -INFO - BHARTIARTL.NS - Process function started
+2024-08-22 11:36:35,002 -INFO - BHARTIARTL.NS - Reading existing data...
+2024-08-22 11:36:35,002 -INFO - FEDERALBNK.NS - Process function started
+2024-08-22 11:36:35,002 -INFO - FEDERALBNK.NS - Reading existing data...
+2024-08-22 11:36:35,002 -INFO - INDUSINDBK.NS - Process function started
+2024-08-22 11:36:35,003 -INFO - MANAPPURAM.NS - Process function started
+2024-08-22 11:36:35,003 -INFO - INDUSINDBK.NS - Reading existing data...
+2024-08-22 11:36:35,014 -INFO - MANAPPURAM.NS - isPivot function started
+2024-08-22 11:36:35,418 -INFO - MANAPPURAM.NS - isPivot function Ended
+2024-08-22 11:36:35,419 -INFO - MANAPPURAM.NS -  detect_structure function started
+2024-08-22 11:36:35,422 -INFO - MANAPPURAM.NS -  two_line_structure function started
+2024-08-22 11:36:36,886 -INFO - last n isPivot function started
+2024-08-22 11:36:37,589 -INFO - last n isPivot function Ended
+2024-08-22 11:36:37,590 -INFO - BHARTIARTL.NS - last n detect_structure function started
+2024-08-22 11:36:37,595 -INFO - last n isPivot function started
+2024-08-22 11:36:37,595 -INFO - BHARTIARTL.NS - last n two_line_structure function started
+2024-08-22 11:36:37,604 -INFO - last n isPivot function started
+2024-08-22 11:36:39,191 -INFO - last n isPivot function Ended
+2024-08-22 11:36:39,198 -INFO - INDUSINDBK.NS - last n detect_structure function started
+2024-08-22 11:36:39,215 -INFO - INDUSINDBK.NS - last n two_line_structure function started
+2024-08-22 11:36:39,229 -INFO - last n isPivot function Ended
+2024-08-22 11:36:39,230 -INFO - FEDERALBNK.NS - last n detect_structure function started
+2024-08-22 11:36:39,235 -INFO - FEDERALBNK.NS - last n two_line_structure function started
+2024-08-22 11:37:37,098 -INFO - MANAPPURAM.NS -  two_line_structure function Ended
+2024-08-22 11:37:47,256 -INFO - MANAPPURAM.NS -  detect_structure function Ended
+2024-08-22 11:37:47,260 -INFO - MANAPPURAM.NS - add_ph_pl_values function started
+2024-08-22 11:37:47,347 -INFO - MANAPPURAM.NS - add_ph_pl_values function Ended
+2024-08-22 11:38:33,340 -INFO - BHARTIARTL.NS - last n two_line_structure function Ended
+2024-08-22 11:38:35,361 -INFO - All stocks - Excel file Saved
+2024-08-22 11:38:35,367 -INFO - All stocks - json file saved
+2024-08-22 11:38:35,368 -INFO - MANAPPURAM.NS - alerts file Saved
+2024-08-22 11:38:35,369 -INFO - MANAPPURAM.NS - Process function Ended
+2024-08-22 11:38:35,819 -INFO - INDUSINDBK.NS - last n two_line_structure function Ended
+2024-08-22 11:38:42,672 -INFO - BHARTIARTL.NS - last n detect_structure function Ended
+2024-08-22 11:38:42,678 -INFO - BHARTIARTL.NS - add_ph_pl_values function started
+2024-08-22 11:38:42,711 -INFO - BHARTIARTL.NS - add_ph_pl_values function Ended
+2024-08-22 11:38:52,516 -INFO - INDUSINDBK.NS - last n detect_structure function Ended
+2024-08-22 11:38:52,521 -INFO - INDUSINDBK.NS - add_ph_pl_values function started
+2024-08-22 11:38:52,547 -INFO - INDUSINDBK.NS - add_ph_pl_values function Ended
+2024-08-22 11:39:00,631 -INFO - FEDERALBNK.NS - last n two_line_structure function Ended
+2024-08-22 11:39:12,983 -INFO - FEDERALBNK.NS - last n detect_structure function Ended
+2024-08-22 11:39:12,984 -INFO - FEDERALBNK.NS - add_ph_pl_values function started
+2024-08-22 11:39:12,988 -INFO - FEDERALBNK.NS - add_ph_pl_values function Ended
+2024-08-22 11:39:27,547 -INFO - All stocks - Excel file Saved
+2024-08-22 11:39:27,547 -INFO - All stocks - json file saved
+2024-08-22 11:39:27,548 -INFO - BHARTIARTL.NS - alerts file Saved
+2024-08-22 11:39:27,548 -INFO - BHARTIARTL.NS - Process function Ended
+2024-08-22 11:39:38,447 -INFO - All stocks - Excel file Saved
+2024-08-22 11:39:38,447 -INFO - All stocks - json file saved
+2024-08-22 11:39:38,447 -INFO - INDUSINDBK.NS - alerts file Saved
+2024-08-22 11:39:38,447 -INFO - INDUSINDBK.NS - Process function Ended
+2024-08-22 11:39:41,669 -INFO - All stocks - Excel file Saved
+2024-08-22 11:39:41,669 -INFO - All stocks - json file saved
+2024-08-22 11:39:41,669 -INFO - FEDERALBNK.NS - alerts file Saved
+2024-08-22 11:39:41,669 -INFO - FEDERALBNK.NS - Process function Ended
+2024-08-22 11:39:59,200 -INFO - All stocks - Excel file Saved
+2024-08-22 11:39:59,201 -INFO - All stocks - json file saved
+2024-08-22 11:40:16,592 -INFO - All stocks - Excel file Saved
+2024-08-22 11:40:16,593 -INFO - All stocks - json file saved
