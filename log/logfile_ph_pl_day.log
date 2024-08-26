@@ -5258,3 +5258,135 @@ ValueError: operands could not be broadcast together with shapes (20210,) (20205
 2024-08-22 11:39:59,201 -INFO - All stocks - json file saved
 2024-08-22 11:40:16,592 -INFO - All stocks - Excel file Saved
 2024-08-22 11:40:16,593 -INFO - All stocks - json file saved
+2024-08-26 11:35:34,943 -INFO - Started...
+2024-08-26 11:35:36,251 -INFO - Started...
+2024-08-26 11:35:45,047 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-08-26 11:35:47,335 -INFO - UNITDSPR.NS - Process function started
+2024-08-26 11:35:47,336 -INFO - VOLTAS.NS - Process function started
+2024-08-26 11:35:47,336 -INFO - BERGEPAINT.NS - Process function started
+2024-08-26 11:35:47,336 -INFO - ZYDUSLIFE.NS - Process function started
+2024-08-26 11:35:47,336 -INFO - VOLTAS.NS - Reading existing data...
+2024-08-26 11:35:47,336 -INFO - PAGEIND.NS - Process function started
+2024-08-26 11:35:47,336 -INFO - BERGEPAINT.NS - Reading existing data...
+2024-08-26 11:35:47,336 -INFO - SUNTV.NS - Process function started
+2024-08-26 11:35:47,336 -INFO - ZYDUSLIFE.NS - Reading existing data...
+2024-08-26 11:35:47,338 -INFO - ABB.NS - Process function started
+2024-08-26 11:35:47,338 -INFO - SHREECEM.NS - Process function started
+2024-08-26 11:35:47,338 -INFO - PAGEIND.NS - Reading existing data...
+2024-08-26 11:35:47,338 -INFO - SUNTV.NS - Reading existing data...
+2024-08-26 11:35:47,339 -INFO - UNITDSPR.NS - isPivot function started
+2024-08-26 11:35:47,339 -INFO - PIIND.NS - Process function started
+2024-08-26 11:35:47,339 -INFO - ABB.NS - Reading existing data...
+2024-08-26 11:35:47,339 -INFO - SHREECEM.NS - Reading existing data...
+2024-08-26 11:35:47,345 -INFO - UNITDSPR.NS - isPivot function Ended
+2024-08-26 11:35:47,345 -INFO - PIIND.NS - Reading existing data...
+2024-08-26 11:35:47,345 -INFO - UNITDSPR.NS -  detect_structure function started
+2024-08-26 11:35:47,345 -INFO - UNITDSPR.NS -  two_line_structure function started
+2024-08-26 11:35:47,443 -INFO - UNITDSPR.NS -  two_line_structure function Ended
+2024-08-26 11:35:47,464 -INFO - UNITDSPR.NS -  detect_structure function Ended
+2024-08-26 11:35:47,465 -INFO - UNITDSPR.NS - add_ph_pl_values function started
+2024-08-26 11:35:47,470 -INFO - UNITDSPR.NS - add_ph_pl_values function Ended
+2024-08-26 11:35:48,113 -INFO - last n isPivot function started
+2024-08-26 11:35:48,911 -INFO - last n isPivot function Ended
+2024-08-26 11:35:48,921 -INFO - PAGEIND.NS - last n detect_structure function started
+2024-08-26 11:35:48,975 -INFO - PAGEIND.NS - last n two_line_structure function started
+2024-08-26 11:35:50,536 -INFO - last n isPivot function started
+2024-08-26 11:35:50,540 -INFO - last n isPivot function started
+2024-08-26 11:35:50,895 -INFO - last n isPivot function Ended
+2024-08-26 11:35:50,895 -INFO - PIIND.NS - last n detect_structure function started
+2024-08-26 11:35:50,898 -INFO - PIIND.NS - last n two_line_structure function started
+2024-08-26 11:35:50,903 -INFO - last n isPivot function started
+2024-08-26 11:35:50,905 -INFO - last n isPivot function started
+2024-08-26 11:35:50,914 -INFO - last n isPivot function started
+2024-08-26 11:35:51,025 -INFO - last n isPivot function started
+2024-08-26 11:35:52,013 -INFO - last n isPivot function Ended
+2024-08-26 11:35:52,911 -INFO - SUNTV.NS - last n detect_structure function started
+2024-08-26 11:35:53,270 -INFO - SUNTV.NS - last n two_line_structure function started
+2024-08-26 11:35:53,740 -INFO - last n isPivot function Ended
+2024-08-26 11:35:53,741 -INFO - last n isPivot function started
+2024-08-26 11:35:53,741 -INFO - last n isPivot function Ended
+2024-08-26 11:35:53,744 -INFO - last n isPivot function Ended
+2024-08-26 11:35:53,925 -INFO - SHREECEM.NS - last n detect_structure function started
+2024-08-26 11:35:53,825 -INFO - VOLTAS.NS - last n two_line_structure function started
+2024-08-26 11:35:53,915 -INFO - ABB.NS - last n detect_structure function started
+2024-08-26 11:35:53,922 -INFO - ABB.NS - last n two_line_structure function started
+2024-08-26 11:35:53,948 -INFO - SHREECEM.NS - last n two_line_structure function started
+2024-08-26 11:35:53,953 -INFO - last n isPivot function Ended
+2024-08-26 11:35:53,823 -INFO - VOLTAS.NS - last n detect_structure function started
+2024-08-26 11:35:54,743 -INFO - BERGEPAINT.NS - last n detect_structure function started
+2024-08-26 11:35:54,744 -INFO - BERGEPAINT.NS - last n two_line_structure function started
+2024-08-26 11:35:54,788 -INFO - last n isPivot function Ended
+2024-08-26 11:35:54,788 -INFO - ZYDUSLIFE.NS - last n detect_structure function started
+2024-08-26 11:35:54,804 -INFO - ZYDUSLIFE.NS - last n two_line_structure function started
+2024-08-26 11:37:23,669 -INFO - All stocks - Excel file Saved
+2024-08-26 11:37:23,689 -INFO - All stocks - json file saved
+2024-08-26 11:37:23,689 -INFO - UNITDSPR.NS - alerts file Saved
+2024-08-26 11:37:23,689 -INFO - UNITDSPR.NS - Process function Ended
+2024-08-26 11:37:34,166 -INFO - PIIND.NS - last n two_line_structure function Ended
+2024-08-26 11:37:53,373 -INFO - PIIND.NS - last n detect_structure function Ended
+2024-08-26 11:37:53,382 -INFO - PIIND.NS - add_ph_pl_values function started
+2024-08-26 11:37:53,478 -INFO - PIIND.NS - add_ph_pl_values function Ended
+2024-08-26 11:38:04,551 -INFO - PAGEIND.NS - last n two_line_structure function Ended
+2024-08-26 11:38:08,198 -INFO - SUNTV.NS - last n two_line_structure function Ended
+2024-08-26 11:38:35,686 -INFO - VOLTAS.NS - last n two_line_structure function Ended
+2024-08-26 11:38:36,500 -INFO - ABB.NS - last n two_line_structure function Ended
+2024-08-26 11:38:37,332 -INFO - PAGEIND.NS - last n detect_structure function Ended
+2024-08-26 11:38:37,338 -INFO - PAGEIND.NS - add_ph_pl_values function started
+2024-08-26 11:38:37,366 -INFO - PAGEIND.NS - add_ph_pl_values function Ended
+2024-08-26 11:38:38,873 -INFO - SHREECEM.NS - last n two_line_structure function Ended
+2024-08-26 11:38:47,742 -INFO - SUNTV.NS - last n detect_structure function Ended
+2024-08-26 11:38:47,747 -INFO - SUNTV.NS - add_ph_pl_values function started
+2024-08-26 11:38:47,787 -INFO - SUNTV.NS - add_ph_pl_values function Ended
+2024-08-26 11:38:58,734 -INFO - ZYDUSLIFE.NS - last n two_line_structure function Ended
+2024-08-26 11:38:59,293 -INFO - All stocks - Excel file Saved
+2024-08-26 11:38:59,299 -INFO - All stocks - json file saved
+2024-08-26 11:38:59,299 -INFO - PIIND.NS - alerts file Saved
+2024-08-26 11:38:59,299 -INFO - PIIND.NS - Process function Ended
+2024-08-26 11:39:12,719 -INFO - BERGEPAINT.NS - last n two_line_structure function Ended
+2024-08-26 11:39:22,325 -INFO - VOLTAS.NS - last n detect_structure function Ended
+2024-08-26 11:39:22,336 -INFO - VOLTAS.NS - add_ph_pl_values function started
+2024-08-26 11:39:22,381 -INFO - VOLTAS.NS - add_ph_pl_values function Ended
+2024-08-26 11:39:29,850 -INFO - ABB.NS - last n detect_structure function Ended
+2024-08-26 11:39:29,851 -INFO - ABB.NS - add_ph_pl_values function started
+2024-08-26 11:39:29,880 -INFO - ABB.NS - add_ph_pl_values function Ended
+2024-08-26 11:39:30,702 -INFO - SHREECEM.NS - last n detect_structure function Ended
+2024-08-26 11:39:30,705 -INFO - SHREECEM.NS - add_ph_pl_values function started
+2024-08-26 11:39:30,741 -INFO - SHREECEM.NS - add_ph_pl_values function Ended
+2024-08-26 11:39:48,429 -INFO - All stocks - Excel file Saved
+2024-08-26 11:39:48,433 -INFO - All stocks - json file saved
+2024-08-26 11:39:48,433 -INFO - PAGEIND.NS - alerts file Saved
+2024-08-26 11:39:48,433 -INFO - PAGEIND.NS - Process function Ended
+2024-08-26 11:39:51,442 -INFO - All stocks - Excel file Saved
+2024-08-26 11:39:51,443 -INFO - All stocks - json file saved
+2024-08-26 11:39:51,443 -INFO - SUNTV.NS - alerts file Saved
+2024-08-26 11:39:51,443 -INFO - SUNTV.NS - Process function Ended
+2024-08-26 11:40:16,699 -INFO - ZYDUSLIFE.NS - last n detect_structure function Ended
+2024-08-26 11:40:16,703 -INFO - ZYDUSLIFE.NS - add_ph_pl_values function started
+2024-08-26 11:40:16,713 -INFO - ZYDUSLIFE.NS - add_ph_pl_values function Ended
+2024-08-26 11:40:23,323 -INFO - All stocks - Excel file Saved
+2024-08-26 11:40:23,461 -INFO - All stocks - json file saved
+2024-08-26 11:40:23,461 -INFO - VOLTAS.NS - alerts file Saved
+2024-08-26 11:40:23,461 -INFO - VOLTAS.NS - Process function Ended
+2024-08-26 11:40:27,839 -INFO - All stocks - Excel file Saved
+2024-08-26 11:40:27,840 -INFO - All stocks - json file saved
+2024-08-26 11:40:27,840 -INFO - ABB.NS - alerts file Saved
+2024-08-26 11:40:27,840 -INFO - ABB.NS - Process function Ended
+2024-08-26 11:40:28,011 -INFO - All stocks - Excel file Saved
+2024-08-26 11:40:28,013 -INFO - All stocks - json file saved
+2024-08-26 11:40:28,013 -INFO - SHREECEM.NS - alerts file Saved
+2024-08-26 11:40:28,013 -INFO - SHREECEM.NS - Process function Ended
+2024-08-26 11:40:32,006 -INFO - BERGEPAINT.NS - last n detect_structure function Ended
+2024-08-26 11:40:32,007 -INFO - BERGEPAINT.NS - add_ph_pl_values function started
+2024-08-26 11:40:32,010 -INFO - BERGEPAINT.NS - add_ph_pl_values function Ended
+2024-08-26 11:40:54,608 -INFO - All stocks - Excel file Saved
+2024-08-26 11:40:54,609 -INFO - All stocks - json file saved
+2024-08-26 11:40:54,609 -INFO - ZYDUSLIFE.NS - alerts file Saved
+2024-08-26 11:40:54,609 -INFO - ZYDUSLIFE.NS - Process function Ended
+2024-08-26 11:40:57,718 -INFO - All stocks - Excel file Saved
+2024-08-26 11:40:57,719 -INFO - All stocks - json file saved
+2024-08-26 11:40:57,719 -INFO - BERGEPAINT.NS - alerts file Saved
+2024-08-26 11:40:57,719 -INFO - BERGEPAINT.NS - Process function Ended
+2024-08-26 11:41:15,283 -INFO - All stocks - Excel file Saved
+2024-08-26 11:41:15,283 -INFO - All stocks - json file saved
+2024-08-26 11:41:31,993 -INFO - All stocks - Excel file Saved
+2024-08-26 11:41:31,994 -INFO - All stocks - json file saved
