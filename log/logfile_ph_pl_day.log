@@ -5390,3 +5390,80 @@ ValueError: operands could not be broadcast together with shapes (20210,) (20205
 2024-08-26 11:41:15,283 -INFO - All stocks - json file saved
 2024-08-26 11:41:31,993 -INFO - All stocks - Excel file Saved
 2024-08-26 11:41:31,994 -INFO - All stocks - json file saved
+2024-08-27 11:35:30,166 -INFO - Started...
+2024-08-27 11:35:31,742 -INFO - Started...
+2024-08-27 11:35:39,771 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-08-27 11:35:41,627 -INFO - LICHSGFIN.NS - Process function started
+2024-08-27 11:35:41,627 -INFO - HDFCBANK.NS - Process function started
+2024-08-27 11:35:41,627 -INFO - LICHSGFIN.NS - Reading existing data...
+2024-08-27 11:35:41,627 -INFO - BALKRISIND.NS - Process function started
+2024-08-27 11:35:41,627 -INFO - HDFCBANK.NS - Reading existing data...
+2024-08-27 11:35:41,627 -INFO - ABBOTINDIA.NS - Process function started
+2024-08-27 11:35:41,628 -INFO - APOLLOHOSP.NS - Process function started
+2024-08-27 11:35:41,628 -INFO - BALKRISIND.NS - Reading existing data...
+2024-08-27 11:35:41,628 -INFO - ABBOTINDIA.NS - Reading existing data...
+2024-08-27 11:35:41,628 -INFO - APOLLOHOSP.NS - Reading existing data...
+2024-08-27 11:35:43,250 -INFO - last n isPivot function started
+2024-08-27 11:35:43,254 -INFO - last n isPivot function started
+2024-08-27 11:35:43,254 -INFO - last n isPivot function started
+2024-08-27 11:35:43,917 -INFO - last n isPivot function started
+2024-08-27 11:35:44,280 -INFO - last n isPivot function started
+2024-08-27 11:35:44,568 -INFO - last n isPivot function Ended
+2024-08-27 11:35:44,568 -INFO - ABBOTINDIA.NS - last n detect_structure function started
+2024-08-27 11:35:44,607 -INFO - ABBOTINDIA.NS - last n two_line_structure function started
+2024-08-27 11:35:45,913 -INFO - last n isPivot function Ended
+2024-08-27 11:35:45,913 -INFO - BALKRISIND.NS - last n detect_structure function started
+2024-08-27 11:35:45,913 -INFO - BALKRISIND.NS - last n two_line_structure function started
+2024-08-27 11:35:46,022 -INFO - last n isPivot function Ended
+2024-08-27 11:35:46,202 -INFO - APOLLOHOSP.NS - last n detect_structure function started
+2024-08-27 11:35:46,211 -INFO - last n isPivot function Ended
+2024-08-27 11:35:46,211 -INFO - LICHSGFIN.NS - last n detect_structure function started
+2024-08-27 11:35:46,417 -INFO - LICHSGFIN.NS - last n two_line_structure function started
+2024-08-27 11:35:46,417 -INFO - APOLLOHOSP.NS - last n two_line_structure function started
+2024-08-27 11:35:46,430 -INFO - last n isPivot function Ended
+2024-08-27 11:35:46,437 -INFO - HDFCBANK.NS - last n detect_structure function started
+2024-08-27 11:35:46,446 -INFO - HDFCBANK.NS - last n two_line_structure function started
+2024-08-27 11:36:51,076 -INFO - BALKRISIND.NS - last n two_line_structure function Ended
+2024-08-27 11:36:55,901 -INFO - ABBOTINDIA.NS - last n two_line_structure function Ended
+2024-08-27 11:37:02,910 -INFO - LICHSGFIN.NS - last n two_line_structure function Ended
+2024-08-27 11:37:03,540 -INFO - APOLLOHOSP.NS - last n two_line_structure function Ended
+2024-08-27 11:37:05,254 -INFO - BALKRISIND.NS - last n detect_structure function Ended
+2024-08-27 11:37:05,261 -INFO - BALKRISIND.NS - add_ph_pl_values function started
+2024-08-27 11:37:05,288 -INFO - BALKRISIND.NS - add_ph_pl_values function Ended
+2024-08-27 11:37:13,220 -INFO - ABBOTINDIA.NS - last n detect_structure function Ended
+2024-08-27 11:37:13,223 -INFO - ABBOTINDIA.NS - add_ph_pl_values function started
+2024-08-27 11:37:13,241 -INFO - ABBOTINDIA.NS - add_ph_pl_values function Ended
+2024-08-27 11:37:24,612 -INFO - LICHSGFIN.NS - last n detect_structure function Ended
+2024-08-27 11:37:24,616 -INFO - LICHSGFIN.NS - add_ph_pl_values function started
+2024-08-27 11:37:24,633 -INFO - LICHSGFIN.NS - add_ph_pl_values function Ended
+2024-08-27 11:37:47,706 -INFO - APOLLOHOSP.NS - last n detect_structure function Ended
+2024-08-27 11:37:47,709 -INFO - APOLLOHOSP.NS - add_ph_pl_values function started
+2024-08-27 11:37:47,731 -INFO - APOLLOHOSP.NS - add_ph_pl_values function Ended
+2024-08-27 11:37:59,268 -INFO - HDFCBANK.NS - last n two_line_structure function Ended
+2024-08-27 11:38:03,713 -INFO - All stocks - Excel file Saved
+2024-08-27 11:38:03,715 -INFO - All stocks - json file saved
+2024-08-27 11:38:03,715 -INFO - BALKRISIND.NS - alerts file Saved
+2024-08-27 11:38:03,715 -INFO - BALKRISIND.NS - Process function Ended
+2024-08-27 11:38:04,159 -INFO - All stocks - Excel file Saved
+2024-08-27 11:38:04,159 -INFO - All stocks - json file saved
+2024-08-27 11:38:04,159 -INFO - ABBOTINDIA.NS - alerts file Saved
+2024-08-27 11:38:04,159 -INFO - ABBOTINDIA.NS - Process function Ended
+2024-08-27 11:38:15,985 -INFO - All stocks - Excel file Saved
+2024-08-27 11:38:15,987 -INFO - All stocks - json file saved
+2024-08-27 11:38:15,987 -INFO - LICHSGFIN.NS - alerts file Saved
+2024-08-27 11:38:15,987 -INFO - LICHSGFIN.NS - Process function Ended
+2024-08-27 11:38:16,086 -INFO - HDFCBANK.NS - last n detect_structure function Ended
+2024-08-27 11:38:16,086 -INFO - HDFCBANK.NS - add_ph_pl_values function started
+2024-08-27 11:38:16,089 -INFO - HDFCBANK.NS - add_ph_pl_values function Ended
+2024-08-27 11:38:24,792 -INFO - All stocks - Excel file Saved
+2024-08-27 11:38:24,792 -INFO - All stocks - json file saved
+2024-08-27 11:38:24,792 -INFO - APOLLOHOSP.NS - alerts file Saved
+2024-08-27 11:38:24,792 -INFO - APOLLOHOSP.NS - Process function Ended
+2024-08-27 11:38:35,466 -INFO - All stocks - Excel file Saved
+2024-08-27 11:38:35,467 -INFO - All stocks - json file saved
+2024-08-27 11:38:35,467 -INFO - HDFCBANK.NS - alerts file Saved
+2024-08-27 11:38:35,467 -INFO - HDFCBANK.NS - Process function Ended
+2024-08-27 11:38:51,417 -INFO - All stocks - Excel file Saved
+2024-08-27 11:38:51,417 -INFO - All stocks - json file saved
+2024-08-27 11:39:07,227 -INFO - All stocks - Excel file Saved
+2024-08-27 11:39:07,228 -INFO - All stocks - json file saved
