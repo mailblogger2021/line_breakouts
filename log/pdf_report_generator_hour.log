@@ -8108,3 +8108,26 @@
 2024-08-28 04:47:16,775 -ERROR - ['AEGISCHEM.NS', 'MCDOWELL-N.NS']: YFPricesMissingError('$%ticker%: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")')
 2024-08-28 04:47:19,758 -INFO - PH PL alert Ended...
 2024-08-28 04:47:22,081 -INFO - Message sent successfully! - 
+2024-08-28 05:44:47,096 -INFO - Started...
+2024-08-28 05:44:47,097 -INFO - Three line alert started...
+2024-08-28 05:44:50,065 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-08-28 05:44:50,066 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-08-28 05:45:29,596 -ERROR - 
+3 Failed downloads:
+2024-08-28 05:45:29,596 -ERROR - ['AEGISCHEM.NS', 'MCDOWELL-N.NS']: YFPricesMissingError('$%ticker%: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")')
+2024-08-28 05:45:29,597 -ERROR - ['RPEL.BO']: YFInvalidPeriodError("%ticker%: Period '1y' is invalid, must be one of ['1d', '5d', '1mo', 'ytd', 'max']")
+2024-08-28 05:45:34,822 -INFO - Three line alert Ended...
+2024-08-28 05:45:34,823 -INFO - Two line alert started...
+2024-08-28 05:46:18,811 -ERROR - 
+4 Failed downloads:
+2024-08-28 05:46:18,811 -ERROR - ['AEGISCHEM.NS', 'MCDOWELL-N.NS']: YFPricesMissingError('$%ticker%: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")')
+2024-08-28 05:46:18,811 -ERROR - ['RPEL.BO']: YFInvalidPeriodError("%ticker%: Period '1y' is invalid, must be one of ['1d', '5d', '1mo', 'ytd', 'max']")
+2024-08-28 05:46:18,811 -ERROR - ['RVNL.NS']: ConnectionError(ReadTimeoutError("HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out."))
+2024-08-28 05:46:23,715 -INFO - Two line alert Ended...
+2024-08-28 05:46:23,715 -INFO - PH PL alert started...
+2024-08-28 05:47:01,277 -ERROR - 
+3 Failed downloads:
+2024-08-28 05:47:01,278 -ERROR - ['AEGISCHEM.NS', 'MCDOWELL-N.NS']: YFPricesMissingError('$%ticker%: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")')
+2024-08-28 05:47:01,278 -ERROR - ['RPEL.BO']: YFInvalidPeriodError("%ticker%: Period '1y' is invalid, must be one of ['1d', '5d', '1mo', 'ytd', 'max']")
+2024-08-28 05:47:04,448 -INFO - PH PL alert Ended...
+2024-08-28 05:47:06,970 -INFO - Message sent successfully! - 
