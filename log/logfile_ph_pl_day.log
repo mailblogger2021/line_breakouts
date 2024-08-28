@@ -5467,3 +5467,94 @@ ValueError: operands could not be broadcast together with shapes (20210,) (20205
 2024-08-27 11:38:51,417 -INFO - All stocks - json file saved
 2024-08-27 11:39:07,227 -INFO - All stocks - Excel file Saved
 2024-08-27 11:39:07,228 -INFO - All stocks - json file saved
+2024-08-28 11:35:43,260 -INFO - Started...
+2024-08-28 11:35:44,667 -INFO - Started...
+2024-08-28 11:35:52,794 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-08-28 11:35:54,771 -INFO - FEDERALBNK.NS - Process function started
+2024-08-28 11:35:54,771 -INFO - CHOLAFIN.NS - Process function started
+2024-08-28 11:35:54,771 -INFO - FEDERALBNK.NS - Reading existing data...
+2024-08-28 11:35:54,771 -INFO - CHOLAFIN.NS - Reading existing data...
+2024-08-28 11:35:54,771 -INFO - SBIN.NS - Process function started
+2024-08-28 11:35:54,771 -INFO - HINDPETRO.NS - Process function started
+2024-08-28 11:35:54,771 -INFO - SBIN.NS - Reading existing data...
+2024-08-28 11:35:54,772 -INFO - HINDPETRO.NS - Reading existing data...
+2024-08-28 11:35:54,772 -INFO - ONGC.NS - Process function started
+2024-08-28 11:35:54,772 -INFO - IOC.NS - Process function started
+2024-08-28 11:35:54,772 -INFO - ONGC.NS - Reading existing data...
+2024-08-28 11:35:54,772 -INFO - IOC.NS - Reading existing data...
+2024-08-28 11:35:55,927 -INFO - last n isPivot function started
+2024-08-28 11:35:57,279 -INFO - last n isPivot function Ended
+2024-08-28 11:35:57,279 -INFO - CHOLAFIN.NS - last n detect_structure function started
+2024-08-28 11:35:57,331 -INFO - CHOLAFIN.NS - last n two_line_structure function started
+2024-08-28 11:35:58,014 -INFO - last n isPivot function started
+2024-08-28 11:35:58,069 -INFO - last n isPivot function started
+2024-08-28 11:35:58,236 -INFO - last n isPivot function started
+2024-08-28 11:35:58,951 -INFO - last n isPivot function started
+2024-08-28 11:36:00,820 -INFO - last n isPivot function Ended
+2024-08-28 11:36:00,952 -INFO - last n isPivot function Ended
+2024-08-28 11:36:00,952 -INFO - HINDPETRO.NS - last n detect_structure function started
+2024-08-28 11:36:01,106 -INFO - HINDPETRO.NS - last n two_line_structure function started
+2024-08-28 11:36:01,114 -INFO - last n isPivot function started
+2024-08-28 11:36:01,120 -INFO - ONGC.NS - last n detect_structure function started
+2024-08-28 11:36:01,120 -INFO - ONGC.NS - last n two_line_structure function started
+2024-08-28 11:36:01,183 -INFO - last n isPivot function Ended
+2024-08-28 11:36:01,955 -INFO - SBIN.NS - last n detect_structure function started
+2024-08-28 11:36:02,174 -INFO - last n isPivot function Ended
+2024-08-28 11:36:02,205 -INFO - SBIN.NS - last n two_line_structure function started
+2024-08-28 11:36:02,256 -INFO - IOC.NS - last n detect_structure function started
+2024-08-28 11:36:02,285 -INFO - IOC.NS - last n two_line_structure function started
+2024-08-28 11:36:02,305 -INFO - last n isPivot function Ended
+2024-08-28 11:36:02,319 -INFO - FEDERALBNK.NS - last n detect_structure function started
+2024-08-28 11:36:02,338 -INFO - FEDERALBNK.NS - last n two_line_structure function started
+2024-08-28 11:37:46,385 -INFO - CHOLAFIN.NS - last n two_line_structure function Ended
+2024-08-28 11:38:20,879 -INFO - CHOLAFIN.NS - last n detect_structure function Ended
+2024-08-28 11:38:20,901 -INFO - CHOLAFIN.NS - add_ph_pl_values function started
+2024-08-28 11:38:20,992 -INFO - CHOLAFIN.NS - add_ph_pl_values function Ended
+2024-08-28 11:38:32,758 -INFO - SBIN.NS - last n two_line_structure function Ended
+2024-08-28 11:38:34,938 -INFO - FEDERALBNK.NS - last n two_line_structure function Ended
+2024-08-28 11:38:37,349 -INFO - HINDPETRO.NS - last n two_line_structure function Ended
+2024-08-28 11:38:39,285 -INFO - ONGC.NS - last n two_line_structure function Ended
+2024-08-28 11:38:41,315 -INFO - IOC.NS - last n two_line_structure function Ended
+2024-08-28 11:38:59,679 -INFO - SBIN.NS - last n detect_structure function Ended
+2024-08-28 11:38:59,683 -INFO - SBIN.NS - add_ph_pl_values function started
+2024-08-28 11:38:59,717 -INFO - SBIN.NS - add_ph_pl_values function Ended
+2024-08-28 11:39:10,398 -INFO - FEDERALBNK.NS - last n detect_structure function Ended
+2024-08-28 11:39:10,404 -INFO - FEDERALBNK.NS - add_ph_pl_values function started
+2024-08-28 11:39:10,426 -INFO - FEDERALBNK.NS - add_ph_pl_values function Ended
+2024-08-28 11:39:19,369 -INFO - All stocks - Excel file Saved
+2024-08-28 11:39:19,372 -INFO - All stocks - json file saved
+2024-08-28 11:39:19,372 -INFO - CHOLAFIN.NS - alerts file Saved
+2024-08-28 11:39:19,372 -INFO - CHOLAFIN.NS - Process function Ended
+2024-08-28 11:39:19,838 -INFO - HINDPETRO.NS - last n detect_structure function Ended
+2024-08-28 11:39:19,841 -INFO - HINDPETRO.NS - add_ph_pl_values function started
+2024-08-28 11:39:19,861 -INFO - HINDPETRO.NS - add_ph_pl_values function Ended
+2024-08-28 11:39:29,634 -INFO - ONGC.NS - last n detect_structure function Ended
+2024-08-28 11:39:29,636 -INFO - ONGC.NS - add_ph_pl_values function started
+2024-08-28 11:39:29,648 -INFO - ONGC.NS - add_ph_pl_values function Ended
+2024-08-28 11:40:02,789 -INFO - IOC.NS - last n detect_structure function Ended
+2024-08-28 11:40:02,981 -INFO - IOC.NS - add_ph_pl_values function started
+2024-08-28 11:40:03,005 -INFO - IOC.NS - add_ph_pl_values function Ended
+2024-08-28 11:40:17,241 -INFO - All stocks - Excel file Saved
+2024-08-28 11:40:17,244 -INFO - All stocks - json file saved
+2024-08-28 11:40:17,244 -INFO - SBIN.NS - alerts file Saved
+2024-08-28 11:40:17,246 -INFO - SBIN.NS - Process function Ended
+2024-08-28 11:40:19,997 -INFO - All stocks - Excel file Saved
+2024-08-28 11:40:19,997 -INFO - All stocks - json file saved
+2024-08-28 11:40:19,997 -INFO - FEDERALBNK.NS - alerts file Saved
+2024-08-28 11:40:19,997 -INFO - FEDERALBNK.NS - Process function Ended
+2024-08-28 11:40:20,610 -INFO - All stocks - Excel file Saved
+2024-08-28 11:40:20,610 -INFO - All stocks - json file saved
+2024-08-28 11:40:20,610 -INFO - HINDPETRO.NS - alerts file Saved
+2024-08-28 11:40:20,611 -INFO - HINDPETRO.NS - Process function Ended
+2024-08-28 11:40:25,395 -INFO - All stocks - Excel file Saved
+2024-08-28 11:40:25,395 -INFO - All stocks - json file saved
+2024-08-28 11:40:25,396 -INFO - ONGC.NS - alerts file Saved
+2024-08-28 11:40:25,396 -INFO - ONGC.NS - Process function Ended
+2024-08-28 11:40:33,599 -INFO - All stocks - Excel file Saved
+2024-08-28 11:40:33,599 -INFO - All stocks - json file saved
+2024-08-28 11:40:33,599 -INFO - IOC.NS - alerts file Saved
+2024-08-28 11:40:33,599 -INFO - IOC.NS - Process function Ended
+2024-08-28 11:40:49,694 -INFO - All stocks - Excel file Saved
+2024-08-28 11:40:49,694 -INFO - All stocks - json file saved
+2024-08-28 11:41:05,694 -INFO - All stocks - Excel file Saved
+2024-08-28 11:41:05,694 -INFO - All stocks - json file saved
