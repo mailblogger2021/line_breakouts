@@ -6252,3 +6252,68 @@ ValueError: operands could not be broadcast together with shapes (20210,) (20205
 2024-08-29 12:05:08,641 -INFO - All stocks - json file saved
 2024-08-29 12:05:24,751 -INFO - All stocks - Excel file Saved
 2024-08-29 12:05:24,751 -INFO - All stocks - json file saved
+2024-09-02 11:36:27,964 -INFO - Started...
+2024-09-02 11:36:28,980 -INFO - Started...
+2024-09-02 11:36:38,659 -ERROR - 
+1 Failed download:
+2024-09-02 11:36:38,659 -ERROR - ['METROPOLIS.NS']: OperationalError('database is locked')
+2024-09-02 11:36:38,730 -INFO - SBILIFE.NS - Process function started
+2024-09-02 11:36:38,730 -INFO - M&M.NS - Process function started
+2024-09-02 11:36:38,731 -INFO - M&M.NS - Reading existing data...
+2024-09-02 11:36:38,731 -INFO - DIVISLAB.NS - Process function started
+2024-09-02 11:36:38,731 -INFO - SBILIFE.NS - Reading existing data...
+2024-09-02 11:36:38,731 -INFO - PVRINOX.NS - Process function started
+2024-09-02 11:36:38,731 -INFO - DIVISLAB.NS - Reading existing data...
+2024-09-02 11:36:38,732 -INFO - PVRINOX.NS - Reading existing data...
+2024-09-02 11:36:39,175 -INFO - last n isPivot function started
+2024-09-02 11:36:39,323 -INFO - last n isPivot function Ended
+2024-09-02 11:36:39,422 -INFO - PVRINOX.NS - last n detect_structure function started
+2024-09-02 11:36:39,456 -INFO - PVRINOX.NS - last n two_line_structure function started
+2024-09-02 11:36:39,458 -INFO - last n isPivot function started
+2024-09-02 11:36:39,740 -INFO - last n isPivot function Ended
+2024-09-02 11:36:39,782 -INFO - SBILIFE.NS - last n detect_structure function started
+2024-09-02 11:36:39,784 -INFO - SBILIFE.NS - last n two_line_structure function started
+2024-09-02 11:36:39,872 -INFO - last n isPivot function started
+2024-09-02 11:36:39,966 -INFO - last n isPivot function started
+2024-09-02 11:36:40,483 -INFO - last n isPivot function Ended
+2024-09-02 11:36:40,483 -INFO - DIVISLAB.NS - last n detect_structure function started
+2024-09-02 11:36:40,488 -INFO - DIVISLAB.NS - last n two_line_structure function started
+2024-09-02 11:36:41,341 -INFO - last n isPivot function Ended
+2024-09-02 11:36:41,342 -INFO - M&M.NS - last n detect_structure function started
+2024-09-02 11:36:41,348 -INFO - M&M.NS - last n two_line_structure function started
+2024-09-02 11:36:44,613 -INFO - PVRINOX.NS - last n two_line_structure function Ended
+2024-09-02 11:36:45,727 -INFO - PVRINOX.NS - last n detect_structure function Ended
+2024-09-02 11:36:45,732 -INFO - PVRINOX.NS - add_ph_pl_values function started
+2024-09-02 11:36:45,800 -INFO - PVRINOX.NS - add_ph_pl_values function Ended
+2024-09-02 11:37:03,889 -INFO - SBILIFE.NS - last n two_line_structure function Ended
+2024-09-02 11:37:06,388 -INFO - SBILIFE.NS - last n detect_structure function Ended
+2024-09-02 11:37:06,389 -INFO - SBILIFE.NS - add_ph_pl_values function started
+2024-09-02 11:37:06,406 -INFO - SBILIFE.NS - add_ph_pl_values function Ended
+2024-09-02 11:37:29,922 -INFO - All stocks - Excel file Saved
+2024-09-02 11:37:29,926 -INFO - All stocks - json file saved
+2024-09-02 11:37:29,926 -INFO - PVRINOX.NS - alerts file Saved
+2024-09-02 11:37:29,926 -INFO - PVRINOX.NS - Process function Ended
+2024-09-02 11:37:46,866 -INFO - All stocks - Excel file Saved
+2024-09-02 11:37:46,869 -INFO - All stocks - json file saved
+2024-09-02 11:37:46,869 -INFO - SBILIFE.NS - alerts file Saved
+2024-09-02 11:37:46,869 -INFO - SBILIFE.NS - Process function Ended
+2024-09-02 11:37:48,576 -INFO - DIVISLAB.NS - last n two_line_structure function Ended
+2024-09-02 11:37:52,703 -INFO - DIVISLAB.NS - last n detect_structure function Ended
+2024-09-02 11:37:52,706 -INFO - DIVISLAB.NS - add_ph_pl_values function started
+2024-09-02 11:37:52,730 -INFO - DIVISLAB.NS - add_ph_pl_values function Ended
+2024-09-02 11:38:01,713 -INFO - M&M.NS - last n two_line_structure function Ended
+2024-09-02 11:38:05,154 -INFO - M&M.NS - last n detect_structure function Ended
+2024-09-02 11:38:05,155 -INFO - M&M.NS - add_ph_pl_values function started
+2024-09-02 11:38:05,158 -INFO - M&M.NS - add_ph_pl_values function Ended
+2024-09-02 11:38:26,533 -INFO - All stocks - Excel file Saved
+2024-09-02 11:38:26,534 -INFO - All stocks - json file saved
+2024-09-02 11:38:26,534 -INFO - DIVISLAB.NS - alerts file Saved
+2024-09-02 11:38:26,534 -INFO - DIVISLAB.NS - Process function Ended
+2024-09-02 11:38:29,332 -INFO - All stocks - Excel file Saved
+2024-09-02 11:38:29,332 -INFO - All stocks - json file saved
+2024-09-02 11:38:29,332 -INFO - M&M.NS - alerts file Saved
+2024-09-02 11:38:29,332 -INFO - M&M.NS - Process function Ended
+2024-09-02 11:38:45,309 -INFO - All stocks - Excel file Saved
+2024-09-02 11:38:45,310 -INFO - All stocks - json file saved
+2024-09-02 11:39:02,427 -INFO - All stocks - Excel file Saved
+2024-09-02 11:39:02,428 -INFO - All stocks - json file saved
