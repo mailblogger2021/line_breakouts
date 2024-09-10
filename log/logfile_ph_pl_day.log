@@ -6683,3 +6683,165 @@ ValueError: operands could not be broadcast together with shapes (20210,) (20205
 2024-09-09 11:39:44,865 -INFO - All stocks - json file saved
 2024-09-09 11:40:00,902 -INFO - All stocks - Excel file Saved
 2024-09-09 11:40:00,902 -INFO - All stocks - json file saved
+2024-09-10 11:34:45,227 -INFO - Started...
+2024-09-10 11:34:46,077 -INFO - Started...
+2024-09-10 11:34:55,642 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-09-10 11:34:55,643 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-09-10 11:34:57,018 -INFO - PEL.NS - Process function started
+2024-09-10 11:34:57,019 -INFO - ABB.NS - Process function started
+2024-09-10 11:34:57,019 -INFO - ABFRL.NS - Process function started
+2024-09-10 11:34:57,019 -INFO - PEL.NS - Reading existing data...
+2024-09-10 11:34:57,019 -INFO - ABFRL.NS - Reading existing data...
+2024-09-10 11:34:57,019 -INFO - ABB.NS - Reading existing data...
+2024-09-10 11:34:57,019 -INFO - HINDALCO.NS - Process function started
+2024-09-10 11:34:57,020 -INFO - IGL.NS - Process function started
+2024-09-10 11:34:57,020 -INFO - HINDALCO.NS - Reading existing data...
+2024-09-10 11:34:57,020 -INFO - HAVELLS.NS - Process function started
+2024-09-10 11:34:57,020 -INFO - ASHOKLEY.NS - Process function started
+2024-09-10 11:34:57,020 -INFO - IGL.NS - Reading existing data...
+2024-09-10 11:34:57,021 -INFO - HINDCOPPER.NS - Process function started
+2024-09-10 11:34:57,021 -INFO - MOTHERSON.NS - Process function started
+2024-09-10 11:34:57,021 -INFO - ASHOKLEY.NS - Reading existing data...
+2024-09-10 11:34:57,022 -INFO - NATIONALUM.NS - Process function started
+2024-09-10 11:34:57,022 -INFO - TATASTEEL.NS - Process function started
+2024-09-10 11:34:57,022 -INFO - HAVELLS.NS - Reading existing data...
+2024-09-10 11:34:57,022 -INFO - HINDCOPPER.NS - Reading existing data...
+2024-09-10 11:34:57,023 -INFO - MOTHERSON.NS - Reading existing data...
+2024-09-10 11:34:57,024 -INFO - NATIONALUM.NS - Reading existing data...
+2024-09-10 11:34:57,027 -INFO - TATASTEEL.NS - Reading existing data...
+2024-09-10 11:34:57,813 -INFO - last n isPivot function started
+2024-09-10 11:34:58,458 -INFO - last n isPivot function Ended
+2024-09-10 11:34:58,458 -INFO - ABFRL.NS - last n detect_structure function started
+2024-09-10 11:34:58,466 -INFO - ABFRL.NS - last n two_line_structure function started
+2024-09-10 11:35:01,041 -INFO - last n isPivot function started
+2024-09-10 11:35:01,760 -INFO - last n isPivot function started
+2024-09-10 11:35:01,769 -INFO - last n isPivot function started
+2024-09-10 11:35:02,081 -INFO - last n isPivot function Ended
+2024-09-10 11:35:02,081 -INFO - HINDCOPPER.NS - last n detect_structure function started
+2024-09-10 11:35:02,088 -INFO - HINDCOPPER.NS - last n two_line_structure function started
+2024-09-10 11:35:03,343 -INFO - last n isPivot function Ended
+2024-09-10 11:35:03,350 -INFO - ASHOKLEY.NS - last n detect_structure function started
+2024-09-10 11:35:03,355 -INFO - ASHOKLEY.NS - last n two_line_structure function started
+2024-09-10 11:35:03,360 -INFO - last n isPivot function Ended
+2024-09-10 11:35:03,381 -INFO - IGL.NS - last n detect_structure function started
+2024-09-10 11:35:03,393 -INFO - IGL.NS - last n two_line_structure function started
+2024-09-10 11:35:03,396 -INFO - last n isPivot function started
+2024-09-10 11:35:03,542 -INFO - last n isPivot function started
+2024-09-10 11:35:04,161 -INFO - last n isPivot function started
+2024-09-10 11:35:04,969 -INFO - last n isPivot function Ended
+2024-09-10 11:35:04,975 -INFO - last n isPivot function started
+2024-09-10 11:35:04,998 -INFO - HAVELLS.NS - last n detect_structure function started
+2024-09-10 11:35:04,999 -INFO - last n isPivot function started
+2024-09-10 11:35:05,000 -INFO - HAVELLS.NS - last n two_line_structure function started
+2024-09-10 11:35:05,458 -INFO - last n isPivot function started
+2024-09-10 11:35:07,370 -INFO - last n isPivot function Ended
+2024-09-10 11:35:07,370 -INFO - NATIONALUM.NS - last n detect_structure function started
+2024-09-10 11:35:07,430 -INFO - NATIONALUM.NS - last n two_line_structure function started
+2024-09-10 11:35:08,855 -INFO - last n isPivot function Ended
+2024-09-10 11:35:08,952 -INFO - HINDALCO.NS - last n detect_structure function started
+2024-09-10 11:35:08,962 -INFO - HINDALCO.NS - last n two_line_structure function started
+2024-09-10 11:35:09,219 -INFO - last n isPivot function Ended
+2024-09-10 11:35:09,304 -INFO - MOTHERSON.NS - last n detect_structure function started
+2024-09-10 11:35:09,324 -INFO - MOTHERSON.NS - last n two_line_structure function started
+2024-09-10 11:35:09,337 -INFO - last n isPivot function Ended
+2024-09-10 11:35:09,402 -INFO - ABB.NS - last n detect_structure function started
+2024-09-10 11:35:09,407 -INFO - ABB.NS - last n two_line_structure function started
+2024-09-10 11:35:09,632 -INFO - last n isPivot function Ended
+2024-09-10 11:35:09,635 -INFO - PEL.NS - last n detect_structure function started
+2024-09-10 11:35:09,649 -INFO - PEL.NS - last n two_line_structure function started
+2024-09-10 11:35:09,817 -INFO - last n isPivot function started
+2024-09-10 11:35:11,043 -INFO - last n isPivot function Ended
+2024-09-10 11:35:11,057 -INFO - TATASTEEL.NS - last n detect_structure function started
+2024-09-10 11:35:11,068 -INFO - TATASTEEL.NS - last n two_line_structure function started
+2024-09-10 11:36:47,424 -INFO - ABFRL.NS - last n two_line_structure function Ended
+2024-09-10 11:37:14,050 -INFO - ABFRL.NS - last n detect_structure function Ended
+2024-09-10 11:37:14,077 -INFO - ABFRL.NS - add_ph_pl_values function started
+2024-09-10 11:37:14,236 -INFO - ABFRL.NS - add_ph_pl_values function Ended
+2024-09-10 11:37:26,478 -INFO - HINDCOPPER.NS - last n two_line_structure function Ended
+2024-09-10 11:37:56,024 -INFO - HINDCOPPER.NS - last n detect_structure function Ended
+2024-09-10 11:37:56,038 -INFO - HINDCOPPER.NS - add_ph_pl_values function started
+2024-09-10 11:37:56,163 -INFO - HINDCOPPER.NS - add_ph_pl_values function Ended
+2024-09-10 11:38:41,662 -INFO - IGL.NS - last n two_line_structure function Ended
+2024-09-10 11:38:48,350 -INFO - All stocks - Excel file Saved
+2024-09-10 11:38:48,850 -INFO - All stocks - json file saved
+2024-09-10 11:38:48,850 -INFO - ABFRL.NS - alerts file Saved
+2024-09-10 11:38:48,850 -INFO - ABFRL.NS - Process function Ended
+2024-09-10 11:38:57,849 -INFO - ABB.NS - last n two_line_structure function Ended
+2024-09-10 11:38:58,288 -INFO - ASHOKLEY.NS - last n two_line_structure function Ended
+2024-09-10 11:39:00,392 -INFO - HAVELLS.NS - last n two_line_structure function Ended
+2024-09-10 11:39:17,027 -INFO - IGL.NS - last n detect_structure function Ended
+2024-09-10 11:39:17,046 -INFO - IGL.NS - add_ph_pl_values function started
+2024-09-10 11:39:17,155 -INFO - IGL.NS - add_ph_pl_values function Ended
+2024-09-10 11:39:24,309 -INFO - NATIONALUM.NS - last n two_line_structure function Ended
+2024-09-10 11:39:26,570 -INFO - MOTHERSON.NS - last n two_line_structure function Ended
+2024-09-10 11:39:26,742 -INFO - All stocks - Excel file Saved
+2024-09-10 11:39:26,751 -INFO - All stocks - json file saved
+2024-09-10 11:39:26,755 -INFO - HINDCOPPER.NS - alerts file Saved
+2024-09-10 11:39:26,756 -INFO - HINDCOPPER.NS - Process function Ended
+2024-09-10 11:39:33,082 -INFO - ABB.NS - last n detect_structure function Ended
+2024-09-10 11:39:33,094 -INFO - ABB.NS - add_ph_pl_values function started
+2024-09-10 11:39:33,179 -INFO - ABB.NS - add_ph_pl_values function Ended
+2024-09-10 11:39:34,369 -INFO - ASHOKLEY.NS - last n detect_structure function Ended
+2024-09-10 11:39:34,379 -INFO - ASHOKLEY.NS - add_ph_pl_values function started
+2024-09-10 11:39:34,431 -INFO - ASHOKLEY.NS - add_ph_pl_values function Ended
+2024-09-10 11:39:52,427 -INFO - HAVELLS.NS - last n detect_structure function Ended
+2024-09-10 11:39:52,442 -INFO - HAVELLS.NS - add_ph_pl_values function started
+2024-09-10 11:39:52,492 -INFO - HAVELLS.NS - add_ph_pl_values function Ended
+2024-09-10 11:39:53,788 -INFO - TATASTEEL.NS - last n two_line_structure function Ended
+2024-09-10 11:40:07,960 -INFO - HINDALCO.NS - last n two_line_structure function Ended
+2024-09-10 11:40:24,386 -INFO - PEL.NS - last n two_line_structure function Ended
+2024-09-10 11:40:39,920 -INFO - NATIONALUM.NS - last n detect_structure function Ended
+2024-09-10 11:40:39,926 -INFO - NATIONALUM.NS - add_ph_pl_values function started
+2024-09-10 11:40:39,945 -INFO - NATIONALUM.NS - add_ph_pl_values function Ended
+2024-09-10 11:40:41,158 -INFO - All stocks - Excel file Saved
+2024-09-10 11:40:41,162 -INFO - All stocks - json file saved
+2024-09-10 11:40:41,162 -INFO - IGL.NS - alerts file Saved
+2024-09-10 11:40:41,162 -INFO - IGL.NS - Process function Ended
+2024-09-10 11:40:53,011 -INFO - All stocks - Excel file Saved
+2024-09-10 11:40:53,016 -INFO - All stocks - json file saved
+2024-09-10 11:40:53,016 -INFO - ASHOKLEY.NS - alerts file Saved
+2024-09-10 11:40:53,016 -INFO - ASHOKLEY.NS - Process function Ended
+2024-09-10 11:40:57,212 -INFO - All stocks - Excel file Saved
+2024-09-10 11:40:57,213 -INFO - All stocks - json file saved
+2024-09-10 11:40:57,213 -INFO - ABB.NS - alerts file Saved
+2024-09-10 11:40:57,214 -INFO - ABB.NS - Process function Ended
+2024-09-10 11:41:01,541 -INFO - TATASTEEL.NS - last n detect_structure function Ended
+2024-09-10 11:41:01,545 -INFO - TATASTEEL.NS - add_ph_pl_values function started
+2024-09-10 11:41:01,563 -INFO - TATASTEEL.NS - add_ph_pl_values function Ended
+2024-09-10 11:41:02,692 -INFO - All stocks - Excel file Saved
+2024-09-10 11:41:02,696 -INFO - All stocks - json file saved
+2024-09-10 11:41:02,696 -INFO - HAVELLS.NS - alerts file Saved
+2024-09-10 11:41:02,696 -INFO - HAVELLS.NS - Process function Ended
+2024-09-10 11:41:15,607 -INFO - HINDALCO.NS - last n detect_structure function Ended
+2024-09-10 11:41:15,608 -INFO - HINDALCO.NS - add_ph_pl_values function started
+2024-09-10 11:41:15,615 -INFO - HINDALCO.NS - add_ph_pl_values function Ended
+2024-09-10 11:41:16,505 -INFO - MOTHERSON.NS - last n detect_structure function Ended
+2024-09-10 11:41:16,506 -INFO - MOTHERSON.NS - add_ph_pl_values function started
+2024-09-10 11:41:16,513 -INFO - MOTHERSON.NS - add_ph_pl_values function Ended
+2024-09-10 11:41:45,551 -INFO - All stocks - Excel file Saved
+2024-09-10 11:41:45,570 -INFO - All stocks - json file saved
+2024-09-10 11:41:45,570 -INFO - NATIONALUM.NS - alerts file Saved
+2024-09-10 11:41:45,587 -INFO - NATIONALUM.NS - Process function Ended
+2024-09-10 11:41:45,738 -INFO - PEL.NS - last n detect_structure function Ended
+2024-09-10 11:41:45,738 -INFO - PEL.NS - add_ph_pl_values function started
+2024-09-10 11:41:46,169 -INFO - PEL.NS - add_ph_pl_values function Ended
+2024-09-10 11:42:09,071 -INFO - All stocks - Excel file Saved
+2024-09-10 11:42:09,580 -INFO - All stocks - json file saved
+2024-09-10 11:42:09,580 -INFO - TATASTEEL.NS - alerts file Saved
+2024-09-10 11:42:09,580 -INFO - TATASTEEL.NS - Process function Ended
+2024-09-10 11:42:11,573 -INFO - All stocks - Excel file Saved
+2024-09-10 11:42:11,573 -INFO - All stocks - json file saved
+2024-09-10 11:42:11,573 -INFO - HINDALCO.NS - alerts file Saved
+2024-09-10 11:42:11,573 -INFO - HINDALCO.NS - Process function Ended
+2024-09-10 11:42:11,578 -INFO - All stocks - Excel file Saved
+2024-09-10 11:42:11,578 -INFO - All stocks - json file saved
+2024-09-10 11:42:11,578 -INFO - MOTHERSON.NS - alerts file Saved
+2024-09-10 11:42:11,578 -INFO - MOTHERSON.NS - Process function Ended
+2024-09-10 11:42:23,209 -INFO - All stocks - Excel file Saved
+2024-09-10 11:42:23,209 -INFO - All stocks - json file saved
+2024-09-10 11:42:23,210 -INFO - PEL.NS - alerts file Saved
+2024-09-10 11:42:23,210 -INFO - PEL.NS - Process function Ended
+2024-09-10 11:42:40,364 -INFO - All stocks - Excel file Saved
+2024-09-10 11:42:40,364 -INFO - All stocks - json file saved
+2024-09-10 11:42:57,272 -INFO - All stocks - Excel file Saved
+2024-09-10 11:42:57,273 -INFO - All stocks - json file saved
