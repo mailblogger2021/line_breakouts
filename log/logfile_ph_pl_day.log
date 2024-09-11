@@ -6845,3 +6845,40 @@ ValueError: operands could not be broadcast together with shapes (20210,) (20205
 2024-09-10 11:42:40,364 -INFO - All stocks - json file saved
 2024-09-10 11:42:57,272 -INFO - All stocks - Excel file Saved
 2024-09-10 11:42:57,273 -INFO - All stocks - json file saved
+2024-09-11 11:35:28,335 -INFO - Started...
+2024-09-11 11:35:29,860 -INFO - Started...
+2024-09-11 11:35:40,165 -ERROR - 
+1 Failed download:
+2024-09-11 11:35:40,166 -ERROR - ['INDIGO.NS']: OperationalError('database is locked')
+2024-09-11 11:35:40,207 -INFO - TRENT.NS - Process function started
+2024-09-11 11:35:40,207 -INFO - TECHM.NS - Process function started
+2024-09-11 11:35:40,207 -INFO - TECHM.NS - Reading existing data...
+2024-09-11 11:35:40,208 -INFO - TRENT.NS - Reading existing data...
+2024-09-11 11:35:40,854 -INFO - last n isPivot function started
+2024-09-11 11:35:41,418 -INFO - last n isPivot function Ended
+2024-09-11 11:35:41,419 -INFO - TECHM.NS - last n detect_structure function started
+2024-09-11 11:35:41,427 -INFO - TECHM.NS - last n two_line_structure function started
+2024-09-11 11:35:41,481 -INFO - last n isPivot function started
+2024-09-11 11:35:42,269 -INFO - last n isPivot function Ended
+2024-09-11 11:35:42,277 -INFO - TRENT.NS - last n detect_structure function started
+2024-09-11 11:35:42,282 -INFO - TRENT.NS - last n two_line_structure function started
+2024-09-11 11:36:20,655 -INFO - TECHM.NS - last n two_line_structure function Ended
+2024-09-11 11:36:24,903 -INFO - TECHM.NS - last n detect_structure function Ended
+2024-09-11 11:36:24,906 -INFO - TECHM.NS - add_ph_pl_values function started
+2024-09-11 11:36:24,938 -INFO - TECHM.NS - add_ph_pl_values function Ended
+2024-09-11 11:36:34,837 -INFO - TRENT.NS - last n two_line_structure function Ended
+2024-09-11 11:36:35,968 -INFO - TRENT.NS - last n detect_structure function Ended
+2024-09-11 11:36:35,968 -INFO - TRENT.NS - add_ph_pl_values function started
+2024-09-11 11:36:35,973 -INFO - TRENT.NS - add_ph_pl_values function Ended
+2024-09-11 11:37:03,306 -INFO - All stocks - Excel file Saved
+2024-09-11 11:37:03,307 -INFO - All stocks - json file saved
+2024-09-11 11:37:03,307 -INFO - TECHM.NS - alerts file Saved
+2024-09-11 11:37:03,307 -INFO - TECHM.NS - Process function Ended
+2024-09-11 11:37:06,423 -INFO - All stocks - Excel file Saved
+2024-09-11 11:37:06,423 -INFO - All stocks - json file saved
+2024-09-11 11:37:06,423 -INFO - TRENT.NS - alerts file Saved
+2024-09-11 11:37:06,423 -INFO - TRENT.NS - Process function Ended
+2024-09-11 11:37:26,249 -INFO - All stocks - Excel file Saved
+2024-09-11 11:37:26,249 -INFO - All stocks - json file saved
+2024-09-11 11:37:43,267 -INFO - All stocks - Excel file Saved
+2024-09-11 11:37:43,267 -INFO - All stocks - json file saved
