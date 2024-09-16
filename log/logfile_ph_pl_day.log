@@ -6988,3 +6988,191 @@ ValueError: operands could not be broadcast together with shapes (20210,) (20205
 2024-09-12 11:39:41,356 -INFO - All stocks - json file saved
 2024-09-12 11:39:57,788 -INFO - All stocks - Excel file Saved
 2024-09-12 11:39:57,788 -INFO - All stocks - json file saved
+2024-09-16 11:34:42,803 -INFO - Started...
+2024-09-16 11:34:43,750 -INFO - Started...
+2024-09-16 11:34:53,241 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-09-16 11:34:55,679 -INFO - INFY.NS - Process function started
+2024-09-16 11:34:55,679 -INFO - IDFC.NS - Process function started
+2024-09-16 11:34:55,679 -INFO - INFY.NS - Reading existing data...
+2024-09-16 11:34:55,679 -INFO - IDFC.NS - Reading existing data...
+2024-09-16 11:34:55,679 -INFO - CIPLA.NS - Process function started
+2024-09-16 11:34:55,680 -INFO - TVSMOTOR.NS - Process function started
+2024-09-16 11:34:55,680 -INFO - IGL.NS - Process function started
+2024-09-16 11:34:55,680 -INFO - TATACONSUM.NS - Process function started
+2024-09-16 11:34:55,680 -INFO - VEDL.NS - Process function started
+2024-09-16 11:34:55,680 -INFO - CROMPTON.NS - Process function started
+2024-09-16 11:34:55,680 -INFO - CIPLA.NS - Reading existing data...
+2024-09-16 11:34:55,680 -INFO - EICHERMOT.NS - Process function started
+2024-09-16 11:34:55,680 -INFO - TVSMOTOR.NS - Reading existing data...
+2024-09-16 11:34:55,680 -INFO - BPCL.NS - Process function started
+2024-09-16 11:34:55,681 -INFO - IGL.NS - Reading existing data...
+2024-09-16 11:34:55,681 -INFO - TATACONSUM.NS - Reading existing data...
+2024-09-16 11:34:55,681 -INFO - GUJGASLTD.NS - Process function started
+2024-09-16 11:34:55,681 -INFO - VEDL.NS - Reading existing data...
+2024-09-16 11:34:55,681 -INFO - OFSS.NS - Process function started
+2024-09-16 11:34:55,681 -INFO - CROMPTON.NS - Reading existing data...
+2024-09-16 11:34:55,682 -INFO - EICHERMOT.NS - Reading existing data...
+2024-09-16 11:34:55,682 -INFO - BPCL.NS - Reading existing data...
+2024-09-16 11:34:55,682 -INFO - GUJGASLTD.NS - Reading existing data...
+2024-09-16 11:34:55,684 -INFO - OFSS.NS - Reading existing data...
+2024-09-16 11:34:56,338 -INFO - last n isPivot function started
+2024-09-16 11:34:57,217 -INFO - last n isPivot function Ended
+2024-09-16 11:34:57,343 -INFO - IDFC.NS - last n detect_structure function started
+2024-09-16 11:34:57,404 -INFO - IDFC.NS - last n two_line_structure function started
+2024-09-16 11:34:59,497 -INFO - last n isPivot function started
+2024-09-16 11:35:00,003 -INFO - last n isPivot function Ended
+2024-09-16 11:35:00,018 -INFO - CROMPTON.NS - last n detect_structure function started
+2024-09-16 11:35:00,039 -INFO - CROMPTON.NS - last n two_line_structure function started
+2024-09-16 11:35:00,272 -INFO - last n isPivot function started
+2024-09-16 11:35:00,968 -INFO - last n isPivot function started
+2024-09-16 11:35:01,344 -INFO - last n isPivot function Ended
+2024-09-16 11:35:01,414 -INFO - IGL.NS - last n detect_structure function started
+2024-09-16 11:35:01,433 -INFO - IGL.NS - last n two_line_structure function started
+2024-09-16 11:35:01,610 -INFO - last n isPivot function started
+2024-09-16 11:35:01,628 -INFO - last n isPivot function started
+2024-09-16 11:35:01,764 -INFO - last n isPivot function Ended
+2024-09-16 11:35:01,764 -INFO - GUJGASLTD.NS - last n detect_structure function started
+2024-09-16 11:35:01,772 -INFO - GUJGASLTD.NS - last n two_line_structure function started
+2024-09-16 11:35:01,775 -INFO - last n isPivot function started
+2024-09-16 11:35:02,161 -INFO - last n isPivot function started
+2024-09-16 11:35:03,437 -INFO - last n isPivot function started
+2024-09-16 11:35:03,439 -INFO - last n isPivot function Ended
+2024-09-16 11:35:03,539 -INFO - TATACONSUM.NS - last n detect_structure function started
+2024-09-16 11:35:03,547 -INFO - TATACONSUM.NS - last n two_line_structure function started
+2024-09-16 11:35:05,557 -INFO - last n isPivot function Ended
+2024-09-16 11:35:05,557 -INFO - CIPLA.NS - last n detect_structure function started
+2024-09-16 11:35:05,842 -INFO - CIPLA.NS - last n two_line_structure function started
+2024-09-16 11:35:05,877 -INFO - last n isPivot function started
+2024-09-16 11:35:06,358 -INFO - last n isPivot function Ended
+2024-09-16 11:35:06,358 -INFO - INFY.NS - last n detect_structure function started
+2024-09-16 11:35:06,369 -INFO - INFY.NS - last n two_line_structure function started
+2024-09-16 11:35:06,679 -INFO - last n isPivot function Ended
+2024-09-16 11:35:06,681 -INFO - OFSS.NS - last n detect_structure function started
+2024-09-16 11:35:06,685 -INFO - OFSS.NS - last n two_line_structure function started
+2024-09-16 11:35:06,707 -INFO - last n isPivot function Ended
+2024-09-16 11:35:06,707 -INFO - TVSMOTOR.NS - last n detect_structure function started
+2024-09-16 11:35:06,716 -INFO - last n isPivot function Ended
+2024-09-16 11:35:06,716 -INFO - EICHERMOT.NS - last n detect_structure function started
+2024-09-16 11:35:06,717 -INFO - EICHERMOT.NS - last n two_line_structure function started
+2024-09-16 11:35:06,719 -INFO - TVSMOTOR.NS - last n two_line_structure function started
+2024-09-16 11:35:06,740 -INFO - last n isPivot function started
+2024-09-16 11:35:07,780 -INFO - last n isPivot function Ended
+2024-09-16 11:35:07,790 -INFO - VEDL.NS - last n detect_structure function started
+2024-09-16 11:35:07,810 -INFO - VEDL.NS - last n two_line_structure function started
+2024-09-16 11:35:07,828 -INFO - last n isPivot function started
+2024-09-16 11:35:08,864 -INFO - last n isPivot function Ended
+2024-09-16 11:35:08,864 -INFO - BPCL.NS - last n detect_structure function started
+2024-09-16 11:35:08,883 -INFO - BPCL.NS - last n two_line_structure function started
+2024-09-16 11:36:19,071 -INFO - CROMPTON.NS - last n two_line_structure function Ended
+2024-09-16 11:36:26,532 -INFO - GUJGASLTD.NS - last n two_line_structure function Ended
+2024-09-16 11:36:43,977 -INFO - CROMPTON.NS - last n detect_structure function Ended
+2024-09-16 11:36:44,001 -INFO - CROMPTON.NS - add_ph_pl_values function started
+2024-09-16 11:36:44,183 -INFO - CROMPTON.NS - add_ph_pl_values function Ended
+2024-09-16 11:36:59,814 -INFO - GUJGASLTD.NS - last n detect_structure function Ended
+2024-09-16 11:36:59,892 -INFO - GUJGASLTD.NS - add_ph_pl_values function started
+2024-09-16 11:37:00,170 -INFO - GUJGASLTD.NS - add_ph_pl_values function Ended
+2024-09-16 11:38:51,298 -INFO - All stocks - Excel file Saved
+2024-09-16 11:38:51,322 -INFO - All stocks - json file saved
+2024-09-16 11:38:51,322 -INFO - CROMPTON.NS - alerts file Saved
+2024-09-16 11:38:51,326 -INFO - CROMPTON.NS - Process function Ended
+2024-09-16 11:38:58,623 -INFO - All stocks - Excel file Saved
+2024-09-16 11:38:58,655 -INFO - All stocks - json file saved
+2024-09-16 11:38:58,662 -INFO - GUJGASLTD.NS - alerts file Saved
+2024-09-16 11:38:58,663 -INFO - GUJGASLTD.NS - Process function Ended
+2024-09-16 11:39:06,003 -INFO - IDFC.NS - last n two_line_structure function Ended
+2024-09-16 11:39:29,128 -INFO - IGL.NS - last n two_line_structure function Ended
+2024-09-16 11:39:38,428 -INFO - OFSS.NS - last n two_line_structure function Ended
+2024-09-16 11:39:52,198 -INFO - IDFC.NS - last n detect_structure function Ended
+2024-09-16 11:39:52,220 -INFO - IDFC.NS - add_ph_pl_values function started
+2024-09-16 11:39:52,331 -INFO - IDFC.NS - add_ph_pl_values function Ended
+2024-09-16 11:40:03,749 -INFO - TVSMOTOR.NS - last n two_line_structure function Ended
+2024-09-16 11:40:16,255 -INFO - IGL.NS - last n detect_structure function Ended
+2024-09-16 11:40:16,283 -INFO - IGL.NS - add_ph_pl_values function started
+2024-09-16 11:40:16,377 -INFO - IGL.NS - add_ph_pl_values function Ended
+2024-09-16 11:40:30,178 -INFO - OFSS.NS - last n detect_structure function Ended
+2024-09-16 11:40:30,191 -INFO - OFSS.NS - add_ph_pl_values function started
+2024-09-16 11:40:30,281 -INFO - OFSS.NS - add_ph_pl_values function Ended
+2024-09-16 11:41:00,243 -INFO - TVSMOTOR.NS - last n detect_structure function Ended
+2024-09-16 11:41:00,259 -INFO - TVSMOTOR.NS - add_ph_pl_values function started
+2024-09-16 11:41:00,307 -INFO - INFY.NS - last n two_line_structure function Ended
+2024-09-16 11:41:00,333 -INFO - TVSMOTOR.NS - add_ph_pl_values function Ended
+2024-09-16 11:41:02,255 -INFO - VEDL.NS - last n two_line_structure function Ended
+2024-09-16 11:41:22,925 -INFO - CIPLA.NS - last n two_line_structure function Ended
+2024-09-16 11:41:23,127 -INFO - TATACONSUM.NS - last n two_line_structure function Ended
+2024-09-16 11:41:23,281 -INFO - BPCL.NS - last n two_line_structure function Ended
+2024-09-16 11:41:26,423 -INFO - EICHERMOT.NS - last n two_line_structure function Ended
+2024-09-16 11:41:30,005 -INFO - All stocks - Excel file Saved
+2024-09-16 11:41:30,006 -INFO - All stocks - json file saved
+2024-09-16 11:41:30,009 -INFO - IDFC.NS - alerts file Saved
+2024-09-16 11:41:30,013 -INFO - IDFC.NS - Process function Ended
+2024-09-16 11:41:48,065 -INFO - All stocks - Excel file Saved
+2024-09-16 11:41:48,076 -INFO - All stocks - json file saved
+2024-09-16 11:41:48,076 -INFO - IGL.NS - alerts file Saved
+2024-09-16 11:41:48,078 -INFO - IGL.NS - Process function Ended
+2024-09-16 11:41:50,535 -INFO - All stocks - Excel file Saved
+2024-09-16 11:41:50,540 -INFO - All stocks - json file saved
+2024-09-16 11:41:50,540 -INFO - OFSS.NS - alerts file Saved
+2024-09-16 11:41:50,540 -INFO - OFSS.NS - Process function Ended
+2024-09-16 11:41:57,208 -INFO - VEDL.NS - last n detect_structure function Ended
+2024-09-16 11:41:57,213 -INFO - VEDL.NS - add_ph_pl_values function started
+2024-09-16 11:41:57,269 -INFO - VEDL.NS - add_ph_pl_values function Ended
+2024-09-16 11:41:58,164 -INFO - INFY.NS - last n detect_structure function Ended
+2024-09-16 11:41:58,171 -INFO - INFY.NS - add_ph_pl_values function started
+2024-09-16 11:41:58,203 -INFO - INFY.NS - add_ph_pl_values function Ended
+2024-09-16 11:42:12,100 -INFO - All stocks - Excel file Saved
+2024-09-16 11:42:12,108 -INFO - All stocks - json file saved
+2024-09-16 11:42:12,108 -INFO - TVSMOTOR.NS - alerts file Saved
+2024-09-16 11:42:12,108 -INFO - TVSMOTOR.NS - Process function Ended
+2024-09-16 11:42:12,485 -INFO - CIPLA.NS - last n detect_structure function Ended
+2024-09-16 11:42:12,486 -INFO - CIPLA.NS - add_ph_pl_values function started
+2024-09-16 11:42:12,492 -INFO - CIPLA.NS - add_ph_pl_values function Ended
+2024-09-16 11:42:15,639 -INFO - BPCL.NS - last n detect_structure function Ended
+2024-09-16 11:42:15,884 -INFO - BPCL.NS - add_ph_pl_values function started
+2024-09-16 11:42:16,393 -INFO - BPCL.NS - add_ph_pl_values function Ended
+2024-09-16 11:42:18,950 -INFO - TATACONSUM.NS - last n detect_structure function Ended
+2024-09-16 11:42:19,031 -INFO - TATACONSUM.NS - add_ph_pl_values function started
+2024-09-16 11:42:19,842 -INFO - TATACONSUM.NS - add_ph_pl_values function Ended
+2024-09-16 11:42:20,898 -INFO - EICHERMOT.NS - last n detect_structure function Ended
+2024-09-16 11:42:20,901 -INFO - EICHERMOT.NS - add_ph_pl_values function started
+2024-09-16 11:42:20,916 -INFO - EICHERMOT.NS - add_ph_pl_values function Ended
+2024-09-16 11:42:21,318 -INFO - Error in saving alerts file: operands could not be broadcast together with shapes (40877,) (40876,) (40877,) 
+2024-09-16 11:42:22,507 -INFO - Error : Traceback (most recent call last):
+  File "/Users/runner/work/line_breakouts/line_breakouts/two_line_pattern_detect_class.py", line 118, in save_excel_file
+    self.three_line_alert_df.drop_duplicates(subset=['stockname','date1','value1', 'date2', 'value2', 'date3', 'value3', 'buyORsell'], keep='first', inplace=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6818, in drop_duplicates
+    result = self[-self.duplicated(subset, keep=keep)]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6960, in duplicated
+    ids = get_group_index(labels, tuple(shape), sort=False, xnull=False)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/sorting.py", line 193, in get_group_index
+    out += labels[i] * stride
+ValueError: operands could not be broadcast together with shapes (40877,) (40876,) (40877,) 
+
+2024-09-16 11:42:22,521 -INFO - All stocks - json file saved
+2024-09-16 11:42:22,521 -INFO - TATACONSUM.NS - alerts file Saved
+2024-09-16 11:42:22,521 -INFO - TATACONSUM.NS - Process function Ended
+2024-09-16 11:43:20,204 -INFO - All stocks - Excel file Saved
+2024-09-16 11:43:20,221 -INFO - All stocks - json file saved
+2024-09-16 11:43:20,221 -INFO - VEDL.NS - alerts file Saved
+2024-09-16 11:43:20,221 -INFO - VEDL.NS - Process function Ended
+2024-09-16 11:43:21,370 -INFO - All stocks - Excel file Saved
+2024-09-16 11:43:21,373 -INFO - All stocks - json file saved
+2024-09-16 11:43:21,373 -INFO - INFY.NS - alerts file Saved
+2024-09-16 11:43:21,373 -INFO - INFY.NS - Process function Ended
+2024-09-16 11:43:21,543 -INFO - All stocks - Excel file Saved
+2024-09-16 11:43:21,543 -INFO - All stocks - json file saved
+2024-09-16 11:43:21,543 -INFO - CIPLA.NS - alerts file Saved
+2024-09-16 11:43:21,543 -INFO - CIPLA.NS - Process function Ended
+2024-09-16 11:43:26,540 -INFO - All stocks - Excel file Saved
+2024-09-16 11:43:26,540 -INFO - All stocks - json file saved
+2024-09-16 11:43:26,540 -INFO - BPCL.NS - alerts file Saved
+2024-09-16 11:43:26,540 -INFO - BPCL.NS - Process function Ended
+2024-09-16 11:43:26,727 -INFO - All stocks - Excel file Saved
+2024-09-16 11:43:26,727 -INFO - All stocks - json file saved
+2024-09-16 11:43:26,727 -INFO - EICHERMOT.NS - alerts file Saved
+2024-09-16 11:43:26,727 -INFO - EICHERMOT.NS - Process function Ended
+2024-09-16 11:43:43,571 -INFO - All stocks - Excel file Saved
+2024-09-16 11:43:43,571 -INFO - All stocks - json file saved
+2024-09-16 11:44:00,151 -INFO - All stocks - Excel file Saved
+2024-09-16 11:44:00,151 -INFO - All stocks - json file saved
