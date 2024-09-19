@@ -7267,3 +7267,152 @@ ValueError: operands could not be broadcast together with shapes (40877,) (40876
 2024-09-17 11:40:20,219 -INFO - All stocks - json file saved
 2024-09-17 11:40:36,592 -INFO - All stocks - Excel file Saved
 2024-09-17 11:40:36,593 -INFO - All stocks - json file saved
+2024-09-19 11:35:34,664 -INFO - Started...
+2024-09-19 11:35:35,470 -INFO - Started...
+2024-09-19 11:35:46,391 -ERROR - 
+1 Failed download:
+2024-09-19 11:35:46,392 -ERROR - ['DALBHARAT.NS']: OperationalError('database is locked')
+2024-09-19 11:35:46,606 -INFO - ICICIPRULI.NS - Process function started
+2024-09-19 11:35:46,606 -INFO - ICICIPRULI.NS - Reading existing data...
+2024-09-19 11:35:46,606 -INFO - PFC.NS - Process function started
+2024-09-19 11:35:46,606 -INFO - PFC.NS - Reading existing data...
+2024-09-19 11:35:46,606 -INFO - IOC.NS - Process function started
+2024-09-19 11:35:46,606 -INFO - IOC.NS - Reading existing data...
+2024-09-19 11:35:46,607 -INFO - HDFCAMC.NS - Process function started
+2024-09-19 11:35:46,607 -INFO - HDFCAMC.NS - Reading existing data...
+2024-09-19 11:35:46,607 -INFO - ULTRACEMCO.NS - Process function started
+2024-09-19 11:35:46,607 -INFO - ULTRACEMCO.NS - Reading existing data...
+2024-09-19 11:35:46,607 -INFO - SHREECEM.NS - Process function started
+2024-09-19 11:35:46,607 -INFO - GNFC.NS - Process function started
+2024-09-19 11:35:46,607 -INFO - LUPIN.NS - Process function started
+2024-09-19 11:35:46,607 -INFO - SHREECEM.NS - Reading existing data...
+2024-09-19 11:35:46,607 -INFO - HINDPETRO.NS - Process function started
+2024-09-19 11:35:46,608 -INFO - GNFC.NS - Reading existing data...
+2024-09-19 11:35:46,608 -INFO - SRF.NS - Process function started
+2024-09-19 11:35:46,608 -INFO - LUPIN.NS - Reading existing data...
+2024-09-19 11:35:46,608 -INFO - HINDPETRO.NS - Reading existing data...
+2024-09-19 11:35:46,609 -INFO - SRF.NS - Reading existing data...
+2024-09-19 11:35:47,450 -INFO - last n isPivot function started
+2024-09-19 11:35:47,806 -INFO - last n isPivot function Ended
+2024-09-19 11:35:47,818 -INFO - ICICIPRULI.NS - last n detect_structure function started
+2024-09-19 11:35:47,830 -INFO - ICICIPRULI.NS - last n two_line_structure function started
+2024-09-19 11:35:47,919 -INFO - last n isPivot function started
+2024-09-19 11:35:48,659 -INFO - last n isPivot function Ended
+2024-09-19 11:35:48,779 -INFO - HDFCAMC.NS - last n detect_structure function started
+2024-09-19 11:35:48,787 -INFO - HDFCAMC.NS - last n two_line_structure function started
+2024-09-19 11:35:49,343 -INFO - last n isPivot function started
+2024-09-19 11:35:50,156 -INFO - last n isPivot function started
+2024-09-19 11:35:50,562 -INFO - last n isPivot function Ended
+2024-09-19 11:35:50,562 -INFO - PFC.NS - last n detect_structure function started
+2024-09-19 11:35:51,032 -INFO - PFC.NS - last n two_line_structure function started
+2024-09-19 11:35:51,125 -INFO - last n isPivot function Ended
+2024-09-19 11:35:51,125 -INFO - ULTRACEMCO.NS - last n detect_structure function started
+2024-09-19 11:35:51,130 -INFO - ULTRACEMCO.NS - last n two_line_structure function started
+2024-09-19 11:35:51,225 -INFO - last n isPivot function started
+2024-09-19 11:35:51,328 -INFO - last n isPivot function started
+2024-09-19 11:35:51,329 -INFO - last n isPivot function started
+2024-09-19 11:35:51,766 -INFO - last n isPivot function started
+2024-09-19 11:35:53,434 -INFO - last n isPivot function Ended
+2024-09-19 11:35:53,437 -INFO - GNFC.NS - last n detect_structure function started
+2024-09-19 11:35:53,671 -INFO - GNFC.NS - last n two_line_structure function started
+2024-09-19 11:35:53,873 -INFO - last n isPivot function Ended
+2024-09-19 11:35:54,096 -INFO - last n isPivot function Ended
+2024-09-19 11:35:54,096 -INFO - last n isPivot function started
+2024-09-19 11:35:54,112 -INFO - SRF.NS - last n detect_structure function started
+2024-09-19 11:35:54,112 -INFO - last n isPivot function Ended
+2024-09-19 11:35:54,116 -INFO - SRF.NS - last n two_line_structure function started
+2024-09-19 11:35:54,121 -INFO - HINDPETRO.NS - last n detect_structure function started
+2024-09-19 11:35:54,133 -INFO - HINDPETRO.NS - last n two_line_structure function started
+2024-09-19 11:35:54,148 -INFO - SHREECEM.NS - last n detect_structure function started
+2024-09-19 11:35:54,149 -INFO - SHREECEM.NS - last n two_line_structure function started
+2024-09-19 11:35:54,981 -INFO - last n isPivot function Ended
+2024-09-19 11:35:54,988 -INFO - LUPIN.NS - last n detect_structure function started
+2024-09-19 11:35:54,996 -INFO - LUPIN.NS - last n two_line_structure function started
+2024-09-19 11:35:55,026 -INFO - last n isPivot function started
+2024-09-19 11:35:55,959 -INFO - last n isPivot function Ended
+2024-09-19 11:35:55,967 -INFO - IOC.NS - last n detect_structure function started
+2024-09-19 11:35:55,974 -INFO - IOC.NS - last n two_line_structure function started
+2024-09-19 11:36:36,885 -INFO - HDFCAMC.NS - last n two_line_structure function Ended
+2024-09-19 11:36:47,478 -INFO - HDFCAMC.NS - last n detect_structure function Ended
+2024-09-19 11:36:47,497 -INFO - HDFCAMC.NS - add_ph_pl_values function started
+2024-09-19 11:36:47,660 -INFO - HDFCAMC.NS - add_ph_pl_values function Ended
+2024-09-19 11:36:48,498 -INFO - ICICIPRULI.NS - last n two_line_structure function Ended
+2024-09-19 11:37:05,877 -INFO - ICICIPRULI.NS - last n detect_structure function Ended
+2024-09-19 11:37:05,898 -INFO - ICICIPRULI.NS - add_ph_pl_values function started
+2024-09-19 11:37:06,039 -INFO - ICICIPRULI.NS - add_ph_pl_values function Ended
+2024-09-19 11:38:19,045 -INFO - All stocks - Excel file Saved
+2024-09-19 11:38:19,061 -INFO - All stocks - json file saved
+2024-09-19 11:38:19,061 -INFO - HDFCAMC.NS - alerts file Saved
+2024-09-19 11:38:19,065 -INFO - HDFCAMC.NS - Process function Ended
+2024-09-19 11:38:19,374 -INFO - PFC.NS - last n two_line_structure function Ended
+2024-09-19 11:38:30,933 -INFO - All stocks - Excel file Saved
+2024-09-19 11:38:30,944 -INFO - All stocks - json file saved
+2024-09-19 11:38:30,945 -INFO - ICICIPRULI.NS - alerts file Saved
+2024-09-19 11:38:30,946 -INFO - ICICIPRULI.NS - Process function Ended
+2024-09-19 11:38:48,754 -INFO - PFC.NS - last n detect_structure function Ended
+2024-09-19 11:38:48,766 -INFO - PFC.NS - add_ph_pl_values function started
+2024-09-19 11:38:48,858 -INFO - PFC.NS - add_ph_pl_values function Ended
+2024-09-19 11:38:49,550 -INFO - ULTRACEMCO.NS - last n two_line_structure function Ended
+2024-09-19 11:38:56,715 -INFO - SRF.NS - last n two_line_structure function Ended
+2024-09-19 11:38:57,339 -INFO - GNFC.NS - last n two_line_structure function Ended
+2024-09-19 11:39:00,551 -INFO - SHREECEM.NS - last n two_line_structure function Ended
+2024-09-19 11:39:01,558 -INFO - LUPIN.NS - last n two_line_structure function Ended
+2024-09-19 11:39:22,201 -INFO - ULTRACEMCO.NS - last n detect_structure function Ended
+2024-09-19 11:39:22,209 -INFO - ULTRACEMCO.NS - add_ph_pl_values function started
+2024-09-19 11:39:22,241 -INFO - ULTRACEMCO.NS - add_ph_pl_values function Ended
+2024-09-19 11:39:24,181 -INFO - SRF.NS - last n detect_structure function Ended
+2024-09-19 11:39:24,188 -INFO - SRF.NS - add_ph_pl_values function started
+2024-09-19 11:39:24,340 -INFO - SRF.NS - add_ph_pl_values function Ended
+2024-09-19 11:39:37,116 -INFO - GNFC.NS - last n detect_structure function Ended
+2024-09-19 11:39:37,119 -INFO - GNFC.NS - add_ph_pl_values function started
+2024-09-19 11:39:37,144 -INFO - GNFC.NS - add_ph_pl_values function Ended
+2024-09-19 11:39:44,409 -INFO - LUPIN.NS - last n detect_structure function Ended
+2024-09-19 11:39:44,411 -INFO - LUPIN.NS - add_ph_pl_values function started
+2024-09-19 11:39:44,424 -INFO - LUPIN.NS - add_ph_pl_values function Ended
+2024-09-19 11:39:47,536 -INFO - SHREECEM.NS - last n detect_structure function Ended
+2024-09-19 11:39:47,541 -INFO - SHREECEM.NS - add_ph_pl_values function started
+2024-09-19 11:39:47,554 -INFO - SHREECEM.NS - add_ph_pl_values function Ended
+2024-09-19 11:40:00,231 -INFO - HINDPETRO.NS - last n two_line_structure function Ended
+2024-09-19 11:40:02,648 -INFO - All stocks - Excel file Saved
+2024-09-19 11:40:02,654 -INFO - All stocks - json file saved
+2024-09-19 11:40:02,655 -INFO - PFC.NS - alerts file Saved
+2024-09-19 11:40:02,655 -INFO - PFC.NS - Process function Ended
+2024-09-19 11:40:30,154 -INFO - IOC.NS - last n two_line_structure function Ended
+2024-09-19 11:40:48,737 -INFO - All stocks - Excel file Saved
+2024-09-19 11:40:48,740 -INFO - All stocks - json file saved
+2024-09-19 11:40:48,740 -INFO - ULTRACEMCO.NS - alerts file Saved
+2024-09-19 11:40:48,740 -INFO - ULTRACEMCO.NS - Process function Ended
+2024-09-19 11:40:54,105 -INFO - All stocks - Excel file Saved
+2024-09-19 11:40:54,110 -INFO - All stocks - json file saved
+2024-09-19 11:40:54,110 -INFO - SRF.NS - alerts file Saved
+2024-09-19 11:40:54,110 -INFO - SRF.NS - Process function Ended
+2024-09-19 11:40:54,657 -INFO - All stocks - Excel file Saved
+2024-09-19 11:40:54,658 -INFO - All stocks - json file saved
+2024-09-19 11:40:54,658 -INFO - GNFC.NS - alerts file Saved
+2024-09-19 11:40:54,658 -INFO - GNFC.NS - Process function Ended
+2024-09-19 11:40:55,525 -INFO - All stocks - Excel file Saved
+2024-09-19 11:40:55,526 -INFO - All stocks - json file saved
+2024-09-19 11:40:55,526 -INFO - SHREECEM.NS - alerts file Saved
+2024-09-19 11:40:55,526 -INFO - SHREECEM.NS - Process function Ended
+2024-09-19 11:40:55,827 -INFO - All stocks - Excel file Saved
+2024-09-19 11:40:55,831 -INFO - All stocks - json file saved
+2024-09-19 11:40:55,831 -INFO - LUPIN.NS - alerts file Saved
+2024-09-19 11:40:55,831 -INFO - LUPIN.NS - Process function Ended
+2024-09-19 11:40:57,433 -INFO - HINDPETRO.NS - last n detect_structure function Ended
+2024-09-19 11:40:57,435 -INFO - HINDPETRO.NS - add_ph_pl_values function started
+2024-09-19 11:40:57,457 -INFO - HINDPETRO.NS - add_ph_pl_values function Ended
+2024-09-19 11:41:03,556 -INFO - IOC.NS - last n detect_structure function Ended
+2024-09-19 11:41:03,691 -INFO - IOC.NS - add_ph_pl_values function started
+2024-09-19 11:41:03,968 -INFO - IOC.NS - add_ph_pl_values function Ended
+2024-09-19 11:41:31,535 -INFO - All stocks - Excel file Saved
+2024-09-19 11:41:31,536 -INFO - All stocks - json file saved
+2024-09-19 11:41:31,536 -INFO - HINDPETRO.NS - alerts file Saved
+2024-09-19 11:41:31,536 -INFO - HINDPETRO.NS - Process function Ended
+2024-09-19 11:41:31,701 -INFO - All stocks - Excel file Saved
+2024-09-19 11:41:31,701 -INFO - All stocks - json file saved
+2024-09-19 11:41:31,701 -INFO - IOC.NS - alerts file Saved
+2024-09-19 11:41:31,701 -INFO - IOC.NS - Process function Ended
+2024-09-19 11:41:47,897 -INFO - All stocks - Excel file Saved
+2024-09-19 11:41:47,897 -INFO - All stocks - json file saved
+2024-09-19 11:42:05,367 -INFO - All stocks - Excel file Saved
+2024-09-19 11:42:05,367 -INFO - All stocks - json file saved
