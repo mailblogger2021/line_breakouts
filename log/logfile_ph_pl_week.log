@@ -2393,3 +2393,215 @@ ValueError: operands could not be broadcast together with shapes (3764,) (3759,)
 2024-09-13 11:43:26,304 -INFO - All stocks - json file saved
 2024-09-13 11:43:51,309 -INFO - All stocks - Excel file Saved
 2024-09-13 11:43:51,309 -INFO - All stocks - json file saved
+2024-09-20 11:32:37,124 -INFO - Started...
+2024-09-20 11:32:38,701 -INFO - Started...
+2024-09-20 11:32:52,946 -INFO - ACC.NS - this stock already completed
+2024-09-20 11:32:52,946 -INFO - DALBHARAT.NS - this stock already completed
+2024-09-20 11:32:52,946 -INFO - BALKRISIND.NS - this stock already completed
+2024-09-20 11:32:52,946 -INFO - BOSCHLTD.NS - this stock already completed
+2024-09-20 11:32:52,946 -INFO - GODREJCP.NS - this stock already completed
+2024-09-20 11:32:52,946 -INFO - LTF.NS - this stock already completed
+2024-09-20 11:32:52,946 -INFO - GRASIM.NS - this stock already completed
+2024-09-20 11:32:52,946 -INFO - ICICIBANK.NS - this stock already completed
+2024-09-20 11:32:52,946 -INFO - ULTRACEMCO.NS - this stock already completed
+2024-09-20 11:32:52,946 -INFO - AUBANK.NS - this stock already completed
+2024-09-20 11:32:52,946 -INFO - SBICARD.NS - this stock already completed
+2024-09-20 11:32:52,946 -INFO - UBL.NS - this stock already completed
+2024-09-20 11:32:52,946 -INFO - DABUR.NS - this stock already completed
+2024-09-20 11:32:52,946 -INFO - NATIONALUM.NS - this stock already completed
+2024-09-20 11:32:52,946 -INFO - APOLLOTYRE.NS - this stock already completed
+2024-09-20 11:32:52,946 -INFO - JKCEMENT.NS - this stock already completed
+2024-09-20 11:32:52,946 -INFO - LICHSGFIN.NS - this stock already completed
+2024-09-20 11:32:52,946 -INFO - RBLBANK.NS - this stock already completed
+2024-09-20 11:32:52,946 -INFO - MFSL.NS - this stock already completed
+2024-09-20 11:32:52,946 -INFO - ASTRAL.NS - this stock already completed
+2024-09-20 11:32:52,947 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-09-20 11:32:56,517 -ERROR - 
+1 Failed download:
+2024-09-20 11:32:56,517 -ERROR - ['BANKNIFTY.NS']: YFTzMissingError('$%ticker%: possibly delisted; no timezone found')
+2024-09-20 11:32:56,624 -INFO - CHOLAFIN.NS - Process function started
+2024-09-20 11:32:56,624 -INFO - JINDALSTEL.NS - Process function started
+2024-09-20 11:32:56,624 -INFO - ABBOTINDIA.NS - Process function started
+2024-09-20 11:32:56,624 -INFO - BAJAJFINSV.NS - Process function started
+2024-09-20 11:32:56,625 -INFO - ONGC.NS - Process function started
+2024-09-20 11:32:56,625 -INFO - CHOLAFIN.NS - Reading existing data...
+2024-09-20 11:32:56,625 -INFO - JINDALSTEL.NS - Reading existing data...
+2024-09-20 11:32:56,625 -INFO - IDFCFIRSTB.NS - Process function started
+2024-09-20 11:32:56,625 -INFO - PIDILITIND.NS - Process function started
+2024-09-20 11:32:56,628 -INFO - HEROMOTOCO.NS - Process function started
+2024-09-20 11:32:56,629 -INFO - BAJFINANCE.NS - Process function started
+2024-09-20 11:32:56,629 -INFO - ONGC.NS - Reading existing data...
+2024-09-20 11:32:56,629 -INFO - PEL.NS - Process function started
+2024-09-20 11:32:56,629 -INFO - BAJAJFINSV.NS - Reading existing data...
+2024-09-20 11:32:56,629 -INFO - FEDERALBNK.NS - Process function started
+2024-09-20 11:32:56,630 -INFO - TATASTEEL.NS - Process function started
+2024-09-20 11:32:56,631 -INFO - IDFCFIRSTB.NS - Reading existing data...
+2024-09-20 11:32:56,631 -INFO - PIDILITIND.NS - Reading existing data...
+2024-09-20 11:32:56,631 -INFO - ABBOTINDIA.NS - isPivot function started
+2024-09-20 11:32:56,632 -INFO - HEROMOTOCO.NS - Reading existing data...
+2024-09-20 11:32:56,632 -INFO - BAJFINANCE.NS - Reading existing data...
+2024-09-20 11:32:56,633 -INFO - PEL.NS - Reading existing data...
+2024-09-20 11:32:56,633 -INFO - FEDERALBNK.NS - Reading existing data...
+2024-09-20 11:32:56,634 -INFO - TATASTEEL.NS - Reading existing data...
+2024-09-20 11:32:56,809 -INFO - ABBOTINDIA.NS - isPivot function Ended
+2024-09-20 11:32:56,809 -INFO - ABBOTINDIA.NS -  detect_structure function started
+2024-09-20 11:32:56,816 -INFO - ABBOTINDIA.NS -  two_line_structure function started
+2024-09-20 11:32:56,982 -INFO - last n isPivot function started
+2024-09-20 11:32:57,171 -INFO - last n isPivot function Ended
+2024-09-20 11:32:57,177 -INFO - CHOLAFIN.NS - last n detect_structure function started
+2024-09-20 11:32:57,177 -INFO - CHOLAFIN.NS - last n two_line_structure function started
+2024-09-20 11:32:57,610 -INFO - last n isPivot function started
+2024-09-20 11:32:57,723 -INFO - last n isPivot function started
+2024-09-20 11:32:57,753 -INFO - last n isPivot function started
+2024-09-20 11:32:58,017 -INFO - last n isPivot function started
+2024-09-20 11:32:58,293 -INFO - last n isPivot function Ended
+2024-09-20 11:32:58,297 -INFO - last n isPivot function Ended
+2024-09-20 11:32:58,381 -INFO - JINDALSTEL.NS - last n detect_structure function started
+2024-09-20 11:32:58,384 -INFO - ONGC.NS - last n detect_structure function started
+2024-09-20 11:32:58,409 -INFO - last n isPivot function Ended
+2024-09-20 11:32:58,517 -INFO - last n isPivot function Ended
+2024-09-20 11:32:58,532 -INFO - ONGC.NS - last n two_line_structure function started
+2024-09-20 11:32:58,550 -INFO - JINDALSTEL.NS - last n two_line_structure function started
+2024-09-20 11:32:58,558 -INFO - BAJAJFINSV.NS - last n detect_structure function started
+2024-09-20 11:32:58,560 -INFO - IDFCFIRSTB.NS - last n detect_structure function started
+2024-09-20 11:32:58,590 -INFO - BAJAJFINSV.NS - last n two_line_structure function started
+2024-09-20 11:32:58,643 -INFO - IDFCFIRSTB.NS - last n two_line_structure function started
+2024-09-20 11:32:59,142 -INFO - last n isPivot function started
+2024-09-20 11:32:59,406 -INFO - last n isPivot function Ended
+2024-09-20 11:32:59,412 -INFO - PEL.NS - last n detect_structure function started
+2024-09-20 11:32:59,423 -INFO - PEL.NS - last n two_line_structure function started
+2024-09-20 11:32:59,426 -INFO - last n isPivot function started
+2024-09-20 11:32:59,539 -INFO - last n isPivot function started
+2024-09-20 11:32:59,638 -INFO - last n isPivot function Ended
+2024-09-20 11:32:59,795 -INFO - last n isPivot function started
+2024-09-20 11:32:59,810 -INFO - BAJFINANCE.NS - last n detect_structure function started
+2024-09-20 11:32:59,815 -INFO - last n isPivot function Ended
+2024-09-20 11:32:59,921 -INFO - HEROMOTOCO.NS - last n detect_structure function started
+2024-09-20 11:32:59,924 -INFO - BAJFINANCE.NS - last n two_line_structure function started
+2024-09-20 11:32:59,951 -INFO - HEROMOTOCO.NS - last n two_line_structure function started
+2024-09-20 11:32:59,978 -INFO - last n isPivot function started
+2024-09-20 11:33:00,361 -INFO - last n isPivot function Ended
+2024-09-20 11:33:00,369 -INFO - FEDERALBNK.NS - last n detect_structure function started
+2024-09-20 11:33:00,374 -INFO - last n isPivot function Ended
+2024-09-20 11:33:00,383 -INFO - FEDERALBNK.NS - last n two_line_structure function started
+2024-09-20 11:33:00,385 -INFO - PIDILITIND.NS - last n detect_structure function started
+2024-09-20 11:33:00,413 -INFO - PIDILITIND.NS - last n two_line_structure function started
+2024-09-20 11:33:00,437 -INFO - last n isPivot function started
+2024-09-20 11:33:00,821 -INFO - last n isPivot function Ended
+2024-09-20 11:33:00,868 -INFO - TATASTEEL.NS - last n detect_structure function started
+2024-09-20 11:33:00,905 -INFO - TATASTEEL.NS - last n two_line_structure function started
+2024-09-20 11:33:18,543 -INFO - IDFCFIRSTB.NS - last n two_line_structure function Ended
+2024-09-20 11:33:42,607 -INFO - ABBOTINDIA.NS -  two_line_structure function Ended
+2024-09-20 11:33:48,894 -INFO - BAJFINANCE.NS - last n two_line_structure function Ended
+2024-09-20 11:33:49,766 -INFO - BAJAJFINSV.NS - last n two_line_structure function Ended
+2024-09-20 11:33:50,584 -INFO - CHOLAFIN.NS - last n two_line_structure function Ended
+2024-09-20 11:33:51,066 -INFO - HEROMOTOCO.NS - last n two_line_structure function Ended
+2024-09-20 11:33:51,074 -INFO - PIDILITIND.NS - last n two_line_structure function Ended
+2024-09-20 11:33:55,128 -INFO - JINDALSTEL.NS - last n two_line_structure function Ended
+2024-09-20 11:33:55,694 -INFO - IDFCFIRSTB.NS - last n detect_structure function Ended
+2024-09-20 11:33:55,698 -INFO - IDFCFIRSTB.NS - add_ph_pl_values function started
+2024-09-20 11:33:55,816 -INFO - IDFCFIRSTB.NS - add_ph_pl_values function Ended
+2024-09-20 11:34:14,808 -INFO - FEDERALBNK.NS - last n two_line_structure function Ended
+2024-09-20 11:34:14,906 -INFO - TATASTEEL.NS - last n two_line_structure function Ended
+2024-09-20 11:34:15,992 -INFO - ONGC.NS - last n two_line_structure function Ended
+2024-09-20 11:34:16,485 -INFO - PEL.NS - last n two_line_structure function Ended
+2024-09-20 11:34:38,600 -INFO - ABBOTINDIA.NS -  detect_structure function Ended
+2024-09-20 11:34:38,611 -INFO - ABBOTINDIA.NS - add_ph_pl_values function started
+2024-09-20 11:34:38,689 -INFO - ABBOTINDIA.NS - add_ph_pl_values function Ended
+2024-09-20 11:35:02,097 -INFO - BAJFINANCE.NS - last n detect_structure function Ended
+2024-09-20 11:35:02,100 -INFO - BAJFINANCE.NS - add_ph_pl_values function started
+2024-09-20 11:35:02,154 -INFO - BAJFINANCE.NS - add_ph_pl_values function Ended
+2024-09-20 11:35:33,140 -INFO - BAJAJFINSV.NS - last n detect_structure function Ended
+2024-09-20 11:35:33,151 -INFO - BAJAJFINSV.NS - add_ph_pl_values function started
+2024-09-20 11:35:33,226 -INFO - BAJAJFINSV.NS - add_ph_pl_values function Ended
+2024-09-20 11:35:48,617 -INFO - CHOLAFIN.NS - last n detect_structure function Ended
+2024-09-20 11:35:48,628 -INFO - CHOLAFIN.NS - add_ph_pl_values function started
+2024-09-20 11:35:48,694 -INFO - CHOLAFIN.NS - add_ph_pl_values function Ended
+2024-09-20 11:35:49,735 -INFO - HEROMOTOCO.NS - last n detect_structure function Ended
+2024-09-20 11:35:49,929 -INFO - HEROMOTOCO.NS - add_ph_pl_values function started
+2024-09-20 11:35:50,993 -INFO - HEROMOTOCO.NS - add_ph_pl_values function Ended
+2024-09-20 11:36:00,906 -INFO - PIDILITIND.NS - last n detect_structure function Ended
+2024-09-20 11:36:01,264 -INFO - PIDILITIND.NS - add_ph_pl_values function started
+2024-09-20 11:36:02,154 -INFO - PIDILITIND.NS - add_ph_pl_values function Ended
+2024-09-20 11:36:03,023 -INFO - JINDALSTEL.NS - last n detect_structure function Ended
+2024-09-20 11:36:03,061 -INFO - JINDALSTEL.NS - add_ph_pl_values function started
+2024-09-20 11:36:04,097 -INFO - JINDALSTEL.NS - add_ph_pl_values function Ended
+2024-09-20 11:37:18,055 -INFO - All stocks - Excel file Saved
+2024-09-20 11:37:18,166 -INFO - All stocks - json file saved
+2024-09-20 11:37:18,166 -INFO - IDFCFIRSTB.NS - alerts file Saved
+2024-09-20 11:37:18,180 -INFO - IDFCFIRSTB.NS - Process function Ended
+2024-09-20 11:38:45,736 -INFO - FEDERALBNK.NS - last n detect_structure function Ended
+2024-09-20 11:38:45,784 -INFO - FEDERALBNK.NS - add_ph_pl_values function started
+2024-09-20 11:38:46,821 -INFO - FEDERALBNK.NS - add_ph_pl_values function Ended
+2024-09-20 11:38:53,519 -INFO - TATASTEEL.NS - last n detect_structure function Ended
+2024-09-20 11:38:53,531 -INFO - TATASTEEL.NS - add_ph_pl_values function started
+2024-09-20 11:38:54,614 -INFO - TATASTEEL.NS - add_ph_pl_values function Ended
+2024-09-20 11:39:48,960 -INFO - PEL.NS - last n detect_structure function Ended
+2024-09-20 11:39:48,986 -INFO - PEL.NS - add_ph_pl_values function started
+2024-09-20 11:39:48,997 -INFO - PEL.NS - add_ph_pl_values function Ended
+2024-09-20 11:39:49,215 -INFO - ONGC.NS - last n detect_structure function Ended
+2024-09-20 11:39:49,215 -INFO - ONGC.NS - add_ph_pl_values function started
+2024-09-20 11:39:49,220 -INFO - ONGC.NS - add_ph_pl_values function Ended
+2024-09-20 11:39:49,693 -INFO - Error in saving alerts file: Length of values (93097) does not match length of index (90998)
+2024-09-20 11:39:49,743 -INFO - Error : Traceback (most recent call last):
+  File "/Users/runner/work/line_breakouts/line_breakouts/two_line_pattern_detect_class.py", line 118, in save_excel_file
+    self.three_line_alert_df.drop_duplicates(subset=['stockname','date1','value1', 'date2', 'value2', 'date3', 'value3', 'buyORsell'], keep='first', inplace=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6818, in drop_duplicates
+    result = self[-self.duplicated(subset, keep=keep)]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6961, in duplicated
+    result = self._constructor_sliced(duplicated(ids, keep), index=self.index)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/series.py", line 575, in __init__
+    com.require_length_match(data, index)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/common.py", line 573, in require_length_match
+    raise ValueError(
+ValueError: Length of values (93097) does not match length of index (90998)
+
+2024-09-20 11:39:49,744 -INFO - All stocks - json file saved
+2024-09-20 11:39:49,745 -INFO - PEL.NS - alerts file Saved
+2024-09-20 11:39:49,745 -INFO - PEL.NS - Process function Ended
+2024-09-20 11:39:53,943 -INFO - All stocks - Excel file Saved
+2024-09-20 11:39:53,951 -INFO - All stocks - json file saved
+2024-09-20 11:39:53,954 -INFO - ABBOTINDIA.NS - alerts file Saved
+2024-09-20 11:39:53,954 -INFO - ABBOTINDIA.NS - Process function Ended
+2024-09-20 11:39:55,853 -INFO - All stocks - Excel file Saved
+2024-09-20 11:39:55,854 -INFO - All stocks - json file saved
+2024-09-20 11:39:55,854 -INFO - BAJAJFINSV.NS - alerts file Saved
+2024-09-20 11:39:55,854 -INFO - BAJAJFINSV.NS - Process function Ended
+2024-09-20 11:40:13,430 -INFO - All stocks - Excel file Saved
+2024-09-20 11:40:13,431 -INFO - All stocks - json file saved
+2024-09-20 11:40:13,431 -INFO - BAJFINANCE.NS - alerts file Saved
+2024-09-20 11:40:13,431 -INFO - BAJFINANCE.NS - Process function Ended
+2024-09-20 11:40:19,100 -INFO - All stocks - Excel file Saved
+2024-09-20 11:40:19,141 -INFO - All stocks - json file saved
+2024-09-20 11:40:19,141 -INFO - PIDILITIND.NS - alerts file Saved
+2024-09-20 11:40:19,141 -INFO - PIDILITIND.NS - Process function Ended
+2024-09-20 11:40:19,229 -INFO - All stocks - Excel file Saved
+2024-09-20 11:40:19,229 -INFO - All stocks - json file saved
+2024-09-20 11:40:19,229 -INFO - CHOLAFIN.NS - alerts file Saved
+2024-09-20 11:40:19,229 -INFO - CHOLAFIN.NS - Process function Ended
+2024-09-20 11:40:20,375 -INFO - All stocks - Excel file Saved
+2024-09-20 11:40:20,435 -INFO - All stocks - json file saved
+2024-09-20 11:40:20,435 -INFO - HEROMOTOCO.NS - alerts file Saved
+2024-09-20 11:40:20,435 -INFO - HEROMOTOCO.NS - Process function Ended
+2024-09-20 11:40:48,987 -INFO - All stocks - Excel file Saved
+2024-09-20 11:40:48,988 -INFO - All stocks - json file saved
+2024-09-20 11:40:48,988 -INFO - JINDALSTEL.NS - alerts file Saved
+2024-09-20 11:40:48,988 -INFO - JINDALSTEL.NS - Process function Ended
+2024-09-20 11:41:02,740 -INFO - All stocks - Excel file Saved
+2024-09-20 11:41:02,741 -INFO - All stocks - json file saved
+2024-09-20 11:41:02,741 -INFO - TATASTEEL.NS - alerts file Saved
+2024-09-20 11:41:02,741 -INFO - TATASTEEL.NS - Process function Ended
+2024-09-20 11:41:02,742 -INFO - All stocks - Excel file Saved
+2024-09-20 11:41:02,743 -INFO - All stocks - json file saved
+2024-09-20 11:41:02,743 -INFO - FEDERALBNK.NS - alerts file Saved
+2024-09-20 11:41:02,743 -INFO - FEDERALBNK.NS - Process function Ended
+2024-09-20 11:41:04,081 -INFO - All stocks - Excel file Saved
+2024-09-20 11:41:04,081 -INFO - All stocks - json file saved
+2024-09-20 11:41:04,082 -INFO - ONGC.NS - alerts file Saved
+2024-09-20 11:41:04,082 -INFO - ONGC.NS - Process function Ended
+2024-09-20 11:41:29,561 -INFO - All stocks - Excel file Saved
+2024-09-20 11:41:29,561 -INFO - All stocks - json file saved
+2024-09-20 11:41:54,534 -INFO - All stocks - Excel file Saved
+2024-09-20 11:41:54,535 -INFO - All stocks - json file saved
