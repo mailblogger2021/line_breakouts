@@ -7813,3 +7813,137 @@ ValueError: Length of values (20652) does not match length of index (20475)
 2024-09-24 11:37:33,301 -INFO - All stocks - json file saved
 2024-09-24 11:37:51,680 -INFO - All stocks - Excel file Saved
 2024-09-24 11:37:51,681 -INFO - All stocks - json file saved
+2024-09-25 11:35:41,544 -INFO - Started...
+2024-09-25 11:35:43,094 -INFO - Started...
+2024-09-25 11:35:51,953 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-09-25 11:35:51,953 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-09-25 11:35:54,238 -INFO - SBIN.NS - Process function started
+2024-09-25 11:35:54,238 -INFO - LT.NS - Process function started
+2024-09-25 11:35:54,238 -INFO - TATASTEEL.NS - Process function started
+2024-09-25 11:35:54,238 -INFO - SBIN.NS - Reading existing data...
+2024-09-25 11:35:54,239 -INFO - LT.NS - Reading existing data...
+2024-09-25 11:35:54,239 -INFO - WIPRO.NS - Process function started
+2024-09-25 11:35:54,239 -INFO - TATASTEEL.NS - Reading existing data...
+2024-09-25 11:35:54,239 -INFO - GODREJCP.NS - Process function started
+2024-09-25 11:35:54,239 -INFO - BALRAMCHIN.NS - Process function started
+2024-09-25 11:35:54,239 -INFO - ABCAPITAL.NS - Process function started
+2024-09-25 11:35:54,239 -INFO - VEDL.NS - Process function started
+2024-09-25 11:35:54,239 -INFO - HINDALCO.NS - Process function started
+2024-09-25 11:35:54,239 -INFO - WIPRO.NS - Reading existing data...
+2024-09-25 11:35:54,240 -INFO - GODREJCP.NS - Reading existing data...
+2024-09-25 11:35:54,240 -INFO - BALRAMCHIN.NS - Reading existing data...
+2024-09-25 11:35:54,240 -INFO - ABCAPITAL.NS - Reading existing data...
+2024-09-25 11:35:54,240 -INFO - VEDL.NS - Reading existing data...
+2024-09-25 11:35:54,240 -INFO - HINDALCO.NS - Reading existing data...
+2024-09-25 11:35:55,438 -INFO - last n isPivot function started
+2024-09-25 11:35:56,611 -INFO - last n isPivot function Ended
+2024-09-25 11:35:56,765 -INFO - LT.NS - last n detect_structure function started
+2024-09-25 11:35:56,771 -INFO - LT.NS - last n two_line_structure function started
+2024-09-25 11:35:58,181 -INFO - last n isPivot function started
+2024-09-25 11:35:58,188 -INFO - last n isPivot function started
+2024-09-25 11:35:58,379 -INFO - last n isPivot function Ended
+2024-09-25 11:35:58,384 -INFO - ABCAPITAL.NS - last n detect_structure function started
+2024-09-25 11:35:58,386 -INFO - ABCAPITAL.NS - last n two_line_structure function started
+2024-09-25 11:35:58,912 -INFO - last n isPivot function started
+2024-09-25 11:35:59,234 -INFO - last n isPivot function started
+2024-09-25 11:35:59,424 -INFO - last n isPivot function started
+2024-09-25 11:35:59,431 -INFO - last n isPivot function Ended
+2024-09-25 11:35:59,432 -INFO - SBIN.NS - last n detect_structure function started
+2024-09-25 11:35:59,438 -INFO - last n isPivot function started
+2024-09-25 11:35:59,684 -INFO - SBIN.NS - last n two_line_structure function started
+2024-09-25 11:36:02,269 -INFO - last n isPivot function Ended
+2024-09-25 11:36:02,287 -INFO - HINDALCO.NS - last n detect_structure function started
+2024-09-25 11:36:02,304 -INFO - HINDALCO.NS - last n two_line_structure function started
+2024-09-25 11:36:02,461 -INFO - last n isPivot function started
+2024-09-25 11:36:02,473 -INFO - last n isPivot function started
+2024-09-25 11:36:02,474 -INFO - last n isPivot function Ended
+2024-09-25 11:36:02,474 -INFO - BALRAMCHIN.NS - last n detect_structure function started
+2024-09-25 11:36:02,474 -INFO - BALRAMCHIN.NS - last n two_line_structure function started
+2024-09-25 11:36:02,474 -INFO - last n isPivot function Ended
+2024-09-25 11:36:02,882 -INFO - TATASTEEL.NS - last n detect_structure function started
+2024-09-25 11:36:02,884 -INFO - TATASTEEL.NS - last n two_line_structure function started
+2024-09-25 11:36:02,886 -INFO - last n isPivot function Ended
+2024-09-25 11:36:03,931 -INFO - last n isPivot function Ended
+2024-09-25 11:36:03,936 -INFO - WIPRO.NS - last n detect_structure function started
+2024-09-25 11:36:03,936 -INFO - WIPRO.NS - last n two_line_structure function started
+2024-09-25 11:36:03,972 -INFO - GODREJCP.NS - last n detect_structure function started
+2024-09-25 11:36:04,006 -INFO - GODREJCP.NS - last n two_line_structure function started
+2024-09-25 11:36:04,052 -INFO - last n isPivot function Ended
+2024-09-25 11:36:04,053 -INFO - VEDL.NS - last n detect_structure function started
+2024-09-25 11:36:04,058 -INFO - VEDL.NS - last n two_line_structure function started
+2024-09-25 11:36:48,676 -INFO - ABCAPITAL.NS - last n two_line_structure function Ended
+2024-09-25 11:37:01,940 -INFO - ABCAPITAL.NS - last n detect_structure function Ended
+2024-09-25 11:37:01,956 -INFO - ABCAPITAL.NS - add_ph_pl_values function started
+2024-09-25 11:37:02,087 -INFO - ABCAPITAL.NS - add_ph_pl_values function Ended
+2024-09-25 11:38:19,514 -INFO - All stocks - Excel file Saved
+2024-09-25 11:38:19,531 -INFO - All stocks - json file saved
+2024-09-25 11:38:19,531 -INFO - ABCAPITAL.NS - alerts file Saved
+2024-09-25 11:38:19,532 -INFO - ABCAPITAL.NS - Process function Ended
+2024-09-25 11:38:56,330 -INFO - LT.NS - last n two_line_structure function Ended
+2024-09-25 11:38:57,509 -INFO - BALRAMCHIN.NS - last n two_line_structure function Ended
+2024-09-25 11:38:59,652 -INFO - GODREJCP.NS - last n two_line_structure function Ended
+2024-09-25 11:39:20,506 -INFO - LT.NS - last n detect_structure function Ended
+2024-09-25 11:39:20,533 -INFO - LT.NS - add_ph_pl_values function started
+2024-09-25 11:39:20,600 -INFO - LT.NS - add_ph_pl_values function Ended
+2024-09-25 11:39:29,910 -INFO - BALRAMCHIN.NS - last n detect_structure function Ended
+2024-09-25 11:39:29,919 -INFO - BALRAMCHIN.NS - add_ph_pl_values function started
+2024-09-25 11:39:29,974 -INFO - BALRAMCHIN.NS - add_ph_pl_values function Ended
+2024-09-25 11:39:38,505 -INFO - TATASTEEL.NS - last n two_line_structure function Ended
+2024-09-25 11:39:39,786 -INFO - SBIN.NS - last n two_line_structure function Ended
+2024-09-25 11:39:40,725 -INFO - VEDL.NS - last n two_line_structure function Ended
+2024-09-25 11:39:41,105 -INFO - GODREJCP.NS - last n detect_structure function Ended
+2024-09-25 11:39:41,107 -INFO - GODREJCP.NS - add_ph_pl_values function started
+2024-09-25 11:39:41,148 -INFO - GODREJCP.NS - add_ph_pl_values function Ended
+2024-09-25 11:39:42,213 -INFO - HINDALCO.NS - last n two_line_structure function Ended
+2024-09-25 11:39:46,530 -INFO - WIPRO.NS - last n two_line_structure function Ended
+2024-09-25 11:40:24,558 -INFO - All stocks - Excel file Saved
+2024-09-25 11:40:24,565 -INFO - All stocks - json file saved
+2024-09-25 11:40:24,565 -INFO - LT.NS - alerts file Saved
+2024-09-25 11:40:24,565 -INFO - LT.NS - Process function Ended
+2024-09-25 11:40:25,406 -INFO - TATASTEEL.NS - last n detect_structure function Ended
+2024-09-25 11:40:25,414 -INFO - TATASTEEL.NS - add_ph_pl_values function started
+2024-09-25 11:40:25,443 -INFO - TATASTEEL.NS - add_ph_pl_values function Ended
+2024-09-25 11:40:29,077 -INFO - All stocks - Excel file Saved
+2024-09-25 11:40:29,086 -INFO - SBIN.NS - last n detect_structure function Ended
+2024-09-25 11:40:29,090 -INFO - All stocks - json file saved
+2024-09-25 11:40:29,090 -INFO - BALRAMCHIN.NS - alerts file Saved
+2024-09-25 11:40:29,092 -INFO - BALRAMCHIN.NS - Process function Ended
+2024-09-25 11:40:29,092 -INFO - SBIN.NS - add_ph_pl_values function started
+2024-09-25 11:40:29,115 -INFO - SBIN.NS - add_ph_pl_values function Ended
+2024-09-25 11:40:41,172 -INFO - VEDL.NS - last n detect_structure function Ended
+2024-09-25 11:40:41,174 -INFO - VEDL.NS - add_ph_pl_values function started
+2024-09-25 11:40:41,190 -INFO - VEDL.NS - add_ph_pl_values function Ended
+2024-09-25 11:40:46,817 -INFO - All stocks - Excel file Saved
+2024-09-25 11:40:46,817 -INFO - All stocks - json file saved
+2024-09-25 11:40:46,817 -INFO - GODREJCP.NS - alerts file Saved
+2024-09-25 11:40:46,817 -INFO - GODREJCP.NS - Process function Ended
+2024-09-25 11:40:47,523 -INFO - HINDALCO.NS - last n detect_structure function Ended
+2024-09-25 11:40:47,524 -INFO - HINDALCO.NS - add_ph_pl_values function started
+2024-09-25 11:40:47,531 -INFO - HINDALCO.NS - add_ph_pl_values function Ended
+2024-09-25 11:41:10,321 -INFO - WIPRO.NS - last n detect_structure function Ended
+2024-09-25 11:41:11,271 -INFO - WIPRO.NS - add_ph_pl_values function started
+2024-09-25 11:41:12,365 -INFO - WIPRO.NS - add_ph_pl_values function Ended
+2024-09-25 11:41:34,962 -INFO - All stocks - Excel file Saved
+2024-09-25 11:41:35,123 -INFO - All stocks - json file saved
+2024-09-25 11:41:35,123 -INFO - TATASTEEL.NS - alerts file Saved
+2024-09-25 11:41:35,123 -INFO - TATASTEEL.NS - Process function Ended
+2024-09-25 11:41:38,690 -INFO - All stocks - Excel file Saved
+2024-09-25 11:41:38,691 -INFO - All stocks - json file saved
+2024-09-25 11:41:38,691 -INFO - SBIN.NS - alerts file Saved
+2024-09-25 11:41:38,691 -INFO - SBIN.NS - Process function Ended
+2024-09-25 11:41:38,693 -INFO - All stocks - Excel file Saved
+2024-09-25 11:41:38,693 -INFO - All stocks - json file saved
+2024-09-25 11:41:38,693 -INFO - VEDL.NS - alerts file Saved
+2024-09-25 11:41:38,693 -INFO - VEDL.NS - Process function Ended
+2024-09-25 11:41:49,110 -INFO - All stocks - Excel file Saved
+2024-09-25 11:41:49,111 -INFO - All stocks - json file saved
+2024-09-25 11:41:49,111 -INFO - HINDALCO.NS - alerts file Saved
+2024-09-25 11:41:49,111 -INFO - HINDALCO.NS - Process function Ended
+2024-09-25 11:41:52,083 -INFO - All stocks - Excel file Saved
+2024-09-25 11:41:52,083 -INFO - All stocks - json file saved
+2024-09-25 11:41:52,083 -INFO - WIPRO.NS - alerts file Saved
+2024-09-25 11:41:52,083 -INFO - WIPRO.NS - Process function Ended
+2024-09-25 11:42:09,187 -INFO - All stocks - Excel file Saved
+2024-09-25 11:42:09,187 -INFO - All stocks - json file saved
+2024-09-25 11:42:25,209 -INFO - All stocks - Excel file Saved
+2024-09-25 11:42:25,210 -INFO - All stocks - json file saved
