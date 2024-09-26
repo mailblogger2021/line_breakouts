@@ -7947,3 +7947,81 @@ ValueError: Length of values (20652) does not match length of index (20475)
 2024-09-25 11:42:09,187 -INFO - All stocks - json file saved
 2024-09-25 11:42:25,209 -INFO - All stocks - Excel file Saved
 2024-09-25 11:42:25,210 -INFO - All stocks - json file saved
+2024-09-26 11:34:47,713 -INFO - Started...
+2024-09-26 11:34:48,558 -INFO - Started...
+2024-09-26 11:34:57,930 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-09-26 11:34:57,930 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-09-26 11:34:59,494 -INFO - M&M.NS - Process function started
+2024-09-26 11:34:59,495 -INFO - FEDERALBNK.NS - Process function started
+2024-09-26 11:34:59,495 -INFO - NESTLEIND.NS - Process function started
+2024-09-26 11:34:59,495 -INFO - M&M.NS - Reading existing data...
+2024-09-26 11:34:59,495 -INFO - FEDERALBNK.NS - Reading existing data...
+2024-09-26 11:34:59,495 -INFO - RELIANCE.NS - Process function started
+2024-09-26 11:34:59,496 -INFO - NESTLEIND.NS - Reading existing data...
+2024-09-26 11:34:59,496 -INFO - INDIGO.NS - Process function started
+2024-09-26 11:34:59,496 -INFO - RELIANCE.NS - Reading existing data...
+2024-09-26 11:34:59,496 -INFO - INDIGO.NS - Reading existing data...
+2024-09-26 11:35:01,093 -INFO - last n isPivot function started
+2024-09-26 11:35:01,752 -INFO - last n isPivot function started
+2024-09-26 11:35:02,196 -INFO - last n isPivot function Ended
+2024-09-26 11:35:02,206 -INFO - INDIGO.NS - last n detect_structure function started
+2024-09-26 11:35:02,207 -INFO - INDIGO.NS - last n two_line_structure function started
+2024-09-26 11:35:02,524 -INFO - last n isPivot function started
+2024-09-26 11:35:02,813 -INFO - last n isPivot function Ended
+2024-09-26 11:35:02,989 -INFO - RELIANCE.NS - last n detect_structure function started
+2024-09-26 11:35:02,995 -INFO - RELIANCE.NS - last n two_line_structure function started
+2024-09-26 11:35:03,212 -INFO - last n isPivot function Ended
+2024-09-26 11:35:03,220 -INFO - NESTLEIND.NS - last n detect_structure function started
+2024-09-26 11:35:03,228 -INFO - NESTLEIND.NS - last n two_line_structure function started
+2024-09-26 11:35:03,264 -INFO - last n isPivot function started
+2024-09-26 11:35:03,399 -INFO - last n isPivot function started
+2024-09-26 11:35:04,360 -INFO - last n isPivot function Ended
+2024-09-26 11:35:04,361 -INFO - FEDERALBNK.NS - last n detect_structure function started
+2024-09-26 11:35:04,440 -INFO - FEDERALBNK.NS - last n two_line_structure function started
+2024-09-26 11:35:05,139 -INFO - last n isPivot function Ended
+2024-09-26 11:35:05,142 -INFO - M&M.NS - last n detect_structure function started
+2024-09-26 11:35:05,149 -INFO - M&M.NS - last n two_line_structure function started
+2024-09-26 11:35:38,234 -INFO - INDIGO.NS - last n two_line_structure function Ended
+2024-09-26 11:35:45,148 -INFO - INDIGO.NS - last n detect_structure function Ended
+2024-09-26 11:35:45,156 -INFO - INDIGO.NS - add_ph_pl_values function started
+2024-09-26 11:35:45,222 -INFO - INDIGO.NS - add_ph_pl_values function Ended
+2024-09-26 11:36:29,488 -INFO - NESTLEIND.NS - last n two_line_structure function Ended
+2024-09-26 11:36:32,177 -INFO - All stocks - Excel file Saved
+2024-09-26 11:36:32,185 -INFO - All stocks - json file saved
+2024-09-26 11:36:32,186 -INFO - INDIGO.NS - alerts file Saved
+2024-09-26 11:36:32,186 -INFO - INDIGO.NS - Process function Ended
+2024-09-26 11:36:42,004 -INFO - NESTLEIND.NS - last n detect_structure function Ended
+2024-09-26 11:36:42,008 -INFO - NESTLEIND.NS - add_ph_pl_values function started
+2024-09-26 11:36:42,038 -INFO - NESTLEIND.NS - add_ph_pl_values function Ended
+2024-09-26 11:37:10,584 -INFO - RELIANCE.NS - last n two_line_structure function Ended
+2024-09-26 11:37:11,541 -INFO - FEDERALBNK.NS - last n two_line_structure function Ended
+2024-09-26 11:37:12,167 -INFO - M&M.NS - last n two_line_structure function Ended
+2024-09-26 11:37:19,077 -INFO - All stocks - Excel file Saved
+2024-09-26 11:37:19,084 -INFO - All stocks - json file saved
+2024-09-26 11:37:19,084 -INFO - NESTLEIND.NS - alerts file Saved
+2024-09-26 11:37:19,084 -INFO - NESTLEIND.NS - Process function Ended
+2024-09-26 11:37:22,135 -INFO - FEDERALBNK.NS - last n detect_structure function Ended
+2024-09-26 11:37:22,143 -INFO - FEDERALBNK.NS - add_ph_pl_values function started
+2024-09-26 11:37:22,171 -INFO - FEDERALBNK.NS - add_ph_pl_values function Ended
+2024-09-26 11:37:22,180 -INFO - RELIANCE.NS - last n detect_structure function Ended
+2024-09-26 11:37:22,350 -INFO - RELIANCE.NS - add_ph_pl_values function started
+2024-09-26 11:37:23,052 -INFO - RELIANCE.NS - add_ph_pl_values function Ended
+2024-09-26 11:37:24,432 -INFO - M&M.NS - last n detect_structure function Ended
+2024-09-26 11:37:24,433 -INFO - M&M.NS - add_ph_pl_values function started
+2024-09-26 11:37:24,442 -INFO - M&M.NS - add_ph_pl_values function Ended
+2024-09-26 11:38:14,431 -INFO - All stocks - Excel file Saved
+2024-09-26 11:38:14,431 -INFO - All stocks - json file saved
+2024-09-26 11:38:14,431 -INFO - FEDERALBNK.NS - alerts file Saved
+2024-09-26 11:38:14,431 -INFO - FEDERALBNK.NS - Process function Ended
+2024-09-26 11:38:14,805 -INFO - All stocks - Excel file Saved
+2024-09-26 11:38:14,805 -INFO - All stocks - json file saved
+2024-09-26 11:38:14,805 -INFO - RELIANCE.NS - alerts file Saved
+2024-09-26 11:38:14,805 -INFO - RELIANCE.NS - Process function Ended
+2024-09-26 11:38:14,978 -INFO - All stocks - Excel file Saved
+2024-09-26 11:38:14,979 -INFO - All stocks - json file saved
+2024-09-26 11:38:14,979 -INFO - M&M.NS - alerts file Saved
+2024-09-26 11:38:14,979 -INFO - M&M.NS - Process function Ended
+2024-09-26 11:38:31,414 -INFO - All stocks - Excel file Saved
+2024-09-26 11:38:31,414 -INFO - All stocks - json file saved
+2024-09-26 11:38:47,978 -INFO - All stocks - Excel file Saved
+2024-09-26 11:38:47,978 -INFO - All stocks - json file saved
