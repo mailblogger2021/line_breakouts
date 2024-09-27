@@ -2605,3 +2605,94 @@ ValueError: Length of values (93097) does not match length of index (90998)
 2024-09-20 11:41:29,561 -INFO - All stocks - json file saved
 2024-09-20 11:41:54,534 -INFO - All stocks - Excel file Saved
 2024-09-20 11:41:54,535 -INFO - All stocks - json file saved
+2024-09-27 11:32:31,334 -INFO - Started...
+2024-09-27 11:32:32,174 -INFO - Started...
+2024-09-27 11:32:46,313 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-09-27 11:32:47,620 -INFO - GUJGASLTD.NS - Process function started
+2024-09-27 11:32:47,621 -INFO - DRREDDY.NS - Process function started
+2024-09-27 11:32:47,621 -INFO - CHAMBLFERT.NS - Process function started
+2024-09-27 11:32:47,621 -INFO - GUJGASLTD.NS - Reading existing data...
+2024-09-27 11:32:47,621 -INFO - DRREDDY.NS - Reading existing data...
+2024-09-27 11:32:47,621 -INFO - CHAMBLFERT.NS - Reading existing data...
+2024-09-27 11:32:47,622 -INFO - ATUL.NS - Process function started
+2024-09-27 11:32:47,622 -INFO - COROMANDEL.NS - Process function started
+2024-09-27 11:32:47,622 -INFO - PETRONET.NS - Process function started
+2024-09-27 11:32:47,622 -INFO - ATUL.NS - Reading existing data...
+2024-09-27 11:32:47,622 -INFO - COROMANDEL.NS - Reading existing data...
+2024-09-27 11:32:47,622 -INFO - PETRONET.NS - Reading existing data...
+2024-09-27 11:32:48,013 -INFO - last n isPivot function started
+2024-09-27 11:32:48,069 -INFO - last n isPivot function Ended
+2024-09-27 11:32:48,069 -INFO - GUJGASLTD.NS - last n detect_structure function started
+2024-09-27 11:32:48,075 -INFO - GUJGASLTD.NS - last n two_line_structure function started
+2024-09-27 11:32:48,097 -INFO - last n isPivot function started
+2024-09-27 11:32:48,100 -INFO - last n isPivot function started
+2024-09-27 11:32:48,248 -INFO - last n isPivot function Ended
+2024-09-27 11:32:48,249 -INFO - ATUL.NS - last n detect_structure function started
+2024-09-27 11:32:48,250 -INFO - ATUL.NS - last n two_line_structure function started
+2024-09-27 11:32:48,420 -INFO - last n isPivot function Ended
+2024-09-27 11:32:48,420 -INFO - DRREDDY.NS - last n detect_structure function started
+2024-09-27 11:32:48,423 -INFO - DRREDDY.NS - last n two_line_structure function started
+2024-09-27 11:32:48,445 -INFO - last n isPivot function started
+2024-09-27 11:32:48,567 -INFO - last n isPivot function Ended
+2024-09-27 11:32:48,568 -INFO - COROMANDEL.NS - last n detect_structure function started
+2024-09-27 11:32:48,570 -INFO - COROMANDEL.NS - last n two_line_structure function started
+2024-09-27 11:32:48,589 -INFO - last n isPivot function started
+2024-09-27 11:32:48,717 -INFO - last n isPivot function started
+2024-09-27 11:32:48,727 -INFO - last n isPivot function Ended
+2024-09-27 11:32:48,727 -INFO - PETRONET.NS - last n detect_structure function started
+2024-09-27 11:32:48,727 -INFO - PETRONET.NS - last n two_line_structure function started
+2024-09-27 11:32:48,857 -INFO - last n isPivot function Ended
+2024-09-27 11:32:48,875 -INFO - CHAMBLFERT.NS - last n detect_structure function started
+2024-09-27 11:32:48,881 -INFO - CHAMBLFERT.NS - last n two_line_structure function started
+2024-09-27 11:32:54,689 -INFO - GUJGASLTD.NS - last n two_line_structure function Ended
+2024-09-27 11:33:05,318 -INFO - PETRONET.NS - last n two_line_structure function Ended
+2024-09-27 11:33:06,516 -INFO - ATUL.NS - last n two_line_structure function Ended
+2024-09-27 11:33:06,522 -INFO - CHAMBLFERT.NS - last n two_line_structure function Ended
+2024-09-27 11:33:06,657 -INFO - COROMANDEL.NS - last n two_line_structure function Ended
+2024-09-27 11:33:09,068 -INFO - GUJGASLTD.NS - last n detect_structure function Ended
+2024-09-27 11:33:09,075 -INFO - GUJGASLTD.NS - add_ph_pl_values function started
+2024-09-27 11:33:09,125 -INFO - GUJGASLTD.NS - add_ph_pl_values function Ended
+2024-09-27 11:33:22,138 -INFO - DRREDDY.NS - last n two_line_structure function Ended
+2024-09-27 11:33:49,955 -INFO - PETRONET.NS - last n detect_structure function Ended
+2024-09-27 11:33:49,956 -INFO - PETRONET.NS - add_ph_pl_values function started
+2024-09-27 11:33:49,996 -INFO - PETRONET.NS - add_ph_pl_values function Ended
+2024-09-27 11:34:03,672 -INFO - COROMANDEL.NS - last n detect_structure function Ended
+2024-09-27 11:34:03,672 -INFO - COROMANDEL.NS - add_ph_pl_values function started
+2024-09-27 11:34:03,697 -INFO - COROMANDEL.NS - add_ph_pl_values function Ended
+2024-09-27 11:34:15,843 -INFO - ATUL.NS - last n detect_structure function Ended
+2024-09-27 11:34:15,847 -INFO - ATUL.NS - add_ph_pl_values function started
+2024-09-27 11:34:15,860 -INFO - ATUL.NS - add_ph_pl_values function Ended
+2024-09-27 11:34:29,350 -INFO - CHAMBLFERT.NS - last n detect_structure function Ended
+2024-09-27 11:34:29,354 -INFO - CHAMBLFERT.NS - add_ph_pl_values function started
+2024-09-27 11:34:29,367 -INFO - CHAMBLFERT.NS - add_ph_pl_values function Ended
+2024-09-27 11:34:42,626 -INFO - All stocks - Excel file Saved
+2024-09-27 11:34:42,631 -INFO - All stocks - json file saved
+2024-09-27 11:34:42,632 -INFO - GUJGASLTD.NS - alerts file Saved
+2024-09-27 11:34:42,632 -INFO - GUJGASLTD.NS - Process function Ended
+2024-09-27 11:35:00,671 -INFO - DRREDDY.NS - last n detect_structure function Ended
+2024-09-27 11:35:00,691 -INFO - DRREDDY.NS - add_ph_pl_values function started
+2024-09-27 11:35:00,770 -INFO - DRREDDY.NS - add_ph_pl_values function Ended
+2024-09-27 11:35:46,206 -INFO - All stocks - Excel file Saved
+2024-09-27 11:35:46,211 -INFO - All stocks - json file saved
+2024-09-27 11:35:46,211 -INFO - PETRONET.NS - alerts file Saved
+2024-09-27 11:35:46,211 -INFO - PETRONET.NS - Process function Ended
+2024-09-27 11:36:00,065 -INFO - All stocks - Excel file Saved
+2024-09-27 11:36:00,066 -INFO - All stocks - json file saved
+2024-09-27 11:36:00,066 -INFO - COROMANDEL.NS - alerts file Saved
+2024-09-27 11:36:00,066 -INFO - COROMANDEL.NS - Process function Ended
+2024-09-27 11:36:00,647 -INFO - All stocks - Excel file Saved
+2024-09-27 11:36:00,648 -INFO - All stocks - json file saved
+2024-09-27 11:36:00,648 -INFO - ATUL.NS - alerts file Saved
+2024-09-27 11:36:00,648 -INFO - ATUL.NS - Process function Ended
+2024-09-27 11:36:01,370 -INFO - All stocks - Excel file Saved
+2024-09-27 11:36:01,371 -INFO - All stocks - json file saved
+2024-09-27 11:36:01,371 -INFO - CHAMBLFERT.NS - alerts file Saved
+2024-09-27 11:36:01,371 -INFO - CHAMBLFERT.NS - Process function Ended
+2024-09-27 11:36:04,781 -INFO - All stocks - Excel file Saved
+2024-09-27 11:36:04,782 -INFO - All stocks - json file saved
+2024-09-27 11:36:04,782 -INFO - DRREDDY.NS - alerts file Saved
+2024-09-27 11:36:04,782 -INFO - DRREDDY.NS - Process function Ended
+2024-09-27 11:36:29,636 -INFO - All stocks - Excel file Saved
+2024-09-27 11:36:29,636 -INFO - All stocks - json file saved
+2024-09-27 11:36:54,555 -INFO - All stocks - Excel file Saved
+2024-09-27 11:36:54,556 -INFO - All stocks - json file saved
