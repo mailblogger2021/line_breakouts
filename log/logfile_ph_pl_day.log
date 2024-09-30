@@ -8025,3 +8025,79 @@ ValueError: Length of values (20652) does not match length of index (20475)
 2024-09-26 11:38:31,414 -INFO - All stocks - json file saved
 2024-09-26 11:38:47,978 -INFO - All stocks - Excel file Saved
 2024-09-26 11:38:47,978 -INFO - All stocks - json file saved
+2024-09-30 11:35:27,741 -INFO - Started...
+2024-09-30 11:35:28,637 -INFO - Started...
+2024-09-30 11:35:37,061 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-09-30 11:35:37,061 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-09-30 11:35:38,068 -INFO - LICHSGFIN.NS - Process function started
+2024-09-30 11:35:38,068 -INFO - LICHSGFIN.NS - Reading existing data...
+2024-09-30 11:35:38,069 -INFO - ASIANPAINT.NS - Process function started
+2024-09-30 11:35:38,069 -INFO - ASIANPAINT.NS - Reading existing data...
+2024-09-30 11:35:38,069 -INFO - SYNGENE.NS - Process function started
+2024-09-30 11:35:38,073 -INFO - GLENMARK.NS - Process function started
+2024-09-30 11:35:38,081 -INFO - PEL.NS - Process function started
+2024-09-30 11:35:38,081 -INFO - PEL.NS - Reading existing data...
+2024-09-30 11:35:38,083 -INFO - GLENMARK.NS - isPivot function started
+2024-09-30 11:35:38,084 -INFO - SYNGENE.NS - isPivot function started
+2024-09-30 11:35:38,903 -INFO - SYNGENE.NS - isPivot function Ended
+2024-09-30 11:35:38,903 -INFO - SYNGENE.NS -  detect_structure function started
+2024-09-30 11:35:38,915 -INFO - SYNGENE.NS -  two_line_structure function started
+2024-09-30 11:35:38,928 -INFO - GLENMARK.NS - isPivot function Ended
+2024-09-30 11:35:38,946 -INFO - GLENMARK.NS -  detect_structure function started
+2024-09-30 11:35:38,949 -INFO - GLENMARK.NS -  two_line_structure function started
+2024-09-30 11:35:40,060 -INFO - last n isPivot function started
+2024-09-30 11:35:40,695 -INFO - last n isPivot function Ended
+2024-09-30 11:35:40,696 -INFO - LICHSGFIN.NS - last n detect_structure function started
+2024-09-30 11:35:40,703 -INFO - LICHSGFIN.NS - last n two_line_structure function started
+2024-09-30 11:35:40,747 -INFO - last n isPivot function started
+2024-09-30 11:35:40,773 -INFO - last n isPivot function started
+2024-09-30 11:35:42,232 -INFO - last n isPivot function Ended
+2024-09-30 11:35:42,245 -INFO - ASIANPAINT.NS - last n detect_structure function started
+2024-09-30 11:35:42,250 -INFO - ASIANPAINT.NS - last n two_line_structure function started
+2024-09-30 11:35:42,259 -INFO - last n isPivot function Ended
+2024-09-30 11:35:42,259 -INFO - PEL.NS - last n detect_structure function started
+2024-09-30 11:35:42,264 -INFO - PEL.NS - last n two_line_structure function started
+2024-09-30 11:36:08,678 -INFO - SYNGENE.NS -  two_line_structure function Ended
+2024-09-30 11:36:15,629 -INFO - SYNGENE.NS -  detect_structure function Ended
+2024-09-30 11:36:15,639 -INFO - SYNGENE.NS - add_ph_pl_values function started
+2024-09-30 11:36:15,720 -INFO - SYNGENE.NS - add_ph_pl_values function Ended
+2024-09-30 11:37:13,520 -INFO - All stocks - Excel file Saved
+2024-09-30 11:37:13,532 -INFO - All stocks - json file saved
+2024-09-30 11:37:13,532 -INFO - SYNGENE.NS - alerts file Saved
+2024-09-30 11:37:13,532 -INFO - SYNGENE.NS - Process function Ended
+2024-09-30 11:37:16,136 -INFO - GLENMARK.NS -  two_line_structure function Ended
+2024-09-30 11:37:29,299 -INFO - LICHSGFIN.NS - last n two_line_structure function Ended
+2024-09-30 11:37:32,409 -INFO - ASIANPAINT.NS - last n two_line_structure function Ended
+2024-09-30 11:37:34,157 -INFO - GLENMARK.NS -  detect_structure function Ended
+2024-09-30 11:37:34,162 -INFO - GLENMARK.NS - add_ph_pl_values function started
+2024-09-30 11:37:34,189 -INFO - GLENMARK.NS - add_ph_pl_values function Ended
+2024-09-30 11:37:48,760 -INFO - LICHSGFIN.NS - last n detect_structure function Ended
+2024-09-30 11:37:48,770 -INFO - LICHSGFIN.NS - add_ph_pl_values function started
+2024-09-30 11:37:48,800 -INFO - LICHSGFIN.NS - add_ph_pl_values function Ended
+2024-09-30 11:38:01,851 -INFO - ASIANPAINT.NS - last n detect_structure function Ended
+2024-09-30 11:38:01,853 -INFO - ASIANPAINT.NS - add_ph_pl_values function started
+2024-09-30 11:38:01,863 -INFO - ASIANPAINT.NS - add_ph_pl_values function Ended
+2024-09-30 11:38:21,249 -INFO - PEL.NS - last n two_line_structure function Ended
+2024-09-30 11:38:37,463 -INFO - All stocks - Excel file Saved
+2024-09-30 11:38:37,466 -INFO - All stocks - json file saved
+2024-09-30 11:38:37,466 -INFO - GLENMARK.NS - alerts file Saved
+2024-09-30 11:38:37,466 -INFO - GLENMARK.NS - Process function Ended
+2024-09-30 11:38:45,859 -INFO - All stocks - Excel file Saved
+2024-09-30 11:38:45,862 -INFO - All stocks - json file saved
+2024-09-30 11:38:45,862 -INFO - LICHSGFIN.NS - alerts file Saved
+2024-09-30 11:38:45,862 -INFO - LICHSGFIN.NS - Process function Ended
+2024-09-30 11:38:49,280 -INFO - PEL.NS - last n detect_structure function Ended
+2024-09-30 11:38:49,281 -INFO - PEL.NS - add_ph_pl_values function started
+2024-09-30 11:38:49,287 -INFO - PEL.NS - add_ph_pl_values function Ended
+2024-09-30 11:38:56,337 -INFO - All stocks - Excel file Saved
+2024-09-30 11:38:56,337 -INFO - All stocks - json file saved
+2024-09-30 11:38:56,337 -INFO - ASIANPAINT.NS - alerts file Saved
+2024-09-30 11:38:56,337 -INFO - ASIANPAINT.NS - Process function Ended
+2024-09-30 11:39:09,638 -INFO - All stocks - Excel file Saved
+2024-09-30 11:39:09,639 -INFO - All stocks - json file saved
+2024-09-30 11:39:09,640 -INFO - PEL.NS - alerts file Saved
+2024-09-30 11:39:09,640 -INFO - PEL.NS - Process function Ended
+2024-09-30 11:39:30,916 -INFO - All stocks - Excel file Saved
+2024-09-30 11:39:30,917 -INFO - All stocks - json file saved
+2024-09-30 11:39:54,134 -INFO - All stocks - Excel file Saved
+2024-09-30 11:39:54,137 -INFO - All stocks - json file saved
