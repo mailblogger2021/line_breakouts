@@ -8278,3 +8278,39 @@ ValueError: Length of values (20652) does not match length of index (20475)
 2024-10-01 11:45:29,487 -INFO - All stocks - json file saved
 2024-10-01 11:45:47,642 -INFO - All stocks - Excel file Saved
 2024-10-01 11:45:47,643 -INFO - All stocks - json file saved
+2024-10-02 11:35:35,609 -INFO - Started...
+2024-10-02 11:35:36,522 -INFO - Started...
+2024-10-02 11:35:45,594 -INFO - BIOCON.NS - this stock already completed
+2024-10-02 11:35:45,594 -INFO - HDFCLIFE.NS - this stock already completed
+2024-10-02 11:35:45,594 -INFO - TATACONSUM.NS - this stock already completed
+2024-10-02 11:35:45,594 -INFO - MPHASIS.NS - this stock already completed
+2024-10-02 11:35:45,594 -INFO - GMRINFRA.NS - this stock already completed
+2024-10-02 11:35:45,594 -INFO - ICICIGI.NS - this stock already completed
+2024-10-02 11:35:45,594 -INFO - CIPLA.NS - this stock already completed
+2024-10-02 11:35:45,594 -INFO - OFSS.NS - this stock already completed
+2024-10-02 11:35:45,594 -INFO - BERGEPAINT.NS - this stock already completed
+2024-10-02 11:35:45,594 -INFO - DABUR.NS - this stock already completed
+2024-10-02 11:35:45,594 -INFO - JINDALSTEL.NS - this stock already completed
+2024-10-02 11:35:45,594 -INFO - SBILIFE.NS - this stock already completed
+2024-10-02 11:35:45,595 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-10-02 11:35:47,571 -ERROR - 
+1 Failed download:
+2024-10-02 11:35:47,571 -ERROR - ['NIFTY']: YFTzMissingError('$%ticker%: possibly delisted; no timezone found')
+2024-10-02 11:35:47,592 -INFO - TECHM.NS - Process function started
+2024-10-02 11:35:47,592 -INFO - TECHM.NS - Reading existing data...
+2024-10-02 11:35:47,869 -INFO - last n isPivot function started
+2024-10-02 11:35:48,329 -INFO - last n isPivot function Ended
+2024-10-02 11:35:48,329 -INFO - TECHM.NS - last n detect_structure function started
+2024-10-02 11:35:48,333 -INFO - TECHM.NS - last n two_line_structure function started
+2024-10-02 11:35:59,019 -INFO - TECHM.NS - last n two_line_structure function Ended
+2024-10-02 11:35:59,852 -INFO - TECHM.NS - last n detect_structure function Ended
+2024-10-02 11:35:59,852 -INFO - TECHM.NS - add_ph_pl_values function started
+2024-10-02 11:35:59,855 -INFO - TECHM.NS - add_ph_pl_values function Ended
+2024-10-02 11:36:17,448 -INFO - All stocks - Excel file Saved
+2024-10-02 11:36:17,449 -INFO - All stocks - json file saved
+2024-10-02 11:36:17,449 -INFO - TECHM.NS - alerts file Saved
+2024-10-02 11:36:17,449 -INFO - TECHM.NS - Process function Ended
+2024-10-02 11:36:34,118 -INFO - All stocks - Excel file Saved
+2024-10-02 11:36:34,118 -INFO - All stocks - json file saved
+2024-10-02 11:36:50,748 -INFO - All stocks - Excel file Saved
+2024-10-02 11:36:50,748 -INFO - All stocks - json file saved
