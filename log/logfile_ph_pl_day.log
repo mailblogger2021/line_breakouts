@@ -8379,3 +8379,150 @@ ValueError: Length of values (20652) does not match length of index (20475)
 2024-10-03 11:38:09,622 -INFO - All stocks - json file saved
 2024-10-03 11:38:25,686 -INFO - All stocks - Excel file Saved
 2024-10-03 11:38:25,687 -INFO - All stocks - json file saved
+2024-10-07 11:35:05,148 -INFO - Started...
+2024-10-07 11:35:06,136 -INFO - Started...
+2024-10-07 11:35:20,111 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-10-07 11:35:22,642 -INFO - HCLTECH.NS - Process function started
+2024-10-07 11:35:22,642 -INFO - ICICIBANK.NS - Process function started
+2024-10-07 11:35:22,643 -INFO - INFY.NS - Process function started
+2024-10-07 11:35:22,643 -INFO - HCLTECH.NS - Reading existing data...
+2024-10-07 11:35:22,643 -INFO - ICICIBANK.NS - Reading existing data...
+2024-10-07 11:35:22,643 -INFO - INFY.NS - Reading existing data...
+2024-10-07 11:35:22,644 -INFO - LUPIN.NS - Process function started
+2024-10-07 11:35:22,644 -INFO - LUPIN.NS - Reading existing data...
+2024-10-07 11:35:22,644 -INFO - COLPAL.NS - Process function started
+2024-10-07 11:35:22,644 -INFO - COLPAL.NS - Reading existing data...
+2024-10-07 11:35:22,644 -INFO - METROPOLIS.NS - Process function started
+2024-10-07 11:35:22,644 -INFO - METROPOLIS.NS - Reading existing data...
+2024-10-07 11:35:22,645 -INFO - GLENMARK.NS - Process function started
+2024-10-07 11:35:22,646 -INFO - GLENMARK.NS - Reading existing data...
+2024-10-07 11:35:22,646 -INFO - GRANULES.NS - Process function started
+2024-10-07 11:35:22,646 -INFO - VOLTAS.NS - Process function started
+2024-10-07 11:35:22,649 -INFO - PIIND.NS - Process function started
+2024-10-07 11:35:22,650 -INFO - VOLTAS.NS - Reading existing data...
+2024-10-07 11:35:22,651 -INFO - GRANULES.NS - Reading existing data...
+2024-10-07 11:35:22,652 -INFO - PIIND.NS - Reading existing data...
+2024-10-07 11:35:24,941 -INFO - last n isPivot function started
+2024-10-07 11:35:25,925 -INFO - last n isPivot function started
+2024-10-07 11:35:26,710 -INFO - last n isPivot function Ended
+2024-10-07 11:35:26,847 -INFO - METROPOLIS.NS - last n detect_structure function started
+2024-10-07 11:35:26,851 -INFO - METROPOLIS.NS - last n two_line_structure function started
+2024-10-07 11:35:27,570 -INFO - last n isPivot function Ended
+2024-10-07 11:35:27,614 -INFO - HCLTECH.NS - last n detect_structure function started
+2024-10-07 11:35:27,619 -INFO - HCLTECH.NS - last n two_line_structure function started
+2024-10-07 11:35:27,663 -INFO - last n isPivot function started
+2024-10-07 11:35:28,762 -INFO - last n isPivot function started
+2024-10-07 11:35:29,698 -INFO - last n isPivot function started
+2024-10-07 11:35:29,719 -INFO - last n isPivot function started
+2024-10-07 11:35:29,814 -INFO - last n isPivot function started
+2024-10-07 11:35:30,492 -INFO - last n isPivot function Ended
+2024-10-07 11:35:30,497 -INFO - ICICIBANK.NS - last n detect_structure function started
+2024-10-07 11:35:30,497 -INFO - ICICIBANK.NS - last n two_line_structure function started
+2024-10-07 11:35:30,753 -INFO - last n isPivot function started
+2024-10-07 11:35:30,985 -INFO - last n isPivot function started
+2024-10-07 11:35:31,362 -INFO - last n isPivot function Ended
+2024-10-07 11:35:31,375 -INFO - last n isPivot function started
+2024-10-07 11:35:31,552 -INFO - PIIND.NS - last n detect_structure function started
+2024-10-07 11:35:31,604 -INFO - PIIND.NS - last n two_line_structure function started
+2024-10-07 11:35:36,596 -INFO - last n isPivot function Ended
+2024-10-07 11:35:36,702 -INFO - last n isPivot function Ended
+2024-10-07 11:35:36,752 -INFO - GLENMARK.NS - last n detect_structure function started
+2024-10-07 11:35:36,765 -INFO - last n isPivot function Ended
+2024-10-07 11:35:36,879 -INFO - GLENMARK.NS - last n two_line_structure function started
+2024-10-07 11:35:36,879 -INFO - GRANULES.NS - last n detect_structure function started
+2024-10-07 11:35:37,120 -INFO - GRANULES.NS - last n two_line_structure function started
+2024-10-07 11:35:37,207 -INFO - INFY.NS - last n detect_structure function started
+2024-10-07 11:35:37,286 -INFO - INFY.NS - last n two_line_structure function started
+2024-10-07 11:35:37,804 -INFO - last n isPivot function Ended
+2024-10-07 11:35:37,847 -INFO - LUPIN.NS - last n detect_structure function started
+2024-10-07 11:35:37,858 -INFO - LUPIN.NS - last n two_line_structure function started
+2024-10-07 11:35:38,028 -INFO - last n isPivot function Ended
+2024-10-07 11:35:38,045 -INFO - COLPAL.NS - last n detect_structure function started
+2024-10-07 11:35:38,058 -INFO - last n isPivot function Ended
+2024-10-07 11:35:38,059 -INFO - VOLTAS.NS - last n detect_structure function started
+2024-10-07 11:35:38,083 -INFO - VOLTAS.NS - last n two_line_structure function started
+2024-10-07 11:35:38,115 -INFO - COLPAL.NS - last n two_line_structure function started
+2024-10-07 11:36:53,168 -INFO - METROPOLIS.NS - last n two_line_structure function Ended
+2024-10-07 11:37:19,530 -INFO - METROPOLIS.NS - last n detect_structure function Ended
+2024-10-07 11:37:19,546 -INFO - METROPOLIS.NS - add_ph_pl_values function started
+2024-10-07 11:37:20,071 -INFO - METROPOLIS.NS - add_ph_pl_values function Ended
+2024-10-07 11:39:38,031 -INFO - PIIND.NS - last n two_line_structure function Ended
+2024-10-07 11:40:21,869 -INFO - All stocks - Excel file Saved
+2024-10-07 11:40:21,891 -INFO - All stocks - json file saved
+2024-10-07 11:40:21,892 -INFO - METROPOLIS.NS - alerts file Saved
+2024-10-07 11:40:21,895 -INFO - METROPOLIS.NS - Process function Ended
+2024-10-07 11:40:22,213 -INFO - PIIND.NS - last n detect_structure function Ended
+2024-10-07 11:40:22,233 -INFO - PIIND.NS - add_ph_pl_values function started
+2024-10-07 11:40:22,333 -INFO - PIIND.NS - add_ph_pl_values function Ended
+2024-10-07 11:40:50,725 -INFO - GRANULES.NS - last n two_line_structure function Ended
+2024-10-07 11:41:28,491 -INFO - VOLTAS.NS - last n two_line_structure function Ended
+2024-10-07 11:41:31,392 -INFO - COLPAL.NS - last n two_line_structure function Ended
+2024-10-07 11:41:32,157 -INFO - ICICIBANK.NS - last n two_line_structure function Ended
+2024-10-07 11:41:34,733 -INFO - HCLTECH.NS - last n two_line_structure function Ended
+2024-10-07 11:41:34,821 -INFO - GLENMARK.NS - last n two_line_structure function Ended
+2024-10-07 11:41:38,269 -INFO - GRANULES.NS - last n detect_structure function Ended
+2024-10-07 11:41:38,281 -INFO - GRANULES.NS - add_ph_pl_values function started
+2024-10-07 11:41:38,320 -INFO - GRANULES.NS - add_ph_pl_values function Ended
+2024-10-07 11:41:40,049 -INFO - LUPIN.NS - last n two_line_structure function Ended
+2024-10-07 11:41:50,197 -INFO - All stocks - Excel file Saved
+2024-10-07 11:41:50,208 -INFO - All stocks - json file saved
+2024-10-07 11:41:50,209 -INFO - PIIND.NS - alerts file Saved
+2024-10-07 11:41:50,209 -INFO - PIIND.NS - Process function Ended
+2024-10-07 11:42:01,414 -INFO - VOLTAS.NS - last n detect_structure function Ended
+2024-10-07 11:42:01,421 -INFO - VOLTAS.NS - add_ph_pl_values function started
+2024-10-07 11:42:01,453 -INFO - VOLTAS.NS - add_ph_pl_values function Ended
+2024-10-07 11:42:09,944 -INFO - ICICIBANK.NS - last n detect_structure function Ended
+2024-10-07 11:42:09,954 -INFO - ICICIBANK.NS - add_ph_pl_values function started
+2024-10-07 11:42:09,993 -INFO - ICICIBANK.NS - add_ph_pl_values function Ended
+2024-10-07 11:42:25,734 -INFO - COLPAL.NS - last n detect_structure function Ended
+2024-10-07 11:42:25,735 -INFO - COLPAL.NS - add_ph_pl_values function started
+2024-10-07 11:42:25,750 -INFO - COLPAL.NS - add_ph_pl_values function Ended
+2024-10-07 11:42:26,567 -INFO - GLENMARK.NS - last n detect_structure function Ended
+2024-10-07 11:42:26,575 -INFO - GLENMARK.NS - add_ph_pl_values function started
+2024-10-07 11:42:26,601 -INFO - GLENMARK.NS - add_ph_pl_values function Ended
+2024-10-07 11:42:37,591 -INFO - HCLTECH.NS - last n detect_structure function Ended
+2024-10-07 11:42:37,682 -INFO - HCLTECH.NS - add_ph_pl_values function started
+2024-10-07 11:42:37,777 -INFO - HCLTECH.NS - add_ph_pl_values function Ended
+2024-10-07 11:42:44,754 -INFO - LUPIN.NS - last n detect_structure function Ended
+2024-10-07 11:42:44,759 -INFO - LUPIN.NS - add_ph_pl_values function started
+2024-10-07 11:42:44,774 -INFO - LUPIN.NS - add_ph_pl_values function Ended
+2024-10-07 11:43:04,757 -INFO - INFY.NS - last n two_line_structure function Ended
+2024-10-07 11:43:23,819 -INFO - All stocks - Excel file Saved
+2024-10-07 11:43:24,141 -INFO - All stocks - json file saved
+2024-10-07 11:43:24,141 -INFO - GRANULES.NS - alerts file Saved
+2024-10-07 11:43:24,141 -INFO - GRANULES.NS - Process function Ended
+2024-10-07 11:44:11,294 -INFO - All stocks - Excel file Saved
+2024-10-07 11:44:11,447 -INFO - All stocks - json file saved
+2024-10-07 11:44:11,447 -INFO - VOLTAS.NS - alerts file Saved
+2024-10-07 11:44:11,447 -INFO - VOLTAS.NS - Process function Ended
+2024-10-07 11:44:12,521 -INFO - All stocks - Excel file Saved
+2024-10-07 11:44:12,522 -INFO - All stocks - json file saved
+2024-10-07 11:44:12,522 -INFO - ICICIBANK.NS - alerts file Saved
+2024-10-07 11:44:12,522 -INFO - ICICIBANK.NS - Process function Ended
+2024-10-07 11:44:14,539 -INFO - All stocks - Excel file Saved
+2024-10-07 11:44:14,539 -INFO - All stocks - json file saved
+2024-10-07 11:44:14,539 -INFO - COLPAL.NS - alerts file Saved
+2024-10-07 11:44:14,540 -INFO - COLPAL.NS - Process function Ended
+2024-10-07 11:44:14,906 -INFO - All stocks - Excel file Saved
+2024-10-07 11:44:15,892 -INFO - All stocks - json file saved
+2024-10-07 11:44:15,892 -INFO - GLENMARK.NS - alerts file Saved
+2024-10-07 11:44:15,939 -INFO - GLENMARK.NS - Process function Ended
+2024-10-07 11:44:17,812 -INFO - All stocks - Excel file Saved
+2024-10-07 11:44:17,815 -INFO - All stocks - json file saved
+2024-10-07 11:44:17,815 -INFO - LUPIN.NS - alerts file Saved
+2024-10-07 11:44:17,815 -INFO - LUPIN.NS - Process function Ended
+2024-10-07 11:44:18,473 -INFO - All stocks - Excel file Saved
+2024-10-07 11:44:18,476 -INFO - All stocks - json file saved
+2024-10-07 11:44:18,476 -INFO - HCLTECH.NS - alerts file Saved
+2024-10-07 11:44:18,476 -INFO - HCLTECH.NS - Process function Ended
+2024-10-07 11:44:18,507 -INFO - INFY.NS - last n detect_structure function Ended
+2024-10-07 11:44:18,508 -INFO - INFY.NS - add_ph_pl_values function started
+2024-10-07 11:44:18,511 -INFO - INFY.NS - add_ph_pl_values function Ended
+2024-10-07 11:44:36,394 -INFO - All stocks - Excel file Saved
+2024-10-07 11:44:36,395 -INFO - All stocks - json file saved
+2024-10-07 11:44:36,395 -INFO - INFY.NS - alerts file Saved
+2024-10-07 11:44:36,395 -INFO - INFY.NS - Process function Ended
+2024-10-07 11:44:53,668 -INFO - All stocks - Excel file Saved
+2024-10-07 11:44:53,668 -INFO - All stocks - json file saved
+2024-10-07 11:45:10,762 -INFO - All stocks - Excel file Saved
+2024-10-07 11:45:10,762 -INFO - All stocks - json file saved
