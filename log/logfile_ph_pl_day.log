@@ -8688,3 +8688,84 @@ ValueError: Length of values (41205) does not match length of index (41150)
 2024-10-08 11:41:08,481 -INFO - All stocks - json file saved
 2024-10-08 11:41:29,110 -INFO - All stocks - Excel file Saved
 2024-10-08 11:41:29,110 -INFO - All stocks - json file saved
+2024-10-09 11:34:46,911 -INFO - Started...
+2024-10-09 11:34:47,800 -INFO - Started...
+2024-10-09 11:34:56,047 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-10-09 11:34:56,047 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-10-09 11:35:06,637 -ERROR - 
+1 Failed download:
+2024-10-09 11:35:06,638 -ERROR - ['CHOLAFIN.NS']: ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)"))
+2024-10-09 11:35:06,780 -INFO - INDHOTEL.NS - Process function started
+2024-10-09 11:35:06,780 -INFO - INDHOTEL.NS - Reading existing data...
+2024-10-09 11:35:06,780 -INFO - ONGC.NS - Process function started
+2024-10-09 11:35:06,780 -INFO - ONGC.NS - Reading existing data...
+2024-10-09 11:35:06,780 -INFO - SBILIFE.NS - Process function started
+2024-10-09 11:35:06,781 -INFO - SBILIFE.NS - Reading existing data...
+2024-10-09 11:35:06,781 -INFO - HEROMOTOCO.NS - Process function started
+2024-10-09 11:35:06,781 -INFO - HEROMOTOCO.NS - Reading existing data...
+2024-10-09 11:35:06,781 -INFO - IEX.NS - Process function started
+2024-10-09 11:35:06,781 -INFO - IEX.NS - Reading existing data...
+2024-10-09 11:35:08,002 -INFO - last n isPivot function started
+2024-10-09 11:35:08,169 -INFO - last n isPivot function started
+2024-10-09 11:35:08,219 -INFO - last n isPivot function Ended
+2024-10-09 11:35:08,404 -INFO - last n isPivot function Ended
+2024-10-09 11:35:08,404 -INFO - SBILIFE.NS - last n detect_structure function started
+2024-10-09 11:35:08,405 -INFO - IEX.NS - last n detect_structure function started
+2024-10-09 11:35:08,406 -INFO - IEX.NS - last n two_line_structure function started
+2024-10-09 11:35:08,406 -INFO - SBILIFE.NS - last n two_line_structure function started
+2024-10-09 11:35:08,454 -INFO - last n isPivot function started
+2024-10-09 11:35:08,657 -INFO - last n isPivot function started
+2024-10-09 11:35:09,106 -INFO - last n isPivot function Ended
+2024-10-09 11:35:09,360 -INFO - HEROMOTOCO.NS - last n detect_structure function started
+2024-10-09 11:35:09,366 -INFO - HEROMOTOCO.NS - last n two_line_structure function started
+2024-10-09 11:35:09,575 -INFO - last n isPivot function started
+2024-10-09 11:35:10,591 -INFO - last n isPivot function Ended
+2024-10-09 11:35:10,597 -INFO - ONGC.NS - last n detect_structure function started
+2024-10-09 11:35:10,606 -INFO - ONGC.NS - last n two_line_structure function started
+2024-10-09 11:35:10,616 -INFO - last n isPivot function Ended
+2024-10-09 11:35:10,616 -INFO - INDHOTEL.NS - last n detect_structure function started
+2024-10-09 11:35:10,620 -INFO - INDHOTEL.NS - last n two_line_structure function started
+2024-10-09 11:35:35,551 -INFO - SBILIFE.NS - last n two_line_structure function Ended
+2024-10-09 11:35:36,202 -INFO - IEX.NS - last n two_line_structure function Ended
+2024-10-09 11:35:40,443 -INFO - SBILIFE.NS - last n detect_structure function Ended
+2024-10-09 11:35:40,448 -INFO - SBILIFE.NS - add_ph_pl_values function started
+2024-10-09 11:35:40,494 -INFO - SBILIFE.NS - add_ph_pl_values function Ended
+2024-10-09 11:35:47,637 -INFO - IEX.NS - last n detect_structure function Ended
+2024-10-09 11:35:47,641 -INFO - IEX.NS - add_ph_pl_values function started
+2024-10-09 11:35:47,684 -INFO - IEX.NS - add_ph_pl_values function Ended
+2024-10-09 11:36:37,798 -INFO - All stocks - Excel file Saved
+2024-10-09 11:36:37,806 -INFO - All stocks - json file saved
+2024-10-09 11:36:37,807 -INFO - SBILIFE.NS - alerts file Saved
+2024-10-09 11:36:37,808 -INFO - SBILIFE.NS - Process function Ended
+2024-10-09 11:36:39,146 -INFO - All stocks - Excel file Saved
+2024-10-09 11:36:39,151 -INFO - All stocks - json file saved
+2024-10-09 11:36:39,151 -INFO - IEX.NS - alerts file Saved
+2024-10-09 11:36:39,151 -INFO - IEX.NS - Process function Ended
+2024-10-09 11:36:49,469 -INFO - INDHOTEL.NS - last n two_line_structure function Ended
+2024-10-09 11:36:50,107 -INFO - HEROMOTOCO.NS - last n two_line_structure function Ended
+2024-10-09 11:36:57,020 -INFO - HEROMOTOCO.NS - last n detect_structure function Ended
+2024-10-09 11:36:57,024 -INFO - HEROMOTOCO.NS - add_ph_pl_values function started
+2024-10-09 11:36:57,051 -INFO - HEROMOTOCO.NS - add_ph_pl_values function Ended
+2024-10-09 11:36:58,117 -INFO - INDHOTEL.NS - last n detect_structure function Ended
+2024-10-09 11:36:58,120 -INFO - INDHOTEL.NS - add_ph_pl_values function started
+2024-10-09 11:36:58,140 -INFO - INDHOTEL.NS - add_ph_pl_values function Ended
+2024-10-09 11:37:12,143 -INFO - ONGC.NS - last n two_line_structure function Ended
+2024-10-09 11:37:30,568 -INFO - ONGC.NS - last n detect_structure function Ended
+2024-10-09 11:37:30,569 -INFO - ONGC.NS - add_ph_pl_values function started
+2024-10-09 11:37:30,577 -INFO - ONGC.NS - add_ph_pl_values function Ended
+2024-10-09 11:37:42,309 -INFO - All stocks - Excel file Saved
+2024-10-09 11:37:42,310 -INFO - All stocks - json file saved
+2024-10-09 11:37:42,310 -INFO - HEROMOTOCO.NS - alerts file Saved
+2024-10-09 11:37:42,310 -INFO - HEROMOTOCO.NS - Process function Ended
+2024-10-09 11:37:42,487 -INFO - All stocks - Excel file Saved
+2024-10-09 11:37:42,488 -INFO - All stocks - json file saved
+2024-10-09 11:37:42,488 -INFO - INDHOTEL.NS - alerts file Saved
+2024-10-09 11:37:42,488 -INFO - INDHOTEL.NS - Process function Ended
+2024-10-09 11:37:54,335 -INFO - All stocks - Excel file Saved
+2024-10-09 11:37:54,335 -INFO - All stocks - json file saved
+2024-10-09 11:37:54,335 -INFO - ONGC.NS - alerts file Saved
+2024-10-09 11:37:54,335 -INFO - ONGC.NS - Process function Ended
+2024-10-09 11:38:13,011 -INFO - All stocks - Excel file Saved
+2024-10-09 11:38:13,012 -INFO - All stocks - json file saved
+2024-10-09 11:38:30,527 -INFO - All stocks - Excel file Saved
+2024-10-09 11:38:30,527 -INFO - All stocks - json file saved
