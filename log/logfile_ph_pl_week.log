@@ -2822,3 +2822,72 @@ ValueError: Length of values (93097) does not match length of index (90998)
 2024-10-04 11:33:44,101 -INFO - All stocks - json file saved
 2024-10-04 11:34:17,056 -INFO - All stocks - Excel file Saved
 2024-10-04 11:34:17,058 -INFO - All stocks - json file saved
+2024-10-11 11:33:39,821 -INFO - Started...
+2024-10-11 11:33:40,669 -INFO - Started...
+2024-10-11 11:33:56,458 -INFO - LUPIN.NS - this stock already completed
+2024-10-11 11:33:56,458 -INFO - PFC.NS - this stock already completed
+2024-10-11 11:33:56,458 -INFO - HDFCAMC.NS - this stock already completed
+2024-10-11 11:33:56,458 -INFO - GUJGASLTD.NS - this stock already completed
+2024-10-11 11:33:56,460 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-10-11 11:33:57,522 -ERROR - 
+1 Failed download:
+2024-10-11 11:33:57,522 -ERROR - ['SBILIFE.NS']: OperationalError('database is locked')
+2024-10-11 11:33:57,547 -INFO - IGL.NS - Process function started
+2024-10-11 11:33:57,547 -INFO - HDFCLIFE.NS - Process function started
+2024-10-11 11:33:57,547 -INFO - IGL.NS - Reading existing data...
+2024-10-11 11:33:57,547 -INFO - CROMPTON.NS - Process function started
+2024-10-11 11:33:57,547 -INFO - HINDPETRO.NS - Process function started
+2024-10-11 11:33:57,548 -INFO - HDFCLIFE.NS - Reading existing data...
+2024-10-11 11:33:57,553 -INFO - CROMPTON.NS - isPivot function started
+2024-10-11 11:33:57,554 -INFO - HINDPETRO.NS - Reading existing data...
+2024-10-11 11:33:57,608 -INFO - CROMPTON.NS - isPivot function Ended
+2024-10-11 11:33:57,611 -INFO - CROMPTON.NS -  detect_structure function started
+2024-10-11 11:33:57,614 -INFO - CROMPTON.NS -  two_line_structure function started
+2024-10-11 11:33:57,846 -INFO - last n isPivot function started
+2024-10-11 11:33:57,939 -INFO - last n isPivot function Ended
+2024-10-11 11:33:57,940 -INFO - HDFCLIFE.NS - last n detect_structure function started
+2024-10-11 11:33:57,948 -INFO - HDFCLIFE.NS - last n two_line_structure function started
+2024-10-11 11:33:58,028 -INFO - last n isPivot function started
+2024-10-11 11:33:58,217 -INFO - last n isPivot function started
+2024-10-11 11:33:58,449 -INFO - last n isPivot function Ended
+2024-10-11 11:33:58,449 -INFO - last n isPivot function Ended
+2024-10-11 11:33:58,454 -INFO - IGL.NS - last n detect_structure function started
+2024-10-11 11:33:58,459 -INFO - IGL.NS - last n two_line_structure function started
+2024-10-11 11:33:58,466 -INFO - HINDPETRO.NS - last n detect_structure function started
+2024-10-11 11:33:58,468 -INFO - HINDPETRO.NS - last n two_line_structure function started
+2024-10-11 11:34:03,094 -INFO - HDFCLIFE.NS - last n two_line_structure function Ended
+2024-10-11 11:34:03,245 -INFO - CROMPTON.NS -  two_line_structure function Ended
+2024-10-11 11:34:13,252 -INFO - HDFCLIFE.NS - last n detect_structure function Ended
+2024-10-11 11:34:13,256 -INFO - HDFCLIFE.NS - add_ph_pl_values function started
+2024-10-11 11:34:13,319 -INFO - HDFCLIFE.NS - add_ph_pl_values function Ended
+2024-10-11 11:34:13,395 -INFO - IGL.NS - last n two_line_structure function Ended
+2024-10-11 11:34:28,841 -INFO - CROMPTON.NS -  detect_structure function Ended
+2024-10-11 11:34:28,844 -INFO - CROMPTON.NS - add_ph_pl_values function started
+2024-10-11 11:34:28,890 -INFO - CROMPTON.NS - add_ph_pl_values function Ended
+2024-10-11 11:34:43,772 -INFO - HINDPETRO.NS - last n two_line_structure function Ended
+2024-10-11 11:35:20,810 -INFO - IGL.NS - last n detect_structure function Ended
+2024-10-11 11:35:20,814 -INFO - IGL.NS - add_ph_pl_values function started
+2024-10-11 11:35:20,833 -INFO - IGL.NS - add_ph_pl_values function Ended
+2024-10-11 11:35:38,692 -INFO - All stocks - Excel file Saved
+2024-10-11 11:35:38,696 -INFO - All stocks - json file saved
+2024-10-11 11:35:38,696 -INFO - HDFCLIFE.NS - alerts file Saved
+2024-10-11 11:35:38,696 -INFO - HDFCLIFE.NS - Process function Ended
+2024-10-11 11:35:39,598 -INFO - All stocks - Excel file Saved
+2024-10-11 11:35:39,599 -INFO - All stocks - json file saved
+2024-10-11 11:35:39,599 -INFO - CROMPTON.NS - alerts file Saved
+2024-10-11 11:35:39,599 -INFO - CROMPTON.NS - Process function Ended
+2024-10-11 11:35:39,643 -INFO - HINDPETRO.NS - last n detect_structure function Ended
+2024-10-11 11:35:39,643 -INFO - HINDPETRO.NS - add_ph_pl_values function started
+2024-10-11 11:35:39,648 -INFO - HINDPETRO.NS - add_ph_pl_values function Ended
+2024-10-11 11:36:17,007 -INFO - All stocks - Excel file Saved
+2024-10-11 11:36:17,008 -INFO - All stocks - json file saved
+2024-10-11 11:36:17,008 -INFO - IGL.NS - alerts file Saved
+2024-10-11 11:36:17,008 -INFO - IGL.NS - Process function Ended
+2024-10-11 11:36:18,415 -INFO - All stocks - Excel file Saved
+2024-10-11 11:36:18,416 -INFO - All stocks - json file saved
+2024-10-11 11:36:18,416 -INFO - HINDPETRO.NS - alerts file Saved
+2024-10-11 11:36:18,416 -INFO - HINDPETRO.NS - Process function Ended
+2024-10-11 11:36:48,998 -INFO - All stocks - Excel file Saved
+2024-10-11 11:36:48,999 -INFO - All stocks - json file saved
+2024-10-11 11:37:16,240 -INFO - All stocks - Excel file Saved
+2024-10-11 11:37:16,240 -INFO - All stocks - json file saved
