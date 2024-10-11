@@ -14668,3 +14668,63 @@
 2024-10-11 04:46:52,886 -ERROR - ['MCDOWELL-N.NS', 'AEGISCHEM.NS']: YFPricesMissingError('$%ticker%: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")')
 2024-10-11 04:46:55,681 -INFO - PH PL alert Ended...
 2024-10-11 04:46:58,640 -INFO - Message sent successfully! - 
+2024-10-11 05:45:43,181 -INFO - Started...
+2024-10-11 05:45:43,181 -INFO - Three line alert started...
+2024-10-11 05:45:46,381 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-10-11 05:45:46,479 -ERROR - Failed to get ticker 'OFSS.NS' reason: HTTPSConnectionPool(host='fc.yahoo.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11191cad0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-10-11 05:45:46,941 -ERROR - Failed to get ticker 'JSWENERGY.NS' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Max retries exceeded with url: /v8/finance/chart/JSWENERGY.NS?range=1d&interval=1d&crumb=zsR%2FzQHp%2FHM (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1119fe950>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-10-11 05:46:17,766 -ERROR - Failed to get ticker 'MGL.NS' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2024-10-11 05:46:26,637 -ERROR - Failed to get ticker 'RTNINDIA.NS' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Max retries exceeded with url: /v8/finance/chart/RTNINDIA.NS?range=1d&interval=1d&crumb=zsR%2FzQHp%2FHM (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x113e555d0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-10-11 05:46:31,168 -ERROR - Failed to get ticker 'TRF.NS' reason: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2024-10-11 05:46:44,488 -ERROR - Failed to get ticker 'IRCTC.NS' reason: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2024-10-11 05:46:49,118 -ERROR - Failed to get ticker 'UNIONBANK.NS' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2024-10-11 05:46:51,431 -ERROR - Failed to get ticker 'MARICO.NS' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2024-10-11 05:46:58,769 -ERROR - Failed to get ticker 'HGINFRA.NS' reason: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2024-10-11 05:47:12,092 -ERROR - Failed to get ticker 'MCDOWELL-N.NS' reason: HTTPSConnectionPool(host='query1.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2024-10-11 05:47:22,394 -ERROR - Failed to get ticker 'SJVN.NS' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2024-10-11 05:47:32,500 -ERROR - 
+13 Failed downloads:
+2024-10-11 05:47:32,501 -ERROR - ['AEGISCHEM.NS']: YFPricesMissingError('$%ticker%: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")')
+2024-10-11 05:47:32,502 -ERROR - ['RPEL.BO']: YFInvalidPeriodError("%ticker%: Period '1y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', 'ytd', 'max']")
+2024-10-11 05:47:32,502 -ERROR - ['GUJGASLTD.NS']: ChunkedEncodingError(ProtocolError('Response ended prematurely'))
+2024-10-11 05:47:32,502 -ERROR - ['DIVISLAB.NS']: ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+2024-10-11 05:47:32,503 -ERROR - ['SHAILY.NS', 'TRF.NS', 'SIS.NS', 'UNIONBANK.NS', 'MARICO.NS', 'HGINFRA.NS', 'MCDOWELL-N.NS', 'SJVN.NS']: ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)"))
+2024-10-11 05:47:32,503 -ERROR - ['IRCTC.NS']: ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))
+2024-10-11 05:47:37,773 -INFO - Three line alert Ended...
+2024-10-11 05:47:37,773 -INFO - Two line alert started...
+2024-10-11 05:47:49,354 -ERROR - Failed to get ticker 'DBL.NS' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2024-10-11 05:47:49,418 -ERROR - Failed to get ticker 'JSWENERGY.NS' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2024-10-11 05:47:52,366 -ERROR - Failed to get ticker 'SPELS.BO' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2024-10-11 05:48:06,036 -ERROR - Failed to get ticker 'UNIAUTO.BO' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2024-10-11 05:48:11,725 -ERROR - Failed to get ticker 'AEGISCHEM.NS' reason: HTTPSConnectionPool(host='www.yahoo.com', port=443): Max retries exceeded with url: /?guccounter=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x111cc98d0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-10-11 05:48:29,452 -ERROR - Failed to get ticker 'MOTILALOFS.NS' reason: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-10-11 05:48:37,528 -ERROR - Failed to get ticker 'GENESYS.NS' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2024-10-11 05:48:47,950 -ERROR - 
+9 Failed downloads:
+2024-10-11 05:48:47,950 -ERROR - ['DBL.NS']: ConnectionError(MaxRetryError("HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Max retries exceeded with url: /v8/finance/chart/%ticker%?range=1y&interval=60m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=zsR%2FzQHp%2FHM (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1118a4850>: Failed to establish a new connection: [Errno 61] Connection refused'))"))
+2024-10-11 05:48:47,950 -ERROR - ['UNIAUTO.BO']: ConnectionError(MaxRetryError("HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Max retries exceeded with url: /v8/finance/chart/%ticker%?range=1y&interval=60m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=zsR%2FzQHp%2FHM (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11200f650>: Failed to establish a new connection: [Errno 61] Connection refused'))"))
+2024-10-11 05:48:47,950 -ERROR - ['INDUSTOWER.NS', 'M&M.NS']: ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+2024-10-11 05:48:47,950 -ERROR - ['AEGISCHEM.NS', 'MCDOWELL-N.NS']: YFPricesMissingError('$%ticker%: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")')
+2024-10-11 05:48:47,950 -ERROR - ['NTPC.NS']: ChunkedEncodingError(ProtocolError('Response ended prematurely'))
+2024-10-11 05:48:47,950 -ERROR - ['RPEL.BO']: YFInvalidPeriodError("%ticker%: Period '1y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', 'ytd', 'max']")
+2024-10-11 05:48:47,950 -ERROR - ['MOTILALOFS.NS']: ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)"))
+2024-10-11 05:48:51,247 -INFO - TATAMTRDVR.NS - stock breakout found...
+2024-10-11 05:48:51,366 -INFO - MOSCHIP.BO - stock breakout found...
+2024-10-11 05:48:51,590 -INFO - TATAINVEST.NS - stock breakout found...
+2024-10-11 05:48:51,714 -INFO - MOL.NS - stock breakout found...
+2024-10-11 05:48:51,926 -INFO - CROWN.NS - stock breakout found...
+2024-10-11 05:48:52,194 -INFO - WINSOMTX.BO - stock breakout found...
+2024-10-11 05:48:52,386 -INFO - ALKALI.NS - stock breakout found...
+2024-10-11 05:48:52,527 -INFO - SASTASUNDR.NS - stock breakout found...
+2024-10-11 05:48:52,568 -INFO - NILE.BO - stock breakout found...
+2024-10-11 05:48:52,581 -INFO - DHABRIYA.BO - stock breakout found...
+2024-10-11 05:48:52,633 -INFO - WALCHANNAG.NS - stock breakout found...
+2024-10-11 05:48:52,778 -INFO - Two line alert Ended...
+2024-10-11 05:48:52,779 -INFO - PH PL alert started...
+2024-10-11 05:49:40,957 -ERROR - Failed to get ticker 'AGARIND.NS' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2024-10-11 05:49:41,293 -ERROR - 
+3 Failed downloads:
+2024-10-11 05:49:41,294 -ERROR - ['AEGISCHEM.NS', 'MCDOWELL-N.NS']: YFPricesMissingError('$%ticker%: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")')
+2024-10-11 05:49:41,294 -ERROR - ['RPEL.BO']: YFInvalidPeriodError("%ticker%: Period '1y' is invalid, must be one of ['1d', '5d', '1mo', '3mo', 'ytd', 'max']")
+2024-10-11 05:49:44,097 -INFO - PH PL alert Ended...
+2024-10-11 05:49:47,200 -INFO - Message sent successfully! - 
