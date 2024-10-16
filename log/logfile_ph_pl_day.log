@@ -9576,3 +9576,193 @@ ValueError: Length of values (41205) does not match length of index (41150)
 2024-10-15 11:50:56,644 -INFO - All stocks - json file saved
 2024-10-15 11:51:13,381 -INFO - All stocks - Excel file Saved
 2024-10-15 11:51:13,381 -INFO - All stocks - json file saved
+2024-10-16 11:36:28,285 -INFO - Started...
+2024-10-16 11:36:29,169 -INFO - Started...
+2024-10-16 11:36:37,627 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-10-16 11:36:37,627 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-10-16 11:36:39,082 -INFO - NMDC.NS - Process function started
+2024-10-16 11:36:39,083 -INFO - CANFINHOME.NS - Process function started
+2024-10-16 11:36:39,083 -INFO - CANFINHOME.NS - Reading existing data...
+2024-10-16 11:36:39,083 -INFO - NMDC.NS - Reading existing data...
+2024-10-16 11:36:39,083 -INFO - LTF.NS - Process function started
+2024-10-16 11:36:39,084 -INFO - HINDCOPPER.NS - Process function started
+2024-10-16 11:36:39,084 -INFO - LTF.NS - Reading existing data...
+2024-10-16 11:36:39,084 -INFO - IGL.NS - Process function started
+2024-10-16 11:36:39,084 -INFO - HINDCOPPER.NS - Reading existing data...
+2024-10-16 11:36:39,084 -INFO - PFC.NS - Process function started
+2024-10-16 11:36:39,084 -INFO - IGL.NS - Reading existing data...
+2024-10-16 11:36:39,085 -INFO - RECLTD.NS - Process function started
+2024-10-16 11:36:39,085 -INFO - PFC.NS - Reading existing data...
+2024-10-16 11:36:39,085 -INFO - TATACOMM.NS - Process function started
+2024-10-16 11:36:39,087 -INFO - UPL.NS - Process function started
+2024-10-16 11:36:39,087 -INFO - RECLTD.NS - Reading existing data...
+2024-10-16 11:36:39,087 -INFO - ICICIPRULI.NS - Process function started
+2024-10-16 11:36:39,088 -INFO - FEDERALBNK.NS - Process function started
+2024-10-16 11:36:39,088 -INFO - TATACOMM.NS - Reading existing data...
+2024-10-16 11:36:39,088 -INFO - UPL.NS - Reading existing data...
+2024-10-16 11:36:39,088 -INFO - NAVINFLUOR.NS - Process function started
+2024-10-16 11:36:39,088 -INFO - ICICIPRULI.NS - Reading existing data...
+2024-10-16 11:36:39,088 -INFO - AUROPHARMA.NS - Process function started
+2024-10-16 11:36:39,090 -INFO - FEDERALBNK.NS - Reading existing data...
+2024-10-16 11:36:39,091 -INFO - NAVINFLUOR.NS - Reading existing data...
+2024-10-16 11:36:39,094 -INFO - AUROPHARMA.NS - Reading existing data...
+2024-10-16 11:36:41,560 -INFO - last n isPivot function started
+2024-10-16 11:36:41,563 -INFO - last n isPivot function started
+2024-10-16 11:36:42,249 -INFO - last n isPivot function started
+2024-10-16 11:36:42,360 -INFO - last n isPivot function Ended
+2024-10-16 11:36:42,360 -INFO - LTF.NS - last n detect_structure function started
+2024-10-16 11:36:42,398 -INFO - LTF.NS - last n two_line_structure function started
+2024-10-16 11:36:42,403 -INFO - last n isPivot function started
+2024-10-16 11:36:43,357 -INFO - last n isPivot function Ended
+2024-10-16 11:36:43,361 -INFO - NMDC.NS - last n detect_structure function started
+2024-10-16 11:36:43,772 -INFO - NMDC.NS - last n two_line_structure function started
+2024-10-16 11:36:44,072 -INFO - last n isPivot function Ended
+2024-10-16 11:36:44,075 -INFO - CANFINHOME.NS - last n detect_structure function started
+2024-10-16 11:36:44,096 -INFO - CANFINHOME.NS - last n two_line_structure function started
+2024-10-16 11:36:44,209 -INFO - last n isPivot function started
+2024-10-16 11:36:44,269 -INFO - last n isPivot function Ended
+2024-10-16 11:36:44,271 -INFO - HINDCOPPER.NS - last n detect_structure function started
+2024-10-16 11:36:44,293 -INFO - HINDCOPPER.NS - last n two_line_structure function started
+2024-10-16 11:36:44,647 -INFO - last n isPivot function Ended
+2024-10-16 11:36:44,648 -INFO - ICICIPRULI.NS - last n detect_structure function started
+2024-10-16 11:36:44,661 -INFO - ICICIPRULI.NS - last n two_line_structure function started
+2024-10-16 11:36:44,803 -INFO - last n isPivot function started
+2024-10-16 11:36:44,965 -INFO - last n isPivot function started
+2024-10-16 11:36:46,170 -INFO - last n isPivot function Ended
+2024-10-16 11:36:46,173 -INFO - last n isPivot function Ended
+2024-10-16 11:36:46,205 -INFO - RECLTD.NS - last n detect_structure function started
+2024-10-16 11:36:46,214 -INFO - PFC.NS - last n detect_structure function started
+2024-10-16 11:36:46,228 -INFO - PFC.NS - last n two_line_structure function started
+2024-10-16 11:36:46,272 -INFO - RECLTD.NS - last n two_line_structure function started
+2024-10-16 11:36:47,124 -INFO - last n isPivot function started
+2024-10-16 11:36:47,607 -INFO - last n isPivot function started
+2024-10-16 11:36:48,680 -INFO - last n isPivot function Ended
+2024-10-16 11:36:48,684 -INFO - last n isPivot function Ended
+2024-10-16 11:36:48,711 -INFO - NAVINFLUOR.NS - last n detect_structure function started
+2024-10-16 11:36:48,717 -INFO - IGL.NS - last n detect_structure function started
+2024-10-16 11:36:48,718 -INFO - IGL.NS - last n two_line_structure function started
+2024-10-16 11:36:48,726 -INFO - NAVINFLUOR.NS - last n two_line_structure function started
+2024-10-16 11:36:48,966 -INFO - last n isPivot function started
+2024-10-16 11:36:48,968 -INFO - last n isPivot function started
+2024-10-16 11:36:50,469 -INFO - last n isPivot function Ended
+2024-10-16 11:36:50,479 -INFO - UPL.NS - last n detect_structure function started
+2024-10-16 11:36:50,484 -INFO - last n isPivot function Ended
+2024-10-16 11:36:50,537 -INFO - UPL.NS - last n two_line_structure function started
+2024-10-16 11:36:50,574 -INFO - TATACOMM.NS - last n detect_structure function started
+2024-10-16 11:36:50,596 -INFO - TATACOMM.NS - last n two_line_structure function started
+2024-10-16 11:36:51,257 -INFO - last n isPivot function started
+2024-10-16 11:36:52,393 -INFO - last n isPivot function started
+2024-10-16 11:36:52,469 -INFO - last n isPivot function Ended
+2024-10-16 11:36:52,476 -INFO - FEDERALBNK.NS - last n detect_structure function started
+2024-10-16 11:36:52,477 -INFO - FEDERALBNK.NS - last n two_line_structure function started
+2024-10-16 11:36:53,547 -INFO - last n isPivot function Ended
+2024-10-16 11:36:53,548 -INFO - AUROPHARMA.NS - last n detect_structure function started
+2024-10-16 11:36:53,597 -INFO - AUROPHARMA.NS - last n two_line_structure function started
+2024-10-16 11:38:54,822 -INFO - ICICIPRULI.NS - last n two_line_structure function Ended
+2024-10-16 11:39:24,002 -INFO - ICICIPRULI.NS - last n detect_structure function Ended
+2024-10-16 11:39:24,048 -INFO - ICICIPRULI.NS - add_ph_pl_values function started
+2024-10-16 11:39:24,289 -INFO - ICICIPRULI.NS - add_ph_pl_values function Ended
+2024-10-16 11:40:28,262 -INFO - LTF.NS - last n two_line_structure function Ended
+2024-10-16 11:40:47,026 -INFO - HINDCOPPER.NS - last n two_line_structure function Ended
+2024-10-16 11:40:55,690 -INFO - LTF.NS - last n detect_structure function Ended
+2024-10-16 11:40:55,709 -INFO - LTF.NS - add_ph_pl_values function started
+2024-10-16 11:40:55,855 -INFO - LTF.NS - add_ph_pl_values function Ended
+2024-10-16 11:40:56,562 -INFO - RECLTD.NS - last n two_line_structure function Ended
+2024-10-16 11:41:12,772 -INFO - NMDC.NS - last n two_line_structure function Ended
+2024-10-16 11:41:20,977 -INFO - NAVINFLUOR.NS - last n two_line_structure function Ended
+2024-10-16 11:41:24,498 -INFO - PFC.NS - last n two_line_structure function Ended
+2024-10-16 11:41:27,851 -INFO - HINDCOPPER.NS - last n detect_structure function Ended
+2024-10-16 11:41:27,896 -INFO - HINDCOPPER.NS - add_ph_pl_values function started
+2024-10-16 11:41:28,060 -INFO - HINDCOPPER.NS - add_ph_pl_values function Ended
+2024-10-16 11:41:28,223 -INFO - All stocks - Excel file Saved
+2024-10-16 11:41:28,354 -INFO - All stocks - json file saved
+2024-10-16 11:41:28,356 -INFO - ICICIPRULI.NS - alerts file Saved
+2024-10-16 11:41:28,363 -INFO - ICICIPRULI.NS - Process function Ended
+2024-10-16 11:41:46,532 -INFO - RECLTD.NS - last n detect_structure function Ended
+2024-10-16 11:41:46,548 -INFO - RECLTD.NS - add_ph_pl_values function started
+2024-10-16 11:41:46,634 -INFO - RECLTD.NS - add_ph_pl_values function Ended
+2024-10-16 11:42:05,722 -INFO - NMDC.NS - last n detect_structure function Ended
+2024-10-16 11:42:05,725 -INFO - NMDC.NS - add_ph_pl_values function started
+2024-10-16 11:42:05,820 -INFO - NMDC.NS - add_ph_pl_values function Ended
+2024-10-16 11:42:17,891 -INFO - IGL.NS - last n two_line_structure function Ended
+2024-10-16 11:42:18,345 -INFO - NAVINFLUOR.NS - last n detect_structure function Ended
+2024-10-16 11:42:18,353 -INFO - NAVINFLUOR.NS - add_ph_pl_values function started
+2024-10-16 11:42:18,452 -INFO - NAVINFLUOR.NS - add_ph_pl_values function Ended
+2024-10-16 11:42:20,060 -INFO - PFC.NS - last n detect_structure function Ended
+2024-10-16 11:42:20,063 -INFO - PFC.NS - add_ph_pl_values function started
+2024-10-16 11:42:20,089 -INFO - PFC.NS - add_ph_pl_values function Ended
+2024-10-16 11:42:43,945 -INFO - TATACOMM.NS - last n two_line_structure function Ended
+2024-10-16 11:42:57,446 -INFO - All stocks - Excel file Saved
+2024-10-16 11:42:57,453 -INFO - All stocks - json file saved
+2024-10-16 11:42:57,454 -INFO - LTF.NS - alerts file Saved
+2024-10-16 11:42:57,456 -INFO - LTF.NS - Process function Ended
+2024-10-16 11:42:59,954 -INFO - UPL.NS - last n two_line_structure function Ended
+2024-10-16 11:43:11,380 -INFO - CANFINHOME.NS - last n two_line_structure function Ended
+2024-10-16 11:43:24,607 -INFO - All stocks - Excel file Saved
+2024-10-16 11:43:24,795 -INFO - All stocks - json file saved
+2024-10-16 11:43:24,796 -INFO - HINDCOPPER.NS - alerts file Saved
+2024-10-16 11:43:24,796 -INFO - HINDCOPPER.NS - Process function Ended
+2024-10-16 11:43:32,790 -INFO - All stocks - Excel file Saved
+2024-10-16 11:43:32,798 -INFO - All stocks - json file saved
+2024-10-16 11:43:32,798 -INFO - RECLTD.NS - alerts file Saved
+2024-10-16 11:43:32,800 -INFO - RECLTD.NS - Process function Ended
+2024-10-16 11:43:38,687 -INFO - All stocks - Excel file Saved
+2024-10-16 11:43:38,689 -INFO - IGL.NS - last n detect_structure function Ended
+2024-10-16 11:43:38,689 -INFO - All stocks - json file saved
+2024-10-16 11:43:38,689 -INFO - NMDC.NS - alerts file Saved
+2024-10-16 11:43:38,689 -INFO - NMDC.NS - Process function Ended
+2024-10-16 11:43:38,694 -INFO - IGL.NS - add_ph_pl_values function started
+2024-10-16 11:43:38,727 -INFO - IGL.NS - add_ph_pl_values function Ended
+2024-10-16 11:43:49,243 -INFO - All stocks - Excel file Saved
+2024-10-16 11:43:49,249 -INFO - All stocks - json file saved
+2024-10-16 11:43:49,249 -INFO - NAVINFLUOR.NS - alerts file Saved
+2024-10-16 11:43:49,250 -INFO - NAVINFLUOR.NS - Process function Ended
+2024-10-16 11:43:49,864 -INFO - TATACOMM.NS - last n detect_structure function Ended
+2024-10-16 11:43:49,869 -INFO - TATACOMM.NS - add_ph_pl_values function started
+2024-10-16 11:43:49,890 -INFO - TATACOMM.NS - add_ph_pl_values function Ended
+2024-10-16 11:43:56,170 -INFO - All stocks - Excel file Saved
+2024-10-16 11:43:56,483 -INFO - All stocks - json file saved
+2024-10-16 11:43:56,483 -INFO - PFC.NS - alerts file Saved
+2024-10-16 11:43:56,483 -INFO - PFC.NS - Process function Ended
+2024-10-16 11:43:57,807 -INFO - UPL.NS - last n detect_structure function Ended
+2024-10-16 11:43:57,811 -INFO - UPL.NS - add_ph_pl_values function started
+2024-10-16 11:43:57,837 -INFO - UPL.NS - add_ph_pl_values function Ended
+2024-10-16 11:44:07,602 -INFO - CANFINHOME.NS - last n detect_structure function Ended
+2024-10-16 11:44:07,609 -INFO - CANFINHOME.NS - add_ph_pl_values function started
+2024-10-16 11:44:07,644 -INFO - CANFINHOME.NS - add_ph_pl_values function Ended
+2024-10-16 11:44:13,992 -INFO - FEDERALBNK.NS - last n two_line_structure function Ended
+2024-10-16 11:44:21,949 -INFO - AUROPHARMA.NS - last n two_line_structure function Ended
+2024-10-16 11:44:49,846 -INFO - All stocks - Excel file Saved
+2024-10-16 11:44:49,847 -INFO - All stocks - json file saved
+2024-10-16 11:44:49,847 -INFO - IGL.NS - alerts file Saved
+2024-10-16 11:44:49,847 -INFO - IGL.NS - Process function Ended
+2024-10-16 11:44:52,715 -INFO - All stocks - Excel file Saved
+2024-10-16 11:44:52,716 -INFO - All stocks - json file saved
+2024-10-16 11:44:52,716 -INFO - TATACOMM.NS - alerts file Saved
+2024-10-16 11:44:52,716 -INFO - TATACOMM.NS - Process function Ended
+2024-10-16 11:44:53,580 -INFO - All stocks - Excel file Saved
+2024-10-16 11:44:53,582 -INFO - All stocks - json file saved
+2024-10-16 11:44:53,582 -INFO - UPL.NS - alerts file Saved
+2024-10-16 11:44:53,582 -INFO - UPL.NS - Process function Ended
+2024-10-16 11:44:57,364 -INFO - AUROPHARMA.NS - last n detect_structure function Ended
+2024-10-16 11:44:57,365 -INFO - AUROPHARMA.NS - add_ph_pl_values function started
+2024-10-16 11:44:57,383 -INFO - AUROPHARMA.NS - add_ph_pl_values function Ended
+2024-10-16 11:44:58,157 -INFO - FEDERALBNK.NS - last n detect_structure function Ended
+2024-10-16 11:44:58,158 -INFO - FEDERALBNK.NS - add_ph_pl_values function started
+2024-10-16 11:44:58,161 -INFO - FEDERALBNK.NS - add_ph_pl_values function Ended
+2024-10-16 11:44:59,071 -INFO - All stocks - Excel file Saved
+2024-10-16 11:44:59,072 -INFO - All stocks - json file saved
+2024-10-16 11:44:59,072 -INFO - CANFINHOME.NS - alerts file Saved
+2024-10-16 11:44:59,072 -INFO - CANFINHOME.NS - Process function Ended
+2024-10-16 11:45:30,325 -INFO - All stocks - Excel file Saved
+2024-10-16 11:45:30,325 -INFO - All stocks - json file saved
+2024-10-16 11:45:30,325 -INFO - FEDERALBNK.NS - alerts file Saved
+2024-10-16 11:45:30,325 -INFO - FEDERALBNK.NS - Process function Ended
+2024-10-16 11:45:30,329 -INFO - All stocks - Excel file Saved
+2024-10-16 11:45:30,329 -INFO - All stocks - json file saved
+2024-10-16 11:45:30,329 -INFO - AUROPHARMA.NS - alerts file Saved
+2024-10-16 11:45:30,329 -INFO - AUROPHARMA.NS - Process function Ended
+2024-10-16 11:45:46,924 -INFO - All stocks - Excel file Saved
+2024-10-16 11:45:46,925 -INFO - All stocks - json file saved
+2024-10-16 11:46:03,261 -INFO - All stocks - Excel file Saved
+2024-10-16 11:46:03,261 -INFO - All stocks - json file saved
