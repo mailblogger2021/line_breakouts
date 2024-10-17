@@ -9766,3 +9766,194 @@ ValueError: Length of values (41205) does not match length of index (41150)
 2024-10-16 11:45:46,925 -INFO - All stocks - json file saved
 2024-10-16 11:46:03,261 -INFO - All stocks - Excel file Saved
 2024-10-16 11:46:03,261 -INFO - All stocks - json file saved
+2024-10-17 11:35:02,081 -INFO - Started...
+2024-10-17 11:35:02,983 -INFO - Started...
+2024-10-17 11:35:10,953 -INFO - TATACOMM.NS - this stock already completed
+2024-10-17 11:35:10,954 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-10-17 11:35:10,954 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-10-17 11:35:13,682 -INFO - RAMCOCEM.NS - Process function started
+2024-10-17 11:35:13,682 -INFO - RAMCOCEM.NS - Reading existing data...
+2024-10-17 11:35:13,682 -INFO - DRREDDY.NS - Process function started
+2024-10-17 11:35:13,682 -INFO - HINDALCO.NS - Process function started
+2024-10-17 11:35:13,683 -INFO - DIVISLAB.NS - Process function started
+2024-10-17 11:35:13,683 -INFO - DRREDDY.NS - Reading existing data...
+2024-10-17 11:35:13,683 -INFO - GNFC.NS - Process function started
+2024-10-17 11:35:13,683 -INFO - HINDALCO.NS - Reading existing data...
+2024-10-17 11:35:13,683 -INFO - SHREECEM.NS - Process function started
+2024-10-17 11:35:13,683 -INFO - DIVISLAB.NS - Reading existing data...
+2024-10-17 11:35:13,683 -INFO - GRASIM.NS - Process function started
+2024-10-17 11:35:13,683 -INFO - JINDALSTEL.NS - Process function started
+2024-10-17 11:35:13,683 -INFO - BALRAMCHIN.NS - Process function started
+2024-10-17 11:35:13,684 -INFO - GNFC.NS - Reading existing data...
+2024-10-17 11:35:13,684 -INFO - CHAMBLFERT.NS - Process function started
+2024-10-17 11:35:13,684 -INFO - MARICO.NS - Process function started
+2024-10-17 11:35:13,684 -INFO - BRITANNIA.NS - Process function started
+2024-10-17 11:35:13,684 -INFO - SHREECEM.NS - Reading existing data...
+2024-10-17 11:35:13,684 -INFO - ABCAPITAL.NS - Process function started
+2024-10-17 11:35:13,685 -INFO - GRASIM.NS - Reading existing data...
+2024-10-17 11:35:13,686 -INFO - JINDALSTEL.NS - Reading existing data...
+2024-10-17 11:35:13,686 -INFO - BALRAMCHIN.NS - Reading existing data...
+2024-10-17 11:35:13,686 -INFO - CHAMBLFERT.NS - Reading existing data...
+2024-10-17 11:35:13,687 -INFO - MARICO.NS - Reading existing data...
+2024-10-17 11:35:13,688 -INFO - BRITANNIA.NS - Reading existing data...
+2024-10-17 11:35:13,688 -INFO - ABCAPITAL.NS - Reading existing data...
+2024-10-17 11:35:14,834 -INFO - last n isPivot function started
+2024-10-17 11:35:15,482 -INFO - last n isPivot function Ended
+2024-10-17 11:35:15,482 -INFO - RAMCOCEM.NS - last n detect_structure function started
+2024-10-17 11:35:15,491 -INFO - RAMCOCEM.NS - last n two_line_structure function started
+2024-10-17 11:35:15,561 -INFO - last n isPivot function started
+2024-10-17 11:35:16,098 -INFO - last n isPivot function started
+2024-10-17 11:35:16,651 -INFO - last n isPivot function Ended
+2024-10-17 11:35:16,652 -INFO - HINDALCO.NS - last n detect_structure function started
+2024-10-17 11:35:16,746 -INFO - HINDALCO.NS - last n two_line_structure function started
+2024-10-17 11:35:17,976 -INFO - last n isPivot function Ended
+2024-10-17 11:35:17,976 -INFO - DRREDDY.NS - last n detect_structure function started
+2024-10-17 11:35:18,047 -INFO - DRREDDY.NS - last n two_line_structure function started
+2024-10-17 11:35:20,484 -INFO - last n isPivot function started
+2024-10-17 11:35:20,764 -INFO - last n isPivot function started
+2024-10-17 11:35:21,746 -INFO - last n isPivot function Ended
+2024-10-17 11:35:21,746 -INFO - GNFC.NS - last n detect_structure function started
+2024-10-17 11:35:21,752 -INFO - GNFC.NS - last n two_line_structure function started
+2024-10-17 11:35:21,757 -INFO - last n isPivot function started
+2024-10-17 11:35:21,945 -INFO - last n isPivot function Ended
+2024-10-17 11:35:21,945 -INFO - DIVISLAB.NS - last n detect_structure function started
+2024-10-17 11:35:21,951 -INFO - DIVISLAB.NS - last n two_line_structure function started
+2024-10-17 11:35:21,963 -INFO - last n isPivot function started
+2024-10-17 11:35:21,963 -INFO - last n isPivot function Ended
+2024-10-17 11:35:21,967 -INFO - last n isPivot function started
+2024-10-17 11:35:21,983 -INFO - last n isPivot function started
+2024-10-17 11:35:21,987 -INFO - ABCAPITAL.NS - last n detect_structure function started
+2024-10-17 11:35:21,994 -INFO - ABCAPITAL.NS - last n two_line_structure function started
+2024-10-17 11:35:22,018 -INFO - last n isPivot function started
+2024-10-17 11:35:24,103 -INFO - last n isPivot function Ended
+2024-10-17 11:35:24,103 -INFO - MARICO.NS - last n detect_structure function started
+2024-10-17 11:35:24,104 -INFO - last n isPivot function started
+2024-10-17 11:35:24,429 -INFO - MARICO.NS - last n two_line_structure function started
+2024-10-17 11:35:24,452 -INFO - last n isPivot function Ended
+2024-10-17 11:35:24,452 -INFO - BALRAMCHIN.NS - last n detect_structure function started
+2024-10-17 11:35:24,727 -INFO - BALRAMCHIN.NS - last n two_line_structure function started
+2024-10-17 11:35:24,776 -INFO - last n isPivot function Ended
+2024-10-17 11:35:24,776 -INFO - SHREECEM.NS - last n detect_structure function started
+2024-10-17 11:35:24,786 -INFO - SHREECEM.NS - last n two_line_structure function started
+2024-10-17 11:35:24,796 -INFO - last n isPivot function started
+2024-10-17 11:35:25,369 -INFO - last n isPivot function started
+2024-10-17 11:35:25,451 -INFO - last n isPivot function Ended
+2024-10-17 11:35:25,451 -INFO - CHAMBLFERT.NS - last n detect_structure function started
+2024-10-17 11:35:25,457 -INFO - CHAMBLFERT.NS - last n two_line_structure function started
+2024-10-17 11:35:26,991 -INFO - last n isPivot function Ended
+2024-10-17 11:35:26,991 -INFO - GRASIM.NS - last n detect_structure function started
+2024-10-17 11:35:26,997 -INFO - GRASIM.NS - last n two_line_structure function started
+2024-10-17 11:35:27,019 -INFO - last n isPivot function Ended
+2024-10-17 11:35:27,019 -INFO - JINDALSTEL.NS - last n detect_structure function started
+2024-10-17 11:35:27,033 -INFO - JINDALSTEL.NS - last n two_line_structure function started
+2024-10-17 11:35:27,058 -INFO - last n isPivot function Ended
+2024-10-17 11:35:27,058 -INFO - BRITANNIA.NS - last n detect_structure function started
+2024-10-17 11:35:27,094 -INFO - BRITANNIA.NS - last n two_line_structure function started
+2024-10-17 11:36:25,218 -INFO - ABCAPITAL.NS - last n two_line_structure function Ended
+2024-10-17 11:36:42,509 -INFO - ABCAPITAL.NS - last n detect_structure function Ended
+2024-10-17 11:36:42,517 -INFO - ABCAPITAL.NS - add_ph_pl_values function started
+2024-10-17 11:36:42,638 -INFO - ABCAPITAL.NS - add_ph_pl_values function Ended
+2024-10-17 11:38:29,673 -INFO - All stocks - Excel file Saved
+2024-10-17 11:38:29,732 -INFO - All stocks - json file saved
+2024-10-17 11:38:29,732 -INFO - ABCAPITAL.NS - alerts file Saved
+2024-10-17 11:38:29,732 -INFO - ABCAPITAL.NS - Process function Ended
+2024-10-17 11:38:55,797 -INFO - DIVISLAB.NS - last n two_line_structure function Ended
+2024-10-17 11:38:58,252 -INFO - GRASIM.NS - last n two_line_structure function Ended
+2024-10-17 11:39:04,588 -INFO - BALRAMCHIN.NS - last n two_line_structure function Ended
+2024-10-17 11:39:04,813 -INFO - GNFC.NS - last n two_line_structure function Ended
+2024-10-17 11:39:07,813 -INFO - CHAMBLFERT.NS - last n two_line_structure function Ended
+2024-10-17 11:39:10,356 -INFO - RAMCOCEM.NS - last n two_line_structure function Ended
+2024-10-17 11:39:13,094 -INFO - SHREECEM.NS - last n two_line_structure function Ended
+2024-10-17 11:39:22,686 -INFO - JINDALSTEL.NS - last n two_line_structure function Ended
+2024-10-17 11:39:31,583 -INFO - DIVISLAB.NS - last n detect_structure function Ended
+2024-10-17 11:39:31,592 -INFO - DIVISLAB.NS - add_ph_pl_values function started
+2024-10-17 11:39:31,676 -INFO - DIVISLAB.NS - add_ph_pl_values function Ended
+2024-10-17 11:39:32,973 -INFO - GRASIM.NS - last n detect_structure function Ended
+2024-10-17 11:39:32,981 -INFO - GRASIM.NS - add_ph_pl_values function started
+2024-10-17 11:39:33,051 -INFO - GRASIM.NS - add_ph_pl_values function Ended
+2024-10-17 11:39:50,512 -INFO - BALRAMCHIN.NS - last n detect_structure function Ended
+2024-10-17 11:39:50,525 -INFO - BALRAMCHIN.NS - add_ph_pl_values function started
+2024-10-17 11:39:50,578 -INFO - BALRAMCHIN.NS - add_ph_pl_values function Ended
+2024-10-17 11:39:59,995 -INFO - RAMCOCEM.NS - last n detect_structure function Ended
+2024-10-17 11:40:00,017 -INFO - RAMCOCEM.NS - add_ph_pl_values function started
+2024-10-17 11:40:00,082 -INFO - RAMCOCEM.NS - add_ph_pl_values function Ended
+2024-10-17 11:40:00,638 -INFO - GNFC.NS - last n detect_structure function Ended
+2024-10-17 11:40:00,647 -INFO - GNFC.NS - add_ph_pl_values function started
+2024-10-17 11:40:00,970 -INFO - GNFC.NS - add_ph_pl_values function Ended
+2024-10-17 11:40:15,972 -INFO - HINDALCO.NS - last n two_line_structure function Ended
+2024-10-17 11:40:16,051 -INFO - SHREECEM.NS - last n detect_structure function Ended
+2024-10-17 11:40:16,063 -INFO - SHREECEM.NS - add_ph_pl_values function started
+2024-10-17 11:40:16,108 -INFO - SHREECEM.NS - add_ph_pl_values function Ended
+2024-10-17 11:40:24,741 -INFO - BRITANNIA.NS - last n two_line_structure function Ended
+2024-10-17 11:40:24,894 -INFO - CHAMBLFERT.NS - last n detect_structure function Ended
+2024-10-17 11:40:24,909 -INFO - CHAMBLFERT.NS - add_ph_pl_values function started
+2024-10-17 11:40:24,951 -INFO - CHAMBLFERT.NS - add_ph_pl_values function Ended
+2024-10-17 11:40:28,299 -INFO - DRREDDY.NS - last n two_line_structure function Ended
+2024-10-17 11:41:17,741 -INFO - JINDALSTEL.NS - last n detect_structure function Ended
+2024-10-17 11:41:19,566 -INFO - JINDALSTEL.NS - add_ph_pl_values function started
+2024-10-17 11:41:20,147 -INFO - JINDALSTEL.NS - add_ph_pl_values function Ended
+2024-10-17 11:42:09,425 -INFO - MARICO.NS - last n two_line_structure function Ended
+2024-10-17 11:42:09,442 -INFO - All stocks - Excel file Saved
+2024-10-17 11:42:09,447 -INFO - All stocks - json file saved
+2024-10-17 11:42:09,447 -INFO - GRASIM.NS - alerts file Saved
+2024-10-17 11:42:09,448 -INFO - GRASIM.NS - Process function Ended
+2024-10-17 11:42:09,890 -INFO - All stocks - Excel file Saved
+2024-10-17 11:42:09,920 -INFO - All stocks - json file saved
+2024-10-17 11:42:09,920 -INFO - DIVISLAB.NS - alerts file Saved
+2024-10-17 11:42:09,920 -INFO - DIVISLAB.NS - Process function Ended
+2024-10-17 11:42:21,923 -INFO - All stocks - Excel file Saved
+2024-10-17 11:42:21,929 -INFO - All stocks - json file saved
+2024-10-17 11:42:21,934 -INFO - BALRAMCHIN.NS - alerts file Saved
+2024-10-17 11:42:21,934 -INFO - BALRAMCHIN.NS - Process function Ended
+2024-10-17 11:42:24,935 -INFO - All stocks - Excel file Saved
+2024-10-17 11:42:25,233 -INFO - All stocks - json file saved
+2024-10-17 11:42:25,233 -INFO - GNFC.NS - alerts file Saved
+2024-10-17 11:42:25,251 -INFO - GNFC.NS - Process function Ended
+2024-10-17 11:42:25,353 -INFO - All stocks - Excel file Saved
+2024-10-17 11:42:25,600 -INFO - All stocks - json file saved
+2024-10-17 11:42:25,601 -INFO - RAMCOCEM.NS - alerts file Saved
+2024-10-17 11:42:25,601 -INFO - RAMCOCEM.NS - Process function Ended
+2024-10-17 11:42:25,846 -INFO - All stocks - Excel file Saved
+2024-10-17 11:42:25,849 -INFO - All stocks - json file saved
+2024-10-17 11:42:25,849 -INFO - SHREECEM.NS - alerts file Saved
+2024-10-17 11:42:25,849 -INFO - SHREECEM.NS - Process function Ended
+2024-10-17 11:42:34,405 -INFO - All stocks - Excel file Saved
+2024-10-17 11:42:34,411 -INFO - All stocks - json file saved
+2024-10-17 11:42:34,411 -INFO - CHAMBLFERT.NS - alerts file Saved
+2024-10-17 11:42:34,411 -INFO - CHAMBLFERT.NS - Process function Ended
+2024-10-17 11:42:41,544 -INFO - HINDALCO.NS - last n detect_structure function Ended
+2024-10-17 11:42:41,551 -INFO - HINDALCO.NS - add_ph_pl_values function started
+2024-10-17 11:42:41,566 -INFO - HINDALCO.NS - add_ph_pl_values function Ended
+2024-10-17 11:42:49,063 -INFO - DRREDDY.NS - last n detect_structure function Ended
+2024-10-17 11:42:49,066 -INFO - DRREDDY.NS - add_ph_pl_values function started
+2024-10-17 11:42:49,075 -INFO - DRREDDY.NS - add_ph_pl_values function Ended
+2024-10-17 11:42:49,812 -INFO - All stocks - Excel file Saved
+2024-10-17 11:42:49,815 -INFO - All stocks - json file saved
+2024-10-17 11:42:49,815 -INFO - JINDALSTEL.NS - alerts file Saved
+2024-10-17 11:42:49,815 -INFO - JINDALSTEL.NS - Process function Ended
+2024-10-17 11:42:50,006 -INFO - BRITANNIA.NS - last n detect_structure function Ended
+2024-10-17 11:42:50,007 -INFO - BRITANNIA.NS - add_ph_pl_values function started
+2024-10-17 11:42:50,018 -INFO - BRITANNIA.NS - add_ph_pl_values function Ended
+2024-10-17 11:43:36,786 -INFO - All stocks - Excel file Saved
+2024-10-17 11:43:36,787 -INFO - All stocks - json file saved
+2024-10-17 11:43:36,787 -INFO - HINDALCO.NS - alerts file Saved
+2024-10-17 11:43:36,787 -INFO - HINDALCO.NS - Process function Ended
+2024-10-17 11:43:36,983 -INFO - MARICO.NS - last n detect_structure function Ended
+2024-10-17 11:43:36,984 -INFO - MARICO.NS - add_ph_pl_values function started
+2024-10-17 11:43:36,988 -INFO - MARICO.NS - add_ph_pl_values function Ended
+2024-10-17 11:43:43,121 -INFO - All stocks - Excel file Saved
+2024-10-17 11:43:43,122 -INFO - All stocks - json file saved
+2024-10-17 11:43:43,122 -INFO - DRREDDY.NS - alerts file Saved
+2024-10-17 11:43:43,122 -INFO - DRREDDY.NS - Process function Ended
+2024-10-17 11:43:43,450 -INFO - All stocks - Excel file Saved
+2024-10-17 11:43:43,451 -INFO - All stocks - json file saved
+2024-10-17 11:43:43,451 -INFO - BRITANNIA.NS - alerts file Saved
+2024-10-17 11:43:43,451 -INFO - BRITANNIA.NS - Process function Ended
+2024-10-17 11:43:54,945 -INFO - All stocks - Excel file Saved
+2024-10-17 11:43:54,946 -INFO - All stocks - json file saved
+2024-10-17 11:43:54,946 -INFO - MARICO.NS - alerts file Saved
+2024-10-17 11:43:54,946 -INFO - MARICO.NS - Process function Ended
+2024-10-17 11:44:11,460 -INFO - All stocks - Excel file Saved
+2024-10-17 11:44:11,461 -INFO - All stocks - json file saved
+2024-10-17 11:44:27,793 -INFO - All stocks - Excel file Saved
+2024-10-17 11:44:27,793 -INFO - All stocks - json file saved
