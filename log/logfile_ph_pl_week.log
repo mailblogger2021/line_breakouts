@@ -2891,3 +2891,67 @@ ValueError: Length of values (93097) does not match length of index (90998)
 2024-10-11 11:36:48,999 -INFO - All stocks - json file saved
 2024-10-11 11:37:16,240 -INFO - All stocks - Excel file Saved
 2024-10-11 11:37:16,240 -INFO - All stocks - json file saved
+2024-10-18 11:34:23,574 -INFO - Started...
+2024-10-18 11:34:25,175 -INFO - Started...
+2024-10-18 11:34:40,080 -INFO - ALKEM.NS - this stock already completed
+2024-10-18 11:34:40,080 -INFO - ABFRL.NS - this stock already completed
+2024-10-18 11:34:40,080 -INFO - SBICARD.NS - this stock already completed
+2024-10-18 11:34:40,080 -INFO - SIEMENS.NS - this stock already completed
+2024-10-18 11:34:40,080 -INFO - JKCEMENT.NS - this stock already completed
+2024-10-18 11:34:40,080 -INFO - IRCTC.NS - this stock already completed
+2024-10-18 11:34:40,080 -INFO - CANFINHOME.NS - this stock already completed
+2024-10-18 11:34:40,080 -INFO - LAURUSLABS.NS - this stock already completed
+2024-10-18 11:34:40,080 -INFO - INDIAMART.NS - this stock already completed
+2024-10-18 11:34:40,080 -INFO - FEDERALBNK.NS - this stock already completed
+2024-10-18 11:34:40,080 -INFO - GODREJCP.NS - this stock already completed
+2024-10-18 11:34:40,080 -INFO - NMDC.NS - this stock already completed
+2024-10-18 11:34:40,080 -INFO - INDIGO.NS - this stock already completed
+2024-10-18 11:34:40,080 -INFO - NTPC.NS - this stock already completed
+2024-10-18 11:34:40,080 -INFO - SBIN.NS - this stock already completed
+2024-10-18 11:34:40,080 -INFO - MUTHOOTFIN.NS - this stock already completed
+2024-10-18 11:34:40,082 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-10-18 11:34:40,617 -INFO - CANBK.NS - Process function started
+2024-10-18 11:34:40,617 -INFO - ESCORTS.NS - Process function started
+2024-10-18 11:34:40,618 -INFO - AUROPHARMA.NS - Process function started
+2024-10-18 11:34:40,618 -INFO - CANBK.NS - Reading existing data...
+2024-10-18 11:34:40,622 -INFO - AUROPHARMA.NS - Reading existing data...
+2024-10-18 11:34:40,623 -INFO - ESCORTS.NS - isPivot function started
+2024-10-18 11:34:40,833 -INFO - ESCORTS.NS - isPivot function Ended
+2024-10-18 11:34:40,834 -INFO - ESCORTS.NS -  detect_structure function started
+2024-10-18 11:34:40,835 -INFO - ESCORTS.NS -  two_line_structure function started
+2024-10-18 11:34:41,162 -INFO - last n isPivot function started
+2024-10-18 11:34:41,319 -INFO - last n isPivot function Ended
+2024-10-18 11:34:41,319 -INFO - CANBK.NS - last n detect_structure function started
+2024-10-18 11:34:41,322 -INFO - CANBK.NS - last n two_line_structure function started
+2024-10-18 11:34:41,345 -INFO - last n isPivot function started
+2024-10-18 11:34:41,567 -INFO - last n isPivot function Ended
+2024-10-18 11:34:41,568 -INFO - AUROPHARMA.NS - last n detect_structure function started
+2024-10-18 11:34:41,573 -INFO - AUROPHARMA.NS - last n two_line_structure function started
+2024-10-18 11:34:55,035 -INFO - CANBK.NS - last n two_line_structure function Ended
+2024-10-18 11:34:59,046 -INFO - AUROPHARMA.NS - last n two_line_structure function Ended
+2024-10-18 11:34:59,518 -INFO - ESCORTS.NS -  two_line_structure function Ended
+2024-10-18 11:35:10,726 -INFO - CANBK.NS - last n detect_structure function Ended
+2024-10-18 11:35:10,727 -INFO - CANBK.NS - add_ph_pl_values function started
+2024-10-18 11:35:10,751 -INFO - CANBK.NS - add_ph_pl_values function Ended
+2024-10-18 11:35:26,279 -INFO - AUROPHARMA.NS - last n detect_structure function Ended
+2024-10-18 11:35:26,280 -INFO - AUROPHARMA.NS - add_ph_pl_values function started
+2024-10-18 11:35:26,287 -INFO - AUROPHARMA.NS - add_ph_pl_values function Ended
+2024-10-18 11:35:38,667 -INFO - ESCORTS.NS -  detect_structure function Ended
+2024-10-18 11:35:38,667 -INFO - ESCORTS.NS - add_ph_pl_values function started
+2024-10-18 11:35:38,671 -INFO - ESCORTS.NS - add_ph_pl_values function Ended
+2024-10-18 11:36:30,270 -INFO - All stocks - Excel file Saved
+2024-10-18 11:36:30,271 -INFO - All stocks - json file saved
+2024-10-18 11:36:30,271 -INFO - CANBK.NS - alerts file Saved
+2024-10-18 11:36:30,271 -INFO - CANBK.NS - Process function Ended
+2024-10-18 11:36:32,244 -INFO - All stocks - Excel file Saved
+2024-10-18 11:36:32,245 -INFO - All stocks - json file saved
+2024-10-18 11:36:32,245 -INFO - ESCORTS.NS - alerts file Saved
+2024-10-18 11:36:32,245 -INFO - ESCORTS.NS - Process function Ended
+2024-10-18 11:36:32,815 -INFO - All stocks - Excel file Saved
+2024-10-18 11:36:32,815 -INFO - All stocks - json file saved
+2024-10-18 11:36:32,815 -INFO - AUROPHARMA.NS - alerts file Saved
+2024-10-18 11:36:32,815 -INFO - AUROPHARMA.NS - Process function Ended
+2024-10-18 11:36:57,703 -INFO - All stocks - Excel file Saved
+2024-10-18 11:36:57,703 -INFO - All stocks - json file saved
+2024-10-18 11:37:23,580 -INFO - All stocks - Excel file Saved
+2024-10-18 11:37:23,580 -INFO - All stocks - json file saved
