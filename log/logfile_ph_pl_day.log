@@ -9957,3 +9957,264 @@ ValueError: Length of values (41205) does not match length of index (41150)
 2024-10-17 11:44:11,461 -INFO - All stocks - json file saved
 2024-10-17 11:44:27,793 -INFO - All stocks - Excel file Saved
 2024-10-17 11:44:27,793 -INFO - All stocks - json file saved
+2024-10-22 11:36:24,655 -INFO - Started...
+2024-10-22 11:36:26,064 -INFO - Started...
+2024-10-22 11:36:34,110 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-10-22 11:36:38,252 -ERROR - 
+1 Failed download:
+2024-10-22 11:36:38,253 -ERROR - ['BALKRISIND.NS']: OperationalError('database is locked')
+2024-10-22 11:36:38,612 -INFO - WIPRO.NS - Process function started
+2024-10-22 11:36:38,613 -INFO - WIPRO.NS - Reading existing data...
+2024-10-22 11:36:38,613 -INFO - COROMANDEL.NS - Process function started
+2024-10-22 11:36:38,613 -INFO - FEDERALBNK.NS - Process function started
+2024-10-22 11:36:38,613 -INFO - APOLLOTYRE.NS - Process function started
+2024-10-22 11:36:38,613 -INFO - COROMANDEL.NS - Reading existing data...
+2024-10-22 11:36:38,613 -INFO - INDIGO.NS - Process function started
+2024-10-22 11:36:38,613 -INFO - FEDERALBNK.NS - Reading existing data...
+2024-10-22 11:36:38,613 -INFO - APOLLOTYRE.NS - Reading existing data...
+2024-10-22 11:36:38,614 -INFO - RECLTD.NS - Process function started
+2024-10-22 11:36:38,614 -INFO - OBEROIRLTY.NS - Process function started
+2024-10-22 11:36:38,614 -INFO - INDIGO.NS - Reading existing data...
+2024-10-22 11:36:38,614 -INFO - VOLTAS.NS - Process function started
+2024-10-22 11:36:38,614 -INFO - RECLTD.NS - Reading existing data...
+2024-10-22 11:36:38,614 -INFO - NMDC.NS - Process function started
+2024-10-22 11:36:38,615 -INFO - BSOFT.NS - Process function started
+2024-10-22 11:36:38,615 -INFO - OBEROIRLTY.NS - Reading existing data...
+2024-10-22 11:36:38,615 -INFO - MFSL.NS - Process function started
+2024-10-22 11:36:38,615 -INFO - VOLTAS.NS - Reading existing data...
+2024-10-22 11:36:38,615 -INFO - MUTHOOTFIN.NS - Process function started
+2024-10-22 11:36:38,616 -INFO - NMDC.NS - Reading existing data...
+2024-10-22 11:36:38,616 -INFO - BSOFT.NS - Reading existing data...
+2024-10-22 11:36:38,616 -INFO - HINDPETRO.NS - Process function started
+2024-10-22 11:36:38,616 -INFO - MFSL.NS - Reading existing data...
+2024-10-22 11:36:38,616 -INFO - OFSS.NS - Process function started
+2024-10-22 11:36:38,617 -INFO - HDFCAMC.NS - Process function started
+2024-10-22 11:36:38,617 -INFO - MUTHOOTFIN.NS - Reading existing data...
+2024-10-22 11:36:38,617 -INFO - CHAMBLFERT.NS - Process function started
+2024-10-22 11:36:38,618 -INFO - HINDPETRO.NS - Reading existing data...
+2024-10-22 11:36:38,619 -INFO - PFC.NS - Process function started
+2024-10-22 11:36:38,619 -INFO - OFSS.NS - Reading existing data...
+2024-10-22 11:36:38,619 -INFO - HDFCAMC.NS - Reading existing data...
+2024-10-22 11:36:38,620 -INFO - PFC.NS - Reading existing data...
+2024-10-22 11:36:38,620 -INFO - CHAMBLFERT.NS - Reading existing data...
+2024-10-22 11:36:39,367 -INFO - last n isPivot function started
+2024-10-22 11:36:40,440 -INFO - last n isPivot function started
+2024-10-22 11:36:41,256 -INFO - last n isPivot function Ended
+2024-10-22 11:36:41,256 -INFO - WIPRO.NS - last n detect_structure function started
+2024-10-22 11:36:41,359 -INFO - WIPRO.NS - last n two_line_structure function started
+2024-10-22 11:36:41,384 -INFO - last n isPivot function Ended
+2024-10-22 11:36:41,441 -INFO - COROMANDEL.NS - last n detect_structure function started
+2024-10-22 11:36:41,462 -INFO - COROMANDEL.NS - last n two_line_structure function started
+2024-10-22 11:36:43,328 -INFO - last n isPivot function started
+2024-10-22 11:36:43,653 -INFO - last n isPivot function started
+2024-10-22 11:36:44,983 -INFO - last n isPivot function Ended
+2024-10-22 11:36:44,983 -INFO - INDIGO.NS - last n detect_structure function started
+2024-10-22 11:36:44,985 -INFO - INDIGO.NS - last n two_line_structure function started
+2024-10-22 11:36:45,005 -INFO - last n isPivot function Ended
+2024-10-22 11:36:45,005 -INFO - RECLTD.NS - last n detect_structure function started
+2024-10-22 11:36:45,141 -INFO - RECLTD.NS - last n two_line_structure function started
+2024-10-22 11:36:45,296 -INFO - last n isPivot function started
+2024-10-22 11:36:45,685 -INFO - last n isPivot function started
+2024-10-22 11:36:46,133 -INFO - last n isPivot function started
+2024-10-22 11:36:46,621 -INFO - last n isPivot function Ended
+2024-10-22 11:36:46,621 -INFO - HDFCAMC.NS - last n detect_structure function started
+2024-10-22 11:36:46,663 -INFO - HDFCAMC.NS - last n two_line_structure function started
+2024-10-22 11:36:46,716 -INFO - last n isPivot function Ended
+2024-10-22 11:36:46,716 -INFO - OBEROIRLTY.NS - last n detect_structure function started
+2024-10-22 11:36:46,716 -INFO - OBEROIRLTY.NS - last n two_line_structure function started
+2024-10-22 11:36:47,564 -INFO - last n isPivot function Ended
+2024-10-22 11:36:47,600 -INFO - APOLLOTYRE.NS - last n detect_structure function started
+2024-10-22 11:36:47,619 -INFO - APOLLOTYRE.NS - last n two_line_structure function started
+2024-10-22 11:36:47,802 -INFO - last n isPivot function started
+2024-10-22 11:36:48,208 -INFO - last n isPivot function Ended
+2024-10-22 11:36:48,208 -INFO - MUTHOOTFIN.NS - last n detect_structure function started
+2024-10-22 11:36:48,211 -INFO - MUTHOOTFIN.NS - last n two_line_structure function started
+2024-10-22 11:36:48,216 -INFO - last n isPivot function started
+2024-10-22 11:36:48,245 -INFO - last n isPivot function started
+2024-10-22 11:36:48,263 -INFO - last n isPivot function started
+2024-10-22 11:36:50,113 -INFO - last n isPivot function started
+2024-10-22 11:36:50,118 -INFO - last n isPivot function Ended
+2024-10-22 11:36:50,119 -INFO - NMDC.NS - last n detect_structure function started
+2024-10-22 11:36:50,122 -INFO - NMDC.NS - last n two_line_structure function started
+2024-10-22 11:36:50,350 -INFO - last n isPivot function Ended
+2024-10-22 11:36:50,350 -INFO - FEDERALBNK.NS - last n detect_structure function started
+2024-10-22 11:36:50,355 -INFO - last n isPivot function started
+2024-10-22 11:36:50,429 -INFO - last n isPivot function started
+2024-10-22 11:36:50,429 -INFO - last n isPivot function started
+2024-10-22 11:36:50,688 -INFO - FEDERALBNK.NS - last n two_line_structure function started
+2024-10-22 11:36:50,691 -INFO - last n isPivot function Ended
+2024-10-22 11:36:51,967 -INFO - PFC.NS - last n detect_structure function started
+2024-10-22 11:36:51,989 -INFO - last n isPivot function Ended
+2024-10-22 11:36:51,990 -INFO - VOLTAS.NS - last n detect_structure function started
+2024-10-22 11:36:51,994 -INFO - PFC.NS - last n two_line_structure function started
+2024-10-22 11:36:52,449 -INFO - last n isPivot function Ended
+2024-10-22 11:36:52,454 -INFO - CHAMBLFERT.NS - last n detect_structure function started
+2024-10-22 11:36:52,456 -INFO - CHAMBLFERT.NS - last n two_line_structure function started
+2024-10-22 11:36:52,466 -INFO - VOLTAS.NS - last n two_line_structure function started
+2024-10-22 11:36:52,474 -INFO - last n isPivot function Ended
+2024-10-22 11:36:52,667 -INFO - BSOFT.NS - last n detect_structure function started
+2024-10-22 11:36:52,684 -INFO - BSOFT.NS - last n two_line_structure function started
+2024-10-22 11:36:52,707 -INFO - last n isPivot function Ended
+2024-10-22 11:36:52,707 -INFO - OFSS.NS - last n detect_structure function started
+2024-10-22 11:36:52,730 -INFO - OFSS.NS - last n two_line_structure function started
+2024-10-22 11:36:52,774 -INFO - last n isPivot function started
+2024-10-22 11:36:53,694 -INFO - last n isPivot function Ended
+2024-10-22 11:36:53,700 -INFO - MFSL.NS - last n detect_structure function started
+2024-10-22 11:36:53,707 -INFO - MFSL.NS - last n two_line_structure function started
+2024-10-22 11:36:53,797 -INFO - last n isPivot function started
+2024-10-22 11:36:54,760 -INFO - last n isPivot function Ended
+2024-10-22 11:36:54,766 -INFO - HINDPETRO.NS - last n detect_structure function started
+2024-10-22 11:36:54,783 -INFO - HINDPETRO.NS - last n two_line_structure function started
+2024-10-22 11:38:04,165 -INFO - HDFCAMC.NS - last n two_line_structure function Ended
+2024-10-22 11:38:21,554 -INFO - HDFCAMC.NS - last n detect_structure function Ended
+2024-10-22 11:38:21,583 -INFO - HDFCAMC.NS - add_ph_pl_values function started
+2024-10-22 11:38:21,861 -INFO - HDFCAMC.NS - add_ph_pl_values function Ended
+2024-10-22 11:38:41,542 -INFO - INDIGO.NS - last n two_line_structure function Ended
+2024-10-22 11:39:09,498 -INFO - INDIGO.NS - last n detect_structure function Ended
+2024-10-22 11:39:09,520 -INFO - INDIGO.NS - add_ph_pl_values function started
+2024-10-22 11:39:09,832 -INFO - INDIGO.NS - add_ph_pl_values function Ended
+2024-10-22 11:40:00,241 -INFO - MUTHOOTFIN.NS - last n two_line_structure function Ended
+2024-10-22 11:40:06,527 -INFO - OBEROIRLTY.NS - last n two_line_structure function Ended
+2024-10-22 11:40:52,473 -INFO - RECLTD.NS - last n two_line_structure function Ended
+2024-10-22 11:40:56,592 -INFO - All stocks - Excel file Saved
+2024-10-22 11:40:56,629 -INFO - All stocks - json file saved
+2024-10-22 11:40:56,629 -INFO - HDFCAMC.NS - alerts file Saved
+2024-10-22 11:40:56,629 -INFO - HDFCAMC.NS - Process function Ended
+2024-10-22 11:40:59,015 -INFO - NMDC.NS - last n two_line_structure function Ended
+2024-10-22 11:41:10,266 -INFO - MUTHOOTFIN.NS - last n detect_structure function Ended
+2024-10-22 11:41:10,351 -INFO - MUTHOOTFIN.NS - add_ph_pl_values function started
+2024-10-22 11:41:10,549 -INFO - PFC.NS - last n two_line_structure function Ended
+2024-10-22 11:41:10,564 -INFO - MUTHOOTFIN.NS - add_ph_pl_values function Ended
+2024-10-22 11:41:17,223 -INFO - OBEROIRLTY.NS - last n detect_structure function Ended
+2024-10-22 11:41:17,639 -INFO - OBEROIRLTY.NS - add_ph_pl_values function started
+2024-10-22 11:41:19,086 -INFO - OBEROIRLTY.NS - add_ph_pl_values function Ended
+2024-10-22 11:41:43,661 -INFO - All stocks - Excel file Saved
+2024-10-22 11:41:43,704 -INFO - All stocks - json file saved
+2024-10-22 11:41:43,704 -INFO - INDIGO.NS - alerts file Saved
+2024-10-22 11:41:43,704 -INFO - INDIGO.NS - Process function Ended
+2024-10-22 11:41:48,717 -INFO - RECLTD.NS - last n detect_structure function Ended
+2024-10-22 11:41:48,745 -INFO - RECLTD.NS - add_ph_pl_values function started
+2024-10-22 11:41:48,878 -INFO - RECLTD.NS - add_ph_pl_values function Ended
+2024-10-22 11:42:12,289 -INFO - NMDC.NS - last n detect_structure function Ended
+2024-10-22 11:42:12,540 -INFO - NMDC.NS - add_ph_pl_values function started
+2024-10-22 11:42:12,960 -INFO - NMDC.NS - add_ph_pl_values function Ended
+2024-10-22 11:42:51,221 -INFO - PFC.NS - last n detect_structure function Ended
+2024-10-22 11:42:51,283 -INFO - PFC.NS - add_ph_pl_values function started
+2024-10-22 11:42:51,452 -INFO - PFC.NS - add_ph_pl_values function Ended
+2024-10-22 11:42:56,884 -INFO - OFSS.NS - last n two_line_structure function Ended
+2024-10-22 11:43:06,341 -INFO - BSOFT.NS - last n two_line_structure function Ended
+2024-10-22 11:43:08,776 -INFO - VOLTAS.NS - last n two_line_structure function Ended
+2024-10-22 11:43:25,144 -INFO - CHAMBLFERT.NS - last n two_line_structure function Ended
+2024-10-22 11:43:25,754 -INFO - COROMANDEL.NS - last n two_line_structure function Ended
+2024-10-22 11:43:26,092 -INFO - APOLLOTYRE.NS - last n two_line_structure function Ended
+2024-10-22 11:43:51,726 -INFO - All stocks - Excel file Saved
+2024-10-22 11:43:51,739 -INFO - All stocks - json file saved
+2024-10-22 11:43:51,739 -INFO - MUTHOOTFIN.NS - alerts file Saved
+2024-10-22 11:43:51,739 -INFO - MUTHOOTFIN.NS - Process function Ended
+2024-10-22 11:43:51,964 -INFO - All stocks - Excel file Saved
+2024-10-22 11:43:51,976 -INFO - All stocks - json file saved
+2024-10-22 11:43:51,980 -INFO - OBEROIRLTY.NS - alerts file Saved
+2024-10-22 11:43:51,983 -INFO - OBEROIRLTY.NS - Process function Ended
+2024-10-22 11:44:17,068 -INFO - All stocks - Excel file Saved
+2024-10-22 11:44:17,086 -INFO - All stocks - json file saved
+2024-10-22 11:44:17,088 -INFO - RECLTD.NS - alerts file Saved
+2024-10-22 11:44:17,088 -INFO - RECLTD.NS - Process function Ended
+2024-10-22 11:44:24,981 -INFO - OFSS.NS - last n detect_structure function Ended
+2024-10-22 11:44:24,989 -INFO - OFSS.NS - add_ph_pl_values function started
+2024-10-22 11:44:25,023 -INFO - OFSS.NS - add_ph_pl_values function Ended
+2024-10-22 11:44:27,284 -INFO - BSOFT.NS - last n detect_structure function Ended
+2024-10-22 11:44:27,304 -INFO - BSOFT.NS - add_ph_pl_values function started
+2024-10-22 11:44:27,368 -INFO - BSOFT.NS - add_ph_pl_values function Ended
+2024-10-22 11:44:34,880 -INFO - All stocks - Excel file Saved
+2024-10-22 11:44:35,216 -INFO - All stocks - json file saved
+2024-10-22 11:44:35,216 -INFO - NMDC.NS - alerts file Saved
+2024-10-22 11:44:35,216 -INFO - NMDC.NS - Process function Ended
+2024-10-22 11:44:45,582 -INFO - VOLTAS.NS - last n detect_structure function Ended
+2024-10-22 11:44:45,582 -INFO - VOLTAS.NS - add_ph_pl_values function started
+2024-10-22 11:44:45,591 -INFO - VOLTAS.NS - add_ph_pl_values function Ended
+2024-10-22 11:44:47,376 -INFO - APOLLOTYRE.NS - last n detect_structure function Ended
+2024-10-22 11:44:47,376 -INFO - APOLLOTYRE.NS - add_ph_pl_values function started
+2024-10-22 11:44:47,385 -INFO - APOLLOTYRE.NS - add_ph_pl_values function Ended
+2024-10-22 11:45:10,893 -INFO - All stocks - Excel file Saved
+2024-10-22 11:45:10,905 -INFO - All stocks - json file saved
+2024-10-22 11:45:10,907 -INFO - PFC.NS - alerts file Saved
+2024-10-22 11:45:10,909 -INFO - PFC.NS - Process function Ended
+2024-10-22 11:45:11,486 -INFO - COROMANDEL.NS - last n detect_structure function Ended
+2024-10-22 11:45:11,504 -INFO - COROMANDEL.NS - add_ph_pl_values function started
+2024-10-22 11:45:11,570 -INFO - COROMANDEL.NS - add_ph_pl_values function Ended
+2024-10-22 11:45:21,680 -INFO - CHAMBLFERT.NS - last n detect_structure function Ended
+2024-10-22 11:45:21,685 -INFO - CHAMBLFERT.NS - add_ph_pl_values function started
+2024-10-22 11:45:21,732 -INFO - CHAMBLFERT.NS - add_ph_pl_values function Ended
+2024-10-22 11:45:32,411 -INFO - HINDPETRO.NS - last n two_line_structure function Ended
+2024-10-22 11:45:34,886 -INFO - FEDERALBNK.NS - last n two_line_structure function Ended
+2024-10-22 11:45:51,053 -INFO - MFSL.NS - last n two_line_structure function Ended
+2024-10-22 11:46:09,611 -INFO - WIPRO.NS - last n two_line_structure function Ended
+2024-10-22 11:46:31,274 -INFO - All stocks - Excel file Saved
+2024-10-22 11:46:31,286 -INFO - All stocks - json file saved
+2024-10-22 11:46:31,286 -INFO - OFSS.NS - alerts file Saved
+2024-10-22 11:46:31,286 -INFO - OFSS.NS - Process function Ended
+2024-10-22 11:46:32,204 -INFO - All stocks - Excel file Saved
+2024-10-22 11:46:32,218 -INFO - All stocks - json file saved
+2024-10-22 11:46:32,218 -INFO - BSOFT.NS - alerts file Saved
+2024-10-22 11:46:32,218 -INFO - BSOFT.NS - Process function Ended
+2024-10-22 11:46:32,245 -INFO - All stocks - Excel file Saved
+2024-10-22 11:46:32,253 -INFO - All stocks - json file saved
+2024-10-22 11:46:32,255 -INFO - APOLLOTYRE.NS - alerts file Saved
+2024-10-22 11:46:32,255 -INFO - APOLLOTYRE.NS - Process function Ended
+2024-10-22 11:46:33,088 -INFO - All stocks - Excel file Saved
+2024-10-22 11:46:33,368 -INFO - All stocks - json file saved
+2024-10-22 11:46:33,368 -INFO - VOLTAS.NS - alerts file Saved
+2024-10-22 11:46:33,369 -INFO - VOLTAS.NS - Process function Ended
+2024-10-22 11:46:39,953 -INFO - All stocks - Excel file Saved
+2024-10-22 11:46:39,961 -INFO - All stocks - json file saved
+2024-10-22 11:46:39,961 -INFO - COROMANDEL.NS - alerts file Saved
+2024-10-22 11:46:39,962 -INFO - COROMANDEL.NS - Process function Ended
+2024-10-22 11:46:41,916 -INFO - All stocks - Excel file Saved
+2024-10-22 11:46:41,926 -INFO - All stocks - json file saved
+2024-10-22 11:46:41,926 -INFO - CHAMBLFERT.NS - alerts file Saved
+2024-10-22 11:46:41,926 -INFO - CHAMBLFERT.NS - Process function Ended
+2024-10-22 11:46:42,841 -INFO - FEDERALBNK.NS - last n detect_structure function Ended
+2024-10-22 11:46:42,846 -INFO - FEDERALBNK.NS - add_ph_pl_values function started
+2024-10-22 11:46:42,869 -INFO - FEDERALBNK.NS - add_ph_pl_values function Ended
+2024-10-22 11:46:43,810 -INFO - HINDPETRO.NS - last n detect_structure function Ended
+2024-10-22 11:46:43,811 -INFO - HINDPETRO.NS - add_ph_pl_values function started
+2024-10-22 11:46:43,827 -INFO - HINDPETRO.NS - add_ph_pl_values function Ended
+2024-10-22 11:46:45,095 -INFO - Error in saving alerts file: operands could not be broadcast together with shapes (41396,) (41258,) (41396,) 
+2024-10-22 11:46:45,109 -INFO - Error : Traceback (most recent call last):
+  File "/Users/runner/work/line_breakouts/line_breakouts/two_line_pattern_detect_class.py", line 118, in save_excel_file
+    self.three_line_alert_df.drop_duplicates(subset=['stockname','date1','value1', 'date2', 'value2', 'date3', 'value3', 'buyORsell'], keep='first', inplace=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6818, in drop_duplicates
+    result = self[-self.duplicated(subset, keep=keep)]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6960, in duplicated
+    ids = get_group_index(labels, tuple(shape), sort=False, xnull=False)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/sorting.py", line 193, in get_group_index
+    out += labels[i] * stride
+ValueError: operands could not be broadcast together with shapes (41396,) (41258,) (41396,) 
+
+2024-10-22 11:46:45,408 -INFO - All stocks - json file saved
+2024-10-22 11:46:45,408 -INFO - HINDPETRO.NS - alerts file Saved
+2024-10-22 11:46:45,408 -INFO - HINDPETRO.NS - Process function Ended
+2024-10-22 11:46:50,699 -INFO - MFSL.NS - last n detect_structure function Ended
+2024-10-22 11:46:50,700 -INFO - MFSL.NS - add_ph_pl_values function started
+2024-10-22 11:46:50,710 -INFO - MFSL.NS - add_ph_pl_values function Ended
+2024-10-22 11:46:51,711 -INFO - WIPRO.NS - last n detect_structure function Ended
+2024-10-22 11:46:51,711 -INFO - WIPRO.NS - add_ph_pl_values function started
+2024-10-22 11:46:51,715 -INFO - WIPRO.NS - add_ph_pl_values function Ended
+2024-10-22 11:47:33,484 -INFO - All stocks - Excel file Saved
+2024-10-22 11:47:33,484 -INFO - All stocks - json file saved
+2024-10-22 11:47:33,484 -INFO - FEDERALBNK.NS - alerts file Saved
+2024-10-22 11:47:33,484 -INFO - FEDERALBNK.NS - Process function Ended
+2024-10-22 11:47:33,726 -INFO - All stocks - Excel file Saved
+2024-10-22 11:47:33,727 -INFO - All stocks - json file saved
+2024-10-22 11:47:33,727 -INFO - MFSL.NS - alerts file Saved
+2024-10-22 11:47:33,727 -INFO - MFSL.NS - Process function Ended
+2024-10-22 11:47:33,869 -INFO - All stocks - Excel file Saved
+2024-10-22 11:47:33,869 -INFO - All stocks - json file saved
+2024-10-22 11:47:33,869 -INFO - WIPRO.NS - alerts file Saved
+2024-10-22 11:47:33,869 -INFO - WIPRO.NS - Process function Ended
+2024-10-22 11:47:50,511 -INFO - All stocks - Excel file Saved
+2024-10-22 11:47:50,511 -INFO - All stocks - json file saved
+2024-10-22 11:48:06,892 -INFO - All stocks - Excel file Saved
+2024-10-22 11:48:06,893 -INFO - All stocks - json file saved
