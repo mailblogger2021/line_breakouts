@@ -10218,3 +10218,81 @@ ValueError: operands could not be broadcast together with shapes (41396,) (41258
 2024-10-22 11:47:50,511 -INFO - All stocks - json file saved
 2024-10-22 11:48:06,892 -INFO - All stocks - Excel file Saved
 2024-10-22 11:48:06,893 -INFO - All stocks - json file saved
+2024-10-23 11:36:32,500 -INFO - Started...
+2024-10-23 11:36:34,034 -INFO - Started...
+2024-10-23 11:36:43,754 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-10-23 11:36:43,754 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-10-23 11:36:44,592 -INFO - CIPLA.NS - Process function started
+2024-10-23 11:36:44,592 -INFO - ALKEM.NS - Process function started
+2024-10-23 11:36:44,592 -INFO - CIPLA.NS - Reading existing data...
+2024-10-23 11:36:44,592 -INFO - ALKEM.NS - Reading existing data...
+2024-10-23 11:36:44,593 -INFO - TORNTPHARM.NS - Process function started
+2024-10-23 11:36:44,593 -INFO - TORNTPHARM.NS - Reading existing data...
+2024-10-23 11:36:44,593 -INFO - BOSCHLTD.NS - Process function started
+2024-10-23 11:36:44,593 -INFO - BOSCHLTD.NS - Reading existing data...
+2024-10-23 11:36:44,593 -INFO - NAUKRI.NS - Process function started
+2024-10-23 11:36:44,593 -INFO - NAUKRI.NS - Reading existing data...
+2024-10-23 11:36:45,940 -INFO - last n isPivot function started
+2024-10-23 11:36:46,013 -INFO - last n isPivot function started
+2024-10-23 11:36:46,283 -INFO - last n isPivot function Ended
+2024-10-23 11:36:46,283 -INFO - ALKEM.NS - last n detect_structure function started
+2024-10-23 11:36:46,283 -INFO - ALKEM.NS - last n two_line_structure function started
+2024-10-23 11:36:46,780 -INFO - last n isPivot function Ended
+2024-10-23 11:36:46,780 -INFO - NAUKRI.NS - last n detect_structure function started
+2024-10-23 11:36:46,781 -INFO - NAUKRI.NS - last n two_line_structure function started
+2024-10-23 11:36:46,802 -INFO - last n isPivot function started
+2024-10-23 11:36:46,806 -INFO - last n isPivot function started
+2024-10-23 11:36:48,246 -INFO - last n isPivot function Ended
+2024-10-23 11:36:48,246 -INFO - TORNTPHARM.NS - last n detect_structure function started
+2024-10-23 11:36:48,259 -INFO - TORNTPHARM.NS - last n two_line_structure function started
+2024-10-23 11:36:48,272 -INFO - last n isPivot function Ended
+2024-10-23 11:36:48,272 -INFO - CIPLA.NS - last n detect_structure function started
+2024-10-23 11:36:48,283 -INFO - CIPLA.NS - last n two_line_structure function started
+2024-10-23 11:36:48,348 -INFO - last n isPivot function started
+2024-10-23 11:36:48,997 -INFO - last n isPivot function Ended
+2024-10-23 11:36:48,997 -INFO - BOSCHLTD.NS - last n detect_structure function started
+2024-10-23 11:36:49,001 -INFO - BOSCHLTD.NS - last n two_line_structure function started
+2024-10-23 11:37:19,237 -INFO - ALKEM.NS - last n two_line_structure function Ended
+2024-10-23 11:37:26,303 -INFO - ALKEM.NS - last n detect_structure function Ended
+2024-10-23 11:37:26,311 -INFO - ALKEM.NS - add_ph_pl_values function started
+2024-10-23 11:37:26,382 -INFO - ALKEM.NS - add_ph_pl_values function Ended
+2024-10-23 11:38:02,057 -INFO - NAUKRI.NS - last n two_line_structure function Ended
+2024-10-23 11:38:11,327 -INFO - All stocks - Excel file Saved
+2024-10-23 11:38:11,333 -INFO - All stocks - json file saved
+2024-10-23 11:38:11,333 -INFO - ALKEM.NS - alerts file Saved
+2024-10-23 11:38:11,333 -INFO - ALKEM.NS - Process function Ended
+2024-10-23 11:38:15,657 -INFO - TORNTPHARM.NS - last n two_line_structure function Ended
+2024-10-23 11:38:16,483 -INFO - NAUKRI.NS - last n detect_structure function Ended
+2024-10-23 11:38:16,489 -INFO - NAUKRI.NS - add_ph_pl_values function started
+2024-10-23 11:38:16,527 -INFO - NAUKRI.NS - add_ph_pl_values function Ended
+2024-10-23 11:38:17,450 -INFO - BOSCHLTD.NS - last n two_line_structure function Ended
+2024-10-23 11:38:31,875 -INFO - TORNTPHARM.NS - last n detect_structure function Ended
+2024-10-23 11:38:31,877 -INFO - TORNTPHARM.NS - add_ph_pl_values function started
+2024-10-23 11:38:31,910 -INFO - TORNTPHARM.NS - add_ph_pl_values function Ended
+2024-10-23 11:38:45,199 -INFO - BOSCHLTD.NS - last n detect_structure function Ended
+2024-10-23 11:38:45,214 -INFO - BOSCHLTD.NS - add_ph_pl_values function started
+2024-10-23 11:38:45,237 -INFO - BOSCHLTD.NS - add_ph_pl_values function Ended
+2024-10-23 11:38:52,779 -INFO - CIPLA.NS - last n two_line_structure function Ended
+2024-10-23 11:39:05,607 -INFO - All stocks - Excel file Saved
+2024-10-23 11:39:05,608 -INFO - All stocks - json file saved
+2024-10-23 11:39:05,608 -INFO - NAUKRI.NS - alerts file Saved
+2024-10-23 11:39:05,608 -INFO - NAUKRI.NS - Process function Ended
+2024-10-23 11:39:12,846 -INFO - CIPLA.NS - last n detect_structure function Ended
+2024-10-23 11:39:12,846 -INFO - CIPLA.NS - add_ph_pl_values function started
+2024-10-23 11:39:12,850 -INFO - CIPLA.NS - add_ph_pl_values function Ended
+2024-10-23 11:39:23,785 -INFO - All stocks - Excel file Saved
+2024-10-23 11:39:23,785 -INFO - All stocks - json file saved
+2024-10-23 11:39:23,785 -INFO - TORNTPHARM.NS - alerts file Saved
+2024-10-23 11:39:23,785 -INFO - TORNTPHARM.NS - Process function Ended
+2024-10-23 11:39:24,015 -INFO - All stocks - Excel file Saved
+2024-10-23 11:39:24,015 -INFO - All stocks - json file saved
+2024-10-23 11:39:24,015 -INFO - BOSCHLTD.NS - alerts file Saved
+2024-10-23 11:39:24,015 -INFO - BOSCHLTD.NS - Process function Ended
+2024-10-23 11:39:34,943 -INFO - All stocks - Excel file Saved
+2024-10-23 11:39:34,944 -INFO - All stocks - json file saved
+2024-10-23 11:39:34,944 -INFO - CIPLA.NS - alerts file Saved
+2024-10-23 11:39:34,944 -INFO - CIPLA.NS - Process function Ended
+2024-10-23 11:39:51,433 -INFO - All stocks - Excel file Saved
+2024-10-23 11:39:51,447 -INFO - All stocks - json file saved
+2024-10-23 11:40:07,855 -INFO - All stocks - Excel file Saved
+2024-10-23 11:40:07,856 -INFO - All stocks - json file saved
