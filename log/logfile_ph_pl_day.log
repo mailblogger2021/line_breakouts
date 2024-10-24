@@ -10296,3 +10296,81 @@ ValueError: operands could not be broadcast together with shapes (41396,) (41258
 2024-10-23 11:39:51,447 -INFO - All stocks - json file saved
 2024-10-23 11:40:07,855 -INFO - All stocks - Excel file Saved
 2024-10-23 11:40:07,856 -INFO - All stocks - json file saved
+2024-10-24 11:36:08,190 -INFO - Started...
+2024-10-24 11:36:09,060 -INFO - Started...
+2024-10-24 11:36:16,958 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-10-24 11:36:16,958 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-10-24 11:36:17,560 -INFO - METROPOLIS.NS - Process function started
+2024-10-24 11:36:17,560 -INFO - METROPOLIS.NS - Reading existing data...
+2024-10-24 11:36:17,561 -INFO - LALPATHLAB.NS - Process function started
+2024-10-24 11:36:17,561 -INFO - LALPATHLAB.NS - Reading existing data...
+2024-10-24 11:36:17,561 -INFO - ADANIENT.NS - Process function started
+2024-10-24 11:36:17,561 -INFO - ADANIENT.NS - Reading existing data...
+2024-10-24 11:36:17,561 -INFO - ATUL.NS - Process function started
+2024-10-24 11:36:17,562 -INFO - LUPIN.NS - Process function started
+2024-10-24 11:36:17,562 -INFO - ATUL.NS - Reading existing data...
+2024-10-24 11:36:17,562 -INFO - LUPIN.NS - Reading existing data...
+2024-10-24 11:36:17,767 -INFO - last n isPivot function started
+2024-10-24 11:36:18,299 -INFO - last n isPivot function Ended
+2024-10-24 11:36:18,299 -INFO - METROPOLIS.NS - last n detect_structure function started
+2024-10-24 11:36:18,315 -INFO - METROPOLIS.NS - last n two_line_structure function started
+2024-10-24 11:36:18,873 -INFO - last n isPivot function started
+2024-10-24 11:36:19,136 -INFO - last n isPivot function Ended
+2024-10-24 11:36:19,144 -INFO - LALPATHLAB.NS - last n detect_structure function started
+2024-10-24 11:36:19,146 -INFO - LALPATHLAB.NS - last n two_line_structure function started
+2024-10-24 11:36:19,151 -INFO - last n isPivot function started
+2024-10-24 11:36:19,780 -INFO - last n isPivot function Ended
+2024-10-24 11:36:19,780 -INFO - ADANIENT.NS - last n detect_structure function started
+2024-10-24 11:36:19,792 -INFO - ADANIENT.NS - last n two_line_structure function started
+2024-10-24 11:36:19,817 -INFO - last n isPivot function started
+2024-10-24 11:36:19,826 -INFO - last n isPivot function started
+2024-10-24 11:36:20,442 -INFO - last n isPivot function Ended
+2024-10-24 11:36:20,442 -INFO - ATUL.NS - last n detect_structure function started
+2024-10-24 11:36:20,488 -INFO - ATUL.NS - last n two_line_structure function started
+2024-10-24 11:36:21,097 -INFO - last n isPivot function Ended
+2024-10-24 11:36:21,097 -INFO - LUPIN.NS - last n detect_structure function started
+2024-10-24 11:36:21,103 -INFO - LUPIN.NS - last n two_line_structure function started
+2024-10-24 11:36:37,749 -INFO - METROPOLIS.NS - last n two_line_structure function Ended
+2024-10-24 11:36:43,008 -INFO - METROPOLIS.NS - last n detect_structure function Ended
+2024-10-24 11:36:43,016 -INFO - METROPOLIS.NS - add_ph_pl_values function started
+2024-10-24 11:36:43,070 -INFO - METROPOLIS.NS - add_ph_pl_values function Ended
+2024-10-24 11:36:53,660 -INFO - LALPATHLAB.NS - last n two_line_structure function Ended
+2024-10-24 11:37:03,147 -INFO - LALPATHLAB.NS - last n detect_structure function Ended
+2024-10-24 11:37:03,151 -INFO - LALPATHLAB.NS - add_ph_pl_values function started
+2024-10-24 11:37:03,199 -INFO - LALPATHLAB.NS - add_ph_pl_values function Ended
+2024-10-24 11:37:37,800 -INFO - All stocks - Excel file Saved
+2024-10-24 11:37:37,802 -INFO - All stocks - json file saved
+2024-10-24 11:37:37,803 -INFO - METROPOLIS.NS - alerts file Saved
+2024-10-24 11:37:37,803 -INFO - METROPOLIS.NS - Process function Ended
+2024-10-24 11:37:49,476 -INFO - All stocks - Excel file Saved
+2024-10-24 11:37:49,482 -INFO - All stocks - json file saved
+2024-10-24 11:37:49,482 -INFO - LALPATHLAB.NS - alerts file Saved
+2024-10-24 11:37:49,483 -INFO - LALPATHLAB.NS - Process function Ended
+2024-10-24 11:37:50,415 -INFO - ADANIENT.NS - last n two_line_structure function Ended
+2024-10-24 11:37:52,141 -INFO - ATUL.NS - last n two_line_structure function Ended
+2024-10-24 11:37:52,675 -INFO - LUPIN.NS - last n two_line_structure function Ended
+2024-10-24 11:37:55,412 -INFO - ADANIENT.NS - last n detect_structure function Ended
+2024-10-24 11:37:55,413 -INFO - ADANIENT.NS - add_ph_pl_values function started
+2024-10-24 11:37:55,433 -INFO - ADANIENT.NS - add_ph_pl_values function Ended
+2024-10-24 11:38:02,378 -INFO - ATUL.NS - last n detect_structure function Ended
+2024-10-24 11:38:02,379 -INFO - ATUL.NS - add_ph_pl_values function started
+2024-10-24 11:38:02,396 -INFO - ATUL.NS - add_ph_pl_values function Ended
+2024-10-24 11:38:03,116 -INFO - LUPIN.NS - last n detect_structure function Ended
+2024-10-24 11:38:03,116 -INFO - LUPIN.NS - add_ph_pl_values function started
+2024-10-24 11:38:03,120 -INFO - LUPIN.NS - add_ph_pl_values function Ended
+2024-10-24 11:38:44,192 -INFO - All stocks - Excel file Saved
+2024-10-24 11:38:44,193 -INFO - All stocks - json file saved
+2024-10-24 11:38:44,193 -INFO - ADANIENT.NS - alerts file Saved
+2024-10-24 11:38:44,193 -INFO - ADANIENT.NS - Process function Ended
+2024-10-24 11:38:44,586 -INFO - All stocks - Excel file Saved
+2024-10-24 11:38:44,586 -INFO - All stocks - json file saved
+2024-10-24 11:38:44,586 -INFO - ATUL.NS - alerts file Saved
+2024-10-24 11:38:44,587 -INFO - ATUL.NS - Process function Ended
+2024-10-24 11:38:44,715 -INFO - All stocks - Excel file Saved
+2024-10-24 11:38:44,715 -INFO - All stocks - json file saved
+2024-10-24 11:38:44,715 -INFO - LUPIN.NS - alerts file Saved
+2024-10-24 11:38:44,715 -INFO - LUPIN.NS - Process function Ended
+2024-10-24 11:39:00,978 -INFO - All stocks - Excel file Saved
+2024-10-24 11:39:00,978 -INFO - All stocks - json file saved
+2024-10-24 11:39:17,222 -INFO - All stocks - Excel file Saved
+2024-10-24 11:39:17,222 -INFO - All stocks - json file saved
