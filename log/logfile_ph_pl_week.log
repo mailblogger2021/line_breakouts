@@ -2955,3 +2955,96 @@ ValueError: Length of values (93097) does not match length of index (90998)
 2024-10-18 11:36:57,703 -INFO - All stocks - json file saved
 2024-10-18 11:37:23,580 -INFO - All stocks - Excel file Saved
 2024-10-18 11:37:23,580 -INFO - All stocks - json file saved
+2024-10-25 11:35:47,906 -INFO - Started...
+2024-10-25 11:35:48,788 -INFO - Started...
+2024-10-25 11:36:01,570 -INFO - NAVINFLUOR.NS - this stock already completed
+2024-10-25 11:36:01,571 -INFO - TATACHEM.NS - this stock already completed
+2024-10-25 11:36:01,571 -INFO - PETRONET.NS - this stock already completed
+2024-10-25 11:36:01,571 -INFO - GODREJPROP.NS - this stock already completed
+2024-10-25 11:36:01,571 -INFO - TATACONSUM.NS - this stock already completed
+2024-10-25 11:36:01,571 -INFO - DABUR.NS - this stock already completed
+2024-10-25 11:36:01,571 -INFO - LICHSGFIN.NS - this stock already completed
+2024-10-25 11:36:01,571 -INFO - GRANULES.NS - this stock already completed
+2024-10-25 11:36:01,571 -INFO - BIOCON.NS - this stock already completed
+2024-10-25 11:36:01,571 -INFO - ABB.NS - this stock already completed
+2024-10-25 11:36:01,571 -INFO - PEL.NS - this stock already completed
+2024-10-25 11:36:01,571 -INFO - INDUSINDBK.NS - this stock already completed
+2024-10-25 11:36:01,571 -INFO - JINDALSTEL.NS - this stock already completed
+2024-10-25 11:36:01,571 -INFO - AUBANK.NS - this stock already completed
+2024-10-25 11:36:01,571 -INFO - OFSS.NS - this stock already completed
+2024-10-25 11:36:01,571 -INFO - ICICIBANK.NS - this stock already completed
+2024-10-25 11:36:01,571 -INFO - LTIM.NS - this stock already completed
+2024-10-25 11:36:01,571 -INFO - ASIANPAINT.NS - this stock already completed
+2024-10-25 11:36:01,571 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-10-25 11:36:02,875 -INFO - PIIND.NS - Process function started
+2024-10-25 11:36:02,876 -INFO - MPHASIS.NS - Process function started
+2024-10-25 11:36:02,876 -INFO - SYNGENE.NS - Process function started
+2024-10-25 11:36:02,876 -INFO - PIIND.NS - Reading existing data...
+2024-10-25 11:36:02,879 -INFO - VOLTAS.NS - Process function started
+2024-10-25 11:36:02,882 -INFO - BERGEPAINT.NS - Process function started
+2024-10-25 11:36:02,882 -INFO - VOLTAS.NS - Reading existing data...
+2024-10-25 11:36:02,883 -INFO - BERGEPAINT.NS - Reading existing data...
+2024-10-25 11:36:02,884 -INFO - SYNGENE.NS - isPivot function started
+2024-10-25 11:36:02,936 -INFO - MPHASIS.NS - isPivot function started
+2024-10-25 11:36:03,064 -INFO - MPHASIS.NS - isPivot function Ended
+2024-10-25 11:36:03,065 -INFO - MPHASIS.NS -  detect_structure function started
+2024-10-25 11:36:03,066 -INFO - MPHASIS.NS -  two_line_structure function started
+2024-10-25 11:36:03,093 -INFO - SYNGENE.NS - isPivot function Ended
+2024-10-25 11:36:03,093 -INFO - SYNGENE.NS -  detect_structure function started
+2024-10-25 11:36:03,094 -INFO - SYNGENE.NS -  two_line_structure function started
+2024-10-25 11:36:03,417 -INFO - last n isPivot function started
+2024-10-25 11:36:03,489 -INFO - last n isPivot function Ended
+2024-10-25 11:36:03,489 -INFO - PIIND.NS - last n detect_structure function started
+2024-10-25 11:36:03,490 -INFO - PIIND.NS - last n two_line_structure function started
+2024-10-25 11:36:03,503 -INFO - last n isPivot function started
+2024-10-25 11:36:03,583 -INFO - last n isPivot function started
+2024-10-25 11:36:03,647 -INFO - last n isPivot function Ended
+2024-10-25 11:36:03,649 -INFO - VOLTAS.NS - last n detect_structure function started
+2024-10-25 11:36:03,652 -INFO - VOLTAS.NS - last n two_line_structure function started
+2024-10-25 11:36:03,793 -INFO - last n isPivot function Ended
+2024-10-25 11:36:03,793 -INFO - BERGEPAINT.NS - last n detect_structure function started
+2024-10-25 11:36:03,794 -INFO - BERGEPAINT.NS - last n two_line_structure function started
+2024-10-25 11:36:07,797 -INFO - SYNGENE.NS -  two_line_structure function Ended
+2024-10-25 11:36:11,722 -INFO - PIIND.NS - last n two_line_structure function Ended
+2024-10-25 11:36:16,292 -INFO - MPHASIS.NS -  two_line_structure function Ended
+2024-10-25 11:36:16,857 -INFO - VOLTAS.NS - last n two_line_structure function Ended
+2024-10-25 11:36:17,377 -INFO - BERGEPAINT.NS - last n two_line_structure function Ended
+2024-10-25 11:36:19,041 -INFO - SYNGENE.NS -  detect_structure function Ended
+2024-10-25 11:36:19,041 -INFO - SYNGENE.NS - add_ph_pl_values function started
+2024-10-25 11:36:19,067 -INFO - SYNGENE.NS - add_ph_pl_values function Ended
+2024-10-25 11:36:35,488 -INFO - PIIND.NS - last n detect_structure function Ended
+2024-10-25 11:36:35,488 -INFO - PIIND.NS - add_ph_pl_values function started
+2024-10-25 11:36:35,501 -INFO - PIIND.NS - add_ph_pl_values function Ended
+2024-10-25 11:36:52,220 -INFO - VOLTAS.NS - last n detect_structure function Ended
+2024-10-25 11:36:52,226 -INFO - VOLTAS.NS - add_ph_pl_values function started
+2024-10-25 11:36:52,235 -INFO - VOLTAS.NS - add_ph_pl_values function Ended
+2024-10-25 11:37:18,636 -INFO - MPHASIS.NS -  detect_structure function Ended
+2024-10-25 11:37:18,637 -INFO - MPHASIS.NS - add_ph_pl_values function started
+2024-10-25 11:37:18,646 -INFO - MPHASIS.NS - add_ph_pl_values function Ended
+2024-10-25 11:37:31,816 -INFO - BERGEPAINT.NS - last n detect_structure function Ended
+2024-10-25 11:37:31,817 -INFO - BERGEPAINT.NS - add_ph_pl_values function started
+2024-10-25 11:37:31,832 -INFO - BERGEPAINT.NS - add_ph_pl_values function Ended
+2024-10-25 11:38:14,420 -INFO - All stocks - Excel file Saved
+2024-10-25 11:38:14,422 -INFO - All stocks - json file saved
+2024-10-25 11:38:14,422 -INFO - SYNGENE.NS - alerts file Saved
+2024-10-25 11:38:14,422 -INFO - SYNGENE.NS - Process function Ended
+2024-10-25 11:38:35,608 -INFO - All stocks - Excel file Saved
+2024-10-25 11:38:35,623 -INFO - All stocks - json file saved
+2024-10-25 11:38:35,623 -INFO - PIIND.NS - alerts file Saved
+2024-10-25 11:38:35,623 -INFO - PIIND.NS - Process function Ended
+2024-10-25 11:38:44,755 -INFO - All stocks - Excel file Saved
+2024-10-25 11:38:44,756 -INFO - All stocks - json file saved
+2024-10-25 11:38:44,756 -INFO - VOLTAS.NS - alerts file Saved
+2024-10-25 11:38:44,756 -INFO - VOLTAS.NS - Process function Ended
+2024-10-25 11:38:45,379 -INFO - All stocks - Excel file Saved
+2024-10-25 11:38:45,380 -INFO - All stocks - json file saved
+2024-10-25 11:38:45,380 -INFO - MPHASIS.NS - alerts file Saved
+2024-10-25 11:38:45,380 -INFO - MPHASIS.NS - Process function Ended
+2024-10-25 11:38:46,475 -INFO - All stocks - Excel file Saved
+2024-10-25 11:38:46,476 -INFO - All stocks - json file saved
+2024-10-25 11:38:46,476 -INFO - BERGEPAINT.NS - alerts file Saved
+2024-10-25 11:38:46,476 -INFO - BERGEPAINT.NS - Process function Ended
+2024-10-25 11:39:14,197 -INFO - All stocks - Excel file Saved
+2024-10-25 11:39:14,197 -INFO - All stocks - json file saved
+2024-10-25 11:39:39,192 -INFO - All stocks - Excel file Saved
+2024-10-25 11:39:39,193 -INFO - All stocks - json file saved
