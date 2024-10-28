@@ -10374,3 +10374,96 @@ ValueError: operands could not be broadcast together with shapes (41396,) (41258
 2024-10-24 11:39:00,978 -INFO - All stocks - json file saved
 2024-10-24 11:39:17,222 -INFO - All stocks - Excel file Saved
 2024-10-24 11:39:17,222 -INFO - All stocks - json file saved
+2024-10-28 11:35:06,958 -INFO - Started...
+2024-10-28 11:35:07,969 -INFO - Started...
+2024-10-28 11:35:16,512 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-10-28 11:35:16,512 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-10-28 11:35:18,154 -INFO - KOTAKBANK.NS - Process function started
+2024-10-28 11:35:18,154 -INFO - GRANULES.NS - Process function started
+2024-10-28 11:35:18,154 -INFO - ICICIBANK.NS - Process function started
+2024-10-28 11:35:18,155 -INFO - ICICIBANK.NS - Reading existing data...
+2024-10-28 11:35:18,155 -INFO - EXIDEIND.NS - Process function started
+2024-10-28 11:35:18,155 -INFO - KOTAKBANK.NS - Reading existing data...
+2024-10-28 11:35:18,155 -INFO - GRANULES.NS - Reading existing data...
+2024-10-28 11:35:18,155 -INFO - TRENT.NS - Process function started
+2024-10-28 11:35:18,155 -INFO - EXIDEIND.NS - Reading existing data...
+2024-10-28 11:35:18,156 -INFO - TRENT.NS - Reading existing data...
+2024-10-28 11:35:19,788 -INFO - last n isPivot function started
+2024-10-28 11:35:20,437 -INFO - last n isPivot function started
+2024-10-28 11:35:20,441 -INFO - last n isPivot function started
+2024-10-28 11:35:20,445 -INFO - last n isPivot function started
+2024-10-28 11:35:20,449 -INFO - last n isPivot function started
+2024-10-28 11:35:20,554 -INFO - last n isPivot function Ended
+2024-10-28 11:35:20,554 -INFO - KOTAKBANK.NS - last n detect_structure function started
+2024-10-28 11:35:20,558 -INFO - KOTAKBANK.NS - last n two_line_structure function started
+2024-10-28 11:35:22,363 -INFO - last n isPivot function Ended
+2024-10-28 11:35:22,363 -INFO - TRENT.NS - last n detect_structure function started
+2024-10-28 11:35:22,644 -INFO - TRENT.NS - last n two_line_structure function started
+2024-10-28 11:35:22,648 -INFO - last n isPivot function Ended
+2024-10-28 11:35:22,871 -INFO - GRANULES.NS - last n detect_structure function started
+2024-10-28 11:35:22,877 -INFO - GRANULES.NS - last n two_line_structure function started
+2024-10-28 11:35:22,881 -INFO - last n isPivot function Ended
+2024-10-28 11:35:22,882 -INFO - EXIDEIND.NS - last n detect_structure function started
+2024-10-28 11:35:22,889 -INFO - EXIDEIND.NS - last n two_line_structure function started
+2024-10-28 11:35:22,937 -INFO - last n isPivot function Ended
+2024-10-28 11:35:22,937 -INFO - ICICIBANK.NS - last n detect_structure function started
+2024-10-28 11:35:22,944 -INFO - ICICIBANK.NS - last n two_line_structure function started
+2024-10-28 11:36:41,662 -INFO - GRANULES.NS - last n two_line_structure function Ended
+2024-10-28 11:36:51,355 -INFO - ICICIBANK.NS - last n two_line_structure function Ended
+2024-10-28 11:36:52,408 -INFO - TRENT.NS - last n two_line_structure function Ended
+2024-10-28 11:36:52,539 -INFO - EXIDEIND.NS - last n two_line_structure function Ended
+2024-10-28 11:36:53,937 -INFO - GRANULES.NS - last n detect_structure function Ended
+2024-10-28 11:36:53,944 -INFO - GRANULES.NS - add_ph_pl_values function started
+2024-10-28 11:36:53,996 -INFO - GRANULES.NS - add_ph_pl_values function Ended
+2024-10-28 11:36:55,363 -INFO - KOTAKBANK.NS - last n two_line_structure function Ended
+2024-10-28 11:37:05,012 -INFO - ICICIBANK.NS - last n detect_structure function Ended
+2024-10-28 11:37:05,014 -INFO - ICICIBANK.NS - add_ph_pl_values function started
+2024-10-28 11:37:05,031 -INFO - ICICIBANK.NS - add_ph_pl_values function Ended
+2024-10-28 11:37:10,499 -INFO - EXIDEIND.NS - last n detect_structure function Ended
+2024-10-28 11:37:10,679 -INFO - EXIDEIND.NS - add_ph_pl_values function started
+2024-10-28 11:37:10,790 -INFO - TRENT.NS - last n detect_structure function Ended
+2024-10-28 11:37:11,080 -INFO - TRENT.NS - add_ph_pl_values function started
+2024-10-28 11:37:11,459 -INFO - EXIDEIND.NS - add_ph_pl_values function Ended
+2024-10-28 11:37:12,602 -INFO - TRENT.NS - add_ph_pl_values function Ended
+2024-10-28 11:37:15,567 -INFO - Error in saving alerts file: Length of values (41317) does not match length of index (41311)
+2024-10-28 11:37:15,578 -INFO - Error : Traceback (most recent call last):
+  File "/Users/runner/work/line_breakouts/line_breakouts/two_line_pattern_detect_class.py", line 118, in save_excel_file
+    self.three_line_alert_df.drop_duplicates(subset=['stockname','date1','value1', 'date2', 'value2', 'date3', 'value3', 'buyORsell'], keep='first', inplace=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6818, in drop_duplicates
+    result = self[-self.duplicated(subset, keep=keep)]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6961, in duplicated
+    result = self._constructor_sliced(duplicated(ids, keep), index=self.index)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/series.py", line 575, in __init__
+    com.require_length_match(data, index)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/common.py", line 573, in require_length_match
+    raise ValueError(
+ValueError: Length of values (41317) does not match length of index (41311)
+
+2024-10-28 11:37:15,595 -INFO - All stocks - json file saved
+2024-10-28 11:37:15,596 -INFO - EXIDEIND.NS - alerts file Saved
+2024-10-28 11:37:15,596 -INFO - EXIDEIND.NS - Process function Ended
+2024-10-28 11:37:27,136 -INFO - KOTAKBANK.NS - last n detect_structure function Ended
+2024-10-28 11:37:27,136 -INFO - KOTAKBANK.NS - add_ph_pl_values function started
+2024-10-28 11:37:27,140 -INFO - KOTAKBANK.NS - add_ph_pl_values function Ended
+2024-10-28 11:37:54,332 -INFO - All stocks - Excel file Saved
+2024-10-28 11:37:54,336 -INFO - All stocks - json file saved
+2024-10-28 11:37:54,336 -INFO - GRANULES.NS - alerts file Saved
+2024-10-28 11:37:54,336 -INFO - GRANULES.NS - Process function Ended
+2024-10-28 11:38:08,611 -INFO - All stocks - Excel file Saved
+2024-10-28 11:38:08,611 -INFO - All stocks - json file saved
+2024-10-28 11:38:08,611 -INFO - ICICIBANK.NS - alerts file Saved
+2024-10-28 11:38:08,611 -INFO - ICICIBANK.NS - Process function Ended
+2024-10-28 11:38:08,616 -INFO - All stocks - Excel file Saved
+2024-10-28 11:38:08,617 -INFO - All stocks - json file saved
+2024-10-28 11:38:08,617 -INFO - TRENT.NS - alerts file Saved
+2024-10-28 11:38:08,617 -INFO - TRENT.NS - Process function Ended
+2024-10-28 11:38:11,560 -INFO - All stocks - Excel file Saved
+2024-10-28 11:38:11,560 -INFO - All stocks - json file saved
+2024-10-28 11:38:11,560 -INFO - KOTAKBANK.NS - alerts file Saved
+2024-10-28 11:38:11,560 -INFO - KOTAKBANK.NS - Process function Ended
+2024-10-28 11:38:28,881 -INFO - All stocks - Excel file Saved
+2024-10-28 11:38:28,881 -INFO - All stocks - json file saved
+2024-10-28 11:38:46,292 -INFO - All stocks - Excel file Saved
+2024-10-28 11:38:46,293 -INFO - All stocks - json file saved
