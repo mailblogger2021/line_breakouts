@@ -10585,3 +10585,121 @@ ValueError: Length of values (41317) does not match length of index (41311)
 2024-10-29 11:40:21,031 -INFO - All stocks - json file saved
 2024-10-29 11:40:37,304 -INFO - All stocks - Excel file Saved
 2024-10-29 11:40:37,305 -INFO - All stocks - json file saved
+2024-10-30 11:36:15,337 -INFO - Started...
+2024-10-30 11:36:16,574 -INFO - Started...
+2024-10-30 11:36:24,537 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-10-30 11:36:25,561 -INFO - HDFCAMC.NS - Process function started
+2024-10-30 11:36:25,561 -INFO - HDFCAMC.NS - Reading existing data...
+2024-10-30 11:36:25,562 -INFO - DEEPAKNTR.NS - Process function started
+2024-10-30 11:36:25,567 -INFO - VOLTAS.NS - Process function started
+2024-10-30 11:36:25,567 -INFO - VOLTAS.NS - Reading existing data...
+2024-10-30 11:36:25,567 -INFO - ABB.NS - Process function started
+2024-10-30 11:36:25,567 -INFO - ABB.NS - Reading existing data...
+2024-10-30 11:36:25,568 -INFO - HAL.NS - Process function started
+2024-10-30 11:36:25,568 -INFO - BHARTIARTL.NS - Process function started
+2024-10-30 11:36:25,568 -INFO - HAL.NS - Reading existing data...
+2024-10-30 11:36:25,568 -INFO - PAGEIND.NS - Process function started
+2024-10-30 11:36:25,569 -INFO - SIEMENS.NS - Process function started
+2024-10-30 11:36:25,569 -INFO - BHARTIARTL.NS - Reading existing data...
+2024-10-30 11:36:25,570 -INFO - PAGEIND.NS - Reading existing data...
+2024-10-30 11:36:25,570 -INFO - SIEMENS.NS - Reading existing data...
+2024-10-30 11:36:25,573 -INFO - DEEPAKNTR.NS - isPivot function started
+2024-10-30 11:36:25,951 -INFO - DEEPAKNTR.NS - isPivot function Ended
+2024-10-30 11:36:25,951 -INFO - DEEPAKNTR.NS -  detect_structure function started
+2024-10-30 11:36:25,954 -INFO - DEEPAKNTR.NS -  two_line_structure function started
+2024-10-30 11:36:26,315 -INFO - last n isPivot function started
+2024-10-30 11:36:26,516 -INFO - last n isPivot function Ended
+2024-10-30 11:36:26,523 -INFO - HDFCAMC.NS - last n detect_structure function started
+2024-10-30 11:36:26,598 -INFO - HDFCAMC.NS - last n two_line_structure function started
+2024-10-30 11:36:28,079 -INFO - last n isPivot function started
+2024-10-30 11:36:28,359 -INFO - last n isPivot function Ended
+2024-10-30 11:36:28,359 -INFO - HAL.NS - last n detect_structure function started
+2024-10-30 11:36:28,360 -INFO - HAL.NS - last n two_line_structure function started
+2024-10-30 11:36:28,464 -INFO - last n isPivot function started
+2024-10-30 11:36:28,817 -INFO - last n isPivot function started
+2024-10-30 11:36:28,997 -INFO - last n isPivot function started
+2024-10-30 11:36:29,020 -INFO - last n isPivot function started
+2024-10-30 11:36:29,020 -INFO - last n isPivot function Ended
+2024-10-30 11:36:29,020 -INFO - PAGEIND.NS - last n detect_structure function started
+2024-10-30 11:36:29,295 -INFO - PAGEIND.NS - last n two_line_structure function started
+2024-10-30 11:36:29,398 -INFO - last n isPivot function started
+2024-10-30 11:36:29,673 -INFO - last n isPivot function Ended
+2024-10-30 11:36:29,673 -INFO - VOLTAS.NS - last n detect_structure function started
+2024-10-30 11:36:29,673 -INFO - VOLTAS.NS - last n two_line_structure function started
+2024-10-30 11:36:31,666 -INFO - last n isPivot function Ended
+2024-10-30 11:36:31,666 -INFO - SIEMENS.NS - last n detect_structure function started
+2024-10-30 11:36:31,668 -INFO - last n isPivot function Ended
+2024-10-30 11:36:31,668 -INFO - SIEMENS.NS - last n two_line_structure function started
+2024-10-30 11:36:31,676 -INFO - last n isPivot function Ended
+2024-10-30 11:36:31,684 -INFO - BHARTIARTL.NS - last n detect_structure function started
+2024-10-30 11:36:31,692 -INFO - BHARTIARTL.NS - last n two_line_structure function started
+2024-10-30 11:36:31,711 -INFO - ABB.NS - last n detect_structure function started
+2024-10-30 11:36:31,734 -INFO - ABB.NS - last n two_line_structure function started
+2024-10-30 11:37:03,497 -INFO - HAL.NS - last n two_line_structure function Ended
+2024-10-30 11:37:03,654 -INFO - HDFCAMC.NS - last n two_line_structure function Ended
+2024-10-30 11:37:12,761 -INFO - HDFCAMC.NS - last n detect_structure function Ended
+2024-10-30 11:37:12,766 -INFO - HDFCAMC.NS - add_ph_pl_values function started
+2024-10-30 11:37:12,845 -INFO - HDFCAMC.NS - add_ph_pl_values function Ended
+2024-10-30 11:37:13,106 -INFO - HAL.NS - last n detect_structure function Ended
+2024-10-30 11:37:13,107 -INFO - HAL.NS - add_ph_pl_values function started
+2024-10-30 11:37:13,207 -INFO - HAL.NS - add_ph_pl_values function Ended
+2024-10-30 11:37:46,787 -INFO - DEEPAKNTR.NS -  two_line_structure function Ended
+2024-10-30 11:38:10,628 -INFO - DEEPAKNTR.NS -  detect_structure function Ended
+2024-10-30 11:38:10,636 -INFO - DEEPAKNTR.NS - add_ph_pl_values function started
+2024-10-30 11:38:10,709 -INFO - DEEPAKNTR.NS - add_ph_pl_values function Ended
+2024-10-30 11:38:29,060 -INFO - All stocks - Excel file Saved
+2024-10-30 11:38:29,108 -INFO - All stocks - json file saved
+2024-10-30 11:38:29,108 -INFO - HDFCAMC.NS - alerts file Saved
+2024-10-30 11:38:29,145 -INFO - HDFCAMC.NS - Process function Ended
+2024-10-30 11:38:29,586 -INFO - All stocks - Excel file Saved
+2024-10-30 11:38:29,594 -INFO - All stocks - json file saved
+2024-10-30 11:38:29,595 -INFO - HAL.NS - alerts file Saved
+2024-10-30 11:38:29,599 -INFO - HAL.NS - Process function Ended
+2024-10-30 11:38:32,438 -INFO - PAGEIND.NS - last n two_line_structure function Ended
+2024-10-30 11:38:55,274 -INFO - BHARTIARTL.NS - last n two_line_structure function Ended
+2024-10-30 11:38:55,593 -INFO - PAGEIND.NS - last n detect_structure function Ended
+2024-10-30 11:38:55,602 -INFO - PAGEIND.NS - add_ph_pl_values function started
+2024-10-30 11:38:55,640 -INFO - PAGEIND.NS - add_ph_pl_values function Ended
+2024-10-30 11:38:56,597 -INFO - VOLTAS.NS - last n two_line_structure function Ended
+2024-10-30 11:39:02,610 -INFO - ABB.NS - last n two_line_structure function Ended
+2024-10-30 11:39:07,516 -INFO - All stocks - Excel file Saved
+2024-10-30 11:39:07,524 -INFO - All stocks - json file saved
+2024-10-30 11:39:07,524 -INFO - DEEPAKNTR.NS - alerts file Saved
+2024-10-30 11:39:07,524 -INFO - DEEPAKNTR.NS - Process function Ended
+2024-10-30 11:39:11,024 -INFO - SIEMENS.NS - last n two_line_structure function Ended
+2024-10-30 11:39:14,661 -INFO - BHARTIARTL.NS - last n detect_structure function Ended
+2024-10-30 11:39:14,663 -INFO - BHARTIARTL.NS - add_ph_pl_values function started
+2024-10-30 11:39:14,693 -INFO - BHARTIARTL.NS - add_ph_pl_values function Ended
+2024-10-30 11:39:15,704 -INFO - VOLTAS.NS - last n detect_structure function Ended
+2024-10-30 11:39:15,705 -INFO - VOLTAS.NS - add_ph_pl_values function started
+2024-10-30 11:39:15,711 -INFO - VOLTAS.NS - add_ph_pl_values function Ended
+2024-10-30 11:39:32,205 -INFO - ABB.NS - last n detect_structure function Ended
+2024-10-30 11:39:32,206 -INFO - ABB.NS - add_ph_pl_values function started
+2024-10-30 11:39:32,224 -INFO - ABB.NS - add_ph_pl_values function Ended
+2024-10-30 11:39:58,612 -INFO - All stocks - Excel file Saved
+2024-10-30 11:39:58,613 -INFO - All stocks - json file saved
+2024-10-30 11:39:58,613 -INFO - PAGEIND.NS - alerts file Saved
+2024-10-30 11:39:58,613 -INFO - PAGEIND.NS - Process function Ended
+2024-10-30 11:40:10,184 -INFO - All stocks - Excel file Saved
+2024-10-30 11:40:10,185 -INFO - All stocks - json file saved
+2024-10-30 11:40:10,185 -INFO - VOLTAS.NS - alerts file Saved
+2024-10-30 11:40:10,185 -INFO - VOLTAS.NS - Process function Ended
+2024-10-30 11:40:10,196 -INFO - All stocks - Excel file Saved
+2024-10-30 11:40:10,200 -INFO - All stocks - json file saved
+2024-10-30 11:40:10,200 -INFO - BHARTIARTL.NS - alerts file Saved
+2024-10-30 11:40:10,200 -INFO - BHARTIARTL.NS - Process function Ended
+2024-10-30 11:40:12,780 -INFO - SIEMENS.NS - last n detect_structure function Ended
+2024-10-30 11:40:12,780 -INFO - SIEMENS.NS - add_ph_pl_values function started
+2024-10-30 11:40:12,784 -INFO - SIEMENS.NS - add_ph_pl_values function Ended
+2024-10-30 11:40:18,824 -INFO - All stocks - Excel file Saved
+2024-10-30 11:40:18,824 -INFO - All stocks - json file saved
+2024-10-30 11:40:18,824 -INFO - ABB.NS - alerts file Saved
+2024-10-30 11:40:18,824 -INFO - ABB.NS - Process function Ended
+2024-10-30 11:40:29,720 -INFO - All stocks - Excel file Saved
+2024-10-30 11:40:29,720 -INFO - All stocks - json file saved
+2024-10-30 11:40:29,720 -INFO - SIEMENS.NS - alerts file Saved
+2024-10-30 11:40:29,720 -INFO - SIEMENS.NS - Process function Ended
+2024-10-30 11:40:45,788 -INFO - All stocks - Excel file Saved
+2024-10-30 11:40:45,788 -INFO - All stocks - json file saved
+2024-10-30 11:41:01,913 -INFO - All stocks - Excel file Saved
+2024-10-30 11:41:01,913 -INFO - All stocks - json file saved
