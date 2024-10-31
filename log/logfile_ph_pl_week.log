@@ -3048,3 +3048,95 @@ ValueError: Length of values (93097) does not match length of index (90998)
 2024-10-25 11:39:14,197 -INFO - All stocks - json file saved
 2024-10-25 11:39:39,192 -INFO - All stocks - Excel file Saved
 2024-10-25 11:39:39,193 -INFO - All stocks - json file saved
+2024-10-31 18:35:09,247 -INFO - Started...
+2024-10-31 18:35:10,166 -INFO - Started...
+2024-10-31 18:35:23,101 -INFO - CHOLAFIN.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - TATAPOWER.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - ULTRACEMCO.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - MARUTI.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - HDFCBANK.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - IEX.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - MRF.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - BANDHANBNK.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - SAIL.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - BAJAJ-AUTO.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - UBL.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - MOTHERSON.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - KOTAKBANK.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - APOLLOTYRE.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - EICHERMOT.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - M&M.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - MGL.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - POWERGRID.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - BHARTIARTL.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - SUNTV.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - AXISBANK.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - M&MFIN.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - ESCORTS.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - DALBHARAT.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - DLF.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - GODREJPROP.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - BAJAJFINSV.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - ASTRAL.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - UNITDSPR.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - HEROMOTOCO.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - ABFRL.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - PVRINOX.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - ITC.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - NESTLEIND.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - INDHOTEL.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - LT.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - SHRIRAMFIN.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - HAVELLS.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - TVSMOTOR.NS - this stock already completed
+2024-10-31 18:35:23,102 -INFO - BALKRISIND.NS - this stock already completed
+2024-10-31 18:35:23,103 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-10-31 18:35:25,369 -ERROR - 
+3 Failed downloads:
+2024-10-31 18:35:25,369 -ERROR - ['ICICIGI.NS']: OperationalError('database is locked')
+2024-10-31 18:35:25,369 -ERROR - ['NIFTY.NS', 'BANKNIFTY.NS']: YFTzMissingError('$%ticker%: possibly delisted; no timezone found')
+2024-10-31 18:35:25,396 -INFO - HINDUNILVR.NS - Process function started
+2024-10-31 18:35:25,396 -INFO - JUBLFOOD.NS - Process function started
+2024-10-31 18:35:25,396 -INFO - TITAN.NS - Process function started
+2024-10-31 18:35:25,396 -INFO - HINDUNILVR.NS - Reading existing data...
+2024-10-31 18:35:25,397 -INFO - TITAN.NS - Reading existing data...
+2024-10-31 18:35:25,400 -INFO - JUBLFOOD.NS - isPivot function started
+2024-10-31 18:35:25,499 -INFO - JUBLFOOD.NS - isPivot function Ended
+2024-10-31 18:35:25,499 -INFO - JUBLFOOD.NS -  detect_structure function started
+2024-10-31 18:35:25,501 -INFO - JUBLFOOD.NS -  two_line_structure function started
+2024-10-31 18:35:25,794 -INFO - last n isPivot function started
+2024-10-31 18:35:25,968 -INFO - last n isPivot function Ended
+2024-10-31 18:35:25,968 -INFO - last n isPivot function started
+2024-10-31 18:35:25,968 -INFO - TITAN.NS - last n detect_structure function started
+2024-10-31 18:35:25,971 -INFO - TITAN.NS - last n two_line_structure function started
+2024-10-31 18:35:26,219 -INFO - last n isPivot function Ended
+2024-10-31 18:35:26,220 -INFO - HINDUNILVR.NS - last n detect_structure function started
+2024-10-31 18:35:26,224 -INFO - HINDUNILVR.NS - last n two_line_structure function started
+2024-10-31 18:35:30,704 -INFO - JUBLFOOD.NS -  two_line_structure function Ended
+2024-10-31 18:35:36,446 -INFO - TITAN.NS - last n two_line_structure function Ended
+2024-10-31 18:35:36,841 -INFO - HINDUNILVR.NS - last n two_line_structure function Ended
+2024-10-31 18:35:39,524 -INFO - JUBLFOOD.NS -  detect_structure function Ended
+2024-10-31 18:35:39,525 -INFO - JUBLFOOD.NS - add_ph_pl_values function started
+2024-10-31 18:35:39,538 -INFO - JUBLFOOD.NS - add_ph_pl_values function Ended
+2024-10-31 18:35:57,663 -INFO - TITAN.NS - last n detect_structure function Ended
+2024-10-31 18:35:57,666 -INFO - TITAN.NS - add_ph_pl_values function started
+2024-10-31 18:35:57,677 -INFO - TITAN.NS - add_ph_pl_values function Ended
+2024-10-31 18:36:14,459 -INFO - HINDUNILVR.NS - last n detect_structure function Ended
+2024-10-31 18:36:14,655 -INFO - HINDUNILVR.NS - add_ph_pl_values function started
+2024-10-31 18:36:16,032 -INFO - HINDUNILVR.NS - add_ph_pl_values function Ended
+2024-10-31 18:36:48,509 -INFO - All stocks - Excel file Saved
+2024-10-31 18:36:48,511 -INFO - All stocks - json file saved
+2024-10-31 18:36:48,511 -INFO - JUBLFOOD.NS - alerts file Saved
+2024-10-31 18:36:48,511 -INFO - JUBLFOOD.NS - Process function Ended
+2024-10-31 18:37:02,461 -INFO - All stocks - Excel file Saved
+2024-10-31 18:37:02,462 -INFO - All stocks - json file saved
+2024-10-31 18:37:02,462 -INFO - TITAN.NS - alerts file Saved
+2024-10-31 18:37:02,462 -INFO - TITAN.NS - Process function Ended
+2024-10-31 18:37:03,092 -INFO - All stocks - Excel file Saved
+2024-10-31 18:37:03,092 -INFO - All stocks - json file saved
+2024-10-31 18:37:03,092 -INFO - HINDUNILVR.NS - alerts file Saved
+2024-10-31 18:37:03,092 -INFO - HINDUNILVR.NS - Process function Ended
+2024-10-31 18:37:29,485 -INFO - All stocks - Excel file Saved
+2024-10-31 18:37:29,486 -INFO - All stocks - json file saved
+2024-10-31 18:37:54,972 -INFO - All stocks - Excel file Saved
+2024-10-31 18:37:54,972 -INFO - All stocks - json file saved
