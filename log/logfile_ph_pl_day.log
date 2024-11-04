@@ -10809,3 +10809,154 @@ ValueError: Length of values (41317) does not match length of index (41311)
 2024-10-31 11:42:02,944 -INFO - All stocks - json file saved
 2024-10-31 11:42:20,447 -INFO - All stocks - Excel file Saved
 2024-10-31 11:42:20,447 -INFO - All stocks - json file saved
+2024-11-04 11:36:35,807 -INFO - Started...
+2024-11-04 11:36:36,805 -INFO - Started...
+2024-11-04 11:36:48,593 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-11-04 11:36:48,594 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-11-04 11:36:50,768 -ERROR - 
+1 Failed download:
+2024-11-04 11:36:50,768 -ERROR - ['BANKNIFTY.NS']: YFTzMissingError('$%ticker%: possibly delisted; no timezone found')
+2024-11-04 11:36:51,043 -INFO - JUBLFOOD.NS - Process function started
+2024-11-04 11:36:51,043 -INFO - CUB.NS - Process function started
+2024-11-04 11:36:51,043 -INFO - AXISBANK.NS - Process function started
+2024-11-04 11:36:51,043 -INFO - JUBLFOOD.NS - Reading existing data...
+2024-11-04 11:36:51,043 -INFO - CUB.NS - Reading existing data...
+2024-11-04 11:36:51,043 -INFO - SHREECEM.NS - Process function started
+2024-11-04 11:36:51,044 -INFO - AXISBANK.NS - Reading existing data...
+2024-11-04 11:36:51,044 -INFO - TATACHEM.NS - Process function started
+2024-11-04 11:36:51,044 -INFO - HDFCLIFE.NS - Process function started
+2024-11-04 11:36:51,044 -INFO - SHREECEM.NS - Reading existing data...
+2024-11-04 11:36:51,044 -INFO - HCLTECH.NS - Process function started
+2024-11-04 11:36:51,045 -INFO - NATIONALUM.NS - Process function started
+2024-11-04 11:36:51,045 -INFO - TATACHEM.NS - Reading existing data...
+2024-11-04 11:36:51,045 -INFO - TECHM.NS - Process function started
+2024-11-04 11:36:51,045 -INFO - HINDALCO.NS - Process function started
+2024-11-04 11:36:51,046 -INFO - HDFCLIFE.NS - Reading existing data...
+2024-11-04 11:36:51,046 -INFO - HCLTECH.NS - Reading existing data...
+2024-11-04 11:36:51,047 -INFO - NATIONALUM.NS - Reading existing data...
+2024-11-04 11:36:51,047 -INFO - TECHM.NS - Reading existing data...
+2024-11-04 11:36:51,048 -INFO - HINDALCO.NS - Reading existing data...
+2024-11-04 11:36:52,132 -INFO - last n isPivot function started
+2024-11-04 11:36:52,804 -INFO - last n isPivot function Ended
+2024-11-04 11:36:52,804 -INFO - HDFCLIFE.NS - last n detect_structure function started
+2024-11-04 11:36:52,806 -INFO - HDFCLIFE.NS - last n two_line_structure function started
+2024-11-04 11:36:54,842 -INFO - last n isPivot function started
+2024-11-04 11:36:55,738 -INFO - last n isPivot function Ended
+2024-11-04 11:36:55,796 -INFO - JUBLFOOD.NS - last n detect_structure function started
+2024-11-04 11:36:55,800 -INFO - JUBLFOOD.NS - last n two_line_structure function started
+2024-11-04 11:36:56,284 -INFO - last n isPivot function started
+2024-11-04 11:36:56,749 -INFO - last n isPivot function started
+2024-11-04 11:36:58,092 -INFO - last n isPivot function Ended
+2024-11-04 11:36:58,093 -INFO - SHREECEM.NS - last n detect_structure function started
+2024-11-04 11:36:58,097 -INFO - last n isPivot function started
+2024-11-04 11:36:58,097 -INFO - SHREECEM.NS - last n two_line_structure function started
+2024-11-04 11:36:58,305 -INFO - last n isPivot function Ended
+2024-11-04 11:36:58,320 -INFO - CUB.NS - last n detect_structure function started
+2024-11-04 11:36:58,395 -INFO - CUB.NS - last n two_line_structure function started
+2024-11-04 11:36:59,024 -INFO - last n isPivot function started
+2024-11-04 11:36:59,025 -INFO - last n isPivot function Ended
+2024-11-04 11:36:59,089 -INFO - TECHM.NS - last n detect_structure function started
+2024-11-04 11:36:59,094 -INFO - TECHM.NS - last n two_line_structure function started
+2024-11-04 11:36:59,108 -INFO - last n isPivot function started
+2024-11-04 11:37:00,960 -INFO - last n isPivot function Ended
+2024-11-04 11:37:00,968 -INFO - NATIONALUM.NS - last n detect_structure function started
+2024-11-04 11:37:00,968 -INFO - last n isPivot function Ended
+2024-11-04 11:37:00,969 -INFO - NATIONALUM.NS - last n two_line_structure function started
+2024-11-04 11:37:01,000 -INFO - HCLTECH.NS - last n detect_structure function started
+2024-11-04 11:37:01,008 -INFO - last n isPivot function started
+2024-11-04 11:37:01,023 -INFO - HCLTECH.NS - last n two_line_structure function started
+2024-11-04 11:37:01,936 -INFO - last n isPivot function Ended
+2024-11-04 11:37:01,936 -INFO - AXISBANK.NS - last n detect_structure function started
+2024-11-04 11:37:01,941 -INFO - AXISBANK.NS - last n two_line_structure function started
+2024-11-04 11:37:02,132 -INFO - last n isPivot function started
+2024-11-04 11:37:02,182 -INFO - last n isPivot function started
+2024-11-04 11:37:04,035 -INFO - last n isPivot function Ended
+2024-11-04 11:37:04,038 -INFO - HINDALCO.NS - last n detect_structure function started
+2024-11-04 11:37:04,055 -INFO - last n isPivot function Ended
+2024-11-04 11:37:04,055 -INFO - TATACHEM.NS - last n detect_structure function started
+2024-11-04 11:37:04,067 -INFO - HINDALCO.NS - last n two_line_structure function started
+2024-11-04 11:37:04,069 -INFO - TATACHEM.NS - last n two_line_structure function started
+2024-11-04 11:38:08,791 -INFO - HDFCLIFE.NS - last n two_line_structure function Ended
+2024-11-04 11:38:25,333 -INFO - HDFCLIFE.NS - last n detect_structure function Ended
+2024-11-04 11:38:25,344 -INFO - HDFCLIFE.NS - add_ph_pl_values function started
+2024-11-04 11:38:25,508 -INFO - HDFCLIFE.NS - add_ph_pl_values function Ended
+2024-11-04 11:39:32,153 -INFO - JUBLFOOD.NS - last n two_line_structure function Ended
+2024-11-04 11:39:52,115 -INFO - All stocks - Excel file Saved
+2024-11-04 11:39:52,135 -INFO - All stocks - json file saved
+2024-11-04 11:39:52,136 -INFO - HDFCLIFE.NS - alerts file Saved
+2024-11-04 11:39:52,136 -INFO - HDFCLIFE.NS - Process function Ended
+2024-11-04 11:39:58,981 -INFO - TECHM.NS - last n two_line_structure function Ended
+2024-11-04 11:39:59,021 -INFO - JUBLFOOD.NS - last n detect_structure function Ended
+2024-11-04 11:39:59,041 -INFO - JUBLFOOD.NS - add_ph_pl_values function started
+2024-11-04 11:39:59,147 -INFO - JUBLFOOD.NS - add_ph_pl_values function Ended
+2024-11-04 11:40:35,567 -INFO - TECHM.NS - last n detect_structure function Ended
+2024-11-04 11:40:36,070 -INFO - TECHM.NS - add_ph_pl_values function started
+2024-11-04 11:40:37,431 -INFO - TECHM.NS - add_ph_pl_values function Ended
+2024-11-04 11:40:48,096 -INFO - HCLTECH.NS - last n two_line_structure function Ended
+2024-11-04 11:40:50,299 -INFO - CUB.NS - last n two_line_structure function Ended
+2024-11-04 11:40:53,596 -INFO - SHREECEM.NS - last n two_line_structure function Ended
+2024-11-04 11:41:08,635 -INFO - All stocks - Excel file Saved
+2024-11-04 11:41:08,647 -INFO - All stocks - json file saved
+2024-11-04 11:41:08,647 -INFO - JUBLFOOD.NS - alerts file Saved
+2024-11-04 11:41:08,649 -INFO - JUBLFOOD.NS - Process function Ended
+2024-11-04 11:41:08,883 -INFO - NATIONALUM.NS - last n two_line_structure function Ended
+2024-11-04 11:41:19,982 -INFO - AXISBANK.NS - last n two_line_structure function Ended
+2024-11-04 11:41:22,651 -INFO - HCLTECH.NS - last n detect_structure function Ended
+2024-11-04 11:41:22,659 -INFO - HCLTECH.NS - add_ph_pl_values function started
+2024-11-04 11:41:22,698 -INFO - HCLTECH.NS - add_ph_pl_values function Ended
+2024-11-04 11:41:31,610 -INFO - SHREECEM.NS - last n detect_structure function Ended
+2024-11-04 11:41:31,611 -INFO - SHREECEM.NS - add_ph_pl_values function started
+2024-11-04 11:41:31,631 -INFO - SHREECEM.NS - add_ph_pl_values function Ended
+2024-11-04 11:41:32,414 -INFO - CUB.NS - last n detect_structure function Ended
+2024-11-04 11:41:32,422 -INFO - CUB.NS - add_ph_pl_values function started
+2024-11-04 11:41:32,449 -INFO - CUB.NS - add_ph_pl_values function Ended
+2024-11-04 11:41:35,714 -INFO - HINDALCO.NS - last n two_line_structure function Ended
+2024-11-04 11:41:47,187 -INFO - TATACHEM.NS - last n two_line_structure function Ended
+2024-11-04 11:41:47,825 -INFO - All stocks - Excel file Saved
+2024-11-04 11:41:47,831 -INFO - All stocks - json file saved
+2024-11-04 11:41:47,831 -INFO - TECHM.NS - alerts file Saved
+2024-11-04 11:41:47,831 -INFO - TECHM.NS - Process function Ended
+2024-11-04 11:42:02,475 -INFO - NATIONALUM.NS - last n detect_structure function Ended
+2024-11-04 11:42:02,478 -INFO - NATIONALUM.NS - add_ph_pl_values function started
+2024-11-04 11:42:02,495 -INFO - NATIONALUM.NS - add_ph_pl_values function Ended
+2024-11-04 11:42:31,189 -INFO - All stocks - Excel file Saved
+2024-11-04 11:42:31,191 -INFO - All stocks - json file saved
+2024-11-04 11:42:31,191 -INFO - HCLTECH.NS - alerts file Saved
+2024-11-04 11:42:31,191 -INFO - HCLTECH.NS - Process function Ended
+2024-11-04 11:42:37,886 -INFO - All stocks - Excel file Saved
+2024-11-04 11:42:37,890 -INFO - All stocks - json file saved
+2024-11-04 11:42:37,890 -INFO - SHREECEM.NS - alerts file Saved
+2024-11-04 11:42:37,890 -INFO - SHREECEM.NS - Process function Ended
+2024-11-04 11:42:38,139 -INFO - AXISBANK.NS - last n detect_structure function Ended
+2024-11-04 11:42:38,140 -INFO - AXISBANK.NS - add_ph_pl_values function started
+2024-11-04 11:42:38,146 -INFO - AXISBANK.NS - add_ph_pl_values function Ended
+2024-11-04 11:42:39,245 -INFO - All stocks - Excel file Saved
+2024-11-04 11:42:39,245 -INFO - All stocks - json file saved
+2024-11-04 11:42:39,245 -INFO - CUB.NS - alerts file Saved
+2024-11-04 11:42:39,245 -INFO - CUB.NS - Process function Ended
+2024-11-04 11:42:45,611 -INFO - HINDALCO.NS - last n detect_structure function Ended
+2024-11-04 11:42:45,612 -INFO - HINDALCO.NS - add_ph_pl_values function started
+2024-11-04 11:42:45,620 -INFO - HINDALCO.NS - add_ph_pl_values function Ended
+2024-11-04 11:42:51,945 -INFO - TATACHEM.NS - last n detect_structure function Ended
+2024-11-04 11:42:51,949 -INFO - TATACHEM.NS - add_ph_pl_values function started
+2024-11-04 11:42:51,961 -INFO - TATACHEM.NS - add_ph_pl_values function Ended
+2024-11-04 11:43:03,263 -INFO - All stocks - Excel file Saved
+2024-11-04 11:43:03,269 -INFO - All stocks - json file saved
+2024-11-04 11:43:03,269 -INFO - NATIONALUM.NS - alerts file Saved
+2024-11-04 11:43:03,269 -INFO - NATIONALUM.NS - Process function Ended
+2024-11-04 11:43:26,849 -INFO - All stocks - Excel file Saved
+2024-11-04 11:43:26,850 -INFO - All stocks - json file saved
+2024-11-04 11:43:26,850 -INFO - AXISBANK.NS - alerts file Saved
+2024-11-04 11:43:26,850 -INFO - AXISBANK.NS - Process function Ended
+2024-11-04 11:43:29,371 -INFO - All stocks - Excel file Saved
+2024-11-04 11:43:29,371 -INFO - All stocks - json file saved
+2024-11-04 11:43:29,371 -INFO - HINDALCO.NS - alerts file Saved
+2024-11-04 11:43:29,371 -INFO - HINDALCO.NS - Process function Ended
+2024-11-04 11:43:32,198 -INFO - All stocks - Excel file Saved
+2024-11-04 11:43:32,199 -INFO - All stocks - json file saved
+2024-11-04 11:43:32,199 -INFO - TATACHEM.NS - alerts file Saved
+2024-11-04 11:43:32,199 -INFO - TATACHEM.NS - Process function Ended
+2024-11-04 11:43:49,302 -INFO - All stocks - Excel file Saved
+2024-11-04 11:43:49,302 -INFO - All stocks - json file saved
+2024-11-04 11:44:05,608 -INFO - All stocks - Excel file Saved
+2024-11-04 11:44:05,608 -INFO - All stocks - json file saved
