@@ -10960,3 +10960,66 @@ ValueError: Length of values (41317) does not match length of index (41311)
 2024-11-04 11:43:49,302 -INFO - All stocks - json file saved
 2024-11-04 11:44:05,608 -INFO - All stocks - Excel file Saved
 2024-11-04 11:44:05,608 -INFO - All stocks - json file saved
+2024-11-05 11:36:31,633 -INFO - Started...
+2024-11-05 11:36:33,176 -INFO - Started...
+2024-11-05 11:36:41,279 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-11-05 11:36:42,770 -INFO - COFORGE.NS - Process function started
+2024-11-05 11:36:42,770 -INFO - COFORGE.NS - Reading existing data...
+2024-11-05 11:36:42,771 -INFO - PERSISTENT.NS - Process function started
+2024-11-05 11:36:42,771 -INFO - PERSISTENT.NS - Reading existing data...
+2024-11-05 11:36:42,771 -INFO - SRF.NS - Process function started
+2024-11-05 11:36:42,771 -INFO - MANAPPURAM.NS - Process function started
+2024-11-05 11:36:42,771 -INFO - SRF.NS - Reading existing data...
+2024-11-05 11:36:42,771 -INFO - MANAPPURAM.NS - Reading existing data...
+2024-11-05 11:36:43,574 -INFO - last n isPivot function started
+2024-11-05 11:36:44,091 -INFO - last n isPivot function Ended
+2024-11-05 11:36:44,091 -INFO - PERSISTENT.NS - last n detect_structure function started
+2024-11-05 11:36:44,122 -INFO - PERSISTENT.NS - last n two_line_structure function started
+2024-11-05 11:36:44,250 -INFO - last n isPivot function started
+2024-11-05 11:36:44,680 -INFO - last n isPivot function Ended
+2024-11-05 11:36:44,680 -INFO - MANAPPURAM.NS - last n detect_structure function started
+2024-11-05 11:36:44,685 -INFO - MANAPPURAM.NS - last n two_line_structure function started
+2024-11-05 11:36:44,712 -INFO - last n isPivot function started
+2024-11-05 11:36:44,798 -INFO - last n isPivot function started
+2024-11-05 11:36:45,922 -INFO - last n isPivot function Ended
+2024-11-05 11:36:45,922 -INFO - COFORGE.NS - last n detect_structure function started
+2024-11-05 11:36:45,922 -INFO - last n isPivot function Ended
+2024-11-05 11:36:45,930 -INFO - COFORGE.NS - last n two_line_structure function started
+2024-11-05 11:36:45,937 -INFO - SRF.NS - last n detect_structure function started
+2024-11-05 11:36:45,945 -INFO - SRF.NS - last n two_line_structure function started
+2024-11-05 11:37:24,279 -INFO - MANAPPURAM.NS - last n two_line_structure function Ended
+2024-11-05 11:37:24,921 -INFO - PERSISTENT.NS - last n two_line_structure function Ended
+2024-11-05 11:37:31,533 -INFO - MANAPPURAM.NS - last n detect_structure function Ended
+2024-11-05 11:37:31,535 -INFO - MANAPPURAM.NS - add_ph_pl_values function started
+2024-11-05 11:37:31,572 -INFO - MANAPPURAM.NS - add_ph_pl_values function Ended
+2024-11-05 11:37:32,524 -INFO - PERSISTENT.NS - last n detect_structure function Ended
+2024-11-05 11:37:32,524 -INFO - PERSISTENT.NS - add_ph_pl_values function started
+2024-11-05 11:37:32,550 -INFO - PERSISTENT.NS - add_ph_pl_values function Ended
+2024-11-05 11:37:47,121 -INFO - COFORGE.NS - last n two_line_structure function Ended
+2024-11-05 11:37:54,654 -INFO - SRF.NS - last n two_line_structure function Ended
+2024-11-05 11:38:06,807 -INFO - COFORGE.NS - last n detect_structure function Ended
+2024-11-05 11:38:06,808 -INFO - COFORGE.NS - add_ph_pl_values function started
+2024-11-05 11:38:06,813 -INFO - COFORGE.NS - add_ph_pl_values function Ended
+2024-11-05 11:38:18,773 -INFO - All stocks - Excel file Saved
+2024-11-05 11:38:18,775 -INFO - All stocks - json file saved
+2024-11-05 11:38:18,775 -INFO - MANAPPURAM.NS - alerts file Saved
+2024-11-05 11:38:18,775 -INFO - MANAPPURAM.NS - Process function Ended
+2024-11-05 11:38:19,010 -INFO - SRF.NS - last n detect_structure function Ended
+2024-11-05 11:38:19,010 -INFO - SRF.NS - add_ph_pl_values function started
+2024-11-05 11:38:19,015 -INFO - SRF.NS - add_ph_pl_values function Ended
+2024-11-05 11:38:19,489 -INFO - All stocks - Excel file Saved
+2024-11-05 11:38:19,625 -INFO - All stocks - json file saved
+2024-11-05 11:38:19,625 -INFO - PERSISTENT.NS - alerts file Saved
+2024-11-05 11:38:19,670 -INFO - PERSISTENT.NS - Process function Ended
+2024-11-05 11:38:45,598 -INFO - All stocks - Excel file Saved
+2024-11-05 11:38:45,598 -INFO - All stocks - json file saved
+2024-11-05 11:38:45,598 -INFO - COFORGE.NS - alerts file Saved
+2024-11-05 11:38:45,598 -INFO - COFORGE.NS - Process function Ended
+2024-11-05 11:38:48,628 -INFO - All stocks - Excel file Saved
+2024-11-05 11:38:48,629 -INFO - All stocks - json file saved
+2024-11-05 11:38:48,629 -INFO - SRF.NS - alerts file Saved
+2024-11-05 11:38:48,629 -INFO - SRF.NS - Process function Ended
+2024-11-05 11:39:06,242 -INFO - All stocks - Excel file Saved
+2024-11-05 11:39:06,243 -INFO - All stocks - json file saved
+2024-11-05 11:39:22,421 -INFO - All stocks - Excel file Saved
+2024-11-05 11:39:22,421 -INFO - All stocks - json file saved
