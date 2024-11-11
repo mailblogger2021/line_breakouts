@@ -11420,3 +11420,250 @@ ValueError: Length of values (41317) does not match length of index (41311)
 2024-11-07 11:43:07,399 -INFO - All stocks - json file saved
 2024-11-07 11:43:24,135 -INFO - All stocks - Excel file Saved
 2024-11-07 11:43:24,135 -INFO - All stocks - json file saved
+2024-11-11 11:35:09,471 -INFO - Started...
+2024-11-11 11:35:10,400 -INFO - Started...
+2024-11-11 11:35:21,154 -ERROR - 
+1 Failed download:
+2024-11-11 11:35:21,154 -ERROR - ['APOLLOHOSP.NS']: OperationalError('database is locked')
+2024-11-11 11:35:21,497 -INFO - GMRINFRA.NS - Process function started
+2024-11-11 11:35:21,498 -INFO - GMRINFRA.NS - Reading existing data...
+2024-11-11 11:35:21,498 -INFO - JSWSTEEL.NS - Process function started
+2024-11-11 11:35:21,498 -INFO - JSWSTEEL.NS - Reading existing data...
+2024-11-11 11:35:21,498 -INFO - ONGC.NS - Process function started
+2024-11-11 11:35:21,498 -INFO - ONGC.NS - Reading existing data...
+2024-11-11 11:35:21,498 -INFO - TATACONSUM.NS - Process function started
+2024-11-11 11:35:21,498 -INFO - TATACONSUM.NS - Reading existing data...
+2024-11-11 11:35:21,498 -INFO - IDFCFIRSTB.NS - Process function started
+2024-11-11 11:35:21,498 -INFO - IDFCFIRSTB.NS - Reading existing data...
+2024-11-11 11:35:21,499 -INFO - IGL.NS - Process function started
+2024-11-11 11:35:21,499 -INFO - IGL.NS - Reading existing data...
+2024-11-11 11:35:21,499 -INFO - GNFC.NS - Process function started
+2024-11-11 11:35:21,499 -INFO - GNFC.NS - Reading existing data...
+2024-11-11 11:35:21,499 -INFO - CHAMBLFERT.NS - Process function started
+2024-11-11 11:35:21,499 -INFO - CHAMBLFERT.NS - Reading existing data...
+2024-11-11 11:35:21,499 -INFO - IDEA.NS - Process function started
+2024-11-11 11:35:21,499 -INFO - IDEA.NS - Reading existing data...
+2024-11-11 11:35:21,499 -INFO - SUNTV.NS - Process function started
+2024-11-11 11:35:21,499 -INFO - SUNTV.NS - Reading existing data...
+2024-11-11 11:35:21,500 -INFO - JKCEMENT.NS - Process function started
+2024-11-11 11:35:21,500 -INFO - PETRONET.NS - Process function started
+2024-11-11 11:35:21,500 -INFO - INDIGO.NS - Process function started
+2024-11-11 11:35:21,500 -INFO - JKCEMENT.NS - Reading existing data...
+2024-11-11 11:35:21,500 -INFO - PETRONET.NS - Reading existing data...
+2024-11-11 11:35:21,500 -INFO - PAGEIND.NS - Process function started
+2024-11-11 11:35:21,500 -INFO - FEDERALBNK.NS - Process function started
+2024-11-11 11:35:21,500 -INFO - INDIGO.NS - Reading existing data...
+2024-11-11 11:35:21,500 -INFO - LT.NS - Process function started
+2024-11-11 11:35:21,500 -INFO - CONCOR.NS - Process function started
+2024-11-11 11:35:21,501 -INFO - PAGEIND.NS - Reading existing data...
+2024-11-11 11:35:21,501 -INFO - FEDERALBNK.NS - Reading existing data...
+2024-11-11 11:35:21,501 -INFO - LT.NS - Reading existing data...
+2024-11-11 11:35:21,501 -INFO - CONCOR.NS - Reading existing data...
+2024-11-11 11:35:22,600 -INFO - last n isPivot function started
+2024-11-11 11:35:22,632 -INFO - last n isPivot function started
+2024-11-11 11:35:25,112 -INFO - last n isPivot function Ended
+2024-11-11 11:35:25,281 -INFO - GMRINFRA.NS - last n detect_structure function started
+2024-11-11 11:35:25,489 -INFO - GMRINFRA.NS - last n two_line_structure function started
+2024-11-11 11:35:26,879 -INFO - last n isPivot function Ended
+2024-11-11 11:35:26,879 -INFO - ONGC.NS - last n detect_structure function started
+2024-11-11 11:35:27,003 -INFO - ONGC.NS - last n two_line_structure function started
+2024-11-11 11:35:27,768 -INFO - last n isPivot function started
+2024-11-11 11:35:27,912 -INFO - last n isPivot function started
+2024-11-11 11:35:28,275 -INFO - last n isPivot function started
+2024-11-11 11:35:28,552 -INFO - last n isPivot function started
+2024-11-11 11:35:29,099 -INFO - last n isPivot function Ended
+2024-11-11 11:35:29,099 -INFO - INDIGO.NS - last n detect_structure function started
+2024-11-11 11:35:29,442 -INFO - last n isPivot function Ended
+2024-11-11 11:35:29,442 -INFO - PAGEIND.NS - last n detect_structure function started
+2024-11-11 11:35:29,521 -INFO - last n isPivot function started
+2024-11-11 11:35:29,524 -INFO - INDIGO.NS - last n two_line_structure function started
+2024-11-11 11:35:29,526 -INFO - PAGEIND.NS - last n two_line_structure function started
+2024-11-11 11:35:29,535 -INFO - last n isPivot function Ended
+2024-11-11 11:35:29,536 -INFO - last n isPivot function Ended
+2024-11-11 11:35:29,984 -INFO - JSWSTEEL.NS - last n detect_structure function started
+2024-11-11 11:35:29,985 -INFO - last n isPivot function started
+2024-11-11 11:35:30,089 -INFO - IDFCFIRSTB.NS - last n detect_structure function started
+2024-11-11 11:35:30,089 -INFO - last n isPivot function started
+2024-11-11 11:35:30,090 -INFO - JSWSTEEL.NS - last n two_line_structure function started
+2024-11-11 11:35:30,096 -INFO - last n isPivot function started
+2024-11-11 11:35:30,098 -INFO - IDFCFIRSTB.NS - last n two_line_structure function started
+2024-11-11 11:35:30,100 -INFO - last n isPivot function Ended
+2024-11-11 11:35:30,105 -INFO - last n isPivot function started
+2024-11-11 11:35:30,285 -INFO - last n isPivot function started
+2024-11-11 11:35:30,305 -INFO - last n isPivot function started
+2024-11-11 11:35:31,270 -INFO - JKCEMENT.NS - last n detect_structure function started
+2024-11-11 11:35:31,281 -INFO - last n isPivot function started
+2024-11-11 11:35:31,285 -INFO - JKCEMENT.NS - last n two_line_structure function started
+2024-11-11 11:35:31,286 -INFO - last n isPivot function Ended
+2024-11-11 11:35:31,293 -INFO - last n isPivot function Ended
+2024-11-11 11:35:31,878 -INFO - last n isPivot function Ended
+2024-11-11 11:35:31,880 -INFO - last n isPivot function started
+2024-11-11 11:35:32,369 -INFO - IGL.NS - last n detect_structure function started
+2024-11-11 11:35:32,458 -INFO - SUNTV.NS - last n detect_structure function started
+2024-11-11 11:35:32,459 -INFO - IGL.NS - last n two_line_structure function started
+2024-11-11 11:35:32,463 -INFO - PETRONET.NS - last n detect_structure function started
+2024-11-11 11:35:32,675 -INFO - last n isPivot function started
+2024-11-11 11:35:32,734 -INFO - PETRONET.NS - last n two_line_structure function started
+2024-11-11 11:35:32,744 -INFO - SUNTV.NS - last n two_line_structure function started
+2024-11-11 11:35:32,747 -INFO - last n isPivot function started
+2024-11-11 11:35:34,031 -INFO - last n isPivot function Ended
+2024-11-11 11:35:34,356 -INFO - last n isPivot function Ended
+2024-11-11 11:35:35,104 -INFO - CHAMBLFERT.NS - last n detect_structure function started
+2024-11-11 11:35:35,104 -INFO - CHAMBLFERT.NS - last n two_line_structure function started
+2024-11-11 11:35:35,106 -INFO - last n isPivot function Ended
+2024-11-11 11:35:35,236 -INFO - IDEA.NS - last n detect_structure function started
+2024-11-11 11:35:35,292 -INFO - last n isPivot function Ended
+2024-11-11 11:35:35,554 -INFO - last n isPivot function Ended
+2024-11-11 11:35:35,554 -INFO - IDEA.NS - last n two_line_structure function started
+2024-11-11 11:35:35,823 -INFO - GNFC.NS - last n detect_structure function started
+2024-11-11 11:35:35,824 -INFO - last n isPivot function Ended
+2024-11-11 11:35:35,826 -INFO - GNFC.NS - last n two_line_structure function started
+2024-11-11 11:35:36,090 -INFO - FEDERALBNK.NS - last n detect_structure function started
+2024-11-11 11:35:36,092 -INFO - FEDERALBNK.NS - last n two_line_structure function started
+2024-11-11 11:35:36,094 -INFO - CONCOR.NS - last n detect_structure function started
+2024-11-11 11:35:36,385 -INFO - CONCOR.NS - last n two_line_structure function started
+2024-11-11 11:35:36,720 -INFO - LT.NS - last n detect_structure function started
+2024-11-11 11:35:36,722 -INFO - LT.NS - last n two_line_structure function started
+2024-11-11 11:35:36,783 -INFO - last n isPivot function Ended
+2024-11-11 11:35:36,905 -INFO - TATACONSUM.NS - last n detect_structure function started
+2024-11-11 11:35:36,920 -INFO - TATACONSUM.NS - last n two_line_structure function started
+2024-11-11 11:37:25,390 -INFO - INDIGO.NS - last n two_line_structure function Ended
+2024-11-11 11:37:27,251 -INFO - IDFCFIRSTB.NS - last n two_line_structure function Ended
+2024-11-11 11:38:13,530 -INFO - INDIGO.NS - last n detect_structure function Ended
+2024-11-11 11:38:13,578 -INFO - INDIGO.NS - add_ph_pl_values function started
+2024-11-11 11:38:13,865 -INFO - INDIGO.NS - add_ph_pl_values function Ended
+2024-11-11 11:38:14,267 -INFO - IDFCFIRSTB.NS - last n detect_structure function Ended
+2024-11-11 11:38:14,294 -INFO - IDFCFIRSTB.NS - add_ph_pl_values function started
+2024-11-11 11:38:14,509 -INFO - IDFCFIRSTB.NS - add_ph_pl_values function Ended
+2024-11-11 11:40:37,125 -INFO - IDEA.NS - last n two_line_structure function Ended
+2024-11-11 11:40:49,540 -INFO - PAGEIND.NS - last n two_line_structure function Ended
+2024-11-11 11:40:50,321 -INFO - JKCEMENT.NS - last n two_line_structure function Ended
+2024-11-11 11:40:51,576 -INFO - GMRINFRA.NS - last n two_line_structure function Ended
+2024-11-11 11:40:52,574 -INFO - All stocks - Excel file Saved
+2024-11-11 11:40:52,608 -INFO - All stocks - json file saved
+2024-11-11 11:40:52,609 -INFO - INDIGO.NS - alerts file Saved
+2024-11-11 11:40:52,609 -INFO - INDIGO.NS - Process function Ended
+2024-11-11 11:40:53,725 -INFO - SUNTV.NS - last n two_line_structure function Ended
+2024-11-11 11:40:54,722 -INFO - All stocks - Excel file Saved
+2024-11-11 11:40:54,750 -INFO - All stocks - json file saved
+2024-11-11 11:40:54,750 -INFO - IDFCFIRSTB.NS - alerts file Saved
+2024-11-11 11:40:54,750 -INFO - IDFCFIRSTB.NS - Process function Ended
+2024-11-11 11:41:21,994 -INFO - PETRONET.NS - last n two_line_structure function Ended
+2024-11-11 11:41:24,417 -INFO - IGL.NS - last n two_line_structure function Ended
+2024-11-11 11:41:25,083 -INFO - JSWSTEEL.NS - last n two_line_structure function Ended
+2024-11-11 11:41:31,751 -INFO - LT.NS - last n two_line_structure function Ended
+2024-11-11 11:41:34,196 -INFO - IDEA.NS - last n detect_structure function Ended
+2024-11-11 11:41:34,208 -INFO - IDEA.NS - add_ph_pl_values function started
+2024-11-11 11:41:34,302 -INFO - IDEA.NS - add_ph_pl_values function Ended
+2024-11-11 11:41:37,949 -INFO - PAGEIND.NS - last n detect_structure function Ended
+2024-11-11 11:41:37,964 -INFO - PAGEIND.NS - add_ph_pl_values function started
+2024-11-11 11:41:39,026 -INFO - PAGEIND.NS - add_ph_pl_values function Ended
+2024-11-11 11:41:40,672 -INFO - JKCEMENT.NS - last n detect_structure function Ended
+2024-11-11 11:41:41,014 -INFO - JKCEMENT.NS - add_ph_pl_values function started
+2024-11-11 11:41:42,755 -INFO - JKCEMENT.NS - add_ph_pl_values function Ended
+2024-11-11 11:41:46,112 -INFO - CONCOR.NS - last n two_line_structure function Ended
+2024-11-11 11:41:46,440 -INFO - GMRINFRA.NS - last n detect_structure function Ended
+2024-11-11 11:41:46,472 -INFO - GMRINFRA.NS - add_ph_pl_values function started
+2024-11-11 11:41:46,620 -INFO - GMRINFRA.NS - add_ph_pl_values function Ended
+2024-11-11 11:41:49,593 -INFO - GNFC.NS - last n two_line_structure function Ended
+2024-11-11 11:42:15,191 -INFO - SUNTV.NS - last n detect_structure function Ended
+2024-11-11 11:42:15,207 -INFO - SUNTV.NS - add_ph_pl_values function started
+2024-11-11 11:42:15,277 -INFO - SUNTV.NS - add_ph_pl_values function Ended
+2024-11-11 11:42:15,956 -INFO - CHAMBLFERT.NS - last n two_line_structure function Ended
+2024-11-11 11:42:51,249 -INFO - JSWSTEEL.NS - last n detect_structure function Ended
+2024-11-11 11:42:51,255 -INFO - JSWSTEEL.NS - add_ph_pl_values function started
+2024-11-11 11:42:51,571 -INFO - JSWSTEEL.NS - add_ph_pl_values function Ended
+2024-11-11 11:43:12,788 -INFO - IGL.NS - last n detect_structure function Ended
+2024-11-11 11:43:13,175 -INFO - IGL.NS - add_ph_pl_values function started
+2024-11-11 11:43:17,423 -INFO - IGL.NS - add_ph_pl_values function Ended
+2024-11-11 11:43:38,963 -INFO - PETRONET.NS - last n detect_structure function Ended
+2024-11-11 11:43:38,978 -INFO - PETRONET.NS - add_ph_pl_values function started
+2024-11-11 11:43:39,080 -INFO - PETRONET.NS - add_ph_pl_values function Ended
+2024-11-11 11:43:40,293 -INFO - LT.NS - last n detect_structure function Ended
+2024-11-11 11:43:40,301 -INFO - LT.NS - add_ph_pl_values function started
+2024-11-11 11:43:40,372 -INFO - LT.NS - add_ph_pl_values function Ended
+2024-11-11 11:44:32,313 -INFO - CONCOR.NS - last n detect_structure function Ended
+2024-11-11 11:44:32,317 -INFO - CONCOR.NS - add_ph_pl_values function started
+2024-11-11 11:44:32,337 -INFO - CONCOR.NS - add_ph_pl_values function Ended
+2024-11-11 11:44:38,878 -INFO - All stocks - Excel file Saved
+2024-11-11 11:44:39,097 -INFO - All stocks - json file saved
+2024-11-11 11:44:39,097 -INFO - IDEA.NS - alerts file Saved
+2024-11-11 11:44:39,097 -INFO - IDEA.NS - Process function Ended
+2024-11-11 11:44:44,031 -INFO - All stocks - Excel file Saved
+2024-11-11 11:44:44,044 -INFO - All stocks - json file saved
+2024-11-11 11:44:44,044 -INFO - JKCEMENT.NS - alerts file Saved
+2024-11-11 11:44:44,044 -INFO - JKCEMENT.NS - Process function Ended
+2024-11-11 11:44:44,204 -INFO - All stocks - Excel file Saved
+2024-11-11 11:44:44,280 -INFO - All stocks - json file saved
+2024-11-11 11:44:44,280 -INFO - GMRINFRA.NS - alerts file Saved
+2024-11-11 11:44:44,280 -INFO - GMRINFRA.NS - Process function Ended
+2024-11-11 11:44:45,288 -INFO - All stocks - Excel file Saved
+2024-11-11 11:44:46,021 -INFO - All stocks - json file saved
+2024-11-11 11:44:46,021 -INFO - PAGEIND.NS - alerts file Saved
+2024-11-11 11:44:46,021 -INFO - PAGEIND.NS - Process function Ended
+2024-11-11 11:44:54,617 -INFO - GNFC.NS - last n detect_structure function Ended
+2024-11-11 11:44:55,230 -INFO - GNFC.NS - add_ph_pl_values function started
+2024-11-11 11:44:58,335 -INFO - GNFC.NS - add_ph_pl_values function Ended
+2024-11-11 11:45:14,934 -INFO - All stocks - Excel file Saved
+2024-11-11 11:45:14,952 -INFO - All stocks - json file saved
+2024-11-11 11:45:14,955 -INFO - SUNTV.NS - alerts file Saved
+2024-11-11 11:45:14,955 -INFO - SUNTV.NS - Process function Ended
+2024-11-11 11:45:37,670 -INFO - CHAMBLFERT.NS - last n detect_structure function Ended
+2024-11-11 11:45:37,685 -INFO - CHAMBLFERT.NS - add_ph_pl_values function started
+2024-11-11 11:45:37,910 -INFO - CHAMBLFERT.NS - add_ph_pl_values function Ended
+2024-11-11 11:45:50,774 -INFO - All stocks - Excel file Saved
+2024-11-11 11:45:50,785 -INFO - All stocks - json file saved
+2024-11-11 11:45:50,786 -INFO - JSWSTEEL.NS - alerts file Saved
+2024-11-11 11:45:50,787 -INFO - JSWSTEEL.NS - Process function Ended
+2024-11-11 11:46:02,309 -INFO - FEDERALBNK.NS - last n two_line_structure function Ended
+2024-11-11 11:46:02,511 -INFO - TATACONSUM.NS - last n two_line_structure function Ended
+2024-11-11 11:46:02,516 -INFO - All stocks - Excel file Saved
+2024-11-11 11:46:02,520 -INFO - All stocks - json file saved
+2024-11-11 11:46:02,520 -INFO - IGL.NS - alerts file Saved
+2024-11-11 11:46:02,520 -INFO - IGL.NS - Process function Ended
+2024-11-11 11:46:09,134 -INFO - All stocks - Excel file Saved
+2024-11-11 11:46:09,136 -INFO - All stocks - json file saved
+2024-11-11 11:46:09,136 -INFO - LT.NS - alerts file Saved
+2024-11-11 11:46:09,136 -INFO - LT.NS - Process function Ended
+2024-11-11 11:46:09,448 -INFO - All stocks - Excel file Saved
+2024-11-11 11:46:09,455 -INFO - All stocks - json file saved
+2024-11-11 11:46:09,455 -INFO - PETRONET.NS - alerts file Saved
+2024-11-11 11:46:09,455 -INFO - PETRONET.NS - Process function Ended
+2024-11-11 11:46:10,233 -INFO - ONGC.NS - last n two_line_structure function Ended
+2024-11-11 11:46:25,316 -INFO - All stocks - Excel file Saved
+2024-11-11 11:46:25,330 -INFO - All stocks - json file saved
+2024-11-11 11:46:25,330 -INFO - CONCOR.NS - alerts file Saved
+2024-11-11 11:46:25,330 -INFO - CONCOR.NS - Process function Ended
+2024-11-11 11:46:26,531 -INFO - All stocks - Excel file Saved
+2024-11-11 11:46:26,535 -INFO - All stocks - json file saved
+2024-11-11 11:46:26,535 -INFO - GNFC.NS - alerts file Saved
+2024-11-11 11:46:26,536 -INFO - GNFC.NS - Process function Ended
+2024-11-11 11:46:29,435 -INFO - FEDERALBNK.NS - last n detect_structure function Ended
+2024-11-11 11:46:29,438 -INFO - FEDERALBNK.NS - add_ph_pl_values function started
+2024-11-11 11:46:29,470 -INFO - FEDERALBNK.NS - add_ph_pl_values function Ended
+2024-11-11 11:46:33,254 -INFO - TATACONSUM.NS - last n detect_structure function Ended
+2024-11-11 11:46:33,257 -INFO - TATACONSUM.NS - add_ph_pl_values function started
+2024-11-11 11:46:33,269 -INFO - TATACONSUM.NS - add_ph_pl_values function Ended
+2024-11-11 11:46:45,890 -INFO - All stocks - Excel file Saved
+2024-11-11 11:46:45,894 -INFO - All stocks - json file saved
+2024-11-11 11:46:45,895 -INFO - CHAMBLFERT.NS - alerts file Saved
+2024-11-11 11:46:45,895 -INFO - CHAMBLFERT.NS - Process function Ended
+2024-11-11 11:46:46,112 -INFO - ONGC.NS - last n detect_structure function Ended
+2024-11-11 11:46:46,113 -INFO - ONGC.NS - add_ph_pl_values function started
+2024-11-11 11:46:46,118 -INFO - ONGC.NS - add_ph_pl_values function Ended
+2024-11-11 11:47:20,714 -INFO - All stocks - Excel file Saved
+2024-11-11 11:47:20,714 -INFO - All stocks - json file saved
+2024-11-11 11:47:20,714 -INFO - FEDERALBNK.NS - alerts file Saved
+2024-11-11 11:47:20,714 -INFO - FEDERALBNK.NS - Process function Ended
+2024-11-11 11:47:23,295 -INFO - All stocks - Excel file Saved
+2024-11-11 11:47:23,295 -INFO - All stocks - json file saved
+2024-11-11 11:47:23,295 -INFO - TATACONSUM.NS - alerts file Saved
+2024-11-11 11:47:23,295 -INFO - TATACONSUM.NS - Process function Ended
+2024-11-11 11:47:23,589 -INFO - All stocks - Excel file Saved
+2024-11-11 11:47:23,589 -INFO - All stocks - json file saved
+2024-11-11 11:47:23,590 -INFO - ONGC.NS - alerts file Saved
+2024-11-11 11:47:23,590 -INFO - ONGC.NS - Process function Ended
+2024-11-11 11:47:40,165 -INFO - All stocks - Excel file Saved
+2024-11-11 11:47:40,166 -INFO - All stocks - json file saved
+2024-11-11 11:48:00,567 -INFO - All stocks - Excel file Saved
+2024-11-11 11:48:00,568 -INFO - All stocks - json file saved
