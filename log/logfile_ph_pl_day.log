@@ -11667,3 +11667,126 @@ ValueError: Length of values (41317) does not match length of index (41311)
 2024-11-11 11:47:40,166 -INFO - All stocks - json file saved
 2024-11-11 11:48:00,567 -INFO - All stocks - Excel file Saved
 2024-11-11 11:48:00,568 -INFO - All stocks - json file saved
+2024-11-12 11:35:05,031 -INFO - Started...
+2024-11-12 11:35:05,935 -INFO - Started...
+2024-11-12 11:35:14,061 -INFO - JKCEMENT.NS - this stock already completed
+2024-11-12 11:35:14,753 -ERROR - 
+1 Failed download:
+2024-11-12 11:35:14,753 -ERROR - ['SBICARD.NS']: OperationalError('database is locked')
+2024-11-12 11:35:14,879 -INFO - METROPOLIS.NS - Process function started
+2024-11-12 11:35:14,879 -INFO - ABBOTINDIA.NS - Process function started
+2024-11-12 11:35:14,879 -INFO - ICICIBANK.NS - Process function started
+2024-11-12 11:35:14,879 -INFO - METROPOLIS.NS - Reading existing data...
+2024-11-12 11:35:14,879 -INFO - ABBOTINDIA.NS - Reading existing data...
+2024-11-12 11:35:14,879 -INFO - INDUSINDBK.NS - Process function started
+2024-11-12 11:35:14,879 -INFO - ICICIBANK.NS - Reading existing data...
+2024-11-12 11:35:14,879 -INFO - MARUTI.NS - Process function started
+2024-11-12 11:35:14,880 -INFO - MCX.NS - Process function started
+2024-11-12 11:35:14,880 -INFO - INDUSINDBK.NS - Reading existing data...
+2024-11-12 11:35:14,880 -INFO - POLYCAB.NS - Process function started
+2024-11-12 11:35:14,880 -INFO - MARUTI.NS - Reading existing data...
+2024-11-12 11:35:14,880 -INFO - MCX.NS - Reading existing data...
+2024-11-12 11:35:14,881 -INFO - POLYCAB.NS - Reading existing data...
+2024-11-12 11:35:16,468 -INFO - last n isPivot function started
+2024-11-12 11:35:16,639 -INFO - last n isPivot function Ended
+2024-11-12 11:35:16,639 -INFO - METROPOLIS.NS - last n detect_structure function started
+2024-11-12 11:35:16,642 -INFO - METROPOLIS.NS - last n two_line_structure function started
+2024-11-12 11:35:16,662 -INFO - last n isPivot function started
+2024-11-12 11:35:17,274 -INFO - last n isPivot function started
+2024-11-12 11:35:17,279 -INFO - last n isPivot function Ended
+2024-11-12 11:35:17,279 -INFO - ABBOTINDIA.NS - last n detect_structure function started
+2024-11-12 11:35:17,284 -INFO - ABBOTINDIA.NS - last n two_line_structure function started
+2024-11-12 11:35:17,291 -INFO - last n isPivot function started
+2024-11-12 11:35:17,714 -INFO - last n isPivot function started
+2024-11-12 11:35:17,714 -INFO - last n isPivot function started
+2024-11-12 11:35:18,266 -INFO - last n isPivot function Ended
+2024-11-12 11:35:18,266 -INFO - MCX.NS - last n detect_structure function started
+2024-11-12 11:35:18,411 -INFO - MCX.NS - last n two_line_structure function started
+2024-11-12 11:35:18,412 -INFO - last n isPivot function started
+2024-11-12 11:35:18,560 -INFO - last n isPivot function Ended
+2024-11-12 11:35:18,562 -INFO - last n isPivot function Ended
+2024-11-12 11:35:18,929 -INFO - POLYCAB.NS - last n detect_structure function started
+2024-11-12 11:35:19,075 -INFO - POLYCAB.NS - last n two_line_structure function started
+2024-11-12 11:35:19,472 -INFO - ICICIBANK.NS - last n detect_structure function started
+2024-11-12 11:35:19,472 -INFO - last n isPivot function Ended
+2024-11-12 11:35:19,622 -INFO - ICICIBANK.NS - last n two_line_structure function started
+2024-11-12 11:35:19,650 -INFO - INDUSINDBK.NS - last n detect_structure function started
+2024-11-12 11:35:19,651 -INFO - INDUSINDBK.NS - last n two_line_structure function started
+2024-11-12 11:35:19,750 -INFO - last n isPivot function Ended
+2024-11-12 11:35:19,750 -INFO - MARUTI.NS - last n detect_structure function started
+2024-11-12 11:35:19,760 -INFO - MARUTI.NS - last n two_line_structure function started
+2024-11-12 11:35:46,758 -INFO - METROPOLIS.NS - last n two_line_structure function Ended
+2024-11-12 11:35:47,200 -INFO - POLYCAB.NS - last n two_line_structure function Ended
+2024-11-12 11:35:53,580 -INFO - METROPOLIS.NS - last n detect_structure function Ended
+2024-11-12 11:35:53,604 -INFO - METROPOLIS.NS - add_ph_pl_values function started
+2024-11-12 11:35:53,704 -INFO - METROPOLIS.NS - add_ph_pl_values function Ended
+2024-11-12 11:35:53,860 -INFO - POLYCAB.NS - last n detect_structure function Ended
+2024-11-12 11:35:53,893 -INFO - POLYCAB.NS - add_ph_pl_values function started
+2024-11-12 11:35:53,992 -INFO - POLYCAB.NS - add_ph_pl_values function Ended
+2024-11-12 11:35:54,799 -INFO - Error in saving alerts file: Length of values (41731) does not match length of index (41514)
+2024-11-12 11:35:54,889 -INFO - Error : Traceback (most recent call last):
+  File "/Users/runner/work/line_breakouts/line_breakouts/two_line_pattern_detect_class.py", line 118, in save_excel_file
+    self.three_line_alert_df.drop_duplicates(subset=['stockname','date1','value1', 'date2', 'value2', 'date3', 'value3', 'buyORsell'], keep='first', inplace=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6818, in drop_duplicates
+    result = self[-self.duplicated(subset, keep=keep)]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6961, in duplicated
+    result = self._constructor_sliced(duplicated(ids, keep), index=self.index)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/series.py", line 575, in __init__
+    com.require_length_match(data, index)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/common.py", line 573, in require_length_match
+    raise ValueError(
+ValueError: Length of values (41731) does not match length of index (41514)
+
+2024-11-12 11:35:55,322 -INFO - All stocks - json file saved
+2024-11-12 11:35:55,322 -INFO - POLYCAB.NS - alerts file Saved
+2024-11-12 11:35:55,322 -INFO - POLYCAB.NS - Process function Ended
+2024-11-12 11:36:22,835 -INFO - MCX.NS - last n two_line_structure function Ended
+2024-11-12 11:36:38,437 -INFO - MCX.NS - last n detect_structure function Ended
+2024-11-12 11:36:38,440 -INFO - MCX.NS - add_ph_pl_values function started
+2024-11-12 11:36:38,485 -INFO - MCX.NS - add_ph_pl_values function Ended
+2024-11-12 11:36:54,515 -INFO - All stocks - Excel file Saved
+2024-11-12 11:36:54,538 -INFO - All stocks - json file saved
+2024-11-12 11:36:54,538 -INFO - METROPOLIS.NS - alerts file Saved
+2024-11-12 11:36:54,541 -INFO - METROPOLIS.NS - Process function Ended
+2024-11-12 11:37:15,067 -INFO - ABBOTINDIA.NS - last n two_line_structure function Ended
+2024-11-12 11:37:20,723 -INFO - MARUTI.NS - last n two_line_structure function Ended
+2024-11-12 11:37:24,954 -INFO - ICICIBANK.NS - last n two_line_structure function Ended
+2024-11-12 11:37:31,317 -INFO - INDUSINDBK.NS - last n two_line_structure function Ended
+2024-11-12 11:37:32,496 -INFO - All stocks - Excel file Saved
+2024-11-12 11:37:32,503 -INFO - All stocks - json file saved
+2024-11-12 11:37:32,503 -INFO - MCX.NS - alerts file Saved
+2024-11-12 11:37:32,503 -INFO - MCX.NS - Process function Ended
+2024-11-12 11:37:34,326 -INFO - ABBOTINDIA.NS - last n detect_structure function Ended
+2024-11-12 11:37:34,330 -INFO - ABBOTINDIA.NS - add_ph_pl_values function started
+2024-11-12 11:37:34,361 -INFO - ABBOTINDIA.NS - add_ph_pl_values function Ended
+2024-11-12 11:37:42,832 -INFO - MARUTI.NS - last n detect_structure function Ended
+2024-11-12 11:37:42,833 -INFO - MARUTI.NS - add_ph_pl_values function started
+2024-11-12 11:37:42,856 -INFO - MARUTI.NS - add_ph_pl_values function Ended
+2024-11-12 11:37:50,595 -INFO - ICICIBANK.NS - last n detect_structure function Ended
+2024-11-12 11:37:50,596 -INFO - ICICIBANK.NS - add_ph_pl_values function started
+2024-11-12 11:37:50,615 -INFO - ICICIBANK.NS - add_ph_pl_values function Ended
+2024-11-12 11:38:10,658 -INFO - INDUSINDBK.NS - last n detect_structure function Ended
+2024-11-12 11:38:10,659 -INFO - INDUSINDBK.NS - add_ph_pl_values function started
+2024-11-12 11:38:10,664 -INFO - INDUSINDBK.NS - add_ph_pl_values function Ended
+2024-11-12 11:38:41,511 -INFO - All stocks - Excel file Saved
+2024-11-12 11:38:41,513 -INFO - All stocks - json file saved
+2024-11-12 11:38:41,514 -INFO - ABBOTINDIA.NS - alerts file Saved
+2024-11-12 11:38:41,514 -INFO - ABBOTINDIA.NS - Process function Ended
+2024-11-12 11:38:48,278 -INFO - All stocks - Excel file Saved
+2024-11-12 11:38:48,279 -INFO - All stocks - json file saved
+2024-11-12 11:38:48,279 -INFO - MARUTI.NS - alerts file Saved
+2024-11-12 11:38:48,279 -INFO - MARUTI.NS - Process function Ended
+2024-11-12 11:38:51,425 -INFO - All stocks - Excel file Saved
+2024-11-12 11:38:51,426 -INFO - All stocks - json file saved
+2024-11-12 11:38:51,426 -INFO - ICICIBANK.NS - alerts file Saved
+2024-11-12 11:38:51,426 -INFO - ICICIBANK.NS - Process function Ended
+2024-11-12 11:38:54,715 -INFO - All stocks - Excel file Saved
+2024-11-12 11:38:54,715 -INFO - All stocks - json file saved
+2024-11-12 11:38:54,715 -INFO - INDUSINDBK.NS - alerts file Saved
+2024-11-12 11:38:54,715 -INFO - INDUSINDBK.NS - Process function Ended
+2024-11-12 11:39:13,800 -INFO - All stocks - Excel file Saved
+2024-11-12 11:39:13,800 -INFO - All stocks - json file saved
+2024-11-12 11:39:33,319 -INFO - All stocks - Excel file Saved
+2024-11-12 11:39:33,319 -INFO - All stocks - json file saved
