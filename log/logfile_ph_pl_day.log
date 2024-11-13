@@ -11790,3 +11790,69 @@ ValueError: Length of values (41731) does not match length of index (41514)
 2024-11-12 11:39:13,800 -INFO - All stocks - json file saved
 2024-11-12 11:39:33,319 -INFO - All stocks - Excel file Saved
 2024-11-12 11:39:33,319 -INFO - All stocks - json file saved
+2024-11-13 11:38:21,727 -INFO - Started...
+2024-11-13 11:38:23,278 -INFO - Started...
+2024-11-13 11:38:31,533 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-11-13 11:38:32,757 -ERROR - 
+1 Failed download:
+2024-11-13 11:38:32,758 -ERROR - ['M&M.NS']: OperationalError('database is locked')
+2024-11-13 11:38:32,866 -INFO - LICHSGFIN.NS - Process function started
+2024-11-13 11:38:32,867 -INFO - LICHSGFIN.NS - Reading existing data...
+2024-11-13 11:38:32,867 -INFO - CIPLA.NS - Process function started
+2024-11-13 11:38:32,867 -INFO - CIPLA.NS - Reading existing data...
+2024-11-13 11:38:32,867 -INFO - ACC.NS - Process function started
+2024-11-13 11:38:32,867 -INFO - ACC.NS - Reading existing data...
+2024-11-13 11:38:32,867 -INFO - MUTHOOTFIN.NS - Process function started
+2024-11-13 11:38:32,867 -INFO - MUTHOOTFIN.NS - Reading existing data...
+2024-11-13 11:38:34,106 -INFO - last n isPivot function started
+2024-11-13 11:38:34,111 -INFO - last n isPivot function started
+2024-11-13 11:38:34,743 -INFO - last n isPivot function Ended
+2024-11-13 11:38:34,743 -INFO - MUTHOOTFIN.NS - last n detect_structure function started
+2024-11-13 11:38:34,826 -INFO - MUTHOOTFIN.NS - last n two_line_structure function started
+2024-11-13 11:38:35,114 -INFO - last n isPivot function Ended
+2024-11-13 11:38:35,114 -INFO - LICHSGFIN.NS - last n detect_structure function started
+2024-11-13 11:38:35,114 -INFO - LICHSGFIN.NS - last n two_line_structure function started
+2024-11-13 11:38:35,148 -INFO - last n isPivot function started
+2024-11-13 11:38:35,173 -INFO - last n isPivot function started
+2024-11-13 11:38:36,314 -INFO - last n isPivot function Ended
+2024-11-13 11:38:36,315 -INFO - ACC.NS - last n detect_structure function started
+2024-11-13 11:38:36,366 -INFO - ACC.NS - last n two_line_structure function started
+2024-11-13 11:38:36,811 -INFO - last n isPivot function Ended
+2024-11-13 11:38:36,813 -INFO - CIPLA.NS - last n detect_structure function started
+2024-11-13 11:38:36,819 -INFO - CIPLA.NS - last n two_line_structure function started
+2024-11-13 11:39:20,182 -INFO - MUTHOOTFIN.NS - last n two_line_structure function Ended
+2024-11-13 11:39:31,104 -INFO - MUTHOOTFIN.NS - last n detect_structure function Ended
+2024-11-13 11:39:31,111 -INFO - MUTHOOTFIN.NS - add_ph_pl_values function started
+2024-11-13 11:39:31,157 -INFO - MUTHOOTFIN.NS - add_ph_pl_values function Ended
+2024-11-13 11:39:59,378 -INFO - ACC.NS - last n two_line_structure function Ended
+2024-11-13 11:39:59,650 -INFO - LICHSGFIN.NS - last n two_line_structure function Ended
+2024-11-13 11:40:07,588 -INFO - All stocks - Excel file Saved
+2024-11-13 11:40:07,593 -INFO - All stocks - json file saved
+2024-11-13 11:40:07,593 -INFO - MUTHOOTFIN.NS - alerts file Saved
+2024-11-13 11:40:07,593 -INFO - MUTHOOTFIN.NS - Process function Ended
+2024-11-13 11:40:08,073 -INFO - ACC.NS - last n detect_structure function Ended
+2024-11-13 11:40:08,077 -INFO - ACC.NS - add_ph_pl_values function started
+2024-11-13 11:40:08,094 -INFO - ACC.NS - add_ph_pl_values function Ended
+2024-11-13 11:40:08,901 -INFO - LICHSGFIN.NS - last n detect_structure function Ended
+2024-11-13 11:40:08,904 -INFO - LICHSGFIN.NS - add_ph_pl_values function started
+2024-11-13 11:40:08,924 -INFO - LICHSGFIN.NS - add_ph_pl_values function Ended
+2024-11-13 11:40:28,134 -INFO - CIPLA.NS - last n two_line_structure function Ended
+2024-11-13 11:40:50,060 -INFO - CIPLA.NS - last n detect_structure function Ended
+2024-11-13 11:40:50,061 -INFO - CIPLA.NS - add_ph_pl_values function started
+2024-11-13 11:40:50,065 -INFO - CIPLA.NS - add_ph_pl_values function Ended
+2024-11-13 11:41:03,279 -INFO - All stocks - Excel file Saved
+2024-11-13 11:41:03,279 -INFO - All stocks - Excel file Saved
+2024-11-13 11:41:03,279 -INFO - All stocks - json file saved
+2024-11-13 11:41:03,279 -INFO - LICHSGFIN.NS - alerts file Saved
+2024-11-13 11:41:03,279 -INFO - LICHSGFIN.NS - Process function Ended
+2024-11-13 11:41:03,280 -INFO - All stocks - json file saved
+2024-11-13 11:41:03,280 -INFO - ACC.NS - alerts file Saved
+2024-11-13 11:41:03,280 -INFO - ACC.NS - Process function Ended
+2024-11-13 11:41:15,292 -INFO - All stocks - Excel file Saved
+2024-11-13 11:41:15,293 -INFO - All stocks - json file saved
+2024-11-13 11:41:15,293 -INFO - CIPLA.NS - alerts file Saved
+2024-11-13 11:41:15,293 -INFO - CIPLA.NS - Process function Ended
+2024-11-13 11:41:33,936 -INFO - All stocks - Excel file Saved
+2024-11-13 11:41:33,937 -INFO - All stocks - json file saved
+2024-11-13 11:41:52,443 -INFO - All stocks - Excel file Saved
+2024-11-13 11:41:52,444 -INFO - All stocks - json file saved
