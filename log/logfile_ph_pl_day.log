@@ -11856,3 +11856,55 @@ ValueError: Length of values (41731) does not match length of index (41514)
 2024-11-13 11:41:33,937 -INFO - All stocks - json file saved
 2024-11-13 11:41:52,443 -INFO - All stocks - Excel file Saved
 2024-11-13 11:41:52,444 -INFO - All stocks - json file saved
+2024-11-14 11:35:14,604 -INFO - Started...
+2024-11-14 11:35:15,580 -INFO - Started...
+2024-11-14 11:35:24,033 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-11-14 11:35:25,044 -ERROR - 
+1 Failed download:
+2024-11-14 11:35:25,044 -ERROR - ['VOLTAS.NS']: OperationalError('database is locked')
+2024-11-14 11:35:25,125 -INFO - SHREECEM.NS - Process function started
+2024-11-14 11:35:25,125 -INFO - TECHM.NS - Process function started
+2024-11-14 11:35:25,125 -INFO - SHREECEM.NS - Reading existing data...
+2024-11-14 11:35:25,125 -INFO - BIOCON.NS - Process function started
+2024-11-14 11:35:25,126 -INFO - TECHM.NS - Reading existing data...
+2024-11-14 11:35:25,126 -INFO - BIOCON.NS - Reading existing data...
+2024-11-14 11:35:26,035 -INFO - last n isPivot function started
+2024-11-14 11:35:26,035 -INFO - last n isPivot function started
+2024-11-14 11:35:26,945 -INFO - last n isPivot function Ended
+2024-11-14 11:35:26,956 -INFO - BIOCON.NS - last n detect_structure function started
+2024-11-14 11:35:26,978 -INFO - BIOCON.NS - last n two_line_structure function started
+2024-11-14 11:35:27,184 -INFO - last n isPivot function Ended
+2024-11-14 11:35:27,185 -INFO - TECHM.NS - last n detect_structure function started
+2024-11-14 11:35:27,189 -INFO - TECHM.NS - last n two_line_structure function started
+2024-11-14 11:35:27,199 -INFO - last n isPivot function started
+2024-11-14 11:35:27,895 -INFO - last n isPivot function Ended
+2024-11-14 11:35:27,895 -INFO - SHREECEM.NS - last n detect_structure function started
+2024-11-14 11:35:27,899 -INFO - SHREECEM.NS - last n two_line_structure function started
+2024-11-14 11:36:29,302 -INFO - TECHM.NS - last n two_line_structure function Ended
+2024-11-14 11:36:39,782 -INFO - BIOCON.NS - last n two_line_structure function Ended
+2024-11-14 11:36:40,966 -INFO - TECHM.NS - last n detect_structure function Ended
+2024-11-14 11:36:40,981 -INFO - TECHM.NS - add_ph_pl_values function started
+2024-11-14 11:36:41,012 -INFO - TECHM.NS - add_ph_pl_values function Ended
+2024-11-14 11:36:56,135 -INFO - BIOCON.NS - last n detect_structure function Ended
+2024-11-14 11:36:56,144 -INFO - BIOCON.NS - add_ph_pl_values function started
+2024-11-14 11:36:56,181 -INFO - BIOCON.NS - add_ph_pl_values function Ended
+2024-11-14 11:36:57,508 -INFO - SHREECEM.NS - last n two_line_structure function Ended
+2024-11-14 11:37:10,216 -INFO - SHREECEM.NS - last n detect_structure function Ended
+2024-11-14 11:37:10,218 -INFO - SHREECEM.NS - add_ph_pl_values function started
+2024-11-14 11:37:10,225 -INFO - SHREECEM.NS - add_ph_pl_values function Ended
+2024-11-14 11:37:39,793 -INFO - All stocks - Excel file Saved
+2024-11-14 11:37:39,799 -INFO - All stocks - json file saved
+2024-11-14 11:37:39,799 -INFO - TECHM.NS - alerts file Saved
+2024-11-14 11:37:39,799 -INFO - TECHM.NS - Process function Ended
+2024-11-14 11:37:49,500 -INFO - All stocks - Excel file Saved
+2024-11-14 11:37:49,501 -INFO - All stocks - json file saved
+2024-11-14 11:37:49,501 -INFO - BIOCON.NS - alerts file Saved
+2024-11-14 11:37:49,501 -INFO - BIOCON.NS - Process function Ended
+2024-11-14 11:37:52,824 -INFO - All stocks - Excel file Saved
+2024-11-14 11:37:52,824 -INFO - All stocks - json file saved
+2024-11-14 11:37:52,824 -INFO - SHREECEM.NS - alerts file Saved
+2024-11-14 11:37:52,824 -INFO - SHREECEM.NS - Process function Ended
+2024-11-14 11:38:11,885 -INFO - All stocks - Excel file Saved
+2024-11-14 11:38:11,886 -INFO - All stocks - json file saved
+2024-11-14 11:38:31,458 -INFO - All stocks - Excel file Saved
+2024-11-14 11:38:31,459 -INFO - All stocks - json file saved
