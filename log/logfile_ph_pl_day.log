@@ -11908,3 +11908,13 @@ ValueError: Length of values (41731) does not match length of index (41514)
 2024-11-14 11:38:11,886 -INFO - All stocks - json file saved
 2024-11-14 11:38:31,458 -INFO - All stocks - Excel file Saved
 2024-11-14 11:38:31,459 -INFO - All stocks - json file saved
+2024-11-18 11:36:24,019 -INFO - Started...
+2024-11-18 11:36:25,479 -INFO - Started...
+2024-11-18 11:36:34,921 -ERROR - 
+2 Failed downloads:
+2024-11-18 11:36:34,922 -ERROR - ['SUNTV.NS']: OperationalError('database is locked')
+2024-11-18 11:36:34,922 -ERROR - ['NIFTY']: YFTzMissingError('$%ticker%: possibly delisted; no timezone found')
+2024-11-18 11:36:51,822 -INFO - All stocks - Excel file Saved
+2024-11-18 11:36:51,823 -INFO - All stocks - json file saved
+2024-11-18 11:37:09,620 -INFO - All stocks - Excel file Saved
+2024-11-18 11:37:09,621 -INFO - All stocks - json file saved
