@@ -12511,3 +12511,224 @@ ValueError: Length of values (41731) does not match length of index (41514)
 2024-11-25 11:49:57,867 -INFO - All stocks - json file saved
 2024-11-25 11:50:14,386 -INFO - All stocks - Excel file Saved
 2024-11-25 11:50:14,387 -INFO - All stocks - json file saved
+2024-11-26 11:35:09,629 -INFO - Started...
+2024-11-26 11:35:11,115 -INFO - Started...
+2024-11-26 11:35:19,771 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-11-26 11:35:22,107 -ERROR - 
+1 Failed download:
+2024-11-26 11:35:22,107 -ERROR - ['BEL.NS']: OperationalError('database is locked')
+2024-11-26 11:35:22,356 -INFO - ATUL.NS - Process function started
+2024-11-26 11:35:22,357 -INFO - HDFCAMC.NS - Process function started
+2024-11-26 11:35:22,357 -INFO - SRF.NS - Process function started
+2024-11-26 11:35:22,357 -INFO - HDFCAMC.NS - Reading existing data...
+2024-11-26 11:35:22,357 -INFO - ATUL.NS - Reading existing data...
+2024-11-26 11:35:22,357 -INFO - SRF.NS - Reading existing data...
+2024-11-26 11:35:22,357 -INFO - CUMMINSIND.NS - Process function started
+2024-11-26 11:35:22,357 -INFO - SBIN.NS - Process function started
+2024-11-26 11:35:22,357 -INFO - TITAN.NS - Process function started
+2024-11-26 11:35:22,358 -INFO - DIXON.NS - Process function started
+2024-11-26 11:35:22,358 -INFO - MRF.NS - Process function started
+2024-11-26 11:35:22,358 -INFO - SYNGENE.NS - Process function started
+2024-11-26 11:35:22,358 -INFO - POWERGRID.NS - Process function started
+2024-11-26 11:35:22,358 -INFO - CUMMINSIND.NS - Reading existing data...
+2024-11-26 11:35:22,358 -INFO - PIIND.NS - Process function started
+2024-11-26 11:35:22,359 -INFO - SBIN.NS - Reading existing data...
+2024-11-26 11:35:22,359 -INFO - APOLLOHOSP.NS - Process function started
+2024-11-26 11:35:22,359 -INFO - TITAN.NS - Reading existing data...
+2024-11-26 11:35:22,359 -INFO - DIXON.NS - Reading existing data...
+2024-11-26 11:35:22,359 -INFO - NMDC.NS - Process function started
+2024-11-26 11:35:22,360 -INFO - MRF.NS - Reading existing data...
+2024-11-26 11:35:22,360 -INFO - CUB.NS - Process function started
+2024-11-26 11:35:22,361 -INFO - SYNGENE.NS - Reading existing data...
+2024-11-26 11:35:22,361 -INFO - POWERGRID.NS - Reading existing data...
+2024-11-26 11:35:22,362 -INFO - PIIND.NS - Reading existing data...
+2024-11-26 11:35:22,362 -INFO - APOLLOHOSP.NS - Reading existing data...
+2024-11-26 11:35:22,363 -INFO - NMDC.NS - Reading existing data...
+2024-11-26 11:35:22,364 -INFO - CUB.NS - Reading existing data...
+2024-11-26 11:35:24,371 -INFO - last n isPivot function started
+2024-11-26 11:35:24,577 -INFO - last n isPivot function started
+2024-11-26 11:35:25,239 -INFO - last n isPivot function Ended
+2024-11-26 11:35:25,253 -INFO - HDFCAMC.NS - last n detect_structure function started
+2024-11-26 11:35:25,284 -INFO - HDFCAMC.NS - last n two_line_structure function started
+2024-11-26 11:35:25,936 -INFO - last n isPivot function Ended
+2024-11-26 11:35:25,936 -INFO - ATUL.NS - last n detect_structure function started
+2024-11-26 11:35:25,968 -INFO - ATUL.NS - last n two_line_structure function started
+2024-11-26 11:35:26,640 -INFO - last n isPivot function started
+2024-11-26 11:35:26,843 -INFO - last n isPivot function started
+2024-11-26 11:35:27,595 -INFO - last n isPivot function started
+2024-11-26 11:35:28,476 -INFO - last n isPivot function Ended
+2024-11-26 11:35:28,476 -INFO - SRF.NS - last n detect_structure function started
+2024-11-26 11:35:28,480 -INFO - SRF.NS - last n two_line_structure function started
+2024-11-26 11:35:28,638 -INFO - last n isPivot function Ended
+2024-11-26 11:35:28,638 -INFO - CUMMINSIND.NS - last n detect_structure function started
+2024-11-26 11:35:28,643 -INFO - CUMMINSIND.NS - last n two_line_structure function started
+2024-11-26 11:35:28,795 -INFO - last n isPivot function started
+2024-11-26 11:35:29,651 -INFO - last n isPivot function Ended
+2024-11-26 11:35:29,678 -INFO - DIXON.NS - last n detect_structure function started
+2024-11-26 11:35:29,680 -INFO - DIXON.NS - last n two_line_structure function started
+2024-11-26 11:35:29,684 -INFO - last n isPivot function started
+2024-11-26 11:35:29,736 -INFO - last n isPivot function started
+2024-11-26 11:35:29,793 -INFO - last n isPivot function Ended
+2024-11-26 11:35:29,794 -INFO - SBIN.NS - last n detect_structure function started
+2024-11-26 11:35:29,799 -INFO - SBIN.NS - last n two_line_structure function started
+2024-11-26 11:35:30,662 -INFO - last n isPivot function Ended
+2024-11-26 11:35:30,662 -INFO - POWERGRID.NS - last n detect_structure function started
+2024-11-26 11:35:30,683 -INFO - POWERGRID.NS - last n two_line_structure function started
+2024-11-26 11:35:30,690 -INFO - last n isPivot function Ended
+2024-11-26 11:35:30,692 -INFO - SYNGENE.NS - last n detect_structure function started
+2024-11-26 11:35:30,698 -INFO - SYNGENE.NS - last n two_line_structure function started
+2024-11-26 11:35:30,714 -INFO - last n isPivot function started
+2024-11-26 11:35:30,728 -INFO - last n isPivot function started
+2024-11-26 11:35:30,804 -INFO - last n isPivot function started
+2024-11-26 11:35:30,865 -INFO - last n isPivot function started
+2024-11-26 11:35:31,459 -INFO - last n isPivot function started
+2024-11-26 11:35:33,087 -INFO - last n isPivot function Ended
+2024-11-26 11:35:33,089 -INFO - last n isPivot function Ended
+2024-11-26 11:35:33,213 -INFO - last n isPivot function Ended
+2024-11-26 11:35:33,215 -INFO - NMDC.NS - last n detect_structure function started
+2024-11-26 11:35:33,216 -INFO - PIIND.NS - last n detect_structure function started
+2024-11-26 11:35:33,222 -INFO - CUB.NS - last n detect_structure function started
+2024-11-26 11:35:33,223 -INFO - NMDC.NS - last n two_line_structure function started
+2024-11-26 11:35:33,229 -INFO - CUB.NS - last n two_line_structure function started
+2024-11-26 11:35:33,232 -INFO - PIIND.NS - last n two_line_structure function started
+2024-11-26 11:35:33,912 -INFO - last n isPivot function Ended
+2024-11-26 11:35:33,915 -INFO - last n isPivot function Ended
+2024-11-26 11:35:33,961 -INFO - TITAN.NS - last n detect_structure function started
+2024-11-26 11:35:33,965 -INFO - TITAN.NS - last n two_line_structure function started
+2024-11-26 11:35:33,966 -INFO - MRF.NS - last n detect_structure function started
+2024-11-26 11:35:33,967 -INFO - MRF.NS - last n two_line_structure function started
+2024-11-26 11:35:33,971 -INFO - last n isPivot function started
+2024-11-26 11:35:34,882 -INFO - last n isPivot function Ended
+2024-11-26 11:35:34,887 -INFO - APOLLOHOSP.NS - last n detect_structure function started
+2024-11-26 11:35:34,894 -INFO - APOLLOHOSP.NS - last n two_line_structure function started
+2024-11-26 11:36:38,260 -INFO - HDFCAMC.NS - last n two_line_structure function Ended
+2024-11-26 11:36:45,961 -INFO - DIXON.NS - last n two_line_structure function Ended
+2024-11-26 11:36:54,267 -INFO - HDFCAMC.NS - last n detect_structure function Ended
+2024-11-26 11:36:54,320 -INFO - HDFCAMC.NS - add_ph_pl_values function started
+2024-11-26 11:36:54,479 -INFO - HDFCAMC.NS - add_ph_pl_values function Ended
+2024-11-26 11:37:08,609 -INFO - DIXON.NS - last n detect_structure function Ended
+2024-11-26 11:37:08,629 -INFO - DIXON.NS - add_ph_pl_values function started
+2024-11-26 11:37:08,732 -INFO - DIXON.NS - add_ph_pl_values function Ended
+2024-11-26 11:37:20,593 -INFO - SYNGENE.NS - last n two_line_structure function Ended
+2024-11-26 11:37:42,988 -INFO - SYNGENE.NS - last n detect_structure function Ended
+2024-11-26 11:37:43,009 -INFO - SYNGENE.NS - add_ph_pl_values function started
+2024-11-26 11:37:43,171 -INFO - SYNGENE.NS - add_ph_pl_values function Ended
+2024-11-26 11:38:32,471 -INFO - PIIND.NS - last n two_line_structure function Ended
+2024-11-26 11:39:16,061 -INFO - NMDC.NS - last n two_line_structure function Ended
+2024-11-26 11:39:16,198 -INFO - All stocks - Excel file Saved
+2024-11-26 11:39:16,235 -INFO - All stocks - json file saved
+2024-11-26 11:39:16,235 -INFO - HDFCAMC.NS - alerts file Saved
+2024-11-26 11:39:16,235 -INFO - HDFCAMC.NS - Process function Ended
+2024-11-26 11:39:19,232 -INFO - PIIND.NS - last n detect_structure function Ended
+2024-11-26 11:39:19,253 -INFO - PIIND.NS - add_ph_pl_values function started
+2024-11-26 11:39:19,360 -INFO - PIIND.NS - add_ph_pl_values function Ended
+2024-11-26 11:39:20,865 -INFO - All stocks - Excel file Saved
+2024-11-26 11:39:20,896 -INFO - All stocks - json file saved
+2024-11-26 11:39:20,897 -INFO - DIXON.NS - alerts file Saved
+2024-11-26 11:39:20,900 -INFO - DIXON.NS - Process function Ended
+2024-11-26 11:39:32,744 -INFO - POWERGRID.NS - last n two_line_structure function Ended
+2024-11-26 11:39:49,355 -INFO - All stocks - Excel file Saved
+2024-11-26 11:39:49,369 -INFO - All stocks - json file saved
+2024-11-26 11:39:49,370 -INFO - SYNGENE.NS - alerts file Saved
+2024-11-26 11:39:49,370 -INFO - SYNGENE.NS - Process function Ended
+2024-11-26 11:39:58,178 -INFO - NMDC.NS - last n detect_structure function Ended
+2024-11-26 11:39:58,183 -INFO - NMDC.NS - add_ph_pl_values function started
+2024-11-26 11:39:58,262 -INFO - NMDC.NS - add_ph_pl_values function Ended
+2024-11-26 11:40:28,634 -INFO - MRF.NS - last n two_line_structure function Ended
+2024-11-26 11:40:29,318 -INFO - POWERGRID.NS - last n detect_structure function Ended
+2024-11-26 11:40:29,334 -INFO - POWERGRID.NS - add_ph_pl_values function started
+2024-11-26 11:40:29,446 -INFO - POWERGRID.NS - add_ph_pl_values function Ended
+2024-11-26 11:40:30,246 -INFO - SRF.NS - last n two_line_structure function Ended
+2024-11-26 11:40:31,439 -INFO - CUMMINSIND.NS - last n two_line_structure function Ended
+2024-11-26 11:40:38,341 -INFO - ATUL.NS - last n two_line_structure function Ended
+2024-11-26 11:40:42,239 -INFO - CUB.NS - last n two_line_structure function Ended
+2024-11-26 11:40:42,428 -INFO - APOLLOHOSP.NS - last n two_line_structure function Ended
+2024-11-26 11:40:57,885 -INFO - All stocks - Excel file Saved
+2024-11-26 11:40:57,892 -INFO - All stocks - json file saved
+2024-11-26 11:40:57,892 -INFO - PIIND.NS - alerts file Saved
+2024-11-26 11:40:57,892 -INFO - PIIND.NS - Process function Ended
+2024-11-26 11:41:15,556 -INFO - MRF.NS - last n detect_structure function Ended
+2024-11-26 11:41:15,560 -INFO - MRF.NS - add_ph_pl_values function started
+2024-11-26 11:41:15,597 -INFO - MRF.NS - add_ph_pl_values function Ended
+2024-11-26 11:41:26,285 -INFO - SRF.NS - last n detect_structure function Ended
+2024-11-26 11:41:26,290 -INFO - SRF.NS - add_ph_pl_values function started
+2024-11-26 11:41:26,324 -INFO - SRF.NS - add_ph_pl_values function Ended
+2024-11-26 11:41:34,061 -INFO - All stocks - Excel file Saved
+2024-11-26 11:41:34,078 -INFO - All stocks - json file saved
+2024-11-26 11:41:34,078 -INFO - NMDC.NS - alerts file Saved
+2024-11-26 11:41:34,078 -INFO - NMDC.NS - Process function Ended
+2024-11-26 11:41:35,085 -INFO - CUMMINSIND.NS - last n detect_structure function Ended
+2024-11-26 11:41:35,091 -INFO - CUMMINSIND.NS - add_ph_pl_values function started
+2024-11-26 11:41:35,124 -INFO - CUMMINSIND.NS - add_ph_pl_values function Ended
+2024-11-26 11:41:36,723 -INFO - ATUL.NS - last n detect_structure function Ended
+2024-11-26 11:41:36,724 -INFO - ATUL.NS - add_ph_pl_values function started
+2024-11-26 11:41:36,754 -INFO - ATUL.NS - add_ph_pl_values function Ended
+2024-11-26 11:41:50,375 -INFO - APOLLOHOSP.NS - last n detect_structure function Ended
+2024-11-26 11:41:50,379 -INFO - APOLLOHOSP.NS - add_ph_pl_values function started
+2024-11-26 11:41:50,399 -INFO - APOLLOHOSP.NS - add_ph_pl_values function Ended
+2024-11-26 11:41:50,942 -INFO - CUB.NS - last n detect_structure function Ended
+2024-11-26 11:41:50,949 -INFO - CUB.NS - add_ph_pl_values function started
+2024-11-26 11:41:50,967 -INFO - CUB.NS - add_ph_pl_values function Ended
+2024-11-26 11:41:54,330 -INFO - Error in saving alerts file: Length of values (41612) does not match length of index (41607)
+2024-11-26 11:41:54,351 -INFO - Error : Traceback (most recent call last):
+  File "/Users/runner/work/line_breakouts/line_breakouts/two_line_pattern_detect_class.py", line 118, in save_excel_file
+    self.three_line_alert_df.drop_duplicates(subset=['stockname','date1','value1', 'date2', 'value2', 'date3', 'value3', 'buyORsell'], keep='first', inplace=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6818, in drop_duplicates
+    result = self[-self.duplicated(subset, keep=keep)]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 6961, in duplicated
+    result = self._constructor_sliced(duplicated(ids, keep), index=self.index)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/series.py", line 575, in __init__
+    com.require_length_match(data, index)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/common.py", line 573, in require_length_match
+    raise ValueError(
+ValueError: Length of values (41612) does not match length of index (41607)
+
+2024-11-26 11:41:54,352 -INFO - All stocks - json file saved
+2024-11-26 11:41:54,352 -INFO - CUB.NS - alerts file Saved
+2024-11-26 11:41:54,352 -INFO - CUB.NS - Process function Ended
+2024-11-26 11:42:03,542 -INFO - SBIN.NS - last n two_line_structure function Ended
+2024-11-26 11:42:04,897 -INFO - All stocks - Excel file Saved
+2024-11-26 11:42:04,897 -INFO - All stocks - json file saved
+2024-11-26 11:42:04,898 -INFO - POWERGRID.NS - alerts file Saved
+2024-11-26 11:42:04,898 -INFO - POWERGRID.NS - Process function Ended
+2024-11-26 11:42:17,567 -INFO - TITAN.NS - last n two_line_structure function Ended
+2024-11-26 11:42:51,459 -INFO - All stocks - Excel file Saved
+2024-11-26 11:42:51,461 -INFO - All stocks - json file saved
+2024-11-26 11:42:51,461 -INFO - MRF.NS - alerts file Saved
+2024-11-26 11:42:51,461 -INFO - MRF.NS - Process function Ended
+2024-11-26 11:42:54,854 -INFO - All stocks - Excel file Saved
+2024-11-26 11:42:55,210 -INFO - All stocks - json file saved
+2024-11-26 11:42:55,210 -INFO - SRF.NS - alerts file Saved
+2024-11-26 11:42:55,227 -INFO - SRF.NS - Process function Ended
+2024-11-26 11:42:55,388 -INFO - All stocks - Excel file Saved
+2024-11-26 11:42:55,392 -INFO - All stocks - json file saved
+2024-11-26 11:42:55,392 -INFO - CUMMINSIND.NS - alerts file Saved
+2024-11-26 11:42:55,393 -INFO - CUMMINSIND.NS - Process function Ended
+2024-11-26 11:42:59,340 -INFO - All stocks - Excel file Saved
+2024-11-26 11:42:59,342 -INFO - All stocks - json file saved
+2024-11-26 11:42:59,342 -INFO - ATUL.NS - alerts file Saved
+2024-11-26 11:42:59,342 -INFO - ATUL.NS - Process function Ended
+2024-11-26 11:42:59,730 -INFO - All stocks - Excel file Saved
+2024-11-26 11:42:59,733 -INFO - All stocks - json file saved
+2024-11-26 11:42:59,733 -INFO - APOLLOHOSP.NS - alerts file Saved
+2024-11-26 11:42:59,733 -INFO - APOLLOHOSP.NS - Process function Ended
+2024-11-26 11:43:00,193 -INFO - SBIN.NS - last n detect_structure function Ended
+2024-11-26 11:43:00,206 -INFO - SBIN.NS - add_ph_pl_values function started
+2024-11-26 11:43:00,251 -INFO - SBIN.NS - add_ph_pl_values function Ended
+2024-11-26 11:43:01,853 -INFO - TITAN.NS - last n detect_structure function Ended
+2024-11-26 11:43:01,854 -INFO - TITAN.NS - add_ph_pl_values function started
+2024-11-26 11:43:01,858 -INFO - TITAN.NS - add_ph_pl_values function Ended
+2024-11-26 11:43:39,293 -INFO - All stocks - Excel file Saved
+2024-11-26 11:43:39,294 -INFO - All stocks - json file saved
+2024-11-26 11:43:39,294 -INFO - SBIN.NS - alerts file Saved
+2024-11-26 11:43:39,294 -INFO - SBIN.NS - Process function Ended
+2024-11-26 11:43:39,469 -INFO - All stocks - Excel file Saved
+2024-11-26 11:43:39,469 -INFO - All stocks - json file saved
+2024-11-26 11:43:39,469 -INFO - TITAN.NS - alerts file Saved
+2024-11-26 11:43:39,469 -INFO - TITAN.NS - Process function Ended
+2024-11-26 11:43:58,496 -INFO - All stocks - Excel file Saved
+2024-11-26 11:43:58,497 -INFO - All stocks - json file saved
+2024-11-26 11:44:17,457 -INFO - All stocks - Excel file Saved
+2024-11-26 11:44:17,458 -INFO - All stocks - json file saved
