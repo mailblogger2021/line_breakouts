@@ -12732,3 +12732,82 @@ ValueError: Length of values (41612) does not match length of index (41607)
 2024-11-26 11:43:58,497 -INFO - All stocks - json file saved
 2024-11-26 11:44:17,457 -INFO - All stocks - Excel file Saved
 2024-11-26 11:44:17,458 -INFO - All stocks - json file saved
+2024-11-27 11:36:29,223 -INFO - Started...
+2024-11-27 11:36:30,317 -INFO - Started...
+2024-11-27 11:36:40,562 -ERROR - 
+1 Failed download:
+2024-11-27 11:36:40,563 -ERROR - ['PAGEIND.NS']: OperationalError('database is locked')
+2024-11-27 11:36:40,659 -INFO - HAL.NS - Process function started
+2024-11-27 11:36:40,660 -INFO - BRITANNIA.NS - Process function started
+2024-11-27 11:36:40,660 -INFO - HAL.NS - Reading existing data...
+2024-11-27 11:36:40,660 -INFO - INDUSTOWER.NS - Process function started
+2024-11-27 11:36:40,660 -INFO - BRITANNIA.NS - Reading existing data...
+2024-11-27 11:36:40,660 -INFO - IGL.NS - Process function started
+2024-11-27 11:36:40,660 -INFO - INDUSTOWER.NS - Reading existing data...
+2024-11-27 11:36:40,660 -INFO - TRENT.NS - Process function started
+2024-11-27 11:36:40,661 -INFO - IGL.NS - Reading existing data...
+2024-11-27 11:36:40,661 -INFO - TRENT.NS - Reading existing data...
+2024-11-27 11:36:41,343 -INFO - last n isPivot function started
+2024-11-27 11:36:41,684 -INFO - last n isPivot function Ended
+2024-11-27 11:36:41,684 -INFO - HAL.NS - last n detect_structure function started
+2024-11-27 11:36:41,696 -INFO - HAL.NS - last n two_line_structure function started
+2024-11-27 11:36:42,217 -INFO - last n isPivot function started
+2024-11-27 11:36:42,719 -INFO - last n isPivot function started
+2024-11-27 11:36:42,735 -INFO - last n isPivot function Ended
+2024-11-27 11:36:42,737 -INFO - INDUSTOWER.NS - last n detect_structure function started
+2024-11-27 11:36:42,739 -INFO - INDUSTOWER.NS - last n two_line_structure function started
+2024-11-27 11:36:43,442 -INFO - last n isPivot function Ended
+2024-11-27 11:36:43,445 -INFO - TRENT.NS - last n detect_structure function started
+2024-11-27 11:36:43,450 -INFO - TRENT.NS - last n two_line_structure function started
+2024-11-27 11:36:43,476 -INFO - last n isPivot function started
+2024-11-27 11:36:43,566 -INFO - last n isPivot function started
+2024-11-27 11:36:44,712 -INFO - last n isPivot function Ended
+2024-11-27 11:36:44,738 -INFO - IGL.NS - last n detect_structure function started
+2024-11-27 11:36:45,036 -INFO - IGL.NS - last n two_line_structure function started
+2024-11-27 11:36:45,037 -INFO - last n isPivot function Ended
+2024-11-27 11:36:45,041 -INFO - BRITANNIA.NS - last n detect_structure function started
+2024-11-27 11:36:45,067 -INFO - BRITANNIA.NS - last n two_line_structure function started
+2024-11-27 11:37:22,075 -INFO - HAL.NS - last n two_line_structure function Ended
+2024-11-27 11:37:29,675 -INFO - HAL.NS - last n detect_structure function Ended
+2024-11-27 11:37:29,705 -INFO - HAL.NS - add_ph_pl_values function started
+2024-11-27 11:37:29,866 -INFO - HAL.NS - add_ph_pl_values function Ended
+2024-11-27 11:38:01,228 -INFO - INDUSTOWER.NS - last n two_line_structure function Ended
+2024-11-27 11:38:15,667 -INFO - INDUSTOWER.NS - last n detect_structure function Ended
+2024-11-27 11:38:15,681 -INFO - INDUSTOWER.NS - add_ph_pl_values function started
+2024-11-27 11:38:15,719 -INFO - INDUSTOWER.NS - add_ph_pl_values function Ended
+2024-11-27 11:38:32,820 -INFO - All stocks - Excel file Saved
+2024-11-27 11:38:32,841 -INFO - All stocks - json file saved
+2024-11-27 11:38:32,841 -INFO - HAL.NS - alerts file Saved
+2024-11-27 11:38:32,841 -INFO - HAL.NS - Process function Ended
+2024-11-27 11:38:50,565 -INFO - IGL.NS - last n two_line_structure function Ended
+2024-11-27 11:38:53,809 -INFO - TRENT.NS - last n two_line_structure function Ended
+2024-11-27 11:38:59,483 -INFO - All stocks - Excel file Saved
+2024-11-27 11:38:59,488 -INFO - All stocks - json file saved
+2024-11-27 11:38:59,489 -INFO - INDUSTOWER.NS - alerts file Saved
+2024-11-27 11:38:59,490 -INFO - INDUSTOWER.NS - Process function Ended
+2024-11-27 11:39:00,789 -INFO - IGL.NS - last n detect_structure function Ended
+2024-11-27 11:39:00,798 -INFO - IGL.NS - add_ph_pl_values function started
+2024-11-27 11:39:00,830 -INFO - IGL.NS - add_ph_pl_values function Ended
+2024-11-27 11:39:09,708 -INFO - TRENT.NS - last n detect_structure function Ended
+2024-11-27 11:39:09,712 -INFO - TRENT.NS - add_ph_pl_values function started
+2024-11-27 11:39:09,729 -INFO - TRENT.NS - add_ph_pl_values function Ended
+2024-11-27 11:39:17,529 -INFO - BRITANNIA.NS - last n two_line_structure function Ended
+2024-11-27 11:39:30,479 -INFO - BRITANNIA.NS - last n detect_structure function Ended
+2024-11-27 11:39:30,480 -INFO - BRITANNIA.NS - add_ph_pl_values function started
+2024-11-27 11:39:30,487 -INFO - BRITANNIA.NS - add_ph_pl_values function Ended
+2024-11-27 11:39:55,254 -INFO - All stocks - Excel file Saved
+2024-11-27 11:39:55,256 -INFO - All stocks - json file saved
+2024-11-27 11:39:55,256 -INFO - IGL.NS - alerts file Saved
+2024-11-27 11:39:55,256 -INFO - IGL.NS - Process function Ended
+2024-11-27 11:40:01,695 -INFO - All stocks - Excel file Saved
+2024-11-27 11:40:01,695 -INFO - All stocks - json file saved
+2024-11-27 11:40:01,695 -INFO - TRENT.NS - alerts file Saved
+2024-11-27 11:40:01,695 -INFO - TRENT.NS - Process function Ended
+2024-11-27 11:40:05,167 -INFO - All stocks - Excel file Saved
+2024-11-27 11:40:05,167 -INFO - All stocks - json file saved
+2024-11-27 11:40:05,167 -INFO - BRITANNIA.NS - alerts file Saved
+2024-11-27 11:40:05,167 -INFO - BRITANNIA.NS - Process function Ended
+2024-11-27 11:40:25,646 -INFO - All stocks - Excel file Saved
+2024-11-27 11:40:25,647 -INFO - All stocks - json file saved
+2024-11-27 11:40:44,434 -INFO - All stocks - Excel file Saved
+2024-11-27 11:40:44,435 -INFO - All stocks - json file saved
