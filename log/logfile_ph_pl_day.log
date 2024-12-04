@@ -13598,3 +13598,40 @@ ValueError: Length of values (41612) does not match length of index (41607)
 2024-12-03 11:58:15,690 -INFO - All stocks - json file saved
 2024-12-03 11:58:35,107 -INFO - All stocks - Excel file Saved
 2024-12-03 11:58:35,107 -INFO - All stocks - json file saved
+2024-12-04 11:38:34,644 -INFO - Started...
+2024-12-04 11:38:35,560 -INFO - Started...
+2024-12-04 11:38:45,042 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-12-04 11:38:46,103 -ERROR - 
+1 Failed download:
+2024-12-04 11:38:46,103 -ERROR - ['ICICIGI.NS']: OperationalError('database is locked')
+2024-12-04 11:38:46,142 -INFO - MPHASIS.NS - Process function started
+2024-12-04 11:38:46,142 -INFO - CESC.NS - Process function started
+2024-12-04 11:38:46,143 -INFO - MPHASIS.NS - Reading existing data...
+2024-12-04 11:38:46,160 -INFO - CESC.NS - isPivot function started
+2024-12-04 11:38:46,862 -INFO - CESC.NS - isPivot function Ended
+2024-12-04 11:38:46,862 -INFO - CESC.NS -  detect_structure function started
+2024-12-04 11:38:46,862 -INFO - CESC.NS -  two_line_structure function started
+2024-12-04 11:38:47,685 -INFO - last n isPivot function started
+2024-12-04 11:38:48,424 -INFO - last n isPivot function Ended
+2024-12-04 11:38:48,426 -INFO - MPHASIS.NS - last n detect_structure function started
+2024-12-04 11:38:48,433 -INFO - MPHASIS.NS - last n two_line_structure function started
+2024-12-04 11:39:35,574 -INFO - CESC.NS -  two_line_structure function Ended
+2024-12-04 11:39:38,014 -INFO - MPHASIS.NS - last n two_line_structure function Ended
+2024-12-04 11:39:39,539 -INFO - CESC.NS -  detect_structure function Ended
+2024-12-04 11:39:39,541 -INFO - CESC.NS - add_ph_pl_values function started
+2024-12-04 11:39:39,562 -INFO - CESC.NS - add_ph_pl_values function Ended
+2024-12-04 11:39:40,880 -INFO - MPHASIS.NS - last n detect_structure function Ended
+2024-12-04 11:39:40,880 -INFO - MPHASIS.NS - add_ph_pl_values function started
+2024-12-04 11:39:40,884 -INFO - MPHASIS.NS - add_ph_pl_values function Ended
+2024-12-04 11:40:18,715 -INFO - All stocks - Excel file Saved
+2024-12-04 11:40:18,717 -INFO - All stocks - json file saved
+2024-12-04 11:40:18,717 -INFO - CESC.NS - alerts file Saved
+2024-12-04 11:40:18,717 -INFO - CESC.NS - Process function Ended
+2024-12-04 11:40:18,726 -INFO - All stocks - Excel file Saved
+2024-12-04 11:40:18,726 -INFO - All stocks - json file saved
+2024-12-04 11:40:18,726 -INFO - MPHASIS.NS - alerts file Saved
+2024-12-04 11:40:18,726 -INFO - MPHASIS.NS - Process function Ended
+2024-12-04 11:40:36,692 -INFO - All stocks - Excel file Saved
+2024-12-04 11:40:36,693 -INFO - All stocks - json file saved
+2024-12-04 11:40:56,009 -INFO - All stocks - Excel file Saved
+2024-12-04 11:40:56,010 -INFO - All stocks - json file saved
