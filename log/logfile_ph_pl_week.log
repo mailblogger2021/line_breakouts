@@ -3605,3 +3605,81 @@ ValueError: Length of values (93097) does not match length of index (90998)
 2024-11-30 18:36:31,032 -INFO - All stocks - json file saved
 2024-11-30 18:36:57,751 -INFO - All stocks - Excel file Saved
 2024-11-30 18:36:57,752 -INFO - All stocks - json file saved
+2024-12-06 11:41:11,306 -INFO - Started...
+2024-12-06 11:41:12,427 -INFO - Started...
+2024-12-06 11:41:29,230 -INFO - INDIGO.NS - this stock already completed
+2024-12-06 11:41:29,231 -INFO - SBICARD.NS - this stock already completed
+2024-12-06 11:41:29,231 -INFO - M&M.NS - this stock already completed
+2024-12-06 11:41:29,231 -INFO - VOLTAS.NS - this stock already completed
+2024-12-06 11:41:29,231 -INFO - FEDERALBNK.NS - this stock already completed
+2024-12-06 11:41:29,231 -INFO - CIPLA.NS - this stock already completed
+2024-12-06 11:41:29,231 -INFO - LT.NS - this stock already completed
+2024-12-06 11:41:29,231 -INFO - BIOCON.NS - this stock already completed
+2024-12-06 11:41:29,231 -INFO - JSWSTEEL.NS - this stock already completed
+2024-12-06 11:41:29,231 -INFO - IDFCFIRSTB.NS - this stock already completed
+2024-12-06 11:41:29,231 -INFO - MARUTI.NS - this stock already completed
+2024-12-06 11:41:29,231 -INFO - CHAMBLFERT.NS - this stock already completed
+2024-12-06 11:41:29,232 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-12-06 11:41:30,559 -ERROR - 
+1 Failed download:
+2024-12-06 11:41:30,559 -ERROR - ['POONAWALLA.NS']: OperationalError('database is locked')
+2024-12-06 11:41:30,581 -INFO - LODHA.NS - Process function started
+2024-12-06 11:41:30,581 -INFO - HUDCO.NS - Process function started
+2024-12-06 11:41:30,581 -INFO - APLAPOLLO.NS - Process function started
+2024-12-06 11:41:30,582 -INFO - LODHA.NS - Reading existing data...
+2024-12-06 11:41:30,582 -INFO - HUDCO.NS - Reading existing data...
+2024-12-06 11:41:30,582 -INFO - JSWENERGY.NS - Process function started
+2024-12-06 11:41:30,582 -INFO - APLAPOLLO.NS - Reading existing data...
+2024-12-06 11:41:30,582 -INFO - JSWENERGY.NS - Reading existing data...
+2024-12-06 11:41:30,676 -INFO - last n isPivot function started
+2024-12-06 11:41:30,700 -INFO - last n isPivot function Ended
+2024-12-06 11:41:30,700 -INFO - LODHA.NS - last n detect_structure function started
+2024-12-06 11:41:30,703 -INFO - LODHA.NS - last n two_line_structure function started
+2024-12-06 11:41:30,779 -INFO - last n isPivot function started
+2024-12-06 11:41:30,821 -INFO - last n isPivot function Ended
+2024-12-06 11:41:30,826 -INFO - HUDCO.NS - last n detect_structure function started
+2024-12-06 11:41:30,827 -INFO - HUDCO.NS - last n two_line_structure function started
+2024-12-06 11:41:30,878 -INFO - last n isPivot function started
+2024-12-06 11:41:30,887 -INFO - last n isPivot function started
+2024-12-06 11:41:31,112 -INFO - last n isPivot function Ended
+2024-12-06 11:41:31,112 -INFO - APLAPOLLO.NS - last n detect_structure function started
+2024-12-06 11:41:31,115 -INFO - last n isPivot function Ended
+2024-12-06 11:41:31,115 -INFO - JSWENERGY.NS - last n detect_structure function started
+2024-12-06 11:41:31,120 -INFO - JSWENERGY.NS - last n two_line_structure function started
+2024-12-06 11:41:31,124 -INFO - APLAPOLLO.NS - last n two_line_structure function started
+2024-12-06 11:41:32,106 -INFO - LODHA.NS - last n two_line_structure function Ended
+2024-12-06 11:41:34,641 -INFO - HUDCO.NS - last n two_line_structure function Ended
+2024-12-06 11:41:34,825 -INFO - LODHA.NS - last n detect_structure function Ended
+2024-12-06 11:41:34,831 -INFO - LODHA.NS - add_ph_pl_values function started
+2024-12-06 11:41:34,874 -INFO - LODHA.NS - add_ph_pl_values function Ended
+2024-12-06 11:41:49,631 -INFO - APLAPOLLO.NS - last n two_line_structure function Ended
+2024-12-06 11:41:50,091 -INFO - JSWENERGY.NS - last n two_line_structure function Ended
+2024-12-06 11:41:52,946 -INFO - HUDCO.NS - last n detect_structure function Ended
+2024-12-06 11:41:52,949 -INFO - HUDCO.NS - add_ph_pl_values function started
+2024-12-06 11:41:52,974 -INFO - HUDCO.NS - add_ph_pl_values function Ended
+2024-12-06 11:42:08,838 -INFO - APLAPOLLO.NS - last n detect_structure function Ended
+2024-12-06 11:42:08,840 -INFO - APLAPOLLO.NS - add_ph_pl_values function started
+2024-12-06 11:42:08,860 -INFO - APLAPOLLO.NS - add_ph_pl_values function Ended
+2024-12-06 11:42:24,178 -INFO - JSWENERGY.NS - last n detect_structure function Ended
+2024-12-06 11:42:24,179 -INFO - JSWENERGY.NS - add_ph_pl_values function started
+2024-12-06 11:42:24,184 -INFO - JSWENERGY.NS - add_ph_pl_values function Ended
+2024-12-06 11:43:27,683 -INFO - All stocks - Excel file Saved
+2024-12-06 11:43:27,759 -INFO - All stocks - json file saved
+2024-12-06 11:43:27,759 -INFO - LODHA.NS - alerts file Saved
+2024-12-06 11:43:27,791 -INFO - LODHA.NS - Process function Ended
+2024-12-06 11:43:33,288 -INFO - All stocks - Excel file Saved
+2024-12-06 11:43:33,289 -INFO - All stocks - json file saved
+2024-12-06 11:43:33,289 -INFO - HUDCO.NS - alerts file Saved
+2024-12-06 11:43:33,289 -INFO - HUDCO.NS - Process function Ended
+2024-12-06 11:43:34,202 -INFO - All stocks - Excel file Saved
+2024-12-06 11:43:34,202 -INFO - All stocks - json file saved
+2024-12-06 11:43:34,202 -INFO - APLAPOLLO.NS - alerts file Saved
+2024-12-06 11:43:34,202 -INFO - APLAPOLLO.NS - Process function Ended
+2024-12-06 11:43:34,760 -INFO - All stocks - Excel file Saved
+2024-12-06 11:43:34,760 -INFO - All stocks - json file saved
+2024-12-06 11:43:34,760 -INFO - JSWENERGY.NS - alerts file Saved
+2024-12-06 11:43:34,760 -INFO - JSWENERGY.NS - Process function Ended
+2024-12-06 11:44:01,352 -INFO - All stocks - Excel file Saved
+2024-12-06 11:44:01,352 -INFO - All stocks - json file saved
+2024-12-06 11:44:27,727 -INFO - All stocks - Excel file Saved
+2024-12-06 11:44:27,727 -INFO - All stocks - json file saved
