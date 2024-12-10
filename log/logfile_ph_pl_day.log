@@ -14729,3 +14729,26 @@ ValueError: Length of values (21099) does not match length of index (21078)
 2024-12-09 11:42:42,617 -INFO - All stocks - json file saved
 2024-12-09 11:42:59,077 -INFO - All stocks - Excel file Saved
 2024-12-09 11:42:59,078 -INFO - All stocks - json file saved
+2024-12-10 11:35:05,058 -INFO - Started...
+2024-12-10 11:35:05,985 -INFO - Started...
+2024-12-10 11:35:16,323 -ERROR - 
+1 Failed download:
+2024-12-10 11:35:16,324 -ERROR - ['NIFTY']: YFTzMissingError('$%ticker%: possibly delisted; no timezone found')
+2024-12-10 11:35:16,343 -INFO - LTTS.NS - Process function started
+2024-12-10 11:35:16,343 -INFO - LTTS.NS - Reading existing data...
+2024-12-10 11:35:16,479 -INFO - last n isPivot function started
+2024-12-10 11:35:16,671 -INFO - last n isPivot function Ended
+2024-12-10 11:35:16,671 -INFO - LTTS.NS - last n detect_structure function started
+2024-12-10 11:35:16,671 -INFO - LTTS.NS - last n two_line_structure function started
+2024-12-10 11:35:21,233 -INFO - LTTS.NS - last n two_line_structure function Ended
+2024-12-10 11:35:21,516 -INFO - LTTS.NS - last n detect_structure function Ended
+2024-12-10 11:35:21,517 -INFO - LTTS.NS - add_ph_pl_values function started
+2024-12-10 11:35:21,519 -INFO - LTTS.NS - add_ph_pl_values function Ended
+2024-12-10 11:35:38,557 -INFO - All stocks - Excel file Saved
+2024-12-10 11:35:38,558 -INFO - All stocks - json file saved
+2024-12-10 11:35:38,558 -INFO - LTTS.NS - alerts file Saved
+2024-12-10 11:35:38,558 -INFO - LTTS.NS - Process function Ended
+2024-12-10 11:35:55,468 -INFO - All stocks - Excel file Saved
+2024-12-10 11:35:55,468 -INFO - All stocks - json file saved
+2024-12-10 11:36:12,231 -INFO - All stocks - Excel file Saved
+2024-12-10 11:36:12,231 -INFO - All stocks - json file saved
