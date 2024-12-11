@@ -14752,3 +14752,68 @@ ValueError: Length of values (21099) does not match length of index (21078)
 2024-12-10 11:35:55,468 -INFO - All stocks - json file saved
 2024-12-10 11:36:12,231 -INFO - All stocks - Excel file Saved
 2024-12-10 11:36:12,231 -INFO - All stocks - json file saved
+2024-12-11 11:36:42,882 -INFO - Started...
+2024-12-11 11:36:43,917 -INFO - Started...
+2024-12-11 11:36:53,686 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-12-11 11:36:55,037 -ERROR - 
+1 Failed download:
+2024-12-11 11:36:55,037 -ERROR - ['ADANIGREEN.NS']: OperationalError('database is locked')
+2024-12-11 11:36:55,119 -INFO - TIINDIA.NS - Process function started
+2024-12-11 11:36:55,119 -INFO - BSE.NS - Process function started
+2024-12-11 11:36:55,119 -INFO - ADANIENSOL.NS - Process function started
+2024-12-11 11:36:55,119 -INFO - WIPRO.NS - Process function started
+2024-12-11 11:36:55,124 -INFO - TIINDIA.NS - isPivot function started
+2024-12-11 11:36:55,124 -INFO - ADANIENSOL.NS - Reading existing data...
+2024-12-11 11:36:55,124 -INFO - BSE.NS - Reading existing data...
+2024-12-11 11:36:55,124 -INFO - WIPRO.NS - Reading existing data...
+2024-12-11 11:36:55,334 -INFO - TIINDIA.NS - isPivot function Ended
+2024-12-11 11:36:55,334 -INFO - TIINDIA.NS -  detect_structure function started
+2024-12-11 11:36:55,334 -INFO - TIINDIA.NS -  two_line_structure function started
+2024-12-11 11:36:55,489 -INFO - last n isPivot function started
+2024-12-11 11:36:55,546 -INFO - last n isPivot function Ended
+2024-12-11 11:36:55,551 -INFO - ADANIENSOL.NS - last n detect_structure function started
+2024-12-11 11:36:55,562 -INFO - ADANIENSOL.NS - last n two_line_structure function started
+2024-12-11 11:36:56,083 -INFO - last n isPivot function started
+2024-12-11 11:36:56,409 -INFO - last n isPivot function Ended
+2024-12-11 11:36:56,420 -INFO - BSE.NS - last n detect_structure function started
+2024-12-11 11:36:56,421 -INFO - BSE.NS - last n two_line_structure function started
+2024-12-11 11:36:57,462 -INFO - last n isPivot function started
+2024-12-11 11:36:58,370 -INFO - last n isPivot function Ended
+2024-12-11 11:36:58,378 -INFO - WIPRO.NS - last n detect_structure function started
+2024-12-11 11:36:58,386 -INFO - WIPRO.NS - last n two_line_structure function started
+2024-12-11 11:37:01,122 -INFO - ADANIENSOL.NS - last n two_line_structure function Ended
+2024-12-11 11:37:02,278 -INFO - ADANIENSOL.NS - last n detect_structure function Ended
+2024-12-11 11:37:02,282 -INFO - ADANIENSOL.NS - add_ph_pl_values function started
+2024-12-11 11:37:02,354 -INFO - ADANIENSOL.NS - add_ph_pl_values function Ended
+2024-12-11 11:37:21,752 -INFO - TIINDIA.NS -  two_line_structure function Ended
+2024-12-11 11:37:24,688 -INFO - BSE.NS - last n two_line_structure function Ended
+2024-12-11 11:37:25,083 -INFO - TIINDIA.NS -  detect_structure function Ended
+2024-12-11 11:37:25,085 -INFO - TIINDIA.NS - add_ph_pl_values function started
+2024-12-11 11:37:25,117 -INFO - TIINDIA.NS - add_ph_pl_values function Ended
+2024-12-11 11:37:38,046 -INFO - BSE.NS - last n detect_structure function Ended
+2024-12-11 11:37:38,049 -INFO - BSE.NS - add_ph_pl_values function started
+2024-12-11 11:37:38,062 -INFO - BSE.NS - add_ph_pl_values function Ended
+2024-12-11 11:37:56,691 -INFO - All stocks - Excel file Saved
+2024-12-11 11:37:57,103 -INFO - All stocks - json file saved
+2024-12-11 11:37:57,103 -INFO - ADANIENSOL.NS - alerts file Saved
+2024-12-11 11:37:57,218 -INFO - ADANIENSOL.NS - Process function Ended
+2024-12-11 11:38:14,153 -INFO - All stocks - Excel file Saved
+2024-12-11 11:38:14,161 -INFO - All stocks - json file saved
+2024-12-11 11:38:14,161 -INFO - TIINDIA.NS - alerts file Saved
+2024-12-11 11:38:14,162 -INFO - TIINDIA.NS - Process function Ended
+2024-12-11 11:38:15,480 -INFO - All stocks - Excel file Saved
+2024-12-11 11:38:15,485 -INFO - All stocks - json file saved
+2024-12-11 11:38:15,485 -INFO - BSE.NS - alerts file Saved
+2024-12-11 11:38:15,485 -INFO - BSE.NS - Process function Ended
+2024-12-11 11:38:21,874 -INFO - WIPRO.NS - last n two_line_structure function Ended
+2024-12-11 11:38:22,900 -INFO - WIPRO.NS - last n detect_structure function Ended
+2024-12-11 11:38:22,901 -INFO - WIPRO.NS - add_ph_pl_values function started
+2024-12-11 11:38:22,904 -INFO - WIPRO.NS - add_ph_pl_values function Ended
+2024-12-11 11:38:44,077 -INFO - All stocks - Excel file Saved
+2024-12-11 11:38:44,078 -INFO - All stocks - json file saved
+2024-12-11 11:38:44,078 -INFO - WIPRO.NS - alerts file Saved
+2024-12-11 11:38:44,078 -INFO - WIPRO.NS - Process function Ended
+2024-12-11 11:39:03,052 -INFO - All stocks - Excel file Saved
+2024-12-11 11:39:03,052 -INFO - All stocks - json file saved
+2024-12-11 11:39:19,796 -INFO - All stocks - Excel file Saved
+2024-12-11 11:39:19,797 -INFO - All stocks - json file saved
