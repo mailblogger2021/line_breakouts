@@ -3683,3 +3683,91 @@ ValueError: Length of values (93097) does not match length of index (90998)
 2024-12-06 11:44:01,352 -INFO - All stocks - json file saved
 2024-12-06 11:44:27,727 -INFO - All stocks - Excel file Saved
 2024-12-06 11:44:27,727 -INFO - All stocks - json file saved
+2024-12-13 11:32:55,052 -INFO - Started...
+2024-12-13 11:32:56,047 -INFO - Started...
+2024-12-13 11:33:09,696 -INFO - LTTS.NS - this stock already completed
+2024-12-13 11:33:09,696 -INFO - LTIM.NS - this stock already completed
+2024-12-13 11:33:09,696 -INFO - MRF.NS - this stock already completed
+2024-12-13 11:33:09,696 -INFO - TITAN.NS - this stock already completed
+2024-12-13 11:33:09,696 -INFO - NAUKRI.NS - this stock already completed
+2024-12-13 11:33:09,696 -INFO - UNITDSPR.NS - this stock already completed
+2024-12-13 11:33:09,696 -INFO - POWERGRID.NS - this stock already completed
+2024-12-13 11:33:09,696 -INFO - BSOFT.NS - this stock already completed
+2024-12-13 11:33:09,696 -INFO - TCS.NS - this stock already completed
+2024-12-13 11:33:09,696 -INFO - INFY.NS - this stock already completed
+2024-12-13 11:33:09,696 -INFO - JUBLFOOD.NS - this stock already completed
+2024-12-13 11:33:09,696 -INFO - ASHOKLEY.NS - this stock already completed
+2024-12-13 11:33:09,696 -INFO - ABBOTINDIA.NS - this stock already completed
+2024-12-13 11:33:09,697 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-12-13 11:33:10,770 -INFO - KALYANKJIL.NS - Process function started
+2024-12-13 11:33:10,770 -INFO - ADANIENSOL.NS - Process function started
+2024-12-13 11:33:10,771 -INFO - ADANIENSOL.NS - Reading existing data...
+2024-12-13 11:33:10,771 -INFO - APOLLOHOSP.NS - Process function started
+2024-12-13 11:33:10,771 -INFO - APOLLOHOSP.NS - Reading existing data...
+2024-12-13 11:33:10,774 -INFO - SUPREMEIND.NS - Process function started
+2024-12-13 11:33:10,774 -INFO - ZOMATO.NS - Process function started
+2024-12-13 11:33:10,777 -INFO - ZOMATO.NS - Reading existing data...
+2024-12-13 11:33:10,777 -INFO - KALYANKJIL.NS - isPivot function started
+2024-12-13 11:33:10,778 -INFO - SUPREMEIND.NS - isPivot function started
+2024-12-13 11:33:10,801 -INFO - KALYANKJIL.NS - isPivot function Ended
+2024-12-13 11:33:10,816 -INFO - KALYANKJIL.NS -  detect_structure function started
+2024-12-13 11:33:10,898 -INFO - KALYANKJIL.NS -  two_line_structure function started
+2024-12-13 11:33:10,974 -INFO - SUPREMEIND.NS - isPivot function Ended
+2024-12-13 11:33:10,974 -INFO - SUPREMEIND.NS -  detect_structure function started
+2024-12-13 11:33:10,977 -INFO - SUPREMEIND.NS -  two_line_structure function started
+2024-12-13 11:33:11,080 -INFO - last n isPivot function started
+2024-12-13 11:33:11,085 -INFO - last n isPivot function started
+2024-12-13 11:33:11,097 -INFO - last n isPivot function Ended
+2024-12-13 11:33:11,105 -INFO - last n isPivot function Ended
+2024-12-13 11:33:11,107 -INFO - ZOMATO.NS - last n detect_structure function started
+2024-12-13 11:33:11,110 -INFO - ZOMATO.NS - last n two_line_structure function started
+2024-12-13 11:33:11,117 -INFO - ADANIENSOL.NS -  detect_structure function started
+2024-12-13 11:33:11,117 -INFO - ADANIENSOL.NS -  two_line_structure function started
+2024-12-13 11:33:11,315 -INFO - last n isPivot function started
+2024-12-13 11:33:11,447 -INFO - last n isPivot function Ended
+2024-12-13 11:33:11,447 -INFO - APOLLOHOSP.NS - last n detect_structure function started
+2024-12-13 11:33:11,453 -INFO - APOLLOHOSP.NS - last n two_line_structure function started
+2024-12-13 11:33:11,943 -INFO - ADANIENSOL.NS -  two_line_structure function Ended
+2024-12-13 11:33:12,378 -INFO - ZOMATO.NS - last n two_line_structure function Ended
+2024-12-13 11:33:12,378 -INFO - ADANIENSOL.NS -  detect_structure function Ended
+2024-12-13 11:33:12,378 -INFO - ADANIENSOL.NS - add_ph_pl_values function started
+2024-12-13 11:33:12,532 -INFO - ADANIENSOL.NS - add_ph_pl_values function Ended
+2024-12-13 11:33:12,644 -INFO - KALYANKJIL.NS -  two_line_structure function Ended
+2024-12-13 11:33:26,596 -INFO - ZOMATO.NS - last n detect_structure function Ended
+2024-12-13 11:33:26,597 -INFO - ZOMATO.NS - add_ph_pl_values function started
+2024-12-13 11:33:26,630 -INFO - ZOMATO.NS - add_ph_pl_values function Ended
+2024-12-13 11:33:40,612 -INFO - KALYANKJIL.NS -  detect_structure function Ended
+2024-12-13 11:33:40,614 -INFO - KALYANKJIL.NS - add_ph_pl_values function started
+2024-12-13 11:33:40,674 -INFO - KALYANKJIL.NS - add_ph_pl_values function Ended
+2024-12-13 11:33:58,172 -INFO - SUPREMEIND.NS -  two_line_structure function Ended
+2024-12-13 11:33:58,482 -INFO - APOLLOHOSP.NS - last n two_line_structure function Ended
+2024-12-13 11:34:46,901 -INFO - All stocks - Excel file Saved
+2024-12-13 11:34:46,905 -INFO - All stocks - json file saved
+2024-12-13 11:34:46,905 -INFO - ADANIENSOL.NS - alerts file Saved
+2024-12-13 11:34:46,905 -INFO - ADANIENSOL.NS - Process function Ended
+2024-12-13 11:34:47,279 -INFO - All stocks - Excel file Saved
+2024-12-13 11:34:47,287 -INFO - All stocks - json file saved
+2024-12-13 11:34:47,287 -INFO - ZOMATO.NS - alerts file Saved
+2024-12-13 11:34:47,287 -INFO - ZOMATO.NS - Process function Ended
+2024-12-13 11:34:47,451 -INFO - SUPREMEIND.NS -  detect_structure function Ended
+2024-12-13 11:34:47,453 -INFO - SUPREMEIND.NS - add_ph_pl_values function started
+2024-12-13 11:34:47,462 -INFO - SUPREMEIND.NS - add_ph_pl_values function Ended
+2024-12-13 11:35:02,143 -INFO - APOLLOHOSP.NS - last n detect_structure function Ended
+2024-12-13 11:35:02,143 -INFO - APOLLOHOSP.NS - add_ph_pl_values function started
+2024-12-13 11:35:02,148 -INFO - APOLLOHOSP.NS - add_ph_pl_values function Ended
+2024-12-13 11:35:14,532 -INFO - All stocks - Excel file Saved
+2024-12-13 11:35:14,534 -INFO - All stocks - json file saved
+2024-12-13 11:35:14,534 -INFO - KALYANKJIL.NS - alerts file Saved
+2024-12-13 11:35:14,534 -INFO - KALYANKJIL.NS - Process function Ended
+2024-12-13 11:35:46,456 -INFO - All stocks - Excel file Saved
+2024-12-13 11:35:46,456 -INFO - All stocks - json file saved
+2024-12-13 11:35:46,456 -INFO - SUPREMEIND.NS - alerts file Saved
+2024-12-13 11:35:46,456 -INFO - SUPREMEIND.NS - Process function Ended
+2024-12-13 11:35:46,637 -INFO - All stocks - Excel file Saved
+2024-12-13 11:35:46,638 -INFO - All stocks - json file saved
+2024-12-13 11:35:46,638 -INFO - APOLLOHOSP.NS - alerts file Saved
+2024-12-13 11:35:46,638 -INFO - APOLLOHOSP.NS - Process function Ended
+2024-12-13 11:36:20,642 -INFO - All stocks - Excel file Saved
+2024-12-13 11:36:20,644 -INFO - All stocks - json file saved
+2024-12-13 11:36:48,767 -INFO - All stocks - Excel file Saved
+2024-12-13 11:36:48,768 -INFO - All stocks - json file saved
