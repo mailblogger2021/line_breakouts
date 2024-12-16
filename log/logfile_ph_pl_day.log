@@ -15033,3 +15033,138 @@ ValueError: operands could not be broadcast together with shapes (42323,) (42085
 2024-12-12 11:46:31,818 -INFO - All stocks - json file saved
 2024-12-12 11:46:48,560 -INFO - All stocks - Excel file Saved
 2024-12-12 11:46:48,560 -INFO - All stocks - json file saved
+2024-12-16 11:36:37,672 -INFO - Started...
+2024-12-16 11:36:38,554 -INFO - Started...
+2024-12-16 11:36:46,700 -INFO - EICHERMOT.NS - this stock already completed
+2024-12-16 11:36:46,701 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-12-16 11:36:46,701 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-12-16 11:36:48,281 -INFO - DEEPAKNTR.NS - Process function started
+2024-12-16 11:36:48,281 -INFO - DEEPAKNTR.NS - Reading existing data...
+2024-12-16 11:36:48,281 -INFO - UNITDSPR.NS - Process function started
+2024-12-16 11:36:48,282 -INFO - SYNGENE.NS - Process function started
+2024-12-16 11:36:48,282 -INFO - UNITDSPR.NS - Reading existing data...
+2024-12-16 11:36:48,282 -INFO - SYNGENE.NS - Reading existing data...
+2024-12-16 11:36:48,282 -INFO - BERGEPAINT.NS - Process function started
+2024-12-16 11:36:48,282 -INFO - ABFRL.NS - Process function started
+2024-12-16 11:36:48,282 -INFO - CROMPTON.NS - Process function started
+2024-12-16 11:36:48,282 -INFO - ALKEM.NS - Process function started
+2024-12-16 11:36:48,283 -INFO - RBLBANK.NS - Process function started
+2024-12-16 11:36:48,283 -INFO - INDIAMART.NS - Process function started
+2024-12-16 11:36:48,283 -INFO - BERGEPAINT.NS - Reading existing data...
+2024-12-16 11:36:48,284 -INFO - ABFRL.NS - Reading existing data...
+2024-12-16 11:36:48,284 -INFO - CROMPTON.NS - Reading existing data...
+2024-12-16 11:36:48,284 -INFO - ALKEM.NS - Reading existing data...
+2024-12-16 11:36:48,284 -INFO - RBLBANK.NS - Reading existing data...
+2024-12-16 11:36:48,285 -INFO - INDIAMART.NS - Reading existing data...
+2024-12-16 11:36:48,359 -INFO - last n isPivot function started
+2024-12-16 11:36:48,489 -INFO - last n isPivot function Ended
+2024-12-16 11:36:48,489 -INFO - UNITDSPR.NS - last n detect_structure function started
+2024-12-16 11:36:48,490 -INFO - UNITDSPR.NS - last n two_line_structure function started
+2024-12-16 11:36:48,522 -INFO - UNITDSPR.NS - last n detect_structure function Ended
+2024-12-16 11:36:48,591 -INFO - UNITDSPR.NS - last n two_line_structure function Ended
+2024-12-16 11:36:48,592 -INFO - UNITDSPR.NS - add_ph_pl_values function started
+2024-12-16 11:36:48,814 -INFO - UNITDSPR.NS - add_ph_pl_values function Ended
+2024-12-16 11:36:48,985 -INFO - last n isPivot function started
+2024-12-16 11:36:48,987 -INFO - last n isPivot function started
+2024-12-16 11:36:49,674 -INFO - last n isPivot function Ended
+2024-12-16 11:36:49,677 -INFO - DEEPAKNTR.NS - last n detect_structure function started
+2024-12-16 11:36:49,720 -INFO - DEEPAKNTR.NS - last n two_line_structure function started
+2024-12-16 11:36:49,848 -INFO - last n isPivot function Ended
+2024-12-16 11:36:49,848 -INFO - SYNGENE.NS - last n detect_structure function started
+2024-12-16 11:36:49,848 -INFO - SYNGENE.NS - last n two_line_structure function started
+2024-12-16 11:36:50,322 -INFO - last n isPivot function started
+2024-12-16 11:36:50,393 -INFO - last n isPivot function started
+2024-12-16 11:36:50,886 -INFO - last n isPivot function Ended
+2024-12-16 11:36:50,886 -INFO - CROMPTON.NS - last n detect_structure function started
+2024-12-16 11:36:51,003 -INFO - CROMPTON.NS - last n two_line_structure function started
+2024-12-16 11:36:51,171 -INFO - last n isPivot function started
+2024-12-16 11:36:51,191 -INFO - last n isPivot function started
+2024-12-16 11:36:51,334 -INFO - last n isPivot function Ended
+2024-12-16 11:36:51,334 -INFO - INDIAMART.NS - last n detect_structure function started
+2024-12-16 11:36:51,335 -INFO - last n isPivot function started
+2024-12-16 11:36:51,339 -INFO - last n isPivot function Ended
+2024-12-16 11:36:51,596 -INFO - INDIAMART.NS - last n two_line_structure function started
+2024-12-16 11:36:51,611 -INFO - last n isPivot function Ended
+2024-12-16 11:36:51,623 -INFO - BERGEPAINT.NS - last n detect_structure function started
+2024-12-16 11:36:51,626 -INFO - BERGEPAINT.NS - last n two_line_structure function started
+2024-12-16 11:36:51,627 -INFO - ALKEM.NS - last n detect_structure function started
+2024-12-16 11:36:51,900 -INFO - last n isPivot function started
+2024-12-16 11:36:51,900 -INFO - ALKEM.NS - last n two_line_structure function started
+2024-12-16 11:36:52,114 -INFO - last n isPivot function Ended
+2024-12-16 11:36:52,114 -INFO - ABFRL.NS - last n detect_structure function started
+2024-12-16 11:36:52,119 -INFO - ABFRL.NS - last n two_line_structure function started
+2024-12-16 11:36:52,223 -INFO - last n isPivot function Ended
+2024-12-16 11:36:52,223 -INFO - RBLBANK.NS - last n detect_structure function started
+2024-12-16 11:36:52,229 -INFO - RBLBANK.NS - last n two_line_structure function started
+2024-12-16 11:37:24,916 -INFO - INDIAMART.NS - last n two_line_structure function Ended
+2024-12-16 11:37:35,335 -INFO - INDIAMART.NS - last n detect_structure function Ended
+2024-12-16 11:37:35,347 -INFO - INDIAMART.NS - add_ph_pl_values function started
+2024-12-16 11:37:35,399 -INFO - INDIAMART.NS - add_ph_pl_values function Ended
+2024-12-16 11:37:52,431 -INFO - RBLBANK.NS - last n two_line_structure function Ended
+2024-12-16 11:37:54,751 -INFO - CROMPTON.NS - last n two_line_structure function Ended
+2024-12-16 11:37:55,812 -INFO - ALKEM.NS - last n two_line_structure function Ended
+2024-12-16 11:37:58,580 -INFO - SYNGENE.NS - last n two_line_structure function Ended
+2024-12-16 11:38:00,980 -INFO - RBLBANK.NS - last n detect_structure function Ended
+2024-12-16 11:38:00,981 -INFO - RBLBANK.NS - add_ph_pl_values function started
+2024-12-16 11:38:01,024 -INFO - RBLBANK.NS - add_ph_pl_values function Ended
+2024-12-16 11:38:14,339 -INFO - CROMPTON.NS - last n detect_structure function Ended
+2024-12-16 11:38:14,347 -INFO - CROMPTON.NS - add_ph_pl_values function started
+2024-12-16 11:38:14,401 -INFO - CROMPTON.NS - add_ph_pl_values function Ended
+2024-12-16 11:38:18,722 -INFO - ALKEM.NS - last n detect_structure function Ended
+2024-12-16 11:38:18,786 -INFO - ALKEM.NS - add_ph_pl_values function started
+2024-12-16 11:38:18,849 -INFO - ALKEM.NS - add_ph_pl_values function Ended
+2024-12-16 11:38:19,648 -INFO - ABFRL.NS - last n two_line_structure function Ended
+2024-12-16 11:38:27,600 -INFO - All stocks - Excel file Saved
+2024-12-16 11:38:27,603 -INFO - All stocks - json file saved
+2024-12-16 11:38:27,603 -INFO - UNITDSPR.NS - alerts file Saved
+2024-12-16 11:38:27,603 -INFO - UNITDSPR.NS - Process function Ended
+2024-12-16 11:38:34,544 -INFO - SYNGENE.NS - last n detect_structure function Ended
+2024-12-16 11:38:34,546 -INFO - SYNGENE.NS - add_ph_pl_values function started
+2024-12-16 11:38:34,574 -INFO - SYNGENE.NS - add_ph_pl_values function Ended
+2024-12-16 11:39:12,415 -INFO - All stocks - Excel file Saved
+2024-12-16 11:39:12,426 -INFO - All stocks - json file saved
+2024-12-16 11:39:12,426 -INFO - INDIAMART.NS - alerts file Saved
+2024-12-16 11:39:12,426 -INFO - INDIAMART.NS - Process function Ended
+2024-12-16 11:39:21,455 -INFO - DEEPAKNTR.NS - last n two_line_structure function Ended
+2024-12-16 11:39:21,580 -INFO - ABFRL.NS - last n detect_structure function Ended
+2024-12-16 11:39:21,588 -INFO - ABFRL.NS - add_ph_pl_values function started
+2024-12-16 11:39:21,607 -INFO - ABFRL.NS - add_ph_pl_values function Ended
+2024-12-16 11:39:29,776 -INFO - All stocks - Excel file Saved
+2024-12-16 11:39:30,137 -INFO - All stocks - json file saved
+2024-12-16 11:39:30,137 -INFO - RBLBANK.NS - alerts file Saved
+2024-12-16 11:39:30,137 -INFO - RBLBANK.NS - Process function Ended
+2024-12-16 11:39:36,442 -INFO - All stocks - Excel file Saved
+2024-12-16 11:39:36,448 -INFO - All stocks - json file saved
+2024-12-16 11:39:36,449 -INFO - ALKEM.NS - alerts file Saved
+2024-12-16 11:39:36,451 -INFO - ALKEM.NS - Process function Ended
+2024-12-16 11:39:36,640 -INFO - All stocks - Excel file Saved
+2024-12-16 11:39:36,648 -INFO - All stocks - json file saved
+2024-12-16 11:39:36,648 -INFO - CROMPTON.NS - alerts file Saved
+2024-12-16 11:39:36,648 -INFO - CROMPTON.NS - Process function Ended
+2024-12-16 11:39:41,218 -INFO - All stocks - Excel file Saved
+2024-12-16 11:39:41,219 -INFO - All stocks - json file saved
+2024-12-16 11:39:41,219 -INFO - SYNGENE.NS - alerts file Saved
+2024-12-16 11:39:41,219 -INFO - SYNGENE.NS - Process function Ended
+2024-12-16 11:39:41,420 -INFO - DEEPAKNTR.NS - last n detect_structure function Ended
+2024-12-16 11:39:41,424 -INFO - DEEPAKNTR.NS - add_ph_pl_values function started
+2024-12-16 11:39:41,440 -INFO - DEEPAKNTR.NS - add_ph_pl_values function Ended
+2024-12-16 11:40:08,700 -INFO - All stocks - Excel file Saved
+2024-12-16 11:40:08,702 -INFO - All stocks - json file saved
+2024-12-16 11:40:08,703 -INFO - ABFRL.NS - alerts file Saved
+2024-12-16 11:40:08,703 -INFO - ABFRL.NS - Process function Ended
+2024-12-16 11:40:09,811 -INFO - BERGEPAINT.NS - last n two_line_structure function Ended
+2024-12-16 11:40:14,806 -INFO - All stocks - Excel file Saved
+2024-12-16 11:40:14,808 -INFO - All stocks - json file saved
+2024-12-16 11:40:14,808 -INFO - DEEPAKNTR.NS - alerts file Saved
+2024-12-16 11:40:14,808 -INFO - DEEPAKNTR.NS - Process function Ended
+2024-12-16 11:40:14,976 -INFO - BERGEPAINT.NS - last n detect_structure function Ended
+2024-12-16 11:40:14,976 -INFO - BERGEPAINT.NS - add_ph_pl_values function started
+2024-12-16 11:40:14,979 -INFO - BERGEPAINT.NS - add_ph_pl_values function Ended
+2024-12-16 11:40:32,211 -INFO - All stocks - Excel file Saved
+2024-12-16 11:40:32,211 -INFO - All stocks - json file saved
+2024-12-16 11:40:32,211 -INFO - BERGEPAINT.NS - alerts file Saved
+2024-12-16 11:40:32,211 -INFO - BERGEPAINT.NS - Process function Ended
+2024-12-16 11:40:48,723 -INFO - All stocks - Excel file Saved
+2024-12-16 11:40:48,723 -INFO - All stocks - json file saved
+2024-12-16 11:41:05,151 -INFO - All stocks - Excel file Saved
+2024-12-16 11:41:05,151 -INFO - All stocks - json file saved
