@@ -15289,3 +15289,151 @@ ValueError: operands could not be broadcast together with shapes (42323,) (42085
 2024-12-17 11:40:51,172 -INFO - All stocks - json file saved
 2024-12-17 11:41:07,747 -INFO - All stocks - Excel file Saved
 2024-12-17 11:41:07,747 -INFO - All stocks - json file saved
+2024-12-18 11:35:22,013 -INFO - Started...
+2024-12-18 11:35:23,028 -INFO - Started...
+2024-12-18 11:35:32,695 -INFO - GRANULES.NS - this stock already completed
+2024-12-18 11:35:32,697 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-12-18 11:35:34,686 -INFO - M&MFIN.NS - Process function started
+2024-12-18 11:35:34,686 -INFO - PIIND.NS - Process function started
+2024-12-18 11:35:34,686 -INFO - JSWENERGY.NS - Process function started
+2024-12-18 11:35:34,687 -INFO - M&MFIN.NS - Reading existing data...
+2024-12-18 11:35:34,687 -INFO - SUNTV.NS - Process function started
+2024-12-18 11:35:34,687 -INFO - JIOFIN.NS - Process function started
+2024-12-18 11:35:34,687 -INFO - TATACHEM.NS - Process function started
+2024-12-18 11:35:34,687 -INFO - PIIND.NS - Reading existing data...
+2024-12-18 11:35:34,687 -INFO - JSWENERGY.NS - Reading existing data...
+2024-12-18 11:35:34,687 -INFO - INDIANB.NS - Process function started
+2024-12-18 11:35:34,687 -INFO - LALPATHLAB.NS - Process function started
+2024-12-18 11:35:34,687 -INFO - BHEL.NS - Process function started
+2024-12-18 11:35:34,688 -INFO - BEL.NS - Process function started
+2024-12-18 11:35:34,688 -INFO - SUNTV.NS - Reading existing data...
+2024-12-18 11:35:34,688 -INFO - JIOFIN.NS - Reading existing data...
+2024-12-18 11:35:34,688 -INFO - TATACHEM.NS - Reading existing data...
+2024-12-18 11:35:34,689 -INFO - INDIANB.NS - Reading existing data...
+2024-12-18 11:35:34,690 -INFO - LALPATHLAB.NS - Reading existing data...
+2024-12-18 11:35:34,690 -INFO - BHEL.NS - Reading existing data...
+2024-12-18 11:35:34,690 -INFO - BEL.NS - Reading existing data...
+2024-12-18 11:35:35,093 -INFO - last n isPivot function started
+2024-12-18 11:35:35,146 -INFO - last n isPivot function Ended
+2024-12-18 11:35:35,163 -INFO - JIOFIN.NS - last n detect_structure function started
+2024-12-18 11:35:35,167 -INFO - JIOFIN.NS - last n two_line_structure function started
+2024-12-18 11:35:36,185 -INFO - last n isPivot function started
+2024-12-18 11:35:36,898 -INFO - last n isPivot function Ended
+2024-12-18 11:35:36,910 -INFO - PIIND.NS - last n detect_structure function started
+2024-12-18 11:35:36,940 -INFO - PIIND.NS - last n two_line_structure function started
+2024-12-18 11:35:37,718 -INFO - last n isPivot function started
+2024-12-18 11:35:37,731 -INFO - last n isPivot function started
+2024-12-18 11:35:38,639 -INFO - last n isPivot function Ended
+2024-12-18 11:35:38,646 -INFO - LALPATHLAB.NS - last n detect_structure function started
+2024-12-18 11:35:38,706 -INFO - LALPATHLAB.NS - last n two_line_structure function started
+2024-12-18 11:35:38,724 -INFO - last n isPivot function Ended
+2024-12-18 11:35:38,752 -INFO - JSWENERGY.NS - last n detect_structure function started
+2024-12-18 11:35:38,759 -INFO - JSWENERGY.NS - last n two_line_structure function started
+2024-12-18 11:35:39,273 -INFO - last n isPivot function started
+2024-12-18 11:35:39,873 -INFO - last n isPivot function started
+2024-12-18 11:35:40,574 -INFO - last n isPivot function Ended
+2024-12-18 11:35:40,590 -INFO - M&MFIN.NS - last n detect_structure function started
+2024-12-18 11:35:40,594 -INFO - last n isPivot function started
+2024-12-18 11:35:40,599 -INFO - M&MFIN.NS - last n two_line_structure function started
+2024-12-18 11:35:40,936 -INFO - last n isPivot function Ended
+2024-12-18 11:35:41,268 -INFO - SUNTV.NS - last n detect_structure function started
+2024-12-18 11:35:41,283 -INFO - SUNTV.NS - last n two_line_structure function started
+2024-12-18 11:35:41,325 -INFO - last n isPivot function Ended
+2024-12-18 11:35:41,344 -INFO - INDIANB.NS - last n detect_structure function started
+2024-12-18 11:35:41,384 -INFO - INDIANB.NS - last n two_line_structure function started
+2024-12-18 11:35:41,875 -INFO - last n isPivot function started
+2024-12-18 11:35:42,678 -INFO - last n isPivot function Ended
+2024-12-18 11:35:42,715 -INFO - BEL.NS - last n detect_structure function started
+2024-12-18 11:35:42,757 -INFO - BEL.NS - last n two_line_structure function started
+2024-12-18 11:35:43,172 -INFO - last n isPivot function started
+2024-12-18 11:35:44,275 -INFO - last n isPivot function Ended
+2024-12-18 11:35:44,289 -INFO - BHEL.NS - last n detect_structure function started
+2024-12-18 11:35:44,291 -INFO - BHEL.NS - last n two_line_structure function started
+2024-12-18 11:35:44,694 -INFO - last n isPivot function started
+2024-12-18 11:35:45,785 -INFO - last n isPivot function Ended
+2024-12-18 11:35:45,806 -INFO - TATACHEM.NS - last n detect_structure function started
+2024-12-18 11:35:45,816 -INFO - TATACHEM.NS - last n two_line_structure function started
+2024-12-18 11:35:53,167 -INFO - JIOFIN.NS - last n two_line_structure function Ended
+2024-12-18 11:35:55,121 -INFO - JIOFIN.NS - last n detect_structure function Ended
+2024-12-18 11:35:55,159 -INFO - JIOFIN.NS - add_ph_pl_values function started
+2024-12-18 11:35:55,429 -INFO - JIOFIN.NS - add_ph_pl_values function Ended
+2024-12-18 11:37:53,098 -INFO - LALPATHLAB.NS - last n two_line_structure function Ended
+2024-12-18 11:38:20,020 -INFO - All stocks - Excel file Saved
+2024-12-18 11:38:20,128 -INFO - All stocks - json file saved
+2024-12-18 11:38:20,128 -INFO - JIOFIN.NS - alerts file Saved
+2024-12-18 11:38:20,129 -INFO - JIOFIN.NS - Process function Ended
+2024-12-18 11:38:27,422 -INFO - LALPATHLAB.NS - last n detect_structure function Ended
+2024-12-18 11:38:27,436 -INFO - LALPATHLAB.NS - add_ph_pl_values function started
+2024-12-18 11:38:27,631 -INFO - LALPATHLAB.NS - add_ph_pl_values function Ended
+2024-12-18 11:39:04,534 -INFO - PIIND.NS - last n two_line_structure function Ended
+2024-12-18 11:39:22,947 -INFO - JSWENERGY.NS - last n two_line_structure function Ended
+2024-12-18 11:39:49,553 -INFO - PIIND.NS - last n detect_structure function Ended
+2024-12-18 11:39:49,606 -INFO - PIIND.NS - add_ph_pl_values function started
+2024-12-18 11:39:49,707 -INFO - PIIND.NS - add_ph_pl_values function Ended
+2024-12-18 11:40:04,673 -INFO - INDIANB.NS - last n two_line_structure function Ended
+2024-12-18 11:40:14,119 -INFO - JSWENERGY.NS - last n detect_structure function Ended
+2024-12-18 11:40:14,138 -INFO - JSWENERGY.NS - add_ph_pl_values function started
+2024-12-18 11:40:14,252 -INFO - JSWENERGY.NS - add_ph_pl_values function Ended
+2024-12-18 11:40:25,177 -INFO - All stocks - Excel file Saved
+2024-12-18 11:40:25,203 -INFO - All stocks - json file saved
+2024-12-18 11:40:25,203 -INFO - LALPATHLAB.NS - alerts file Saved
+2024-12-18 11:40:25,203 -INFO - LALPATHLAB.NS - Process function Ended
+2024-12-18 11:40:28,210 -INFO - SUNTV.NS - last n two_line_structure function Ended
+2024-12-18 11:40:33,617 -INFO - M&MFIN.NS - last n two_line_structure function Ended
+2024-12-18 11:40:48,697 -INFO - INDIANB.NS - last n detect_structure function Ended
+2024-12-18 11:40:48,731 -INFO - INDIANB.NS - add_ph_pl_values function started
+2024-12-18 11:40:48,843 -INFO - INDIANB.NS - add_ph_pl_values function Ended
+2024-12-18 11:41:19,511 -INFO - BEL.NS - last n two_line_structure function Ended
+2024-12-18 11:41:26,805 -INFO - All stocks - Excel file Saved
+2024-12-18 11:41:26,871 -INFO - All stocks - json file saved
+2024-12-18 11:41:26,874 -INFO - PIIND.NS - alerts file Saved
+2024-12-18 11:41:26,874 -INFO - PIIND.NS - Process function Ended
+2024-12-18 11:41:27,434 -INFO - SUNTV.NS - last n detect_structure function Ended
+2024-12-18 11:41:27,447 -INFO - SUNTV.NS - add_ph_pl_values function started
+2024-12-18 11:41:27,500 -INFO - SUNTV.NS - add_ph_pl_values function Ended
+2024-12-18 11:41:28,665 -INFO - M&MFIN.NS - last n detect_structure function Ended
+2024-12-18 11:41:28,672 -INFO - M&MFIN.NS - add_ph_pl_values function started
+2024-12-18 11:41:28,714 -INFO - M&MFIN.NS - add_ph_pl_values function Ended
+2024-12-18 11:41:55,320 -INFO - All stocks - Excel file Saved
+2024-12-18 11:41:55,330 -INFO - All stocks - json file saved
+2024-12-18 11:41:55,335 -INFO - JSWENERGY.NS - alerts file Saved
+2024-12-18 11:41:55,336 -INFO - JSWENERGY.NS - Process function Ended
+2024-12-18 11:42:23,393 -INFO - All stocks - Excel file Saved
+2024-12-18 11:42:23,395 -INFO - All stocks - json file saved
+2024-12-18 11:42:23,395 -INFO - INDIANB.NS - alerts file Saved
+2024-12-18 11:42:23,395 -INFO - INDIANB.NS - Process function Ended
+2024-12-18 11:42:30,739 -INFO - BEL.NS - last n detect_structure function Ended
+2024-12-18 11:42:30,742 -INFO - BEL.NS - add_ph_pl_values function started
+2024-12-18 11:42:30,772 -INFO - BEL.NS - add_ph_pl_values function Ended
+2024-12-18 11:42:47,636 -INFO - All stocks - Excel file Saved
+2024-12-18 11:42:47,647 -INFO - All stocks - json file saved
+2024-12-18 11:42:47,647 -INFO - M&MFIN.NS - alerts file Saved
+2024-12-18 11:42:47,647 -INFO - M&MFIN.NS - Process function Ended
+2024-12-18 11:42:47,715 -INFO - All stocks - Excel file Saved
+2024-12-18 11:42:47,731 -INFO - All stocks - json file saved
+2024-12-18 11:42:47,731 -INFO - SUNTV.NS - alerts file Saved
+2024-12-18 11:42:47,731 -INFO - SUNTV.NS - Process function Ended
+2024-12-18 11:42:57,269 -INFO - TATACHEM.NS - last n two_line_structure function Ended
+2024-12-18 11:42:57,532 -INFO - BHEL.NS - last n two_line_structure function Ended
+2024-12-18 11:43:13,715 -INFO - BHEL.NS - last n detect_structure function Ended
+2024-12-18 11:43:13,835 -INFO - BHEL.NS - add_ph_pl_values function started
+2024-12-18 11:43:13,997 -INFO - BHEL.NS - add_ph_pl_values function Ended
+2024-12-18 11:43:15,415 -INFO - TATACHEM.NS - last n detect_structure function Ended
+2024-12-18 11:43:15,416 -INFO - TATACHEM.NS - add_ph_pl_values function started
+2024-12-18 11:43:15,427 -INFO - TATACHEM.NS - add_ph_pl_values function Ended
+2024-12-18 11:43:28,888 -INFO - All stocks - Excel file Saved
+2024-12-18 11:43:28,889 -INFO - All stocks - json file saved
+2024-12-18 11:43:28,889 -INFO - BEL.NS - alerts file Saved
+2024-12-18 11:43:28,889 -INFO - BEL.NS - Process function Ended
+2024-12-18 11:43:53,609 -INFO - All stocks - Excel file Saved
+2024-12-18 11:43:53,609 -INFO - All stocks - json file saved
+2024-12-18 11:43:53,609 -INFO - BHEL.NS - alerts file Saved
+2024-12-18 11:43:53,609 -INFO - BHEL.NS - Process function Ended
+2024-12-18 11:43:53,618 -INFO - All stocks - Excel file Saved
+2024-12-18 11:43:53,619 -INFO - All stocks - json file saved
+2024-12-18 11:43:53,619 -INFO - TATACHEM.NS - alerts file Saved
+2024-12-18 11:43:53,619 -INFO - TATACHEM.NS - Process function Ended
+2024-12-18 11:44:12,586 -INFO - All stocks - Excel file Saved
+2024-12-18 11:44:12,586 -INFO - All stocks - json file saved
+2024-12-18 11:44:31,583 -INFO - All stocks - Excel file Saved
+2024-12-18 11:44:31,583 -INFO - All stocks - json file saved
