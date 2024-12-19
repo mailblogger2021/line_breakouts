@@ -15437,3 +15437,196 @@ ValueError: operands could not be broadcast together with shapes (42323,) (42085
 2024-12-18 11:44:12,586 -INFO - All stocks - json file saved
 2024-12-18 11:44:31,583 -INFO - All stocks - Excel file Saved
 2024-12-18 11:44:31,583 -INFO - All stocks - json file saved
+2024-12-19 11:35:22,658 -INFO - Started...
+2024-12-19 11:35:23,678 -INFO - Started...
+2024-12-19 11:35:33,067 -INFO - IPCALAB.NS - this stock already completed
+2024-12-19 11:35:33,069 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-12-19 11:35:37,063 -ERROR - 
+2 Failed downloads:
+2024-12-19 11:35:37,063 -ERROR - ['NIFTY.NS', 'BANKNIFTY.NS']: YFTzMissingError('$%ticker%: possibly delisted; no timezone found')
+2024-12-19 11:35:37,314 -INFO - BALKRISIND.NS - Process function started
+2024-12-19 11:35:37,314 -INFO - BALKRISIND.NS - Reading existing data...
+2024-12-19 11:35:37,315 -INFO - RELIANCE.NS - Process function started
+2024-12-19 11:35:37,315 -INFO - BHARATFORG.NS - Process function started
+2024-12-19 11:35:37,315 -INFO - BHARATFORG.NS - Reading existing data...
+2024-12-19 11:35:37,315 -INFO - RELIANCE.NS - Reading existing data...
+2024-12-19 11:35:37,315 -INFO - BAJAJ-AUTO.NS - Process function started
+2024-12-19 11:35:37,315 -INFO - BAJAJ-AUTO.NS - Reading existing data...
+2024-12-19 11:35:37,315 -INFO - INDUSTOWER.NS - Process function started
+2024-12-19 11:35:37,315 -INFO - IDFCFIRSTB.NS - Process function started
+2024-12-19 11:35:37,316 -INFO - INDUSTOWER.NS - Reading existing data...
+2024-12-19 11:35:37,316 -INFO - IDFCFIRSTB.NS - Reading existing data...
+2024-12-19 11:35:37,316 -INFO - IDEA.NS - Process function started
+2024-12-19 11:35:37,316 -INFO - PIDILITIND.NS - Process function started
+2024-12-19 11:35:37,316 -INFO - GRASIM.NS - Process function started
+2024-12-19 11:35:37,316 -INFO - BANDHANBNK.NS - Process function started
+2024-12-19 11:35:37,317 -INFO - IDEA.NS - Reading existing data...
+2024-12-19 11:35:37,319 -INFO - PIDILITIND.NS - Reading existing data...
+2024-12-19 11:35:37,319 -INFO - PVRINOX.NS - Process function started
+2024-12-19 11:35:37,320 -INFO - FEDERALBNK.NS - Process function started
+2024-12-19 11:35:37,338 -INFO - FEDERALBNK.NS - Reading existing data...
+2024-12-19 11:35:37,320 -INFO - TATAELXSI.NS - Process function started
+2024-12-19 11:35:37,322 -INFO - BANDHANBNK.NS - Reading existing data...
+2024-12-19 11:35:37,334 -INFO - PVRINOX.NS - Reading existing data...
+2024-12-19 11:35:37,320 -INFO - GRASIM.NS - Reading existing data...
+2024-12-19 11:35:37,338 -INFO - TATAELXSI.NS - Reading existing data...
+2024-12-19 11:35:38,592 -INFO - last n isPivot function started
+2024-12-19 11:35:39,554 -INFO - last n isPivot function Ended
+2024-12-19 11:35:39,554 -INFO - BALKRISIND.NS - last n detect_structure function started
+2024-12-19 11:35:39,558 -INFO - BALKRISIND.NS - last n two_line_structure function started
+2024-12-19 11:35:40,040 -INFO - last n isPivot function started
+2024-12-19 11:35:41,028 -INFO - last n isPivot function started
+2024-12-19 11:35:41,082 -INFO - last n isPivot function started
+2024-12-19 11:35:41,089 -INFO - last n isPivot function started
+2024-12-19 11:35:41,136 -INFO - last n isPivot function Ended
+2024-12-19 11:35:41,137 -INFO - PVRINOX.NS - last n detect_structure function started
+2024-12-19 11:35:41,501 -INFO - PVRINOX.NS - last n two_line_structure function started
+2024-12-19 11:35:42,409 -INFO - last n isPivot function Ended
+2024-12-19 11:35:42,421 -INFO - last n isPivot function Ended
+2024-12-19 11:35:42,421 -INFO - BAJAJ-AUTO.NS - last n detect_structure function started
+2024-12-19 11:35:42,510 -INFO - BAJAJ-AUTO.NS - last n two_line_structure function started
+2024-12-19 11:35:42,511 -INFO - INDUSTOWER.NS - last n detect_structure function started
+2024-12-19 11:35:42,514 -INFO - INDUSTOWER.NS - last n two_line_structure function started
+2024-12-19 11:35:42,526 -INFO - last n isPivot function started
+2024-12-19 11:35:42,651 -INFO - last n isPivot function Ended
+2024-12-19 11:35:42,772 -INFO - IDFCFIRSTB.NS - last n detect_structure function started
+2024-12-19 11:35:42,776 -INFO - IDFCFIRSTB.NS - last n two_line_structure function started
+2024-12-19 11:35:43,069 -INFO - last n isPivot function Ended
+2024-12-19 11:35:43,070 -INFO - BANDHANBNK.NS - last n detect_structure function started
+2024-12-19 11:35:43,082 -INFO - last n isPivot function started
+2024-12-19 11:35:43,091 -INFO - BANDHANBNK.NS - last n two_line_structure function started
+2024-12-19 11:35:43,099 -INFO - last n isPivot function started
+2024-12-19 11:35:44,781 -INFO - last n isPivot function started
+2024-12-19 11:35:44,789 -INFO - last n isPivot function Ended
+2024-12-19 11:35:44,789 -INFO - RELIANCE.NS - last n detect_structure function started
+2024-12-19 11:35:44,795 -INFO - last n isPivot function Ended
+2024-12-19 11:35:44,795 -INFO - BHARATFORG.NS - last n detect_structure function started
+2024-12-19 11:35:44,795 -INFO - RELIANCE.NS - last n two_line_structure function started
+2024-12-19 11:35:44,796 -INFO - BHARATFORG.NS - last n two_line_structure function started
+2024-12-19 11:35:44,812 -INFO - last n isPivot function started
+2024-12-19 11:35:44,822 -INFO - last n isPivot function started
+2024-12-19 11:35:46,686 -INFO - last n isPivot function Ended
+2024-12-19 11:35:46,686 -INFO - last n isPivot function started
+2024-12-19 11:35:46,689 -INFO - last n isPivot function Ended
+2024-12-19 11:35:46,698 -INFO - GRASIM.NS - last n detect_structure function started
+2024-12-19 11:35:46,702 -INFO - last n isPivot function Ended
+2024-12-19 11:35:46,705 -INFO - GRASIM.NS - last n two_line_structure function started
+2024-12-19 11:35:46,707 -INFO - IDEA.NS - last n detect_structure function started
+2024-12-19 11:35:46,710 -INFO - IDEA.NS - last n two_line_structure function started
+2024-12-19 11:35:46,735 -INFO - PIDILITIND.NS - last n detect_structure function started
+2024-12-19 11:35:46,738 -INFO - PIDILITIND.NS - last n two_line_structure function started
+2024-12-19 11:35:47,403 -INFO - last n isPivot function Ended
+2024-12-19 11:35:47,450 -INFO - TATAELXSI.NS - last n detect_structure function started
+2024-12-19 11:35:47,457 -INFO - TATAELXSI.NS - last n two_line_structure function started
+2024-12-19 11:35:47,560 -INFO - last n isPivot function started
+2024-12-19 11:35:48,546 -INFO - last n isPivot function Ended
+2024-12-19 11:35:48,550 -INFO - FEDERALBNK.NS - last n detect_structure function started
+2024-12-19 11:35:48,607 -INFO - FEDERALBNK.NS - last n two_line_structure function started
+2024-12-19 11:36:01,315 -INFO - PVRINOX.NS - last n two_line_structure function Ended
+2024-12-19 11:36:06,909 -INFO - PVRINOX.NS - last n detect_structure function Ended
+2024-12-19 11:36:06,936 -INFO - PVRINOX.NS - add_ph_pl_values function started
+2024-12-19 11:36:07,218 -INFO - PVRINOX.NS - add_ph_pl_values function Ended
+2024-12-19 11:36:54,954 -INFO - BANDHANBNK.NS - last n two_line_structure function Ended
+2024-12-19 11:37:14,867 -INFO - BANDHANBNK.NS - last n detect_structure function Ended
+2024-12-19 11:37:14,888 -INFO - BANDHANBNK.NS - add_ph_pl_values function started
+2024-12-19 11:37:15,050 -INFO - BANDHANBNK.NS - add_ph_pl_values function Ended
+2024-12-19 11:37:29,696 -INFO - IDFCFIRSTB.NS - last n two_line_structure function Ended
+2024-12-19 11:37:51,758 -INFO - IDFCFIRSTB.NS - last n detect_structure function Ended
+2024-12-19 11:37:51,795 -INFO - IDFCFIRSTB.NS - add_ph_pl_values function started
+2024-12-19 11:37:51,897 -INFO - IDFCFIRSTB.NS - add_ph_pl_values function Ended
+2024-12-19 11:38:04,731 -INFO - INDUSTOWER.NS - last n two_line_structure function Ended
+2024-12-19 11:38:09,751 -INFO - All stocks - Excel file Saved
+2024-12-19 11:38:09,779 -INFO - All stocks - json file saved
+2024-12-19 11:38:09,779 -INFO - PVRINOX.NS - alerts file Saved
+2024-12-19 11:38:09,786 -INFO - PVRINOX.NS - Process function Ended
+2024-12-19 11:38:35,694 -INFO - INDUSTOWER.NS - last n detect_structure function Ended
+2024-12-19 11:38:35,723 -INFO - INDUSTOWER.NS - add_ph_pl_values function started
+2024-12-19 11:38:35,837 -INFO - INDUSTOWER.NS - add_ph_pl_values function Ended
+2024-12-19 11:39:07,607 -INFO - All stocks - Excel file Saved
+2024-12-19 11:39:07,647 -INFO - All stocks - json file saved
+2024-12-19 11:39:07,648 -INFO - BANDHANBNK.NS - alerts file Saved
+2024-12-19 11:39:07,648 -INFO - BANDHANBNK.NS - Process function Ended
+2024-12-19 11:39:11,755 -INFO - IDEA.NS - last n two_line_structure function Ended
+2024-12-19 11:39:26,659 -INFO - BALKRISIND.NS - last n two_line_structure function Ended
+2024-12-19 11:39:39,741 -INFO - All stocks - Excel file Saved
+2024-12-19 11:39:39,751 -INFO - All stocks - json file saved
+2024-12-19 11:39:39,751 -INFO - IDFCFIRSTB.NS - alerts file Saved
+2024-12-19 11:39:39,755 -INFO - IDFCFIRSTB.NS - Process function Ended
+2024-12-19 11:39:50,738 -INFO - IDEA.NS - last n detect_structure function Ended
+2024-12-19 11:39:50,771 -INFO - IDEA.NS - add_ph_pl_values function started
+2024-12-19 11:39:50,882 -INFO - IDEA.NS - add_ph_pl_values function Ended
+2024-12-19 11:40:03,800 -INFO - GRASIM.NS - last n two_line_structure function Ended
+2024-12-19 11:40:04,111 -INFO - BAJAJ-AUTO.NS - last n two_line_structure function Ended
+2024-12-19 11:40:04,774 -INFO - TATAELXSI.NS - last n two_line_structure function Ended
+2024-12-19 11:40:06,097 -INFO - PIDILITIND.NS - last n two_line_structure function Ended
+2024-12-19 11:40:09,429 -INFO - All stocks - Excel file Saved
+2024-12-19 11:40:09,440 -INFO - All stocks - json file saved
+2024-12-19 11:40:09,441 -INFO - INDUSTOWER.NS - alerts file Saved
+2024-12-19 11:40:09,441 -INFO - INDUSTOWER.NS - Process function Ended
+2024-12-19 11:40:09,521 -INFO - BALKRISIND.NS - last n detect_structure function Ended
+2024-12-19 11:40:09,533 -INFO - BALKRISIND.NS - add_ph_pl_values function started
+2024-12-19 11:40:09,609 -INFO - BALKRISIND.NS - add_ph_pl_values function Ended
+2024-12-19 11:40:34,864 -INFO - GRASIM.NS - last n detect_structure function Ended
+2024-12-19 11:40:35,106 -INFO - GRASIM.NS - add_ph_pl_values function started
+2024-12-19 11:40:36,222 -INFO - GRASIM.NS - add_ph_pl_values function Ended
+2024-12-19 11:40:48,185 -INFO - PIDILITIND.NS - last n detect_structure function Ended
+2024-12-19 11:40:48,189 -INFO - PIDILITIND.NS - add_ph_pl_values function started
+2024-12-19 11:40:48,198 -INFO - PIDILITIND.NS - add_ph_pl_values function Ended
+2024-12-19 11:40:49,226 -INFO - TATAELXSI.NS - last n detect_structure function Ended
+2024-12-19 11:40:49,231 -INFO - TATAELXSI.NS - add_ph_pl_values function started
+2024-12-19 11:40:49,266 -INFO - TATAELXSI.NS - add_ph_pl_values function Ended
+2024-12-19 11:40:53,204 -INFO - BAJAJ-AUTO.NS - last n detect_structure function Ended
+2024-12-19 11:40:53,415 -INFO - BAJAJ-AUTO.NS - add_ph_pl_values function started
+2024-12-19 11:40:54,876 -INFO - BAJAJ-AUTO.NS - add_ph_pl_values function Ended
+2024-12-19 11:41:26,891 -INFO - All stocks - Excel file Saved
+2024-12-19 11:41:26,936 -INFO - All stocks - json file saved
+2024-12-19 11:41:26,936 -INFO - IDEA.NS - alerts file Saved
+2024-12-19 11:41:26,936 -INFO - IDEA.NS - Process function Ended
+2024-12-19 11:41:27,599 -INFO - FEDERALBNK.NS - last n two_line_structure function Ended
+2024-12-19 11:41:36,382 -INFO - BHARATFORG.NS - last n two_line_structure function Ended
+2024-12-19 11:41:43,093 -INFO - RELIANCE.NS - last n two_line_structure function Ended
+2024-12-19 11:41:44,197 -INFO - All stocks - Excel file Saved
+2024-12-19 11:41:44,200 -INFO - All stocks - json file saved
+2024-12-19 11:41:44,202 -INFO - BALKRISIND.NS - alerts file Saved
+2024-12-19 11:41:44,202 -INFO - BALKRISIND.NS - Process function Ended
+2024-12-19 11:42:11,258 -INFO - All stocks - Excel file Saved
+2024-12-19 11:42:11,312 -INFO - All stocks - json file saved
+2024-12-19 11:42:11,312 -INFO - GRASIM.NS - alerts file Saved
+2024-12-19 11:42:11,312 -INFO - GRASIM.NS - Process function Ended
+2024-12-19 11:42:15,376 -INFO - All stocks - Excel file Saved
+2024-12-19 11:42:15,379 -INFO - All stocks - json file saved
+2024-12-19 11:42:15,379 -INFO - PIDILITIND.NS - alerts file Saved
+2024-12-19 11:42:15,379 -INFO - PIDILITIND.NS - Process function Ended
+2024-12-19 11:42:15,967 -INFO - All stocks - Excel file Saved
+2024-12-19 11:42:15,970 -INFO - All stocks - json file saved
+2024-12-19 11:42:15,970 -INFO - TATAELXSI.NS - alerts file Saved
+2024-12-19 11:42:15,970 -INFO - TATAELXSI.NS - Process function Ended
+2024-12-19 11:42:16,148 -INFO - All stocks - Excel file Saved
+2024-12-19 11:42:16,159 -INFO - All stocks - json file saved
+2024-12-19 11:42:16,159 -INFO - BAJAJ-AUTO.NS - alerts file Saved
+2024-12-19 11:42:16,159 -INFO - BAJAJ-AUTO.NS - Process function Ended
+2024-12-19 11:42:18,074 -INFO - FEDERALBNK.NS - last n detect_structure function Ended
+2024-12-19 11:42:18,076 -INFO - FEDERALBNK.NS - add_ph_pl_values function started
+2024-12-19 11:42:18,102 -INFO - FEDERALBNK.NS - add_ph_pl_values function Ended
+2024-12-19 11:42:19,434 -INFO - BHARATFORG.NS - last n detect_structure function Ended
+2024-12-19 11:42:19,436 -INFO - BHARATFORG.NS - add_ph_pl_values function started
+2024-12-19 11:42:19,445 -INFO - BHARATFORG.NS - add_ph_pl_values function Ended
+2024-12-19 11:42:20,372 -INFO - RELIANCE.NS - last n detect_structure function Ended
+2024-12-19 11:42:20,373 -INFO - RELIANCE.NS - add_ph_pl_values function started
+2024-12-19 11:42:20,377 -INFO - RELIANCE.NS - add_ph_pl_values function Ended
+2024-12-19 11:43:12,127 -INFO - All stocks - Excel file Saved
+2024-12-19 11:43:12,127 -INFO - All stocks - json file saved
+2024-12-19 11:43:12,127 -INFO - FEDERALBNK.NS - alerts file Saved
+2024-12-19 11:43:12,127 -INFO - FEDERALBNK.NS - Process function Ended
+2024-12-19 11:43:12,641 -INFO - All stocks - Excel file Saved
+2024-12-19 11:43:12,641 -INFO - All stocks - json file saved
+2024-12-19 11:43:12,641 -INFO - BHARATFORG.NS - alerts file Saved
+2024-12-19 11:43:12,641 -INFO - BHARATFORG.NS - Process function Ended
+2024-12-19 11:43:12,644 -INFO - All stocks - Excel file Saved
+2024-12-19 11:43:12,644 -INFO - All stocks - json file saved
+2024-12-19 11:43:12,644 -INFO - RELIANCE.NS - alerts file Saved
+2024-12-19 11:43:12,644 -INFO - RELIANCE.NS - Process function Ended
+2024-12-19 11:43:30,741 -INFO - All stocks - Excel file Saved
+2024-12-19 11:43:30,741 -INFO - All stocks - json file saved
+2024-12-19 11:43:48,490 -INFO - All stocks - Excel file Saved
+2024-12-19 11:43:48,491 -INFO - All stocks - json file saved
