@@ -15930,3 +15930,206 @@ ValueError: operands could not be broadcast together with shapes (42323,) (42085
 2024-12-23 11:49:01,393 -INFO - All stocks - json file saved
 2024-12-23 11:49:23,901 -INFO - All stocks - Excel file Saved
 2024-12-23 11:49:23,902 -INFO - All stocks - json file saved
+2024-12-24 11:35:04,192 -INFO - Started...
+2024-12-24 11:35:05,158 -INFO - Started...
+2024-12-24 11:35:13,385 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-12-24 11:35:15,790 -INFO - IRB.NS - Process function started
+2024-12-24 11:35:15,791 -INFO - IRB.NS - Reading existing data...
+2024-12-24 11:35:15,791 -INFO - METROPOLIS.NS - Process function started
+2024-12-24 11:35:15,791 -INFO - METROPOLIS.NS - Reading existing data...
+2024-12-24 11:35:15,791 -INFO - TATASTEEL.NS - Process function started
+2024-12-24 11:35:15,791 -INFO - SBICARD.NS - Process function started
+2024-12-24 11:35:15,791 -INFO - TATASTEEL.NS - Reading existing data...
+2024-12-24 11:35:15,791 -INFO - LALPATHLAB.NS - Process function started
+2024-12-24 11:35:15,791 -INFO - SBICARD.NS - Reading existing data...
+2024-12-24 11:35:15,792 -INFO - APLAPOLLO.NS - Process function started
+2024-12-24 11:35:15,792 -INFO - RECLTD.NS - Process function started
+2024-12-24 11:35:15,792 -INFO - JINDALSTEL.NS - Process function started
+2024-12-24 11:35:15,792 -INFO - LALPATHLAB.NS - Reading existing data...
+2024-12-24 11:35:15,792 -INFO - LTF.NS - Process function started
+2024-12-24 11:35:15,792 -INFO - LT.NS - Process function started
+2024-12-24 11:35:15,793 -INFO - APLAPOLLO.NS - Reading existing data...
+2024-12-24 11:35:15,793 -INFO - RECLTD.NS - Reading existing data...
+2024-12-24 11:35:15,793 -INFO - GLENMARK.NS - Process function started
+2024-12-24 11:35:15,793 -INFO - JINDALSTEL.NS - Reading existing data...
+2024-12-24 11:35:15,793 -INFO - JSWSTEEL.NS - Process function started
+2024-12-24 11:35:15,793 -INFO - NMDC.NS - Process function started
+2024-12-24 11:35:15,794 -INFO - LTF.NS - Reading existing data...
+2024-12-24 11:35:15,794 -INFO - LT.NS - Reading existing data...
+2024-12-24 11:35:15,794 -INFO - ASTRAL.NS - Process function started
+2024-12-24 11:35:15,794 -INFO - GLENMARK.NS - Reading existing data...
+2024-12-24 11:35:15,795 -INFO - JSWSTEEL.NS - Reading existing data...
+2024-12-24 11:35:15,795 -INFO - NMDC.NS - Reading existing data...
+2024-12-24 11:35:15,797 -INFO - ASTRAL.NS - Reading existing data...
+2024-12-24 11:35:16,299 -INFO - last n isPivot function started
+2024-12-24 11:35:16,682 -INFO - last n isPivot function Ended
+2024-12-24 11:35:16,683 -INFO - METROPOLIS.NS - last n detect_structure function started
+2024-12-24 11:35:16,683 -INFO - METROPOLIS.NS - last n two_line_structure function started
+2024-12-24 11:35:16,994 -INFO - last n isPivot function started
+2024-12-24 11:35:17,131 -INFO - last n isPivot function started
+2024-12-24 11:35:17,821 -INFO - last n isPivot function Ended
+2024-12-24 11:35:17,821 -INFO - LALPATHLAB.NS - last n detect_structure function started
+2024-12-24 11:35:17,823 -INFO - LALPATHLAB.NS - last n two_line_structure function started
+2024-12-24 11:35:17,823 -INFO - last n isPivot function started
+2024-12-24 11:35:17,827 -INFO - last n isPivot function Ended
+2024-12-24 11:35:17,837 -INFO - IRB.NS - last n detect_structure function started
+2024-12-24 11:35:18,277 -INFO - IRB.NS - last n two_line_structure function started
+2024-12-24 11:35:18,946 -INFO - last n isPivot function Ended
+2024-12-24 11:35:18,946 -INFO - TATASTEEL.NS - last n detect_structure function started
+2024-12-24 11:35:19,058 -INFO - TATASTEEL.NS - last n two_line_structure function started
+2024-12-24 11:35:19,507 -INFO - last n isPivot function started
+2024-12-24 11:35:20,154 -INFO - last n isPivot function Ended
+2024-12-24 11:35:20,154 -INFO - SBICARD.NS - last n detect_structure function started
+2024-12-24 11:35:20,203 -INFO - SBICARD.NS - last n two_line_structure function started
+2024-12-24 11:35:20,299 -INFO - last n isPivot function started
+2024-12-24 11:35:20,974 -INFO - last n isPivot function Ended
+2024-12-24 11:35:20,974 -INFO - APLAPOLLO.NS - last n detect_structure function started
+2024-12-24 11:35:20,977 -INFO - APLAPOLLO.NS - last n two_line_structure function started
+2024-12-24 11:35:21,728 -INFO - last n isPivot function started
+2024-12-24 11:35:21,733 -INFO - last n isPivot function started
+2024-12-24 11:35:21,736 -INFO - last n isPivot function started
+2024-12-24 11:35:22,137 -INFO - last n isPivot function Ended
+2024-12-24 11:35:22,138 -INFO - LTF.NS - last n detect_structure function started
+2024-12-24 11:35:22,142 -INFO - LTF.NS - last n two_line_structure function started
+2024-12-24 11:35:22,656 -INFO - last n isPivot function Ended
+2024-12-24 11:35:22,658 -INFO - ASTRAL.NS - last n detect_structure function started
+2024-12-24 11:35:23,362 -INFO - ASTRAL.NS - last n two_line_structure function started
+2024-12-24 11:35:23,405 -INFO - last n isPivot function started
+2024-12-24 11:35:23,415 -INFO - last n isPivot function Ended
+2024-12-24 11:35:23,415 -INFO - JINDALSTEL.NS - last n detect_structure function started
+2024-12-24 11:35:23,415 -INFO - JINDALSTEL.NS - last n two_line_structure function started
+2024-12-24 11:35:24,034 -INFO - last n isPivot function Ended
+2024-12-24 11:35:24,055 -INFO - last n isPivot function started
+2024-12-24 11:35:24,077 -INFO - last n isPivot function started
+2024-12-24 11:35:24,077 -INFO - GLENMARK.NS - last n detect_structure function started
+2024-12-24 11:35:24,080 -INFO - last n isPivot function started
+2024-12-24 11:35:24,092 -INFO - GLENMARK.NS - last n two_line_structure function started
+2024-12-24 11:35:25,132 -INFO - last n isPivot function started
+2024-12-24 11:35:25,551 -INFO - last n isPivot function Ended
+2024-12-24 11:35:25,669 -INFO - RECLTD.NS - last n detect_structure function started
+2024-12-24 11:35:25,874 -INFO - RECLTD.NS - last n two_line_structure function started
+2024-12-24 11:35:25,895 -INFO - last n isPivot function Ended
+2024-12-24 11:35:25,895 -INFO - JSWSTEEL.NS - last n detect_structure function started
+2024-12-24 11:35:26,316 -INFO - JSWSTEEL.NS - last n two_line_structure function started
+2024-12-24 11:35:26,320 -INFO - last n isPivot function Ended
+2024-12-24 11:35:26,320 -INFO - NMDC.NS - last n detect_structure function started
+2024-12-24 11:35:26,377 -INFO - NMDC.NS - last n two_line_structure function started
+2024-12-24 11:35:26,472 -INFO - last n isPivot function Ended
+2024-12-24 11:35:26,472 -INFO - LT.NS - last n detect_structure function started
+2024-12-24 11:35:26,480 -INFO - LT.NS - last n two_line_structure function started
+2024-12-24 11:36:07,202 -INFO - SBICARD.NS - last n two_line_structure function Ended
+2024-12-24 11:36:17,639 -INFO - METROPOLIS.NS - last n two_line_structure function Ended
+2024-12-24 11:36:19,962 -INFO - SBICARD.NS - last n detect_structure function Ended
+2024-12-24 11:36:19,988 -INFO - SBICARD.NS - add_ph_pl_values function started
+2024-12-24 11:36:20,252 -INFO - SBICARD.NS - add_ph_pl_values function Ended
+2024-12-24 11:36:39,534 -INFO - METROPOLIS.NS - last n detect_structure function Ended
+2024-12-24 11:36:39,546 -INFO - METROPOLIS.NS - add_ph_pl_values function started
+2024-12-24 11:36:39,736 -INFO - METROPOLIS.NS - add_ph_pl_values function Ended
+2024-12-24 11:37:02,560 -INFO - LALPATHLAB.NS - last n two_line_structure function Ended
+2024-12-24 11:37:37,517 -INFO - LALPATHLAB.NS - last n detect_structure function Ended
+2024-12-24 11:37:37,553 -INFO - LALPATHLAB.NS - add_ph_pl_values function started
+2024-12-24 11:37:37,679 -INFO - LALPATHLAB.NS - add_ph_pl_values function Ended
+2024-12-24 11:37:58,737 -INFO - LTF.NS - last n two_line_structure function Ended
+2024-12-24 11:37:58,945 -INFO - APLAPOLLO.NS - last n two_line_structure function Ended
+2024-12-24 11:38:27,727 -INFO - All stocks - Excel file Saved
+2024-12-24 11:38:27,760 -INFO - All stocks - json file saved
+2024-12-24 11:38:27,760 -INFO - SBICARD.NS - alerts file Saved
+2024-12-24 11:38:27,765 -INFO - SBICARD.NS - Process function Ended
+2024-12-24 11:38:28,132 -INFO - RECLTD.NS - last n two_line_structure function Ended
+2024-12-24 11:38:37,772 -INFO - NMDC.NS - last n two_line_structure function Ended
+2024-12-24 11:38:40,709 -INFO - LTF.NS - last n detect_structure function Ended
+2024-12-24 11:38:40,739 -INFO - LTF.NS - add_ph_pl_values function started
+2024-12-24 11:38:40,870 -INFO - LTF.NS - add_ph_pl_values function Ended
+2024-12-24 11:38:42,389 -INFO - All stocks - Excel file Saved
+2024-12-24 11:38:42,414 -INFO - All stocks - json file saved
+2024-12-24 11:38:42,414 -INFO - METROPOLIS.NS - alerts file Saved
+2024-12-24 11:38:42,414 -INFO - METROPOLIS.NS - Process function Ended
+2024-12-24 11:38:43,068 -INFO - IRB.NS - last n two_line_structure function Ended
+2024-12-24 11:38:50,168 -INFO - APLAPOLLO.NS - last n detect_structure function Ended
+2024-12-24 11:38:50,192 -INFO - APLAPOLLO.NS - add_ph_pl_values function started
+2024-12-24 11:38:50,297 -INFO - APLAPOLLO.NS - add_ph_pl_values function Ended
+2024-12-24 11:38:57,133 -INFO - ASTRAL.NS - last n two_line_structure function Ended
+2024-12-24 11:39:12,113 -INFO - RECLTD.NS - last n detect_structure function Ended
+2024-12-24 11:39:12,130 -INFO - RECLTD.NS - add_ph_pl_values function started
+2024-12-24 11:39:12,224 -INFO - RECLTD.NS - add_ph_pl_values function Ended
+2024-12-24 11:39:26,502 -INFO - All stocks - Excel file Saved
+2024-12-24 11:39:26,507 -INFO - All stocks - json file saved
+2024-12-24 11:39:26,508 -INFO - LALPATHLAB.NS - alerts file Saved
+2024-12-24 11:39:26,509 -INFO - LALPATHLAB.NS - Process function Ended
+2024-12-24 11:39:27,038 -INFO - NMDC.NS - last n detect_structure function Ended
+2024-12-24 11:39:27,040 -INFO - NMDC.NS - add_ph_pl_values function started
+2024-12-24 11:39:27,090 -INFO - NMDC.NS - add_ph_pl_values function Ended
+2024-12-24 11:39:32,332 -INFO - IRB.NS - last n detect_structure function Ended
+2024-12-24 11:39:32,417 -INFO - IRB.NS - add_ph_pl_values function started
+2024-12-24 11:39:33,066 -INFO - IRB.NS - add_ph_pl_values function Ended
+2024-12-24 11:39:42,490 -INFO - JSWSTEEL.NS - last n two_line_structure function Ended
+2024-12-24 11:39:56,217 -INFO - LT.NS - last n two_line_structure function Ended
+2024-12-24 11:40:00,693 -INFO - ASTRAL.NS - last n detect_structure function Ended
+2024-12-24 11:40:00,717 -INFO - ASTRAL.NS - add_ph_pl_values function started
+2024-12-24 11:40:00,783 -INFO - ASTRAL.NS - add_ph_pl_values function Ended
+2024-12-24 11:40:08,612 -INFO - GLENMARK.NS - last n two_line_structure function Ended
+2024-12-24 11:40:25,379 -INFO - All stocks - Excel file Saved
+2024-12-24 11:40:25,381 -INFO - All stocks - json file saved
+2024-12-24 11:40:25,381 -INFO - LTF.NS - alerts file Saved
+2024-12-24 11:40:25,381 -INFO - LTF.NS - Process function Ended
+2024-12-24 11:40:31,457 -INFO - All stocks - Excel file Saved
+2024-12-24 11:40:31,464 -INFO - All stocks - json file saved
+2024-12-24 11:40:31,464 -INFO - APLAPOLLO.NS - alerts file Saved
+2024-12-24 11:40:31,464 -INFO - APLAPOLLO.NS - Process function Ended
+2024-12-24 11:40:52,641 -INFO - All stocks - Excel file Saved
+2024-12-24 11:40:52,648 -INFO - All stocks - json file saved
+2024-12-24 11:40:52,650 -INFO - RECLTD.NS - alerts file Saved
+2024-12-24 11:40:52,650 -INFO - RECLTD.NS - Process function Ended
+2024-12-24 11:40:55,416 -INFO - JINDALSTEL.NS - last n two_line_structure function Ended
+2024-12-24 11:40:59,465 -INFO - JSWSTEEL.NS - last n detect_structure function Ended
+2024-12-24 11:40:59,474 -INFO - JSWSTEEL.NS - add_ph_pl_values function started
+2024-12-24 11:40:59,515 -INFO - JSWSTEEL.NS - add_ph_pl_values function Ended
+2024-12-24 11:41:00,294 -INFO - All stocks - Excel file Saved
+2024-12-24 11:41:00,300 -INFO - All stocks - json file saved
+2024-12-24 11:41:00,301 -INFO - NMDC.NS - alerts file Saved
+2024-12-24 11:41:00,302 -INFO - NMDC.NS - Process function Ended
+2024-12-24 11:41:07,051 -INFO - LT.NS - last n detect_structure function Ended
+2024-12-24 11:41:07,054 -INFO - LT.NS - add_ph_pl_values function started
+2024-12-24 11:41:07,080 -INFO - LT.NS - add_ph_pl_values function Ended
+2024-12-24 11:41:08,071 -INFO - All stocks - Excel file Saved
+2024-12-24 11:41:08,078 -INFO - All stocks - json file saved
+2024-12-24 11:41:08,079 -INFO - IRB.NS - alerts file Saved
+2024-12-24 11:41:08,079 -INFO - IRB.NS - Process function Ended
+2024-12-24 11:41:17,753 -INFO - All stocks - Excel file Saved
+2024-12-24 11:41:17,759 -INFO - All stocks - json file saved
+2024-12-24 11:41:17,759 -INFO - ASTRAL.NS - alerts file Saved
+2024-12-24 11:41:17,760 -INFO - ASTRAL.NS - Process function Ended
+2024-12-24 11:41:18,150 -INFO - GLENMARK.NS - last n detect_structure function Ended
+2024-12-24 11:41:18,150 -INFO - GLENMARK.NS - add_ph_pl_values function started
+2024-12-24 11:41:18,163 -INFO - GLENMARK.NS - add_ph_pl_values function Ended
+2024-12-24 11:41:30,293 -INFO - TATASTEEL.NS - last n two_line_structure function Ended
+2024-12-24 11:41:45,585 -INFO - JINDALSTEL.NS - last n detect_structure function Ended
+2024-12-24 11:41:45,586 -INFO - JINDALSTEL.NS - add_ph_pl_values function started
+2024-12-24 11:41:45,600 -INFO - JINDALSTEL.NS - add_ph_pl_values function Ended
+2024-12-24 11:42:02,703 -INFO - All stocks - Excel file Saved
+2024-12-24 11:42:02,707 -INFO - All stocks - json file saved
+2024-12-24 11:42:02,707 -INFO - JSWSTEEL.NS - alerts file Saved
+2024-12-24 11:42:02,707 -INFO - JSWSTEEL.NS - Process function Ended
+2024-12-24 11:42:02,719 -INFO - All stocks - Excel file Saved
+2024-12-24 11:42:02,719 -INFO - All stocks - json file saved
+2024-12-24 11:42:02,719 -INFO - LT.NS - alerts file Saved
+2024-12-24 11:42:02,719 -INFO - LT.NS - Process function Ended
+2024-12-24 11:42:08,839 -INFO - TATASTEEL.NS - last n detect_structure function Ended
+2024-12-24 11:42:08,840 -INFO - TATASTEEL.NS - add_ph_pl_values function started
+2024-12-24 11:42:08,843 -INFO - TATASTEEL.NS - add_ph_pl_values function Ended
+2024-12-24 11:42:09,873 -INFO - All stocks - Excel file Saved
+2024-12-24 11:42:09,873 -INFO - All stocks - json file saved
+2024-12-24 11:42:09,873 -INFO - GLENMARK.NS - alerts file Saved
+2024-12-24 11:42:09,873 -INFO - GLENMARK.NS - Process function Ended
+2024-12-24 11:42:25,896 -INFO - All stocks - Excel file Saved
+2024-12-24 11:42:25,897 -INFO - All stocks - json file saved
+2024-12-24 11:42:25,897 -INFO - JINDALSTEL.NS - alerts file Saved
+2024-12-24 11:42:25,897 -INFO - JINDALSTEL.NS - Process function Ended
+2024-12-24 11:42:34,356 -INFO - All stocks - Excel file Saved
+2024-12-24 11:42:34,356 -INFO - All stocks - json file saved
+2024-12-24 11:42:34,356 -INFO - TATASTEEL.NS - alerts file Saved
+2024-12-24 11:42:34,357 -INFO - TATASTEEL.NS - Process function Ended
+2024-12-24 11:42:51,462 -INFO - All stocks - Excel file Saved
+2024-12-24 11:42:51,462 -INFO - All stocks - json file saved
+2024-12-24 11:43:08,230 -INFO - All stocks - Excel file Saved
+2024-12-24 11:43:08,230 -INFO - All stocks - json file saved
