@@ -16153,3 +16153,237 @@ ValueError: operands could not be broadcast together with shapes (42323,) (42085
 2024-12-25 11:37:52,824 -INFO - All stocks - json file saved
 2024-12-25 11:38:09,755 -INFO - All stocks - Excel file Saved
 2024-12-25 11:38:09,756 -INFO - All stocks - json file saved
+2024-12-26 11:36:04,867 -INFO - Started...
+2024-12-26 11:36:05,748 -INFO - Started...
+2024-12-26 11:36:14,247 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-12-26 11:36:16,159 -ERROR - 
+1 Failed download:
+2024-12-26 11:36:16,159 -ERROR - ['PEL.NS']: OperationalError('database is locked')
+2024-12-26 11:36:16,458 -INFO - NAVINFLUOR.NS - Process function started
+2024-12-26 11:36:16,458 -INFO - ATUL.NS - Process function started
+2024-12-26 11:36:16,458 -INFO - M&M.NS - Process function started
+2024-12-26 11:36:16,458 -INFO - NAVINFLUOR.NS - Reading existing data...
+2024-12-26 11:36:16,458 -INFO - ATUL.NS - Reading existing data...
+2024-12-26 11:36:16,458 -INFO - M&M.NS - Reading existing data...
+2024-12-26 11:36:16,458 -INFO - IEX.NS - Process function started
+2024-12-26 11:36:16,459 -INFO - CHOLAFIN.NS - Process function started
+2024-12-26 11:36:16,459 -INFO - HINDALCO.NS - Process function started
+2024-12-26 11:36:16,459 -INFO - AMBUJACEM.NS - Process function started
+2024-12-26 11:36:16,459 -INFO - HINDCOPPER.NS - Process function started
+2024-12-26 11:36:16,459 -INFO - IEX.NS - Reading existing data...
+2024-12-26 11:36:16,459 -INFO - CYIENT.NS - Process function started
+2024-12-26 11:36:16,460 -INFO - RBLBANK.NS - Process function started
+2024-12-26 11:36:16,460 -INFO - CHOLAFIN.NS - Reading existing data...
+2024-12-26 11:36:16,460 -INFO - HINDALCO.NS - Reading existing data...
+2024-12-26 11:36:16,460 -INFO - KEI.NS - Process function started
+2024-12-26 11:36:16,460 -INFO - AMBUJACEM.NS - Reading existing data...
+2024-12-26 11:36:16,460 -INFO - HINDCOPPER.NS - Reading existing data...
+2024-12-26 11:36:16,460 -INFO - SRF.NS - Process function started
+2024-12-26 11:36:16,460 -INFO - BPCL.NS - Process function started
+2024-12-26 11:36:16,460 -INFO - JUBLFOOD.NS - Process function started
+2024-12-26 11:36:16,460 -INFO - CYIENT.NS - Reading existing data...
+2024-12-26 11:36:16,461 -INFO - SHRIRAMFIN.NS - Process function started
+2024-12-26 11:36:16,461 -INFO - GUJGASLTD.NS - Process function started
+2024-12-26 11:36:16,461 -INFO - RBLBANK.NS - Reading existing data...
+2024-12-26 11:36:16,463 -INFO - KEI.NS - Reading existing data...
+2024-12-26 11:36:16,464 -INFO - SRF.NS - Reading existing data...
+2024-12-26 11:36:16,465 -INFO - BPCL.NS - Reading existing data...
+2024-12-26 11:36:16,465 -INFO - JUBLFOOD.NS - Reading existing data...
+2024-12-26 11:36:16,466 -INFO - SHRIRAMFIN.NS - Reading existing data...
+2024-12-26 11:36:16,467 -INFO - GUJGASLTD.NS - Reading existing data...
+2024-12-26 11:36:16,733 -INFO - last n isPivot function started
+2024-12-26 11:36:17,549 -INFO - last n isPivot function Ended
+2024-12-26 11:36:17,549 -INFO - NAVINFLUOR.NS - last n detect_structure function started
+2024-12-26 11:36:17,552 -INFO - NAVINFLUOR.NS - last n two_line_structure function started
+2024-12-26 11:36:18,130 -INFO - last n isPivot function started
+2024-12-26 11:36:18,812 -INFO - last n isPivot function Ended
+2024-12-26 11:36:18,812 -INFO - ATUL.NS - last n detect_structure function started
+2024-12-26 11:36:18,816 -INFO - ATUL.NS - last n two_line_structure function started
+2024-12-26 11:36:18,995 -INFO - last n isPivot function started
+2024-12-26 11:36:19,785 -INFO - last n isPivot function Ended
+2024-12-26 11:36:19,786 -INFO - IEX.NS - last n detect_structure function started
+2024-12-26 11:36:19,796 -INFO - IEX.NS - last n two_line_structure function started
+2024-12-26 11:36:20,215 -INFO - last n isPivot function started
+2024-12-26 11:36:22,385 -INFO - last n isPivot function Ended
+2024-12-26 11:36:22,528 -INFO - M&M.NS - last n detect_structure function started
+2024-12-26 11:36:22,565 -INFO - M&M.NS - last n two_line_structure function started
+2024-12-26 11:36:23,017 -INFO - last n isPivot function started
+2024-12-26 11:36:23,884 -INFO - last n isPivot function started
+2024-12-26 11:36:23,927 -INFO - last n isPivot function Ended
+2024-12-26 11:36:23,931 -INFO - CHOLAFIN.NS - last n detect_structure function started
+2024-12-26 11:36:23,951 -INFO - CHOLAFIN.NS - last n two_line_structure function started
+2024-12-26 11:36:24,166 -INFO - last n isPivot function started
+2024-12-26 11:36:24,179 -INFO - last n isPivot function started
+2024-12-26 11:36:24,212 -INFO - last n isPivot function started
+2024-12-26 11:36:24,974 -INFO - last n isPivot function started
+2024-12-26 11:36:24,995 -INFO - last n isPivot function started
+2024-12-26 11:36:25,344 -INFO - last n isPivot function started
+2024-12-26 11:36:25,876 -INFO - last n isPivot function Ended
+2024-12-26 11:36:25,877 -INFO - HINDCOPPER.NS - last n detect_structure function started
+2024-12-26 11:36:25,949 -INFO - last n isPivot function Ended
+2024-12-26 11:36:25,949 -INFO - GUJGASLTD.NS - last n detect_structure function started
+2024-12-26 11:36:25,957 -INFO - GUJGASLTD.NS - last n two_line_structure function started
+2024-12-26 11:36:25,973 -INFO - last n isPivot function Ended
+2024-12-26 11:36:25,980 -INFO - last n isPivot function Ended
+2024-12-26 11:36:26,844 -INFO - RBLBANK.NS - last n detect_structure function started
+2024-12-26 11:36:26,849 -INFO - HINDCOPPER.NS - last n two_line_structure function started
+2024-12-26 11:36:26,853 -INFO - AMBUJACEM.NS - last n detect_structure function started
+2024-12-26 11:36:26,855 -INFO - last n isPivot function Ended
+2024-12-26 11:36:26,856 -INFO - AMBUJACEM.NS - last n two_line_structure function started
+2024-12-26 11:36:26,910 -INFO - RBLBANK.NS - last n two_line_structure function started
+2024-12-26 11:36:27,613 -INFO - last n isPivot function Ended
+2024-12-26 11:36:27,634 -INFO - CYIENT.NS - last n detect_structure function started
+2024-12-26 11:36:27,636 -INFO - CYIENT.NS - last n two_line_structure function started
+2024-12-26 11:36:27,639 -INFO - last n isPivot function started
+2024-12-26 11:36:27,960 -INFO - KEI.NS - last n detect_structure function started
+2024-12-26 11:36:27,960 -INFO - last n isPivot function started
+2024-12-26 11:36:27,962 -INFO - KEI.NS - last n two_line_structure function started
+2024-12-26 11:36:27,999 -INFO - last n isPivot function Ended
+2024-12-26 11:36:28,025 -INFO - HINDALCO.NS - last n detect_structure function started
+2024-12-26 11:36:28,027 -INFO - HINDALCO.NS - last n two_line_structure function started
+2024-12-26 11:36:29,260 -INFO - last n isPivot function Ended
+2024-12-26 11:36:29,262 -INFO - last n isPivot function Ended
+2024-12-26 11:36:29,266 -INFO - SRF.NS - last n detect_structure function started
+2024-12-26 11:36:29,270 -INFO - SRF.NS - last n two_line_structure function started
+2024-12-26 11:36:29,297 -INFO - JUBLFOOD.NS - last n detect_structure function started
+2024-12-26 11:36:29,299 -INFO - JUBLFOOD.NS - last n two_line_structure function started
+2024-12-26 11:36:29,391 -INFO - last n isPivot function started
+2024-12-26 11:36:30,159 -INFO - last n isPivot function Ended
+2024-12-26 11:36:30,168 -INFO - SHRIRAMFIN.NS - last n detect_structure function started
+2024-12-26 11:36:30,179 -INFO - SHRIRAMFIN.NS - last n two_line_structure function started
+2024-12-26 11:36:30,308 -INFO - last n isPivot function started
+2024-12-26 11:36:31,358 -INFO - last n isPivot function Ended
+2024-12-26 11:36:31,375 -INFO - BPCL.NS - last n detect_structure function started
+2024-12-26 11:36:31,385 -INFO - BPCL.NS - last n two_line_structure function started
+2024-12-26 11:37:50,440 -INFO - IEX.NS - last n two_line_structure function Ended
+2024-12-26 11:37:59,455 -INFO - RBLBANK.NS - last n two_line_structure function Ended
+2024-12-26 11:38:14,573 -INFO - GUJGASLTD.NS - last n two_line_structure function Ended
+2024-12-26 11:38:16,269 -INFO - IEX.NS - last n detect_structure function Ended
+2024-12-26 11:38:16,270 -INFO - IEX.NS - add_ph_pl_values function started
+2024-12-26 11:38:16,493 -INFO - IEX.NS - add_ph_pl_values function Ended
+2024-12-26 11:38:26,958 -INFO - RBLBANK.NS - last n detect_structure function Ended
+2024-12-26 11:38:26,989 -INFO - RBLBANK.NS - add_ph_pl_values function started
+2024-12-26 11:38:27,231 -INFO - RBLBANK.NS - add_ph_pl_values function Ended
+2024-12-26 11:38:52,282 -INFO - GUJGASLTD.NS - last n detect_structure function Ended
+2024-12-26 11:38:52,309 -INFO - GUJGASLTD.NS - add_ph_pl_values function started
+2024-12-26 11:38:52,473 -INFO - GUJGASLTD.NS - add_ph_pl_values function Ended
+2024-12-26 11:39:32,081 -INFO - JUBLFOOD.NS - last n two_line_structure function Ended
+2024-12-26 11:39:33,895 -INFO - HINDCOPPER.NS - last n two_line_structure function Ended
+2024-12-26 11:40:29,236 -INFO - NAVINFLUOR.NS - last n two_line_structure function Ended
+2024-12-26 11:40:33,419 -INFO - JUBLFOOD.NS - last n detect_structure function Ended
+2024-12-26 11:40:33,433 -INFO - JUBLFOOD.NS - add_ph_pl_values function started
+2024-12-26 11:40:33,555 -INFO - JUBLFOOD.NS - add_ph_pl_values function Ended
+2024-12-26 11:40:34,831 -INFO - HINDCOPPER.NS - last n detect_structure function Ended
+2024-12-26 11:40:34,861 -INFO - HINDCOPPER.NS - add_ph_pl_values function started
+2024-12-26 11:40:35,052 -INFO - HINDCOPPER.NS - add_ph_pl_values function Ended
+2024-12-26 11:40:51,797 -INFO - CYIENT.NS - last n two_line_structure function Ended
+2024-12-26 11:40:51,943 -INFO - KEI.NS - last n two_line_structure function Ended
+2024-12-26 11:40:53,311 -INFO - All stocks - Excel file Saved
+2024-12-26 11:40:53,323 -INFO - All stocks - json file saved
+2024-12-26 11:40:53,324 -INFO - IEX.NS - alerts file Saved
+2024-12-26 11:40:53,325 -INFO - IEX.NS - Process function Ended
+2024-12-26 11:40:55,242 -INFO - All stocks - Excel file Saved
+2024-12-26 11:40:55,271 -INFO - All stocks - json file saved
+2024-12-26 11:40:55,271 -INFO - RBLBANK.NS - alerts file Saved
+2024-12-26 11:40:55,271 -INFO - RBLBANK.NS - Process function Ended
+2024-12-26 11:41:10,171 -INFO - All stocks - Excel file Saved
+2024-12-26 11:41:10,202 -INFO - All stocks - json file saved
+2024-12-26 11:41:10,202 -INFO - GUJGASLTD.NS - alerts file Saved
+2024-12-26 11:41:10,202 -INFO - GUJGASLTD.NS - Process function Ended
+2024-12-26 11:41:27,930 -INFO - NAVINFLUOR.NS - last n detect_structure function Ended
+2024-12-26 11:41:27,948 -INFO - NAVINFLUOR.NS - add_ph_pl_values function started
+2024-12-26 11:41:28,107 -INFO - NAVINFLUOR.NS - add_ph_pl_values function Ended
+2024-12-26 11:41:29,264 -INFO - SRF.NS - last n two_line_structure function Ended
+2024-12-26 11:41:37,299 -INFO - CHOLAFIN.NS - last n two_line_structure function Ended
+2024-12-26 11:41:40,061 -INFO - SHRIRAMFIN.NS - last n two_line_structure function Ended
+2024-12-26 11:41:50,946 -INFO - KEI.NS - last n detect_structure function Ended
+2024-12-26 11:41:50,953 -INFO - KEI.NS - add_ph_pl_values function started
+2024-12-26 11:41:51,036 -INFO - KEI.NS - add_ph_pl_values function Ended
+2024-12-26 11:41:51,715 -INFO - AMBUJACEM.NS - last n two_line_structure function Ended
+2024-12-26 11:41:59,976 -INFO - ATUL.NS - last n two_line_structure function Ended
+2024-12-26 11:42:00,265 -INFO - CYIENT.NS - last n detect_structure function Ended
+2024-12-26 11:42:00,281 -INFO - CYIENT.NS - add_ph_pl_values function started
+2024-12-26 11:42:00,373 -INFO - CYIENT.NS - add_ph_pl_values function Ended
+2024-12-26 11:42:26,396 -INFO - All stocks - Excel file Saved
+2024-12-26 11:42:26,407 -INFO - All stocks - json file saved
+2024-12-26 11:42:26,409 -INFO - JUBLFOOD.NS - alerts file Saved
+2024-12-26 11:42:26,409 -INFO - JUBLFOOD.NS - Process function Ended
+2024-12-26 11:42:36,412 -INFO - All stocks - Excel file Saved
+2024-12-26 11:42:36,419 -INFO - All stocks - json file saved
+2024-12-26 11:42:36,420 -INFO - HINDCOPPER.NS - alerts file Saved
+2024-12-26 11:42:36,421 -INFO - HINDCOPPER.NS - Process function Ended
+2024-12-26 11:42:55,095 -INFO - SRF.NS - last n detect_structure function Ended
+2024-12-26 11:42:55,104 -INFO - SRF.NS - add_ph_pl_values function started
+2024-12-26 11:42:55,143 -INFO - SRF.NS - add_ph_pl_values function Ended
+2024-12-26 11:43:03,452 -INFO - CHOLAFIN.NS - last n detect_structure function Ended
+2024-12-26 11:43:03,552 -INFO - CHOLAFIN.NS - add_ph_pl_values function started
+2024-12-26 11:43:03,666 -INFO - CHOLAFIN.NS - add_ph_pl_values function Ended
+2024-12-26 11:43:05,421 -INFO - SHRIRAMFIN.NS - last n detect_structure function Ended
+2024-12-26 11:43:05,438 -INFO - SHRIRAMFIN.NS - add_ph_pl_values function started
+2024-12-26 11:43:06,964 -INFO - SHRIRAMFIN.NS - add_ph_pl_values function Ended
+2024-12-26 11:43:28,006 -INFO - All stocks - Excel file Saved
+2024-12-26 11:43:28,017 -INFO - All stocks - json file saved
+2024-12-26 11:43:28,018 -INFO - NAVINFLUOR.NS - alerts file Saved
+2024-12-26 11:43:28,022 -INFO - NAVINFLUOR.NS - Process function Ended
+2024-12-26 11:43:28,608 -INFO - ATUL.NS - last n detect_structure function Ended
+2024-12-26 11:43:28,609 -INFO - ATUL.NS - add_ph_pl_values function started
+2024-12-26 11:43:28,626 -INFO - ATUL.NS - add_ph_pl_values function Ended
+2024-12-26 11:43:29,484 -INFO - AMBUJACEM.NS - last n detect_structure function Ended
+2024-12-26 11:43:29,490 -INFO - AMBUJACEM.NS - add_ph_pl_values function started
+2024-12-26 11:43:29,516 -INFO - AMBUJACEM.NS - add_ph_pl_values function Ended
+2024-12-26 11:43:31,204 -INFO - All stocks - Excel file Saved
+2024-12-26 11:43:31,421 -INFO - All stocks - json file saved
+2024-12-26 11:43:31,421 -INFO - KEI.NS - alerts file Saved
+2024-12-26 11:43:31,458 -INFO - KEI.NS - Process function Ended
+2024-12-26 11:43:42,390 -INFO - All stocks - Excel file Saved
+2024-12-26 11:43:43,112 -INFO - All stocks - json file saved
+2024-12-26 11:43:43,112 -INFO - CYIENT.NS - alerts file Saved
+2024-12-26 11:43:43,112 -INFO - CYIENT.NS - Process function Ended
+2024-12-26 11:43:52,349 -INFO - HINDALCO.NS - last n two_line_structure function Ended
+2024-12-26 11:44:10,227 -INFO - M&M.NS - last n two_line_structure function Ended
+2024-12-26 11:44:16,576 -INFO - BPCL.NS - last n two_line_structure function Ended
+2024-12-26 11:44:52,610 -INFO - All stocks - Excel file Saved
+2024-12-26 11:44:52,615 -INFO - All stocks - json file saved
+2024-12-26 11:44:52,616 -INFO - SRF.NS - alerts file Saved
+2024-12-26 11:44:52,616 -INFO - SRF.NS - Process function Ended
+2024-12-26 11:44:52,805 -INFO - All stocks - Excel file Saved
+2024-12-26 11:44:52,820 -INFO - All stocks - json file saved
+2024-12-26 11:44:52,820 -INFO - CHOLAFIN.NS - alerts file Saved
+2024-12-26 11:44:52,820 -INFO - CHOLAFIN.NS - Process function Ended
+2024-12-26 11:44:53,200 -INFO - All stocks - Excel file Saved
+2024-12-26 11:44:53,216 -INFO - All stocks - json file saved
+2024-12-26 11:44:53,216 -INFO - SHRIRAMFIN.NS - alerts file Saved
+2024-12-26 11:44:53,216 -INFO - SHRIRAMFIN.NS - Process function Ended
+2024-12-26 11:45:04,825 -INFO - All stocks - Excel file Saved
+2024-12-26 11:45:04,831 -INFO - All stocks - json file saved
+2024-12-26 11:45:04,832 -INFO - ATUL.NS - alerts file Saved
+2024-12-26 11:45:04,833 -INFO - ATUL.NS - Process function Ended
+2024-12-26 11:45:05,313 -INFO - All stocks - Excel file Saved
+2024-12-26 11:45:05,331 -INFO - All stocks - json file saved
+2024-12-26 11:45:05,331 -INFO - AMBUJACEM.NS - alerts file Saved
+2024-12-26 11:45:05,331 -INFO - AMBUJACEM.NS - Process function Ended
+2024-12-26 11:45:07,116 -INFO - HINDALCO.NS - last n detect_structure function Ended
+2024-12-26 11:45:07,145 -INFO - HINDALCO.NS - add_ph_pl_values function started
+2024-12-26 11:45:07,205 -INFO - HINDALCO.NS - add_ph_pl_values function Ended
+2024-12-26 11:45:17,423 -INFO - BPCL.NS - last n detect_structure function Ended
+2024-12-26 11:45:17,437 -INFO - BPCL.NS - add_ph_pl_values function started
+2024-12-26 11:45:17,499 -INFO - BPCL.NS - add_ph_pl_values function Ended
+2024-12-26 11:45:18,796 -INFO - M&M.NS - last n detect_structure function Ended
+2024-12-26 11:45:18,797 -INFO - M&M.NS - add_ph_pl_values function started
+2024-12-26 11:45:18,804 -INFO - M&M.NS - add_ph_pl_values function Ended
+2024-12-26 11:46:28,199 -INFO - All stocks - Excel file Saved
+2024-12-26 11:46:28,201 -INFO - All stocks - json file saved
+2024-12-26 11:46:28,201 -INFO - HINDALCO.NS - alerts file Saved
+2024-12-26 11:46:28,201 -INFO - HINDALCO.NS - Process function Ended
+2024-12-26 11:46:28,458 -INFO - All stocks - Excel file Saved
+2024-12-26 11:46:28,458 -INFO - All stocks - json file saved
+2024-12-26 11:46:28,458 -INFO - BPCL.NS - alerts file Saved
+2024-12-26 11:46:28,458 -INFO - BPCL.NS - Process function Ended
+2024-12-26 11:46:28,712 -INFO - All stocks - Excel file Saved
+2024-12-26 11:46:28,713 -INFO - All stocks - json file saved
+2024-12-26 11:46:28,713 -INFO - M&M.NS - alerts file Saved
+2024-12-26 11:46:28,713 -INFO - M&M.NS - Process function Ended
+2024-12-26 11:46:54,322 -INFO - All stocks - Excel file Saved
+2024-12-26 11:46:54,322 -INFO - All stocks - json file saved
+2024-12-26 11:47:17,465 -INFO - All stocks - Excel file Saved
+2024-12-26 11:47:17,466 -INFO - All stocks - json file saved
