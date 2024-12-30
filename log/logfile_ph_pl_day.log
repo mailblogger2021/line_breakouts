@@ -16387,3 +16387,181 @@ ValueError: operands could not be broadcast together with shapes (42323,) (42085
 2024-12-26 11:46:54,322 -INFO - All stocks - json file saved
 2024-12-26 11:47:17,465 -INFO - All stocks - Excel file Saved
 2024-12-26 11:47:17,466 -INFO - All stocks - json file saved
+2024-12-30 11:36:31,849 -INFO - Started...
+2024-12-30 11:36:33,426 -INFO - Started...
+2024-12-30 11:36:42,383 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-12-30 11:36:44,357 -ERROR - 
+1 Failed download:
+2024-12-30 11:36:44,358 -ERROR - ['TCS.NS']: OperationalError('database is locked')
+2024-12-30 11:36:44,629 -INFO - IOC.NS - Process function started
+2024-12-30 11:36:44,629 -INFO - HAL.NS - Process function started
+2024-12-30 11:36:44,629 -INFO - IOC.NS - Reading existing data...
+2024-12-30 11:36:44,629 -INFO - HAL.NS - Reading existing data...
+2024-12-30 11:36:44,629 -INFO - GLENMARK.NS - Process function started
+2024-12-30 11:36:44,630 -INFO - CIPLA.NS - Process function started
+2024-12-30 11:36:44,630 -INFO - GLENMARK.NS - Reading existing data...
+2024-12-30 11:36:44,630 -INFO - TITAN.NS - Process function started
+2024-12-30 11:36:44,630 -INFO - CIPLA.NS - Reading existing data...
+2024-12-30 11:36:44,630 -INFO - ALKEM.NS - Process function started
+2024-12-30 11:36:44,631 -INFO - INFY.NS - Process function started
+2024-12-30 11:36:44,631 -INFO - TITAN.NS - Reading existing data...
+2024-12-30 11:36:44,631 -INFO - MRF.NS - Process function started
+2024-12-30 11:36:44,631 -INFO - ALKEM.NS - Reading existing data...
+2024-12-30 11:36:44,631 -INFO - HAVELLS.NS - Process function started
+2024-12-30 11:36:44,631 -INFO - INFY.NS - Reading existing data...
+2024-12-30 11:36:44,632 -INFO - DABUR.NS - Process function started
+2024-12-30 11:36:44,632 -INFO - MRF.NS - Reading existing data...
+2024-12-30 11:36:44,632 -INFO - ITC.NS - Process function started
+2024-12-30 11:36:44,632 -INFO - HAVELLS.NS - Reading existing data...
+2024-12-30 11:36:44,633 -INFO - AUROPHARMA.NS - Process function started
+2024-12-30 11:36:44,633 -INFO - DABUR.NS - Reading existing data...
+2024-12-30 11:36:44,634 -INFO - ITC.NS - Reading existing data...
+2024-12-30 11:36:44,636 -INFO - AUROPHARMA.NS - Reading existing data...
+2024-12-30 11:36:45,957 -INFO - last n isPivot function started
+2024-12-30 11:36:46,235 -INFO - last n isPivot function Ended
+2024-12-30 11:36:46,259 -INFO - HAL.NS - last n detect_structure function started
+2024-12-30 11:36:46,282 -INFO - HAL.NS - last n two_line_structure function started
+2024-12-30 11:36:47,243 -INFO - last n isPivot function started
+2024-12-30 11:36:47,715 -INFO - last n isPivot function Ended
+2024-12-30 11:36:47,764 -INFO - ALKEM.NS - last n detect_structure function started
+2024-12-30 11:36:47,784 -INFO - ALKEM.NS - last n two_line_structure function started
+2024-12-30 11:36:49,242 -INFO - last n isPivot function started
+2024-12-30 11:36:50,095 -INFO - last n isPivot function Ended
+2024-12-30 11:36:50,097 -INFO - GLENMARK.NS - last n detect_structure function started
+2024-12-30 11:36:50,110 -INFO - GLENMARK.NS - last n two_line_structure function started
+2024-12-30 11:36:50,324 -INFO - last n isPivot function started
+2024-12-30 11:36:50,926 -INFO - last n isPivot function started
+2024-12-30 11:36:51,770 -INFO - last n isPivot function started
+2024-12-30 11:36:51,780 -INFO - last n isPivot function Ended
+2024-12-30 11:36:51,786 -INFO - MRF.NS - last n detect_structure function started
+2024-12-30 11:36:51,791 -INFO - MRF.NS - last n two_line_structure function started
+2024-12-30 11:36:51,809 -INFO - last n isPivot function Ended
+2024-12-30 11:36:51,837 -INFO - HAVELLS.NS - last n detect_structure function started
+2024-12-30 11:36:52,039 -INFO - HAVELLS.NS - last n two_line_structure function started
+2024-12-30 11:36:52,543 -INFO - last n isPivot function Ended
+2024-12-30 11:36:52,568 -INFO - last n isPivot function started
+2024-12-30 11:36:52,576 -INFO - DABUR.NS - last n detect_structure function started
+2024-12-30 11:36:52,609 -INFO - DABUR.NS - last n two_line_structure function started
+2024-12-30 11:36:53,552 -INFO - last n isPivot function Ended
+2024-12-30 11:36:53,562 -INFO - IOC.NS - last n detect_structure function started
+2024-12-30 11:36:53,570 -INFO - IOC.NS - last n two_line_structure function started
+2024-12-30 11:36:53,595 -INFO - last n isPivot function started
+2024-12-30 11:36:54,530 -INFO - last n isPivot function started
+2024-12-30 11:36:54,568 -INFO - last n isPivot function Ended
+2024-12-30 11:36:54,572 -INFO - CIPLA.NS - last n detect_structure function started
+2024-12-30 11:36:54,580 -INFO - CIPLA.NS - last n two_line_structure function started
+2024-12-30 11:36:55,521 -INFO - last n isPivot function Ended
+2024-12-30 11:36:55,525 -INFO - INFY.NS - last n detect_structure function started
+2024-12-30 11:36:55,536 -INFO - INFY.NS - last n two_line_structure function started
+2024-12-30 11:36:55,558 -INFO - last n isPivot function started
+2024-12-30 11:36:55,605 -INFO - last n isPivot function started
+2024-12-30 11:36:57,405 -INFO - last n isPivot function Ended
+2024-12-30 11:36:57,411 -INFO - TITAN.NS - last n detect_structure function started
+2024-12-30 11:36:57,417 -INFO - TITAN.NS - last n two_line_structure function started
+2024-12-30 11:36:57,418 -INFO - last n isPivot function started
+2024-12-30 11:36:57,465 -INFO - last n isPivot function Ended
+2024-12-30 11:36:57,653 -INFO - AUROPHARMA.NS - last n detect_structure function started
+2024-12-30 11:36:57,974 -INFO - AUROPHARMA.NS - last n two_line_structure function started
+2024-12-30 11:36:58,413 -INFO - last n isPivot function Ended
+2024-12-30 11:36:58,417 -INFO - ITC.NS - last n detect_structure function started
+2024-12-30 11:36:58,439 -INFO - ITC.NS - last n two_line_structure function started
+2024-12-30 11:37:58,950 -INFO - HAL.NS - last n two_line_structure function Ended
+2024-12-30 11:38:16,090 -INFO - HAL.NS - last n detect_structure function Ended
+2024-12-30 11:38:16,126 -INFO - HAL.NS - add_ph_pl_values function started
+2024-12-30 11:38:16,313 -INFO - HAL.NS - add_ph_pl_values function Ended
+2024-12-30 11:38:30,845 -INFO - ALKEM.NS - last n two_line_structure function Ended
+2024-12-30 11:38:58,811 -INFO - ALKEM.NS - last n detect_structure function Ended
+2024-12-30 11:38:58,819 -INFO - ALKEM.NS - add_ph_pl_values function started
+2024-12-30 11:38:58,961 -INFO - ALKEM.NS - add_ph_pl_values function Ended
+2024-12-30 11:39:32,955 -INFO - All stocks - Excel file Saved
+2024-12-30 11:39:32,983 -INFO - All stocks - json file saved
+2024-12-30 11:39:32,984 -INFO - HAL.NS - alerts file Saved
+2024-12-30 11:39:32,986 -INFO - HAL.NS - Process function Ended
+2024-12-30 11:40:06,910 -INFO - All stocks - Excel file Saved
+2024-12-30 11:40:06,974 -INFO - All stocks - json file saved
+2024-12-30 11:40:06,977 -INFO - ALKEM.NS - alerts file Saved
+2024-12-30 11:40:06,977 -INFO - ALKEM.NS - Process function Ended
+2024-12-30 11:41:24,601 -INFO - MRF.NS - last n two_line_structure function Ended
+2024-12-30 11:41:28,542 -INFO - GLENMARK.NS - last n two_line_structure function Ended
+2024-12-30 11:41:31,588 -INFO - HAVELLS.NS - last n two_line_structure function Ended
+2024-12-30 11:41:31,856 -INFO - DABUR.NS - last n two_line_structure function Ended
+2024-12-30 11:42:05,929 -INFO - MRF.NS - last n detect_structure function Ended
+2024-12-30 11:42:05,941 -INFO - MRF.NS - add_ph_pl_values function started
+2024-12-30 11:42:06,033 -INFO - MRF.NS - add_ph_pl_values function Ended
+2024-12-30 11:42:26,791 -INFO - GLENMARK.NS - last n detect_structure function Ended
+2024-12-30 11:42:26,802 -INFO - GLENMARK.NS - add_ph_pl_values function started
+2024-12-30 11:42:26,887 -INFO - GLENMARK.NS - add_ph_pl_values function Ended
+2024-12-30 11:42:38,939 -INFO - INFY.NS - last n two_line_structure function Ended
+2024-12-30 11:42:39,015 -INFO - HAVELLS.NS - last n detect_structure function Ended
+2024-12-30 11:42:39,024 -INFO - HAVELLS.NS - add_ph_pl_values function started
+2024-12-30 11:42:39,086 -INFO - HAVELLS.NS - add_ph_pl_values function Ended
+2024-12-30 11:42:40,421 -INFO - DABUR.NS - last n detect_structure function Ended
+2024-12-30 11:42:40,443 -INFO - DABUR.NS - add_ph_pl_values function started
+2024-12-30 11:42:40,561 -INFO - DABUR.NS - add_ph_pl_values function Ended
+2024-12-30 11:42:58,151 -INFO - AUROPHARMA.NS - last n two_line_structure function Ended
+2024-12-30 11:42:58,478 -INFO - CIPLA.NS - last n two_line_structure function Ended
+2024-12-30 11:42:59,611 -INFO - TITAN.NS - last n two_line_structure function Ended
+2024-12-30 11:43:11,172 -INFO - ITC.NS - last n two_line_structure function Ended
+2024-12-30 11:43:24,743 -INFO - IOC.NS - last n two_line_structure function Ended
+2024-12-30 11:43:41,713 -INFO - All stocks - Excel file Saved
+2024-12-30 11:43:41,726 -INFO - All stocks - json file saved
+2024-12-30 11:43:41,726 -INFO - MRF.NS - alerts file Saved
+2024-12-30 11:43:41,726 -INFO - MRF.NS - Process function Ended
+2024-12-30 11:43:51,576 -INFO - All stocks - Excel file Saved
+2024-12-30 11:43:51,906 -INFO - All stocks - json file saved
+2024-12-30 11:43:51,906 -INFO - GLENMARK.NS - alerts file Saved
+2024-12-30 11:43:51,906 -INFO - GLENMARK.NS - Process function Ended
+2024-12-30 11:43:59,388 -INFO - All stocks - Excel file Saved
+2024-12-30 11:43:59,389 -INFO - All stocks - json file saved
+2024-12-30 11:43:59,389 -INFO - HAVELLS.NS - alerts file Saved
+2024-12-30 11:43:59,389 -INFO - HAVELLS.NS - Process function Ended
+2024-12-30 11:44:01,206 -INFO - All stocks - Excel file Saved
+2024-12-30 11:44:01,213 -INFO - All stocks - json file saved
+2024-12-30 11:44:01,213 -INFO - DABUR.NS - alerts file Saved
+2024-12-30 11:44:01,213 -INFO - DABUR.NS - Process function Ended
+2024-12-30 11:44:06,256 -INFO - INFY.NS - last n detect_structure function Ended
+2024-12-30 11:44:06,265 -INFO - INFY.NS - add_ph_pl_values function started
+2024-12-30 11:44:06,327 -INFO - INFY.NS - add_ph_pl_values function Ended
+2024-12-30 11:44:17,266 -INFO - AUROPHARMA.NS - last n detect_structure function Ended
+2024-12-30 11:44:17,272 -INFO - AUROPHARMA.NS - add_ph_pl_values function started
+2024-12-30 11:44:17,328 -INFO - AUROPHARMA.NS - add_ph_pl_values function Ended
+2024-12-30 11:44:26,088 -INFO - TITAN.NS - last n detect_structure function Ended
+2024-12-30 11:44:26,094 -INFO - TITAN.NS - add_ph_pl_values function started
+2024-12-30 11:44:26,098 -INFO - CIPLA.NS - last n detect_structure function Ended
+2024-12-30 11:44:26,100 -INFO - CIPLA.NS - add_ph_pl_values function started
+2024-12-30 11:44:26,109 -INFO - TITAN.NS - add_ph_pl_values function Ended
+2024-12-30 11:44:26,801 -INFO - CIPLA.NS - add_ph_pl_values function Ended
+2024-12-30 11:44:51,981 -INFO - ITC.NS - last n detect_structure function Ended
+2024-12-30 11:44:51,983 -INFO - ITC.NS - add_ph_pl_values function started
+2024-12-30 11:44:51,998 -INFO - ITC.NS - add_ph_pl_values function Ended
+2024-12-30 11:45:31,615 -INFO - All stocks - Excel file Saved
+2024-12-30 11:45:31,688 -INFO - All stocks - json file saved
+2024-12-30 11:45:31,689 -INFO - INFY.NS - alerts file Saved
+2024-12-30 11:45:31,689 -INFO - INFY.NS - Process function Ended
+2024-12-30 11:45:33,008 -INFO - IOC.NS - last n detect_structure function Ended
+2024-12-30 11:45:33,012 -INFO - IOC.NS - add_ph_pl_values function started
+2024-12-30 11:45:33,199 -INFO - IOC.NS - add_ph_pl_values function Ended
+2024-12-30 11:45:36,704 -INFO - All stocks - Excel file Saved
+2024-12-30 11:45:36,731 -INFO - All stocks - json file saved
+2024-12-30 11:45:37,000 -INFO - AUROPHARMA.NS - alerts file Saved
+2024-12-30 11:45:37,036 -INFO - AUROPHARMA.NS - Process function Ended
+2024-12-30 11:45:50,616 -INFO - All stocks - Excel file Saved
+2024-12-30 11:45:50,616 -INFO - All stocks - json file saved
+2024-12-30 11:45:50,616 -INFO - TITAN.NS - alerts file Saved
+2024-12-30 11:45:50,616 -INFO - TITAN.NS - Process function Ended
+2024-12-30 11:45:50,623 -INFO - All stocks - Excel file Saved
+2024-12-30 11:45:50,623 -INFO - All stocks - json file saved
+2024-12-30 11:45:50,623 -INFO - CIPLA.NS - alerts file Saved
+2024-12-30 11:45:50,624 -INFO - CIPLA.NS - Process function Ended
+2024-12-30 11:46:02,576 -INFO - All stocks - Excel file Saved
+2024-12-30 11:46:02,577 -INFO - All stocks - json file saved
+2024-12-30 11:46:02,577 -INFO - ITC.NS - alerts file Saved
+2024-12-30 11:46:02,577 -INFO - ITC.NS - Process function Ended
+2024-12-30 11:46:05,751 -INFO - All stocks - Excel file Saved
+2024-12-30 11:46:05,752 -INFO - All stocks - json file saved
+2024-12-30 11:46:05,752 -INFO - IOC.NS - alerts file Saved
+2024-12-30 11:46:05,752 -INFO - IOC.NS - Process function Ended
+2024-12-30 11:46:23,909 -INFO - All stocks - Excel file Saved
+2024-12-30 11:46:23,910 -INFO - All stocks - json file saved
+2024-12-30 11:46:41,993 -INFO - All stocks - Excel file Saved
+2024-12-30 11:46:41,994 -INFO - All stocks - json file saved
