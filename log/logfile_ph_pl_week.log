@@ -4079,3 +4079,40 @@ ValueError: Length of values (93097) does not match length of index (90998)
 2024-12-27 11:44:50,301 -INFO - All stocks - json file saved
 2024-12-27 11:45:17,851 -INFO - All stocks - Excel file Saved
 2024-12-27 11:45:17,852 -INFO - All stocks - json file saved
+2024-12-31 18:35:50,780 -INFO - Started...
+2024-12-31 18:35:51,809 -INFO - Started...
+2024-12-31 18:36:05,420 -INFO - HFCL.NS - this stock already completed
+2024-12-31 18:36:05,420 -INFO - M&M.NS - this stock already completed
+2024-12-31 18:36:05,420 -INFO - ADANIENSOL.NS - this stock already completed
+2024-12-31 18:36:05,420 -INFO - LUPIN.NS - this stock already completed
+2024-12-31 18:36:05,420 -INFO - ATGL.NS - this stock already completed
+2024-12-31 18:36:05,420 -INFO - UPL.NS - this stock already completed
+2024-12-31 18:36:05,420 -INFO - EICHERMOT.NS - this stock already completed
+2024-12-31 18:36:05,420 -INFO - LTTS.NS - this stock already completed
+2024-12-31 18:36:05,420 -INFO - POWERGRID.NS - this stock already completed
+2024-12-31 18:36:05,420 -INFO - ASHOKLEY.NS - this stock already completed
+2024-12-31 18:36:05,420 -INFO - SUNPHARMA.NS - this stock already completed
+2024-12-31 18:36:05,420 -INFO - TIINDIA.NS - this stock already completed
+2024-12-31 18:36:05,420 -INFO - NATIONALUM.NS - this stock already completed
+2024-12-31 18:36:05,421 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-12-31 18:36:07,455 -ERROR - 
+1 Failed download:
+2024-12-31 18:36:07,456 -ERROR - ['NIFTY']: YFTzMissingError('$%ticker%: possibly delisted; no timezone found')
+2024-12-31 18:36:07,495 -INFO - ADANIGREEN.NS - Process function started
+2024-12-31 18:36:07,495 -INFO - ADANIGREEN.NS - Reading existing data...
+2024-12-31 18:36:07,522 -INFO - last n isPivot function started
+2024-12-31 18:36:07,549 -INFO - last n isPivot function Ended
+2024-12-31 18:36:07,549 -INFO - ADANIGREEN.NS - last n detect_structure function started
+2024-12-31 18:36:07,554 -INFO - ADANIGREEN.NS - last n two_line_structure function started
+2024-12-31 18:36:07,891 -INFO - ADANIGREEN.NS - last n two_line_structure function Ended
+2024-12-31 18:36:08,674 -INFO - ADANIGREEN.NS - last n detect_structure function Ended
+2024-12-31 18:36:08,675 -INFO - ADANIGREEN.NS - add_ph_pl_values function started
+2024-12-31 18:36:08,679 -INFO - ADANIGREEN.NS - add_ph_pl_values function Ended
+2024-12-31 18:36:37,319 -INFO - All stocks - Excel file Saved
+2024-12-31 18:36:37,321 -INFO - All stocks - json file saved
+2024-12-31 18:36:37,321 -INFO - ADANIGREEN.NS - alerts file Saved
+2024-12-31 18:36:37,321 -INFO - ADANIGREEN.NS - Process function Ended
+2024-12-31 18:37:04,734 -INFO - All stocks - Excel file Saved
+2024-12-31 18:37:04,735 -INFO - All stocks - json file saved
+2024-12-31 18:37:32,501 -INFO - All stocks - Excel file Saved
+2024-12-31 18:37:32,501 -INFO - All stocks - json file saved
