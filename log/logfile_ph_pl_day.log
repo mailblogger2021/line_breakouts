@@ -16565,3 +16565,262 @@ ValueError: operands could not be broadcast together with shapes (42323,) (42085
 2024-12-30 11:46:23,910 -INFO - All stocks - json file saved
 2024-12-30 11:46:41,993 -INFO - All stocks - Excel file Saved
 2024-12-30 11:46:41,994 -INFO - All stocks - json file saved
+2024-12-31 11:35:03,390 -INFO - Started...
+2024-12-31 11:35:04,378 -INFO - Started...
+2024-12-31 11:35:12,780 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2024-12-31 11:35:15,949 -INFO - KOTAKBANK.NS - Process function started
+2024-12-31 11:35:15,949 -INFO - UNITDSPR.NS - Process function started
+2024-12-31 11:35:15,950 -INFO - KOTAKBANK.NS - Reading existing data...
+2024-12-31 11:35:15,950 -INFO - UNITDSPR.NS - Reading existing data...
+2024-12-31 11:35:15,950 -INFO - DLF.NS - Process function started
+2024-12-31 11:35:15,950 -INFO - LTIM.NS - Process function started
+2024-12-31 11:35:15,950 -INFO - SIEMENS.NS - Process function started
+2024-12-31 11:35:15,950 -INFO - ICICIGI.NS - Process function started
+2024-12-31 11:35:15,950 -INFO - DLF.NS - Reading existing data...
+2024-12-31 11:35:15,950 -INFO - JSL.NS - Process function started
+2024-12-31 11:35:15,951 -INFO - VEDL.NS - Process function started
+2024-12-31 11:35:15,951 -INFO - POWERGRID.NS - Process function started
+2024-12-31 11:35:15,951 -INFO - LTIM.NS - Reading existing data...
+2024-12-31 11:35:15,951 -INFO - BHARTIARTL.NS - Process function started
+2024-12-31 11:35:15,951 -INFO - SIEMENS.NS - Reading existing data...
+2024-12-31 11:35:15,951 -INFO - ULTRACEMCO.NS - Process function started
+2024-12-31 11:35:15,951 -INFO - ICICIGI.NS - Reading existing data...
+2024-12-31 11:35:15,952 -INFO - ICICIBANK.NS - Process function started
+2024-12-31 11:35:15,953 -INFO - HCLTECH.NS - Process function started
+2024-12-31 11:35:15,953 -INFO - MANAPPURAM.NS - Process function started
+2024-12-31 11:35:15,954 -INFO - JSL.NS - Reading existing data...
+2024-12-31 11:35:15,954 -INFO - VEDL.NS - Reading existing data...
+2024-12-31 11:35:15,963 -INFO - POLYCAB.NS - Process function started
+2024-12-31 11:35:15,963 -INFO - POWERGRID.NS - Reading existing data...
+2024-12-31 11:35:15,964 -INFO - MGL.NS - Process function started
+2024-12-31 11:35:15,965 -INFO - RAMCOCEM.NS - Process function started
+2024-12-31 11:35:15,965 -INFO - VOLTAS.NS - Process function started
+2024-12-31 11:35:15,966 -INFO - last n isPivot function started
+2024-12-31 11:35:15,967 -INFO - BHARTIARTL.NS - Reading existing data...
+2024-12-31 11:35:15,967 -INFO - ULTRACEMCO.NS - Reading existing data...
+2024-12-31 11:35:15,968 -INFO - ICICIBANK.NS - Reading existing data...
+2024-12-31 11:35:15,968 -INFO - HCLTECH.NS - Reading existing data...
+2024-12-31 11:35:15,969 -INFO - MANAPPURAM.NS - Reading existing data...
+2024-12-31 11:35:15,969 -INFO - POLYCAB.NS - Reading existing data...
+2024-12-31 11:35:15,970 -INFO - MGL.NS - Reading existing data...
+2024-12-31 11:35:15,970 -INFO - RAMCOCEM.NS - Reading existing data...
+2024-12-31 11:35:15,971 -INFO - VOLTAS.NS - Reading existing data...
+2024-12-31 11:35:15,973 -INFO - last n isPivot function Ended
+2024-12-31 11:35:16,098 -INFO - UNITDSPR.NS - last n detect_structure function started
+2024-12-31 11:35:16,105 -INFO - UNITDSPR.NS - last n two_line_structure function started
+2024-12-31 11:35:16,428 -INFO - UNITDSPR.NS - last n detect_structure function Ended
+2024-12-31 11:35:16,602 -INFO - UNITDSPR.NS - last n two_line_structure function Ended
+2024-12-31 11:35:16,604 -INFO - UNITDSPR.NS - add_ph_pl_values function started
+2024-12-31 11:35:16,769 -INFO - last n isPivot function started
+2024-12-31 11:35:17,041 -INFO - last n isPivot function Ended
+2024-12-31 11:35:17,041 -INFO - LTIM.NS - last n detect_structure function started
+2024-12-31 11:35:17,043 -INFO - LTIM.NS - last n two_line_structure function started
+2024-12-31 11:35:17,116 -INFO - UNITDSPR.NS - add_ph_pl_values function Ended
+2024-12-31 11:35:17,375 -INFO - last n isPivot function started
+2024-12-31 11:35:17,893 -INFO - last n isPivot function started
+2024-12-31 11:35:17,910 -INFO - last n isPivot function Ended
+2024-12-31 11:35:17,914 -INFO - DLF.NS - last n detect_structure function started
+2024-12-31 11:35:17,918 -INFO - DLF.NS - last n two_line_structure function started
+2024-12-31 11:35:18,611 -INFO - last n isPivot function Ended
+2024-12-31 11:35:18,611 -INFO - KOTAKBANK.NS - last n detect_structure function started
+2024-12-31 11:35:18,619 -INFO - KOTAKBANK.NS - last n two_line_structure function started
+2024-12-31 11:35:19,237 -INFO - last n isPivot function started
+2024-12-31 11:35:20,313 -INFO - last n isPivot function Ended
+2024-12-31 11:35:20,494 -INFO - SIEMENS.NS - last n detect_structure function started
+2024-12-31 11:35:20,495 -INFO - SIEMENS.NS - last n two_line_structure function started
+2024-12-31 11:35:20,632 -INFO - last n isPivot function started
+2024-12-31 11:35:21,149 -INFO - last n isPivot function started
+2024-12-31 11:35:21,306 -INFO - last n isPivot function Ended
+2024-12-31 11:35:21,306 -INFO - ICICIGI.NS - last n detect_structure function started
+2024-12-31 11:35:21,438 -INFO - ICICIGI.NS - last n two_line_structure function started
+2024-12-31 11:35:22,728 -INFO - last n isPivot function started
+2024-12-31 11:35:22,838 -INFO - last n isPivot function started
+2024-12-31 11:35:25,203 -INFO - last n isPivot function Ended
+2024-12-31 11:35:25,204 -INFO - JSL.NS - last n detect_structure function started
+2024-12-31 11:35:25,208 -INFO - last n isPivot function Ended
+2024-12-31 11:35:25,208 -INFO - POWERGRID.NS - last n detect_structure function started
+2024-12-31 11:35:25,213 -INFO - POWERGRID.NS - last n two_line_structure function started
+2024-12-31 11:35:25,299 -INFO - JSL.NS - last n two_line_structure function started
+2024-12-31 11:35:25,411 -INFO - last n isPivot function started
+2024-12-31 11:35:25,517 -INFO - last n isPivot function Ended
+2024-12-31 11:35:25,517 -INFO - VEDL.NS - last n detect_structure function started
+2024-12-31 11:35:25,518 -INFO - VEDL.NS - last n two_line_structure function started
+2024-12-31 11:35:25,981 -INFO - last n isPivot function Ended
+2024-12-31 11:35:25,982 -INFO - MANAPPURAM.NS - last n detect_structure function started
+2024-12-31 11:35:25,982 -INFO - MANAPPURAM.NS - last n two_line_structure function started
+2024-12-31 11:35:26,077 -INFO - last n isPivot function started
+2024-12-31 11:35:26,092 -INFO - last n isPivot function started
+2024-12-31 11:35:26,548 -INFO - last n isPivot function Ended
+2024-12-31 11:35:26,573 -INFO - POLYCAB.NS - last n detect_structure function started
+2024-12-31 11:35:26,816 -INFO - POLYCAB.NS - last n two_line_structure function started
+2024-12-31 11:35:26,857 -INFO - last n isPivot function started
+2024-12-31 11:35:26,971 -INFO - last n isPivot function Ended
+2024-12-31 11:35:27,060 -INFO - MGL.NS - last n detect_structure function started
+2024-12-31 11:35:27,065 -INFO - MGL.NS - last n two_line_structure function started
+2024-12-31 11:35:28,065 -INFO - last n isPivot function Ended
+2024-12-31 11:35:28,087 -INFO - BHARTIARTL.NS - last n detect_structure function started
+2024-12-31 11:35:28,172 -INFO - BHARTIARTL.NS - last n two_line_structure function started
+2024-12-31 11:35:28,504 -INFO - last n isPivot function started
+2024-12-31 11:35:28,505 -INFO - last n isPivot function started
+2024-12-31 11:35:28,526 -INFO - last n isPivot function started
+2024-12-31 11:35:28,806 -INFO - last n isPivot function started
+2024-12-31 11:35:29,556 -INFO - last n isPivot function Ended
+2024-12-31 11:35:30,200 -INFO - ICICIBANK.NS - last n detect_structure function started
+2024-12-31 11:35:30,241 -INFO - ICICIBANK.NS - last n two_line_structure function started
+2024-12-31 11:35:31,256 -INFO - last n isPivot function Ended
+2024-12-31 11:35:31,342 -INFO - RAMCOCEM.NS - last n detect_structure function started
+2024-12-31 11:35:31,480 -INFO - RAMCOCEM.NS - last n two_line_structure function started
+2024-12-31 11:35:31,573 -INFO - last n isPivot function Ended
+2024-12-31 11:35:31,582 -INFO - ULTRACEMCO.NS - last n detect_structure function started
+2024-12-31 11:35:31,639 -INFO - ULTRACEMCO.NS - last n two_line_structure function started
+2024-12-31 11:35:31,883 -INFO - last n isPivot function started
+2024-12-31 11:35:32,982 -INFO - last n isPivot function Ended
+2024-12-31 11:35:33,229 -INFO - VOLTAS.NS - last n detect_structure function started
+2024-12-31 11:35:33,231 -INFO - VOLTAS.NS - last n two_line_structure function started
+2024-12-31 11:35:33,973 -INFO - last n isPivot function Ended
+2024-12-31 11:35:33,973 -INFO - HCLTECH.NS - last n detect_structure function started
+2024-12-31 11:35:33,980 -INFO - HCLTECH.NS - last n two_line_structure function started
+2024-12-31 11:36:43,892 -INFO - POLYCAB.NS - last n two_line_structure function Ended
+2024-12-31 11:37:07,109 -INFO - POLYCAB.NS - last n detect_structure function Ended
+2024-12-31 11:37:07,127 -INFO - POLYCAB.NS - add_ph_pl_values function started
+2024-12-31 11:37:07,391 -INFO - POLYCAB.NS - add_ph_pl_values function Ended
+2024-12-31 11:37:19,072 -INFO - ICICIGI.NS - last n two_line_structure function Ended
+2024-12-31 11:37:29,134 -INFO - LTIM.NS - last n two_line_structure function Ended
+2024-12-31 11:37:31,042 -INFO - MGL.NS - last n two_line_structure function Ended
+2024-12-31 11:37:39,083 -INFO - ICICIGI.NS - last n detect_structure function Ended
+2024-12-31 11:37:39,138 -INFO - ICICIGI.NS - add_ph_pl_values function started
+2024-12-31 11:37:39,412 -INFO - ICICIGI.NS - add_ph_pl_values function Ended
+2024-12-31 11:37:56,933 -INFO - LTIM.NS - last n detect_structure function Ended
+2024-12-31 11:37:56,946 -INFO - LTIM.NS - add_ph_pl_values function started
+2024-12-31 11:37:57,096 -INFO - LTIM.NS - add_ph_pl_values function Ended
+2024-12-31 11:38:10,422 -INFO - MGL.NS - last n detect_structure function Ended
+2024-12-31 11:38:10,453 -INFO - MGL.NS - add_ph_pl_values function started
+2024-12-31 11:38:10,601 -INFO - MGL.NS - add_ph_pl_values function Ended
+2024-12-31 11:38:31,577 -INFO - All stocks - Excel file Saved
+2024-12-31 11:38:31,611 -INFO - All stocks - json file saved
+2024-12-31 11:38:31,611 -INFO - UNITDSPR.NS - alerts file Saved
+2024-12-31 11:38:31,611 -INFO - UNITDSPR.NS - Process function Ended
+2024-12-31 11:39:19,873 -INFO - MANAPPURAM.NS - last n two_line_structure function Ended
+2024-12-31 11:39:55,568 -INFO - All stocks - Excel file Saved
+2024-12-31 11:39:55,609 -INFO - All stocks - json file saved
+2024-12-31 11:39:55,609 -INFO - POLYCAB.NS - alerts file Saved
+2024-12-31 11:39:55,609 -INFO - POLYCAB.NS - Process function Ended
+2024-12-31 11:40:09,870 -INFO - DLF.NS - last n two_line_structure function Ended
+2024-12-31 11:40:12,045 -INFO - MANAPPURAM.NS - last n detect_structure function Ended
+2024-12-31 11:40:12,080 -INFO - MANAPPURAM.NS - add_ph_pl_values function started
+2024-12-31 11:40:12,196 -INFO - MANAPPURAM.NS - add_ph_pl_values function Ended
+2024-12-31 11:40:13,860 -INFO - POWERGRID.NS - last n two_line_structure function Ended
+2024-12-31 11:40:28,780 -INFO - All stocks - Excel file Saved
+2024-12-31 11:40:28,918 -INFO - All stocks - json file saved
+2024-12-31 11:40:28,918 -INFO - ICICIGI.NS - alerts file Saved
+2024-12-31 11:40:28,920 -INFO - ICICIGI.NS - Process function Ended
+2024-12-31 11:40:38,689 -INFO - All stocks - Excel file Saved
+2024-12-31 11:40:38,720 -INFO - All stocks - json file saved
+2024-12-31 11:40:38,721 -INFO - LTIM.NS - alerts file Saved
+2024-12-31 11:40:38,721 -INFO - LTIM.NS - Process function Ended
+2024-12-31 11:40:42,247 -INFO - All stocks - Excel file Saved
+2024-12-31 11:40:42,279 -INFO - All stocks - json file saved
+2024-12-31 11:40:42,279 -INFO - MGL.NS - alerts file Saved
+2024-12-31 11:40:42,279 -INFO - MGL.NS - Process function Ended
+2024-12-31 11:40:57,256 -INFO - DLF.NS - last n detect_structure function Ended
+2024-12-31 11:40:57,286 -INFO - DLF.NS - add_ph_pl_values function started
+2024-12-31 11:40:57,397 -INFO - DLF.NS - add_ph_pl_values function Ended
+2024-12-31 11:40:58,415 -INFO - JSL.NS - last n two_line_structure function Ended
+2024-12-31 11:41:20,958 -INFO - ULTRACEMCO.NS - last n two_line_structure function Ended
+2024-12-31 11:41:21,528 -INFO - POWERGRID.NS - last n detect_structure function Ended
+2024-12-31 11:41:21,544 -INFO - POWERGRID.NS - add_ph_pl_values function started
+2024-12-31 11:41:21,646 -INFO - POWERGRID.NS - add_ph_pl_values function Ended
+2024-12-31 11:41:22,990 -INFO - HCLTECH.NS - last n two_line_structure function Ended
+2024-12-31 11:41:23,408 -INFO - BHARTIARTL.NS - last n two_line_structure function Ended
+2024-12-31 11:41:23,611 -INFO - ICICIBANK.NS - last n two_line_structure function Ended
+2024-12-31 11:41:32,483 -INFO - VOLTAS.NS - last n two_line_structure function Ended
+2024-12-31 11:41:33,374 -INFO - RAMCOCEM.NS - last n two_line_structure function Ended
+2024-12-31 11:41:44,850 -INFO - KOTAKBANK.NS - last n two_line_structure function Ended
+2024-12-31 11:42:07,325 -INFO - JSL.NS - last n detect_structure function Ended
+2024-12-31 11:42:07,383 -INFO - JSL.NS - add_ph_pl_values function started
+2024-12-31 11:42:07,514 -INFO - JSL.NS - add_ph_pl_values function Ended
+2024-12-31 11:42:11,848 -INFO - All stocks - Excel file Saved
+2024-12-31 11:42:11,848 -INFO - All stocks - json file saved
+2024-12-31 11:42:11,960 -INFO - MANAPPURAM.NS - alerts file Saved
+2024-12-31 11:42:11,992 -INFO - MANAPPURAM.NS - Process function Ended
+2024-12-31 11:42:28,366 -INFO - ICICIBANK.NS - last n detect_structure function Ended
+2024-12-31 11:42:28,382 -INFO - ICICIBANK.NS - add_ph_pl_values function started
+2024-12-31 11:42:28,476 -INFO - ICICIBANK.NS - add_ph_pl_values function Ended
+2024-12-31 11:42:33,171 -INFO - BHARTIARTL.NS - last n detect_structure function Ended
+2024-12-31 11:42:33,174 -INFO - BHARTIARTL.NS - add_ph_pl_values function started
+2024-12-31 11:42:33,225 -INFO - BHARTIARTL.NS - add_ph_pl_values function Ended
+2024-12-31 11:42:36,176 -INFO - ULTRACEMCO.NS - last n detect_structure function Ended
+2024-12-31 11:42:36,201 -INFO - ULTRACEMCO.NS - add_ph_pl_values function started
+2024-12-31 11:42:37,464 -INFO - ULTRACEMCO.NS - add_ph_pl_values function Ended
+2024-12-31 11:42:40,850 -INFO - SIEMENS.NS - last n two_line_structure function Ended
+2024-12-31 11:42:56,850 -INFO - HCLTECH.NS - last n detect_structure function Ended
+2024-12-31 11:42:56,857 -INFO - HCLTECH.NS - add_ph_pl_values function started
+2024-12-31 11:42:56,907 -INFO - HCLTECH.NS - add_ph_pl_values function Ended
+2024-12-31 11:42:57,581 -INFO - VOLTAS.NS - last n detect_structure function Ended
+2024-12-31 11:42:57,582 -INFO - VOLTAS.NS - add_ph_pl_values function started
+2024-12-31 11:42:57,602 -INFO - VOLTAS.NS - add_ph_pl_values function Ended
+2024-12-31 11:43:00,068 -INFO - All stocks - Excel file Saved
+2024-12-31 11:43:00,202 -INFO - All stocks - json file saved
+2024-12-31 11:43:00,202 -INFO - DLF.NS - alerts file Saved
+2024-12-31 11:43:00,202 -INFO - DLF.NS - Process function Ended
+2024-12-31 11:43:09,128 -INFO - RAMCOCEM.NS - last n detect_structure function Ended
+2024-12-31 11:43:09,384 -INFO - RAMCOCEM.NS - add_ph_pl_values function started
+2024-12-31 11:43:09,857 -INFO - RAMCOCEM.NS - add_ph_pl_values function Ended
+2024-12-31 11:43:32,032 -INFO - All stocks - Excel file Saved
+2024-12-31 11:43:32,035 -INFO - All stocks - json file saved
+2024-12-31 11:43:32,036 -INFO - POWERGRID.NS - alerts file Saved
+2024-12-31 11:43:32,036 -INFO - POWERGRID.NS - Process function Ended
+2024-12-31 11:43:42,243 -INFO - KOTAKBANK.NS - last n detect_structure function Ended
+2024-12-31 11:43:42,305 -INFO - KOTAKBANK.NS - add_ph_pl_values function started
+2024-12-31 11:43:42,448 -INFO - KOTAKBANK.NS - add_ph_pl_values function Ended
+2024-12-31 11:44:39,421 -INFO - All stocks - Excel file Saved
+2024-12-31 11:44:39,430 -INFO - All stocks - json file saved
+2024-12-31 11:44:39,430 -INFO - JSL.NS - alerts file Saved
+2024-12-31 11:44:39,430 -INFO - JSL.NS - Process function Ended
+2024-12-31 11:44:43,074 -INFO - VEDL.NS - last n two_line_structure function Ended
+2024-12-31 11:45:09,101 -INFO - All stocks - Excel file Saved
+2024-12-31 11:45:09,102 -INFO - All stocks - json file saved
+2024-12-31 11:45:09,102 -INFO - ICICIBANK.NS - alerts file Saved
+2024-12-31 11:45:09,102 -INFO - ICICIBANK.NS - Process function Ended
+2024-12-31 11:45:09,461 -INFO - All stocks - Excel file Saved
+2024-12-31 11:45:09,463 -INFO - All stocks - json file saved
+2024-12-31 11:45:09,463 -INFO - ULTRACEMCO.NS - alerts file Saved
+2024-12-31 11:45:09,463 -INFO - ULTRACEMCO.NS - Process function Ended
+2024-12-31 11:45:09,704 -INFO - All stocks - Excel file Saved
+2024-12-31 11:45:09,705 -INFO - All stocks - json file saved
+2024-12-31 11:45:09,705 -INFO - VOLTAS.NS - alerts file Saved
+2024-12-31 11:45:09,705 -INFO - VOLTAS.NS - Process function Ended
+2024-12-31 11:45:10,079 -INFO - All stocks - Excel file Saved
+2024-12-31 11:45:10,081 -INFO - All stocks - json file saved
+2024-12-31 11:45:10,081 -INFO - BHARTIARTL.NS - alerts file Saved
+2024-12-31 11:45:10,081 -INFO - BHARTIARTL.NS - Process function Ended
+2024-12-31 11:45:10,086 -INFO - All stocks - Excel file Saved
+2024-12-31 11:45:10,088 -INFO - All stocks - json file saved
+2024-12-31 11:45:10,088 -INFO - HCLTECH.NS - alerts file Saved
+2024-12-31 11:45:10,088 -INFO - HCLTECH.NS - Process function Ended
+2024-12-31 11:45:14,850 -INFO - SIEMENS.NS - last n detect_structure function Ended
+2024-12-31 11:45:14,851 -INFO - SIEMENS.NS - add_ph_pl_values function started
+2024-12-31 11:45:14,856 -INFO - SIEMENS.NS - add_ph_pl_values function Ended
+2024-12-31 11:45:15,687 -INFO - All stocks - Excel file Saved
+2024-12-31 11:45:15,689 -INFO - All stocks - json file saved
+2024-12-31 11:45:15,689 -INFO - RAMCOCEM.NS - alerts file Saved
+2024-12-31 11:45:15,689 -INFO - RAMCOCEM.NS - Process function Ended
+2024-12-31 11:45:25,447 -INFO - VEDL.NS - last n detect_structure function Ended
+2024-12-31 11:45:25,447 -INFO - VEDL.NS - add_ph_pl_values function started
+2024-12-31 11:45:25,453 -INFO - VEDL.NS - add_ph_pl_values function Ended
+2024-12-31 11:45:30,177 -INFO - All stocks - Excel file Saved
+2024-12-31 11:45:30,242 -INFO - All stocks - json file saved
+2024-12-31 11:45:30,255 -INFO - KOTAKBANK.NS - alerts file Saved
+2024-12-31 11:45:30,255 -INFO - KOTAKBANK.NS - Process function Ended
+2024-12-31 11:45:53,492 -INFO - All stocks - Excel file Saved
+2024-12-31 11:45:53,493 -INFO - All stocks - json file saved
+2024-12-31 11:45:53,493 -INFO - SIEMENS.NS - alerts file Saved
+2024-12-31 11:45:53,493 -INFO - SIEMENS.NS - Process function Ended
+2024-12-31 11:45:56,508 -INFO - All stocks - Excel file Saved
+2024-12-31 11:45:56,508 -INFO - All stocks - json file saved
+2024-12-31 11:45:56,508 -INFO - VEDL.NS - alerts file Saved
+2024-12-31 11:45:56,509 -INFO - VEDL.NS - Process function Ended
+2024-12-31 11:46:15,338 -INFO - All stocks - Excel file Saved
+2024-12-31 11:46:15,352 -INFO - All stocks - json file saved
+2024-12-31 11:46:33,542 -INFO - All stocks - Excel file Saved
+2024-12-31 11:46:33,543 -INFO - All stocks - json file saved
