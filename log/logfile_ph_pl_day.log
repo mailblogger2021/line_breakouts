@@ -16824,3 +16824,245 @@ ValueError: operands could not be broadcast together with shapes (42323,) (42085
 2024-12-31 11:46:15,352 -INFO - All stocks - json file saved
 2024-12-31 11:46:33,542 -INFO - All stocks - Excel file Saved
 2024-12-31 11:46:33,543 -INFO - All stocks - json file saved
+2025-01-01 11:35:03,235 -INFO - Started...
+2025-01-01 11:35:04,203 -INFO - Started...
+2025-01-01 11:35:13,162 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2025-01-01 11:35:13,162 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2025-01-01 11:35:15,760 -INFO - CDSL.NS - Process function started
+2025-01-01 11:35:15,760 -INFO - JKCEMENT.NS - Process function started
+2025-01-01 11:35:15,761 -INFO - SHREECEM.NS - Process function started
+2025-01-01 11:35:15,761 -INFO - MAXHEALTH.NS - Process function started
+2025-01-01 11:35:15,761 -INFO - JKCEMENT.NS - Reading existing data...
+2025-01-01 11:35:15,761 -INFO - CDSL.NS - Reading existing data...
+2025-01-01 11:35:15,761 -INFO - BAJFINANCE.NS - Process function started
+2025-01-01 11:35:15,762 -INFO - PAYTM.NS - Process function started
+2025-01-01 11:35:15,762 -INFO - HUDCO.NS - Process function started
+2025-01-01 11:35:15,762 -INFO - SHREECEM.NS - Reading existing data...
+2025-01-01 11:35:15,762 -INFO - PAGEIND.NS - Process function started
+2025-01-01 11:35:15,768 -INFO - ABB.NS - Process function started
+2025-01-01 11:35:15,768 -INFO - NYKAA.NS - Process function started
+2025-01-01 11:35:15,769 -INFO - MAXHEALTH.NS - isPivot function started
+2025-01-01 11:35:15,769 -INFO - BAJFINANCE.NS - Reading existing data...
+2025-01-01 11:35:15,769 -INFO - DELHIVERY.NS - Process function started
+2025-01-01 11:35:15,769 -INFO - DIXON.NS - Process function started
+2025-01-01 11:35:15,770 -INFO - GODREJPROP.NS - Process function started
+2025-01-01 11:35:15,770 -INFO - LODHA.NS - Process function started
+2025-01-01 11:35:15,770 -INFO - PRESTIGE.NS - Process function started
+2025-01-01 11:35:15,770 -INFO - HUDCO.NS - Reading existing data...
+2025-01-01 11:35:15,772 -INFO - PAGEIND.NS - Reading existing data...
+2025-01-01 11:35:15,772 -INFO - ABB.NS - Reading existing data...
+2025-01-01 11:35:15,774 -INFO - CUMMINSIND.NS - Process function started
+2025-01-01 11:35:15,774 -INFO - PAYTM.NS - isPivot function started
+2025-01-01 11:35:15,774 -INFO - ASHOKLEY.NS - Process function started
+2025-01-01 11:35:15,827 -INFO - DELHIVERY.NS - Reading existing data...
+2025-01-01 11:35:15,837 -INFO - DIXON.NS - Reading existing data...
+2025-01-01 11:35:15,892 -INFO - GODREJPROP.NS - Reading existing data...
+2025-01-01 11:35:15,901 -INFO - MAXHEALTH.NS - isPivot function Ended
+2025-01-01 11:35:15,902 -INFO - LODHA.NS - Reading existing data...
+2025-01-01 11:35:15,907 -INFO - NYKAA.NS - isPivot function started
+2025-01-01 11:35:15,908 -INFO - CUMMINSIND.NS - Reading existing data...
+2025-01-01 11:35:15,926 -INFO - ASHOKLEY.NS - Reading existing data...
+2025-01-01 11:35:15,995 -INFO - PAYTM.NS - isPivot function Ended
+2025-01-01 11:35:15,998 -INFO - MAXHEALTH.NS -  detect_structure function started
+2025-01-01 11:35:15,998 -INFO - MAXHEALTH.NS -  two_line_structure function started
+2025-01-01 11:35:16,083 -INFO - NYKAA.NS - isPivot function Ended
+2025-01-01 11:35:16,083 -INFO - PRESTIGE.NS - isPivot function started
+2025-01-01 11:35:16,084 -INFO - PAYTM.NS -  detect_structure function started
+2025-01-01 11:35:16,085 -INFO - PAYTM.NS -  two_line_structure function started
+2025-01-01 11:35:16,087 -INFO - NYKAA.NS -  detect_structure function started
+2025-01-01 11:35:16,088 -INFO - NYKAA.NS -  two_line_structure function started
+2025-01-01 11:35:16,520 -INFO - PRESTIGE.NS - isPivot function Ended
+2025-01-01 11:35:16,525 -INFO - PRESTIGE.NS -  detect_structure function started
+2025-01-01 11:35:16,529 -INFO - PRESTIGE.NS -  two_line_structure function started
+2025-01-01 11:35:17,776 -INFO - last n isPivot function started
+2025-01-01 11:35:18,453 -INFO - last n isPivot function Ended
+2025-01-01 11:35:18,453 -INFO - CDSL.NS - last n detect_structure function started
+2025-01-01 11:35:18,516 -INFO - CDSL.NS - last n two_line_structure function started
+2025-01-01 11:35:19,295 -INFO - last n isPivot function started
+2025-01-01 11:35:20,697 -INFO - last n isPivot function started
+2025-01-01 11:35:20,857 -INFO - last n isPivot function Ended
+2025-01-01 11:35:20,882 -INFO - last n isPivot function Ended
+2025-01-01 11:35:20,934 -INFO - DELHIVERY.NS - last n detect_structure function started
+2025-01-01 11:35:20,964 -INFO - DELHIVERY.NS - last n two_line_structure function started
+2025-01-01 11:35:20,972 -INFO - JKCEMENT.NS - last n detect_structure function started
+2025-01-01 11:35:20,991 -INFO - JKCEMENT.NS - last n two_line_structure function started
+2025-01-01 11:35:21,002 -INFO - last n isPivot function started
+2025-01-01 11:35:21,252 -INFO - last n isPivot function started
+2025-01-01 11:35:21,621 -INFO - last n isPivot function Ended
+2025-01-01 11:35:21,621 -INFO - LODHA.NS - last n detect_structure function started
+2025-01-01 11:35:21,654 -INFO - LODHA.NS - last n two_line_structure function started
+2025-01-01 11:35:21,656 -INFO - last n isPivot function started
+2025-01-01 11:35:21,657 -INFO - last n isPivot function Ended
+2025-01-01 11:35:21,710 -INFO - last n isPivot function started
+2025-01-01 11:35:21,730 -INFO - HUDCO.NS - last n detect_structure function started
+2025-01-01 11:35:21,851 -INFO - HUDCO.NS - last n two_line_structure function started
+2025-01-01 11:35:21,990 -INFO - last n isPivot function Ended
+2025-01-01 11:35:21,990 -INFO - DIXON.NS - last n detect_structure function started
+2025-01-01 11:35:21,994 -INFO - DIXON.NS - last n two_line_structure function started
+2025-01-01 11:35:22,645 -INFO - last n isPivot function started
+2025-01-01 11:35:22,729 -INFO - last n isPivot function Ended
+2025-01-01 11:35:22,730 -INFO - BAJFINANCE.NS - last n detect_structure function started
+2025-01-01 11:35:22,740 -INFO - last n isPivot function started
+2025-01-01 11:35:22,743 -INFO - BAJFINANCE.NS - last n two_line_structure function started
+2025-01-01 11:35:23,851 -INFO - last n isPivot function started
+2025-01-01 11:35:24,066 -INFO - last n isPivot function Ended
+2025-01-01 11:35:24,317 -INFO - last n isPivot function started
+2025-01-01 11:35:24,428 -INFO - PAGEIND.NS - last n detect_structure function started
+2025-01-01 11:35:24,431 -INFO - PAGEIND.NS - last n two_line_structure function started
+2025-01-01 11:35:24,779 -INFO - last n isPivot function Ended
+2025-01-01 11:35:24,793 -INFO - last n isPivot function Ended
+2025-01-01 11:35:25,253 -INFO - ABB.NS - last n detect_structure function started
+2025-01-01 11:35:25,267 -INFO - last n isPivot function started
+2025-01-01 11:35:25,271 -INFO - SHREECEM.NS - last n detect_structure function started
+2025-01-01 11:35:25,289 -INFO - ABB.NS - last n two_line_structure function started
+2025-01-01 11:35:25,304 -INFO - last n isPivot function started
+2025-01-01 11:35:25,317 -INFO - last n isPivot function Ended
+2025-01-01 11:35:25,326 -INFO - SHREECEM.NS - last n two_line_structure function started
+2025-01-01 11:35:25,394 -INFO - GODREJPROP.NS - last n detect_structure function started
+2025-01-01 11:35:25,402 -INFO - GODREJPROP.NS - last n two_line_structure function started
+2025-01-01 11:35:26,455 -INFO - last n isPivot function Ended
+2025-01-01 11:35:26,455 -INFO - ASHOKLEY.NS - last n detect_structure function started
+2025-01-01 11:35:26,492 -INFO - ASHOKLEY.NS - last n two_line_structure function started
+2025-01-01 11:35:26,809 -INFO - last n isPivot function Ended
+2025-01-01 11:35:26,844 -INFO - CUMMINSIND.NS - last n detect_structure function started
+2025-01-01 11:35:26,844 -INFO - CUMMINSIND.NS - last n two_line_structure function started
+2025-01-01 11:35:51,121 -INFO - PAYTM.NS -  two_line_structure function Ended
+2025-01-01 11:35:53,206 -INFO - NYKAA.NS -  two_line_structure function Ended
+2025-01-01 11:35:53,233 -INFO - DELHIVERY.NS - last n two_line_structure function Ended
+2025-01-01 11:36:00,429 -INFO - NYKAA.NS -  detect_structure function Ended
+2025-01-01 11:36:00,458 -INFO - NYKAA.NS - add_ph_pl_values function started
+2025-01-01 11:36:00,702 -INFO - NYKAA.NS - add_ph_pl_values function Ended
+2025-01-01 11:36:00,882 -INFO - PAYTM.NS -  detect_structure function Ended
+2025-01-01 11:36:00,906 -INFO - PAYTM.NS - add_ph_pl_values function started
+2025-01-01 11:36:01,189 -INFO - DELHIVERY.NS - last n detect_structure function Ended
+2025-01-01 11:36:01,211 -INFO - DELHIVERY.NS - add_ph_pl_values function started
+2025-01-01 11:36:01,260 -INFO - PAYTM.NS - add_ph_pl_values function Ended
+2025-01-01 11:36:01,620 -INFO - DELHIVERY.NS - add_ph_pl_values function Ended
+2025-01-01 11:36:29,123 -INFO - MAXHEALTH.NS -  two_line_structure function Ended
+2025-01-01 11:36:30,236 -INFO - LODHA.NS - last n two_line_structure function Ended
+2025-01-01 11:36:40,313 -INFO - MAXHEALTH.NS -  detect_structure function Ended
+2025-01-01 11:36:40,329 -INFO - MAXHEALTH.NS - add_ph_pl_values function started
+2025-01-01 11:36:40,557 -INFO - MAXHEALTH.NS - add_ph_pl_values function Ended
+2025-01-01 11:36:40,718 -INFO - LODHA.NS - last n detect_structure function Ended
+2025-01-01 11:36:40,731 -INFO - LODHA.NS - add_ph_pl_values function started
+2025-01-01 11:36:40,937 -INFO - LODHA.NS - add_ph_pl_values function Ended
+2025-01-01 11:37:24,610 -INFO - DIXON.NS - last n two_line_structure function Ended
+2025-01-01 11:37:28,527 -INFO - CDSL.NS - last n two_line_structure function Ended
+2025-01-01 11:37:30,153 -INFO - HUDCO.NS - last n two_line_structure function Ended
+2025-01-01 11:38:07,755 -INFO - DIXON.NS - last n detect_structure function Ended
+2025-01-01 11:38:07,771 -INFO - DIXON.NS - add_ph_pl_values function started
+2025-01-01 11:38:07,884 -INFO - DIXON.NS - add_ph_pl_values function Ended
+2025-01-01 11:38:18,764 -INFO - HUDCO.NS - last n detect_structure function Ended
+2025-01-01 11:38:18,815 -INFO - HUDCO.NS - add_ph_pl_values function started
+2025-01-01 11:38:20,724 -INFO - HUDCO.NS - add_ph_pl_values function Ended
+2025-01-01 11:38:36,905 -INFO - CDSL.NS - last n detect_structure function Ended
+2025-01-01 11:38:37,888 -INFO - CDSL.NS - add_ph_pl_values function started
+2025-01-01 11:38:40,016 -INFO - CDSL.NS - add_ph_pl_values function Ended
+2025-01-01 11:39:35,290 -INFO - All stocks - Excel file Saved
+2025-01-01 11:39:35,300 -INFO - All stocks - json file saved
+2025-01-01 11:39:35,302 -INFO - NYKAA.NS - alerts file Saved
+2025-01-01 11:39:35,306 -INFO - NYKAA.NS - Process function Ended
+2025-01-01 11:39:35,425 -INFO - All stocks - Excel file Saved
+2025-01-01 11:39:35,485 -INFO - All stocks - json file saved
+2025-01-01 11:39:35,485 -INFO - DELHIVERY.NS - alerts file Saved
+2025-01-01 11:39:35,485 -INFO - DELHIVERY.NS - Process function Ended
+2025-01-01 11:39:38,979 -INFO - All stocks - Excel file Saved
+2025-01-01 11:39:39,252 -INFO - All stocks - json file saved
+2025-01-01 11:39:42,198 -INFO - PAYTM.NS - alerts file Saved
+2025-01-01 11:39:42,201 -INFO - PAYTM.NS - Process function Ended
+2025-01-01 11:40:14,054 -INFO - PRESTIGE.NS -  two_line_structure function Ended
+2025-01-01 11:40:16,198 -INFO - All stocks - Excel file Saved
+2025-01-01 11:40:16,403 -INFO - All stocks - json file saved
+2025-01-01 11:40:16,403 -INFO - MAXHEALTH.NS - alerts file Saved
+2025-01-01 11:40:16,403 -INFO - MAXHEALTH.NS - Process function Ended
+2025-01-01 11:40:16,932 -INFO - All stocks - Excel file Saved
+2025-01-01 11:40:16,982 -INFO - All stocks - json file saved
+2025-01-01 11:40:16,999 -INFO - LODHA.NS - alerts file Saved
+2025-01-01 11:40:17,027 -INFO - LODHA.NS - Process function Ended
+2025-01-01 11:40:46,486 -INFO - PRESTIGE.NS -  detect_structure function Ended
+2025-01-01 11:40:46,674 -INFO - PRESTIGE.NS - add_ph_pl_values function started
+2025-01-01 11:40:49,258 -INFO - PRESTIGE.NS - add_ph_pl_values function Ended
+2025-01-01 11:40:59,551 -INFO - GODREJPROP.NS - last n two_line_structure function Ended
+2025-01-01 11:41:03,360 -INFO - All stocks - Excel file Saved
+2025-01-01 11:41:03,380 -INFO - All stocks - json file saved
+2025-01-01 11:41:03,381 -INFO - DIXON.NS - alerts file Saved
+2025-01-01 11:41:03,383 -INFO - DIXON.NS - Process function Ended
+2025-01-01 11:41:04,368 -INFO - All stocks - Excel file Saved
+2025-01-01 11:41:04,404 -INFO - All stocks - json file saved
+2025-01-01 11:41:04,404 -INFO - HUDCO.NS - alerts file Saved
+2025-01-01 11:41:04,404 -INFO - HUDCO.NS - Process function Ended
+2025-01-01 11:41:04,636 -INFO - All stocks - Excel file Saved
+2025-01-01 11:41:04,646 -INFO - All stocks - json file saved
+2025-01-01 11:41:04,647 -INFO - CDSL.NS - alerts file Saved
+2025-01-01 11:41:04,648 -INFO - CDSL.NS - Process function Ended
+2025-01-01 11:41:23,238 -INFO - PAGEIND.NS - last n two_line_structure function Ended
+2025-01-01 11:41:24,280 -INFO - GODREJPROP.NS - last n detect_structure function Ended
+2025-01-01 11:41:24,291 -INFO - GODREJPROP.NS - add_ph_pl_values function started
+2025-01-01 11:41:24,413 -INFO - GODREJPROP.NS - add_ph_pl_values function Ended
+2025-01-01 11:41:33,233 -INFO - JKCEMENT.NS - last n two_line_structure function Ended
+2025-01-01 11:42:02,539 -INFO - PAGEIND.NS - last n detect_structure function Ended
+2025-01-01 11:42:02,559 -INFO - PAGEIND.NS - add_ph_pl_values function started
+2025-01-01 11:42:02,665 -INFO - PAGEIND.NS - add_ph_pl_values function Ended
+2025-01-01 11:42:11,569 -INFO - BAJFINANCE.NS - last n two_line_structure function Ended
+2025-01-01 11:42:11,918 -INFO - ASHOKLEY.NS - last n two_line_structure function Ended
+2025-01-01 11:42:11,943 -INFO - JKCEMENT.NS - last n detect_structure function Ended
+2025-01-01 11:42:12,000 -INFO - JKCEMENT.NS - add_ph_pl_values function started
+2025-01-01 11:42:12,019 -INFO - JKCEMENT.NS - add_ph_pl_values function Ended
+2025-01-01 11:42:19,778 -INFO - CUMMINSIND.NS - last n two_line_structure function Ended
+2025-01-01 11:42:19,899 -INFO - All stocks - Excel file Saved
+2025-01-01 11:42:19,907 -INFO - All stocks - json file saved
+2025-01-01 11:42:19,907 -INFO - PRESTIGE.NS - alerts file Saved
+2025-01-01 11:42:19,907 -INFO - PRESTIGE.NS - Process function Ended
+2025-01-01 11:42:19,929 -INFO - ABB.NS - last n two_line_structure function Ended
+2025-01-01 11:42:29,733 -INFO - SHREECEM.NS - last n two_line_structure function Ended
+2025-01-01 11:42:47,531 -INFO - All stocks - Excel file Saved
+2025-01-01 11:42:47,547 -INFO - All stocks - json file saved
+2025-01-01 11:42:47,547 -INFO - GODREJPROP.NS - alerts file Saved
+2025-01-01 11:42:47,547 -INFO - GODREJPROP.NS - Process function Ended
+2025-01-01 11:43:00,649 -INFO - BAJFINANCE.NS - last n detect_structure function Ended
+2025-01-01 11:43:00,653 -INFO - BAJFINANCE.NS - add_ph_pl_values function started
+2025-01-01 11:43:00,668 -INFO - BAJFINANCE.NS - add_ph_pl_values function Ended
+2025-01-01 11:43:01,659 -INFO - CUMMINSIND.NS - last n detect_structure function Ended
+2025-01-01 11:43:01,662 -INFO - CUMMINSIND.NS - add_ph_pl_values function started
+2025-01-01 11:43:01,670 -INFO - CUMMINSIND.NS - add_ph_pl_values function Ended
+2025-01-01 11:43:07,338 -INFO - ABB.NS - last n detect_structure function Ended
+2025-01-01 11:43:07,356 -INFO - ABB.NS - add_ph_pl_values function started
+2025-01-01 11:43:07,824 -INFO - ABB.NS - add_ph_pl_values function Ended
+2025-01-01 11:43:16,909 -INFO - All stocks - Excel file Saved
+2025-01-01 11:43:16,967 -INFO - All stocks - json file saved
+2025-01-01 11:43:16,967 -INFO - PAGEIND.NS - alerts file Saved
+2025-01-01 11:43:16,967 -INFO - PAGEIND.NS - Process function Ended
+2025-01-01 11:43:19,505 -INFO - ASHOKLEY.NS - last n detect_structure function Ended
+2025-01-01 11:43:19,551 -INFO - ASHOKLEY.NS - add_ph_pl_values function started
+2025-01-01 11:43:19,707 -INFO - ASHOKLEY.NS - add_ph_pl_values function Ended
+2025-01-01 11:43:31,004 -INFO - All stocks - Excel file Saved
+2025-01-01 11:43:31,005 -INFO - All stocks - json file saved
+2025-01-01 11:43:31,005 -INFO - JKCEMENT.NS - alerts file Saved
+2025-01-01 11:43:31,005 -INFO - JKCEMENT.NS - Process function Ended
+2025-01-01 11:43:31,456 -INFO - SHREECEM.NS - last n detect_structure function Ended
+2025-01-01 11:43:31,460 -INFO - SHREECEM.NS - add_ph_pl_values function started
+2025-01-01 11:43:31,496 -INFO - SHREECEM.NS - add_ph_pl_values function Ended
+2025-01-01 11:44:33,499 -INFO - All stocks - Excel file Saved
+2025-01-01 11:44:33,500 -INFO - All stocks - json file saved
+2025-01-01 11:44:33,500 -INFO - BAJFINANCE.NS - alerts file Saved
+2025-01-01 11:44:33,500 -INFO - BAJFINANCE.NS - Process function Ended
+2025-01-01 11:44:33,694 -INFO - All stocks - Excel file Saved
+2025-01-01 11:44:33,695 -INFO - All stocks - json file saved
+2025-01-01 11:44:33,695 -INFO - CUMMINSIND.NS - alerts file Saved
+2025-01-01 11:44:33,695 -INFO - CUMMINSIND.NS - Process function Ended
+2025-01-01 11:44:33,704 -INFO - All stocks - Excel file Saved
+2025-01-01 11:44:33,704 -INFO - All stocks - json file saved
+2025-01-01 11:44:33,704 -INFO - ABB.NS - alerts file Saved
+2025-01-01 11:44:33,704 -INFO - ABB.NS - Process function Ended
+2025-01-01 11:44:33,888 -INFO - All stocks - Excel file Saved
+2025-01-01 11:44:33,888 -INFO - All stocks - json file saved
+2025-01-01 11:44:33,888 -INFO - ASHOKLEY.NS - alerts file Saved
+2025-01-01 11:44:33,888 -INFO - ASHOKLEY.NS - Process function Ended
+2025-01-01 11:44:37,658 -INFO - All stocks - Excel file Saved
+2025-01-01 11:44:37,659 -INFO - All stocks - json file saved
+2025-01-01 11:44:37,659 -INFO - SHREECEM.NS - alerts file Saved
+2025-01-01 11:44:37,659 -INFO - SHREECEM.NS - Process function Ended
+2025-01-01 11:44:55,701 -INFO - All stocks - Excel file Saved
+2025-01-01 11:44:55,702 -INFO - All stocks - json file saved
+2025-01-01 11:45:13,933 -INFO - All stocks - Excel file Saved
+2025-01-01 11:45:13,933 -INFO - All stocks - json file saved
