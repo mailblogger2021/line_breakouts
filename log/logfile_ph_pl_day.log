@@ -17066,3 +17066,66 @@ ValueError: operands could not be broadcast together with shapes (42323,) (42085
 2025-01-01 11:44:55,702 -INFO - All stocks - json file saved
 2025-01-01 11:45:13,933 -INFO - All stocks - Excel file Saved
 2025-01-01 11:45:13,933 -INFO - All stocks - json file saved
+2025-01-02 11:37:43,816 -INFO - Started...
+2025-01-02 11:37:44,807 -INFO - Started...
+2025-01-02 11:37:53,845 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2025-01-02 11:37:53,846 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2025-01-02 11:37:54,518 -INFO - LUPIN.NS - Process function started
+2025-01-02 11:37:54,518 -INFO - SUPREMEIND.NS - Process function started
+2025-01-02 11:37:54,519 -INFO - LUPIN.NS - Reading existing data...
+2025-01-02 11:37:54,519 -INFO - ABBOTINDIA.NS - Process function started
+2025-01-02 11:37:54,519 -INFO - JSWENERGY.NS - Process function started
+2025-01-02 11:37:54,528 -INFO - ABBOTINDIA.NS - Reading existing data...
+2025-01-02 11:37:54,529 -INFO - JSWENERGY.NS - Reading existing data...
+2025-01-02 11:37:54,529 -INFO - SUPREMEIND.NS - isPivot function started
+2025-01-02 11:37:55,223 -INFO - SUPREMEIND.NS - isPivot function Ended
+2025-01-02 11:37:55,224 -INFO - SUPREMEIND.NS -  detect_structure function started
+2025-01-02 11:37:55,227 -INFO - SUPREMEIND.NS -  two_line_structure function started
+2025-01-02 11:37:56,323 -INFO - last n isPivot function started
+2025-01-02 11:37:56,390 -INFO - last n isPivot function started
+2025-01-02 11:37:56,686 -INFO - last n isPivot function started
+2025-01-02 11:37:57,530 -INFO - last n isPivot function Ended
+2025-01-02 11:37:57,543 -INFO - last n isPivot function Ended
+2025-01-02 11:37:57,708 -INFO - JSWENERGY.NS - last n detect_structure function started
+2025-01-02 11:37:57,721 -INFO - JSWENERGY.NS - last n two_line_structure function started
+2025-01-02 11:37:57,721 -INFO - LUPIN.NS - last n detect_structure function started
+2025-01-02 11:37:57,725 -INFO - LUPIN.NS - last n two_line_structure function started
+2025-01-02 11:37:58,177 -INFO - last n isPivot function Ended
+2025-01-02 11:37:58,180 -INFO - ABBOTINDIA.NS - last n detect_structure function started
+2025-01-02 11:37:58,185 -INFO - ABBOTINDIA.NS - last n two_line_structure function started
+2025-01-02 11:39:04,406 -INFO - JSWENERGY.NS - last n two_line_structure function Ended
+2025-01-02 11:39:16,318 -INFO - JSWENERGY.NS - last n detect_structure function Ended
+2025-01-02 11:39:16,319 -INFO - JSWENERGY.NS - add_ph_pl_values function started
+2025-01-02 11:39:16,353 -INFO - JSWENERGY.NS - add_ph_pl_values function Ended
+2025-01-02 11:39:24,017 -INFO - ABBOTINDIA.NS - last n two_line_structure function Ended
+2025-01-02 11:39:25,744 -INFO - SUPREMEIND.NS -  two_line_structure function Ended
+2025-01-02 11:39:33,425 -INFO - ABBOTINDIA.NS - last n detect_structure function Ended
+2025-01-02 11:39:33,428 -INFO - ABBOTINDIA.NS - add_ph_pl_values function started
+2025-01-02 11:39:33,455 -INFO - ABBOTINDIA.NS - add_ph_pl_values function Ended
+2025-01-02 11:39:34,336 -INFO - SUPREMEIND.NS -  detect_structure function Ended
+2025-01-02 11:39:34,341 -INFO - SUPREMEIND.NS - add_ph_pl_values function started
+2025-01-02 11:39:34,382 -INFO - SUPREMEIND.NS - add_ph_pl_values function Ended
+2025-01-02 11:39:37,377 -INFO - LUPIN.NS - last n two_line_structure function Ended
+2025-01-02 11:40:01,563 -INFO - All stocks - Excel file Saved
+2025-01-02 11:40:01,566 -INFO - All stocks - json file saved
+2025-01-02 11:40:01,566 -INFO - JSWENERGY.NS - alerts file Saved
+2025-01-02 11:40:01,566 -INFO - JSWENERGY.NS - Process function Ended
+2025-01-02 11:40:13,575 -INFO - LUPIN.NS - last n detect_structure function Ended
+2025-01-02 11:40:13,576 -INFO - LUPIN.NS - add_ph_pl_values function started
+2025-01-02 11:40:13,580 -INFO - LUPIN.NS - add_ph_pl_values function Ended
+2025-01-02 11:40:27,848 -INFO - All stocks - Excel file Saved
+2025-01-02 11:40:27,849 -INFO - All stocks - json file saved
+2025-01-02 11:40:27,849 -INFO - SUPREMEIND.NS - alerts file Saved
+2025-01-02 11:40:27,849 -INFO - SUPREMEIND.NS - Process function Ended
+2025-01-02 11:40:27,851 -INFO - All stocks - Excel file Saved
+2025-01-02 11:40:27,851 -INFO - All stocks - json file saved
+2025-01-02 11:40:27,851 -INFO - ABBOTINDIA.NS - alerts file Saved
+2025-01-02 11:40:27,851 -INFO - ABBOTINDIA.NS - Process function Ended
+2025-01-02 11:40:36,771 -INFO - All stocks - Excel file Saved
+2025-01-02 11:40:36,771 -INFO - All stocks - json file saved
+2025-01-02 11:40:36,771 -INFO - LUPIN.NS - alerts file Saved
+2025-01-02 11:40:36,771 -INFO - LUPIN.NS - Process function Ended
+2025-01-02 11:40:53,341 -INFO - All stocks - Excel file Saved
+2025-01-02 11:40:53,341 -INFO - All stocks - json file saved
+2025-01-02 11:41:10,331 -INFO - All stocks - Excel file Saved
+2025-01-02 11:41:10,331 -INFO - All stocks - json file saved
