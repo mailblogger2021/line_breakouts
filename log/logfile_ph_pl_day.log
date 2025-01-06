@@ -17129,3 +17129,321 @@ ValueError: operands could not be broadcast together with shapes (42323,) (42085
 2025-01-02 11:40:53,341 -INFO - All stocks - json file saved
 2025-01-02 11:41:10,331 -INFO - All stocks - Excel file Saved
 2025-01-02 11:41:10,331 -INFO - All stocks - json file saved
+2025-01-06 11:36:54,901 -INFO - Started...
+2025-01-06 11:36:55,895 -INFO - Started...
+2025-01-06 11:37:04,738 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2025-01-06 11:37:08,150 -ERROR - 
+1 Failed download:
+2025-01-06 11:37:08,150 -ERROR - ['ADANIENSOL.NS']: OperationalError('database is locked')
+2025-01-06 11:37:08,562 -INFO - SHRIRAMFIN.NS - Process function started
+2025-01-06 11:37:08,562 -INFO - WIPRO.NS - Process function started
+2025-01-06 11:37:08,562 -INFO - SHRIRAMFIN.NS - Reading existing data...
+2025-01-06 11:37:08,562 -INFO - WIPRO.NS - Reading existing data...
+2025-01-06 11:37:08,563 -INFO - IDEA.NS - Process function started
+2025-01-06 11:37:08,563 -INFO - IDEA.NS - Reading existing data...
+2025-01-06 11:37:08,563 -INFO - PERSISTENT.NS - Process function started
+2025-01-06 11:37:08,563 -INFO - IDFCFIRSTB.NS - Process function started
+2025-01-06 11:37:08,563 -INFO - PERSISTENT.NS - Reading existing data...
+2025-01-06 11:37:08,563 -INFO - VBL.NS - Process function started
+2025-01-06 11:37:08,564 -INFO - NESTLEIND.NS - Process function started
+2025-01-06 11:37:08,564 -INFO - IDFCFIRSTB.NS - Reading existing data...
+2025-01-06 11:37:08,564 -INFO - RBLBANK.NS - Process function started
+2025-01-06 11:37:08,564 -INFO - RELIANCE.NS - Process function started
+2025-01-06 11:37:08,564 -INFO - VBL.NS - Reading existing data...
+2025-01-06 11:37:08,565 -INFO - INDUSINDBK.NS - Process function started
+2025-01-06 11:37:08,566 -INFO - NESTLEIND.NS - Reading existing data...
+2025-01-06 11:37:08,566 -INFO - TATACONSUM.NS - Process function started
+2025-01-06 11:37:08,566 -INFO - FEDERALBNK.NS - Process function started
+2025-01-06 11:37:08,566 -INFO - RBLBANK.NS - Reading existing data...
+2025-01-06 11:37:08,567 -INFO - RELIANCE.NS - Reading existing data...
+2025-01-06 11:37:08,567 -INFO - KEI.NS - Process function started
+2025-01-06 11:37:08,567 -INFO - BSE.NS - Process function started
+2025-01-06 11:37:08,567 -INFO - INDUSINDBK.NS - Reading existing data...
+2025-01-06 11:37:08,568 -INFO - INDIGO.NS - Process function started
+2025-01-06 11:37:08,568 -INFO - TIINDIA.NS - Process function started
+2025-01-06 11:37:08,569 -INFO - TATACONSUM.NS - Reading existing data...
+2025-01-06 11:37:08,569 -INFO - DMART.NS - Process function started
+2025-01-06 11:37:08,569 -INFO - FEDERALBNK.NS - Reading existing data...
+2025-01-06 11:37:08,570 -INFO - AUBANK.NS - Process function started
+2025-01-06 11:37:08,570 -INFO - KOTAKBANK.NS - Process function started
+2025-01-06 11:37:08,571 -INFO - KEI.NS - Reading existing data...
+2025-01-06 11:37:08,571 -INFO - M&M.NS - Process function started
+2025-01-06 11:37:08,571 -INFO - BSE.NS - Reading existing data...
+2025-01-06 11:37:08,571 -INFO - TORNTPHARM.NS - Process function started
+2025-01-06 11:37:08,572 -INFO - TRENT.NS - Process function started
+2025-01-06 11:37:08,572 -INFO - INDIGO.NS - Reading existing data...
+2025-01-06 11:37:08,572 -INFO - TIINDIA.NS - Reading existing data...
+2025-01-06 11:37:08,573 -INFO - DMART.NS - Reading existing data...
+2025-01-06 11:37:08,574 -INFO - KOTAKBANK.NS - Reading existing data...
+2025-01-06 11:37:08,574 -INFO - AUBANK.NS - Reading existing data...
+2025-01-06 11:37:08,575 -INFO - M&M.NS - Reading existing data...
+2025-01-06 11:37:08,582 -INFO - TORNTPHARM.NS - Reading existing data...
+2025-01-06 11:37:08,583 -INFO - TRENT.NS - Reading existing data...
+2025-01-06 11:37:09,624 -INFO - last n isPivot function started
+2025-01-06 11:37:09,933 -INFO - last n isPivot function started
+2025-01-06 11:37:10,816 -INFO - last n isPivot function Ended
+2025-01-06 11:37:10,816 -INFO - SHRIRAMFIN.NS - last n detect_structure function started
+2025-01-06 11:37:10,821 -INFO - SHRIRAMFIN.NS - last n two_line_structure function started
+2025-01-06 11:37:10,821 -INFO - last n isPivot function Ended
+2025-01-06 11:37:10,825 -INFO - IDEA.NS - last n detect_structure function started
+2025-01-06 11:37:10,829 -INFO - IDEA.NS - last n two_line_structure function started
+2025-01-06 11:37:10,870 -INFO - last n isPivot function started
+2025-01-06 11:37:12,111 -INFO - last n isPivot function Ended
+2025-01-06 11:37:12,226 -INFO - WIPRO.NS - last n detect_structure function started
+2025-01-06 11:37:12,244 -INFO - WIPRO.NS - last n two_line_structure function started
+2025-01-06 11:37:12,434 -INFO - last n isPivot function started
+2025-01-06 11:37:12,847 -INFO - last n isPivot function Ended
+2025-01-06 11:37:12,847 -INFO - IDFCFIRSTB.NS - last n detect_structure function started
+2025-01-06 11:37:12,886 -INFO - IDFCFIRSTB.NS - last n two_line_structure function started
+2025-01-06 11:37:13,608 -INFO - last n isPivot function started
+2025-01-06 11:37:14,509 -INFO - last n isPivot function Ended
+2025-01-06 11:37:14,509 -INFO - PERSISTENT.NS - last n detect_structure function started
+2025-01-06 11:37:14,523 -INFO - PERSISTENT.NS - last n two_line_structure function started
+2025-01-06 11:37:14,774 -INFO - last n isPivot function started
+2025-01-06 11:37:15,155 -INFO - last n isPivot function started
+2025-01-06 11:37:15,238 -INFO - last n isPivot function Ended
+2025-01-06 11:37:15,238 -INFO - VBL.NS - last n detect_structure function started
+2025-01-06 11:37:15,319 -INFO - VBL.NS - last n two_line_structure function started
+2025-01-06 11:37:15,951 -INFO - last n isPivot function started
+2025-01-06 11:37:16,214 -INFO - last n isPivot function Ended
+2025-01-06 11:37:16,214 -INFO - RBLBANK.NS - last n detect_structure function started
+2025-01-06 11:37:16,221 -INFO - RBLBANK.NS - last n two_line_structure function started
+2025-01-06 11:37:17,098 -INFO - last n isPivot function started
+2025-01-06 11:37:17,126 -INFO - last n isPivot function started
+2025-01-06 11:37:19,002 -INFO - last n isPivot function started
+2025-01-06 11:37:19,212 -INFO - last n isPivot function Ended
+2025-01-06 11:37:19,218 -INFO - last n isPivot function Ended
+2025-01-06 11:37:19,435 -INFO - INDUSINDBK.NS - last n detect_structure function started
+2025-01-06 11:37:19,437 -INFO - INDUSINDBK.NS - last n two_line_structure function started
+2025-01-06 11:37:19,487 -INFO - NESTLEIND.NS - last n detect_structure function started
+2025-01-06 11:37:19,491 -INFO - NESTLEIND.NS - last n two_line_structure function started
+2025-01-06 11:37:19,674 -INFO - last n isPivot function Ended
+2025-01-06 11:37:20,051 -INFO - last n isPivot function Ended
+2025-01-06 11:37:20,085 -INFO - KEI.NS - last n detect_structure function started
+2025-01-06 11:37:20,145 -INFO - KEI.NS - last n two_line_structure function started
+2025-01-06 11:37:20,177 -INFO - BSE.NS - last n detect_structure function started
+2025-01-06 11:37:20,182 -INFO - BSE.NS - last n two_line_structure function started
+2025-01-06 11:37:20,336 -INFO - last n isPivot function started
+2025-01-06 11:37:20,407 -INFO - last n isPivot function started
+2025-01-06 11:37:20,995 -INFO - last n isPivot function started
+2025-01-06 11:37:21,078 -INFO - last n isPivot function Ended
+2025-01-06 11:37:21,078 -INFO - INDIGO.NS - last n detect_structure function started
+2025-01-06 11:37:21,188 -INFO - INDIGO.NS - last n two_line_structure function started
+2025-01-06 11:37:21,568 -INFO - last n isPivot function started
+2025-01-06 11:37:21,725 -INFO - last n isPivot function Ended
+2025-01-06 11:37:21,726 -INFO - AUBANK.NS - last n detect_structure function started
+2025-01-06 11:37:21,728 -INFO - AUBANK.NS - last n two_line_structure function started
+2025-01-06 11:37:21,735 -INFO - last n isPivot function Ended
+2025-01-06 11:37:21,736 -INFO - DMART.NS - last n detect_structure function started
+2025-01-06 11:37:21,891 -INFO - DMART.NS - last n two_line_structure function started
+2025-01-06 11:37:22,193 -INFO - last n isPivot function Ended
+2025-01-06 11:37:22,194 -INFO - TIINDIA.NS - last n detect_structure function started
+2025-01-06 11:37:22,249 -INFO - TIINDIA.NS - last n two_line_structure function started
+2025-01-06 11:37:22,616 -INFO - last n isPivot function started
+2025-01-06 11:37:22,617 -INFO - last n isPivot function started
+2025-01-06 11:37:22,816 -INFO - last n isPivot function started
+2025-01-06 11:37:24,531 -INFO - last n isPivot function Ended
+2025-01-06 11:37:24,573 -INFO - TORNTPHARM.NS - last n detect_structure function started
+2025-01-06 11:37:24,585 -INFO - TORNTPHARM.NS - last n two_line_structure function started
+2025-01-06 11:37:24,796 -INFO - last n isPivot function started
+2025-01-06 11:37:25,292 -INFO - last n isPivot function started
+2025-01-06 11:37:25,582 -INFO - last n isPivot function Ended
+2025-01-06 11:37:25,751 -INFO - KOTAKBANK.NS - last n detect_structure function started
+2025-01-06 11:37:25,774 -INFO - KOTAKBANK.NS - last n two_line_structure function started
+2025-01-06 11:37:25,870 -INFO - last n isPivot function started
+2025-01-06 11:37:26,873 -INFO - last n isPivot function Ended
+2025-01-06 11:37:26,965 -INFO - last n isPivot function Ended
+2025-01-06 11:37:27,438 -INFO - RELIANCE.NS - last n detect_structure function started
+2025-01-06 11:37:27,444 -INFO - FEDERALBNK.NS - last n detect_structure function started
+2025-01-06 11:37:27,525 -INFO - RELIANCE.NS - last n two_line_structure function started
+2025-01-06 11:37:27,609 -INFO - FEDERALBNK.NS - last n two_line_structure function started
+2025-01-06 11:37:27,861 -INFO - last n isPivot function started
+2025-01-06 11:37:27,954 -INFO - last n isPivot function Ended
+2025-01-06 11:37:28,111 -INFO - M&M.NS - last n detect_structure function started
+2025-01-06 11:37:28,116 -INFO - M&M.NS - last n two_line_structure function started
+2025-01-06 11:37:28,152 -INFO - last n isPivot function Ended
+2025-01-06 11:37:28,152 -INFO - TRENT.NS - last n detect_structure function started
+2025-01-06 11:37:28,164 -INFO - TRENT.NS - last n two_line_structure function started
+2025-01-06 11:37:29,305 -INFO - last n isPivot function Ended
+2025-01-06 11:37:29,321 -INFO - TATACONSUM.NS - last n detect_structure function started
+2025-01-06 11:37:29,324 -INFO - TATACONSUM.NS - last n two_line_structure function started
+2025-01-06 11:39:24,529 -INFO - TIINDIA.NS - last n two_line_structure function Ended
+2025-01-06 11:39:30,451 -INFO - AUBANK.NS - last n two_line_structure function Ended
+2025-01-06 11:39:34,131 -INFO - BSE.NS - last n two_line_structure function Ended
+2025-01-06 11:39:34,515 -INFO - DMART.NS - last n two_line_structure function Ended
+2025-01-06 11:39:42,104 -INFO - RBLBANK.NS - last n two_line_structure function Ended
+2025-01-06 11:39:47,450 -INFO - VBL.NS - last n two_line_structure function Ended
+2025-01-06 11:39:51,201 -INFO - TIINDIA.NS - last n detect_structure function Ended
+2025-01-06 11:39:51,252 -INFO - TIINDIA.NS - add_ph_pl_values function started
+2025-01-06 11:39:51,540 -INFO - TIINDIA.NS - add_ph_pl_values function Ended
+2025-01-06 11:39:54,603 -INFO - INDIGO.NS - last n two_line_structure function Ended
+2025-01-06 11:40:04,054 -INFO - IDFCFIRSTB.NS - last n two_line_structure function Ended
+2025-01-06 11:40:05,727 -INFO - AUBANK.NS - last n detect_structure function Ended
+2025-01-06 11:40:05,763 -INFO - AUBANK.NS - add_ph_pl_values function started
+2025-01-06 11:40:06,036 -INFO - AUBANK.NS - add_ph_pl_values function Ended
+2025-01-06 11:40:06,984 -INFO - BSE.NS - last n detect_structure function Ended
+2025-01-06 11:40:07,012 -INFO - BSE.NS - add_ph_pl_values function started
+2025-01-06 11:40:07,336 -INFO - BSE.NS - add_ph_pl_values function Ended
+2025-01-06 11:40:19,734 -INFO - DMART.NS - last n detect_structure function Ended
+2025-01-06 11:40:19,945 -INFO - DMART.NS - add_ph_pl_values function started
+2025-01-06 11:40:22,740 -INFO - DMART.NS - add_ph_pl_values function Ended
+2025-01-06 11:40:56,212 -INFO - RBLBANK.NS - last n detect_structure function Ended
+2025-01-06 11:40:56,235 -INFO - RBLBANK.NS - add_ph_pl_values function started
+2025-01-06 11:40:56,699 -INFO - RBLBANK.NS - add_ph_pl_values function Ended
+2025-01-06 11:41:18,941 -INFO - VBL.NS - last n detect_structure function Ended
+2025-01-06 11:41:19,029 -INFO - VBL.NS - add_ph_pl_values function started
+2025-01-06 11:41:19,311 -INFO - VBL.NS - add_ph_pl_values function Ended
+2025-01-06 11:41:22,440 -INFO - INDIGO.NS - last n detect_structure function Ended
+2025-01-06 11:41:22,487 -INFO - INDIGO.NS - add_ph_pl_values function started
+2025-01-06 11:41:22,810 -INFO - INDIGO.NS - add_ph_pl_values function Ended
+2025-01-06 11:41:49,617 -INFO - IDFCFIRSTB.NS - last n detect_structure function Ended
+2025-01-06 11:41:49,975 -INFO - IDFCFIRSTB.NS - add_ph_pl_values function started
+2025-01-06 11:41:50,915 -INFO - IDFCFIRSTB.NS - add_ph_pl_values function Ended
+2025-01-06 11:44:15,761 -INFO - PERSISTENT.NS - last n two_line_structure function Ended
+2025-01-06 11:45:07,965 -INFO - All stocks - Excel file Saved
+2025-01-06 11:45:07,995 -INFO - All stocks - json file saved
+2025-01-06 11:45:07,996 -INFO - TIINDIA.NS - alerts file Saved
+2025-01-06 11:45:07,996 -INFO - TIINDIA.NS - Process function Ended
+2025-01-06 11:45:22,464 -INFO - All stocks - Excel file Saved
+2025-01-06 11:45:22,496 -INFO - All stocks - json file saved
+2025-01-06 11:45:22,497 -INFO - BSE.NS - alerts file Saved
+2025-01-06 11:45:22,498 -INFO - BSE.NS - Process function Ended
+2025-01-06 11:45:26,551 -INFO - All stocks - Excel file Saved
+2025-01-06 11:45:26,760 -INFO - All stocks - json file saved
+2025-01-06 11:45:26,760 -INFO - DMART.NS - alerts file Saved
+2025-01-06 11:45:26,764 -INFO - DMART.NS - Process function Ended
+2025-01-06 11:45:26,856 -INFO - All stocks - Excel file Saved
+2025-01-06 11:45:27,002 -INFO - All stocks - json file saved
+2025-01-06 11:45:27,002 -INFO - AUBANK.NS - alerts file Saved
+2025-01-06 11:45:27,002 -INFO - AUBANK.NS - Process function Ended
+2025-01-06 11:45:33,394 -INFO - PERSISTENT.NS - last n detect_structure function Ended
+2025-01-06 11:45:33,418 -INFO - PERSISTENT.NS - add_ph_pl_values function started
+2025-01-06 11:45:33,567 -INFO - PERSISTENT.NS - add_ph_pl_values function Ended
+2025-01-06 11:45:34,962 -INFO - IDEA.NS - last n two_line_structure function Ended
+2025-01-06 11:45:36,510 -INFO - All stocks - Excel file Saved
+2025-01-06 11:45:36,522 -INFO - All stocks - json file saved
+2025-01-06 11:45:36,524 -INFO - RBLBANK.NS - alerts file Saved
+2025-01-06 11:45:36,527 -INFO - RBLBANK.NS - Process function Ended
+2025-01-06 11:45:46,776 -INFO - All stocks - Excel file Saved
+2025-01-06 11:45:46,798 -INFO - All stocks - json file saved
+2025-01-06 11:45:46,798 -INFO - INDIGO.NS - alerts file Saved
+2025-01-06 11:45:46,802 -INFO - INDIGO.NS - Process function Ended
+2025-01-06 11:45:47,667 -INFO - All stocks - Excel file Saved
+2025-01-06 11:45:47,687 -INFO - All stocks - json file saved
+2025-01-06 11:45:47,687 -INFO - VBL.NS - alerts file Saved
+2025-01-06 11:45:47,687 -INFO - VBL.NS - Process function Ended
+2025-01-06 11:45:48,335 -INFO - All stocks - Excel file Saved
+2025-01-06 11:45:48,359 -INFO - All stocks - json file saved
+2025-01-06 11:45:48,360 -INFO - IDFCFIRSTB.NS - alerts file Saved
+2025-01-06 11:45:48,369 -INFO - IDFCFIRSTB.NS - Process function Ended
+2025-01-06 11:45:53,557 -INFO - KEI.NS - last n two_line_structure function Ended
+2025-01-06 11:46:01,365 -INFO - NESTLEIND.NS - last n two_line_structure function Ended
+2025-01-06 11:46:25,350 -INFO - IDEA.NS - last n detect_structure function Ended
+2025-01-06 11:46:25,374 -INFO - IDEA.NS - add_ph_pl_values function started
+2025-01-06 11:46:25,465 -INFO - IDEA.NS - add_ph_pl_values function Ended
+2025-01-06 11:46:45,182 -INFO - KEI.NS - last n detect_structure function Ended
+2025-01-06 11:46:45,216 -INFO - KEI.NS - add_ph_pl_values function started
+2025-01-06 11:46:45,311 -INFO - KEI.NS - add_ph_pl_values function Ended
+2025-01-06 11:46:51,813 -INFO - TORNTPHARM.NS - last n two_line_structure function Ended
+2025-01-06 11:46:56,281 -INFO - TRENT.NS - last n two_line_structure function Ended
+2025-01-06 11:46:58,058 -INFO - INDUSINDBK.NS - last n two_line_structure function Ended
+2025-01-06 11:46:58,561 -INFO - SHRIRAMFIN.NS - last n two_line_structure function Ended
+2025-01-06 11:46:59,369 -INFO - NESTLEIND.NS - last n detect_structure function Ended
+2025-01-06 11:46:59,414 -INFO - NESTLEIND.NS - add_ph_pl_values function started
+2025-01-06 11:46:59,514 -INFO - NESTLEIND.NS - add_ph_pl_values function Ended
+2025-01-06 11:47:10,855 -INFO - KOTAKBANK.NS - last n two_line_structure function Ended
+2025-01-06 11:47:37,586 -INFO - All stocks - Excel file Saved
+2025-01-06 11:47:37,685 -INFO - All stocks - json file saved
+2025-01-06 11:47:37,685 -INFO - PERSISTENT.NS - alerts file Saved
+2025-01-06 11:47:37,687 -INFO - PERSISTENT.NS - Process function Ended
+2025-01-06 11:47:53,557 -INFO - TRENT.NS - last n detect_structure function Ended
+2025-01-06 11:47:53,571 -INFO - TRENT.NS - add_ph_pl_values function started
+2025-01-06 11:47:53,611 -INFO - TRENT.NS - add_ph_pl_values function Ended
+2025-01-06 11:47:54,809 -INFO - TORNTPHARM.NS - last n detect_structure function Ended
+2025-01-06 11:47:54,829 -INFO - TORNTPHARM.NS - add_ph_pl_values function started
+2025-01-06 11:47:54,938 -INFO - TORNTPHARM.NS - add_ph_pl_values function Ended
+2025-01-06 11:48:18,429 -INFO - SHRIRAMFIN.NS - last n detect_structure function Ended
+2025-01-06 11:48:18,445 -INFO - SHRIRAMFIN.NS - add_ph_pl_values function started
+2025-01-06 11:48:18,525 -INFO - SHRIRAMFIN.NS - add_ph_pl_values function Ended
+2025-01-06 11:48:32,663 -INFO - INDUSINDBK.NS - last n detect_structure function Ended
+2025-01-06 11:48:32,691 -INFO - INDUSINDBK.NS - add_ph_pl_values function started
+2025-01-06 11:48:32,797 -INFO - INDUSINDBK.NS - add_ph_pl_values function Ended
+2025-01-06 11:48:33,491 -INFO - KOTAKBANK.NS - last n detect_structure function Ended
+2025-01-06 11:48:33,502 -INFO - KOTAKBANK.NS - add_ph_pl_values function started
+2025-01-06 11:48:33,577 -INFO - KOTAKBANK.NS - add_ph_pl_values function Ended
+2025-01-06 11:48:54,535 -INFO - All stocks - Excel file Saved
+2025-01-06 11:48:54,548 -INFO - All stocks - json file saved
+2025-01-06 11:48:54,548 -INFO - IDEA.NS - alerts file Saved
+2025-01-06 11:48:54,549 -INFO - IDEA.NS - Process function Ended
+2025-01-06 11:49:01,562 -INFO - All stocks - Excel file Saved
+2025-01-06 11:49:01,585 -INFO - All stocks - json file saved
+2025-01-06 11:49:01,587 -INFO - KEI.NS - alerts file Saved
+2025-01-06 11:49:01,588 -INFO - KEI.NS - Process function Ended
+2025-01-06 11:49:01,962 -INFO - FEDERALBNK.NS - last n two_line_structure function Ended
+2025-01-06 11:49:02,050 -INFO - TATACONSUM.NS - last n two_line_structure function Ended
+2025-01-06 11:49:02,057 -INFO - RELIANCE.NS - last n two_line_structure function Ended
+2025-01-06 11:49:02,629 -INFO - M&M.NS - last n two_line_structure function Ended
+2025-01-06 11:49:12,110 -INFO - All stocks - Excel file Saved
+2025-01-06 11:49:12,117 -INFO - All stocks - json file saved
+2025-01-06 11:49:12,117 -INFO - NESTLEIND.NS - alerts file Saved
+2025-01-06 11:49:12,117 -INFO - NESTLEIND.NS - Process function Ended
+2025-01-06 11:49:45,984 -INFO - WIPRO.NS - last n two_line_structure function Ended
+2025-01-06 11:49:52,743 -INFO - All stocks - Excel file Saved
+2025-01-06 11:49:52,747 -INFO - All stocks - json file saved
+2025-01-06 11:49:52,747 -INFO - TRENT.NS - alerts file Saved
+2025-01-06 11:49:52,747 -INFO - TRENT.NS - Process function Ended
+2025-01-06 11:49:56,530 -INFO - All stocks - Excel file Saved
+2025-01-06 11:49:56,533 -INFO - All stocks - json file saved
+2025-01-06 11:49:56,533 -INFO - TORNTPHARM.NS - alerts file Saved
+2025-01-06 11:49:56,533 -INFO - TORNTPHARM.NS - Process function Ended
+2025-01-06 11:50:03,094 -INFO - All stocks - Excel file Saved
+2025-01-06 11:50:03,099 -INFO - All stocks - json file saved
+2025-01-06 11:50:03,100 -INFO - SHRIRAMFIN.NS - alerts file Saved
+2025-01-06 11:50:03,100 -INFO - SHRIRAMFIN.NS - Process function Ended
+2025-01-06 11:50:05,384 -INFO - All stocks - Excel file Saved
+2025-01-06 11:50:05,391 -INFO - All stocks - json file saved
+2025-01-06 11:50:05,392 -INFO - INDUSINDBK.NS - alerts file Saved
+2025-01-06 11:50:05,393 -INFO - INDUSINDBK.NS - Process function Ended
+2025-01-06 11:50:05,872 -INFO - All stocks - Excel file Saved
+2025-01-06 11:50:05,886 -INFO - All stocks - json file saved
+2025-01-06 11:50:05,886 -INFO - KOTAKBANK.NS - alerts file Saved
+2025-01-06 11:50:05,886 -INFO - KOTAKBANK.NS - Process function Ended
+2025-01-06 11:50:05,955 -INFO - FEDERALBNK.NS - last n detect_structure function Ended
+2025-01-06 11:50:05,957 -INFO - FEDERALBNK.NS - add_ph_pl_values function started
+2025-01-06 11:50:05,983 -INFO - FEDERALBNK.NS - add_ph_pl_values function Ended
+2025-01-06 11:50:07,456 -INFO - RELIANCE.NS - last n detect_structure function Ended
+2025-01-06 11:50:07,458 -INFO - RELIANCE.NS - add_ph_pl_values function started
+2025-01-06 11:50:07,473 -INFO - RELIANCE.NS - add_ph_pl_values function Ended
+2025-01-06 11:50:08,386 -INFO - TATACONSUM.NS - last n detect_structure function Ended
+2025-01-06 11:50:08,388 -INFO - TATACONSUM.NS - add_ph_pl_values function started
+2025-01-06 11:50:08,409 -INFO - TATACONSUM.NS - add_ph_pl_values function Ended
+2025-01-06 11:50:26,988 -INFO - M&M.NS - last n detect_structure function Ended
+2025-01-06 11:50:26,989 -INFO - M&M.NS - add_ph_pl_values function started
+2025-01-06 11:50:26,999 -INFO - M&M.NS - add_ph_pl_values function Ended
+2025-01-06 11:50:34,084 -INFO - WIPRO.NS - last n detect_structure function Ended
+2025-01-06 11:50:34,085 -INFO - WIPRO.NS - add_ph_pl_values function started
+2025-01-06 11:50:34,089 -INFO - WIPRO.NS - add_ph_pl_values function Ended
+2025-01-06 11:51:32,352 -INFO - All stocks - Excel file Saved
+2025-01-06 11:51:32,352 -INFO - All stocks - json file saved
+2025-01-06 11:51:32,352 -INFO - FEDERALBNK.NS - alerts file Saved
+2025-01-06 11:51:32,352 -INFO - FEDERALBNK.NS - Process function Ended
+2025-01-06 11:51:32,368 -INFO - All stocks - Excel file Saved
+2025-01-06 11:51:32,368 -INFO - All stocks - json file saved
+2025-01-06 11:51:32,368 -INFO - TATACONSUM.NS - alerts file Saved
+2025-01-06 11:51:32,368 -INFO - TATACONSUM.NS - Process function Ended
+2025-01-06 11:51:35,694 -INFO - All stocks - Excel file Saved
+2025-01-06 11:51:35,694 -INFO - All stocks - json file saved
+2025-01-06 11:51:35,694 -INFO - RELIANCE.NS - alerts file Saved
+2025-01-06 11:51:35,694 -INFO - RELIANCE.NS - Process function Ended
+2025-01-06 11:51:35,903 -INFO - All stocks - Excel file Saved
+2025-01-06 11:51:35,904 -INFO - All stocks - json file saved
+2025-01-06 11:51:35,904 -INFO - M&M.NS - alerts file Saved
+2025-01-06 11:51:35,904 -INFO - M&M.NS - Process function Ended
+2025-01-06 11:51:39,194 -INFO - All stocks - Excel file Saved
+2025-01-06 11:51:39,194 -INFO - All stocks - json file saved
+2025-01-06 11:51:39,194 -INFO - WIPRO.NS - alerts file Saved
+2025-01-06 11:51:39,194 -INFO - WIPRO.NS - Process function Ended
+2025-01-06 11:51:57,256 -INFO - All stocks - Excel file Saved
+2025-01-06 11:51:57,257 -INFO - All stocks - json file saved
+2025-01-06 11:52:15,229 -INFO - All stocks - Excel file Saved
+2025-01-06 11:52:15,229 -INFO - All stocks - json file saved
