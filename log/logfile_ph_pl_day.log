@@ -18107,3 +18107,165 @@ ValueError: operands could not be broadcast together with shapes (42323,) (42085
 2025-01-13 11:45:03,405 -INFO - All stocks - json file saved
 2025-01-13 11:45:23,869 -INFO - All stocks - Excel file Saved
 2025-01-13 11:45:23,870 -INFO - All stocks - json file saved
+2025-01-14 11:35:21,730 -INFO - Started...
+2025-01-14 11:35:22,952 -INFO - Started...
+2025-01-14 11:35:32,583 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2025-01-14 11:35:32,583 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2025-01-14 11:35:34,796 -INFO - ALKEM.NS - Process function started
+2025-01-14 11:35:34,797 -INFO - LTIM.NS - Process function started
+2025-01-14 11:35:34,797 -INFO - ALKEM.NS - Reading existing data...
+2025-01-14 11:35:34,797 -INFO - COLPAL.NS - Process function started
+2025-01-14 11:35:34,798 -INFO - SBICARD.NS - Process function started
+2025-01-14 11:35:34,798 -INFO - LTIM.NS - Reading existing data...
+2025-01-14 11:35:34,798 -INFO - BAJFINANCE.NS - Process function started
+2025-01-14 11:35:34,799 -INFO - ICICIGI.NS - Process function started
+2025-01-14 11:35:34,800 -INFO - COLPAL.NS - Reading existing data...
+2025-01-14 11:35:34,800 -INFO - BHARTIARTL.NS - Process function started
+2025-01-14 11:35:34,800 -INFO - NAVINFLUOR.NS - Process function started
+2025-01-14 11:35:34,801 -INFO - SBICARD.NS - Reading existing data...
+2025-01-14 11:35:34,801 -INFO - UPL.NS - Process function started
+2025-01-14 11:35:34,804 -INFO - TITAN.NS - Process function started
+2025-01-14 11:35:34,804 -INFO - BAJFINANCE.NS - Reading existing data...
+2025-01-14 11:35:34,804 -INFO - BHARTIARTL.NS - Reading existing data...
+2025-01-14 11:35:34,804 -INFO - SUNPHARMA.NS - Process function started
+2025-01-14 11:35:34,805 -INFO - NAVINFLUOR.NS - Reading existing data...
+2025-01-14 11:35:34,805 -INFO - ICICIGI.NS - Reading existing data...
+2025-01-14 11:35:34,806 -INFO - UPL.NS - Reading existing data...
+2025-01-14 11:35:34,806 -INFO - TITAN.NS - Reading existing data...
+2025-01-14 11:35:34,811 -INFO - SUNPHARMA.NS - Reading existing data...
+2025-01-14 11:35:35,215 -INFO - last n isPivot function started
+2025-01-14 11:35:35,215 -INFO - last n isPivot function started
+2025-01-14 11:35:35,773 -INFO - last n isPivot function started
+2025-01-14 11:35:35,927 -INFO - last n isPivot function Ended
+2025-01-14 11:35:35,936 -INFO - last n isPivot function Ended
+2025-01-14 11:35:35,999 -INFO - ALKEM.NS - last n detect_structure function started
+2025-01-14 11:35:36,001 -INFO - ALKEM.NS - last n two_line_structure function started
+2025-01-14 11:35:36,001 -INFO - SBICARD.NS - last n detect_structure function started
+2025-01-14 11:35:36,023 -INFO - SBICARD.NS - last n two_line_structure function started
+2025-01-14 11:35:36,428 -INFO - last n isPivot function Ended
+2025-01-14 11:35:36,484 -INFO - LTIM.NS - last n detect_structure function started
+2025-01-14 11:35:36,489 -INFO - LTIM.NS - last n two_line_structure function started
+2025-01-14 11:35:38,616 -INFO - last n isPivot function started
+2025-01-14 11:35:38,663 -INFO - last n isPivot function started
+2025-01-14 11:35:39,521 -INFO - last n isPivot function started
+2025-01-14 11:35:40,794 -INFO - last n isPivot function Ended
+2025-01-14 11:35:40,796 -INFO - COLPAL.NS - last n detect_structure function started
+2025-01-14 11:35:40,802 -INFO - last n isPivot function Ended
+2025-01-14 11:35:40,802 -INFO - ICICIGI.NS - last n detect_structure function started
+2025-01-14 11:35:40,812 -INFO - ICICIGI.NS - last n two_line_structure function started
+2025-01-14 11:35:40,893 -INFO - COLPAL.NS - last n two_line_structure function started
+2025-01-14 11:35:40,934 -INFO - last n isPivot function started
+2025-01-14 11:35:41,071 -INFO - last n isPivot function Ended
+2025-01-14 11:35:41,115 -INFO - BAJFINANCE.NS - last n detect_structure function started
+2025-01-14 11:35:41,127 -INFO - BAJFINANCE.NS - last n two_line_structure function started
+2025-01-14 11:35:41,151 -INFO - last n isPivot function started
+2025-01-14 11:35:42,141 -INFO - last n isPivot function Ended
+2025-01-14 11:35:42,330 -INFO - last n isPivot function started
+2025-01-14 11:35:42,333 -INFO - last n isPivot function started
+2025-01-14 11:35:42,352 -INFO - NAVINFLUOR.NS - last n detect_structure function started
+2025-01-14 11:35:42,356 -INFO - NAVINFLUOR.NS - last n two_line_structure function started
+2025-01-14 11:35:44,413 -INFO - last n isPivot function Ended
+2025-01-14 11:35:44,415 -INFO - BHARTIARTL.NS - last n detect_structure function started
+2025-01-14 11:35:44,441 -INFO - last n isPivot function Ended
+2025-01-14 11:35:44,444 -INFO - BHARTIARTL.NS - last n two_line_structure function started
+2025-01-14 11:35:44,449 -INFO - UPL.NS - last n detect_structure function started
+2025-01-14 11:35:44,461 -INFO - UPL.NS - last n two_line_structure function started
+2025-01-14 11:35:44,623 -INFO - last n isPivot function Ended
+2025-01-14 11:35:44,628 -INFO - TITAN.NS - last n detect_structure function started
+2025-01-14 11:35:44,649 -INFO - TITAN.NS - last n two_line_structure function started
+2025-01-14 11:35:44,719 -INFO - last n isPivot function started
+2025-01-14 11:35:46,128 -INFO - last n isPivot function Ended
+2025-01-14 11:35:46,134 -INFO - SUNPHARMA.NS - last n detect_structure function started
+2025-01-14 11:35:46,180 -INFO - SUNPHARMA.NS - last n two_line_structure function started
+2025-01-14 11:36:28,704 -INFO - SBICARD.NS - last n two_line_structure function Ended
+2025-01-14 11:36:41,193 -INFO - SBICARD.NS - last n detect_structure function Ended
+2025-01-14 11:36:41,201 -INFO - SBICARD.NS - add_ph_pl_values function started
+2025-01-14 11:36:41,400 -INFO - SBICARD.NS - add_ph_pl_values function Ended
+2025-01-14 11:37:03,047 -INFO - ICICIGI.NS - last n two_line_structure function Ended
+2025-01-14 11:37:09,517 -INFO - LTIM.NS - last n two_line_structure function Ended
+2025-01-14 11:37:18,264 -INFO - ICICIGI.NS - last n detect_structure function Ended
+2025-01-14 11:37:18,325 -INFO - ICICIGI.NS - add_ph_pl_values function started
+2025-01-14 11:37:18,465 -INFO - ICICIGI.NS - add_ph_pl_values function Ended
+2025-01-14 11:37:18,839 -INFO - ALKEM.NS - last n two_line_structure function Ended
+2025-01-14 11:37:37,903 -INFO - LTIM.NS - last n detect_structure function Ended
+2025-01-14 11:37:37,937 -INFO - LTIM.NS - add_ph_pl_values function started
+2025-01-14 11:37:38,095 -INFO - LTIM.NS - add_ph_pl_values function Ended
+2025-01-14 11:37:59,271 -INFO - ALKEM.NS - last n detect_structure function Ended
+2025-01-14 11:37:59,280 -INFO - ALKEM.NS - add_ph_pl_values function started
+2025-01-14 11:37:59,379 -INFO - ALKEM.NS - add_ph_pl_values function Ended
+2025-01-14 11:38:45,298 -INFO - All stocks - Excel file Saved
+2025-01-14 11:38:45,304 -INFO - All stocks - json file saved
+2025-01-14 11:38:45,304 -INFO - SBICARD.NS - alerts file Saved
+2025-01-14 11:38:45,304 -INFO - SBICARD.NS - Process function Ended
+2025-01-14 11:39:13,727 -INFO - All stocks - Excel file Saved
+2025-01-14 11:39:13,759 -INFO - All stocks - json file saved
+2025-01-14 11:39:13,763 -INFO - ICICIGI.NS - alerts file Saved
+2025-01-14 11:39:13,769 -INFO - ICICIGI.NS - Process function Ended
+2025-01-14 11:39:16,970 -INFO - NAVINFLUOR.NS - last n two_line_structure function Ended
+2025-01-14 11:39:21,043 -INFO - All stocks - Excel file Saved
+2025-01-14 11:39:21,062 -INFO - All stocks - json file saved
+2025-01-14 11:39:21,062 -INFO - LTIM.NS - alerts file Saved
+2025-01-14 11:39:21,062 -INFO - LTIM.NS - Process function Ended
+2025-01-14 11:39:28,669 -INFO - All stocks - Excel file Saved
+2025-01-14 11:39:28,681 -INFO - All stocks - json file saved
+2025-01-14 11:39:28,682 -INFO - ALKEM.NS - alerts file Saved
+2025-01-14 11:39:28,683 -INFO - ALKEM.NS - Process function Ended
+2025-01-14 11:39:43,734 -INFO - NAVINFLUOR.NS - last n detect_structure function Ended
+2025-01-14 11:39:43,740 -INFO - NAVINFLUOR.NS - add_ph_pl_values function started
+2025-01-14 11:39:43,843 -INFO - NAVINFLUOR.NS - add_ph_pl_values function Ended
+2025-01-14 11:39:45,337 -INFO - BHARTIARTL.NS - last n two_line_structure function Ended
+2025-01-14 11:39:53,149 -INFO - BAJFINANCE.NS - last n two_line_structure function Ended
+2025-01-14 11:39:53,759 -INFO - COLPAL.NS - last n two_line_structure function Ended
+2025-01-14 11:39:55,175 -INFO - UPL.NS - last n two_line_structure function Ended
+2025-01-14 11:40:16,659 -INFO - BHARTIARTL.NS - last n detect_structure function Ended
+2025-01-14 11:40:16,669 -INFO - BHARTIARTL.NS - add_ph_pl_values function started
+2025-01-14 11:40:16,713 -INFO - BHARTIARTL.NS - add_ph_pl_values function Ended
+2025-01-14 11:40:17,277 -INFO - BAJFINANCE.NS - last n detect_structure function Ended
+2025-01-14 11:40:17,278 -INFO - BAJFINANCE.NS - add_ph_pl_values function started
+2025-01-14 11:40:17,322 -INFO - BAJFINANCE.NS - add_ph_pl_values function Ended
+2025-01-14 11:40:31,569 -INFO - COLPAL.NS - last n detect_structure function Ended
+2025-01-14 11:40:31,577 -INFO - COLPAL.NS - add_ph_pl_values function started
+2025-01-14 11:40:31,591 -INFO - UPL.NS - last n detect_structure function Ended
+2025-01-14 11:40:31,595 -INFO - UPL.NS - add_ph_pl_values function started
+2025-01-14 11:40:31,614 -INFO - COLPAL.NS - add_ph_pl_values function Ended
+2025-01-14 11:40:31,858 -INFO - UPL.NS - add_ph_pl_values function Ended
+2025-01-14 11:40:54,735 -INFO - All stocks - Excel file Saved
+2025-01-14 11:40:54,736 -INFO - All stocks - json file saved
+2025-01-14 11:40:54,736 -INFO - NAVINFLUOR.NS - alerts file Saved
+2025-01-14 11:40:54,736 -INFO - NAVINFLUOR.NS - Process function Ended
+2025-01-14 11:41:13,127 -INFO - TITAN.NS - last n two_line_structure function Ended
+2025-01-14 11:41:13,483 -INFO - SUNPHARMA.NS - last n two_line_structure function Ended
+2025-01-14 11:41:32,151 -INFO - All stocks - Excel file Saved
+2025-01-14 11:41:32,152 -INFO - All stocks - json file saved
+2025-01-14 11:41:32,152 -INFO - BAJFINANCE.NS - alerts file Saved
+2025-01-14 11:41:32,153 -INFO - BAJFINANCE.NS - Process function Ended
+2025-01-14 11:41:32,357 -INFO - All stocks - Excel file Saved
+2025-01-14 11:41:32,360 -INFO - All stocks - json file saved
+2025-01-14 11:41:32,360 -INFO - BHARTIARTL.NS - alerts file Saved
+2025-01-14 11:41:32,360 -INFO - BHARTIARTL.NS - Process function Ended
+2025-01-14 11:41:40,185 -INFO - All stocks - Excel file Saved
+2025-01-14 11:41:40,191 -INFO - All stocks - json file saved
+2025-01-14 11:41:40,191 -INFO - COLPAL.NS - alerts file Saved
+2025-01-14 11:41:40,191 -INFO - COLPAL.NS - Process function Ended
+2025-01-14 11:41:40,201 -INFO - All stocks - Excel file Saved
+2025-01-14 11:41:40,204 -INFO - All stocks - json file saved
+2025-01-14 11:41:40,205 -INFO - UPL.NS - alerts file Saved
+2025-01-14 11:41:40,205 -INFO - UPL.NS - Process function Ended
+2025-01-14 11:41:41,903 -INFO - TITAN.NS - last n detect_structure function Ended
+2025-01-14 11:41:41,907 -INFO - TITAN.NS - add_ph_pl_values function started
+2025-01-14 11:41:41,929 -INFO - TITAN.NS - add_ph_pl_values function Ended
+2025-01-14 11:41:43,328 -INFO - SUNPHARMA.NS - last n detect_structure function Ended
+2025-01-14 11:41:43,329 -INFO - SUNPHARMA.NS - add_ph_pl_values function started
+2025-01-14 11:41:43,332 -INFO - SUNPHARMA.NS - add_ph_pl_values function Ended
+2025-01-14 11:42:20,852 -INFO - All stocks - Excel file Saved
+2025-01-14 11:42:20,853 -INFO - All stocks - json file saved
+2025-01-14 11:42:20,853 -INFO - TITAN.NS - alerts file Saved
+2025-01-14 11:42:20,853 -INFO - TITAN.NS - Process function Ended
+2025-01-14 11:42:21,051 -INFO - All stocks - Excel file Saved
+2025-01-14 11:42:21,051 -INFO - All stocks - json file saved
+2025-01-14 11:42:21,051 -INFO - SUNPHARMA.NS - alerts file Saved
+2025-01-14 11:42:21,051 -INFO - SUNPHARMA.NS - Process function Ended
+2025-01-14 11:42:40,119 -INFO - All stocks - Excel file Saved
+2025-01-14 11:42:40,120 -INFO - All stocks - json file saved
+2025-01-14 11:42:59,221 -INFO - All stocks - Excel file Saved
+2025-01-14 11:42:59,221 -INFO - All stocks - json file saved
