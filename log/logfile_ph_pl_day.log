@@ -18269,3 +18269,41 @@ ValueError: operands could not be broadcast together with shapes (42323,) (42085
 2025-01-14 11:42:40,120 -INFO - All stocks - json file saved
 2025-01-14 11:42:59,221 -INFO - All stocks - Excel file Saved
 2025-01-14 11:42:59,221 -INFO - All stocks - json file saved
+2025-01-15 11:35:16,788 -INFO - Started...
+2025-01-15 11:35:18,045 -INFO - Started...
+2025-01-15 11:35:29,934 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2025-01-15 11:35:30,878 -ERROR - 
+1 Failed download:
+2025-01-15 11:35:30,878 -ERROR - ['CIPLA.NS']: OperationalError('database is locked')
+2025-01-15 11:35:30,921 -INFO - ADANIENT.NS - Process function started
+2025-01-15 11:35:30,922 -INFO - BALKRISIND.NS - Process function started
+2025-01-15 11:35:30,922 -INFO - BALKRISIND.NS - Reading existing data...
+2025-01-15 11:35:30,922 -INFO - ADANIENT.NS - Reading existing data...
+2025-01-15 11:35:31,680 -INFO - last n isPivot function started
+2025-01-15 11:35:31,684 -INFO - last n isPivot function started
+2025-01-15 11:35:33,068 -INFO - last n isPivot function Ended
+2025-01-15 11:35:33,068 -INFO - last n isPivot function Ended
+2025-01-15 11:35:33,068 -INFO - BALKRISIND.NS - last n detect_structure function started
+2025-01-15 11:35:33,068 -INFO - ADANIENT.NS - last n detect_structure function started
+2025-01-15 11:35:33,072 -INFO - ADANIENT.NS - last n two_line_structure function started
+2025-01-15 11:35:33,080 -INFO - BALKRISIND.NS - last n two_line_structure function started
+2025-01-15 11:36:07,126 -INFO - BALKRISIND.NS - last n two_line_structure function Ended
+2025-01-15 11:36:11,930 -INFO - ADANIENT.NS - last n two_line_structure function Ended
+2025-01-15 11:36:12,648 -INFO - BALKRISIND.NS - last n detect_structure function Ended
+2025-01-15 11:36:12,661 -INFO - BALKRISIND.NS - add_ph_pl_values function started
+2025-01-15 11:36:12,676 -INFO - BALKRISIND.NS - add_ph_pl_values function Ended
+2025-01-15 11:36:20,593 -INFO - ADANIENT.NS - last n detect_structure function Ended
+2025-01-15 11:36:20,594 -INFO - ADANIENT.NS - add_ph_pl_values function started
+2025-01-15 11:36:20,598 -INFO - ADANIENT.NS - add_ph_pl_values function Ended
+2025-01-15 11:36:54,321 -INFO - All stocks - Excel file Saved
+2025-01-15 11:36:54,323 -INFO - All stocks - json file saved
+2025-01-15 11:36:54,324 -INFO - BALKRISIND.NS - alerts file Saved
+2025-01-15 11:36:54,324 -INFO - BALKRISIND.NS - Process function Ended
+2025-01-15 11:36:54,530 -INFO - All stocks - Excel file Saved
+2025-01-15 11:36:54,530 -INFO - All stocks - json file saved
+2025-01-15 11:36:54,530 -INFO - ADANIENT.NS - alerts file Saved
+2025-01-15 11:36:54,530 -INFO - ADANIENT.NS - Process function Ended
+2025-01-15 11:37:13,663 -INFO - All stocks - Excel file Saved
+2025-01-15 11:37:13,663 -INFO - All stocks - json file saved
+2025-01-15 11:37:31,846 -INFO - All stocks - Excel file Saved
+2025-01-15 11:37:31,846 -INFO - All stocks - json file saved
