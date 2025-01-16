@@ -18307,3 +18307,94 @@ ValueError: operands could not be broadcast together with shapes (42323,) (42085
 2025-01-15 11:37:13,663 -INFO - All stocks - json file saved
 2025-01-15 11:37:31,846 -INFO - All stocks - Excel file Saved
 2025-01-15 11:37:31,846 -INFO - All stocks - json file saved
+2025-01-16 11:35:21,779 -INFO - Started...
+2025-01-16 11:35:22,819 -INFO - Started...
+2025-01-16 11:35:31,608 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2025-01-16 11:35:31,608 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2025-01-16 11:35:33,056 -INFO - LUPIN.NS - Process function started
+2025-01-16 11:35:33,056 -INFO - AUROPHARMA.NS - Process function started
+2025-01-16 11:35:33,056 -INFO - LUPIN.NS - Reading existing data...
+2025-01-16 11:35:33,056 -INFO - AUROPHARMA.NS - Reading existing data...
+2025-01-16 11:35:33,056 -INFO - ASHOKLEY.NS - Process function started
+2025-01-16 11:35:33,056 -INFO - VBL.NS - Process function started
+2025-01-16 11:35:33,057 -INFO - KEI.NS - Process function started
+2025-01-16 11:35:33,057 -INFO - KALYANKJIL.NS - Process function started
+2025-01-16 11:35:33,057 -INFO - ASHOKLEY.NS - Reading existing data...
+2025-01-16 11:35:33,057 -INFO - VBL.NS - Reading existing data...
+2025-01-16 11:35:33,057 -INFO - KEI.NS - Reading existing data...
+2025-01-16 11:35:33,064 -INFO - KALYANKJIL.NS - isPivot function started
+2025-01-16 11:35:33,176 -INFO - KALYANKJIL.NS - isPivot function Ended
+2025-01-16 11:35:33,177 -INFO - KALYANKJIL.NS -  detect_structure function started
+2025-01-16 11:35:33,180 -INFO - KALYANKJIL.NS -  two_line_structure function started
+2025-01-16 11:35:34,752 -INFO - last n isPivot function started
+2025-01-16 11:35:35,137 -INFO - last n isPivot function Ended
+2025-01-16 11:35:35,138 -INFO - VBL.NS - last n detect_structure function started
+2025-01-16 11:35:35,139 -INFO - VBL.NS - last n two_line_structure function started
+2025-01-16 11:35:35,196 -INFO - last n isPivot function started
+2025-01-16 11:35:35,837 -INFO - last n isPivot function started
+2025-01-16 11:35:35,894 -INFO - last n isPivot function Ended
+2025-01-16 11:35:35,895 -INFO - LUPIN.NS - last n detect_structure function started
+2025-01-16 11:35:35,899 -INFO - LUPIN.NS - last n two_line_structure function started
+2025-01-16 11:35:35,899 -INFO - last n isPivot function started
+2025-01-16 11:35:35,963 -INFO - last n isPivot function started
+2025-01-16 11:35:36,994 -INFO - last n isPivot function Ended
+2025-01-16 11:35:37,050 -INFO - ASHOKLEY.NS - last n detect_structure function started
+2025-01-16 11:35:37,296 -INFO - ASHOKLEY.NS - last n two_line_structure function started
+2025-01-16 11:35:37,901 -INFO - last n isPivot function Ended
+2025-01-16 11:35:37,901 -INFO - KEI.NS - last n detect_structure function started
+2025-01-16 11:35:37,906 -INFO - KEI.NS - last n two_line_structure function started
+2025-01-16 11:35:38,008 -INFO - last n isPivot function Ended
+2025-01-16 11:35:38,008 -INFO - AUROPHARMA.NS - last n detect_structure function started
+2025-01-16 11:35:38,023 -INFO - AUROPHARMA.NS - last n two_line_structure function started
+2025-01-16 11:35:50,401 -INFO - KALYANKJIL.NS -  two_line_structure function Ended
+2025-01-16 11:35:53,509 -INFO - KALYANKJIL.NS -  detect_structure function Ended
+2025-01-16 11:35:53,524 -INFO - KALYANKJIL.NS - add_ph_pl_values function started
+2025-01-16 11:35:53,613 -INFO - KALYANKJIL.NS - add_ph_pl_values function Ended
+2025-01-16 11:36:20,595 -INFO - VBL.NS - last n two_line_structure function Ended
+2025-01-16 11:36:35,077 -INFO - VBL.NS - last n detect_structure function Ended
+2025-01-16 11:36:35,081 -INFO - VBL.NS - add_ph_pl_values function started
+2025-01-16 11:36:35,123 -INFO - VBL.NS - add_ph_pl_values function Ended
+2025-01-16 11:36:59,620 -INFO - All stocks - Excel file Saved
+2025-01-16 11:36:59,651 -INFO - All stocks - json file saved
+2025-01-16 11:36:59,651 -INFO - KALYANKJIL.NS - alerts file Saved
+2025-01-16 11:36:59,651 -INFO - KALYANKJIL.NS - Process function Ended
+2025-01-16 11:37:24,262 -INFO - KEI.NS - last n two_line_structure function Ended
+2025-01-16 11:37:27,845 -INFO - All stocks - Excel file Saved
+2025-01-16 11:37:27,858 -INFO - All stocks - json file saved
+2025-01-16 11:37:27,858 -INFO - VBL.NS - alerts file Saved
+2025-01-16 11:37:27,858 -INFO - VBL.NS - Process function Ended
+2025-01-16 11:37:38,591 -INFO - ASHOKLEY.NS - last n two_line_structure function Ended
+2025-01-16 11:37:39,133 -INFO - KEI.NS - last n detect_structure function Ended
+2025-01-16 11:37:39,138 -INFO - KEI.NS - add_ph_pl_values function started
+2025-01-16 11:37:39,174 -INFO - KEI.NS - add_ph_pl_values function Ended
+2025-01-16 11:37:46,602 -INFO - LUPIN.NS - last n two_line_structure function Ended
+2025-01-16 11:37:55,621 -INFO - ASHOKLEY.NS - last n detect_structure function Ended
+2025-01-16 11:37:55,623 -INFO - ASHOKLEY.NS - add_ph_pl_values function started
+2025-01-16 11:37:55,646 -INFO - ASHOKLEY.NS - add_ph_pl_values function Ended
+2025-01-16 11:38:02,997 -INFO - LUPIN.NS - last n detect_structure function Ended
+2025-01-16 11:38:02,998 -INFO - LUPIN.NS - add_ph_pl_values function started
+2025-01-16 11:38:03,012 -INFO - LUPIN.NS - add_ph_pl_values function Ended
+2025-01-16 11:38:15,729 -INFO - AUROPHARMA.NS - last n two_line_structure function Ended
+2025-01-16 11:38:29,618 -INFO - All stocks - Excel file Saved
+2025-01-16 11:38:29,620 -INFO - All stocks - json file saved
+2025-01-16 11:38:29,620 -INFO - KEI.NS - alerts file Saved
+2025-01-16 11:38:29,620 -INFO - KEI.NS - Process function Ended
+2025-01-16 11:38:36,188 -INFO - AUROPHARMA.NS - last n detect_structure function Ended
+2025-01-16 11:38:36,188 -INFO - AUROPHARMA.NS - add_ph_pl_values function started
+2025-01-16 11:38:36,192 -INFO - AUROPHARMA.NS - add_ph_pl_values function Ended
+2025-01-16 11:38:47,347 -INFO - All stocks - Excel file Saved
+2025-01-16 11:38:47,347 -INFO - All stocks - json file saved
+2025-01-16 11:38:47,347 -INFO - ASHOKLEY.NS - alerts file Saved
+2025-01-16 11:38:47,347 -INFO - ASHOKLEY.NS - Process function Ended
+2025-01-16 11:38:47,593 -INFO - All stocks - Excel file Saved
+2025-01-16 11:38:47,593 -INFO - All stocks - json file saved
+2025-01-16 11:38:47,593 -INFO - LUPIN.NS - alerts file Saved
+2025-01-16 11:38:47,593 -INFO - LUPIN.NS - Process function Ended
+2025-01-16 11:38:58,636 -INFO - All stocks - Excel file Saved
+2025-01-16 11:38:58,636 -INFO - All stocks - json file saved
+2025-01-16 11:38:58,636 -INFO - AUROPHARMA.NS - alerts file Saved
+2025-01-16 11:38:58,636 -INFO - AUROPHARMA.NS - Process function Ended
+2025-01-16 11:39:15,339 -INFO - All stocks - Excel file Saved
+2025-01-16 11:39:15,339 -INFO - All stocks - json file saved
+2025-01-16 11:39:32,069 -INFO - All stocks - Excel file Saved
+2025-01-16 11:39:32,069 -INFO - All stocks - json file saved
