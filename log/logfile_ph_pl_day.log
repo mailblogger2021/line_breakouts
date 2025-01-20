@@ -18398,3 +18398,194 @@ ValueError: operands could not be broadcast together with shapes (42323,) (42085
 2025-01-16 11:39:15,339 -INFO - All stocks - json file saved
 2025-01-16 11:39:32,069 -INFO - All stocks - Excel file Saved
 2025-01-16 11:39:32,069 -INFO - All stocks - json file saved
+2025-01-20 11:35:09,638 -INFO - Started...
+2025-01-20 11:35:10,767 -INFO - Started...
+2025-01-20 11:35:21,563 -ERROR - 
+1 Failed download:
+2025-01-20 11:35:21,563 -ERROR - ['BAJFINANCE.NS']: OperationalError('database is locked')
+2025-01-20 11:35:21,745 -INFO - JUBLFOOD.NS - Process function started
+2025-01-20 11:35:21,745 -INFO - JUBLFOOD.NS - Reading existing data...
+2025-01-20 11:35:21,745 -INFO - CHOLAFIN.NS - Process function started
+2025-01-20 11:35:21,745 -INFO - IDFCFIRSTB.NS - Process function started
+2025-01-20 11:35:21,745 -INFO - M&MFIN.NS - Process function started
+2025-01-20 11:35:21,745 -INFO - APLAPOLLO.NS - Process function started
+2025-01-20 11:35:21,745 -INFO - CHOLAFIN.NS - Reading existing data...
+2025-01-20 11:35:21,746 -INFO - IDFCFIRSTB.NS - Reading existing data...
+2025-01-20 11:35:21,746 -INFO - NAUKRI.NS - Process function started
+2025-01-20 11:35:21,746 -INFO - RBLBANK.NS - Process function started
+2025-01-20 11:35:21,746 -INFO - M&MFIN.NS - Reading existing data...
+2025-01-20 11:35:21,746 -INFO - APLAPOLLO.NS - Reading existing data...
+2025-01-20 11:35:21,746 -INFO - ICICIPRULI.NS - Process function started
+2025-01-20 11:35:21,746 -INFO - POONAWALLA.NS - Process function started
+2025-01-20 11:35:21,746 -INFO - NAUKRI.NS - Reading existing data...
+2025-01-20 11:35:21,747 -INFO - INDIAMART.NS - Process function started
+2025-01-20 11:35:21,747 -INFO - RBLBANK.NS - Reading existing data...
+2025-01-20 11:35:21,748 -INFO - COROMANDEL.NS - Process function started
+2025-01-20 11:35:21,748 -INFO - DIXON.NS - Process function started
+2025-01-20 11:35:21,749 -INFO - BATAINDIA.NS - Process function started
+2025-01-20 11:35:21,749 -INFO - ICICIPRULI.NS - Reading existing data...
+2025-01-20 11:35:21,751 -INFO - POONAWALLA.NS - Reading existing data...
+2025-01-20 11:35:21,751 -INFO - INDIAMART.NS - Reading existing data...
+2025-01-20 11:35:21,751 -INFO - COROMANDEL.NS - Reading existing data...
+2025-01-20 11:35:21,751 -INFO - DIXON.NS - Reading existing data...
+2025-01-20 11:35:21,752 -INFO - BATAINDIA.NS - Reading existing data...
+2025-01-20 11:35:22,449 -INFO - last n isPivot function started
+2025-01-20 11:35:22,706 -INFO - last n isPivot function started
+2025-01-20 11:35:22,710 -INFO - last n isPivot function Ended
+2025-01-20 11:35:22,710 -INFO - IDFCFIRSTB.NS - last n detect_structure function started
+2025-01-20 11:35:22,958 -INFO - last n isPivot function started
+2025-01-20 11:35:22,968 -INFO - IDFCFIRSTB.NS - last n two_line_structure function started
+2025-01-20 11:35:23,885 -INFO - last n isPivot function Ended
+2025-01-20 11:35:23,905 -INFO - JUBLFOOD.NS - last n detect_structure function started
+2025-01-20 11:35:23,921 -INFO - JUBLFOOD.NS - last n two_line_structure function started
+2025-01-20 11:35:24,018 -INFO - last n isPivot function Ended
+2025-01-20 11:35:24,018 -INFO - CHOLAFIN.NS - last n detect_structure function started
+2025-01-20 11:35:24,025 -INFO - CHOLAFIN.NS - last n two_line_structure function started
+2025-01-20 11:35:26,106 -INFO - last n isPivot function started
+2025-01-20 11:35:26,107 -INFO - last n isPivot function started
+2025-01-20 11:35:26,111 -INFO - last n isPivot function started
+2025-01-20 11:35:26,113 -INFO - last n isPivot function started
+2025-01-20 11:35:26,564 -INFO - last n isPivot function Ended
+2025-01-20 11:35:26,723 -INFO - ICICIPRULI.NS - last n detect_structure function started
+2025-01-20 11:35:26,726 -INFO - ICICIPRULI.NS - last n two_line_structure function started
+2025-01-20 11:35:27,251 -INFO - last n isPivot function Ended
+2025-01-20 11:35:27,255 -INFO - INDIAMART.NS - last n detect_structure function started
+2025-01-20 11:35:27,256 -INFO - last n isPivot function Ended
+2025-01-20 11:35:27,257 -INFO - RBLBANK.NS - last n detect_structure function started
+2025-01-20 11:35:27,262 -INFO - INDIAMART.NS - last n two_line_structure function started
+2025-01-20 11:35:27,267 -INFO - RBLBANK.NS - last n two_line_structure function started
+2025-01-20 11:35:27,268 -INFO - last n isPivot function Ended
+2025-01-20 11:35:27,276 -INFO - last n isPivot function started
+2025-01-20 11:35:27,294 -INFO - APLAPOLLO.NS - last n detect_structure function started
+2025-01-20 11:35:27,455 -INFO - APLAPOLLO.NS - last n two_line_structure function started
+2025-01-20 11:35:27,459 -INFO - last n isPivot function started
+2025-01-20 11:35:27,565 -INFO - last n isPivot function started
+2025-01-20 11:35:27,566 -INFO - last n isPivot function Ended
+2025-01-20 11:35:28,070 -INFO - last n isPivot function Ended
+2025-01-20 11:35:28,071 -INFO - last n isPivot function started
+2025-01-20 11:35:28,080 -INFO - DIXON.NS - last n detect_structure function started
+2025-01-20 11:35:28,090 -INFO - M&MFIN.NS - last n detect_structure function started
+2025-01-20 11:35:28,094 -INFO - M&MFIN.NS - last n two_line_structure function started
+2025-01-20 11:35:28,112 -INFO - DIXON.NS - last n two_line_structure function started
+2025-01-20 11:35:28,364 -INFO - last n isPivot function started
+2025-01-20 11:35:29,439 -INFO - last n isPivot function Ended
+2025-01-20 11:35:29,451 -INFO - last n isPivot function Ended
+2025-01-20 11:35:29,474 -INFO - POONAWALLA.NS - last n detect_structure function started
+2025-01-20 11:35:29,493 -INFO - BATAINDIA.NS - last n detect_structure function started
+2025-01-20 11:35:29,494 -INFO - POONAWALLA.NS - last n two_line_structure function started
+2025-01-20 11:35:29,505 -INFO - BATAINDIA.NS - last n two_line_structure function started
+2025-01-20 11:35:30,206 -INFO - last n isPivot function Ended
+2025-01-20 11:35:30,207 -INFO - NAUKRI.NS - last n detect_structure function started
+2025-01-20 11:35:30,217 -INFO - NAUKRI.NS - last n two_line_structure function started
+2025-01-20 11:35:30,224 -INFO - last n isPivot function started
+2025-01-20 11:35:31,051 -INFO - last n isPivot function Ended
+2025-01-20 11:35:31,053 -INFO - COROMANDEL.NS - last n detect_structure function started
+2025-01-20 11:35:31,060 -INFO - COROMANDEL.NS - last n two_line_structure function started
+2025-01-20 11:36:18,650 -INFO - INDIAMART.NS - last n two_line_structure function Ended
+2025-01-20 11:36:39,768 -INFO - INDIAMART.NS - last n detect_structure function Ended
+2025-01-20 11:36:39,826 -INFO - INDIAMART.NS - add_ph_pl_values function started
+2025-01-20 11:36:40,090 -INFO - INDIAMART.NS - add_ph_pl_values function Ended
+2025-01-20 11:36:46,561 -INFO - DIXON.NS - last n two_line_structure function Ended
+2025-01-20 11:37:03,173 -INFO - ICICIPRULI.NS - last n two_line_structure function Ended
+2025-01-20 11:37:08,579 -INFO - RBLBANK.NS - last n two_line_structure function Ended
+2025-01-20 11:37:18,961 -INFO - DIXON.NS - last n detect_structure function Ended
+2025-01-20 11:37:18,991 -INFO - DIXON.NS - add_ph_pl_values function started
+2025-01-20 11:37:19,205 -INFO - DIXON.NS - add_ph_pl_values function Ended
+2025-01-20 11:37:24,287 -INFO - IDFCFIRSTB.NS - last n two_line_structure function Ended
+2025-01-20 11:37:38,491 -INFO - ICICIPRULI.NS - last n detect_structure function Ended
+2025-01-20 11:37:38,517 -INFO - ICICIPRULI.NS - add_ph_pl_values function started
+2025-01-20 11:37:38,653 -INFO - ICICIPRULI.NS - add_ph_pl_values function Ended
+2025-01-20 11:37:39,907 -INFO - RBLBANK.NS - last n detect_structure function Ended
+2025-01-20 11:37:39,915 -INFO - RBLBANK.NS - add_ph_pl_values function started
+2025-01-20 11:37:40,124 -INFO - RBLBANK.NS - add_ph_pl_values function Ended
+2025-01-20 11:38:19,383 -INFO - IDFCFIRSTB.NS - last n detect_structure function Ended
+2025-01-20 11:38:19,395 -INFO - IDFCFIRSTB.NS - add_ph_pl_values function started
+2025-01-20 11:38:19,490 -INFO - IDFCFIRSTB.NS - add_ph_pl_values function Ended
+2025-01-20 11:38:44,313 -INFO - APLAPOLLO.NS - last n two_line_structure function Ended
+2025-01-20 11:39:06,727 -INFO - All stocks - Excel file Saved
+2025-01-20 11:39:06,746 -INFO - All stocks - json file saved
+2025-01-20 11:39:06,749 -INFO - INDIAMART.NS - alerts file Saved
+2025-01-20 11:39:06,750 -INFO - INDIAMART.NS - Process function Ended
+2025-01-20 11:39:13,693 -INFO - JUBLFOOD.NS - last n two_line_structure function Ended
+2025-01-20 11:39:32,433 -INFO - All stocks - Excel file Saved
+2025-01-20 11:39:32,477 -INFO - All stocks - json file saved
+2025-01-20 11:39:32,479 -INFO - DIXON.NS - alerts file Saved
+2025-01-20 11:39:32,479 -INFO - DIXON.NS - Process function Ended
+2025-01-20 11:39:41,308 -INFO - All stocks - Excel file Saved
+2025-01-20 11:39:41,328 -INFO - All stocks - json file saved
+2025-01-20 11:39:41,329 -INFO - ICICIPRULI.NS - alerts file Saved
+2025-01-20 11:39:41,329 -INFO - ICICIPRULI.NS - Process function Ended
+2025-01-20 11:39:42,907 -INFO - All stocks - Excel file Saved
+2025-01-20 11:39:42,933 -INFO - All stocks - json file saved
+2025-01-20 11:39:42,933 -INFO - RBLBANK.NS - alerts file Saved
+2025-01-20 11:39:42,933 -INFO - RBLBANK.NS - Process function Ended
+2025-01-20 11:39:44,588 -INFO - APLAPOLLO.NS - last n detect_structure function Ended
+2025-01-20 11:39:44,606 -INFO - APLAPOLLO.NS - add_ph_pl_values function started
+2025-01-20 11:39:44,698 -INFO - APLAPOLLO.NS - add_ph_pl_values function Ended
+2025-01-20 11:40:00,808 -INFO - NAUKRI.NS - last n two_line_structure function Ended
+2025-01-20 11:40:01,137 -INFO - JUBLFOOD.NS - last n detect_structure function Ended
+2025-01-20 11:40:01,143 -INFO - JUBLFOOD.NS - add_ph_pl_values function started
+2025-01-20 11:40:01,214 -INFO - JUBLFOOD.NS - add_ph_pl_values function Ended
+2025-01-20 11:40:13,513 -INFO - All stocks - Excel file Saved
+2025-01-20 11:40:13,552 -INFO - All stocks - json file saved
+2025-01-20 11:40:13,555 -INFO - IDFCFIRSTB.NS - alerts file Saved
+2025-01-20 11:40:13,563 -INFO - IDFCFIRSTB.NS - Process function Ended
+2025-01-20 11:40:13,776 -INFO - M&MFIN.NS - last n two_line_structure function Ended
+2025-01-20 11:40:37,070 -INFO - POONAWALLA.NS - last n two_line_structure function Ended
+2025-01-20 11:40:39,395 -INFO - BATAINDIA.NS - last n two_line_structure function Ended
+2025-01-20 11:40:46,240 -INFO - CHOLAFIN.NS - last n two_line_structure function Ended
+2025-01-20 11:40:46,477 -INFO - NAUKRI.NS - last n detect_structure function Ended
+2025-01-20 11:40:46,481 -INFO - NAUKRI.NS - add_ph_pl_values function started
+2025-01-20 11:40:46,522 -INFO - COROMANDEL.NS - last n two_line_structure function Ended
+2025-01-20 11:40:46,535 -INFO - NAUKRI.NS - add_ph_pl_values function Ended
+2025-01-20 11:40:54,429 -INFO - M&MFIN.NS - last n detect_structure function Ended
+2025-01-20 11:40:54,435 -INFO - M&MFIN.NS - add_ph_pl_values function started
+2025-01-20 11:40:54,468 -INFO - M&MFIN.NS - add_ph_pl_values function Ended
+2025-01-20 11:41:10,445 -INFO - All stocks - Excel file Saved
+2025-01-20 11:41:10,452 -INFO - All stocks - json file saved
+2025-01-20 11:41:10,452 -INFO - APLAPOLLO.NS - alerts file Saved
+2025-01-20 11:41:10,452 -INFO - APLAPOLLO.NS - Process function Ended
+2025-01-20 11:41:15,951 -INFO - All stocks - Excel file Saved
+2025-01-20 11:41:15,960 -INFO - All stocks - json file saved
+2025-01-20 11:41:15,964 -INFO - JUBLFOOD.NS - alerts file Saved
+2025-01-20 11:41:15,965 -INFO - JUBLFOOD.NS - Process function Ended
+2025-01-20 11:41:27,746 -INFO - POONAWALLA.NS - last n detect_structure function Ended
+2025-01-20 11:41:27,750 -INFO - POONAWALLA.NS - add_ph_pl_values function started
+2025-01-20 11:41:27,775 -INFO - POONAWALLA.NS - add_ph_pl_values function Ended
+2025-01-20 11:41:43,245 -INFO - BATAINDIA.NS - last n detect_structure function Ended
+2025-01-20 11:41:43,248 -INFO - BATAINDIA.NS - add_ph_pl_values function started
+2025-01-20 11:41:43,270 -INFO - BATAINDIA.NS - add_ph_pl_values function Ended
+2025-01-20 11:41:53,459 -INFO - CHOLAFIN.NS - last n detect_structure function Ended
+2025-01-20 11:41:53,461 -INFO - CHOLAFIN.NS - add_ph_pl_values function started
+2025-01-20 11:41:53,473 -INFO - CHOLAFIN.NS - add_ph_pl_values function Ended
+2025-01-20 11:42:03,284 -INFO - All stocks - Excel file Saved
+2025-01-20 11:42:03,303 -INFO - All stocks - json file saved
+2025-01-20 11:42:03,316 -INFO - NAUKRI.NS - alerts file Saved
+2025-01-20 11:42:03,318 -INFO - NAUKRI.NS - Process function Ended
+2025-01-20 11:42:13,201 -INFO - COROMANDEL.NS - last n detect_structure function Ended
+2025-01-20 11:42:13,208 -INFO - COROMANDEL.NS - add_ph_pl_values function started
+2025-01-20 11:42:13,354 -INFO - COROMANDEL.NS - add_ph_pl_values function Ended
+2025-01-20 11:42:13,514 -INFO - All stocks - Excel file Saved
+2025-01-20 11:42:13,553 -INFO - All stocks - json file saved
+2025-01-20 11:42:13,553 -INFO - M&MFIN.NS - alerts file Saved
+2025-01-20 11:42:13,571 -INFO - M&MFIN.NS - Process function Ended
+2025-01-20 11:42:42,240 -INFO - All stocks - Excel file Saved
+2025-01-20 11:42:42,244 -INFO - All stocks - json file saved
+2025-01-20 11:42:42,244 -INFO - POONAWALLA.NS - alerts file Saved
+2025-01-20 11:42:42,244 -INFO - POONAWALLA.NS - Process function Ended
+2025-01-20 11:42:51,197 -INFO - All stocks - Excel file Saved
+2025-01-20 11:42:51,198 -INFO - All stocks - json file saved
+2025-01-20 11:42:51,198 -INFO - BATAINDIA.NS - alerts file Saved
+2025-01-20 11:42:51,198 -INFO - BATAINDIA.NS - Process function Ended
+2025-01-20 11:42:54,037 -INFO - All stocks - Excel file Saved
+2025-01-20 11:42:54,038 -INFO - All stocks - json file saved
+2025-01-20 11:42:54,038 -INFO - CHOLAFIN.NS - alerts file Saved
+2025-01-20 11:42:54,038 -INFO - CHOLAFIN.NS - Process function Ended
+2025-01-20 11:42:57,123 -INFO - All stocks - Excel file Saved
+2025-01-20 11:42:57,123 -INFO - All stocks - json file saved
+2025-01-20 11:42:57,123 -INFO - COROMANDEL.NS - alerts file Saved
+2025-01-20 11:42:57,123 -INFO - COROMANDEL.NS - Process function Ended
+2025-01-20 11:43:15,307 -INFO - All stocks - Excel file Saved
+2025-01-20 11:43:15,307 -INFO - All stocks - json file saved
+2025-01-20 11:43:33,393 -INFO - All stocks - Excel file Saved
+2025-01-20 11:43:33,394 -INFO - All stocks - json file saved
