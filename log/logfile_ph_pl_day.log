@@ -18751,3 +18751,82 @@ ValueError: operands could not be broadcast together with shapes (42323,) (42085
 2025-01-21 11:43:06,588 -INFO - All stocks - json file saved
 2025-01-21 11:43:23,869 -INFO - All stocks - Excel file Saved
 2025-01-21 11:43:23,880 -INFO - All stocks - json file saved
+2025-01-22 11:36:29,253 -INFO - Started...
+2025-01-22 11:36:30,222 -INFO - Started...
+2025-01-22 11:36:40,282 -ERROR - 
+1 Failed download:
+2025-01-22 11:36:40,282 -ERROR - ['DALBHARAT.NS']: OperationalError('database is locked')
+2025-01-22 11:36:40,399 -INFO - AARTIIND.NS - Process function started
+2025-01-22 11:36:40,399 -INFO - AARTIIND.NS - Reading existing data...
+2025-01-22 11:36:40,399 -INFO - DRREDDY.NS - Process function started
+2025-01-22 11:36:40,399 -INFO - DRREDDY.NS - Reading existing data...
+2025-01-22 11:36:40,399 -INFO - ONGC.NS - Process function started
+2025-01-22 11:36:40,399 -INFO - ONGC.NS - Reading existing data...
+2025-01-22 11:36:40,400 -INFO - MAXHEALTH.NS - Process function started
+2025-01-22 11:36:40,400 -INFO - OIL.NS - Process function started
+2025-01-22 11:36:40,400 -INFO - MAXHEALTH.NS - Reading existing data...
+2025-01-22 11:36:40,400 -INFO - OIL.NS - Reading existing data...
+2025-01-22 11:36:41,532 -INFO - last n isPivot function started
+2025-01-22 11:36:41,914 -INFO - last n isPivot function started
+2025-01-22 11:36:42,586 -INFO - last n isPivot function Ended
+2025-01-22 11:36:42,586 -INFO - MAXHEALTH.NS - last n detect_structure function started
+2025-01-22 11:36:42,586 -INFO - last n isPivot function Ended
+2025-01-22 11:36:42,586 -INFO - MAXHEALTH.NS - last n two_line_structure function started
+2025-01-22 11:36:42,601 -INFO - AARTIIND.NS - last n detect_structure function started
+2025-01-22 11:36:42,601 -INFO - AARTIIND.NS - last n two_line_structure function started
+2025-01-22 11:36:42,615 -INFO - last n isPivot function started
+2025-01-22 11:36:43,037 -INFO - last n isPivot function Ended
+2025-01-22 11:36:43,037 -INFO - OIL.NS - last n detect_structure function started
+2025-01-22 11:36:43,040 -INFO - OIL.NS - last n two_line_structure function started
+2025-01-22 11:36:43,098 -INFO - last n isPivot function started
+2025-01-22 11:36:43,977 -INFO - last n isPivot function Ended
+2025-01-22 11:36:43,977 -INFO - ONGC.NS - last n detect_structure function started
+2025-01-22 11:36:43,978 -INFO - ONGC.NS - last n two_line_structure function started
+2025-01-22 11:36:43,999 -INFO - last n isPivot function started
+2025-01-22 11:36:44,829 -INFO - last n isPivot function Ended
+2025-01-22 11:36:44,829 -INFO - DRREDDY.NS - last n detect_structure function started
+2025-01-22 11:36:44,832 -INFO - DRREDDY.NS - last n two_line_structure function started
+2025-01-22 11:36:57,825 -INFO - MAXHEALTH.NS - last n two_line_structure function Ended
+2025-01-22 11:37:01,718 -INFO - MAXHEALTH.NS - last n detect_structure function Ended
+2025-01-22 11:37:01,733 -INFO - MAXHEALTH.NS - add_ph_pl_values function started
+2025-01-22 11:37:01,807 -INFO - MAXHEALTH.NS - add_ph_pl_values function Ended
+2025-01-22 11:37:48,772 -INFO - OIL.NS - last n two_line_structure function Ended
+2025-01-22 11:37:51,990 -INFO - All stocks - Excel file Saved
+2025-01-22 11:37:51,996 -INFO - All stocks - json file saved
+2025-01-22 11:37:51,996 -INFO - MAXHEALTH.NS - alerts file Saved
+2025-01-22 11:37:51,996 -INFO - MAXHEALTH.NS - Process function Ended
+2025-01-22 11:38:01,933 -INFO - OIL.NS - last n detect_structure function Ended
+2025-01-22 11:38:01,940 -INFO - OIL.NS - add_ph_pl_values function started
+2025-01-22 11:38:01,985 -INFO - OIL.NS - add_ph_pl_values function Ended
+2025-01-22 11:38:17,734 -INFO - AARTIIND.NS - last n two_line_structure function Ended
+2025-01-22 11:38:43,973 -INFO - All stocks - Excel file Saved
+2025-01-22 11:38:43,986 -INFO - All stocks - json file saved
+2025-01-22 11:38:43,986 -INFO - OIL.NS - alerts file Saved
+2025-01-22 11:38:43,986 -INFO - OIL.NS - Process function Ended
+2025-01-22 11:38:44,159 -INFO - AARTIIND.NS - last n detect_structure function Ended
+2025-01-22 11:38:44,165 -INFO - AARTIIND.NS - add_ph_pl_values function started
+2025-01-22 11:38:44,201 -INFO - AARTIIND.NS - add_ph_pl_values function Ended
+2025-01-22 11:38:53,479 -INFO - DRREDDY.NS - last n two_line_structure function Ended
+2025-01-22 11:38:53,885 -INFO - ONGC.NS - last n two_line_structure function Ended
+2025-01-22 11:39:05,929 -INFO - DRREDDY.NS - last n detect_structure function Ended
+2025-01-22 11:39:05,930 -INFO - DRREDDY.NS - add_ph_pl_values function started
+2025-01-22 11:39:05,937 -INFO - DRREDDY.NS - add_ph_pl_values function Ended
+2025-01-22 11:39:13,321 -INFO - ONGC.NS - last n detect_structure function Ended
+2025-01-22 11:39:13,321 -INFO - ONGC.NS - add_ph_pl_values function started
+2025-01-22 11:39:13,325 -INFO - ONGC.NS - add_ph_pl_values function Ended
+2025-01-22 11:39:25,132 -INFO - All stocks - Excel file Saved
+2025-01-22 11:39:25,133 -INFO - All stocks - json file saved
+2025-01-22 11:39:25,133 -INFO - AARTIIND.NS - alerts file Saved
+2025-01-22 11:39:25,133 -INFO - AARTIIND.NS - Process function Ended
+2025-01-22 11:39:44,349 -INFO - All stocks - Excel file Saved
+2025-01-22 11:39:44,350 -INFO - All stocks - json file saved
+2025-01-22 11:39:44,350 -INFO - DRREDDY.NS - alerts file Saved
+2025-01-22 11:39:44,350 -INFO - DRREDDY.NS - Process function Ended
+2025-01-22 11:39:44,648 -INFO - All stocks - Excel file Saved
+2025-01-22 11:39:44,649 -INFO - All stocks - json file saved
+2025-01-22 11:39:44,649 -INFO - ONGC.NS - alerts file Saved
+2025-01-22 11:39:44,649 -INFO - ONGC.NS - Process function Ended
+2025-01-22 11:40:06,684 -INFO - All stocks - Excel file Saved
+2025-01-22 11:40:06,685 -INFO - All stocks - json file saved
+2025-01-22 11:40:26,259 -INFO - All stocks - Excel file Saved
+2025-01-22 11:40:26,260 -INFO - All stocks - json file saved
