@@ -4243,3 +4243,105 @@ ValueError: Length of values (93097) does not match length of index (90998)
 2025-01-17 11:34:17,517 -INFO - All stocks - json file saved
 2025-01-17 11:34:45,366 -INFO - All stocks - Excel file Saved
 2025-01-17 11:34:45,366 -INFO - All stocks - json file saved
+2025-01-24 11:32:49,310 -INFO - Started...
+2025-01-24 11:32:50,351 -INFO - Started...
+2025-01-24 11:33:03,731 -INFO - HUDCO.NS - this stock already completed
+2025-01-24 11:33:03,731 -INFO - DELHIVERY.NS - this stock already completed
+2025-01-24 11:33:03,731 -INFO - ICICIBANK.NS - this stock already completed
+2025-01-24 11:33:03,731 -INFO - NESTLEIND.NS - this stock already completed
+2025-01-24 11:33:03,731 -INFO - JSL.NS - this stock already completed
+2025-01-24 11:33:03,731 -INFO - LODHA.NS - this stock already completed
+2025-01-24 11:33:03,731 -INFO - RELIANCE.NS - this stock already completed
+2025-01-24 11:33:03,731 -INFO - CUMMINSIND.NS - this stock already completed
+2025-01-24 11:33:03,731 -INFO - RAMCOCEM.NS - this stock already completed
+2025-01-24 11:33:03,731 -INFO - SHREECEM.NS - this stock already completed
+2025-01-24 11:33:03,731 -INFO - AUBANK.NS - this stock already completed
+2025-01-24 11:33:03,731 -INFO - PAGEIND.NS - this stock already completed
+2025-01-24 11:33:03,731 -INFO - PRESTIGE.NS - this stock already completed
+2025-01-24 11:33:03,731 -INFO - DIXON.NS - this stock already completed
+2025-01-24 11:33:03,731 -INFO - ULTRACEMCO.NS - this stock already completed
+2025-01-24 11:33:03,731 -INFO - TATACONSUM.NS - this stock already completed
+2025-01-24 11:33:03,731 -INFO - BHARTIARTL.NS - this stock already completed
+2025-01-24 11:33:03,731 -INFO - POLYCAB.NS - this stock already completed
+2025-01-24 11:33:03,731 -INFO - DLF.NS - this stock already completed
+2025-01-24 11:33:03,731 -INFO - SUPREMEIND.NS - this stock already completed
+2025-01-24 11:33:03,731 -INFO - ABB.NS - this stock already completed
+2025-01-24 11:33:03,731 -INFO - TORNTPHARM.NS - this stock already completed
+2025-01-24 11:33:03,731 -INFO - SIEMENS.NS - this stock already completed
+2025-01-24 11:33:03,731 -INFO - VEDL.NS - this stock already completed
+2025-01-24 11:33:03,731 -INFO - INDUSINDBK.NS - this stock already completed
+2025-01-24 11:33:03,731 -INFO - LTIM.NS - this stock already completed
+2025-01-24 11:33:03,731 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2025-01-24 11:33:04,783 -INFO - DMART.NS - Process function started
+2025-01-24 11:33:04,783 -INFO - PERSISTENT.NS - Process function started
+2025-01-24 11:33:04,783 -INFO - PAYTM.NS - Process function started
+2025-01-24 11:33:04,783 -INFO - CDSL.NS - Process function started
+2025-01-24 11:33:04,783 -INFO - DMART.NS - Reading existing data...
+2025-01-24 11:33:04,784 -INFO - SBILIFE.NS - Process function started
+2025-01-24 11:33:04,784 -INFO - PERSISTENT.NS - Reading existing data...
+2025-01-24 11:33:04,784 -INFO - CDSL.NS - Reading existing data...
+2025-01-24 11:33:04,786 -INFO - PAYTM.NS - isPivot function started
+2025-01-24 11:33:04,787 -INFO - SBILIFE.NS - Reading existing data...
+2025-01-24 11:33:04,812 -INFO - PAYTM.NS - isPivot function Ended
+2025-01-24 11:33:04,812 -INFO - PAYTM.NS -  detect_structure function started
+2025-01-24 11:33:04,815 -INFO - PAYTM.NS -  two_line_structure function started
+2025-01-24 11:33:05,043 -INFO - last n isPivot function started
+2025-01-24 11:33:05,045 -INFO - last n isPivot function started
+2025-01-24 11:33:05,046 -INFO - last n isPivot function started
+2025-01-24 11:33:05,125 -INFO - last n isPivot function Ended
+2025-01-24 11:33:05,125 -INFO - PERSISTENT.NS - last n detect_structure function started
+2025-01-24 11:33:05,125 -INFO - PERSISTENT.NS - last n two_line_structure function started
+2025-01-24 11:33:05,125 -INFO - last n isPivot function started
+2025-01-24 11:33:05,159 -INFO - last n isPivot function Ended
+2025-01-24 11:33:05,194 -INFO - last n isPivot function Ended
+2025-01-24 11:33:05,234 -INFO - last n isPivot function Ended
+2025-01-24 11:33:05,237 -INFO - SBILIFE.NS - last n detect_structure function started
+2025-01-24 11:33:05,239 -INFO - SBILIFE.NS - last n two_line_structure function started
+2025-01-24 11:33:05,241 -INFO - CDSL.NS - last n detect_structure function started
+2025-01-24 11:33:05,243 -INFO - CDSL.NS - last n two_line_structure function started
+2025-01-24 11:33:05,248 -INFO - DMART.NS - last n detect_structure function started
+2025-01-24 11:33:05,250 -INFO - DMART.NS - last n two_line_structure function started
+2025-01-24 11:33:06,178 -INFO - PAYTM.NS -  two_line_structure function Ended
+2025-01-24 11:33:08,299 -INFO - CDSL.NS - last n two_line_structure function Ended
+2025-01-24 11:33:08,598 -INFO - SBILIFE.NS - last n two_line_structure function Ended
+2025-01-24 11:33:08,677 -INFO - DMART.NS - last n two_line_structure function Ended
+2025-01-24 11:33:08,865 -INFO - PAYTM.NS -  detect_structure function Ended
+2025-01-24 11:33:08,865 -INFO - PAYTM.NS - add_ph_pl_values function started
+2025-01-24 11:33:08,901 -INFO - PAYTM.NS - add_ph_pl_values function Ended
+2025-01-24 11:33:22,998 -INFO - PERSISTENT.NS - last n two_line_structure function Ended
+2025-01-24 11:33:24,608 -INFO - CDSL.NS - last n detect_structure function Ended
+2025-01-24 11:33:24,609 -INFO - CDSL.NS - add_ph_pl_values function started
+2025-01-24 11:33:24,625 -INFO - CDSL.NS - add_ph_pl_values function Ended
+2025-01-24 11:33:33,522 -INFO - SBILIFE.NS - last n detect_structure function Ended
+2025-01-24 11:33:33,643 -INFO - SBILIFE.NS - add_ph_pl_values function started
+2025-01-24 11:33:34,263 -INFO - SBILIFE.NS - add_ph_pl_values function Ended
+2025-01-24 11:33:40,556 -INFO - DMART.NS - last n detect_structure function Ended
+2025-01-24 11:33:40,556 -INFO - DMART.NS - add_ph_pl_values function started
+2025-01-24 11:33:41,004 -INFO - DMART.NS - add_ph_pl_values function Ended
+2025-01-24 11:34:15,809 -INFO - PERSISTENT.NS - last n detect_structure function Ended
+2025-01-24 11:34:15,812 -INFO - PERSISTENT.NS - add_ph_pl_values function started
+2025-01-24 11:34:15,816 -INFO - PERSISTENT.NS - add_ph_pl_values function Ended
+2025-01-24 11:35:04,363 -INFO - All stocks - Excel file Saved
+2025-01-24 11:35:04,365 -INFO - All stocks - json file saved
+2025-01-24 11:35:04,365 -INFO - PAYTM.NS - alerts file Saved
+2025-01-24 11:35:04,365 -INFO - PAYTM.NS - Process function Ended
+2025-01-24 11:35:13,620 -INFO - All stocks - Excel file Saved
+2025-01-24 11:35:13,754 -INFO - All stocks - json file saved
+2025-01-24 11:35:13,754 -INFO - CDSL.NS - alerts file Saved
+2025-01-24 11:35:13,781 -INFO - CDSL.NS - Process function Ended
+2025-01-24 11:35:18,966 -INFO - All stocks - Excel file Saved
+2025-01-24 11:35:18,967 -INFO - All stocks - json file saved
+2025-01-24 11:35:18,967 -INFO - DMART.NS - alerts file Saved
+2025-01-24 11:35:18,967 -INFO - DMART.NS - Process function Ended
+2025-01-24 11:35:19,885 -INFO - All stocks - Excel file Saved
+2025-01-24 11:35:19,885 -INFO - All stocks - json file saved
+2025-01-24 11:35:19,885 -INFO - SBILIFE.NS - alerts file Saved
+2025-01-24 11:35:19,885 -INFO - SBILIFE.NS - Process function Ended
+2025-01-24 11:35:20,757 -INFO - All stocks - Excel file Saved
+2025-01-24 11:35:20,758 -INFO - All stocks - json file saved
+2025-01-24 11:35:20,758 -INFO - PERSISTENT.NS - alerts file Saved
+2025-01-24 11:35:20,758 -INFO - PERSISTENT.NS - Process function Ended
+2025-01-24 11:35:47,151 -INFO - All stocks - Excel file Saved
+2025-01-24 11:35:47,151 -INFO - All stocks - json file saved
+2025-01-24 11:36:13,483 -INFO - All stocks - Excel file Saved
+2025-01-24 11:36:13,483 -INFO - All stocks - json file saved
