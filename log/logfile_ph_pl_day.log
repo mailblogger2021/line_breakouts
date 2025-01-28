@@ -19952,3 +19952,81 @@ ValueError: Length of values (47396) does not match length of index (42698)
 2025-01-27 12:41:05,497 -INFO - All stocks - json file saved
 2025-01-27 12:41:23,597 -INFO - All stocks - Excel file Saved
 2025-01-27 12:41:23,597 -INFO - All stocks - json file saved
+2025-01-28 11:35:16,065 -INFO - Started...
+2025-01-28 11:35:17,172 -INFO - Started...
+2025-01-28 11:35:32,474 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2025-01-28 11:35:32,474 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2025-01-28 11:35:34,057 -INFO - TECHM.NS - Process function started
+2025-01-28 11:35:34,057 -INFO - JKCEMENT.NS - Process function started
+2025-01-28 11:35:34,058 -INFO - TECHM.NS - Reading existing data...
+2025-01-28 11:35:34,058 -INFO - DMART.NS - Process function started
+2025-01-28 11:35:34,058 -INFO - JKCEMENT.NS - Reading existing data...
+2025-01-28 11:35:34,058 -INFO - MPHASIS.NS - Process function started
+2025-01-28 11:35:34,058 -INFO - ULTRACEMCO.NS - Process function started
+2025-01-28 11:35:34,058 -INFO - DMART.NS - Reading existing data...
+2025-01-28 11:35:34,059 -INFO - MPHASIS.NS - Reading existing data...
+2025-01-28 11:35:34,059 -INFO - ULTRACEMCO.NS - Reading existing data...
+2025-01-28 11:35:35,400 -INFO - last n isPivot function started
+2025-01-28 11:35:36,033 -INFO - last n isPivot function Ended
+2025-01-28 11:35:36,043 -INFO - DMART.NS - last n detect_structure function started
+2025-01-28 11:35:36,060 -INFO - DMART.NS - last n two_line_structure function started
+2025-01-28 11:35:36,916 -INFO - last n isPivot function started
+2025-01-28 11:35:37,047 -INFO - last n isPivot function started
+2025-01-28 11:35:37,821 -INFO - last n isPivot function started
+2025-01-28 11:35:38,357 -INFO - last n isPivot function Ended
+2025-01-28 11:35:38,370 -INFO - JKCEMENT.NS - last n detect_structure function started
+2025-01-28 11:35:38,410 -INFO - JKCEMENT.NS - last n two_line_structure function started
+2025-01-28 11:35:38,470 -INFO - last n isPivot function started
+2025-01-28 11:35:40,248 -INFO - last n isPivot function Ended
+2025-01-28 11:35:40,263 -INFO - TECHM.NS - last n detect_structure function started
+2025-01-28 11:35:40,280 -INFO - TECHM.NS - last n two_line_structure function started
+2025-01-28 11:35:42,317 -INFO - last n isPivot function Ended
+2025-01-28 11:35:42,318 -INFO - MPHASIS.NS - last n detect_structure function started
+2025-01-28 11:35:42,318 -INFO - MPHASIS.NS - last n two_line_structure function started
+2025-01-28 11:35:42,394 -INFO - last n isPivot function Ended
+2025-01-28 11:35:42,395 -INFO - ULTRACEMCO.NS - last n detect_structure function started
+2025-01-28 11:35:42,411 -INFO - ULTRACEMCO.NS - last n two_line_structure function started
+2025-01-28 11:36:25,600 -INFO - DMART.NS - last n two_line_structure function Ended
+2025-01-28 11:36:40,425 -INFO - DMART.NS - last n detect_structure function Ended
+2025-01-28 11:36:40,459 -INFO - DMART.NS - add_ph_pl_values function started
+2025-01-28 11:36:40,496 -INFO - DMART.NS - add_ph_pl_values function Ended
+2025-01-28 11:37:40,379 -INFO - TECHM.NS - last n two_line_structure function Ended
+2025-01-28 11:37:48,865 -INFO - JKCEMENT.NS - last n two_line_structure function Ended
+2025-01-28 11:37:50,345 -INFO - All stocks - Excel file Saved
+2025-01-28 11:37:50,357 -INFO - All stocks - json file saved
+2025-01-28 11:37:50,357 -INFO - DMART.NS - alerts file Saved
+2025-01-28 11:37:50,357 -INFO - DMART.NS - Process function Ended
+2025-01-28 11:38:01,297 -INFO - ULTRACEMCO.NS - last n two_line_structure function Ended
+2025-01-28 11:38:02,139 -INFO - MPHASIS.NS - last n two_line_structure function Ended
+2025-01-28 11:38:02,705 -INFO - TECHM.NS - last n detect_structure function Ended
+2025-01-28 11:38:02,716 -INFO - TECHM.NS - add_ph_pl_values function started
+2025-01-28 11:38:02,763 -INFO - TECHM.NS - add_ph_pl_values function Ended
+2025-01-28 11:38:03,966 -INFO - JKCEMENT.NS - last n detect_structure function Ended
+2025-01-28 11:38:03,979 -INFO - JKCEMENT.NS - add_ph_pl_values function started
+2025-01-28 11:38:04,011 -INFO - JKCEMENT.NS - add_ph_pl_values function Ended
+2025-01-28 11:38:41,686 -INFO - ULTRACEMCO.NS - last n detect_structure function Ended
+2025-01-28 11:38:41,994 -INFO - ULTRACEMCO.NS - add_ph_pl_values function started
+2025-01-28 11:38:42,022 -INFO - ULTRACEMCO.NS - add_ph_pl_values function Ended
+2025-01-28 11:39:00,848 -INFO - MPHASIS.NS - last n detect_structure function Ended
+2025-01-28 11:39:00,851 -INFO - MPHASIS.NS - add_ph_pl_values function started
+2025-01-28 11:39:00,862 -INFO - MPHASIS.NS - add_ph_pl_values function Ended
+2025-01-28 11:39:18,532 -INFO - All stocks - Excel file Saved
+2025-01-28 11:39:18,534 -INFO - All stocks - json file saved
+2025-01-28 11:39:18,534 -INFO - TECHM.NS - alerts file Saved
+2025-01-28 11:39:18,534 -INFO - TECHM.NS - Process function Ended
+2025-01-28 11:39:24,860 -INFO - All stocks - Excel file Saved
+2025-01-28 11:39:25,085 -INFO - All stocks - json file saved
+2025-01-28 11:39:25,085 -INFO - JKCEMENT.NS - alerts file Saved
+2025-01-28 11:39:25,085 -INFO - JKCEMENT.NS - Process function Ended
+2025-01-28 11:39:42,345 -INFO - All stocks - Excel file Saved
+2025-01-28 11:39:42,346 -INFO - All stocks - json file saved
+2025-01-28 11:39:42,346 -INFO - ULTRACEMCO.NS - alerts file Saved
+2025-01-28 11:39:42,346 -INFO - ULTRACEMCO.NS - Process function Ended
+2025-01-28 11:39:46,749 -INFO - All stocks - Excel file Saved
+2025-01-28 11:39:46,749 -INFO - All stocks - json file saved
+2025-01-28 11:39:46,749 -INFO - MPHASIS.NS - alerts file Saved
+2025-01-28 11:39:46,749 -INFO - MPHASIS.NS - Process function Ended
+2025-01-28 11:40:11,445 -INFO - All stocks - Excel file Saved
+2025-01-28 11:40:11,464 -INFO - All stocks - json file saved
+2025-01-28 11:40:35,884 -INFO - All stocks - Excel file Saved
+2025-01-28 11:40:35,884 -INFO - All stocks - json file saved
