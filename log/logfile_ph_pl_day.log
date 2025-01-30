@@ -20080,3 +20080,83 @@ ValueError: Length of values (47396) does not match length of index (42698)
 2025-01-29 11:37:57,658 -INFO - All stocks - json file saved
 2025-01-29 11:38:15,466 -INFO - All stocks - Excel file Saved
 2025-01-29 11:38:15,466 -INFO - All stocks - json file saved
+2025-01-30 11:36:38,241 -INFO - Started...
+2025-01-30 11:36:39,348 -INFO - Started...
+2025-01-30 11:36:48,705 -INFO - ADANIGREEN.NS - this stock already completed
+2025-01-30 11:36:48,706 -INFO - HDFCLIFE.NS - this stock already completed
+2025-01-30 11:36:48,706 -INFO - ADANIENSOL.NS - this stock already completed
+2025-01-30 11:36:48,707 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2025-01-30 11:36:50,159 -INFO - UBL.NS - Process function started
+2025-01-30 11:36:50,160 -INFO - UBL.NS - Reading existing data...
+2025-01-30 11:36:50,160 -INFO - COLPAL.NS - Process function started
+2025-01-30 11:36:50,161 -INFO - ASIANPAINT.NS - Process function started
+2025-01-30 11:36:50,161 -INFO - COLPAL.NS - Reading existing data...
+2025-01-30 11:36:50,161 -INFO - ASIANPAINT.NS - Reading existing data...
+2025-01-30 11:36:50,161 -INFO - AUBANK.NS - Process function started
+2025-01-30 11:36:50,162 -INFO - NYKAA.NS - Process function started
+2025-01-30 11:36:50,163 -INFO - AUBANK.NS - Reading existing data...
+2025-01-30 11:36:50,163 -INFO - NYKAA.NS - Reading existing data...
+2025-01-30 11:36:50,982 -INFO - last n isPivot function started
+2025-01-30 11:36:51,212 -INFO - last n isPivot function Ended
+2025-01-30 11:36:51,212 -INFO - NYKAA.NS - last n detect_structure function started
+2025-01-30 11:36:51,251 -INFO - last n isPivot function started
+2025-01-30 11:36:51,286 -INFO - NYKAA.NS - last n two_line_structure function started
+2025-01-30 11:36:51,741 -INFO - last n isPivot function Ended
+2025-01-30 11:36:51,741 -INFO - AUBANK.NS - last n detect_structure function started
+2025-01-30 11:36:51,755 -INFO - AUBANK.NS - last n two_line_structure function started
+2025-01-30 11:36:52,077 -INFO - last n isPivot function started
+2025-01-30 11:36:52,267 -INFO - last n isPivot function started
+2025-01-30 11:36:53,709 -INFO - last n isPivot function Ended
+2025-01-30 11:36:53,748 -INFO - UBL.NS - last n detect_structure function started
+2025-01-30 11:36:53,749 -INFO - UBL.NS - last n two_line_structure function started
+2025-01-30 11:36:54,195 -INFO - last n isPivot function started
+2025-01-30 11:36:54,396 -INFO - last n isPivot function Ended
+2025-01-30 11:36:54,397 -INFO - COLPAL.NS - last n detect_structure function started
+2025-01-30 11:36:54,426 -INFO - COLPAL.NS - last n two_line_structure function started
+2025-01-30 11:36:55,574 -INFO - last n isPivot function Ended
+2025-01-30 11:36:55,575 -INFO - ASIANPAINT.NS - last n detect_structure function started
+2025-01-30 11:36:55,583 -INFO - ASIANPAINT.NS - last n two_line_structure function started
+2025-01-30 11:37:09,417 -INFO - NYKAA.NS - last n two_line_structure function Ended
+2025-01-30 11:37:13,680 -INFO - NYKAA.NS - last n detect_structure function Ended
+2025-01-30 11:37:13,696 -INFO - NYKAA.NS - add_ph_pl_values function started
+2025-01-30 11:37:13,834 -INFO - NYKAA.NS - add_ph_pl_values function Ended
+2025-01-30 11:37:32,115 -INFO - AUBANK.NS - last n two_line_structure function Ended
+2025-01-30 11:37:39,618 -INFO - AUBANK.NS - last n detect_structure function Ended
+2025-01-30 11:37:39,623 -INFO - AUBANK.NS - add_ph_pl_values function started
+2025-01-30 11:37:39,674 -INFO - AUBANK.NS - add_ph_pl_values function Ended
+2025-01-30 11:38:18,233 -INFO - All stocks - Excel file Saved
+2025-01-30 11:38:18,239 -INFO - All stocks - json file saved
+2025-01-30 11:38:18,239 -INFO - NYKAA.NS - alerts file Saved
+2025-01-30 11:38:18,240 -INFO - NYKAA.NS - Process function Ended
+2025-01-30 11:38:23,177 -INFO - UBL.NS - last n two_line_structure function Ended
+2025-01-30 11:38:31,827 -INFO - All stocks - Excel file Saved
+2025-01-30 11:38:31,830 -INFO - All stocks - json file saved
+2025-01-30 11:38:31,830 -INFO - AUBANK.NS - alerts file Saved
+2025-01-30 11:38:31,830 -INFO - AUBANK.NS - Process function Ended
+2025-01-30 11:38:34,180 -INFO - UBL.NS - last n detect_structure function Ended
+2025-01-30 11:38:34,183 -INFO - UBL.NS - add_ph_pl_values function started
+2025-01-30 11:38:34,220 -INFO - UBL.NS - add_ph_pl_values function Ended
+2025-01-30 11:38:45,467 -INFO - ASIANPAINT.NS - last n two_line_structure function Ended
+2025-01-30 11:38:45,478 -INFO - COLPAL.NS - last n two_line_structure function Ended
+2025-01-30 11:38:57,304 -INFO - COLPAL.NS - last n detect_structure function Ended
+2025-01-30 11:38:57,309 -INFO - COLPAL.NS - add_ph_pl_values function started
+2025-01-30 11:38:57,325 -INFO - COLPAL.NS - add_ph_pl_values function Ended
+2025-01-30 11:38:58,220 -INFO - ASIANPAINT.NS - last n detect_structure function Ended
+2025-01-30 11:38:58,228 -INFO - ASIANPAINT.NS - add_ph_pl_values function started
+2025-01-30 11:38:58,256 -INFO - ASIANPAINT.NS - add_ph_pl_values function Ended
+2025-01-30 11:39:18,033 -INFO - All stocks - Excel file Saved
+2025-01-30 11:39:18,034 -INFO - All stocks - json file saved
+2025-01-30 11:39:18,034 -INFO - UBL.NS - alerts file Saved
+2025-01-30 11:39:18,034 -INFO - UBL.NS - Process function Ended
+2025-01-30 11:39:34,972 -INFO - All stocks - Excel file Saved
+2025-01-30 11:39:34,972 -INFO - All stocks - json file saved
+2025-01-30 11:39:34,972 -INFO - COLPAL.NS - alerts file Saved
+2025-01-30 11:39:34,972 -INFO - COLPAL.NS - Process function Ended
+2025-01-30 11:39:35,131 -INFO - All stocks - Excel file Saved
+2025-01-30 11:39:35,132 -INFO - All stocks - json file saved
+2025-01-30 11:39:35,132 -INFO - ASIANPAINT.NS - alerts file Saved
+2025-01-30 11:39:35,132 -INFO - ASIANPAINT.NS - Process function Ended
+2025-01-30 11:39:52,853 -INFO - All stocks - Excel file Saved
+2025-01-30 11:39:52,853 -INFO - All stocks - json file saved
+2025-01-30 11:40:10,777 -INFO - All stocks - Excel file Saved
+2025-01-30 11:40:10,777 -INFO - All stocks - json file saved
