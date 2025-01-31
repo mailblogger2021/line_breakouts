@@ -4365,3 +4365,36 @@ ValueError: Length of values (93097) does not match length of index (90998)
 2025-01-31 11:35:14,387 -INFO - All stocks - json file saved
 2025-01-31 11:35:43,493 -INFO - All stocks - Excel file Saved
 2025-01-31 11:35:43,493 -INFO - All stocks - json file saved
+2025-01-31 18:35:23,137 -INFO - Started...
+2025-01-31 18:35:24,781 -INFO - Started...
+2025-01-31 18:35:38,606 -INFO - ESCORTS.NS - this stock already completed
+2025-01-31 18:35:38,607 -INFO - BRITANNIA.NS - this stock already completed
+2025-01-31 18:35:38,607 -INFO - BAJAJFINSV.NS - this stock already completed
+2025-01-31 18:35:38,607 -INFO - INDIGO.NS - this stock already completed
+2025-01-31 18:35:38,607 -INFO - LTTS.NS - this stock already completed
+2025-01-31 18:35:38,607 -INFO - MARUTI.NS - this stock already completed
+2025-01-31 18:35:38,607 -INFO - OBEROIRLTY.NS - this stock already completed
+2025-01-31 18:35:38,607 -INFO - BERGEPAINT.NS - this stock already completed
+2025-01-31 18:35:38,607 -INFO - CHOLAFIN.NS - this stock already completed
+2025-01-31 18:35:38,607 -INFO - HINDPETRO.NS - this stock already completed
+2025-01-31 18:35:38,607 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2025-01-31 18:35:40,811 -ERROR - 
+1 Failed download:
+2025-01-31 18:35:40,811 -ERROR - ['NIFTY']: YFTzMissingError('$%ticker%: possibly delisted; no timezone found')
+2025-01-31 18:35:40,829 -INFO - NYKAA.NS - Process function started
+2025-01-31 18:35:40,833 -INFO - NYKAA.NS - isPivot function started
+2025-01-31 18:35:40,869 -INFO - NYKAA.NS - isPivot function Ended
+2025-01-31 18:35:40,869 -INFO - NYKAA.NS -  detect_structure function started
+2025-01-31 18:35:40,876 -INFO - NYKAA.NS -  two_line_structure function started
+2025-01-31 18:35:41,121 -INFO - NYKAA.NS -  two_line_structure function Ended
+2025-01-31 18:35:41,520 -INFO - NYKAA.NS -  detect_structure function Ended
+2025-01-31 18:35:41,520 -INFO - NYKAA.NS - add_ph_pl_values function started
+2025-01-31 18:35:41,523 -INFO - NYKAA.NS - add_ph_pl_values function Ended
+2025-01-31 18:36:08,984 -INFO - All stocks - Excel file Saved
+2025-01-31 18:36:08,986 -INFO - All stocks - json file saved
+2025-01-31 18:36:08,986 -INFO - NYKAA.NS - alerts file Saved
+2025-01-31 18:36:08,986 -INFO - NYKAA.NS - Process function Ended
+2025-01-31 18:36:35,884 -INFO - All stocks - Excel file Saved
+2025-01-31 18:36:35,885 -INFO - All stocks - json file saved
+2025-01-31 18:37:03,036 -INFO - All stocks - Excel file Saved
+2025-01-31 18:37:03,036 -INFO - All stocks - json file saved
