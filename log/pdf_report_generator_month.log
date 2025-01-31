@@ -935,3 +935,61 @@ ValueError: not enough values to unpack (expected 2, got 1)
 
 2024-12-31 20:38:59,826 -INFO - PH PL alert Ended...
 2024-12-31 20:39:03,653 -INFO - Message sent successfully! - 
+2025-01-31 20:34:48,096 -INFO - Started...
+2025-01-31 20:34:48,096 -INFO - Three line alert started...
+2025-01-31 20:34:49,401 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2025-01-31 20:35:27,424 -ERROR - Could not get exchangeTimezoneName for ticker 'NBCC.NS' reason: 'chart'
+2025-01-31 20:35:28,896 -ERROR - 
+5 Failed downloads:
+2025-01-31 20:35:28,897 -ERROR - ['MCDOWELL-N.NS', 'AEGISCHEM.NS', 'TRIL.BO', 'GET&D.NS', 'NBCC.NS']: YFTzMissingError('$%ticker%: possibly delisted; no timezone found')
+2025-01-31 20:35:30,521 -INFO - PGHH.NS - stock breakout found...
+2025-01-31 20:35:30,611 -INFO - SRF.NS - stock breakout found...
+2025-01-31 20:35:30,803 -INFO - NELCO.NS - stock breakout found...
+2025-01-31 20:35:30,862 -INFO - GODREJIND.NS - stock breakout found...
+2025-01-31 20:35:30,908 -INFO - RAIN.NS - stock breakout found...
+2025-01-31 20:35:31,014 -INFO - AMBER.NS - stock breakout found...
+2025-01-31 20:35:31,237 -INFO - BGRENERGY.NS - stock breakout found...
+2025-01-31 20:35:31,321 -INFO - SHANKARA.NS - stock breakout found...
+2025-01-31 20:35:31,359 -INFO - XPROINDIA.NS - stock breakout found...
+2025-01-31 20:35:31,421 -INFO - Three line alert Ended...
+2025-01-31 20:35:31,421 -INFO - Two line alert started...
+2025-01-31 20:35:54,083 -ERROR - Could not get exchangeTimezoneName for ticker 'NBCC.NS' reason: 'chart'
+2025-01-31 20:35:58,602 -ERROR - 
+4 Failed downloads:
+2025-01-31 20:35:58,602 -ERROR - ['GET&D.NS', 'MCDOWELL-N.NS', 'AEGISCHEM.NS', 'NBCC.NS']: YFTzMissingError('$%ticker%: possibly delisted; no timezone found')
+2025-01-31 20:36:00,236 -INFO - KOLTEPATIL.NS - stock breakout found...
+2025-01-31 20:36:00,525 -INFO - Two line alert Ended...
+2025-01-31 20:36:00,525 -INFO - PH PL alert started...
+2025-01-31 20:38:41,446 -ERROR - 
+344 Failed downloads:
+2025-01-31 20:38:41,446 -ERROR - ['NAUKRI.NS', 'MARUTI.NS', 'CHEMPLASTS.NS', 'CANBK.NS', 'LAURUSLABS.NS', 'DRREDDY.NS', 'WALCHANNAG.NS', 'SBILIFE.NS', 'RAIN.NS', 'BATAINDIA.NS', 'LICHSGFIN.NS', 'MCDOWELL-N.NS', 'CDSL.NS', 'BALRAMCHIN.NS', 'TATACHEM.NS', 'KIRLOSBROS.NS', 'TRENT.NS', 'AEROFLEX.NS', 'EXIDEIND.NS', 'SYNCOMF.NS', 'ABB.NS', 'HERITGFOOD.NS', 'SRF.NS', 'BDL.NS', 'DHABRIYA.BO', 'MARICO.NS', 'COLPAL.NS', 'KPITTECH.NS', 'PSB.NS', 'GREAVESCOT.NS', 'M&M.NS', 'TVSMOTOR.NS', 'ADANIENT.NS', 'CARYSIL.NS', 'SASTASUNDR.NS', 'NFL.NS', 'NESTLEIND.NS', 'GRASIM.NS', 'YESBANK.NS', 'TATAMTRDVR.NS', 'PNB.NS', 'DHANBANK.NS', 'GAIL.NS', 'DIVISLAB.NS', 'SURANASOL.NS', 'GNFC.NS', 'MUKANDLTD.NS', 'SHAKTIPUMP.NS', 'TITAGARH.NS', 'WINSOMTX.BO', 'WELENT.NS', 'SIKA.BO', 'APARINDS.NS', 'EMAMILTD.NS', 'POWERGRID.NS', 'ARTSONEN.BO', 'ACC.NS', 'PICCADIL.BO', 'JKIL.NS', 'APEX.NS', 'JINDRILL.NS', 'COROMANDEL.NS', 'DHAMPURSUG.NS', 'GOODYEAR.BO', 'RENUKA.NS', 'SIL.NS', 'TANFACIND.BO', 'INFY.NS', 'BCONCEPTS.NS', 'ZENTEC.NS', 'DMART.NS', 'HINDPETRO.NS', 'TITAN.NS', 'MCX.NS', 'XPROINDIA.NS', 'MHRIL.NS', 'JSWSTEEL.NS', 'ADANIPORTS.NS', 'CROWN.NS', 'TATACOMM.NS', 'CHALET.NS', 'ADFFOODS.NS', 'HEROMOTOCO.NS', 'PENIND.NS', 'DBL.NS', 'BAJAJFINSV.NS', 'ADANIPOWER.NS', 'TRF.NS', 'SIS.NS', 'ASTRAMICRO.NS', 'RTNPOWER.NS', 'GRWRHITECH.NS', 'CONCOR.NS', 'CGPOWER.NS', 'PRSMJOHNSN.NS', 'LUPIN.NS', 'INDIGO.NS', 'GREENPLY.NS', 'SJVN.NS', 'KNRCON.NS', 'IOB.NS', 'AVANTIFEED.NS', 'TV18BRDCST.NS', 'HTMEDIA.NS', 'STOVEKRAFT.NS', 'TATAINVEST.NS', 'AMBER.NS', 'M&MFIN.NS', 'HLEGLAS.NS', 'ATGL.NS', 'BHARATFORG.NS', 'SANGHVIMOV.NS', 'ACGL.BO', 'BUTTERFLY.NS', 'OLECTRA.NS', 'CARBORUNIV.NS', 'ENERGYDEV.NS', 'HERCULES.NS', 'TATASTEEL.NS', 'JPPOWER.NS', 'LODHA.NS', 'CIPLA.NS', 'MOTHERSON.NS', 'RAJSREESUG.NS', 'MAHLIFE.NS', 'ANGELONE.NS', 'GUJGASLTD.NS', 'IOC.NS', 'HAVELLS.NS', 'OIL.NS', 'MAHLOG.NS', 'SHRIRAMFIN.NS', 'GENESYS.NS', 'NTPC.NS', 'ADANIGREEN.NS', 'PATELENG.NS', 'GODFRYPHLP.NS', 'IGL.NS', 'BAJAJHIND.NS', 'INDIACEM.NS', 'ERIS.NS', 'HBLPOWER.NS', 'TATAMOTORS.NS', 'JINDALSTEL.NS', 'JYOTISTRUC.NS', 'BEL.NS', 'WIPRO.NS', 'DEN.NS', 'IDFCFIRSTB.NS', 'JBMA.NS', 'LTIM.NS', 'JKTYRE.NS', 'TARC.NS', 'IDEA.NS', 'BLUECLOUDS.BO', 'SUNPHARMA.NS', 'JSL.NS', 'DWARKESH.NS', 'AMIORG.NS', 'ADANIENSOL.NS', 'HCLTECH.NS', 'AXISBANK.NS', 'BANKBARODA.NS', 'CENTRALBK.BO', 'SBICARD.NS', 'RECLTD.NS', 'VAIBHAVGBL.NS', 'NLCINDIA.NS', 'HINDUNILVR.NS', 'BERGEPAINT.NS', 'KCP.NS', 'KOLTEPATIL.NS', 'AMBUJACEM.NS', 'SBIN.NS', 'PIDILITIND.NS', 'COALINDIA.NS', 'BANKINDIA.NS', 'DIXON.NS', 'CAMLINFINE.NS', 'SHILCTECH.BO', 'DEVYANI.NS', 'BSE.NS', 'FAZE3Q.NS', 'AGARIND.NS', 'STLTECH.NS', 'NIFTY_FIN_SERVICE.NS', 'CUMMINSIND.NS', 'EIHOTEL.NS', 'GEOJITFSL.NS', 'ZYDUSLIFE.NS', 'LIKHITHA.NS', 'COCHINSHIP.NS', 'PFC.NS', '^BSESN', 'IRFC.NS', 'ASHOKLEY.NS', 'DYNAMATECH.NS', 'HFCL.NS', 'RBLBANK.NS', 'KSCL.NS', 'ZOMATO.NS', 'BRITANNIA.NS', 'INDHOTEL.NS', 'NCC.NS', 'SAIL.NS', 'GENUSPOWER.NS', 'HDFCBANK.NS', 'MAZDOCK.NS', 'HINDZINC.NS', 'AEGISCHEM.NS', 'ONGC.NS', 'ZAGGLE.NS', 'CENTUM.NS', 'DABUR.NS', 'RELIANCE.NS', 'PGHH.NS', 'ASMTEC.BO', 'DALBHARAT.NS', 'BANDHANBNK.NS', 'HUDCO.NS', '^NSEBANK', 'PERSISTENT.NS', 'PREMEXPLN.NS', 'TECHM.NS', 'ANDHRAPAP.NS', 'MAXESTATES.NS', 'PRAJIND.NS', 'DECCANCE.NS', 'BPCL.NS', 'HINDALCO.NS', 'JKPAPER.NS', 'INDUSINDBK.NS', 'ASHOKA.NS', 'INDIAGLYCO.NS', 'UGARSUGAR.NS', 'SHAILY.NS', 'IRCTC.NS', 'TATAELXSI.NS', 'UDS.NS', 'TRIL.BO', 'MAHEPC.NS', 'MGL.NS', 'SHANKARA.NS', 'GODREJCP.NS', 'IEX.NS', 'EICHERMOT.NS', 'FACT.NS', 'GMRAIRPORT.NS', 'JWL.NS', 'ANDHRSUGAR.NS', 'FEDERALBNK.NS', 'HINDCOPPER.NS', 'BHEL.NS', 'MOTILALOFS.NS', 'MFSL.NS', 'EASEMYTRIP.NS', 'JSWENERGY.NS', 'VEDL.NS', 'DLF.NS', 'SWARAJENG.NS', 'AVADHSUGAR.NS', 'MAHSEAMLES.NS', 'APOLLO.NS', 'JUSTDIAL.NS', 'ADORWELD.NS', '^NSEMDCP50', 'TATACONSUM.NS', 'SOBHA.NS', 'JMFINANCIL.NS', 'HPL.NS', 'AUBANK.NS', 'BGRENERGY.NS', 'DCXINDIA.NS', 'MICEL.NS', 'RTNINDIA.NS', 'AARTIIND.NS', 'SHREECEM.NS', '^NSEI', 'POWERINDIA.NS', 'POLICYBZR.NS', 'BEML.NS', 'ASTRAL.NS', 'LTF.NS', 'ULTRACEMCO.NS', 'GPTINFRA.NS', 'ALKALI.NS', 'BARBEQUE.NS', 'BAJAJST.BO', 'LICI.NS', 'SCHNEIDER.NS', 'RPEL.BO', 'SYRMA.NS', 'IRCON.NS', 'JISLJALEQS.NS', 'MOL.NS', 'ICICIPRULI.NS', 'HDFCLIFE.NS', 'GET&D.NS', 'KSOLVES.NS', 'BOSCHLTD.NS', 'NELCO.NS', 'SWELECTES.NS', 'APLAPOLLO.NS', 'DCMSRIND.NS', 'CAMS.NS', 'SAFARI.NS', 'VOLTAS.NS', 'CRANEINFRA.BO', 'BAJAJELEC.NS', 'ALLCARGO.NS', 'INDIAMART.NS', 'GIPCL.NS', 'ANDHRAPET.BO', 'HAL.NS', 'BHARTIARTL.NS', 'PETRONET.NS', 'ANJANIFOODS.BO', 'UPL.NS', 'GODREJPROP.NS', 'BAJAJHLDNG.NS', 'RAMCOIND.NS', 'BAJFINANCE.NS', 'MTARTECH.NS', 'TEJASNET.NS', 'SWSOLAR.NS', 'NBCC.NS', 'TAJGVK.NS', 'ICICIGI.NS', 'DALMIASUG.NS', 'UNIONBANK.NS', 'PCBL.NS', 'LEMONTREE.NS', 'INGERRAND.NS', 'PATANJALI.NS', 'UNIAUTO.BO', 'SANJIVIN.BO', 'URJA.NS', 'NECLIFE.NS', 'APOLLOHOSP.NS', 'THERMAX.NS', 'GRAVITA.NS', 'NHPC.NS', 'BFUTILITIE.NS', 'RVNL.NS']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-01-31 20:38:41,764 -INFO - MOSCHIP.BO Error : not enough values to unpack (expected 2, got 1)
+2025-01-31 20:38:41,764 -INFO - Error : Traceback (most recent call last):
+  File "/Users/runner/work/line_breakouts/line_breakouts/pdf_report_generator.py", line 69, in ph_pl_data_breakout
+    previous_date,current_date = list(last_stock_df['Datetime'].tail(2))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 1)
+
+2025-01-31 20:38:41,766 -INFO - RIR.BO Error : not enough values to unpack (expected 2, got 1)
+2025-01-31 20:38:41,766 -INFO - Error : Traceback (most recent call last):
+  File "/Users/runner/work/line_breakouts/line_breakouts/pdf_report_generator.py", line 69, in ph_pl_data_breakout
+    previous_date,current_date = list(last_stock_df['Datetime'].tail(2))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 1)
+
+2025-01-31 20:38:41,783 -INFO - SPELS.BO Error : not enough values to unpack (expected 2, got 1)
+2025-01-31 20:38:41,783 -INFO - Error : Traceback (most recent call last):
+  File "/Users/runner/work/line_breakouts/line_breakouts/pdf_report_generator.py", line 69, in ph_pl_data_breakout
+    previous_date,current_date = list(last_stock_df['Datetime'].tail(2))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 1)
+
+2025-01-31 20:38:41,801 -INFO - NILE.BO Error : not enough values to unpack (expected 2, got 1)
+2025-01-31 20:38:41,802 -INFO - Error : Traceback (most recent call last):
+  File "/Users/runner/work/line_breakouts/line_breakouts/pdf_report_generator.py", line 69, in ph_pl_data_breakout
+    previous_date,current_date = list(last_stock_df['Datetime'].tail(2))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 1)
+
+2025-01-31 20:38:41,808 -INFO - PH PL alert Ended...
+2025-01-31 20:38:47,565 -INFO - Message sent successfully! - 
