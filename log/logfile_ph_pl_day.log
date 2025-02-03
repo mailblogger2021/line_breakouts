@@ -20160,3 +20160,178 @@ ValueError: Length of values (47396) does not match length of index (42698)
 2025-01-30 11:39:52,853 -INFO - All stocks - json file saved
 2025-01-30 11:40:10,777 -INFO - All stocks - Excel file Saved
 2025-01-30 11:40:10,777 -INFO - All stocks - json file saved
+2025-02-03 11:35:25,818 -INFO - Started...
+2025-02-03 11:35:26,980 -INFO - Started...
+2025-02-03 11:35:37,833 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2025-02-03 11:35:40,847 -INFO - INFY.NS - Process function started
+2025-02-03 11:35:40,847 -INFO - BALKRISIND.NS - Process function started
+2025-02-03 11:35:40,847 -INFO - VEDL.NS - Process function started
+2025-02-03 11:35:40,847 -INFO - NATIONALUM.NS - Process function started
+2025-02-03 11:35:40,847 -INFO - DIVISLAB.NS - Process function started
+2025-02-03 11:35:40,847 -INFO - MCX.NS - Process function started
+2025-02-03 11:35:40,847 -INFO - HINDCOPPER.NS - Process function started
+2025-02-03 11:35:40,847 -INFO - TATACOMM.NS - Process function started
+2025-02-03 11:35:40,847 -INFO - NTPC.NS - Process function started
+2025-02-03 11:35:40,847 -INFO - APLAPOLLO.NS - Process function started
+2025-02-03 11:35:40,847 -INFO - HINDALCO.NS - Process function started
+2025-02-03 11:35:40,847 -INFO - BIOCON.NS - Process function started
+2025-02-03 11:35:40,850 -INFO - INFY.NS - Reading existing data...
+2025-02-03 11:35:40,850 -INFO - BALKRISIND.NS - Reading existing data...
+2025-02-03 11:35:40,850 -INFO - NATIONALUM.NS - Reading existing data...
+2025-02-03 11:35:40,850 -INFO - DIVISLAB.NS - Reading existing data...
+2025-02-03 11:35:40,850 -INFO - MCX.NS - Reading existing data...
+2025-02-03 11:35:40,850 -INFO - VEDL.NS - Reading existing data...
+2025-02-03 11:35:40,850 -INFO - HINDCOPPER.NS - Reading existing data...
+2025-02-03 11:35:40,851 -INFO - TATACOMM.NS - Reading existing data...
+2025-02-03 11:35:40,851 -INFO - NTPC.NS - Reading existing data...
+2025-02-03 11:35:40,851 -INFO - APLAPOLLO.NS - Reading existing data...
+2025-02-03 11:35:40,851 -INFO - HINDALCO.NS - Reading existing data...
+2025-02-03 11:35:40,851 -INFO - BIOCON.NS - Reading existing data...
+2025-02-03 11:35:44,222 -INFO - last n isPivot function started
+2025-02-03 11:35:44,798 -INFO - last n isPivot function started
+2025-02-03 11:35:45,158 -INFO - last n isPivot function started
+2025-02-03 11:35:46,242 -INFO - last n isPivot function started
+2025-02-03 11:35:46,577 -INFO - last n isPivot function Ended
+2025-02-03 11:35:46,577 -INFO - last n isPivot function Ended
+2025-02-03 11:35:46,599 -INFO - MCX.NS - last n detect_structure function started
+2025-02-03 11:35:46,605 -INFO - MCX.NS - last n two_line_structure function started
+2025-02-03 11:35:46,761 -INFO - APLAPOLLO.NS - last n detect_structure function started
+2025-02-03 11:35:46,827 -INFO - APLAPOLLO.NS - last n two_line_structure function started
+2025-02-03 11:35:47,670 -INFO - last n isPivot function started
+2025-02-03 11:35:47,727 -INFO - last n isPivot function Ended
+2025-02-03 11:35:47,776 -INFO - NTPC.NS - last n detect_structure function started
+2025-02-03 11:35:48,208 -INFO - NTPC.NS - last n two_line_structure function started
+2025-02-03 11:35:48,272 -INFO - last n isPivot function Ended
+2025-02-03 11:35:48,283 -INFO - HINDCOPPER.NS - last n detect_structure function started
+2025-02-03 11:35:48,384 -INFO - HINDCOPPER.NS - last n two_line_structure function started
+2025-02-03 11:35:48,955 -INFO - last n isPivot function started
+2025-02-03 11:35:50,280 -INFO - last n isPivot function Ended
+2025-02-03 11:35:50,280 -INFO - TATACOMM.NS - last n detect_structure function started
+2025-02-03 11:35:50,313 -INFO - TATACOMM.NS - last n two_line_structure function started
+2025-02-03 11:35:50,656 -INFO - last n isPivot function Ended
+2025-02-03 11:35:50,677 -INFO - BIOCON.NS - last n detect_structure function started
+2025-02-03 11:35:50,680 -INFO - BIOCON.NS - last n two_line_structure function started
+2025-02-03 11:35:51,214 -INFO - last n isPivot function started
+2025-02-03 11:35:51,277 -INFO - last n isPivot function started
+2025-02-03 11:35:51,880 -INFO - last n isPivot function started
+2025-02-03 11:35:54,125 -INFO - last n isPivot function Ended
+2025-02-03 11:35:54,326 -INFO - BALKRISIND.NS - last n detect_structure function started
+2025-02-03 11:35:54,326 -INFO - last n isPivot function Ended
+2025-02-03 11:35:54,448 -INFO - BALKRISIND.NS - last n two_line_structure function started
+2025-02-03 11:35:54,462 -INFO - last n isPivot function started
+2025-02-03 11:35:54,466 -INFO - DIVISLAB.NS - last n detect_structure function started
+2025-02-03 11:35:54,538 -INFO - DIVISLAB.NS - last n two_line_structure function started
+2025-02-03 11:35:54,648 -INFO - last n isPivot function started
+2025-02-03 11:35:55,086 -INFO - last n isPivot function Ended
+2025-02-03 11:35:55,108 -INFO - NATIONALUM.NS - last n detect_structure function started
+2025-02-03 11:35:55,153 -INFO - NATIONALUM.NS - last n two_line_structure function started
+2025-02-03 11:35:57,628 -INFO - last n isPivot function Ended
+2025-02-03 11:35:57,669 -INFO - VEDL.NS - last n detect_structure function started
+2025-02-03 11:35:57,701 -INFO - VEDL.NS - last n two_line_structure function started
+2025-02-03 11:35:57,918 -INFO - last n isPivot function started
+2025-02-03 11:35:58,015 -INFO - last n isPivot function Ended
+2025-02-03 11:35:58,047 -INFO - INFY.NS - last n detect_structure function started
+2025-02-03 11:35:58,174 -INFO - INFY.NS - last n two_line_structure function started
+2025-02-03 11:35:59,179 -INFO - last n isPivot function Ended
+2025-02-03 11:35:59,222 -INFO - HINDALCO.NS - last n detect_structure function started
+2025-02-03 11:35:59,264 -INFO - HINDALCO.NS - last n two_line_structure function started
+2025-02-03 11:38:44,228 -INFO - MCX.NS - last n two_line_structure function Ended
+2025-02-03 11:38:53,141 -INFO - APLAPOLLO.NS - last n two_line_structure function Ended
+2025-02-03 11:39:06,035 -INFO - HINDCOPPER.NS - last n two_line_structure function Ended
+2025-02-03 11:39:15,094 -INFO - MCX.NS - last n detect_structure function Ended
+2025-02-03 11:39:15,124 -INFO - MCX.NS - add_ph_pl_values function started
+2025-02-03 11:39:15,279 -INFO - MCX.NS - add_ph_pl_values function Ended
+2025-02-03 11:39:36,778 -INFO - APLAPOLLO.NS - last n detect_structure function Ended
+2025-02-03 11:39:36,792 -INFO - APLAPOLLO.NS - add_ph_pl_values function started
+2025-02-03 11:39:36,918 -INFO - APLAPOLLO.NS - add_ph_pl_values function Ended
+2025-02-03 11:39:53,020 -INFO - HINDCOPPER.NS - last n detect_structure function Ended
+2025-02-03 11:39:53,031 -INFO - HINDCOPPER.NS - add_ph_pl_values function started
+2025-02-03 11:39:53,084 -INFO - BALKRISIND.NS - last n two_line_structure function Ended
+2025-02-03 11:39:53,161 -INFO - HINDCOPPER.NS - add_ph_pl_values function Ended
+2025-02-03 11:40:15,231 -INFO - NTPC.NS - last n two_line_structure function Ended
+2025-02-03 11:40:22,466 -INFO - BIOCON.NS - last n two_line_structure function Ended
+2025-02-03 11:40:35,666 -INFO - DIVISLAB.NS - last n two_line_structure function Ended
+2025-02-03 11:40:45,522 -INFO - TATACOMM.NS - last n two_line_structure function Ended
+2025-02-03 11:41:02,954 -INFO - BALKRISIND.NS - last n detect_structure function Ended
+2025-02-03 11:41:02,960 -INFO - BALKRISIND.NS - add_ph_pl_values function started
+2025-02-03 11:41:03,026 -INFO - BALKRISIND.NS - add_ph_pl_values function Ended
+2025-02-03 11:41:05,159 -INFO - All stocks - Excel file Saved
+2025-02-03 11:41:05,261 -INFO - All stocks - json file saved
+2025-02-03 11:41:05,261 -INFO - MCX.NS - alerts file Saved
+2025-02-03 11:41:05,261 -INFO - MCX.NS - Process function Ended
+2025-02-03 11:41:23,959 -INFO - BIOCON.NS - last n detect_structure function Ended
+2025-02-03 11:41:23,976 -INFO - BIOCON.NS - add_ph_pl_values function started
+2025-02-03 11:41:24,062 -INFO - BIOCON.NS - add_ph_pl_values function Ended
+2025-02-03 11:41:25,234 -INFO - All stocks - Excel file Saved
+2025-02-03 11:41:25,248 -INFO - All stocks - json file saved
+2025-02-03 11:41:25,248 -INFO - APLAPOLLO.NS - alerts file Saved
+2025-02-03 11:41:25,248 -INFO - APLAPOLLO.NS - Process function Ended
+2025-02-03 11:41:32,860 -INFO - NTPC.NS - last n detect_structure function Ended
+2025-02-03 11:41:32,868 -INFO - NTPC.NS - add_ph_pl_values function started
+2025-02-03 11:41:32,950 -INFO - NTPC.NS - add_ph_pl_values function Ended
+2025-02-03 11:41:33,863 -INFO - NATIONALUM.NS - last n two_line_structure function Ended
+2025-02-03 11:41:35,942 -INFO - All stocks - Excel file Saved
+2025-02-03 11:41:36,041 -INFO - All stocks - json file saved
+2025-02-03 11:41:36,041 -INFO - HINDCOPPER.NS - alerts file Saved
+2025-02-03 11:41:36,041 -INFO - HINDCOPPER.NS - Process function Ended
+2025-02-03 11:41:45,643 -INFO - DIVISLAB.NS - last n detect_structure function Ended
+2025-02-03 11:41:45,650 -INFO - DIVISLAB.NS - add_ph_pl_values function started
+2025-02-03 11:41:45,696 -INFO - DIVISLAB.NS - add_ph_pl_values function Ended
+2025-02-03 11:42:05,277 -INFO - TATACOMM.NS - last n detect_structure function Ended
+2025-02-03 11:42:05,289 -INFO - TATACOMM.NS - add_ph_pl_values function started
+2025-02-03 11:42:05,343 -INFO - TATACOMM.NS - add_ph_pl_values function Ended
+2025-02-03 11:42:48,534 -INFO - INFY.NS - last n two_line_structure function Ended
+2025-02-03 11:42:49,618 -INFO - HINDALCO.NS - last n two_line_structure function Ended
+2025-02-03 11:42:52,765 -INFO - All stocks - Excel file Saved
+2025-02-03 11:42:52,900 -INFO - All stocks - json file saved
+2025-02-03 11:42:52,900 -INFO - BALKRISIND.NS - alerts file Saved
+2025-02-03 11:42:52,900 -INFO - BALKRISIND.NS - Process function Ended
+2025-02-03 11:42:53,571 -INFO - VEDL.NS - last n two_line_structure function Ended
+2025-02-03 11:43:14,905 -INFO - All stocks - Excel file Saved
+2025-02-03 11:43:14,911 -INFO - All stocks - json file saved
+2025-02-03 11:43:14,911 -INFO - BIOCON.NS - alerts file Saved
+2025-02-03 11:43:14,911 -INFO - BIOCON.NS - Process function Ended
+2025-02-03 11:43:16,270 -INFO - All stocks - Excel file Saved
+2025-02-03 11:43:16,276 -INFO - All stocks - json file saved
+2025-02-03 11:43:16,276 -INFO - NTPC.NS - alerts file Saved
+2025-02-03 11:43:16,277 -INFO - NTPC.NS - Process function Ended
+2025-02-03 11:43:18,315 -INFO - NATIONALUM.NS - last n detect_structure function Ended
+2025-02-03 11:43:18,320 -INFO - NATIONALUM.NS - add_ph_pl_values function started
+2025-02-03 11:43:18,343 -INFO - NATIONALUM.NS - add_ph_pl_values function Ended
+2025-02-03 11:43:33,081 -INFO - All stocks - Excel file Saved
+2025-02-03 11:43:33,087 -INFO - All stocks - json file saved
+2025-02-03 11:43:33,087 -INFO - DIVISLAB.NS - alerts file Saved
+2025-02-03 11:43:33,087 -INFO - DIVISLAB.NS - Process function Ended
+2025-02-03 11:43:34,366 -INFO - All stocks - Excel file Saved
+2025-02-03 11:43:34,375 -INFO - All stocks - json file saved
+2025-02-03 11:43:34,376 -INFO - TATACOMM.NS - alerts file Saved
+2025-02-03 11:43:34,376 -INFO - TATACOMM.NS - Process function Ended
+2025-02-03 11:43:38,007 -INFO - HINDALCO.NS - last n detect_structure function Ended
+2025-02-03 11:43:38,009 -INFO - HINDALCO.NS - add_ph_pl_values function started
+2025-02-03 11:43:38,031 -INFO - HINDALCO.NS - add_ph_pl_values function Ended
+2025-02-03 11:43:43,744 -INFO - VEDL.NS - last n detect_structure function Ended
+2025-02-03 11:43:43,943 -INFO - VEDL.NS - add_ph_pl_values function started
+2025-02-03 11:43:45,045 -INFO - VEDL.NS - add_ph_pl_values function Ended
+2025-02-03 11:43:48,940 -INFO - INFY.NS - last n detect_structure function Ended
+2025-02-03 11:43:48,940 -INFO - INFY.NS - add_ph_pl_values function started
+2025-02-03 11:43:48,953 -INFO - INFY.NS - add_ph_pl_values function Ended
+2025-02-03 11:44:21,093 -INFO - All stocks - Excel file Saved
+2025-02-03 11:44:21,646 -INFO - All stocks - json file saved
+2025-02-03 11:44:21,698 -INFO - NATIONALUM.NS - alerts file Saved
+2025-02-03 11:44:21,743 -INFO - NATIONALUM.NS - Process function Ended
+2025-02-03 11:44:45,548 -INFO - All stocks - Excel file Saved
+2025-02-03 11:44:45,553 -INFO - All stocks - json file saved
+2025-02-03 11:44:45,553 -INFO - VEDL.NS - alerts file Saved
+2025-02-03 11:44:45,553 -INFO - VEDL.NS - Process function Ended
+2025-02-03 11:44:45,567 -INFO - All stocks - Excel file Saved
+2025-02-03 11:44:45,567 -INFO - All stocks - json file saved
+2025-02-03 11:44:45,567 -INFO - HINDALCO.NS - alerts file Saved
+2025-02-03 11:44:45,567 -INFO - HINDALCO.NS - Process function Ended
+2025-02-03 11:44:45,799 -INFO - All stocks - Excel file Saved
+2025-02-03 11:44:45,800 -INFO - All stocks - json file saved
+2025-02-03 11:44:45,800 -INFO - INFY.NS - alerts file Saved
+2025-02-03 11:44:45,800 -INFO - INFY.NS - Process function Ended
+2025-02-03 11:45:03,042 -INFO - All stocks - Excel file Saved
+2025-02-03 11:45:03,042 -INFO - All stocks - json file saved
+2025-02-03 11:45:20,166 -INFO - All stocks - Excel file Saved
+2025-02-03 11:45:20,166 -INFO - All stocks - json file saved
