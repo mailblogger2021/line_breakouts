@@ -20335,3 +20335,108 @@ ValueError: Length of values (47396) does not match length of index (42698)
 2025-02-03 11:45:03,042 -INFO - All stocks - json file saved
 2025-02-03 11:45:20,166 -INFO - All stocks - Excel file Saved
 2025-02-03 11:45:20,166 -INFO - All stocks - json file saved
+2025-02-04 11:35:25,763 -INFO - Started...
+2025-02-04 11:35:27,097 -INFO - Started...
+2025-02-04 11:35:36,772 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2025-02-04 11:35:38,214 -INFO - INDIGO.NS - Process function started
+2025-02-04 11:35:38,215 -INFO - ZOMATO.NS - Process function started
+2025-02-04 11:35:38,215 -INFO - POLICYBZR.NS - Process function started
+2025-02-04 11:35:38,215 -INFO - INDIGO.NS - Reading existing data...
+2025-02-04 11:35:38,216 -INFO - ZOMATO.NS - Reading existing data...
+2025-02-04 11:35:38,216 -INFO - POLICYBZR.NS - Reading existing data...
+2025-02-04 11:35:38,216 -INFO - PIDILITIND.NS - Process function started
+2025-02-04 11:35:38,216 -INFO - PIDILITIND.NS - Reading existing data...
+2025-02-04 11:35:38,217 -INFO - RAMCOCEM.NS - Process function started
+2025-02-04 11:35:38,218 -INFO - RAMCOCEM.NS - Reading existing data...
+2025-02-04 11:35:38,218 -INFO - MFSL.NS - Process function started
+2025-02-04 11:35:38,219 -INFO - MFSL.NS - Reading existing data...
+2025-02-04 11:35:38,219 -INFO - PERSISTENT.NS - Process function started
+2025-02-04 11:35:38,220 -INFO - PERSISTENT.NS - Reading existing data...
+2025-02-04 11:35:38,727 -INFO - last n isPivot function started
+2025-02-04 11:35:38,914 -INFO - last n isPivot function Ended
+2025-02-04 11:35:38,931 -INFO - last n isPivot function started
+2025-02-04 11:35:38,954 -INFO - ZOMATO.NS - last n detect_structure function started
+2025-02-04 11:35:38,963 -INFO - ZOMATO.NS - last n two_line_structure function started
+2025-02-04 11:35:39,242 -INFO - last n isPivot function Ended
+2025-02-04 11:35:39,249 -INFO - POLICYBZR.NS - last n detect_structure function started
+2025-02-04 11:35:39,251 -INFO - POLICYBZR.NS - last n two_line_structure function started
+2025-02-04 11:35:39,957 -INFO - last n isPivot function started
+2025-02-04 11:35:40,455 -INFO - last n isPivot function Ended
+2025-02-04 11:35:40,472 -INFO - INDIGO.NS - last n detect_structure function started
+2025-02-04 11:35:40,474 -INFO - INDIGO.NS - last n two_line_structure function started
+2025-02-04 11:35:40,821 -INFO - last n isPivot function started
+2025-02-04 11:35:41,437 -INFO - last n isPivot function started
+2025-02-04 11:35:41,438 -INFO - last n isPivot function Ended
+2025-02-04 11:35:41,445 -INFO - PERSISTENT.NS - last n detect_structure function started
+2025-02-04 11:35:41,450 -INFO - PERSISTENT.NS - last n two_line_structure function started
+2025-02-04 11:35:42,169 -INFO - last n isPivot function started
+2025-02-04 11:35:42,199 -INFO - last n isPivot function Ended
+2025-02-04 11:35:42,242 -INFO - PIDILITIND.NS - last n detect_structure function started
+2025-02-04 11:35:42,261 -INFO - PIDILITIND.NS - last n two_line_structure function started
+2025-02-04 11:35:42,339 -INFO - last n isPivot function started
+2025-02-04 11:35:43,942 -INFO - last n isPivot function Ended
+2025-02-04 11:35:43,949 -INFO - RAMCOCEM.NS - last n detect_structure function started
+2025-02-04 11:35:44,158 -INFO - RAMCOCEM.NS - last n two_line_structure function started
+2025-02-04 11:35:44,178 -INFO - last n isPivot function Ended
+2025-02-04 11:35:44,205 -INFO - MFSL.NS - last n detect_structure function started
+2025-02-04 11:35:44,232 -INFO - MFSL.NS - last n two_line_structure function started
+2025-02-04 11:36:06,919 -INFO - POLICYBZR.NS - last n two_line_structure function Ended
+2025-02-04 11:36:10,480 -INFO - ZOMATO.NS - last n two_line_structure function Ended
+2025-02-04 11:36:12,157 -INFO - POLICYBZR.NS - last n detect_structure function Ended
+2025-02-04 11:36:12,188 -INFO - POLICYBZR.NS - add_ph_pl_values function started
+2025-02-04 11:36:12,355 -INFO - POLICYBZR.NS - add_ph_pl_values function Ended
+2025-02-04 11:36:22,141 -INFO - ZOMATO.NS - last n detect_structure function Ended
+2025-02-04 11:36:22,155 -INFO - ZOMATO.NS - add_ph_pl_values function started
+2025-02-04 11:36:22,220 -INFO - ZOMATO.NS - add_ph_pl_values function Ended
+2025-02-04 11:37:22,057 -INFO - INDIGO.NS - last n two_line_structure function Ended
+2025-02-04 11:37:40,812 -INFO - INDIGO.NS - last n detect_structure function Ended
+2025-02-04 11:37:40,831 -INFO - INDIGO.NS - add_ph_pl_values function started
+2025-02-04 11:37:40,916 -INFO - INDIGO.NS - add_ph_pl_values function Ended
+2025-02-04 11:37:56,151 -INFO - All stocks - Excel file Saved
+2025-02-04 11:37:56,158 -INFO - All stocks - json file saved
+2025-02-04 11:37:56,158 -INFO - POLICYBZR.NS - alerts file Saved
+2025-02-04 11:37:56,159 -INFO - POLICYBZR.NS - Process function Ended
+2025-02-04 11:37:58,015 -INFO - All stocks - Excel file Saved
+2025-02-04 11:37:58,029 -INFO - All stocks - json file saved
+2025-02-04 11:37:58,031 -INFO - ZOMATO.NS - alerts file Saved
+2025-02-04 11:37:58,032 -INFO - ZOMATO.NS - Process function Ended
+2025-02-04 11:38:13,079 -INFO - PERSISTENT.NS - last n two_line_structure function Ended
+2025-02-04 11:38:36,843 -INFO - PERSISTENT.NS - last n detect_structure function Ended
+2025-02-04 11:38:36,851 -INFO - PERSISTENT.NS - add_ph_pl_values function started
+2025-02-04 11:38:36,889 -INFO - PERSISTENT.NS - add_ph_pl_values function Ended
+2025-02-04 11:38:53,999 -INFO - All stocks - Excel file Saved
+2025-02-04 11:38:54,026 -INFO - All stocks - json file saved
+2025-02-04 11:38:54,055 -INFO - INDIGO.NS - alerts file Saved
+2025-02-04 11:38:54,064 -INFO - INDIGO.NS - Process function Ended
+2025-02-04 11:39:18,276 -INFO - RAMCOCEM.NS - last n two_line_structure function Ended
+2025-02-04 11:39:19,953 -INFO - PIDILITIND.NS - last n two_line_structure function Ended
+2025-02-04 11:39:33,969 -INFO - All stocks - Excel file Saved
+2025-02-04 11:39:33,981 -INFO - All stocks - json file saved
+2025-02-04 11:39:33,982 -INFO - PERSISTENT.NS - alerts file Saved
+2025-02-04 11:39:33,982 -INFO - PERSISTENT.NS - Process function Ended
+2025-02-04 11:39:35,450 -INFO - RAMCOCEM.NS - last n detect_structure function Ended
+2025-02-04 11:39:35,456 -INFO - RAMCOCEM.NS - add_ph_pl_values function started
+2025-02-04 11:39:35,506 -INFO - RAMCOCEM.NS - add_ph_pl_values function Ended
+2025-02-04 11:39:36,413 -INFO - PIDILITIND.NS - last n detect_structure function Ended
+2025-02-04 11:39:36,419 -INFO - PIDILITIND.NS - add_ph_pl_values function started
+2025-02-04 11:39:36,451 -INFO - PIDILITIND.NS - add_ph_pl_values function Ended
+2025-02-04 11:39:53,912 -INFO - MFSL.NS - last n two_line_structure function Ended
+2025-02-04 11:40:15,220 -INFO - MFSL.NS - last n detect_structure function Ended
+2025-02-04 11:40:15,220 -INFO - MFSL.NS - add_ph_pl_values function started
+2025-02-04 11:40:15,224 -INFO - MFSL.NS - add_ph_pl_values function Ended
+2025-02-04 11:40:27,672 -INFO - All stocks - Excel file Saved
+2025-02-04 11:40:27,673 -INFO - All stocks - json file saved
+2025-02-04 11:40:27,673 -INFO - RAMCOCEM.NS - alerts file Saved
+2025-02-04 11:40:27,673 -INFO - RAMCOCEM.NS - Process function Ended
+2025-02-04 11:40:27,677 -INFO - All stocks - Excel file Saved
+2025-02-04 11:40:27,677 -INFO - All stocks - json file saved
+2025-02-04 11:40:27,677 -INFO - PIDILITIND.NS - alerts file Saved
+2025-02-04 11:40:27,677 -INFO - PIDILITIND.NS - Process function Ended
+2025-02-04 11:40:39,628 -INFO - All stocks - Excel file Saved
+2025-02-04 11:40:39,628 -INFO - All stocks - json file saved
+2025-02-04 11:40:39,628 -INFO - MFSL.NS - alerts file Saved
+2025-02-04 11:40:39,629 -INFO - MFSL.NS - Process function Ended
+2025-02-04 11:40:58,650 -INFO - All stocks - Excel file Saved
+2025-02-04 11:40:58,650 -INFO - All stocks - json file saved
+2025-02-04 11:41:17,681 -INFO - All stocks - Excel file Saved
+2025-02-04 11:41:17,682 -INFO - All stocks - json file saved
