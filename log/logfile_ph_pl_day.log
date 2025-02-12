@@ -21577,3 +21577,83 @@ ValueError: Length of values (47396) does not match length of index (42698)
 2025-02-11 11:43:50,194 -INFO - All stocks - json file saved
 2025-02-11 11:44:09,242 -INFO - All stocks - Excel file Saved
 2025-02-11 11:44:09,243 -INFO - All stocks - json file saved
+2025-02-12 11:35:06,982 -INFO - Started...
+2025-02-12 11:35:08,395 -INFO - Started...
+2025-02-12 11:35:16,896 -INFO - KPITTECH.NS - this stock already completed
+2025-02-12 11:35:18,291 -ERROR - 
+1 Failed download:
+2025-02-12 11:35:18,291 -ERROR - ['ADANIENT.NS']: OperationalError('database is locked')
+2025-02-12 11:35:18,393 -INFO - BANKINDIA.NS - Process function started
+2025-02-12 11:35:18,394 -INFO - ADANIPORTS.NS - Process function started
+2025-02-12 11:35:18,394 -INFO - BANKINDIA.NS - Reading existing data...
+2025-02-12 11:35:18,394 -INFO - BAJAJFINSV.NS - Process function started
+2025-02-12 11:35:18,394 -INFO - ADANIPORTS.NS - Reading existing data...
+2025-02-12 11:35:18,394 -INFO - RAMCOCEM.NS - Process function started
+2025-02-12 11:35:18,394 -INFO - TORNTPHARM.NS - Process function started
+2025-02-12 11:35:18,395 -INFO - BAJAJFINSV.NS - Reading existing data...
+2025-02-12 11:35:18,395 -INFO - RAMCOCEM.NS - Reading existing data...
+2025-02-12 11:35:18,395 -INFO - TORNTPHARM.NS - Reading existing data...
+2025-02-12 11:35:19,938 -INFO - last n isPivot function started
+2025-02-12 11:35:20,789 -INFO - last n isPivot function Ended
+2025-02-12 11:35:20,789 -INFO - BANKINDIA.NS - last n detect_structure function started
+2025-02-12 11:35:20,806 -INFO - BANKINDIA.NS - last n two_line_structure function started
+2025-02-12 11:35:20,829 -INFO - last n isPivot function started
+2025-02-12 11:35:20,990 -INFO - last n isPivot function started
+2025-02-12 11:35:21,275 -INFO - last n isPivot function started
+2025-02-12 11:35:21,988 -INFO - last n isPivot function Ended
+2025-02-12 11:35:21,989 -INFO - ADANIPORTS.NS - last n detect_structure function started
+2025-02-12 11:35:22,071 -INFO - ADANIPORTS.NS - last n two_line_structure function started
+2025-02-12 11:35:22,334 -INFO - last n isPivot function started
+2025-02-12 11:35:22,341 -INFO - last n isPivot function Ended
+2025-02-12 11:35:22,343 -INFO - TORNTPHARM.NS - last n detect_structure function started
+2025-02-12 11:35:22,442 -INFO - TORNTPHARM.NS - last n two_line_structure function started
+2025-02-12 11:35:22,826 -INFO - last n isPivot function Ended
+2025-02-12 11:35:22,877 -INFO - RAMCOCEM.NS - last n detect_structure function started
+2025-02-12 11:35:22,878 -INFO - RAMCOCEM.NS - last n two_line_structure function started
+2025-02-12 11:35:23,570 -INFO - last n isPivot function Ended
+2025-02-12 11:35:23,586 -INFO - BAJAJFINSV.NS - last n detect_structure function started
+2025-02-12 11:35:23,588 -INFO - BAJAJFINSV.NS - last n two_line_structure function started
+2025-02-12 11:36:36,211 -INFO - ADANIPORTS.NS - last n two_line_structure function Ended
+2025-02-12 11:36:50,734 -INFO - ADANIPORTS.NS - last n detect_structure function Ended
+2025-02-12 11:36:50,749 -INFO - ADANIPORTS.NS - add_ph_pl_values function started
+2025-02-12 11:36:50,807 -INFO - ADANIPORTS.NS - add_ph_pl_values function Ended
+2025-02-12 11:37:04,400 -INFO - BANKINDIA.NS - last n two_line_structure function Ended
+2025-02-12 11:37:04,420 -INFO - BAJAJFINSV.NS - last n two_line_structure function Ended
+2025-02-12 11:37:06,692 -INFO - RAMCOCEM.NS - last n two_line_structure function Ended
+2025-02-12 11:37:07,136 -INFO - TORNTPHARM.NS - last n two_line_structure function Ended
+2025-02-12 11:37:22,810 -INFO - BAJAJFINSV.NS - last n detect_structure function Ended
+2025-02-12 11:37:22,817 -INFO - BAJAJFINSV.NS - add_ph_pl_values function started
+2025-02-12 11:37:22,847 -INFO - BAJAJFINSV.NS - add_ph_pl_values function Ended
+2025-02-12 11:37:24,390 -INFO - BANKINDIA.NS - last n detect_structure function Ended
+2025-02-12 11:37:24,395 -INFO - BANKINDIA.NS - add_ph_pl_values function started
+2025-02-12 11:37:24,412 -INFO - BANKINDIA.NS - add_ph_pl_values function Ended
+2025-02-12 11:37:28,893 -INFO - RAMCOCEM.NS - last n detect_structure function Ended
+2025-02-12 11:37:28,963 -INFO - RAMCOCEM.NS - add_ph_pl_values function started
+2025-02-12 11:37:30,057 -INFO - RAMCOCEM.NS - add_ph_pl_values function Ended
+2025-02-12 11:37:44,852 -INFO - TORNTPHARM.NS - last n detect_structure function Ended
+2025-02-12 11:37:45,119 -INFO - TORNTPHARM.NS - add_ph_pl_values function started
+2025-02-12 11:37:45,839 -INFO - TORNTPHARM.NS - add_ph_pl_values function Ended
+2025-02-12 11:37:53,620 -INFO - All stocks - Excel file Saved
+2025-02-12 11:37:53,622 -INFO - All stocks - json file saved
+2025-02-12 11:37:53,622 -INFO - ADANIPORTS.NS - alerts file Saved
+2025-02-12 11:37:53,622 -INFO - ADANIPORTS.NS - Process function Ended
+2025-02-12 11:38:48,923 -INFO - All stocks - Excel file Saved
+2025-02-12 11:38:48,925 -INFO - All stocks - Excel file Saved
+2025-02-12 11:38:48,926 -INFO - All stocks - json file saved
+2025-02-12 11:38:48,926 -INFO - BAJAJFINSV.NS - alerts file Saved
+2025-02-12 11:38:48,926 -INFO - BAJAJFINSV.NS - Process function Ended
+2025-02-12 11:38:48,926 -INFO - All stocks - json file saved
+2025-02-12 11:38:48,926 -INFO - RAMCOCEM.NS - alerts file Saved
+2025-02-12 11:38:48,926 -INFO - RAMCOCEM.NS - Process function Ended
+2025-02-12 11:38:49,076 -INFO - All stocks - Excel file Saved
+2025-02-12 11:38:49,076 -INFO - All stocks - json file saved
+2025-02-12 11:38:49,076 -INFO - BANKINDIA.NS - alerts file Saved
+2025-02-12 11:38:49,076 -INFO - BANKINDIA.NS - Process function Ended
+2025-02-12 11:38:49,340 -INFO - All stocks - Excel file Saved
+2025-02-12 11:38:49,340 -INFO - All stocks - json file saved
+2025-02-12 11:38:49,340 -INFO - TORNTPHARM.NS - alerts file Saved
+2025-02-12 11:38:49,340 -INFO - TORNTPHARM.NS - Process function Ended
+2025-02-12 11:39:07,483 -INFO - All stocks - Excel file Saved
+2025-02-12 11:39:07,484 -INFO - All stocks - json file saved
+2025-02-12 11:39:25,242 -INFO - All stocks - Excel file Saved
+2025-02-12 11:39:25,242 -INFO - All stocks - json file saved
