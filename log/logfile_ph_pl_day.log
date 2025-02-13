@@ -21657,3 +21657,75 @@ ValueError: Length of values (47396) does not match length of index (42698)
 2025-02-12 11:39:07,484 -INFO - All stocks - json file saved
 2025-02-12 11:39:25,242 -INFO - All stocks - Excel file Saved
 2025-02-12 11:39:25,242 -INFO - All stocks - json file saved
+2025-02-13 11:39:38,110 -INFO - Started...
+2025-02-13 11:39:39,256 -INFO - Started...
+2025-02-13 11:39:48,866 -INFO - LALPATHLAB.NS - this stock already completed
+2025-02-13 11:39:48,866 -INFO - MGL.NS - this stock already completed
+2025-02-13 11:39:48,866 -INFO - NAVINFLUOR.NS - this stock already completed
+2025-02-13 11:39:48,866 -INFO - ABCAPITAL.NS - this stock already completed
+2025-02-13 11:39:48,866 -INFO - NESTLEIND.NS - this stock already completed
+2025-02-13 11:39:48,867 -INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/Users/runner/Library/Caches/py-yfinance' reason: [Errno 17] File exists: '/Users/runner/Library/Caches/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+2025-02-13 11:40:19,022 -ERROR - Failed to get ticker 'LICHSGFIN.NS' reason: HTTPSConnectionPool(host='fc.yahoo.com', port=443): Read timed out. (read timeout=30)
+2025-02-13 11:40:20,333 -ERROR - 
+1 Failed download:
+2025-02-13 11:40:20,333 -ERROR - ['LICHSGFIN.NS']: YFTzMissingError('$%ticker%: possibly delisted; no timezone found')
+2025-02-13 11:40:20,415 -INFO - JINDALSTEL.NS - Process function started
+2025-02-13 11:40:20,415 -INFO - CONCOR.NS - Process function started
+2025-02-13 11:40:20,416 -INFO - JINDALSTEL.NS - Reading existing data...
+2025-02-13 11:40:20,416 -INFO - BHARTIARTL.NS - Process function started
+2025-02-13 11:40:20,416 -INFO - CONCOR.NS - Reading existing data...
+2025-02-13 11:40:20,416 -INFO - INDIANB.NS - Process function started
+2025-02-13 11:40:20,416 -INFO - BHARTIARTL.NS - Reading existing data...
+2025-02-13 11:40:20,416 -INFO - INDIANB.NS - Reading existing data...
+2025-02-13 11:40:21,759 -INFO - last n isPivot function started
+2025-02-13 11:40:21,762 -INFO - last n isPivot function started
+2025-02-13 11:40:22,647 -INFO - last n isPivot function started
+2025-02-13 11:40:23,242 -INFO - last n isPivot function Ended
+2025-02-13 11:40:23,288 -INFO - INDIANB.NS - last n detect_structure function started
+2025-02-13 11:40:23,306 -INFO - INDIANB.NS - last n two_line_structure function started
+2025-02-13 11:40:23,387 -INFO - last n isPivot function started
+2025-02-13 11:40:23,828 -INFO - last n isPivot function Ended
+2025-02-13 11:40:23,828 -INFO - JINDALSTEL.NS - last n detect_structure function started
+2025-02-13 11:40:24,021 -INFO - JINDALSTEL.NS - last n two_line_structure function started
+2025-02-13 11:40:24,370 -INFO - last n isPivot function Ended
+2025-02-13 11:40:24,371 -INFO - BHARTIARTL.NS - last n detect_structure function started
+2025-02-13 11:40:24,373 -INFO - BHARTIARTL.NS - last n two_line_structure function started
+2025-02-13 11:40:24,386 -INFO - last n isPivot function Ended
+2025-02-13 11:40:24,387 -INFO - CONCOR.NS - last n detect_structure function started
+2025-02-13 11:40:24,394 -INFO - CONCOR.NS - last n two_line_structure function started
+2025-02-13 11:41:14,094 -INFO - INDIANB.NS - last n two_line_structure function Ended
+2025-02-13 11:41:24,381 -INFO - INDIANB.NS - last n detect_structure function Ended
+2025-02-13 11:41:24,385 -INFO - INDIANB.NS - add_ph_pl_values function started
+2025-02-13 11:41:24,440 -INFO - INDIANB.NS - add_ph_pl_values function Ended
+2025-02-13 11:41:33,395 -INFO - CONCOR.NS - last n two_line_structure function Ended
+2025-02-13 11:41:33,577 -INFO - BHARTIARTL.NS - last n two_line_structure function Ended
+2025-02-13 11:41:38,000 -INFO - JINDALSTEL.NS - last n two_line_structure function Ended
+2025-02-13 11:41:41,343 -INFO - BHARTIARTL.NS - last n detect_structure function Ended
+2025-02-13 11:41:41,345 -INFO - BHARTIARTL.NS - add_ph_pl_values function started
+2025-02-13 11:41:41,358 -INFO - BHARTIARTL.NS - add_ph_pl_values function Ended
+2025-02-13 11:41:54,407 -INFO - CONCOR.NS - last n detect_structure function Ended
+2025-02-13 11:41:54,410 -INFO - CONCOR.NS - add_ph_pl_values function started
+2025-02-13 11:41:54,416 -INFO - CONCOR.NS - add_ph_pl_values function Ended
+2025-02-13 11:42:17,146 -INFO - All stocks - Excel file Saved
+2025-02-13 11:42:17,151 -INFO - All stocks - json file saved
+2025-02-13 11:42:17,151 -INFO - INDIANB.NS - alerts file Saved
+2025-02-13 11:42:17,151 -INFO - INDIANB.NS - Process function Ended
+2025-02-13 11:42:17,293 -INFO - JINDALSTEL.NS - last n detect_structure function Ended
+2025-02-13 11:42:17,294 -INFO - JINDALSTEL.NS - add_ph_pl_values function started
+2025-02-13 11:42:17,300 -INFO - JINDALSTEL.NS - add_ph_pl_values function Ended
+2025-02-13 11:42:39,671 -INFO - All stocks - Excel file Saved
+2025-02-13 11:42:39,672 -INFO - All stocks - json file saved
+2025-02-13 11:42:39,672 -INFO - BHARTIARTL.NS - alerts file Saved
+2025-02-13 11:42:39,672 -INFO - BHARTIARTL.NS - Process function Ended
+2025-02-13 11:42:40,068 -INFO - All stocks - Excel file Saved
+2025-02-13 11:42:40,069 -INFO - All stocks - json file saved
+2025-02-13 11:42:40,069 -INFO - CONCOR.NS - alerts file Saved
+2025-02-13 11:42:40,069 -INFO - CONCOR.NS - Process function Ended
+2025-02-13 11:42:50,347 -INFO - All stocks - Excel file Saved
+2025-02-13 11:42:50,348 -INFO - All stocks - json file saved
+2025-02-13 11:42:50,348 -INFO - JINDALSTEL.NS - alerts file Saved
+2025-02-13 11:42:50,348 -INFO - JINDALSTEL.NS - Process function Ended
+2025-02-13 11:43:07,882 -INFO - All stocks - Excel file Saved
+2025-02-13 11:43:07,882 -INFO - All stocks - json file saved
+2025-02-13 11:43:28,945 -INFO - All stocks - Excel file Saved
+2025-02-13 11:43:28,946 -INFO - All stocks - json file saved
