@@ -3178,3 +3178,8 @@
 2025-04-02 06:45:28,870 -ERROR - 
 1 Failed download:
 2025-04-02 06:45:28,871 -ERROR - ['NIFTY']: AttributeError("'NoneType' object has no attribute 'update'")
+2025-04-02 07:45:00,298 -INFO - Started...
+2025-04-02 07:45:03,367 -ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/NIFTY?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=NIFTY&crumb=%2FOQoJo9DsPV
+2025-04-02 07:45:03,368 -ERROR - 
+1 Failed download:
+2025-04-02 07:45:03,369 -ERROR - ['NIFTY']: AttributeError("'NoneType' object has no attribute 'update'")
